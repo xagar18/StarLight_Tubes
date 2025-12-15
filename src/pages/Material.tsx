@@ -11,11 +11,7 @@ const Material = () => {
         <div className="w-full h-fit flex justify-center ">
           <ImagesSliderDemo />
         </div>
-
         <div>
-          <div>
-            <h1 className="text-center">Sagar</h1>
-          </div>
           <InfiniteMovingCardsDemo />
         </div>
 

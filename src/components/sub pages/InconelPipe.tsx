@@ -24,7 +24,7 @@ const InconelPipe = () => {
   const ctaData = {
     title: "Premium Inconel Alloy Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium Inconel alloy pipes engineered for extreme high-temperature and corrosive applications. Inconel pipes offer outstanding strength, oxidation resistance, and resistance to stress-corrosion cracking, making them essential for aerospace engines, nuclear reactors, chemical processing plants, and gas turbines operating above 1000°F.",
+      "Starlight Tubes manufactures and supplies premium Inconel alloy pipes engineered for extreme high-temperature and corrosive applications. Inconel pipes offer outstanding strength, oxidation resistance, and resistance to stress-corrosion cracking, making them essential for aerospace engines, nuclear reactors, chemical processing plants, and gas turbines operating above 1000°F.",
     paragraph2:
       "Our Inconel pipes are available in seamless and welded configurations across multiple grades including Inconel 600, 625, 718, and 825. Each pipe undergoes stringent quality control including solution annealing, PMI testing, ultrasonic inspection, and mechanical property verification to ensure exceptional performance in the most demanding industrial environments.",
     specifications: [

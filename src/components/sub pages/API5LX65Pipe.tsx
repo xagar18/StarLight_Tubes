@@ -24,7 +24,7 @@ const API5LX65Pipe = () => {
   const ctaData = {
     title: "Premium API 5L X65 High-Strength Line Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium API 5L X65 high-strength line pipes engineered for demanding oil and gas transmission applications. API 5L X65 pipes offer minimum yield strength of 65,300 psi (450 MPa) with excellent toughness and weldability, making them ideal for high-pressure natural gas pipelines, offshore deepwater installations, and long-distance transmission systems requiring superior mechanical properties.",
+      "Starlight Tubes manufactures and supplies premium API 5L X65 high-strength line pipes engineered for demanding oil and gas transmission applications. API 5L X65 pipes offer minimum yield strength of 65,300 psi (450 MPa) with excellent toughness and weldability, making them ideal for high-pressure natural gas pipelines, offshore deepwater installations, and long-distance transmission systems requiring superior mechanical properties.",
     paragraph2:
       "Our API 5L X65 pipes are produced through controlled thermomechanical rolling (TMCP) or quench and temper processes to achieve optimal microstructure and mechanical properties. Each pipe undergoes comprehensive testing including tensile testing, CVN impact testing at low temperatures, DWTT, HIC/SSC testing for sour service, and full-body ultrasonic inspection to ensure PSL2 compliance for critical pipeline projects.",
     specifications: [

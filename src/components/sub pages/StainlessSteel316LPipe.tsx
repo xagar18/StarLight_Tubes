@@ -24,7 +24,7 @@ const StainlessSteel316LPipe = () => {
   const ctaData = {
     title: "316L Stainless Steel Pipe",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium quality 316L stainless steel pipes, the low carbon version of 316 grade offering enhanced corrosion resistance and weldability. Grade 316L pipes are specifically engineered for applications requiring welding without post-weld heat treatment, making them ideal for pharmaceutical process lines, food & beverage equipment, marine piping systems, and chemical processing plants.",
+      "Starlight Tubes manufactures and supplies premium quality 316L stainless steel pipes, the low carbon version of 316 grade offering enhanced corrosion resistance and weldability. Grade 316L pipes are specifically engineered for applications requiring welding without post-weld heat treatment, making them ideal for pharmaceutical process lines, food & beverage equipment, marine piping systems, and chemical processing plants.",
     paragraph2:
       "Our 316L stainless steel pipes are available in seamless and welded configurations with exceptional resistance to pitting and crevice corrosion. Each pipe undergoes rigorous testing including intergranular corrosion testing, PMI verification, hydrostatic testing, and dimensional inspection to ensure compliance with stringent international standards and reliable performance in critical applications.",
     specifications: [

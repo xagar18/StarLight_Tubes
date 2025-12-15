@@ -1,5 +1,4 @@
-import React from "react";
-import { Facebook, Instagram, Twitter, Github, Youtube } from "lucide-react";
+import { Facebook, Github, Instagram, Twitter, Youtube } from "lucide-react";
 
 export default function Footer() {
   const footerSections = [
@@ -44,8 +43,8 @@ export default function Footer() {
               </svg>
             </div>
             <p className="text-sm leading-relaxed mb-8">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              Leading manufacturer and exporter of premium steel tubes, pipes,
+              and industrial materials since 1992.
             </p>
 
             {/* Social Icons */}
@@ -106,7 +105,8 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-12 pt-8">
           <p className="text-sm text-gray-400">
-            © 2024 Your Company, Inc. All rights reserved.
+            © 2025 Starlight Tubes. All rights reserved. |
+            www.starlighttubes.com | GSTIN: 27DMZPA1125E1Z6
           </p>
         </div>
       </div>

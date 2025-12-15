@@ -24,7 +24,7 @@ const A672Pipe = () => {
   const ctaData = {
     title: "Premium ASTM A672 EFW Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium ASTM A672 Electric Fusion Welded (EFW) steel pipes designed for high-pressure service at moderate temperatures. ASTM A672 pipes are fabricated from carbon and alloy steel plates with double submerged arc welding and are essential for steam systems, high-pressure process piping, hydrocracker units, and critical pressure applications in power generation and petrochemical industries.",
+      "Starlight Tubes manufactures and supplies premium ASTM A672 Electric Fusion Welded (EFW) steel pipes designed for high-pressure service at moderate temperatures. ASTM A672 pipes are fabricated from carbon and alloy steel plates with double submerged arc welding and are essential for steam systems, high-pressure process piping, hydrocracker units, and critical pressure applications in power generation and petrochemical industries.",
     paragraph2:
       "Our ASTM A672 pipes are available in multiple grades including B60, B65, B70, C60, C65, C70, D70, E60, E65, and E70 with various class designations for different pressure ratings. Each pipe undergoes 100% radiographic inspection of weld seams, stress relief heat treatment, hydrostatic testing, and mechanical property verification to ensure superior performance in demanding high-pressure service conditions.",
     specifications: [

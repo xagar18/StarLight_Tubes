@@ -24,7 +24,7 @@ const StainlessSteelFasteners = () => {
   const ctaData = {
     title: "Premium Stainless Steel Fasteners",
     paragraph1:
-      "Steel Tubes India supplies a comprehensive range of high-quality stainless steel fasteners including bolts, nuts, screws, washers, and anchors for critical industrial applications. Our fasteners are engineered to provide exceptional strength, corrosion resistance, and durability in demanding environments such as marine, chemical processing, oil & gas, and construction industries.",
+      "Starlight Tubes supplies a comprehensive range of high-quality stainless steel fasteners including bolts, nuts, screws, washers, and anchors for critical industrial applications. Our fasteners are engineered to provide exceptional strength, corrosion resistance, and durability in demanding environments such as marine, chemical processing, oil & gas, and construction industries.",
     paragraph2:
       "Manufactured to international standards, our stainless steel fasteners undergo rigorous quality testing including tensile strength, hardness, and dimensional checks. Available in various head styles, thread types, and finishes, we offer custom manufacturing and special coatings to meet your specific application requirements.",
     specifications: [

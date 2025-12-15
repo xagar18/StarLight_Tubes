@@ -24,7 +24,7 @@ const StainlessSteelSheet = () => {
   const ctaData = {
     title: "Premium Stainless Steel Sheets & Plates",
     paragraph1:
-      "Steel Tubes India is a trusted manufacturer and supplier of high-quality stainless steel sheets and plates for diverse industrial and architectural applications. Our products offer superior corrosion resistance, excellent formability, and aesthetic appeal, making them ideal for kitchen equipment, chemical tanks, architectural cladding, pharmaceutical equipment, and food processing machinery.",
+      "Starlight Tubes is a trusted manufacturer and supplier of high-quality stainless steel sheets and plates for diverse industrial and architectural applications. Our products offer superior corrosion resistance, excellent formability, and aesthetic appeal, making them ideal for kitchen equipment, chemical tanks, architectural cladding, pharmaceutical equipment, and food processing machinery.",
     paragraph2:
       "Available in various finishes including 2B, BA, No.4, hairline, and mirror finish, our stainless steel sheets and plates are manufactured to precise tolerances. We offer comprehensive value-added services including laser cutting, plasma cutting, shearing, bending, and polishing to deliver ready-to-use products for your projects.",
     specifications: [

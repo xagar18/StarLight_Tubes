@@ -24,7 +24,7 @@ const Inconel625Plate = () => {
   const ctaData = {
     title: "Premium Inconel 625 Plates",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-performance Inconel 625 plates (UNS N06625) designed for exceptional corrosion resistance and high strength in extreme environments. Inconel 625 plates provide outstanding resistance to pitting, crevice corrosion, intergranular attack, and stress-corrosion cracking in chloride and acidic media, making them ideal for marine engineering, chemical processing vessels, aerospace structures, and pollution control equipment requiring superior mechanical properties from cryogenic to 1800°F.",
+      "Starlight Tubes manufactures and supplies high-performance Inconel 625 plates (UNS N06625) designed for exceptional corrosion resistance and high strength in extreme environments. Inconel 625 plates provide outstanding resistance to pitting, crevice corrosion, intergranular attack, and stress-corrosion cracking in chloride and acidic media, making them ideal for marine engineering, chemical processing vessels, aerospace structures, and pollution control equipment requiring superior mechanical properties from cryogenic to 1800°F.",
     paragraph2:
       "We produce Inconel 625 plates in hot rolled, cold rolled, and solution-annealed conditions with various surface finishes. Each plate undergoes rigorous quality testing including chemical composition analysis, mechanical property verification, ultrasonic inspection, intergranular corrosion testing per ASTM A262, and surface examination to ensure dimensional precision and metallurgical integrity for critical corrosive applications.",
     specifications: [

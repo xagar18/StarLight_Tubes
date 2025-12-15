@@ -24,7 +24,7 @@ const StainlessSteel304Pipe = () => {
   const ctaData = {
     title: "304 Stainless Steel Pipe",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium quality 304 stainless steel pipes, the most versatile and widely used austenitic stainless steel grade. Grade 304 offers excellent corrosion resistance, formability, and weldability, making it ideal for food processing, pharmaceutical equipment, architectural applications, chemical processing, and general engineering purposes.",
+      "Starlight Tubes manufactures and supplies premium quality 304 stainless steel pipes, the most versatile and widely used austenitic stainless steel grade. Grade 304 offers excellent corrosion resistance, formability, and weldability, making it ideal for food processing, pharmaceutical equipment, architectural applications, chemical processing, and general engineering purposes.",
     paragraph2:
       "Our 304 stainless steel pipes are available in seamless and welded configurations with various finishes. Each pipe is manufactured using high-grade raw materials and undergoes comprehensive testing including IGC, PMI, hydrostatic testing, and dimensional inspection to ensure superior quality and compliance with international standards.",
     specifications: [

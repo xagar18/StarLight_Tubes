@@ -24,7 +24,7 @@ const A671Pipe = () => {
   const ctaData = {
     title: "Premium ASTM A671 EFW Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium ASTM A671 Electric Fusion Welded (EFW) steel pipes designed for atmospheric and lower temperature service applications. ASTM A671 pipes are fabricated from pressure vessel quality steel plates with double submerged arc welding (DSAW) and are widely used in power plants, refineries, chemical facilities, and pressure piping systems where high integrity welded joints are essential.",
+      "Starlight Tubes manufactures and supplies premium ASTM A671 Electric Fusion Welded (EFW) steel pipes designed for atmospheric and lower temperature service applications. ASTM A671 pipes are fabricated from pressure vessel quality steel plates with double submerged arc welding (DSAW) and are widely used in power plants, refineries, chemical facilities, and pressure piping systems where high integrity welded joints are essential.",
     paragraph2:
       "Our ASTM A671 pipes are available in multiple grades and classes including CC60, CC65, CC70, CE55, CE60, CE65, and CF66 to meet various pressure and temperature requirements. Each pipe undergoes 100% radiographic examination of weld seams, hydrostatic testing, and comprehensive mechanical testing to ensure compliance with ASME specifications for critical pressure service applications.",
     specifications: [

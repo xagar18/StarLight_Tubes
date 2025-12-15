@@ -24,7 +24,7 @@ const StainlessSteelPipe = () => {
   const ctaData = {
     title: "Premium Stainless Steel Pipes",
     paragraph1:
-      "Steel Tubes India is a leading manufacturer and supplier of high-quality stainless steel pipes designed for critical applications across diverse industries. Our pipes offer exceptional resistance to corrosion, oxidation, and high temperatures, making them ideal for oil & gas pipelines, chemical processing plants, water treatment facilities, and food processing industries.",
+      "Starlight Tubes is a leading manufacturer and supplier of high-quality stainless steel pipes designed for critical applications across diverse industries. Our pipes offer exceptional resistance to corrosion, oxidation, and high temperatures, making them ideal for oil & gas pipelines, chemical processing plants, water treatment facilities, and food processing industries.",
     paragraph2:
       "Our comprehensive range includes seamless and welded stainless steel pipes manufactured to stringent quality standards. Each pipe undergoes thorough testing including hydrostatic testing, ultrasonic inspection, and dimensional verification to ensure superior quality and reliability for your industrial projects.",
     specifications: [

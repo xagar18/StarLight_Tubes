@@ -24,7 +24,7 @@ const Inconel625Tubing = () => {
   const ctaData = {
     title: "Premium Inconel 625 Tubing",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-performance Inconel 625 tubing (UNS N06625) engineered for exceptional corrosion resistance and high strength from cryogenic temperatures to 1800°F. Inconel 625 tubing provides outstanding resistance to pitting, crevice corrosion, oxidation, and stress-corrosion cracking in chloride environments, making it ideal for seawater systems, chemical processing heat exchangers, aerospace hydraulic lines, and oil & gas downhole applications.",
+      "Starlight Tubes manufactures and supplies high-performance Inconel 625 tubing (UNS N06625) engineered for exceptional corrosion resistance and high strength from cryogenic temperatures to 1800°F. Inconel 625 tubing provides outstanding resistance to pitting, crevice corrosion, oxidation, and stress-corrosion cracking in chloride environments, making it ideal for seawater systems, chemical processing heat exchangers, aerospace hydraulic lines, and oil & gas downhole applications.",
     paragraph2:
       "We produce Inconel 625 tubing in seamless cold-drawn and welded configurations with precise dimensional tolerances for instrumentation and heat exchanger applications. Each tube undergoes rigorous quality control including solution annealing, ultrasonic inspection, eddy current testing, PMI verification, and mechanical property validation to ensure superior performance in aggressive corrosive environments.",
     specifications: [

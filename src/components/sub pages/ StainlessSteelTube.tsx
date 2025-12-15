@@ -24,7 +24,7 @@ const StainlessSteelTube = () => {
   const ctaData = {
     title: "Premium Stainless Steel Tubes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel tubes that meet international standards. Our tubes are engineered for superior corrosion resistance, durability, and performance in demanding industrial applications including oil & gas, petrochemical, power generation, and marine industries.",
+      "Starlight Tubes manufactures and supplies high-quality stainless steel tubes that meet international standards. Our tubes are engineered for superior corrosion resistance, durability, and performance in demanding industrial applications including oil & gas, petrochemical, power generation, and marine industries.",
     paragraph2:
       "Available in seamless and welded configurations, our stainless steel tubes are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, ASME, and international specifications. We offer customized solutions to meet your specific project requirements.",
     specifications: [

@@ -24,7 +24,7 @@ const StainlessSteel304Plate = () => {
   const ctaData = {
     title: "304 Stainless Steel Plate",
     paragraph1:
-      "Steel Tubes India supplies premium quality 304 stainless steel plates for a wide range of industrial and commercial applications. Grade 304 plates offer excellent corrosion resistance, good formability, and aesthetic appeal, making them perfect for kitchen equipment, food processing machinery, architectural facades, pressure vessels, and chemical storage tanks.",
+      "Starlight Tubes supplies premium quality 304 stainless steel plates for a wide range of industrial and commercial applications. Grade 304 plates offer excellent corrosion resistance, good formability, and aesthetic appeal, making them perfect for kitchen equipment, food processing machinery, architectural facades, pressure vessels, and chemical storage tanks.",
     paragraph2:
       "Available in various surface finishes including 2B, BA, No.4, and hairline, our 304 stainless steel plates are manufactured to precise thickness tolerances. We offer comprehensive fabrication services including cutting, bending, rolling, and polishing. Each plate is tested for chemical composition, mechanical properties, and surface quality to ensure consistent performance.",
     specifications: [

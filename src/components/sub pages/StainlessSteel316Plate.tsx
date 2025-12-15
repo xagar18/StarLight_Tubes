@@ -24,7 +24,7 @@ const StainlessSteel316Plate = () => {
   const ctaData = {
     title: "316 Stainless Steel Plate",
     paragraph1:
-      "Steel Tubes India supplies premium quality 316 stainless steel plates with enhanced corrosion resistance due to molybdenum addition. Grade 316 plates are the preferred choice for marine environments, coastal construction, chemical storage tanks, pharmaceutical equipment, and pulp & paper industry where superior resistance to chlorides and acidic conditions is essential.",
+      "Starlight Tubes supplies premium quality 316 stainless steel plates with enhanced corrosion resistance due to molybdenum addition. Grade 316 plates are the preferred choice for marine environments, coastal construction, chemical storage tanks, pharmaceutical equipment, and pulp & paper industry where superior resistance to chlorides and acidic conditions is essential.",
     paragraph2:
       "Our 316 stainless steel plates are available in various surface finishes and precise thickness tolerances. We offer comprehensive value-added services including laser cutting, water jet cutting, bending, and rolling. Each plate undergoes thorough testing for chemical composition, mechanical properties, and corrosion resistance to ensure optimal performance in demanding applications.",
     specifications: [

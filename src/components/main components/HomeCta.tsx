@@ -72,12 +72,12 @@ export default function CtaSection1() {
                     New division for boiler manufacturers offering a complete
                     range of boiler steel materials. Visit{" "}
                     <a
-                      href="https://www.stindia.com"
+                      href="https://www.starlighttubes.com"
                       className="underline text-green-400 hover:text-green-300 transition-colors font-medium"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      www.stindia.com
+                      www.starlighttubes.com
                     </a>
                   </p>
                 </div>

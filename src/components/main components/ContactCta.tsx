@@ -14,24 +14,27 @@ export function ContactCtaParent() {
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-                <strong>Address:</strong> Steel Tubes India (Alloy Steel Export
-                Division), Ashtavinayak Building, Office No.303, 3rd Floor,
-                Sadanand Wadi, V.P. Road, Girgaum, Mumbai-400004, Maharashtra,
-                India
+                <strong>Address:</strong> Building No. 121/123, Shop No. 1,
+                Nageshwar Bhuvan, 2nd Kumbharwada Lane, Mumbai, Maharashtra –
+                400004, India
               </span>
             </li>
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-                <strong>Phone:</strong> +91 22-61432000 (30 Lines), 23895908,
-                23822821, 66393996
+                <strong>Phone:</strong> +91 98922 33118
               </span>
             </li>
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-                <strong>Email:</strong> stindia@stindia.com,
-                stindia@stindia.co.in
+                <strong>Email:</strong> sales@starlighttubes.com
+              </span>
+            </li>
+            <li className="flex items-center gap-2 ">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
+              <span>
+                <strong>GSTIN:</strong> 27DMZPA1125E1Z6
               </span>
             </li>
           </ul>

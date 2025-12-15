@@ -24,7 +24,7 @@ const NickelSheet = () => {
   const ctaData = {
     title: "Premium Nickel Alloy Sheets",
     paragraph1:
-      "Steel Tubes India supplies high-quality nickel alloy sheets and plates offering exceptional corrosion resistance and thermal stability. Our nickel sheets are ideal for chemical processing equipment, heat exchangers, caustic handling systems, and electronic components where superior performance in aggressive environments is critical. Available in commercially pure nickel grades with excellent formability and weldability.",
+      "Starlight Tubes supplies high-quality nickel alloy sheets and plates offering exceptional corrosion resistance and thermal stability. Our nickel sheets are ideal for chemical processing equipment, heat exchangers, caustic handling systems, and electronic components where superior performance in aggressive environments is critical. Available in commercially pure nickel grades with excellent formability and weldability.",
     paragraph2:
       "Our nickel alloy sheets are manufactured to precise thickness tolerances with various surface finishes. We offer comprehensive fabrication services including cutting, bending, and forming. Each sheet undergoes rigorous testing for chemical composition, mechanical properties, and surface quality to ensure compliance with international standards and optimal performance in your applications.",
     specifications: [

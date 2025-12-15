@@ -24,7 +24,7 @@ const ASTMA333Pipe = () => {
   const ctaData = {
     title: "Premium ASTM A333 Low Temperature Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium ASTM A333 seamless and welded steel pipes specifically designed for low-temperature service applications. ASTM A333 pipes are engineered to maintain excellent toughness and ductility at temperatures as low as -150°F, making them essential for cryogenic systems, LNG facilities, refrigeration plants, and cold climate pipeline installations where impact resistance at sub-zero temperatures is critical.",
+      "Starlight Tubes manufactures and supplies premium ASTM A333 seamless and welded steel pipes specifically designed for low-temperature service applications. ASTM A333 pipes are engineered to maintain excellent toughness and ductility at temperatures as low as -150°F, making them essential for cryogenic systems, LNG facilities, refrigeration plants, and cold climate pipeline installations where impact resistance at sub-zero temperatures is critical.",
     paragraph2:
       "Our ASTM A333 pipes are available in multiple grades (Grade 1, 3, 4, 6, 7, 8, 9, 10, 11) with normalized or quenched and tempered heat treatment for optimal low-temperature performance. Each pipe undergoes mandatory Charpy V-notch impact testing at specified temperatures, along with hydrostatic testing and non-destructive examination to ensure reliable service in cryogenic environments.",
     specifications: [

@@ -24,7 +24,7 @@ const ASTMA106Pipe = () => {
   const ctaData = {
     title: "Premium ASTM A106 Seamless Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium ASTM A106 seamless carbon steel pipes specifically designed for high-temperature service applications. ASTM A106 pipes are widely used in refineries, power plants, petrochemical facilities, and boiler systems where operating temperatures exceed 750°F. Available in Grade A, B, and C, these pipes provide excellent strength and reliability for critical pressure piping systems.",
+      "Starlight Tubes manufactures and supplies premium ASTM A106 seamless carbon steel pipes specifically designed for high-temperature service applications. ASTM A106 pipes are widely used in refineries, power plants, petrochemical facilities, and boiler systems where operating temperatures exceed 750°F. Available in Grade A, B, and C, these pipes provide excellent strength and reliability for critical pressure piping systems.",
     paragraph2:
       "Our ASTM A106 pipes are manufactured through hot finishing process with normalized or quenched and tempered heat treatment options. Each pipe undergoes rigorous testing including tensile testing, flattening tests, hydrostatic testing, and non-destructive examination to ensure compliance with ASME specifications for high-pressure, high-temperature service conditions.",
     specifications: [

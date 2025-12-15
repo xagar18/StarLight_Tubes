@@ -24,7 +24,7 @@ const Inconel625Pipe = () => {
   const ctaData = {
     title: "Premium Inconel 625 Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium Inconel 625 pipes (UNS N06625) renowned for exceptional corrosion resistance in aggressive acidic and marine environments. Inconel 625 pipes offer superior resistance to pitting, crevice corrosion, intergranular corrosion, and stress-corrosion cracking, combined with excellent mechanical properties from cryogenic to 1800°F temperatures, making them indispensable for offshore oil & gas production, seawater desalination, chemical processing, and pollution control equipment.",
+      "Starlight Tubes manufactures and supplies premium Inconel 625 pipes (UNS N06625) renowned for exceptional corrosion resistance in aggressive acidic and marine environments. Inconel 625 pipes offer superior resistance to pitting, crevice corrosion, intergranular corrosion, and stress-corrosion cracking, combined with excellent mechanical properties from cryogenic to 1800°F temperatures, making them indispensable for offshore oil & gas production, seawater desalination, chemical processing, and pollution control equipment.",
     paragraph2:
       "Our Inconel 625 pipes are manufactured in seamless and welded configurations with solution annealing and controlled microstructure for optimal corrosion resistance. Each pipe undergoes comprehensive testing including ultrasonic inspection, PMI verification, hydrostatic testing, intergranular corrosion testing per ASTM A262, and mechanical property validation to ensure superior performance in chloride-bearing and acidic service environments.",
     specifications: [

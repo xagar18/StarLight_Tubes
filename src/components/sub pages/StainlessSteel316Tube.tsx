@@ -24,7 +24,7 @@ const StainlessSteel316Tube = () => {
   const ctaData = {
     title: "316 Stainless Steel Tube",
     paragraph1:
-      "Steel Tubes India manufactures and supplies premium quality 316 stainless steel tubes with superior corrosion resistance due to molybdenum content. Grade 316 tubes are specifically designed for highly corrosive environments including marine applications, pharmaceutical equipment, heat exchangers, and chemical processing plants where exposure to chlorides and acids is common.",
+      "Starlight Tubes manufactures and supplies premium quality 316 stainless steel tubes with superior corrosion resistance due to molybdenum content. Grade 316 tubes are specifically designed for highly corrosive environments including marine applications, pharmaceutical equipment, heat exchangers, and chemical processing plants where exposure to chlorides and acids is common.",
     paragraph2:
       "Our 316 stainless steel tubes are available in seamless and welded configurations with exceptional mechanical properties. Each tube undergoes stringent quality control including PMI testing, intergranular corrosion testing, and dimensional verification to ensure compliance with international standards and reliable performance in critical applications.",
     specifications: [

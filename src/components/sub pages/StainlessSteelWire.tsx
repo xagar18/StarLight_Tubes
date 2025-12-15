@@ -24,7 +24,7 @@ const StainlessSteelWire = () => {
   const ctaData = {
     title: "Premium Stainless Steel Wire",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel wire for diverse applications including weaving, spring manufacturing, wire mesh production, fastener manufacturing, and cable construction. Our wires offer excellent tensile strength, corrosion resistance, and formability, making them ideal for automotive, aerospace, medical devices, and industrial applications.",
+      "Starlight Tubes manufactures and supplies high-quality stainless steel wire for diverse applications including weaving, spring manufacturing, wire mesh production, fastener manufacturing, and cable construction. Our wires offer excellent tensile strength, corrosion resistance, and formability, making them ideal for automotive, aerospace, medical devices, and industrial applications.",
     paragraph2:
       "Available in bright, soft annealed, and cold drawn conditions, our stainless steel wires are manufactured to precise tolerances with consistent quality. We offer custom wire drawing, straightening, and cutting services. Each coil is tested for mechanical properties and surface quality to ensure reliable performance in your applications.",
     specifications: [

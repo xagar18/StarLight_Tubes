@@ -24,7 +24,7 @@ const API5LX52Pipe = () => {
   const ctaData = {
     title: "Premium API 5L X52 Line Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality API 5L X52 line pipes designed for medium to high-pressure oil and gas pipeline systems. API 5L X52 pipes provide minimum yield strength of 52,200 psi (360 MPa) with excellent combination of strength, toughness, and weldability, making them suitable for natural gas distribution, crude oil transmission, and gathering line applications in onshore and offshore environments.",
+      "Starlight Tubes manufactures and supplies high-quality API 5L X52 line pipes designed for medium to high-pressure oil and gas pipeline systems. API 5L X52 pipes provide minimum yield strength of 52,200 psi (360 MPa) with excellent combination of strength, toughness, and weldability, making them suitable for natural gas distribution, crude oil transmission, and gathering line applications in onshore and offshore environments.",
     paragraph2:
       "Our API 5L X52 pipes are manufactured through hot rolling or TMCP processes in seamless and welded configurations. Each pipe undergoes rigorous quality testing including tensile testing, Charpy impact testing, hydrostatic testing, ultrasonic inspection, and radiographic examination to ensure compliance with API 5L PSL1 and PSL2 requirements for reliable pipeline service.",
     specifications: [

@@ -24,7 +24,7 @@ const WeldedSteelPipe = () => {
   const ctaData = {
     title: "Premium Welded Steel Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality welded steel pipes produced through advanced ERW (Electric Resistance Welding), LSAW (Longitudinal Submerged Arc Welding), and DSAW (Double Submerged Arc Welding) processes. Our welded steel pipes offer excellent dimensional accuracy, uniform wall thickness, and cost-effective solutions for oil & gas transmission, water supply, structural applications, and industrial piping systems requiring reliable performance in diverse operating conditions.",
+      "Starlight Tubes manufactures and supplies high-quality welded steel pipes produced through advanced ERW (Electric Resistance Welding), LSAW (Longitudinal Submerged Arc Welding), and DSAW (Double Submerged Arc Welding) processes. Our welded steel pipes offer excellent dimensional accuracy, uniform wall thickness, and cost-effective solutions for oil & gas transmission, water supply, structural applications, and industrial piping systems requiring reliable performance in diverse operating conditions.",
     paragraph2:
       "We produce welded steel pipes in carbon steel, alloy steel, and stainless steel grades with black, galvanized, and epoxy-coated finishes. Each pipe undergoes stringent quality control including weld seam inspection, hydrostatic testing, ultrasonic examination, dimensional verification, and mechanical property testing to ensure compliance with international standards and superior performance in critical pipeline applications.",
     specifications: [

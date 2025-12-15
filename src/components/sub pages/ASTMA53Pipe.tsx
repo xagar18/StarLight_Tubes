@@ -24,7 +24,7 @@ const ASTMA53Pipe = () => {
   const ctaData = {
     title: "Premium ASTM A53 Steel Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality ASTM A53 steel pipes available in both seamless and welded (ERW) configurations. ASTM A53 pipes are the most widely specified carbon steel pipes for general purpose applications including steam, water, gas, and air lines. Available in Type E (Electric Resistance Welded), Type F (Furnace Butt Welded), and Type S (Seamless), these pipes offer versatile solutions for mechanical and pressure applications.",
+      "Starlight Tubes manufactures and supplies high-quality ASTM A53 steel pipes available in both seamless and welded (ERW) configurations. ASTM A53 pipes are the most widely specified carbon steel pipes for general purpose applications including steam, water, gas, and air lines. Available in Type E (Electric Resistance Welded), Type F (Furnace Butt Welded), and Type S (Seamless), these pipes offer versatile solutions for mechanical and pressure applications.",
     paragraph2:
       "Our ASTM A53 pipes are available in Grade A and Grade B with black and hot-dip galvanized finishes for corrosion protection. Each pipe undergoes comprehensive quality testing including hydrostatic testing, flattening tests, bend tests, and dimensional verification to ensure reliable performance in structural and fluid conveyance applications.",
     specifications: [

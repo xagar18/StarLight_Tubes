@@ -24,7 +24,7 @@ const InconelRoundBar = () => {
   const ctaData = {
     title: "Premium Inconel Alloy Round Bars",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality Inconel alloy round bars engineered for superior performance in extreme temperature and corrosive environments. Our Inconel round bars exhibit exceptional resistance to oxidation, corrosion, and creep deformation at elevated temperatures, making them indispensable for aerospace fasteners, gas turbine components, nuclear reactor internals, and chemical processing equipment requiring outstanding mechanical properties above 1200°F.",
+      "Starlight Tubes manufactures and supplies high-quality Inconel alloy round bars engineered for superior performance in extreme temperature and corrosive environments. Our Inconel round bars exhibit exceptional resistance to oxidation, corrosion, and creep deformation at elevated temperatures, making them indispensable for aerospace fasteners, gas turbine components, nuclear reactor internals, and chemical processing equipment requiring outstanding mechanical properties above 1200°F.",
     paragraph2:
       "We produce Inconel round bars in hot rolled, cold drawn, centerless ground, and peeled finishes across multiple grades. Each bar undergoes comprehensive quality testing including ultrasonic inspection, dimensional verification, hardness testing, and metallurgical examination to ensure precise tolerances and material consistency for critical machining and fabrication applications.",
     specifications: [

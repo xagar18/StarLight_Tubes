@@ -24,7 +24,7 @@ const InconelPlate = () => {
   const ctaData = {
     title: "Premium Inconel Alloy Plates",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-performance Inconel alloy plates designed for extreme temperature and corrosive service conditions. Our Inconel plates provide exceptional oxidation resistance, high mechanical strength at elevated temperatures, and superior resistance to chloride-ion stress-corrosion cracking, making them ideal for aerospace components, nuclear reactor vessels, heat exchangers, and chemical processing equipment.",
+      "Starlight Tubes manufactures and supplies high-performance Inconel alloy plates designed for extreme temperature and corrosive service conditions. Our Inconel plates provide exceptional oxidation resistance, high mechanical strength at elevated temperatures, and superior resistance to chloride-ion stress-corrosion cracking, making them ideal for aerospace components, nuclear reactor vessels, heat exchangers, and chemical processing equipment.",
     paragraph2:
       "We offer Inconel plates in various grades with hot rolled, cold rolled, and solution-annealed finishes. Each plate is manufactured under strict quality protocols including ultrasonic testing, chemical composition analysis, mechanical testing, and surface inspection to guarantee dimensional accuracy and metallurgical integrity for critical applications.",
     specifications: [

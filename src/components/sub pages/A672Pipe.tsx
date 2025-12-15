@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const A672Pipe = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,41 +22,42 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium ASTM A672 EFW Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies premium ASTM A672 Electric Fusion Welded (EFW) steel pipes designed for high-pressure service at moderate temperatures. ASTM A672 pipes are fabricated from carbon and alloy steel plates with double submerged arc welding and are essential for steam systems, high-pressure process piping, hydrocracker units, and critical pressure applications in power generation and petrochemical industries.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "Our ASTM A672 pipes are available in multiple grades including B60, B65, B70, C60, C65, C70, D70, E60, E65, and E70 with various class designations for different pressure ratings. Each pipe undergoes 100% radiographic inspection of weld seams, stress relief heat treatment, hydrostatic testing, and mechanical property verification to ensure superior performance in demanding high-pressure service conditions.",
     specifications: [
       {
         label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value:
+          "ASTM A672 B60, B65, B70, C60, C65, C70, D70, E60, E65, E70, H75, J80",
       },
       {
         label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        value: 'NB 16" to 80", Wall Thickness 8mm to 80mm, Length up to 12m',
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "ASTM A672, ASME SA672, EN 10217-2, EN 10217-5",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Applications",
+        value:
+          "High-Pressure Steam, Hydrocrackers, Power Plants, Process Piping, Pressure Vessels",
       },
     ],
   };
+
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
         {/* Image Slider Section */}
-        <div className="w-full h-fit flex justify-center ">
+        <div className="w-full h-fit flex justify-center">
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* A672 Pipe Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,11 +65,11 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            ASTM A672 EFW Pipes
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
-            international standards for diverse industrial applications
+            Premium quality ASTM A672 Electric Fusion Welded pipes for
+            high-pressure service at moderate temperatures
           </p>
         </div>
 
@@ -83,7 +84,6 @@ const StainlessSteelRoundBar = () => {
         </div>
 
         {/* Manufacturer & Exporter Section */}
-
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">
@@ -117,4 +117,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default A672Pipe;

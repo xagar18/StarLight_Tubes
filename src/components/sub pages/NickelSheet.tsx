@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const NickelSheet = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,27 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Nickel Alloy Sheets",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India supplies high-quality nickel alloy sheets and plates offering exceptional corrosion resistance and thermal stability. Our nickel sheets are ideal for chemical processing equipment, heat exchangers, caustic handling systems, and electronic components where superior performance in aggressive environments is critical. Available in commercially pure nickel grades with excellent formability and weldability.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "Our nickel alloy sheets are manufactured to precise thickness tolerances with various surface finishes. We offer comprehensive fabrication services including cutting, bending, and forming. Each sheet undergoes rigorous testing for chemical composition, mechanical properties, and surface quality to ensure compliance with international standards and optimal performance in your applications.",
     specifications: [
       {
         label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value: "Nickel 200 (99.6% Pure), Nickel 201 (Low Carbon), Nickel 205",
       },
       {
-        label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        label: "Thickness Range",
+        value: "0.5mm to 50mm, Width up to 2000mm, Length up to 6000mm",
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "ASTM B162, ASME SB162, DIN 17751, EN 10204, JIS H4551",
       },
       {
         label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        value: "Hot Rolled, Cold Rolled, Annealed, Polished, Pickled",
       },
     ],
   };
@@ -56,7 +54,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Nickel Sheet Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,10 +62,10 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Nickel Alloy Sheets
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
+            Premium quality nickel alloy sheets manufactured to meet
             international standards for diverse industrial applications
           </p>
         </div>
@@ -117,4 +115,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default NickelSheet;

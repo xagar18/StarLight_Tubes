@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const ASTMA333Pipe = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,41 +22,41 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium ASTM A333 Low Temperature Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies premium ASTM A333 seamless and welded steel pipes specifically designed for low-temperature service applications. ASTM A333 pipes are engineered to maintain excellent toughness and ductility at temperatures as low as -150°F, making them essential for cryogenic systems, LNG facilities, refrigeration plants, and cold climate pipeline installations where impact resistance at sub-zero temperatures is critical.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "Our ASTM A333 pipes are available in multiple grades (Grade 1, 3, 4, 6, 7, 8, 9, 10, 11) with normalized or quenched and tempered heat treatment for optimal low-temperature performance. Each pipe undergoes mandatory Charpy V-notch impact testing at specified temperatures, along with hydrostatic testing and non-destructive examination to ensure reliable service in cryogenic environments.",
     specifications: [
       {
         label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value: "ASTM A333 Grade 1, 3, 4, 6, 7, 8, 9, 10, 11",
       },
       {
         label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        value: 'NB 1/2" to 24", Schedule 40 to XXS, Length up to 12m',
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "ASTM A333, ASME SA333, EN 10216-4, JIS G3460, DIN 17173",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Applications",
+        value:
+          "LNG Plants, Cryogenic Service, Refrigeration, Cold Climate Pipelines, Chemical Processing",
       },
     ],
   };
+
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
         {/* Image Slider Section */}
-        <div className="w-full h-fit flex justify-center ">
+        <div className="w-full h-fit flex justify-center">
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* ASTM A333 Pipe Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,11 +64,11 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            ASTM A333 Low Temperature Pipes
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
-            international standards for diverse industrial applications
+            Premium quality ASTM A333 seamless pipes engineered for cryogenic
+            and low-temperature service applications
           </p>
         </div>
 
@@ -83,7 +83,6 @@ const StainlessSteelRoundBar = () => {
         </div>
 
         {/* Manufacturer & Exporter Section */}
-
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">
@@ -117,4 +116,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default ASTMA333Pipe;

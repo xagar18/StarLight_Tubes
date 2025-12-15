@@ -20,6 +20,35 @@ const StainlessSteelTube = () => {
       img: "/StainlessSteelTube3.png",
     },
   ];
+
+  const ctaData = {
+    title: "Premium Stainless Steel Tubes",
+    paragraph1:
+      "Steel Tubes India manufactures and supplies high-quality stainless steel tubes that meet international standards. Our tubes are engineered for superior corrosion resistance, durability, and performance in demanding industrial applications including oil & gas, petrochemical, power generation, and marine industries.",
+    paragraph2:
+      "Available in seamless and welded configurations, our stainless steel tubes are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, ASME, and international specifications. We offer customized solutions to meet your specific project requirements.",
+    specifications: [
+      {
+        label: "Grades",
+        value:
+          "304, 304L, 316, 316L, 321, 310S, 347, 904L, Duplex & Super Duplex",
+      },
+      {
+        label: "Size Range",
+        value:
+          "OD 6mm to 660mm, Wall Thickness 0.5mm to 50mm, Length up to 12 meters",
+      },
+      {
+        label: "Standards",
+        value:
+          "ASTM A213, ASTM A269, ASTM A312, ASME SA213, DIN 17458, EN 10216",
+      },
+      {
+        label: "Types",
+        value: "Seamless, Welded, ERW, EFW with various finishes available",
+      },
+    ],
+  };
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
@@ -46,7 +75,12 @@ const StainlessSteelTube = () => {
 
         {/* Common CTA Section */}
         <div className="w-full h-fit flex justify-center mb-16">
-          <CommonCTA />
+          <CommonCTA
+            title={ctaData.title}
+            paragraph1={ctaData.paragraph1}
+            paragraph2={ctaData.paragraph2}
+            specifications={ctaData.specifications}
+          />
         </div>
 
         {/* Manufacturer & Exporter Section */}

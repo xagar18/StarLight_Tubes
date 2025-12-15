@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const API5LX42Pipe = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,41 +22,42 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium API 5L X42 Line Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies high-quality API 5L X42 line pipes widely used in oil and gas transmission pipeline systems. API 5L X42 pipes offer minimum yield strength of 42,100 psi (290 MPa) with excellent ductility and weldability, making them suitable for natural gas distribution networks, crude oil gathering systems, and general purpose pipeline applications requiring reliable performance at moderate pressures.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "Our API 5L X42 pipes are produced in seamless and welded (ERW, LSAW, SSAW) configurations with various end finishes including plain end, beveled end, and threaded ends. Each pipe undergoes comprehensive quality control including hydrostatic testing, non-destructive examination, chemical analysis, and mechanical property verification to ensure compliance with API 5L specifications.",
     specifications: [
       {
-        label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        label: "Grade",
+        value:
+          "API 5L X42 (PSL1 & PSL2), Yield Strength: 290 MPa min, Tensile: 415 MPa min",
       },
       {
         label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        value: 'NB 1/2" to 48", Wall Thickness up to 35mm, Length up to 18m',
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "API 5L, ISO 3183, EN 10208-1, GOST 20295, IS 1978",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Applications",
+        value:
+          "Gas Distribution, Oil Gathering, Water Pipelines, Plant Piping, Process Lines",
       },
     ],
   };
+
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
         {/* Image Slider Section */}
-        <div className="w-full h-fit flex justify-center ">
+        <div className="w-full h-fit flex justify-center">
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* API 5L X42 Pipe Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,11 +65,11 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            API 5L X42 Line Pipes
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
-            international standards for diverse industrial applications
+            Premium quality API 5L X42 line pipes for oil and gas transmission
+            and distribution applications
           </p>
         </div>
 
@@ -83,7 +84,6 @@ const StainlessSteelRoundBar = () => {
         </div>
 
         {/* Manufacturer & Exporter Section */}
-
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">
@@ -117,4 +117,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default API5LX42Pipe;

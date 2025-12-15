@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const StainlessSteelWire = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,28 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Stainless Steel Wire",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies high-quality stainless steel wire for diverse applications including weaving, spring manufacturing, wire mesh production, fastener manufacturing, and cable construction. Our wires offer excellent tensile strength, corrosion resistance, and formability, making them ideal for automotive, aerospace, medical devices, and industrial applications.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "Available in bright, soft annealed, and cold drawn conditions, our stainless steel wires are manufactured to precise tolerances with consistent quality. We offer custom wire drawing, straightening, and cutting services. Each coil is tested for mechanical properties and surface quality to ensure reliable performance in your applications.",
     specifications: [
       {
         label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value: "304, 304L, 316, 316L, 321, 310S, 410, 430, 302HQ Spring Wire",
       },
       {
-        label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        label: "Diameter Range",
+        value: "0.05mm to 20mm, Available in coils or cut to length",
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "ASTM A313, ASTM A580, DIN 17223, EN 10270, JIS G4314",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Temper",
+        value:
+          "Soft Annealed, Quarter Hard, Half Hard, Full Hard, Spring Temper",
       },
     ],
   };
@@ -56,7 +55,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Stainless Steel Wire Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,10 +63,10 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Stainless Steel Wire
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
+            Premium quality stainless steel wire manufactured to meet
             international standards for diverse industrial applications
           </p>
         </div>
@@ -117,4 +116,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default StainlessSteelWire;

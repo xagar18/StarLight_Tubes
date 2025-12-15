@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const Inconel625Tubing = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,29 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Inconel 625 Tubing",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies high-performance Inconel 625 tubing (UNS N06625) engineered for exceptional corrosion resistance and high strength from cryogenic temperatures to 1800°F. Inconel 625 tubing provides outstanding resistance to pitting, crevice corrosion, oxidation, and stress-corrosion cracking in chloride environments, making it ideal for seawater systems, chemical processing heat exchangers, aerospace hydraulic lines, and oil & gas downhole applications.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "We produce Inconel 625 tubing in seamless cold-drawn and welded configurations with precise dimensional tolerances for instrumentation and heat exchanger applications. Each tube undergoes rigorous quality control including solution annealing, ultrasonic inspection, eddy current testing, PMI verification, and mechanical property validation to ensure superior performance in aggressive corrosive environments.",
     specifications: [
       {
-        label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        label: "Grade",
+        value: "Inconel 625 (UNS N06625, WERKSTOFF NR. 2.4856)",
       },
       {
         label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        value: 'OD 1/8" to 3", Wall 0.020" to 0.500", Length up to 12 meters',
       },
       {
         label: "Standards",
         value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+          "ASTM B444, ASTM B704, ASME SB444, AMS 5599, DIN 17458, EN 10216-5",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Applications",
+        value:
+          "Heat Exchangers, Instrumentation Lines, Aerospace, Marine, Chemical Processing",
       },
     ],
   };
@@ -56,7 +56,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Inconel 625 Tubing Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,10 +64,10 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Inconel 625 Tubing
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
+            Premium quality Inconel 625 tubing manufactured to meet
             international standards for diverse industrial applications
           </p>
         </div>
@@ -117,4 +117,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default Inconel625Tubing;

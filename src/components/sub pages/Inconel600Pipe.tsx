@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const Inconel600Pipe = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,29 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Inconel 600 Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies high-quality Inconel 600 pipes (UNS N06600) designed for exceptional performance in high-temperature corrosive environments. Inconel 600 pipes offer outstanding resistance to oxidation, carburization, chloride-ion stress-corrosion cracking, and sulfur attack at temperatures up to 2150°F, making them essential for heat treating fixtures, chemical processing plants, nuclear reactor components, and high-temperature furnace applications.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "We produce Inconel 600 pipes in seamless and welded configurations with hot finished and cold drawn options. Each pipe is manufactured under stringent quality protocols including solution annealing at 1900-2000°F, ultrasonic inspection, PMI verification, hydrostatic testing, and mechanical property validation to ensure dimensional accuracy and metallurgical integrity for critical high-temperature service.",
     specifications: [
       {
-        label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        label: "Grade",
+        value: "Inconel 600 (UNS N06600, WERKSTOFF NR. 2.4816)",
       },
       {
         label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        value: 'NB 1/8" to 24", Schedule 5S to XXS, Length up to 12 meters',
       },
       {
         label: "Standards",
         value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+          "ASTM B167, ASTM B516, ASME SB167, AMS 5540, DIN 17458, EN 10216-5",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Applications",
+        value:
+          "Thermal Processing, Nuclear Steam Generators, Chemical Plants, Heat Exchangers",
       },
     ],
   };
@@ -56,7 +56,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Inconel 600 Pipe Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,11 +64,11 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Inconel 600 Pipes
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
-            international standards for diverse industrial applications
+            Premium quality Inconel 600 pipes manufactured to meet international
+            standards for diverse industrial applications
           </p>
         </div>
 
@@ -117,4 +117,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default Inconel600Pipe;

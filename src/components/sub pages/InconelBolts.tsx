@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const InconelBolts = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,29 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Inconel Alloy Bolts & Fasteners",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies high-performance Inconel alloy bolts, nuts, screws, studs, and fasteners designed for extreme service conditions requiring exceptional strength retention at elevated temperatures. Our Inconel fasteners provide outstanding resistance to oxidation, corrosion, thermal fatigue, and stress-corrosion cracking, making them critical for aerospace assemblies, gas turbine installations, nuclear power plants, and high-temperature petrochemical processing equipment.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "We produce Inconel fasteners in fully threaded and partially threaded configurations across multiple grades, thread standards, and head styles. Each fastener is manufactured to exacting specifications and undergoes rigorous testing including dimensional inspection, hardness verification, thread gauging, and material certification to ensure reliable performance in critical bolted joint applications operating from cryogenic to 1800°F temperatures.",
     specifications: [
       {
         label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value: "Inconel 600, 601, 617, 625, 718, 725, 800, 825, X-750",
       },
       {
         label: "Size Range",
         value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+          'M3 to M100, 1/4" to 4", Custom lengths available, Thread: Metric, UNC, UNF',
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "ASTM F468, ASTM F467, DIN 931, DIN 933, ISO 4014, ASME B18.2.1",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Types",
+        value:
+          "Hex Bolts, Studs, Nuts, Socket Head Cap Screws, U-Bolts, Anchor Bolts",
       },
     ],
   };
@@ -56,7 +56,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Inconel Bolts Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,11 +64,11 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Inconel Alloy Bolts & Fasteners
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
-            international standards for diverse industrial applications
+            Premium quality Inconel alloy bolts and fasteners manufactured to
+            meet international standards for diverse industrial applications
           </p>
         </div>
 
@@ -117,4 +117,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default InconelBolts;

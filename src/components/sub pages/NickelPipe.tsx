@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const NickelPipe = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,29 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Nickel Alloy Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies high-purity nickel alloy pipes designed for extreme temperature and corrosive environments. Our nickel pipes offer exceptional resistance to oxidation, sulfidation, and chloride stress corrosion cracking, making them ideal for chemical processing, petrochemical refineries, power generation, and aerospace applications where standard stainless steel cannot perform.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "Available in seamless and welded configurations, our nickel alloy pipes are manufactured from grades including Nickel 200, Nickel 201, and other specialty alloys. Each pipe undergoes comprehensive testing including PMI verification, hydrostatic testing, ultrasonic inspection, and corrosion resistance evaluation to ensure superior quality and reliability in demanding service conditions.",
     specifications: [
       {
         label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value: "Nickel 200 (UNS N02200), Nickel 201 (UNS N02201), Nickel 205",
       },
       {
         label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        value: 'NB 1/8" to 24", Schedule 5S to XXS, Length up to 12 meters',
       },
       {
         label: "Standards",
         value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+          "ASTM B161, ASTM B162, ASTM B725, ASME SB161, DIN 17751, EN 10216",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Applications",
+        value:
+          "Chemical Processing, Caustic Soda Production, Aerospace, Electronics, High-Temperature Service",
       },
     ],
   };
@@ -56,7 +56,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Nickel Pipe Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,10 +64,10 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Nickel Alloy Pipes
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
+            Premium quality nickel alloy pipes manufactured to meet
             international standards for diverse industrial applications
           </p>
         </div>
@@ -117,4 +117,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default NickelPipe;

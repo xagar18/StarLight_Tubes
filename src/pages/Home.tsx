@@ -21,6 +21,20 @@ const stainlessSteelItems = [
   "316L Stainless Steel Pipe",
 ];
 
+const stainlessSteelLinks = [
+  "/stainless-steel-tube",
+  "/stainless-steel-pipe",
+  "/stainless-steel-sheet",
+  "/stainless-steel-round-bar",
+  "/stainless-steel-fasteners",
+  "/stainless-steel-wire",
+  "/stainless-steel-304-pipe",
+  "/stainless-steel-304-plate",
+  "/stainless-steel-316-tube",
+  "/stainless-steel-316-plate",
+  "/stainless-steel-316l-pipe",
+];
+
 const nickelAlloyItems = [
   "Nickel Pipe",
   "Nickel Sheet",
@@ -36,6 +50,21 @@ const nickelAlloyItems = [
   "Welded Steel Pipe",
 ];
 
+const nickelAlloyLinks = [
+  "/nickel-pipe",
+  "/nickel-sheet",
+  "/inconel-pipe",
+  "/inconel-plate",
+  "/inconel-round-bar",
+  "/inconel-bolts",
+  "/inconel-600-plate",
+  "/inconel-600-pipe",
+  "/inconel-625-tubing",
+  "/inconel-625-pipe",
+  "/inconel-625-plate",
+  "/welded-steel-pipe",
+];
+
 const carbonSteelItems = [
   "Carbon Steel Pipe",
   "ASTM A106",
@@ -48,6 +77,20 @@ const carbonSteelItems = [
   "A671 Pipe",
   "A672 Pipe",
 ];
+
+const carbonSteelLinks = [
+  "/carbon-steel-pipe",
+  "/astm-a106-pipe",
+  "/astm-a53-pipe",
+  "/astm-a333-pipe",
+  "/api-5l-grade-b-pipe",
+  "/api-5l-x65-pipe",
+  "/api-5l-x52-pipe",
+  "/api-5l-x42-pipe",
+  "/a671-pipe",
+  "/a672-pipe",
+];
+
 const Home = () => {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
@@ -69,9 +112,21 @@ const Home = () => {
           </div>
 
           <div className="max-full h-fit flex md:flex-row flex-col items-center md:justify-center gap-20">
-            <MeteorsDemo title="Stainless Steel" items={stainlessSteelItems} />
-            <MeteorsDemo title="Nickel Alloy" items={nickelAlloyItems} />
-            <MeteorsDemo title="Carbon Steel" items={carbonSteelItems} />
+            <MeteorsDemo
+              title="Stainless Steel"
+              items={stainlessSteelItems}
+              links={stainlessSteelLinks}
+            />
+            <MeteorsDemo
+              title="Nickel Alloy"
+              items={nickelAlloyItems}
+              links={nickelAlloyLinks}
+            />
+            <MeteorsDemo
+              title="Carbon Steel"
+              items={carbonSteelItems}
+              links={carbonSteelLinks}
+            />
           </div>
         </div>
 

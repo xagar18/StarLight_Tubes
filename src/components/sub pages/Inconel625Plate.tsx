@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const Inconel625Plate = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,28 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Inconel 625 Plates",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies high-performance Inconel 625 plates (UNS N06625) designed for exceptional corrosion resistance and high strength in extreme environments. Inconel 625 plates provide outstanding resistance to pitting, crevice corrosion, intergranular attack, and stress-corrosion cracking in chloride and acidic media, making them ideal for marine engineering, chemical processing vessels, aerospace structures, and pollution control equipment requiring superior mechanical properties from cryogenic to 1800°F.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "We produce Inconel 625 plates in hot rolled, cold rolled, and solution-annealed conditions with various surface finishes. Each plate undergoes rigorous quality testing including chemical composition analysis, mechanical property verification, ultrasonic inspection, intergranular corrosion testing per ASTM A262, and surface examination to ensure dimensional precision and metallurgical integrity for critical corrosive applications.",
     specifications: [
       {
-        label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        label: "Grade",
+        value: "Inconel 625 (UNS N06625, WERKSTOFF NR. 2.4856)",
       },
       {
-        label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        label: "Thickness Range",
+        value: "3mm to 200mm, Width up to 3000mm, Length up to 12000mm",
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "ASTM B443, ASME SB443, AMS 5599, DIN 17744, EN 10028-7",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Applications",
+        value:
+          "Marine Structures, Chemical Processing, Aerospace, FGD Systems, Seawater Desalination",
       },
     ],
   };
@@ -56,7 +55,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Inconel 625 Plate Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,10 +63,10 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Inconel 625 Plates
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
+            Premium quality Inconel 625 plates manufactured to meet
             international standards for diverse industrial applications
           </p>
         </div>
@@ -117,4 +116,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default Inconel625Plate;

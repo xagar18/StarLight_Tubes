@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const WeldedSteelPipe = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,30 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Welded Steel Pipes",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India manufactures and supplies high-quality welded steel pipes produced through advanced ERW (Electric Resistance Welding), LSAW (Longitudinal Submerged Arc Welding), and DSAW (Double Submerged Arc Welding) processes. Our welded steel pipes offer excellent dimensional accuracy, uniform wall thickness, and cost-effective solutions for oil & gas transmission, water supply, structural applications, and industrial piping systems requiring reliable performance in diverse operating conditions.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "We produce welded steel pipes in carbon steel, alloy steel, and stainless steel grades with black, galvanized, and epoxy-coated finishes. Each pipe undergoes stringent quality control including weld seam inspection, hydrostatic testing, ultrasonic examination, dimensional verification, and mechanical property testing to ensure compliance with international standards and superior performance in critical pipeline applications.",
     specifications: [
       {
         label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value:
+          "ASTM A53 Gr.B, API 5L Gr.B to X70, ASTM A106, ASTM A252, IS 3589",
       },
       {
         label: "Size Range",
         value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+          'NB 1/2" to 80", Wall Thickness 1.5mm to 25mm, Length up to 18 meters',
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "ASTM A53, API 5L, ASTM A252, ASTM A500, EN 10219, DIN 2458",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Applications",
+        value:
+          "Oil & Gas Pipelines, Water Supply, Structural, Industrial Piping, Piling",
       },
     ],
   };
@@ -56,7 +57,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Welded Steel Pipe Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,10 +65,10 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Welded Steel Pipes
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
+            Premium quality welded steel pipes manufactured to meet
             international standards for diverse industrial applications
           </p>
         </div>
@@ -117,4 +118,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default WeldedSteelPipe;

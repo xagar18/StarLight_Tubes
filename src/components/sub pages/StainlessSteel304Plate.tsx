@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const StainlessSteel304Plate = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,28 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "304 Stainless Steel Plate",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India supplies premium quality 304 stainless steel plates for a wide range of industrial and commercial applications. Grade 304 plates offer excellent corrosion resistance, good formability, and aesthetic appeal, making them perfect for kitchen equipment, food processing machinery, architectural facades, pressure vessels, and chemical storage tanks.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "Available in various surface finishes including 2B, BA, No.4, and hairline, our 304 stainless steel plates are manufactured to precise thickness tolerances. We offer comprehensive fabrication services including cutting, bending, rolling, and polishing. Each plate is tested for chemical composition, mechanical properties, and surface quality to ensure consistent performance.",
     specifications: [
       {
-        label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        label: "Composition",
+        value:
+          "18% Chromium, 8% Nickel - Non-magnetic austenitic stainless steel",
       },
       {
-        label: "Size Range",
-        value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+        label: "Thickness Range",
+        value: "3mm to 100mm, Width up to 2500mm, Length up to 12000mm",
       },
       {
         label: "Standards",
-        value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+        value: "ASTM A240 SS304, ASME SA240, DIN 1.4301, EN 10088-2, JIS G4304",
       },
       {
         label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        value: "2B, BA, No.1, No.4, Hairline, Mirror 8K, Brushed Finish",
       },
     ],
   };
@@ -56,7 +55,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* 304 Stainless Steel Plate Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,10 +63,10 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            304 Stainless Steel Plate
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
+            Premium quality 304 stainless steel plates manufactured to meet
             international standards for diverse industrial applications
           </p>
         </div>
@@ -117,4 +116,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default StainlessSteel304Plate;

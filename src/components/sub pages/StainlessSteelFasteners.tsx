@@ -5,7 +5,7 @@ import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
-const StainlessSteelRoundBar = () => {
+const StainlessSteelFasteners = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
@@ -22,29 +22,29 @@ const StainlessSteelRoundBar = () => {
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Round Bars",
+    title: "Premium Stainless Steel Fasteners",
     paragraph1:
-      "Steel Tubes India manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Steel Tubes India supplies a comprehensive range of high-quality stainless steel fasteners including bolts, nuts, screws, washers, and anchors for critical industrial applications. Our fasteners are engineered to provide exceptional strength, corrosion resistance, and durability in demanding environments such as marine, chemical processing, oil & gas, and construction industries.",
     paragraph2:
-      "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
+      "Manufactured to international standards, our stainless steel fasteners undergo rigorous quality testing including tensile strength, hardness, and dimensional checks. Available in various head styles, thread types, and finishes, we offer custom manufacturing and special coatings to meet your specific application requirements.",
     specifications: [
       {
         label: "Grades",
-        value: "304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value: "304, 304L, 316, 316L, 321, 310S, 410, 430, A2-70, A4-80",
       },
       {
-        label: "Size Range",
+        label: "Types",
         value:
-          "Diameter 6mm to 500mm, Length up to 6 meters or as per requirement",
+          "Hex Bolts, Socket Cap Screws, Studs, Nuts, Washers, U-Bolts, Eye Bolts, Anchor Fasteners",
       },
       {
         label: "Standards",
         value:
-          "ASTM A276, ASTM A479, ASTM A582, ASME SA479, DIN 1.4301, EN 10088",
+          "ASTM A193, ASTM A194, ASTM F593, DIN 931, DIN 933, ISO 4017, BS 3692",
       },
       {
-        label: "Finish",
-        value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
+        label: "Size Range",
+        value: 'M3 to M100, 1/4" to 4", Length up to 1000mm',
       },
     ],
   };
@@ -56,7 +56,7 @@ const StainlessSteelRoundBar = () => {
           <ImagesSliderDemo />
         </div>
 
-        {/* Stainless Steel Round Bars Section Header */}
+        {/* Stainless Steel Fasteners Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
@@ -64,10 +64,10 @@ const StainlessSteelRoundBar = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Round Bars
+            Stainless Steel Fasteners
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel round bars manufactured to meet
+            Premium quality stainless steel fasteners manufactured to meet
             international standards for diverse industrial applications
           </p>
         </div>
@@ -117,4 +117,4 @@ const StainlessSteelRoundBar = () => {
   );
 };
 
-export default StainlessSteelRoundBar;
+export default StainlessSteelFasteners;

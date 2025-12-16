@@ -1,4 +1,3 @@
-import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import { Link } from "react-router";
 
 export default function Footer() {
@@ -59,43 +58,9 @@ export default function Footer() {
               <img src="/StarlightLogo.png" alt="" className="size-10" />
             </div>
             <p className="text-sm leading-relaxed mb-8">
-              Leading exporter of premium steel tubes, pipes, and industrial
-              materials since 1992.
+              Shop No. 01, Ground floor, 121/123, Nageshwar Bhuvan Bldg,
+              Kumbharwada, Mumbai, Maharashtra 400004
             </p>
-
-            {/* Social Icons */}
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
-              >
-                <Instagram size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
-              >
-                <Twitter size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
-              >
-                <Youtube size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Links Sections */}

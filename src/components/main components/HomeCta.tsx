@@ -88,7 +88,7 @@ export default function CtaSection1() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#contact"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-semibold rounded-xl text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-semibold rounded-xl text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105 mb-10"
               >
                 Get in Touch
                 <svg
@@ -104,13 +104,6 @@ export default function CtaSection1() {
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>
-              </a>
-
-              <a
-                href="#products"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border-2 border-white/20 text-base font-semibold rounded-xl text-white hover:bg-white/10 transition-all duration-300 backdrop-blur-sm"
-              >
-                View Products
               </a>
             </div>
           </div>

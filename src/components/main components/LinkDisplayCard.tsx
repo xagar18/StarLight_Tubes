@@ -12,7 +12,7 @@ export function MeteorsDemo({
 }) {
   return (
     <div className="">
-      <div className="relative max-w-xl h-112.5 w-100">
+      <div className="relative max-w-xl md:h-112.5 md:w-100 w-80">
         <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
         <div className="relative flex h-full flex-col items-start justify-start overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-4 py-8 shadow-xl">
           <h1 className="relative z-50 mb-4 text-xl font-bold text-white">

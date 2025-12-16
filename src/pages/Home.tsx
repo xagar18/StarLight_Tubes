@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import Cta from "../components/main components/HomeCta";
 import FAQAccordion from "../components/main components/HomeFAQ";
@@ -92,6 +93,17 @@ const carbonSteelLinks = [
 ];
 
 const Home = () => {
+  // SEO optimization for home page
+  useSEO({
+    title:
+      "Starlight Tubes - Premium Stainless Steel Pipes, Tubes & Nickel Alloys Supplier",
+    description:
+      "Leading manufacturer and supplier of stainless steel pipes, tubes, inconel alloys, carbon steel pipes, and nickel alloys. ISO certified with global delivery. Competitive prices on 304, 316, 316L stainless steel products.",
+    keywords:
+      "stainless steel pipe, stainless steel tube, inconel pipe, nickel alloy, carbon steel pipe, 304 stainless steel, 316 stainless steel, 316L pipe, API 5L pipe, ASTM A106 pipe, stainless steel fasteners, steel supplier",
+    url: "https://www.starlighttubes.com",
+  });
+
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>

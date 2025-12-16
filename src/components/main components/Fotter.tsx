@@ -56,24 +56,11 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="md:col-span-1">
             <div className="flex items-center mb-6">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                <path
-                  d="M10 20C10 20 15 10 20 15C25 20 20 30 20 30"
-                  stroke="#8b5cf6"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                />
-                <path
-                  d="M20 10C20 10 25 20 30 15C35 10 30 0 30 0"
-                  stroke="#8b5cf6"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                />
-              </svg>
+              <img src="/StarlightLogo.png" alt="" className="size-10" />
             </div>
             <p className="text-sm leading-relaxed mb-8">
-              Leading manufacturer and exporter of premium steel tubes, pipes,
-              and industrial materials since 1992.
+              Leading exporter of premium steel tubes, pipes, and industrial
+              materials since 1992.
             </p>
 
             {/* Social Icons */}

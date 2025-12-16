@@ -1,73 +1,120 @@
-# React + TypeScript + Vite
+# Starlight Tubes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**India's Leading Exporter & Stockist of Industrial Steel Products**
 
-Currently, two official plugins are available:
+🌐 [www.starlighttubes.com](https://www.starlighttubes.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Starlight Tubes is India's No. 1 exporter and stockist of industrial steel pipes, tubes, and related products. Since 1992, we have been serving the Oil & Gas, petrochemical, and chemical processing industries worldwide.
 
-## Expanding the ESLint configuration
+### Contact Information
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Address:** Building No. 121/123, Shop No. 1, Nageshwar Bhuvan, 2nd Kumbharwada Lane, Mumbai, Maharashtra – 400004, India
+- **Phone:** +91 98922 33118
+- **Email:** sales@starlighttubes.com
+- **GSTIN:** 27DMZPA1125E1Z6
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Products
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Stainless Steel
+
+- Pipes, Tubes, Sheets, Plates, Round Bars, Fasteners, Wire
+- Grades: 304, 304L, 316, 316L, 321, 310S, 347, 904L, Duplex & Super Duplex
+
+### Carbon Steel
+
+- Seamless & Welded Pipes, ERW Pipes, Boiler Tubes
+- Standards: ASTM A106, A53, A333, API 5L Gr.B/X42/X52/X65, A671, A672
+
+### Nickel Alloys
+
+- Pipes, Tubes, Sheets, Plates, Round Bars
+- Grades: Nickel 200/201, Monel 400, Monel K500, Hastelloy C276/C22
+
+### Inconel
+
+- Pipes, Tubes, Plates, Sheets, Round Bars, Bolts, Tubing
+- Grades: Inconel 600, 601, 625, 718, 725, 800, 800H, 825, X-750
+
+---
+
+## Tech Stack
+
+- **Frontend:** React 18 + TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Routing:** React Router
+- **UI Components:** Custom components with Framer Motion animations
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- pnpm (recommended) or npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-repo/starlight-tubes.git
+
+# Navigate to project directory
+cd starlight-tubes
+
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Build for Production
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+pnpm build
 ```
+
+### Preview Production Build
+
+```bash
+pnpm preview
+```
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── main components/    # Navbar, Footer, CTA sections
+│   ├── sub components/     # Reusable CTA component
+│   ├── sub pages/          # Product detail pages
+│   └── ui/                 # UI components (buttons, cards, etc.)
+├── pages/                  # Main route pages
+├── hooks/                  # Custom React hooks
+├── lib/                    # Utility functions
+└── data/                   # Static data files
+```
+
+---
+
+## Certifications
+
+- ISO 9001, 14001, OHSAS 18001 Certified
+- PED 97/23/EC Approved Supplier & Exporter
+- Government of India Recognized Export House
+
+---
+
+## License
+
+© 2025 Starlight Tubes. All rights reserved.

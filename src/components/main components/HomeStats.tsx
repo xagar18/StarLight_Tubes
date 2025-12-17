@@ -3,7 +3,7 @@ export default function StatsGrid() {
     { value: "100,000+", label: "Clients worldwide" },
     { value: "ISO & ASTM", label: "Certified quality standards" },
     { value: "99.9%", label: "On‑time delivery performance" },
-    { value: "10+ Years", label: "Proven industry expertise" },
+    { value: "5+ Years", label: "Proven industry expertise" },
   ];
 
   return (

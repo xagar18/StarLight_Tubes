@@ -9,9 +9,9 @@ const Material = () => {
   const ctaData = {
     title: "Premium Industrial Materials",
     paragraph1:
-      "Starlight Tubes is India's leading exporter and stockist of premium industrial materials including Stainless Steel, Nickel Alloys, Inconel, and Carbon Steel products. With over 30 years of excellence in global trade, we source and supply high-quality pipes, tubes, plates, sheets, round bars, and fasteners that meet the most stringent international standards for critical applications in oil & gas, petrochemical, power generation, aerospace, and marine industries.",
+      "Starlight Tubes is India's leading exporter and stockist of premium industrial materials including Stainless Steel, Nickel Alloys, Inconel, and Carbon Steel products. With over 5 years of excellence in global trade, we source and supply high-quality pipes, tubes, plates, sheets, round bars, and fasteners that meet the most stringent international standards for critical applications in oil & gas, petrochemical, power generation, aerospace, and marine industries.",
     paragraph2:
-      "Our comprehensive product range covers diverse material grades and specifications to meet your exact requirements. From corrosion-resistant stainless steel to high-temperature Inconel alloys, we provide customized solutions backed by rigorous quality testing, mill test certificates, and compliance with ASTM, ASME, API, DIN, and EN standards. Trusted by 800+ organizations across 60+ countries.",
+      "Our comprehensive product range covers diverse material grades and specifications to meet your exact requirements. From corrosion-resistant stainless steel to high-temperature Inconel alloys, we provide customized solutions backed by rigorous quality testing, mill test certificates, and compliance with ASTM, ASME, API, DIN, and EN standards. Trusted by 50+ organizations across 5+ countries.",
     specifications: [
       {
         label: "Stainless Steel",

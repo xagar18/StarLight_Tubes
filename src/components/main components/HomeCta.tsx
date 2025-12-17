@@ -12,9 +12,8 @@ export default function CtaSection1() {
 
           <div className="relative mx-auto max-w-6xl">
             {/* Heading */}
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center mb-8">
-              StarLight Tubes — India's Leading Steel Pipe Manufacturer &
-              Exporter
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white text-center mb-8">
+              StarLight Tubes — India's Leading Steel Pipe Exporter
             </h1>
 
             {/* Content Grid */}
@@ -27,7 +26,7 @@ export default function CtaSection1() {
                     Our Expertise
                   </h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Established in 1992, we are India's premier manufacturer &
+                    Established in 2020, we are India's premier manufacturer &
                     exporter of ERW and Seamless pipes. Our size range includes
                     ERW Pipe from 21.3mm to 508mm OD and Seamless Pipe from 10mm
                     to 508mm OD.
@@ -68,9 +67,9 @@ export default function CtaSection1() {
                     <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
                     Boiler Division
                   </h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    New division for boiler manufacturers offering a complete
-                    range of boiler steel materials. Visit{" "}
+                    <p className="text-gray-300 leading-relaxed">
+                    Our new boiler division offers a complete range of boiler
+                    steel materials for industrial applications. Visit{" "}
                     <a
                       href="https://www.starlighttubes.com"
                       className="underline text-green-400 hover:text-green-300 transition-colors font-medium"

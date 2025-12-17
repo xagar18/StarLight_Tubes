@@ -191,19 +191,19 @@ export default function ContactForm() {
               </div>
               <div className="text-center">
                 <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">
-                  800+
+                  400+
                 </div>
                 <div className="text-gray-400 text-sm">Happy Clients</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl md:text-3xl font-bold text-green-400 mb-1">
-                  60+
+                  5+
                 </div>
                 <div className="text-gray-400 text-sm">Countries Served</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">
-                  30+
+                  5+
                 </div>
                 <div className="text-gray-400 text-sm">Years Experience</div>
               </div>

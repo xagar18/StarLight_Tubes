@@ -1,10 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 export default function ComingSoon() {
-  // Setting launch date: Tomorrow 6:00 PM IST
-  const launchDate = new Date();
-  launchDate.setDate(launchDate.getDate() + 1);
-  launchDate.setHours(18, 0, 0, 0); // 6:00 PM
+  const launchDate = useMemo(() => {
+    const date = new Date();
+    date.setDate(date.getDate() + 1);
+    date.setHours(18, 0, 0, 0); // 6:00 PM
+    return date;
+  }, []);
 
   const [timeLeft, setTimeLeft] = useState(launchDate.getTime() - Date.now());
 
@@ -15,43 +17,39 @@ export default function ComingSoon() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [launchDate]);
 
   const formatTime = (ms: number) => {
-    const totalSeconds = Math.floor(ms / 1000);
-    const hours = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
-    const minutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(
-      2,
-      "0"
-    );
-    const seconds = String(totalSeconds % 60).padStart(2, "0");
-
-    return { hours, minutes, seconds };
+    const total = Math.floor(ms / 1000);
+    return {
+      hours: String(Math.floor(total / 3600)).padStart(2, "0"),
+      minutes: String(Math.floor((total % 3600) / 60)).padStart(2, "0"),
+      seconds: String(total % 60).padStart(2, "0"),
+    };
   };
 
   const { hours, minutes, seconds } = formatTime(timeLeft);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-black via-gray-900 to-black text-white px-4">
-      <div className="text-center max-w-xl">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-wide">
+    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-black via-gray-900 to-black px-4 text-white">
+      <div className="w-full max-w-md sm:max-w-lg md:max-w-xl text-center">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide">
           Coming Soon
         </h1>
 
-        <p className="mt-4 text-gray-400">
-          We go live tomorrow at{" "}
-          <span className="text-white font-medium">6:00 PM</span>
+        <p className="mt-3 text-sm sm:text-base text-gray-400">
+          Launching tomorrow at <span className="text-white">6:00 PM</span>
         </p>
 
         {/* Countdown */}
-        <div className="mt-10 flex justify-center gap-6">
+        <div className="mt-8 grid grid-cols-3 gap-3 sm:gap-6">
           <TimeBox label="Hours" value={hours} />
           <TimeBox label="Minutes" value={minutes} />
           <TimeBox label="Seconds" value={seconds} />
         </div>
 
-        <p className="mt-10 text-sm text-gray-500">
-          Stay tuned. Something exciting is coming.
+        <p className="mt-8 text-xs sm:text-sm text-gray-500">
+          Stay tuned. We’re almost live.
         </p>
       </div>
     </div>
@@ -60,9 +58,11 @@ export default function ComingSoon() {
 
 function TimeBox({ label, value }: { label: string; value: string }) {
   return (
-    <div className="bg-gray-900 border border-gray-700 rounded-xl px-6 py-4 w-24">
-      <div className="text-3xl font-bold">{value}</div>
-      <div className="text-xs text-gray-400 mt-1">{label}</div>
+    <div className="bg-gray-900 border border-gray-700 rounded-xl py-4 sm:py-5 flex flex-col items-center">
+      <span className="text-2xl sm:text-3xl font-bold">{value}</span>
+      <span className="mt-1 text-[10px] sm:text-xs text-gray-400 uppercase tracking-wider">
+        {label}
+      </span>
     </div>
   );
 }

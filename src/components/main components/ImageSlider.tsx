@@ -4,13 +4,13 @@ import { ImagesSlider } from "../ui/images-slider";
 
 export function ImagesSliderDemo() {
   const images = [
-    "/MainScrollableImage/Home.png",
-    "/MainScrollableImage/Home1.png",
-    "/MainScrollableImage/Home2.png",
-    "/MainScrollableImage/Home3.jpg",
-    "/MainScrollableImage/Home4.png",
-    "/MainScrollableImage/Home5.png",
-    "/MainScrollableImage/Home6.png",
+    "/MainScrollableImage/Home.webp",
+    "/MainScrollableImage/Home1.webp",
+    "/MainScrollableImage/Home2.webp",
+    "/MainScrollableImage/Home3.webp",
+    "/MainScrollableImage/Home4.webp",
+    "/MainScrollableImage/Home5.webp",
+    "/MainScrollableImage/Home6.webp",
   ];
 
   const texts = [

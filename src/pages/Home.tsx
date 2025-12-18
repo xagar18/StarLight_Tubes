@@ -22,19 +22,19 @@ const stainlessSteelItems = [
   "316L Stainless Steel Pipe",
 ];
 
-// const stainlessSteelLinks = [
-//   "/stainless-steel-tube",
-//   "/stainless-steel-pipe",
-//   "/stainless-steel-sheet",
-//   "/stainless-steel-round-bar",
-//   "/stainless-steel-fasteners",
-//   "/stainless-steel-wire",
-//   "/stainless-steel-304-pipe",
-//   "/stainless-steel-304-plate",
-//   "/stainless-steel-316-tube",
-//   "/stainless-steel-316-plate",
-//   "/stainless-steel-316l-pipe",
-// ];
+const stainlessSteelLinks = [
+  "/stainless-steel-tube",
+  "/stainless-steel-pipe",
+  "/stainless-steel-sheet",
+  "/stainless-steel-round-bar",
+  "/stainless-steel-fasteners",
+  "/stainless-steel-wire",
+  "/stainless-steel-304-pipe",
+  "/stainless-steel-304-plate",
+  "/stainless-steel-316-tube",
+  "/stainless-steel-316-plate",
+  "/stainless-steel-316l-pipe",
+];
 
 const nickelAlloyItems = [
   "Nickel Pipe",
@@ -51,20 +51,20 @@ const nickelAlloyItems = [
   "Welded Steel Pipe",
 ];
 
-// const nickelAlloyLinks = [
-//   "/nickel-pipe",
-//   "/nickel-sheet",
-//   "/inconel-pipe",
-//   "/inconel-plate",
-//   "/inconel-round-bar",
-//   "/inconel-bolts",
-//   "/inconel-600-plate",
-//   "/inconel-600-pipe",
-//   "/inconel-625-tubing",
-//   "/inconel-625-pipe",
-//   "/inconel-625-plate",
-//   "/welded-steel-pipe",
-// ];
+const nickelAlloyLinks = [
+  "/nickel-pipe",
+  "/nickel-sheet",
+  "/inconel-pipe",
+  "/inconel-plate",
+  "/inconel-round-bar",
+  "/inconel-bolts",
+  "/inconel-600-plate",
+  "/inconel-600-pipe",
+  "/inconel-625-tubing",
+  "/inconel-625-pipe",
+  "/inconel-625-plate",
+  "/welded-steel-pipe",
+];
 
 const carbonSteelItems = [
   "Carbon Steel Pipe",
@@ -79,18 +79,18 @@ const carbonSteelItems = [
   "A672 Pipe",
 ];
 
-// const carbonSteelLinks = [
-//   "/carbon-steel-pipe",
-//   "/astm-a106-pipe",
-//   "/astm-a53-pipe",
-//   "/astm-a333-pipe",
-//   "/api-5l-grade-b-pipe",
-//   "/api-5l-x65-pipe",
-//   "/api-5l-x52-pipe",
-//   "/api-5l-x42-pipe",
-//   "/a671-pipe",
-//   "/a672-pipe",
-// ];
+const carbonSteelLinks = [
+  "/carbon-steel-pipe",
+  "/astm-a106-pipe",
+  "/astm-a53-pipe",
+  "/astm-a333-pipe",
+  "/api-5l-grade-b-pipe",
+  "/api-5l-x65-pipe",
+  "/api-5l-x52-pipe",
+  "/api-5l-x42-pipe",
+  "/a671-pipe",
+  "/a672-pipe",
+];
 
 const Home = () => {
   // SEO optimization for home page
@@ -127,17 +127,17 @@ const Home = () => {
             <MeteorsDemo
               title="Stainless Steel"
               items={stainlessSteelItems}
-              // links={stainlessSteelLinks}
+              links={stainlessSteelLinks}
             />
             <MeteorsDemo
               title="Nickel Alloy"
               items={nickelAlloyItems}
-              // links={nickelAlloyLinks}
+              links={nickelAlloyLinks}
             />
             <MeteorsDemo
               title="Carbon Steel"
               items={carbonSteelItems}
-              // links={carbonSteelLinks}
+              links={carbonSteelLinks}
             />
           </div>
         </div>

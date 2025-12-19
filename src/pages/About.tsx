@@ -29,7 +29,7 @@ const About = () => {
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto text-lg">
                 Leading the industry in quality steel tubes and piping solutions
-                since 1992
+                since 2020
               </p>
             </div>
 

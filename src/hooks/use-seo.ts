@@ -12,7 +12,7 @@ interface SEOProps {
 
 export const useSEO = ({
   title = "Starlight Tubes - Premium Stainless Steel Pipes, Tubes & Nickel Alloys Supplier",
-  description = "Leading manufacturer and supplier of stainless steel pipes, tubes, inconel alloys, carbon steel pipes, and nickel alloys. ISO certified with global delivery.",
+  description = "Leading supplier of stainless steel pipes, tubes, inconel alloys, carbon steel pipes, and nickel alloys. ISO certified with global delivery.",
   keywords = "stainless steel pipe, stainless steel tube, inconel pipe, nickel alloy, carbon steel pipe, 304 stainless steel, 316 stainless steel",
   image = "https://www.starlighttubes.com/StarlightLogo.png",
   url = "https://www.starlighttubes.com",

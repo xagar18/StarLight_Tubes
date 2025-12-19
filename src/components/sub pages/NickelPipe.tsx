@@ -8,23 +8,23 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const NickelPipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Nickel Alloy Pipes and Tubes",
+      img: "/nickel-pipe/nickel-alloy-pipe-suppliers.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Seamless Nickel Alloy Pipe",
+      img: "/nickel-pipe/nickel-alloy-tube-suppliers.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Nickel Alloy Tubing",
+      img: "/nickel-pipe/nickel-alloy-tubing-suppliers.jpg",
     },
   ];
 
   const ctaData = {
     title: "Premium Nickel Alloy Pipes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-purity nickel alloy pipes designed for extreme temperature and corrosive environments. Our nickel pipes offer exceptional resistance to oxidation, sulfidation, and chloride stress corrosion cracking, making them ideal for chemical processing, petrochemical refineries, power generation, and aerospace applications where standard stainless steel cannot perform.",
+      "Starlight Tubes supplies high-purity nickel alloy pipes designed for extreme temperature and corrosive environments. Our nickel pipes offer exceptional resistance to oxidation, sulfidation, and chloride stress corrosion cracking, making them ideal for chemical processing, petrochemical refineries, power generation, and aerospace applications where standard stainless steel cannot perform.",
     paragraph2:
       "Available in seamless and welded configurations, our nickel alloy pipes are manufactured from grades including Nickel 200, Nickel 201, and other specialty alloys. Each pipe undergoes comprehensive testing including PMI verification, hydrostatic testing, ultrasonic inspection, and corrosion resistance evaluation to ensure superior quality and reliability in demanding service conditions.",
     specifications: [
@@ -82,7 +82,7 @@ const NickelPipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

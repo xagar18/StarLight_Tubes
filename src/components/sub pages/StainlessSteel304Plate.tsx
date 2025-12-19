@@ -8,16 +8,16 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const StainlessSteel304Plate = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "ASTM A240 Type 304",
+      img: "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Stainless Steel Sheet Type 304",
+      img: "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "304 Stainless Steel Strip",
+      img: "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg",
     },
   ];
 
@@ -81,7 +81,7 @@ const StainlessSteel304Plate = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

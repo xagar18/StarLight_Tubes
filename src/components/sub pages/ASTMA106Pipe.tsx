@@ -82,7 +82,7 @@ const ASTMA106Pipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">

@@ -8,23 +8,23 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const StainlessSteelRoundBar = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Stainless Steel Round Bar",
+      img: "/stainless-steel-round-bar/round-bar.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Stainless Steel Hex Bar",
+      img: "/stainless-steel-round-bar/hex-bar.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Stainless Steel Square Bar",
+      img: "/stainless-steel-round-bar/square-bar.jpg",
     },
   ];
 
   const ctaData = {
     title: "Premium Stainless Steel Round Bars",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
+      "Starlight Tubes supplies high-quality stainless steel round bars for precision engineering, machining, and fabrication applications. Our round bars are produced from premium grade stainless steel alloys, offering excellent mechanical properties, corrosion resistance, and machinability for automotive, aerospace, construction, and general engineering industries.",
     paragraph2:
       "Available in hot rolled, cold drawn, and bright polished conditions, our stainless steel round bars meet international specifications. Each bar is manufactured under strict quality control with full traceability and certification. We offer custom cutting, straightening, and surface finishing services to meet your exact requirements.",
     specifications: [
@@ -82,7 +82,7 @@ const StainlessSteelRoundBar = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

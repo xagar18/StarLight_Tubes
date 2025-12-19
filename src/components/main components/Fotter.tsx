@@ -55,7 +55,11 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="md:col-span-1">
             <div className="flex items-center mb-6">
-              <img src="/StarlightLogo.png" alt="" className="size-10" />
+              <img
+                src="/StarlightLogo.png"
+                alt=""
+                className="size-10 mx-auto"
+              />
             </div>
             <p className="text-sm leading-relaxed mb-8">
               Shop No. 01, Ground floor, 121/123, Nageshwar Bhuvan Bldg,
@@ -73,7 +77,7 @@ export default function Footer() {
                     {link.external ? (
                       <a
                         href={link.path}
-                        className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
+                        className="text-sm  text-gray-400 hover:text-purple-400 transition-colors"
                       >
                         {link.name}
                       </a>
@@ -93,10 +97,33 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-700 mt-12 pt-8">
-          <p className="text-sm text-gray-400">
-            © 2025 Starlight Tubes. All rights reserved. |
-            www.starlighttubes.com | GSTIN: 27DMZPA1125E1Z6
+        <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+            <p className="text-sm text-gray-400">
+              © 2025 Starlight Tubes. All rights reserved.
+            </p>
+            <span className="hidden md:inline text-gray-600">|</span>
+            <a
+              href="https://www.starlighttubes.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
+            >
+              www.starlighttubes.com
+            </a>
+            <span className="hidden md:inline text-gray-600">|</span>
+            <p className="text-sm text-gray-400">GSTIN: 27DMZPA1125E1Z6</p>
+          </div>
+          <p className="text-sm text-gray-400 flex items-center gap-1">
+            Crafted with <span className="text-red-500">♥</span> by{" "}
+            <a
+              href="https://xagar.me"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Sagar
+            </a>
           </p>
         </div>
       </div>

@@ -83,7 +83,7 @@ const InconelRoundBar = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

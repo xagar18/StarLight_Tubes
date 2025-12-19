@@ -8,23 +8,23 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const StainlessSteelPipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Stainless Steel Pipe",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier1.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "SS ERW Pipe",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier2.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Stainless Steel Seamless Pipe",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier3.jpg",
     },
   ];
 
   const ctaData = {
     title: "Premium Stainless Steel Pipes",
     paragraph1:
-      "Starlight Tubes is a leading manufacturer and supplier of high-quality stainless steel pipes designed for critical applications across diverse industries. Our pipes offer exceptional resistance to corrosion, oxidation, and high temperatures, making them ideal for oil & gas pipelines, chemical processing plants, water treatment facilities, and food processing industries.",
+      "Starlight Tubes is a leading  supplier of high-quality stainless steel pipes designed for critical applications across diverse industries. Our pipes offer exceptional resistance to corrosion, oxidation, and high temperatures, making them ideal for oil & gas pipelines, chemical processing plants, water treatment facilities, and food processing industries.",
     paragraph2:
       "Our comprehensive range includes seamless and welded stainless steel pipes manufactured to stringent quality standards. Each pipe undergoes thorough testing including hydrostatic testing, ultrasonic inspection, and dimensional verification to ensure superior quality and reliability for your industrial projects.",
     specifications: [
@@ -81,7 +81,7 @@ const StainlessSteelPipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

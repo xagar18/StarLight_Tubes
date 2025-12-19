@@ -1,7 +1,7 @@
 {
   "name": "Starlight Tubes - Premium Steel & Alloys Supplier",
   "short_name": "Starlight Tubes",
-  "description": "Leading manufacturer and supplier of stainless steel pipes, tubes, inconel alloys, carbon steel pipes, and nickel alloys.",
+  "description": "Leading supplier of stainless steel pipes, tubes, inconel alloys, carbon steel pipes, and nickel alloys.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -21,7 +21,7 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["business", "manufacturing", "industrial"],
+  "categories": ["business", "supplier", "industrial"],
   "lang": "en-US",
   "dir": "ltr"
 }

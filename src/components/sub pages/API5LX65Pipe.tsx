@@ -24,7 +24,7 @@ const API5LX65Pipe = () => {
   const ctaData = {
     title: "Premium API 5L X65 High-Strength Line Pipes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies premium API 5L X65 high-strength line pipes engineered for demanding oil and gas transmission applications. API 5L X65 pipes offer minimum yield strength of 65,300 psi (450 MPa) with excellent toughness and weldability, making them ideal for high-pressure natural gas pipelines, offshore deepwater installations, and long-distance transmission systems requiring superior mechanical properties.",
+      "Starlight Tubes supplies premium API 5L X65 high-strength line pipes engineered for demanding oil and gas transmission applications. API 5L X65 pipes offer minimum yield strength of 65,300 psi (450 MPa) with excellent toughness and weldability, making them ideal for high-pressure natural gas pipelines, offshore deepwater installations, and long-distance transmission systems requiring superior mechanical properties.",
     paragraph2:
       "Our API 5L X65 pipes are produced through controlled thermomechanical rolling (TMCP) or quench and temper processes to achieve optimal microstructure and mechanical properties. Each pipe undergoes comprehensive testing including tensile testing, CVN impact testing at low temperatures, DWTT, HIC/SSC testing for sour service, and full-body ultrasonic inspection to ensure PSL2 compliance for critical pipeline projects.",
     specifications: [
@@ -83,7 +83,7 @@ const API5LX65Pipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">

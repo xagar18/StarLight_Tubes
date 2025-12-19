@@ -24,7 +24,7 @@ const InconelBolts = () => {
   const ctaData = {
     title: "Premium Inconel Alloy Bolts & Fasteners",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-performance Inconel alloy bolts, nuts, screws, studs, and fasteners designed for extreme service conditions requiring exceptional strength retention at elevated temperatures. Our Inconel fasteners provide outstanding resistance to oxidation, corrosion, thermal fatigue, and stress-corrosion cracking, making them critical for aerospace assemblies, gas turbine installations, nuclear power plants, and high-temperature petrochemical processing equipment.",
+      "Starlight Tubes supplies high-performance Inconel alloy bolts, nuts, screws, studs, and fasteners designed for extreme service conditions requiring exceptional strength retention at elevated temperatures. Our Inconel fasteners provide outstanding resistance to oxidation, corrosion, thermal fatigue, and stress-corrosion cracking, making them critical for aerospace assemblies, gas turbine installations, nuclear power plants, and high-temperature petrochemical processing equipment.",
     paragraph2:
       "We produce Inconel fasteners in fully threaded and partially threaded configurations across multiple grades, thread standards, and head styles. Each fastener is manufactured to exacting specifications and undergoes rigorous testing including dimensional inspection, hardness verification, thread gauging, and material certification to ensure reliable performance in critical bolted joint applications operating from cryogenic to 1800°F temperatures.",
     specifications: [
@@ -82,7 +82,7 @@ const InconelBolts = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

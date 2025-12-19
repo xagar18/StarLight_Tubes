@@ -24,7 +24,7 @@ const A672Pipe = () => {
   const ctaData = {
     title: "Premium ASTM A672 EFW Pipes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies premium ASTM A672 Electric Fusion Welded (EFW) steel pipes designed for high-pressure service at moderate temperatures. ASTM A672 pipes are fabricated from carbon and alloy steel plates with double submerged arc welding and are essential for steam systems, high-pressure process piping, hydrocracker units, and critical pressure applications in power generation and petrochemical industries.",
+      "Starlight Tubes supplies premium ASTM A672 Electric Fusion Welded (EFW) steel pipes designed for high-pressure service at moderate temperatures. ASTM A672 pipes are fabricated from carbon and alloy steel plates with double submerged arc welding and are essential for steam systems, high-pressure process piping, hydrocracker units, and critical pressure applications in power generation and petrochemical industries.",
     paragraph2:
       "Our ASTM A672 pipes are available in multiple grades including B60, B65, B70, C60, C65, C70, D70, E60, E65, and E70 with various class designations for different pressure ratings. Each pipe undergoes 100% radiographic inspection of weld seams, stress relief heat treatment, hydrostatic testing, and mechanical property verification to ensure superior performance in demanding high-pressure service conditions.",
     specifications: [
@@ -83,7 +83,7 @@ const A672Pipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">

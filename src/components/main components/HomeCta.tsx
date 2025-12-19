@@ -26,10 +26,9 @@ export default function CtaSection1() {
                     Our Expertise
                   </h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Established in 2020, we are India's premier manufacturer &
-                    exporter of ERW and Seamless pipes. Our size range includes
-                    ERW Pipe from 21.3mm to 508mm OD and Seamless Pipe from 10mm
-                    to 508mm OD.
+                    Established in 2020, we are India's premier exporter of ERW
+                    and Seamless pipes. Our size range includes ERW Pipe from
+                    21.3mm to 508mm OD and Seamless Pipe from 10mm to 508mm OD.
                   </p>
                 </div>
 
@@ -58,7 +57,7 @@ export default function CtaSection1() {
                     Leading supplier of Seamless Steel Tube, Line Pipe, OCTG &
                     Coated Pipes to Oil & Gas industries across UAE, Qatar,
                     Bahrain, Oman, Saudi Arabia, Kuwait, Malaysia, Singapore,
-                    Indonesia and 60+ countries.
+                    Indonesia and 10+ countries.
                   </p>
                 </div>
 
@@ -67,7 +66,7 @@ export default function CtaSection1() {
                     <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
                     Boiler Division
                   </h3>
-                    <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed">
                     Our new boiler division offers a complete range of boiler
                     steel materials for industrial applications. Visit{" "}
                     <a

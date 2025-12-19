@@ -53,7 +53,6 @@ export default function ContactForm() {
                     type="text"
                     name="name"
                     required
-                    placeholder="John Doe"
                     className="block w-full rounded-lg border-0 bg-white/10 px-4 py-3 text-white ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-green-500"
                   />
                 </div>
@@ -67,7 +66,6 @@ export default function ContactForm() {
                     type="email"
                     name="email"
                     required
-                    placeholder="you@example.com"
                     className="block w-full rounded-lg border-0 bg-white/10 px-4 py-3 text-white ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-green-500"
                   />
                 </div>
@@ -82,7 +80,6 @@ export default function ContactForm() {
                   <input
                     type="tel"
                     name="phone"
-                    placeholder="+91 98765 43210"
                     className="block w-full rounded-lg border-0 bg-white/10 px-4 py-3 text-white ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-green-500"
                   />
                 </div>
@@ -138,7 +135,6 @@ export default function ContactForm() {
                   name="message"
                   rows={5}
                   required
-                  placeholder="Tell us about quantity, grade, delivery location..."
                   className="block w-full rounded-lg border-0 bg-white/10 px-4 py-3 text-white ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-green-500 resize-none"
                 />
               </div>

@@ -24,7 +24,7 @@ const Inconel600Pipe = () => {
   const ctaData = {
     title: "Premium Inconel 600 Pipes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-quality Inconel 600 pipes (UNS N06600) designed for exceptional performance in high-temperature corrosive environments. Inconel 600 pipes offer outstanding resistance to oxidation, carburization, chloride-ion stress-corrosion cracking, and sulfur attack at temperatures up to 2150°F, making them essential for heat treating fixtures, chemical processing plants, nuclear reactor components, and high-temperature furnace applications.",
+      "Starlight Tubes supplies high-quality Inconel 600 pipes (UNS N06600) designed for exceptional performance in high-temperature corrosive environments. Inconel 600 pipes offer outstanding resistance to oxidation, carburization, chloride-ion stress-corrosion cracking, and sulfur attack at temperatures up to 2150°F, making them essential for heat treating fixtures, chemical processing plants, nuclear reactor components, and high-temperature furnace applications.",
     paragraph2:
       "We produce Inconel 600 pipes in seamless and welded configurations with hot finished and cold drawn options. Each pipe is manufactured under stringent quality protocols including solution annealing at 1900-2000°F, ultrasonic inspection, PMI verification, hydrostatic testing, and mechanical property validation to ensure dimensional accuracy and metallurgical integrity for critical high-temperature service.",
     specifications: [
@@ -82,7 +82,7 @@ const Inconel600Pipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

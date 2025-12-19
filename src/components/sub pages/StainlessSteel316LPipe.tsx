@@ -6,20 +6,20 @@ import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
 const StainlessSteel316LPipe = () => {
-  const projects = [
-    {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
-    },
-    {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
-    },
-    {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
-    },
-  ];
+ const projects = [
+   {
+     title: "316L Stainless Steel Pipe",
+     img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier1.jpg",
+   },
+   {
+     title: "SA 312 TP316L Seamless Tube",
+     img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier2.jpg",
+   },
+   {
+     title: "ASTM A213 SS TP 316L Stainless Steel Tubing",
+     img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier3.jpg",
+   },
+ ];
 
   const ctaData = {
     title: "316L Stainless Steel Pipe",
@@ -83,7 +83,7 @@ const StainlessSteel316LPipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

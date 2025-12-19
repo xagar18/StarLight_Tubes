@@ -24,7 +24,7 @@ const API5LGradeBPipe = () => {
   const ctaData = {
     title: "Premium API 5L Grade B Line Pipes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-quality API 5L Grade B line pipes designed for oil and gas transmission pipeline systems. API 5L Grade B pipes offer minimum yield strength of 35,500 psi (245 MPa) and are widely used for conveying natural gas, crude oil, and petroleum products in onshore and offshore pipeline installations. Available in PSL1 and PSL2 specifications to meet varying service requirements.",
+      "Starlight Tubes supplies high-quality API 5L Grade B line pipes designed for oil and gas transmission pipeline systems. API 5L Grade B pipes offer minimum yield strength of 35,500 psi (245 MPa) and are widely used for conveying natural gas, crude oil, and petroleum products in onshore and offshore pipeline installations. Available in PSL1 and PSL2 specifications to meet varying service requirements.",
     paragraph2:
       "Our API 5L Grade B pipes are manufactured in seamless (SMLS) and welded (ERW, SAW, DSAW) configurations with comprehensive quality assurance. Each pipe undergoes hydrostatic testing, non-destructive examination, chemical analysis, and mechanical testing including tensile, CVN impact, and guided bend tests to ensure compliance with API specifications for critical pipeline applications.",
     specifications: [
@@ -82,7 +82,7 @@ const API5LGradeBPipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">

@@ -6,25 +6,25 @@ import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
 const StainlessSteelWire = () => {
-  const projects = [
-    {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
-    },
-    {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
-    },
-    {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
-    },
-  ];
+   const projects = [
+     {
+       title: "Stainless Steel Wire",
+       img: "/stainless-steel-wire/wire-manufacturer-supplier-1.jpg",
+     },
+     {
+       title: "Stainless Steel Welding Wire",
+       img: "/stainless-steel-wire/wire-manufacturer-supplier-2.jpg",
+     },
+     {
+       title: "Stainless Steel Wire Mesh",
+       img: "/stainless-steel-wire/wire-manufacturer-supplier-3.jpg",
+     },
+   ];
 
   const ctaData = {
     title: "Premium Stainless Steel Wire",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-quality stainless steel wire for diverse applications including weaving, spring manufacturing, wire mesh production, fastener manufacturing, and cable construction. Our wires offer excellent tensile strength, corrosion resistance, and formability, making them ideal for automotive, aerospace, medical devices, and industrial applications.",
+      "Starlight Tubes supplies high-quality stainless steel wire for diverse applications including weaving, spring manufacturing, wire mesh production, fastener manufacturing, and cable construction. Our wires offer excellent tensile strength, corrosion resistance, and formability, making them ideal for automotive, aerospace, medical devices, and industrial applications.",
     paragraph2:
       "Available in bright, soft annealed, and cold drawn conditions, our stainless steel wires are manufactured to precise tolerances with consistent quality. We offer custom wire drawing, straightening, and cutting services. Each coil is tested for mechanical properties and surface quality to ensure reliable performance in your applications.",
     specifications: [
@@ -81,7 +81,7 @@ const StainlessSteelWire = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

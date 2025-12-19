@@ -8,23 +8,23 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const InconelPipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Inconel pipe",
+      img: "/inconel-pipe/inconel-pipe-supplier1.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Welded Pipe",
+      img: "/inconel-pipe/inconel-pipe-supplier2.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Seamless Pipe",
+      img: "/inconel-pipe/inconel-pipe-supplier3.jpg",
     },
   ];
 
   const ctaData = {
     title: "Premium Inconel Alloy Pipes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies premium Inconel alloy pipes engineered for extreme high-temperature and corrosive applications. Inconel pipes offer outstanding strength, oxidation resistance, and resistance to stress-corrosion cracking, making them essential for aerospace engines, nuclear reactors, chemical processing plants, and gas turbines operating above 1000°F.",
+      "Starlight Tubes supplies premium Inconel alloy pipes engineered for extreme high-temperature and corrosive applications. Inconel pipes offer outstanding strength, oxidation resistance, and resistance to stress-corrosion cracking, making them essential for aerospace engines, nuclear reactors, chemical processing plants, and gas turbines operating above 1000°F.",
     paragraph2:
       "Our Inconel pipes are available in seamless and welded configurations across multiple grades including Inconel 600, 625, 718, and 825. Each pipe undergoes stringent quality control including solution annealing, PMI testing, ultrasonic inspection, and mechanical property verification to ensure exceptional performance in the most demanding industrial environments.",
     specifications: [
@@ -82,7 +82,7 @@ const InconelPipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

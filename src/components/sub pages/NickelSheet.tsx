@@ -8,16 +8,16 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const NickelSheet = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Nickel Plate",
+      img: "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Nickel Sheet",
+      img: "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Nickel Coil",
+      img: "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg",
     },
   ];
 
@@ -80,7 +80,7 @@ const NickelSheet = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

@@ -6,20 +6,20 @@ import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
 const StainlessSteelFasteners = () => {
-  const projects = [
-    {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
-    },
-    {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
-    },
-    {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
-    },
-  ];
+   const projects = [
+     {
+       title: "Stainless Steel Bolts",
+       img: "/stainless-steel-fasteners/bolts-stud-bolts-manufacturers.jpg",
+     },
+     {
+       title: "Stainless Steel Fasteners",
+       img: "/stainless-steel-fasteners/fasteners-nuts-bolts-manufacturer-india.jpg",
+     },
+     {
+       title: "Stainless Steel Nuts",
+       img: "/stainless-steel-fasteners/nut-nuts-manufacturers-india.jpg",
+     },
+   ];
 
   const ctaData = {
     title: "Premium Stainless Steel Fasteners",
@@ -82,7 +82,7 @@ const StainlessSteelFasteners = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

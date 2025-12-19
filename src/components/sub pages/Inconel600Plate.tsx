@@ -24,7 +24,7 @@ const Inconel600Plate = () => {
   const ctaData = {
     title: "Premium Inconel 600 Plates",
     paragraph1:
-      "Starlight Tubes manufactures and supplies premium Inconel 600 plates (UNS N06600) specifically engineered for high-temperature applications requiring excellent resistance to oxidation and chloride-ion stress-corrosion cracking. Inconel 600 plates provide exceptional mechanical strength from cryogenic temperatures to 2000°F, making them ideal for heat treating equipment, chemical processing vessels, nuclear steam generator tubing supports, and furnace components.",
+      "Starlight Tubes supplies premium Inconel 600 plates (UNS N06600) specifically engineered for high-temperature applications requiring excellent resistance to oxidation and chloride-ion stress-corrosion cracking. Inconel 600 plates provide exceptional mechanical strength from cryogenic temperatures to 2000°F, making them ideal for heat treating equipment, chemical processing vessels, nuclear steam generator tubing supports, and furnace components.",
     paragraph2:
       "Our Inconel 600 plates are available in hot rolled, cold rolled, and solution-annealed conditions with various surface finishes. Each plate undergoes comprehensive quality control including chemical analysis, mechanical testing, ultrasonic inspection, and surface examination to ensure compliance with ASTM specifications and superior performance in corrosive high-temperature environments.",
     specifications: [
@@ -80,8 +80,7 @@ const Inconel600Plate = () => {
             specifications={ctaData.specifications}
           />
         </div>
-
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

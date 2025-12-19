@@ -8,23 +8,23 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const InconelPlate = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Plate",
+      img: "/inconel-plate/inconel-plate-supplier.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Sheet",
+      img: "/inconel-plate/inconel-sheet-supplier.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Coil",
+      img: "/inconel-plate/inconel-coil-supplier.jpg",
     },
   ];
 
   const ctaData = {
     title: "Premium Inconel Alloy Plates",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-performance Inconel alloy plates designed for extreme temperature and corrosive service conditions. Our Inconel plates provide exceptional oxidation resistance, high mechanical strength at elevated temperatures, and superior resistance to chloride-ion stress-corrosion cracking, making them ideal for aerospace components, nuclear reactor vessels, heat exchangers, and chemical processing equipment.",
+      "Starlight Tubes supplies high-performance Inconel alloy plates designed for extreme temperature and corrosive service conditions. Our Inconel plates provide exceptional oxidation resistance, high mechanical strength at elevated temperatures, and superior resistance to chloride-ion stress-corrosion cracking, making them ideal for aerospace components, nuclear reactor vessels, heat exchangers, and chemical processing equipment.",
     paragraph2:
       "We offer Inconel plates in various grades with hot rolled, cold rolled, and solution-annealed finishes. Each plate is manufactured under strict quality protocols including ultrasonic testing, chemical composition analysis, mechanical testing, and surface inspection to guarantee dimensional accuracy and metallurgical integrity for critical applications.",
     specifications: [
@@ -81,7 +81,7 @@ const InconelPlate = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

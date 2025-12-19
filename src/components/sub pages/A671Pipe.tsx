@@ -24,7 +24,7 @@ const A671Pipe = () => {
   const ctaData = {
     title: "Premium ASTM A671 EFW Pipes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies premium ASTM A671 Electric Fusion Welded (EFW) steel pipes designed for atmospheric and lower temperature service applications. ASTM A671 pipes are fabricated from pressure vessel quality steel plates with double submerged arc welding (DSAW) and are widely used in power plants, refineries, chemical facilities, and pressure piping systems where high integrity welded joints are essential.",
+      "Starlight Tubes supplies premium ASTM A671 Electric Fusion Welded (EFW) steel pipes designed for atmospheric and lower temperature service applications. ASTM A671 pipes are fabricated from pressure vessel quality steel plates with double submerged arc welding (DSAW) and are widely used in power plants, refineries, chemical facilities, and pressure piping systems where high integrity welded joints are essential.",
     paragraph2:
       "Our ASTM A671 pipes are available in multiple grades and classes including CC60, CC65, CC70, CE55, CE60, CE65, and CF66 to meet various pressure and temperature requirements. Each pipe undergoes 100% radiographic examination of weld seams, hydrostatic testing, and comprehensive mechanical testing to ensure compliance with ASME specifications for critical pressure service applications.",
     specifications: [
@@ -82,7 +82,7 @@ const A671Pipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">

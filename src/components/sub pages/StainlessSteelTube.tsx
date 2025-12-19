@@ -9,22 +9,22 @@ const StainlessSteelTube = () => {
   const projects = [
     {
       title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      img: "/stainless-steel-tube/stainless-steel-tube-tubing-supplier1.jpg",
     },
     {
       title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      img: "/stainless-steel-tube/stainless-steel-tube-tubing-supplier2.jpg",
     },
     {
       title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      img: "/stainless-steel-tube/stainless-steel-tube-tubing-supplier3.jpg",
     },
   ];
 
   const ctaData = {
     title: "Premium Stainless Steel Tubes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-quality stainless steel tubes that meet international standards. Our tubes are engineered for superior corrosion resistance, durability, and performance in demanding industrial applications including oil & gas, petrochemical, power generation, and marine industries.",
+      "Starlight Tubes supplies high-quality stainless steel tubes that meet international standards. Our tubes are engineered for superior corrosion resistance, durability, and performance in demanding industrial applications including oil & gas, petrochemical, power generation, and marine industries.",
     paragraph2:
       "Available in seamless and welded configurations, our stainless steel tubes are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, ASME, and international specifications. We offer customized solutions to meet your specific project requirements.",
     specifications: [
@@ -83,7 +83,7 @@ const StainlessSteelTube = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
 
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

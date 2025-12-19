@@ -24,7 +24,7 @@ const CarbonSteelPipe = () => {
   const ctaData = {
     title: "Premium Carbon Steel Pipes",
     paragraph1:
-      "Starlight Tubes manufactures and supplies high-quality carbon steel pipes engineered for structural, mechanical, and pressure applications across diverse industries. Our carbon steel pipes offer excellent strength-to-weight ratio, superior weldability, and cost-effective solutions for oil & gas transmission, water distribution, construction, and industrial piping systems requiring reliable performance under moderate temperature and pressure conditions.",
+      "Starlight Tubes supplies high-quality carbon steel pipes engineered for structural, mechanical, and pressure applications across diverse industries. Our carbon steel pipes offer excellent strength-to-weight ratio, superior weldability, and cost-effective solutions for oil & gas transmission, water distribution, construction, and industrial piping systems requiring reliable performance under moderate temperature and pressure conditions.",
     paragraph2:
       "We produce carbon steel pipes in seamless and welded configurations across multiple grades including low carbon, medium carbon, and high carbon variants. Each pipe undergoes comprehensive quality control including hydrostatic testing, ultrasonic inspection, dimensional verification, and mechanical property testing to ensure compliance with ASTM, API, and EN standards for critical pipeline and structural applications.",
     specifications: [
@@ -83,7 +83,7 @@ const CarbonSteelPipe = () => {
           />
         </div>
 
-        {/* Manufacturer & Exporter Section */}
+        {/* Exporter Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">

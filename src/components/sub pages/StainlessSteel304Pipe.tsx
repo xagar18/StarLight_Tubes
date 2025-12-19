@@ -8,23 +8,23 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const StainlessSteel304Pipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "ASTM A312 TP304",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier1.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "304 Stainless Steel Tubing",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier2.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "304 Stainless Steel Pipe",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier3.jpg",
     },
   ];
 
   const ctaData = {
     title: "304 Stainless Steel Pipe",
     paragraph1:
-      "Starlight Tubes manufactures and supplies premium quality 304 stainless steel pipes, the most versatile and widely used austenitic stainless steel grade. Grade 304 offers excellent corrosion resistance, formability, and weldability, making it ideal for food processing, pharmaceutical equipment, architectural applications, chemical processing, and general engineering purposes.",
+      "Starlight Tubes supplies premium quality 304 stainless steel pipes, the most versatile and widely used austenitic stainless steel grade. Grade 304 offers excellent corrosion resistance, formability, and weldability, making it ideal for food processing, pharmaceutical equipment, architectural applications, chemical processing, and general engineering purposes.",
     paragraph2:
       "Our 304 stainless steel pipes are available in seamless and welded configurations with various finishes. Each pipe is manufactured using high-grade raw materials and undergoes comprehensive testing including IGC, PMI, hydrostatic testing, and dimensional inspection to ensure superior quality and compliance with international standards.",
     specifications: [
@@ -82,9 +82,7 @@ const StainlessSteel304Pipe = () => {
             specifications={ctaData.specifications}
           />
         </div>
-
-        {/* Manufacturer & Exporter Section */}
-
+        {/* Exporter Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">

@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const Inconel600Plate = () => {
   const projects = [
@@ -45,6 +46,20 @@ const Inconel600Plate = () => {
         value:
           "Heat Treatment Furnaces, Chemical Processing, Nuclear Reactors, Thermal Oxidizers",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel 600 Plate Supplier",
+    description:
+      "Starlight Tubes provides premium Inconel 600 plates for high-temperature oxidation-resistant applications. We offer multiple finishes with complete material certification.",
+    features: [
+      "High Temperature Grade",
+      "Solution Annealed",
+      "Nuclear Approved",
+      "Multiple Finishes",
+      "Custom Cutting",
+      "ASTM B168 Certified",
     ],
   };
   return (
@@ -100,6 +115,13 @@ const Inconel600Plate = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

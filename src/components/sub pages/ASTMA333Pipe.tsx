@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const ASTMA333Pipe = () => {
   const projects = [
@@ -45,6 +46,20 @@ const ASTMA333Pipe = () => {
         value:
           "LNG Plants, Cryogenic Service, Refrigeration, Cold Climate Pipelines, Chemical Processing",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted ASTM A333 Pipe Supplier",
+    description:
+      "Starlight Tubes supplies certified ASTM A333 low-temperature pipes for cryogenic applications. We provide impact tested products for LNG and refrigeration systems.",
+    features: [
+      "Low Temperature Grade",
+      "Charpy Impact Tested",
+      "LNG Plant Approved",
+      "Multiple Grades Stock",
+      "Cryogenic Service",
+      "ASME SA333 Certified",
     ],
   };
 
@@ -102,6 +117,13 @@ const ASTMA333Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

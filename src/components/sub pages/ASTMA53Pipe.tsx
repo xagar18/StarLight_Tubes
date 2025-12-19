@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const ASTMA53Pipe = () => {
   const projects = [
@@ -45,6 +46,20 @@ const ASTMA53Pipe = () => {
         value:
           "Steam Lines, Water Supply, Gas Distribution, Structural, Fire Protection",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted ASTM A53 Pipe Supplier",
+    description:
+      "Starlight Tubes supplies versatile ASTM A53 pipes for general purpose applications. We offer seamless and welded options with black and galvanized finishes.",
+    features: [
+      "Type E, F, S Available",
+      "Grade A & B Stock",
+      "Black & Galvanized",
+      "General Purpose Grade",
+      "Fire Protection Rated",
+      "Competitive Pricing",
     ],
   };
 
@@ -102,6 +117,13 @@ const ASTMA53Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

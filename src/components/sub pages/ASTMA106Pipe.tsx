@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const ASTMA106Pipe = () => {
   const projects = [
@@ -45,6 +46,20 @@ const ASTMA106Pipe = () => {
         value:
           "High Temperature Service, Refineries, Power Plants, Boiler Systems, Process Piping",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted ASTM A106 Pipe Supplier",
+    description:
+      "Starlight Tubes manufactures premium ASTM A106 seamless pipes for high-temperature applications. We provide normalized and quench-tempered options with complete ASME certification.",
+    features: [
+      "High Temperature Grade",
+      "ASME SA106 Certified",
+      "Grade A, B, C Stock",
+      "Hot Finished",
+      "IBR Approved",
+      "Refinery Grade",
     ],
   };
 
@@ -102,6 +117,13 @@ const ASTMA106Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteelFasteners = () => {
   const projects = [
@@ -46,6 +47,20 @@ const StainlessSteelFasteners = () => {
         label: "Size Range",
         value: 'M3 to M100, 1/4" to 4", Length up to 1000mm',
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Stainless Steel Fastener Supplier",
+    description:
+      "Starlight Tubes offers a comprehensive range of stainless steel fasteners for critical applications. We provide certified products with full traceability and competitive pricing.",
+    features: [
+      "ASTM & DIN Certified",
+      "Full Batch Traceability",
+      "Custom Manufacturing",
+      "Corrosion Resistant",
+      "Bulk Order Capability",
+      "Quick Delivery Service",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const StainlessSteelFasteners = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

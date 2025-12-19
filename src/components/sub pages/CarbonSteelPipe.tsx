@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const CarbonSteelPipe = () => {
   const projects = [
@@ -46,6 +47,20 @@ const CarbonSteelPipe = () => {
         value:
           "Oil & Gas, Water Pipelines, Structural, Boiler Tubes, Process Piping",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Carbon Steel Pipe Partner",
+    description:
+      "Starlight Tubes offers reliable carbon steel pipes for structural and pipeline applications. We ensure quality products with complete API and ASTM certifications for your projects.",
+    features: [
+      "API 5L Certified Products",
+      "ASTM Standards Compliant",
+      "Large Stock Availability",
+      "Competitive Market Pricing",
+      "Third Party Inspection",
+      "Quick Turnaround Time",
     ],
   };
 
@@ -103,6 +118,13 @@ const CarbonSteelPipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const API5LGradeBPipe = () => {
   const projects = [
@@ -45,6 +46,20 @@ const API5LGradeBPipe = () => {
         value:
           "Oil & Gas Transmission, Cross-Country Pipelines, Offshore Pipelines, Distribution Lines",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted API 5L Grade B Pipe Supplier",
+    description:
+      "Starlight Tubes supplies API 5L Grade B line pipes for oil and gas transmission. We provide PSL1 and PSL2 certified products with complete API monogram documentation.",
+    features: [
+      "API 5L PSL1/PSL2",
+      "Seamless & Welded",
+      "Pipeline Grade",
+      "Hydrostatic Tested",
+      "3LPE/FBE Coating",
+      "Global Delivery",
     ],
   };
 
@@ -102,6 +117,13 @@ const API5LGradeBPipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

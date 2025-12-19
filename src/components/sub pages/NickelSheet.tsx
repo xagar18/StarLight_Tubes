@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const NickelSheet = () => {
   const projects = [
@@ -44,6 +45,20 @@ const NickelSheet = () => {
         label: "Finish",
         value: "Hot Rolled, Cold Rolled, Annealed, Polished, Pickled",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Nickel Sheet Supplier",
+    description:
+      "Starlight Tubes provides high-purity nickel alloy sheets for chemical and electronic applications. We offer custom fabrication services with complete material traceability.",
+    features: [
+      "High Purity Grades",
+      "Chemical Resistant",
+      "Custom Cutting",
+      "Multiple Finishes",
+      "Electronics Grade",
+      "ASTM B162 Certified",
     ],
   };
   return (
@@ -101,6 +116,13 @@ const NickelSheet = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

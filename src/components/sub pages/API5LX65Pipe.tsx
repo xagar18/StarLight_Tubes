@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const API5LX65Pipe = () => {
   const projects = [
@@ -46,6 +47,20 @@ const API5LX65Pipe = () => {
         value:
           "High-Pressure Gas Pipelines, Offshore Deepwater, Sour Service, Cross-Country Transmission",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted API 5L X65 Pipe Supplier",
+    description:
+      "Starlight Tubes specializes in high-strength API 5L X65 line pipes for demanding pipeline applications. We provide PSL2 certified products with HIC/SSC testing for sour service.",
+    features: [
+      "API 5L PSL2 Certified",
+      "450 MPa Yield Strength",
+      "Sour Service Grade",
+      "HIC/SSC Tested",
+      "Offshore Approved",
+      "TMCP Process",
     ],
   };
 
@@ -103,6 +118,13 @@ const API5LX65Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

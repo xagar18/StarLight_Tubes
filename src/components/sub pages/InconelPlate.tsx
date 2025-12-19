@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const InconelPlate = () => {
   const projects = [
@@ -45,6 +46,20 @@ const InconelPlate = () => {
         label: "Finishes",
         value: "Hot Rolled, Cold Rolled, Solution Annealed, Polished, Pickled",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel Plate Supplier",
+    description:
+      "Starlight Tubes provides premium Inconel alloy plates for extreme temperature and corrosive applications. We offer multiple grades with complete metallurgical certification.",
+    features: [
+      "Multiple Grades Stock",
+      "Aerospace Approved",
+      "Solution Annealed",
+      "Custom Cutting",
+      "Ultrasonic Tested",
+      "ASTM B168 Certified",
     ],
   };
   return (
@@ -102,6 +117,13 @@ const InconelPlate = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

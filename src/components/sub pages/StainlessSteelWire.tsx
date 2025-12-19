@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteelWire = () => {
   const projects = [
@@ -45,6 +46,20 @@ const StainlessSteelWire = () => {
         value:
           "Soft Annealed, Quarter Hard, Half Hard, Full Hard, Spring Temper",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted SS Wire Supplier",
+    description:
+      "Starlight Tubes supplies precision stainless steel wire for diverse applications. We offer custom wire drawing and straightening services with consistent quality.",
+    features: [
+      "ASTM A580 Certified",
+      "Multiple Tempers Available",
+      "Custom Diameters",
+      "Spring Wire Grade",
+      "Coil & Cut Lengths",
+      "Consistent Quality",
     ],
   };
   return (
@@ -102,6 +117,13 @@ const StainlessSteelWire = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

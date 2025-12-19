@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const Inconel625Tubing = () => {
   const projects = [
@@ -46,6 +47,20 @@ const Inconel625Tubing = () => {
         value:
           "Heat Exchangers, Instrumentation Lines, Aerospace, Marine, Chemical Processing",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel 625 Tubing Supplier",
+    description:
+      "Starlight Tubes delivers precision Inconel 625 tubing for demanding applications. We ensure exceptional quality with complete material certification for critical service environments.",
+    features: [
+      "NACE MR0175 Compliant",
+      "Precision Tolerances",
+      "Corrosion Tested",
+      "Heat Exchanger Grade",
+      "AMS Certified",
+      "Rapid Delivery Network",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const Inconel625Tubing = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

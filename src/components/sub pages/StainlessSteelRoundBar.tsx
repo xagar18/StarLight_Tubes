@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteelRoundBar = () => {
   const projects = [
@@ -46,6 +47,20 @@ const StainlessSteelRoundBar = () => {
         label: "Finish",
         value: "Black, Bright, Polished, Peeled, Ground, Centerless Ground",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted SS Round Bar Supplier",
+    description:
+      "Starlight Tubes supplies precision stainless steel round bars for machining and fabrication. We offer multiple finishes and grades with full material traceability.",
+    features: [
+      "ASTM A276 Certified",
+      "Bright Finish Available",
+      "Custom Cutting Service",
+      "Multiple Grades Stock",
+      "Surface Grinding",
+      "Fast Delivery Network",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const StainlessSteelRoundBar = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

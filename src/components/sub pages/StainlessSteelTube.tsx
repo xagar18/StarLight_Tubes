@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteelTube = () => {
   const projects = [
@@ -47,6 +48,20 @@ const StainlessSteelTube = () => {
         label: "Types",
         value: "Seamless, Welded, ERW, EFW with various finishes available",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Stainless Steel Tube Supplier",
+    description:
+      "Starlight Tubes delivers premium stainless steel tubes with unmatched quality and reliability. We ensure timely delivery and competitive pricing for all your industrial tube requirements.",
+    features: [
+      "ISO 9001:2015 Certified",
+      "Full Material Traceability",
+      "Custom Lengths Available",
+      "Global Export Network",
+      "Bulk Order Discounts",
+      "Expert Technical Guidance",
     ],
   };
   return (
@@ -104,6 +119,13 @@ const StainlessSteelTube = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

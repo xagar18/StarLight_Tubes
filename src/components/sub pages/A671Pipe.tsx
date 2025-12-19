@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const A671Pipe = () => {
   const projects = [
@@ -45,6 +46,20 @@ const A671Pipe = () => {
         value:
           "Power Plants, Refineries, Pressure Piping, Chemical Processing, Low Temperature Service",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted ASTM A671 Pipe Supplier",
+    description:
+      "Starlight Tubes supplies certified ASTM A671 EFW pipes for power generation and pressure vessel applications. We ensure 100% radiographic inspection and complete material documentation.",
+    features: [
+      "100% Radiographic Tested",
+      "ASME SA671 Compliant",
+      "Stress Relieved",
+      "Power Plant Approved",
+      "Custom Classes Available",
+      "Complete MTCs Provided",
     ],
   };
 
@@ -102,6 +117,13 @@ const A671Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

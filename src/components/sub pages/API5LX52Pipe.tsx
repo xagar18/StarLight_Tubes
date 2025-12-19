@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const API5LX52Pipe = () => {
   const projects = [
@@ -46,6 +47,20 @@ const API5LX52Pipe = () => {
         value:
           "Gas Distribution, Oil Transmission, Gathering Lines, Process Piping, Plant Piping",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted API 5L X52 Pipe Supplier",
+    description:
+      "Starlight Tubes supplies API 5L X52 line pipes for medium to high-pressure applications. We provide PSL1 and PSL2 certified products with comprehensive quality documentation.",
+    features: [
+      "API 5L PSL1/PSL2",
+      "360 MPa Yield Strength",
+      "Impact Tested",
+      "Seamless & SAW",
+      "DNV Approved",
+      "Fast Track Delivery",
     ],
   };
 
@@ -103,6 +118,13 @@ const API5LX52Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

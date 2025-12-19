@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteel304Pipe = () => {
   const projects = [
@@ -47,6 +48,20 @@ const StainlessSteel304Pipe = () => {
         value:
           "Food Processing, Pharmaceuticals, Architecture, Chemical Plants, Water Treatment",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted 304 Stainless Steel Pipe Supplier",
+    description:
+      "Starlight Tubes is committed to delivering superior quality 304 stainless steel pipes with competitive pricing, fast delivery, and exceptional customer service. Partner with us for your next project.",
+    features: [
+      "ISO 9001:2015 Certified",
+      "Mill Test Certificates Provided",
+      "Custom Sizes Available",
+      "Worldwide Shipping",
+      "Competitive Pricing",
+      "Technical Support 24/7",
     ],
   };
   return (
@@ -102,6 +117,13 @@ const StainlessSteel304Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

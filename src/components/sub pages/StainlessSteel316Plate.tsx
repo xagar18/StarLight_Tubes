@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteel316Plate = () => {
   const projects = [
@@ -46,6 +47,20 @@ const StainlessSteel316Plate = () => {
         label: "Finish",
         value: "2B, BA, No.1, No.4, Hairline, Mirror Polished, Brushed Finish",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted SS 316 Plate Supplier",
+    description:
+      "Starlight Tubes supplies premium 316 stainless steel plates for marine and chemical applications. We offer comprehensive cutting and fabrication services.",
+    features: [
+      "Molybdenum Enhanced",
+      "Marine Grade",
+      "Chloride Resistant",
+      "Multiple Finishes",
+      "Laser Cutting",
+      "ASTM A240 Certified",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const StainlessSteel316Plate = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

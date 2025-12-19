@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const NickelPipe = () => {
   const projects = [
@@ -46,6 +47,20 @@ const NickelPipe = () => {
         value:
           "Chemical Processing, Caustic Soda Production, Aerospace, Electronics, High-Temperature Service",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Nickel Alloy Pipe Supplier",
+    description:
+      "Starlight Tubes provides premium nickel alloy pipes for corrosive and high-temperature applications. Our products meet the stringent requirements of chemical and petrochemical industries.",
+    features: [
+      "High Purity Nickel Grades",
+      "Corrosion Resistance Tested",
+      "Chemical Industry Approved",
+      "Complete Traceability",
+      "Customized Solutions",
+      "Expert Metallurgical Support",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const NickelPipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

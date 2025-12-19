@@ -4,6 +4,7 @@ import { ImagesSliderDemo } from "../components/main components/ImageSlider";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
 import { NavbarDemo } from "../components/main components/Navbar";
 import { CommonCTA } from "../components/sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../components/sub components/BottomCTA";
 
 const Material = () => {
   const ctaData = {
@@ -31,6 +32,23 @@ const Material = () => {
         label: "Product Forms",
         value: "Pipes, Tubes, Plates, Sheets, Round Bars, Fasteners, Wire",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Partner With India's Leading Material Supplier",
+    description:
+      "Starlight Tubes delivers unmatched quality, competitive pricing, and reliable supply chain solutions for all your industrial material needs. With 5+ years of export excellence and 50+ satisfied clients worldwide, we are your trusted partner for critical applications.",
+    features: [
+      "ISO 9001:2015 Certified",
+      "Complete Mill Test Certificates",
+      "Custom Sizes & Specifications",
+      "Worldwide Shipping Network",
+      "Competitive Factory Pricing",
+      "Technical Support 24/7",
+      "Third Party Inspection",
+      "On-Time Delivery Guaranteed",
+      "Bulk Order Discounts",
     ],
   };
   return (
@@ -71,6 +89,13 @@ const Material = () => {
         <div>
           <InfiniteMovingCardsDemo />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         <div>
           <StatsGrid />

@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteelPipe = () => {
   const projects = [
@@ -45,6 +46,20 @@ const StainlessSteelPipe = () => {
         label: "Types",
         value: "Seamless, ERW, EFW, LSAW, DSAW with polished or pickled finish",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Stainless Steel Pipe Supplier",
+    description:
+      "Starlight Tubes is a leading manufacturer and exporter of stainless steel pipes. We provide certified products with competitive pricing and reliable delivery for your industrial projects.",
+    features: [
+      "ASTM A312 Certified",
+      "Seamless & Welded Types",
+      "Multiple Grades Stock",
+      "Competitive Pricing",
+      "IBR Approved",
+      "Worldwide Export",
     ],
   };
   return (
@@ -102,6 +117,13 @@ const StainlessSteelPipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

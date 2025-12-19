@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const Inconel600Pipe = () => {
   const projects = [
@@ -46,6 +47,20 @@ const Inconel600Pipe = () => {
         value:
           "Thermal Processing, Nuclear Steam Generators, Chemical Plants, Heat Exchangers",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel 600 Pipe Supplier",
+    description:
+      "Starlight Tubes specializes in Inconel 600 pipes for high-temperature oxidation-resistant applications. We provide solution-annealed products with complete metallurgical certification.",
+    features: [
+      "Solution Annealed",
+      "Nuclear Grade Available",
+      "High Temperature Rated",
+      "Oxidation Resistant",
+      "AMS Specifications",
+      "Expert Technical Support",
     ],
   };
   return (
@@ -102,6 +117,13 @@ const Inconel600Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

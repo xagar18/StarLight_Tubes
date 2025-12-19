@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const InconelPipe = () => {
   const projects = [
@@ -46,6 +47,20 @@ const InconelPipe = () => {
         value:
           "Aerospace, Nuclear Power, Gas Turbines, Chemical Processing, Heat Treatment Furnaces",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel Pipe Supplier",
+    description:
+      "Starlight Tubes specializes in high-performance Inconel alloy pipes for extreme environments. We provide certified products with complete documentation for aerospace and nuclear applications.",
+    features: [
+      "Aerospace & Nuclear Approved",
+      "Complete Material Certification",
+      "Solution Annealed Condition",
+      "PMI Tested Products",
+      "Custom Alloy Grades",
+      "Dedicated Technical Team",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const InconelPipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

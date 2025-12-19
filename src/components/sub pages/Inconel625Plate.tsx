@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const Inconel625Plate = () => {
   const projects = [
@@ -45,6 +46,20 @@ const Inconel625Plate = () => {
         value:
           "Marine Structures, Chemical Processing, Aerospace, FGD Systems, Seawater Desalination",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel 625 Plate Supplier",
+    description:
+      "Starlight Tubes provides high-performance Inconel 625 plates for marine and chemical applications. We offer cutting services with complete IGC and corrosion test reports.",
+    features: [
+      "Marine Grade Quality",
+      "IGC Tested per ASTM A262",
+      "Aerospace Approved",
+      "Custom Cutting",
+      "Multiple Finishes",
+      "ASTM B443 Certified",
     ],
   };
   return (
@@ -102,6 +117,13 @@ const Inconel625Plate = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

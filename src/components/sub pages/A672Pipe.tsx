@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const A672Pipe = () => {
   const projects = [
@@ -46,6 +47,20 @@ const A672Pipe = () => {
         value:
           "High-Pressure Steam, Hydrocrackers, Power Plants, Process Piping, Pressure Vessels",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted ASTM A672 Pipe Supplier",
+    description:
+      "Starlight Tubes provides certified ASTM A672 EFW pipes for high-pressure applications. We ensure complete quality documentation for power plant and petrochemical projects.",
+    features: [
+      "High Pressure Rated",
+      "ASME SA672 Compliant",
+      "Multiple Classes Stock",
+      "100% Radiographic Test",
+      "Stress Relieved",
+      "Complete MTCs",
     ],
   };
 
@@ -103,6 +118,13 @@ const A672Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

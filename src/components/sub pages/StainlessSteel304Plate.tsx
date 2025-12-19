@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteel304Plate = () => {
   const projects = [
@@ -45,6 +46,20 @@ const StainlessSteel304Plate = () => {
         label: "Finish",
         value: "2B, BA, No.1, No.4, Hairline, Mirror 8K, Brushed Finish",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted SS 304 Plate Supplier",
+    description:
+      "Starlight Tubes supplies premium 304 stainless steel plates for industrial and architectural applications. We offer cutting and polishing services with competitive pricing.",
+    features: [
+      "ASTM A240 Certified",
+      "Multiple Finish Options",
+      "Custom Cutting Service",
+      "Corrosion Resistant",
+      "Food Grade Available",
+      "Fast Delivery",
     ],
   };
   return (
@@ -102,6 +117,13 @@ const StainlessSteel304Plate = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

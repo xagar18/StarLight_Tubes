@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteelSheet = () => {
   const projects = [
@@ -45,6 +46,20 @@ const StainlessSteelSheet = () => {
         label: "Finish",
         value: "2B, BA, No.1, No.4, Hairline, Mirror 8K, Embossed, Perforated",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted SS Sheet & Plate Supplier",
+    description:
+      "Starlight Tubes offers premium stainless steel sheets and plates with multiple finishes. We provide cutting, bending, and polishing services to meet your specifications.",
+    features: [
+      "ASTM A240 Compliant",
+      "Multiple Finish Options",
+      "Laser Cutting Service",
+      "Custom Sizes Available",
+      "Protective Film Coated",
+      "Bulk Order Discounts",
     ],
   };
   return (
@@ -102,6 +117,13 @@ const StainlessSteelSheet = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

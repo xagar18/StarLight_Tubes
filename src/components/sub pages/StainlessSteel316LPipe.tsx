@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const StainlessSteel316LPipe = () => {
   const projects = [
@@ -47,6 +48,20 @@ const StainlessSteel316LPipe = () => {
         value:
           "Pharmaceuticals, Food Processing, Marine Piping, Chemical Plants, Surgical Instruments",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted SS 316L Pipe Supplier",
+    description:
+      "Starlight Tubes supplies premium 316L stainless steel pipes for pharmaceutical and marine applications. We provide IGC tested products with excellent weldability.",
+    features: [
+      "Low Carbon Grade",
+      "IGC Tested",
+      "Pharmaceutical Grade",
+      "Enhanced Weldability",
+      "Marine Approved",
+      "ASTM A312 Certified",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const StainlessSteel316LPipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

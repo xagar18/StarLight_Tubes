@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const WeldedSteelPipe = () => {
   const projects = [
@@ -47,6 +48,20 @@ const WeldedSteelPipe = () => {
         value:
           "Oil & Gas Pipelines, Water Supply, Structural, Industrial Piping, Piling",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Welded Steel Pipe Partner",
+    description:
+      "Starlight Tubes provides high-quality ERW, LSAW, and DSAW welded pipes for pipeline and structural applications. We offer competitive pricing with certified quality assurance.",
+    features: [
+      "ERW/LSAW/DSAW Available",
+      "API 5L Certified",
+      "Weld Seam Inspected",
+      "Large Diameter Options",
+      "Coating Services",
+      "Project-Based Pricing",
     ],
   };
   return (
@@ -104,6 +119,13 @@ const WeldedSteelPipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

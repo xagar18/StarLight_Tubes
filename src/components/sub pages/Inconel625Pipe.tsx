@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const Inconel625Pipe = () => {
   const projects = [
@@ -46,6 +47,20 @@ const Inconel625Pipe = () => {
         value:
           "Offshore Oil & Gas, Seawater Systems, Chemical Processing, Pollution Control, FGD Systems",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel 625 Pipe Supplier",
+    description:
+      "Starlight Tubes specializes in Inconel 625 pipes for corrosive marine and chemical environments. We provide NACE compliant products with complete corrosion testing documentation.",
+    features: [
+      "Superior Corrosion Resistance",
+      "NACE MR0175 Compliant",
+      "Offshore Approved",
+      "IGC Tested",
+      "Seawater Grade",
+      "Complete Certification",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const Inconel625Pipe = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

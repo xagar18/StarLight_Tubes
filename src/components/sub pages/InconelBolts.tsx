@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const InconelBolts = () => {
   const projects = [
@@ -46,6 +47,20 @@ const InconelBolts = () => {
         value:
           "Hex Bolts, Studs, Nuts, Socket Head Cap Screws, U-Bolts, Anchor Bolts",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel Fastener Supplier",
+    description:
+      "Starlight Tubes supplies high-performance Inconel fasteners for aerospace and high-temperature applications. We provide complete material certification and custom manufacturing.",
+    features: [
+      "Aerospace Grade",
+      "High Temperature Rated",
+      "Multiple Grades Stock",
+      "Custom Sizes",
+      "Thread Gauged",
+      "ASTM F468 Certified",
     ],
   };
   return (
@@ -103,6 +118,13 @@ const InconelBolts = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

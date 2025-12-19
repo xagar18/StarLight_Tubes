@@ -4,6 +4,7 @@ import StatsGrid from "../main components/HomeStats";
 import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
+import { BottomCTA } from "../sub components/BottomCTA";
 
 const InconelRoundBar = () => {
   const projects = [
@@ -47,6 +48,20 @@ const InconelRoundBar = () => {
         value:
           "Hot Rolled, Cold Drawn, Centerless Ground, Peeled, Black, Bright",
       },
+    ],
+  };
+
+  const bottomCtaData = {
+    title: "Your Trusted Inconel Round Bar Supplier",
+    description:
+      "Starlight Tubes provides precision Inconel round bars for machining and fabrication applications. We offer multiple grades and finishes with complete material certification.",
+    features: [
+      "Aerospace Approved",
+      "Centerless Ground",
+      "Custom Diameters",
+      "Multiple Grades Stock",
+      "Cut-to-Length Service",
+      "Metallurgical Reports",
     ],
   };
   return (
@@ -104,6 +119,13 @@ const InconelRoundBar = () => {
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
+
+        {/* Bottom CTA Section */}
+        <BottomCTA
+          title={bottomCtaData.title}
+          description={bottomCtaData.description}
+          features={bottomCtaData.features}
+        />
 
         {/* Stats Grid Section */}
         <div>

@@ -6,20 +6,20 @@ import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
 const StainlessSteel316LPipe = () => {
- const projects = [
-   {
-     title: "316L Stainless Steel Pipe",
-     img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier1.jpg",
-   },
-   {
-     title: "SA 312 TP316L Seamless Tube",
-     img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier2.jpg",
-   },
-   {
-     title: "ASTM A213 SS TP 316L Stainless Steel Tubing",
-     img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier3.jpg",
-   },
- ];
+  const projects = [
+    {
+      title: "316L Stainless Steel Pipe",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier1.jpg",
+    },
+    {
+      title: "SA 312 TP316L Seamless Tube",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier2.jpg",
+    },
+    {
+      title: "ASTM A213 SS TP 316L Stainless Steel Tubing",
+      img: "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier3.jpg",
+    },
+  ];
 
   const ctaData = {
     title: "316L Stainless Steel Pipe",
@@ -94,12 +94,11 @@ const StainlessSteel316LPipe = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              Premium Epoxy Coating Solutions
+              Explore More SS 316L Products
             </h1>
 
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              Industry-leading FBE and epoxy coating applications for superior
-              corrosion protection and extended service life
+              View our SS 316L low-carbon products for superior weldability
             </p>
           </div>
           <CardHoverEffectDemo projects={projects} />

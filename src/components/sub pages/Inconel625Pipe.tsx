@@ -93,12 +93,12 @@ const Inconel625Pipe = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              Premium Epoxy Coating Solutions
+              Explore More Inconel 625 Products
             </h1>
 
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              Industry-leading FBE and epoxy coating applications for superior
-              corrosion protection and extended service life
+              View our Inconel 625 products with superior strength and corrosion
+              resistance
             </p>
           </div>
           <CardHoverEffectDemo projects={projects} />

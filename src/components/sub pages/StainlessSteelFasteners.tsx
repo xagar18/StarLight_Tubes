@@ -6,20 +6,20 @@ import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
 const StainlessSteelFasteners = () => {
-   const projects = [
-     {
-       title: "Stainless Steel Bolts",
-       img: "/stainless-steel-fasteners/bolts-stud-bolts-manufacturers.jpg",
-     },
-     {
-       title: "Stainless Steel Fasteners",
-       img: "/stainless-steel-fasteners/fasteners-nuts-bolts-manufacturer-india.jpg",
-     },
-     {
-       title: "Stainless Steel Nuts",
-       img: "/stainless-steel-fasteners/nut-nuts-manufacturers-india.jpg",
-     },
-   ];
+  const projects = [
+    {
+      title: "Stainless Steel Bolts",
+      img: "/stainless-steel-fasteners/bolts-stud-bolts-manufacturers.jpg",
+    },
+    {
+      title: "Stainless Steel Fasteners",
+      img: "/stainless-steel-fasteners/fasteners-nuts-bolts-manufacturer-india.jpg",
+    },
+    {
+      title: "Stainless Steel Nuts",
+      img: "/stainless-steel-fasteners/nut-nuts-manufacturers-india.jpg",
+    },
+  ];
 
   const ctaData = {
     title: "Premium Stainless Steel Fasteners",
@@ -93,12 +93,12 @@ const StainlessSteelFasteners = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              Premium Epoxy Coating Solutions
+              Explore More Stainless Steel Products
             </h1>
 
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              Industry-leading FBE and epoxy coating applications for superior
-              corrosion protection and extended service life
+              Browse our complete range of high-quality stainless steel products
+              for your industrial applications
             </p>
           </div>
           <CardHoverEffectDemo projects={projects} />

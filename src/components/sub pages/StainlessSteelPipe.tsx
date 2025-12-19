@@ -92,12 +92,12 @@ const StainlessSteelPipe = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              Premium Epoxy Coating Solutions
+              Explore More Stainless Steel Products
             </h1>
 
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              Industry-leading FBE and epoxy coating applications for superior
-              corrosion protection and extended service life
+              Browse our complete range of high-quality stainless steel products
+              for your industrial applications
             </p>
           </div>
           <CardHoverEffectDemo projects={projects} />

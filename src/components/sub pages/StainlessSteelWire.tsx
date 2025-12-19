@@ -6,20 +6,20 @@ import { NavbarDemo } from "../main components/Navbar";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 
 const StainlessSteelWire = () => {
-   const projects = [
-     {
-       title: "Stainless Steel Wire",
-       img: "/stainless-steel-wire/wire-manufacturer-supplier-1.jpg",
-     },
-     {
-       title: "Stainless Steel Welding Wire",
-       img: "/stainless-steel-wire/wire-manufacturer-supplier-2.jpg",
-     },
-     {
-       title: "Stainless Steel Wire Mesh",
-       img: "/stainless-steel-wire/wire-manufacturer-supplier-3.jpg",
-     },
-   ];
+  const projects = [
+    {
+      title: "Stainless Steel Wire",
+      img: "/stainless-steel-wire/wire-manufacturer-supplier-1.jpg",
+    },
+    {
+      title: "Stainless Steel Welding Wire",
+      img: "/stainless-steel-wire/wire-manufacturer-supplier-2.jpg",
+    },
+    {
+      title: "Stainless Steel Wire Mesh",
+      img: "/stainless-steel-wire/wire-manufacturer-supplier-3.jpg",
+    },
+  ];
 
   const ctaData = {
     title: "Premium Stainless Steel Wire",
@@ -92,12 +92,12 @@ const StainlessSteelWire = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              Premium Epoxy Coating Solutions
+              Explore More Stainless Steel Products
             </h1>
 
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              Industry-leading FBE and epoxy coating applications for superior
-              corrosion protection and extended service life
+              Browse our complete range of high-quality stainless steel products
+              for your industrial applications
             </p>
           </div>
           <CardHoverEffectDemo projects={projects} />

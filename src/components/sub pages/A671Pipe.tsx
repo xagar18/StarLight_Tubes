@@ -92,12 +92,12 @@ const A671Pipe = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              Premium Epoxy Coating Solutions
+              Explore More EFW Pipes
             </h1>
 
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              Industry-leading FBE and epoxy coating applications for superior
-              corrosion protection and extended service life
+              View our Electric Fusion Welded pipes for pressure vessel
+              applications
             </p>
           </div>
           <CardHoverEffectDemo projects={projects} />

@@ -2,7 +2,7 @@ export default function CtaSection1() {
   return (
     <div className="bg-gradient-to-b from-white to-gray-50 dark:from-black dark:to-gray-900">
       <div className="mx-auto max-w-7xl py-12 sm:px-6 sm:py-16 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 px-6 pt-12 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-16 lg:px-24 lg:pt-16 lg:pb-20">
+        <div className="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 px-6 pt-12 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-16 lg:px-24 lg:pt-16 pb-8">
           {/* Decorative gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-blue-500/10 mix-blend-overlay" />
 
@@ -86,7 +86,7 @@ export default function CtaSection1() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#contact"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-semibold rounded-xl text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105 mb-10"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-semibold rounded-xl text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105"
               >
                 Get in Touch
                 <svg

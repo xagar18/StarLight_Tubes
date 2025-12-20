@@ -121,7 +121,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="max-full h-fit flex md:flex-row flex-col items-center md:justify-center gap-20">
+          <div className="w-full px-4 md:px-8 flex flex-col md:flex-row items-center md:items-stretch justify-center gap-8 md:gap-6 lg:gap-10">
             <MeteorsDemo
               title="Stainless Steel"
               items={stainlessSteelItems}

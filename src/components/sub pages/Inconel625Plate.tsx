@@ -35,7 +35,7 @@ const Inconel625Plate = () => {
       },
       {
         label: "Thickness Range",
-        value: "3mm to 200mm, Width up to 3000mm, Length up to 12000mm",
+        value: "3mm to 100mm, Width up to 1000mm, Length up to 4000mm",
       },
       {
         label: "Standards",

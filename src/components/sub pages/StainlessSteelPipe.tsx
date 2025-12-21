@@ -35,7 +35,7 @@ const StainlessSteelPipe = () => {
       },
       {
         label: "Size Range",
-        value: 'NB 1/8" to 24", Schedule 5S to XXS, Length up to 12 meters',
+        value: 'NB 1/8" to 24", Schedule 5S to XXS, Length up to 6 meters',
       },
       {
         label: "Standards",

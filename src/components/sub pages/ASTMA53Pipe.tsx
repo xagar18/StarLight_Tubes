@@ -35,7 +35,7 @@ const ASTMA53Pipe = () => {
       },
       {
         label: "Size Range",
-        value: 'NB 1/8" to 26", Schedule 10 to XXS, Length up to 12m',
+        value: 'NB 1/8" to 26", Schedule 10 to XXS, Length up to 6m',
       },
       {
         label: "Standards",

@@ -36,7 +36,7 @@ const InconelRoundBar = () => {
       {
         label: "Size Range",
         value:
-          "6mm to 300mm diameter, Length up to 6 meters, Custom sizes available",
+          "6mm to 100mm diameter, Length up to 6 meters, Custom sizes available",
       },
       {
         label: "Standards",

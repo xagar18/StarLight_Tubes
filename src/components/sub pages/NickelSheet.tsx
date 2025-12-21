@@ -35,7 +35,7 @@ const NickelSheet = () => {
       },
       {
         label: "Thickness Range",
-        value: "0.5mm to 50mm, Width up to 2000mm, Length up to 6000mm",
+        value: "0.5mm to 50mm, Width up to 1000mm, Length up to 4000mm",
       },
       {
         label: "Standards",

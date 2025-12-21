@@ -36,7 +36,7 @@ const CarbonSteelPipe = () => {
       },
       {
         label: "Size Range",
-        value: 'NB 1/2" to 48", Schedule 20 to XXS, Length up to 12 meters',
+        value: 'NB 1/2" to 48", Schedule 20 to XXS, Length up to 6 meters',
       },
       {
         label: "Standards",

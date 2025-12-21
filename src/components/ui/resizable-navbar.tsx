@@ -89,7 +89,7 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
         boxShadow: visible
           ? "0 0 24px rgba(34, 42, 53, 0.06), 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(34, 42, 53, 0.04), 0 0 4px rgba(34, 42, 53, 0.08), 0 16px 68px rgba(47, 48, 55, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1) inset"
           : "none",
-        width: visible ? "40%" : "100%",
+        width: visible ? "60%" : "100%",
         y: visible ? 20 : 0,
       }}
       transition={{
@@ -231,10 +231,10 @@ export const NavbarLogo = () => {
   return (
     <a
       href="/"
-      className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+      className="relative z-20 mr-4 flex items-center space-x-6 px-2 py-1 text-sm font-normal text-black"
     >
-      <img src="StarlightLogo.png" alt="logo" width={30} height={30} />
-      <span className="font-medium text-black dark:text-white">
+      <img src="StarlightLogo.png" alt="logo" width={60} height={60} />
+      <span className="font-medium text-2xl text-black dark:text-white">
         Starlight Tubes
       </span>
     </a>

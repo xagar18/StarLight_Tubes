@@ -37,7 +37,7 @@ const StainlessSteelTube = () => {
       {
         label: "Size Range",
         value:
-          "OD 6mm to 660mm, Wall Thickness 0.5mm to 50mm, Length up to 12 meters",
+          "OD 6mm to 660mm, Wall Thickness 0.5mm to 50mm, Length up to 6 meters",
       },
       {
         label: "Standards",

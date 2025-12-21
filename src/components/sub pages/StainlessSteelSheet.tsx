@@ -35,7 +35,7 @@ const StainlessSteelSheet = () => {
       },
       {
         label: "Thickness Range",
-        value: "Sheets: 0.3mm to 6mm, Plates: 6mm to 100mm, Width up to 2500mm",
+        value: "Sheets: 0.3mm to 6mm, Plates: 6mm to 100mm, Width up to 3000mm",
       },
       {
         label: "Standards",

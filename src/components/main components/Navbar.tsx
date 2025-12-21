@@ -24,9 +24,14 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
       link: "about",
     },
     {
+      name: "Product",
+      link: "product",
+    },
+    {
       name: "Materials",
       link: "materials",
     },
+
     {
       name: "Coating",
       link: "coating",

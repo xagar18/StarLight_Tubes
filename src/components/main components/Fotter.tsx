@@ -58,7 +58,7 @@ export default function Footer() {
               <img
                 src="/StarlightLogo.png"
                 alt=""
-                className="size-10 mx-auto"
+                className="size-20 mx-auto bg-white rounded-full"
               />
             </div>
             <p className="text-sm leading-relaxed mb-8">

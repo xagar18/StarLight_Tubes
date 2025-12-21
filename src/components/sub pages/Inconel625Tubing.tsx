@@ -35,7 +35,7 @@ const Inconel625Tubing = () => {
       },
       {
         label: "Size Range",
-        value: 'OD 1/8" to 3", Wall 0.020" to 0.500", Length up to 12 meters',
+        value: 'OD 1/8" to 3", Wall 0.5mm to 3mm, Length up to 6 meters',
       },
       {
         label: "Standards",

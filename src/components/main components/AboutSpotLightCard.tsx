@@ -5,17 +5,17 @@ const features = [
   {
     icon: Building2,
     title: "Industry Leaders",
-    description: "30+ years of excellence in steel distribution",
+    description: "5+ years of excellence in steel distribution",
   },
   {
     icon: Globe,
     title: "Global Reach",
-    description: "Serving 50+ countries worldwide",
+    description: "Serving 10+ countries worldwide",
   },
   {
     icon: Shield,
     title: "Quality Assured",
-    description: "ISO 9001, 14001, OHSAS certified",
+    description: "ISO 9001:2015 certified",
   },
   {
     icon: Award,
@@ -105,7 +105,7 @@ export function CardSpotlightDemo({
                 <div className="absolute bottom-4 left-4 z-20 flex items-center gap-2 px-3 py-2 rounded-lg bg-black/60 backdrop-blur-sm border border-white/20">
                   <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
                   <span className="text-white text-xs font-medium">
-                    Premium Quality Since 1992
+                    Premium Quality Since 2020
                   </span>
                 </div>
               </div>
@@ -121,9 +121,9 @@ export function CardSpotlightDemo({
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { value: "30+", label: "Years Experience" },
-              { value: "50+", label: "Countries Served" },
-              { value: "1000+", label: "Happy Clients" },
+              { value: "5+", label: "Years Experience" },
+              { value: "10+", label: "Countries Served" },
+              { value: "100+", label: "Happy Clients" },
               { value: "100%", label: "Quality Assured" },
             ].map((stat, index) => (
               <div key={index} className="text-center">

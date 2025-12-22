@@ -8,7 +8,7 @@ import { BottomCTA } from "../components/sub components/BottomCTA";
 const About = () => {
   const heading = "Starlight Tubes";
   const text1 =
-    "Starlight Tubes is India's No. 1 exporter and stockist of industrial steel pipes and tubes, serving the Oil & Gas, petrochemical, and chemical processing industries since 1992. We supply piping materials in Stainless Steel, Carbon Steel, Alloy Steel, and Nickel Alloys to UAE, Saudi Arabia, Kuwait, Qatar, Egypt, Turkey, Oman, Africa, Malaysia, and many countries across USA & Europe. As a stocking distributor of leading global steel pipe suppliers from India, Japan, Italy, China & UK, we maintain ready stock of Pipes, Tubes, Sheets, Plates, Coils, Fittings, Flanges, Round Bars, and Fasteners. We specialize in supplying materials for Boilers, Steam Pipelines, and LNG Projects. Starlight Tubes is an ISO 9001, 14001, OHSAS 18001 certified company and a Government of India Recognized Export House. We are PED 97/23/EC approved Supplier & Exporter, and we only deal in high-quality steel material with proper mill test certificates and documentation.";
+    "Starlight Tubes is India's No. 1 exporter and stockist of industrial steel pipes and tubes, serving the Oil & Gas, petrochemical, and chemical processing industries since 2020. We supply piping materials in Stainless Steel, Carbon Steel, Alloy Steel, and Nickel Alloys to UAE, Saudi Arabia, Kuwait, Qatar, Egypt, Turkey, Oman, Africa, Malaysia, and many countries across USA & Europe. As a stocking distributor of leading global steel pipe suppliers from India, Japan, Italy, China & UK, we maintain ready stock of Pipes, Tubes, Sheets, Plates, Coils, Fittings, Flanges, Round Bars, and Fasteners. We specialize in supplying materials for Boilers, Steam Pipelines, and LNG Projects. Starlight Tubes is an ISO 9001, 14001, OHSAS 18001 certified company and a Government of India Recognized Export House. We are PED 97/23/EC approved Supplier & Exporter, and we only deal in high-quality steel material with proper mill test certificates and documentation.";
 
   const bottomCtaData = {
     title: "Why Choose Starlight Tubes?",
@@ -34,7 +34,7 @@ const About = () => {
           {/* Image Slider Section */}
           <PageHero
             title="About Starlight Tubes"
-            subtitle="India's No. 1 Exporter & Stockist of Industrial Steel Products Since 1992"
+            subtitle="India's No. 1 Exporter & Stockist of Industrial Steel Products Since 2020"
             image="/MainScrollableImage/Home1.webp"
           />
 

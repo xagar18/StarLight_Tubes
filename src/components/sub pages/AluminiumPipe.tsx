@@ -6,55 +6,53 @@ import { PageHero } from "../main components/PageHero";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 import { BottomCTA } from "../sub components/BottomCTA";
 
-const StainlessSteelTube = () => {
+const AluminiumPipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/stainless-steel-tube/stainless-steel-tube-tubing-supplier1.jpg",
+      title: "Aluminium Pipe",
+      img: "/MainScrollableImage/Home.webp",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/stainless-steel-tube/stainless-steel-tube-tubing-supplier2.jpg",
+      title: "Aluminium Seamless Pipe",
+      img: "/MainScrollableImage/Home1.webp",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/stainless-steel-tube/stainless-steel-tube-tubing-supplier3.jpg",
+      title: "Aluminium Tube",
+      img: "/MainScrollableImage/Home2.webp",
     },
   ];
 
   const ctaData = {
-    title: "Premium Stainless Steel Tubes",
+    title: "Premium Aluminium Pipes",
     paragraph1:
-      "Starlight Tubes supplies high-quality stainless steel tubes that meet international standards. Our tubes are engineered for superior corrosion resistance, durability, and performance in demanding industrial applications including oil & gas, petrochemical, power generation, and marine industries.",
+      "Starlight Tubes supplies high-quality aluminium pipes that meet international standards. Our aluminium pipes offer excellent strength-to-weight ratio, corrosion resistance, and durability for aerospace, automotive, construction, and marine applications.",
     paragraph2:
-      "Available in seamless and welded configurations, our stainless steel tubes are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, ASME, and international specifications. We offer customized solutions to meet your specific project requirements.",
+      "Available in various alloys and tempers, our aluminium pipes are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, AMS, and international specifications.",
     specifications: [
       {
         label: "Grades",
-        value:
-          "304, 304L, 316, 316L, 321, 310S, 347, 904L, Duplex & Super Duplex",
+        value: "6061, 6063, 5052, 5083, 7075, 2024, 3003, 1100",
       },
       {
         label: "Size Range",
         value:
-          "OD 6mm to 660mm, Wall Thickness 0.5mm to 50mm, Length up to 6 meters",
+          "OD 6mm to 400mm, Wall Thickness 0.5mm to 25mm, Length up to 6 meters",
       },
       {
         label: "Standards",
-        value:
-          "ASTM A213, ASTM A269, ASTM A312, ASME SA213, DIN 17458, EN 10216",
+        value: "ASTM B210, ASTM B241, ASTM B221, AMS 4150, EN 573",
       },
       {
         label: "Types",
-        value: "Seamless, Welded, ERW, EFW with various finishes available",
+        value: "Seamless, Extruded, Drawn, Round, Square, Rectangular",
       },
     ],
   };
 
   const bottomCtaData = {
-    title: "Your Trusted Stainless Steel Tube Supplier",
+    title: "Your Trusted Aluminium Pipe Supplier",
     description:
-      "Starlight Tubes delivers premium stainless steel tubes with unmatched quality and reliability. We ensure timely delivery and competitive pricing for all your industrial tube requirements.",
+      "Starlight Tubes delivers premium aluminium pipes with unmatched quality and reliability for aerospace, automotive, and construction applications.",
     features: [
       "ISO 9001:2015 Certified",
       "Full Material Traceability",
@@ -64,31 +62,31 @@ const StainlessSteelTube = () => {
       "Expert Technical Guidance",
     ],
   };
+
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
-        {/* Image Slider Section */}
-        <div className="w-full h-fit flex justify-center ">
+        <div className="w-full h-fit flex justify-center">
           <PageHero
-            title="Stainless Steel Tubes"
-            subtitle="Premium quality seamless & welded tubes"
+            title="Aluminium Pipes"
+            subtitle="Premium quality aluminium pipes for industrial applications"
             image="/MainScrollableImage/Home.webp"
           />
         </div>
 
-        {/* Stainless Steel Tubes Section Header */}
+        {/* Aluminium Pipe Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-16 mb-8 px-4">
-          <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
-            <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
+          <div className="inline-block px-4 py-2 mb-6 rounded-full bg-cyan-500/10 border border-cyan-500/20">
+            <span className="text-cyan-600 dark:text-cyan-400 text-sm font-semibold">
               Product Overview
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Stainless Steel Tubes & Tubing
+            Aluminium Pipes & Tubes
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality stainless steel tubes manufactured to meet
-            international standards for diverse industrial applications
+            Premium quality aluminium pipes for aerospace, automotive, and
+            construction applications
           </p>
         </div>
 
@@ -102,39 +100,32 @@ const StainlessSteelTube = () => {
           />
         </div>
 
-        {/* Exporter Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
-            <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">
+            <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20">
               <span className="text-green-600 dark:text-green-400 text-sm font-semibold">
                 Our Solutions
               </span>
             </div>
-
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              Explore More Stainless Steel Products
+              Explore More Aluminium Products
             </h1>
-
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              Browse our complete range of high-quality stainless steel products
-              for your industrial applications
+              Browse our complete range of high-quality aluminium products
             </p>
           </div>
           <CardHoverEffectDemo projects={projects} />
         </div>
 
-        {/* Bottom CTA Section */}
         <BottomCTA
           title={bottomCtaData.title}
           description={bottomCtaData.description}
           features={bottomCtaData.features}
         />
 
-        {/* Stats Grid Section */}
         <div>
           <StatsGrid />
         </div>
-        {/* Footer Section */}
         <div>
           <Footer />
         </div>
@@ -143,4 +134,4 @@ const StainlessSteelTube = () => {
   );
 };
 
-export default StainlessSteelTube;
+export default AluminiumPipe;

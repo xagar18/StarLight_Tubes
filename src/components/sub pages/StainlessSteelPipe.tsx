@@ -75,7 +75,7 @@ const StainlessSteelPipe = () => {
         </div>
 
         {/* Stainless Steel Pipes Section Header */}
-        <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
+        <div className="w-full flex flex-col items-center justify-center mt-16 mb-8 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
             <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
               Product Overview
@@ -91,7 +91,7 @@ const StainlessSteelPipe = () => {
         </div>
 
         {/* Common CTA Section */}
-        <div className="w-full h-fit flex justify-center mb-16">
+        <div className="w-full h-fit flex justify-center mb-16 px-4">
           <CommonCTA
             title={ctaData.title}
             paragraph1={ctaData.paragraph1}

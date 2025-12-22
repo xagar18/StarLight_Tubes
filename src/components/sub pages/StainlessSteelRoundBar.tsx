@@ -3,8 +3,8 @@ import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
 import { NavbarDemo } from "../main components/Navbar";
 import { PageHero } from "../main components/PageHero";
-import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 import { BottomCTA } from "../sub components/BottomCTA";
+import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteelRoundBar = () => {
   const projects = [
@@ -31,7 +31,8 @@ const StainlessSteelRoundBar = () => {
     specifications: [
       {
         label: "Grades",
-        value: "303, 304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
+        value:
+          "303, 304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205",
       },
       {
         label: "Size Range",

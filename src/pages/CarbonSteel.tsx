@@ -3,7 +3,7 @@ import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
 import { NavbarDemo } from "../components/main components/Navbar";
 import { PageHero } from "../components/main components/PageHero";
-import { CommonCTA } from "../components/sub components/ StainlessSteelTubeCTA";
+import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const CarbonSteel = () => {
   const ctaData = {

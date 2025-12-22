@@ -6,6 +6,9 @@ export default function Footer() {
       title: "Products",
       links: [
         { name: "Stainless Steel", path: "/stainless-steel" },
+        { name: "Aluminium", path: "/aluminium" },
+        { name: "Copper", path: "/copper" },
+        { name: "Fittings", path: "/fittings" },
         { name: "Carbon Steel", path: "/carbon-steel" },
         { name: "Nickel Alloys", path: "/nickel-alloys" },
         { name: "Inconel", path: "/inconel" },

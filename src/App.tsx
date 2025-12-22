@@ -41,9 +41,12 @@ import StainlessSteelTube from "./components/sub pages/StainlessSteelTube";
 import StainlessSteelWire from "./components/sub pages/StainlessSteelWire";
 import WeldedSteelPipe from "./components/sub pages/WeldedSteelPipe";
 import About from "./pages/About";
+import Aluminium from "./pages/Aluminium";
 import CarbonSteelPage from "./pages/CarbonSteel";
 import Coating from "./pages/Coating";
 import Contact from "./pages/Contact";
+import Copper from "./pages/Copper";
+import Fittings from "./pages/Fittings";
 import Home from "./pages/Home";
 import InconelPage from "./pages/Inconel";
 import Material from "./pages/Material";
@@ -66,6 +69,9 @@ function App() {
 
         {/* Material Category Pages */}
         <Route path="/stainless-steel" element={<StainlessSteelPage />} />
+        <Route path="/aluminium" element={<Aluminium />} />
+        <Route path="/copper" element={<Copper />} />
+        <Route path="/fittings" element={<Fittings />} />
         <Route path="/carbon-steel" element={<CarbonSteelPage />} />
         <Route path="/nickel-alloys" element={<NickelAlloysPage />} />
         <Route path="/inconel" element={<InconelPage />} />

@@ -231,10 +231,10 @@ export const NavbarLogo = () => {
   return (
     <a
       href="/"
-      className="relative z-20 mr-4 flex items-center space-x-6 px-2 py-1 text-sm font-normal text-black"
+      className="relative z-20 mr-1 flex items-center space-x-6 px-1 py-1 text-sm font-normal text-black"
     >
-      <img src="StarlightLogo.png" alt="logo" width={60} height={60} />
-      <span className="font-medium text-2xl text-black dark:text-white">
+      <img src="StarlightLogo.png" alt="logo" width={50} height={50} />
+      <span className="font-medium text-xl text-black dark:text-white">
         Starlight Tubes
       </span>
     </a>

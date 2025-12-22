@@ -3,8 +3,8 @@ import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
 import { NavbarDemo } from "../main components/Navbar";
 import { PageHero } from "../main components/PageHero";
-import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 import { BottomCTA } from "../sub components/BottomCTA";
+import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteel316Tube = () => {
   const projects = [
@@ -36,8 +36,7 @@ const StainlessSteel316Tube = () => {
       },
       {
         label: "Size Range",
-        value:
-          "OD 6mm to 38, Wall Thickness 1mm to 3mm, Length up to 6 meters",
+        value: "OD 6mm to 38, Wall Thickness 1mm to 3mm, Length up to 6 meters",
       },
       {
         label: "Standards",

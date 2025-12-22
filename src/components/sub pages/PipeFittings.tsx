@@ -3,8 +3,8 @@ import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
 import { NavbarDemo } from "../main components/Navbar";
 import { PageHero } from "../main components/PageHero";
-import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 import { BottomCTA } from "../sub components/BottomCTA";
+import { CommonCTA } from "../sub components/CommonCTA";
 
 const PipeFittings = () => {
   const projects = [

@@ -1,7 +1,7 @@
 export default function StatsGrid() {
   const stats = [
     { value: "100,000+", label: "Clients worldwide" },
-    { value: "ISO & ASTM", label: "Certified quality standards" },
+    { value: "ISO ", label: "Certified quality standards" },
     { value: "99.9%", label: "On‑time delivery performance" },
     { value: "5+ Years", label: "Proven industry expertise" },
   ];
@@ -14,7 +14,7 @@ export default function StatsGrid() {
           Trusted by 100,000+ clients worldwide
         </h1>
         <p className="text-slate-400 text-lg">
-          Delivering certified quality tubes with ISO & ASTM standards —
+          Delivering certified quality tubes with ISO standards —
           powering industries with reliability and precision.
         </p>
       </div>

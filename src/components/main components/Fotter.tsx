@@ -116,6 +116,8 @@ export default function Footer() {
             </a>
             <span className="hidden md:inline text-gray-600">|</span>
             <p className="text-sm text-gray-400">GSTIN: 27DMZPA1125E1Z6</p>
+            <span className="hidden md:inline text-gray-600">|</span>
+            <p className="text-sm text-gray-400">IEC: DMZPA1125E</p>
           </div>
           <p className="text-sm text-gray-400 flex items-center gap-1">
             Crafted with <span className="text-red-500">♥</span> by{" "}

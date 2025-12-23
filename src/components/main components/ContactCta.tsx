@@ -37,6 +37,12 @@ export function ContactCtaParent() {
                 <strong>GSTIN:</strong> 27DMZPA1125E1Z6
               </span>
             </li>
+            <li className="flex items-center gap-2 ">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
+              <span>
+                <strong>IEC:</strong> DMZPA1125E
+              </span>
+            </li>
           </ul>
           <hr className="relative z-50 border-gray-700 my-4" />
           <h2 className="relative z-50 mb-4 text-xl font-bold text-white">

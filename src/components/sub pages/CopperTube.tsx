@@ -10,15 +10,15 @@ const CopperTube = () => {
   const projects = [
     {
       title: "Copper Tube",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/copper-tube/copper-tube-supplier1.jpg",
     },
     {
-      title: "Copper Seamless Tube",
-      img: "/MainScrollableImage/Home1.webp",
+      title: "Copper Coil Tubing",
+      img: "/copper-tube/copper-tube-supplier2.jpg",
     },
     {
-      title: "Copper Coil Tube",
-      img: "/MainScrollableImage/Home2.webp",
+      title: "Copper Heat Exchanger Tube",
+      img: "/copper-tube/copper-tube-supplier3.jpg",
     },
   ];
 

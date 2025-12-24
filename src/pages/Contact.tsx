@@ -13,7 +13,7 @@ const Contact = () => {
           <PageHero
             title="Contact Us"
             subtitle="Get in touch with our team for quotes, inquiries and support"
-            image="/MainScrollableImage/Home4.webp"
+            image="/main-page/contact-us1.webp"
             buttonText="Call Now →"
             buttonLink="tel:+919892233118"
           />

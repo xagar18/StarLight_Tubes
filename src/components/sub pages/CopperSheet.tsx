@@ -9,16 +9,16 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CopperSheet = () => {
   const projects = [
     {
-      title: "Copper Sheet",
-      img: "/MainScrollableImage/Home.webp",
+      title: "Copper sheet",
+      img: "/copper-sheet/copper-sheet-supplier.jpg",
+    },
+    {
+      title: "Copper Coil Tubing",
+      img: "/copper-sheet/copper-coil-supplier.jpg",
     },
     {
       title: "Copper Plate",
-      img: "/MainScrollableImage/Home1.webp",
-    },
-    {
-      title: "Copper Coil",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/copper-sheet/copper-plate-supplier.jpg",
     },
   ];
 

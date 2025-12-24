@@ -35,7 +35,7 @@ const About = () => {
           <PageHero
             title="About Starlight Tubes"
             subtitle="India's No. 1 Exporter & Stockist of Industrial Steel Products Since 2020"
-            image="/MainScrollableImage/Home1.webp"
+            image="/main-page/aboutus.png"
           />
 
           {/* About Section */}

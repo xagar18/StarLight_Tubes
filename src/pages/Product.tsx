@@ -98,7 +98,6 @@ const copperItems = [
   "Copper Sheet",
   "Copper Plate",
   "Copper Round Bar",
-  "Copper Wire",
   "Copper Fittings",
   "Copper Nickel Pipe",
   "Copper Nickel Tube",
@@ -106,19 +105,18 @@ const copperItems = [
   "Cupro Nickel 70/30",
 ];
 
-// const copperLinks = [
-//   "/copper-pipe",
-//   "/copper-tube",
-//   "/copper-sheet",
-//   "/copper-plate",
-//   "/copper-round-bar",
-//   "/copper-wire",
-//   "/copper-fittings",
-//   "/copper-nickel-pipe",
-//   "/copper-nickel-tube",
-//   "/cupro-nickel-90-10",
-//   "/cupro-nickel-70-30",
-// ];
+const copperLinks = [
+  "/copper-pipe",
+  "/copper-tube",
+  "/copper-sheet",
+  "/copper-plate",
+  "/copper-round-bar",
+  "/copper-fittings",
+  "/copper-nickel-pipe",
+  "/copper-nickel-tube",
+  "/cupro-nickel-90-10",
+  "/cupro-nickel-70-30",
+];
 
 // Aluminium Products
 const aluminiumItems = [
@@ -127,7 +125,6 @@ const aluminiumItems = [
   "Aluminium Sheet",
   "Aluminium Plate",
   "Aluminium Round Bar",
-  "Aluminium Wire",
   "Aluminium Coil",
   "Aluminium 6061",
   "Aluminium 6063",
@@ -135,19 +132,18 @@ const aluminiumItems = [
   "Aluminium 7075",
 ];
 
-// const aluminiumLinks = [
-//   "/aluminium-pipe",
-//   "/aluminium-tube",
-//   "/aluminium-sheet",
-//   "/aluminium-plate",
-//   "/aluminium-round-bar",
-//   "/aluminium-wire",
-//   "/aluminium-coil",
-//   "/aluminium-6061",
-//   "/aluminium-6063",
-//   "/aluminium-5052",
-//   "/aluminium-7075",
-// ];
+const aluminiumLinks = [
+  "/aluminium-pipe",
+  "/aluminium-tube",
+  "/aluminium-sheet",
+  "/aluminium-plate",
+  "/aluminium-round-bar",
+  "/aluminium-coil",
+  "/aluminium-6061",
+  "/aluminium-6063",
+  "/aluminium-5052",
+  "/aluminium-7075",
+];
 
 // Pipe Fittings Products
 const fittingsItems = [
@@ -164,19 +160,19 @@ const fittingsItems = [
   "Union Fittings",
 ];
 
-// const fittingsLinks = [
-//   "/pipe-fittings",
-//   "/butt-weld-fittings",
-//   "/socket-weld-fittings",
-//   "/threaded-fittings",
-//   "/flanges",
-//   "/elbow-fittings",
-//   "/tee-fittings",
-//   "/reducer-fittings",
-//   "/cap-fittings",
-//   "/coupling-fittings",
-//   "/union-fittings",
-// ];
+const fittingsLinks = [
+  "/pipe-fittings",
+  "/butt-weld-fittings",
+  "/socket-weld-fittings",
+  "/threaded-fittings",
+  "/flanges",
+  "/elbow-fittings",
+  "/tee-fittings",
+  "/reducer-fittings",
+  "/cap-fittings",
+  "/coupling-fittings",
+  "/union-fittings",
+];
 
 const Product = () => {
   useSEO({
@@ -195,7 +191,7 @@ const Product = () => {
         <PageHero
           title="Our Products"
           subtitle="Comprehensive Range of Industrial Steel & Metal Products"
-          image="/MainScrollableImage/Home2.webp"
+          image="/main-page/product.png"
         />
 
         {/* Main Products Section - Row 1 */}
@@ -255,17 +251,17 @@ const Product = () => {
             <MeteorsDemo
               title="Copper"
               items={copperItems}
-              // links={copperLinks}
+              links={copperLinks}
             />
             <MeteorsDemo
               title="Aluminium"
               items={aluminiumItems}
-              // links={aluminiumLinks}
+              links={aluminiumLinks}
             />
             <MeteorsDemo
               title="Pipe Fittings"
               items={fittingsItems}
-              // links={fittingsLinks}
+              links={fittingsLinks}
             />
           </div>
         </div>

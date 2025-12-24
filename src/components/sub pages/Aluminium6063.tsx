@@ -6,57 +6,57 @@ import { PageHero } from "../main components/PageHero";
 import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
-const CopperPipe = () => {
+const Aluminium6063 = () => {
   const projects = [
     {
-      title: "Copper Pipe",
-      img: "/copper-pipe/copper-pipe-supplier1.jpg",
+      title: "Aluminium 6063 Pipe",
+      img: "/MainScrollableImage/Home.webp",
     },
     {
-      title: "Copper Welded Pipe",
-      img: "/copper-pipe/copper-pipe-supplier2.jpg",
+      title: "Aluminium 6063 Extrusion",
+      img: "/MainScrollableImage/Home1.webp",
     },
     {
-      title: "Copper Seamless Pipe",
-      img: "/copper-pipe/copper-pipe-supplier3.jpg",
+      title: "Aluminium 6063 Profile",
+      img: "/MainScrollableImage/Home2.webp",
     },
   ];
 
   const ctaData = {
-    title: "Premium Copper Pipes",
+    title: "Premium Aluminium 6063 Alloy",
     paragraph1:
-      "Starlight Tubes supplies high-quality copper pipes that meet international standards. Our copper pipes offer excellent thermal and electrical conductivity, corrosion resistance, and durability for plumbing, HVAC, refrigeration, and industrial applications.",
+      "Starlight Tubes supplies high-quality Aluminium 6063 alloy products that offer excellent extrudability, corrosion resistance, and surface finish. This architectural alloy is widely used in construction, window frames, and decorative applications.",
     paragraph2:
-      "Available in various grades and tempers, our copper pipes are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, ASME, and international specifications. We offer customized solutions to meet your specific project requirements.",
+      "Available in various forms and tempers, our Aluminium 6063 products are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, EN, and international specifications.",
     specifications: [
       {
-        label: "Grades",
-        value: "C10100, C10200, C11000, C12000, C12200, C70600, C71500",
+        label: "Composition",
+        value:
+          "Aluminum 97.5%, Magnesium 0.45-0.9%, Silicon 0.2-0.6%, Iron ≤0.35%",
       },
       {
-        label: "Size Range",
-        value:
-          "OD 6mm to 300mm, Wall Thickness 0.5mm to 15mm, Length up to 6 meters",
+        label: "Tensile Strength",
+        value: "185 MPa (T6 temper)",
+      },
+      {
+        label: "Yield Strength",
+        value: "145 MPa (T6 temper)",
       },
       {
         label: "Standards",
-        value: "ASTM B42, ASTM B88, ASTM B111, ASTM B280, EN 12449",
-      },
-      {
-        label: "Types",
-        value: "Seamless, Welded, DLP, ETP with various tempers available",
+        value: "ASTM B209, ASTM B210, ASTM B221, EN 573",
       },
     ],
   };
 
   const bottomCtaData = {
-    title: "Your Trusted Copper Pipe Supplier",
+    title: "Your Trusted Aluminium 6063 Supplier",
     description:
-      "Starlight Tubes delivers premium copper pipes with unmatched quality and reliability. We ensure timely delivery and competitive pricing for all your industrial copper requirements.",
+      "Starlight Tubes delivers premium Aluminium 6063 alloy products with unmatched quality and reliability for construction and architectural applications.",
     features: [
       "ISO 9001:2015 Certified",
       "Full Material Traceability",
-      "Custom Lengths Available",
+      "Custom Extrusions Available",
       "Global Export Network",
       "Bulk Order Discounts",
       "Expert Technical Guidance",
@@ -68,25 +68,25 @@ const CopperPipe = () => {
       <NavbarDemo>
         <div className="w-full h-fit flex justify-center">
           <PageHero
-            title="Copper Pipes"
-            subtitle="Premium quality copper pipes for industrial applications"
+            title="Aluminium 6063"
+            subtitle="Premium quality Aluminium 6063 alloy for architectural applications"
             image="/MainScrollableImage/Home.webp"
           />
         </div>
 
-        {/* Copper Pipe Section Header */}
+        {/* Aluminium 6063 Section Header */}
         <div className="w-full flex flex-col items-center justify-center mt-16 mb-8 px-4">
-          <div className="inline-block px-4 py-2 mb-6 rounded-full bg-amber-500/10 border border-amber-500/20">
-            <span className="text-amber-600 dark:text-amber-400 text-sm font-semibold">
+          <div className="inline-block px-4 py-2 mb-6 rounded-full bg-cyan-500/10 border border-cyan-500/20">
+            <span className="text-cyan-600 dark:text-cyan-400 text-sm font-semibold">
               Product Overview
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            Copper Pipes & Tubing
+            Aluminium 6063 Alloy
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality copper pipes manufactured to meet international
-            standards for diverse industrial applications
+            Premium quality Aluminium 6063 alloy for construction and
+            architectural applications
           </p>
         </div>
 
@@ -108,11 +108,10 @@ const CopperPipe = () => {
               </span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              Explore More Copper Products
+              Explore More Aluminium Products
             </h1>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              Browse our complete range of high-quality copper products for your
-              industrial applications
+              Browse our complete range of high-quality aluminium products
             </p>
           </div>
           <CardHoverEffectDemo projects={projects} />
@@ -135,4 +134,4 @@ const CopperPipe = () => {
   );
 };
 
-export default CopperPipe;
+export default Aluminium6063;

@@ -1,6 +1,46 @@
+import { useState } from "react";
 import { Link } from "react-router";
 
 export default function Footer() {
+  // Check for existing translation cookie on component mount
+  const getCookie = (name: string) => {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop()?.split(";").shift();
+  };
+
+  // Set initial language based on cookie
+  const initialLanguage = getCookie("googtrans")?.includes("/ar") ? "ar" : "en";
+  const [selectedLanguage, setSelectedLanguage] = useState(initialLanguage);
+
+  const languages = [
+    { code: "en", name: "English", flag: "🇺🇸" },
+    { code: "ar", name: "العربية", flag: "🇸🇦" },
+  ];
+
+  const handleLanguageChange = (languageCode: string) => {
+    setSelectedLanguage(languageCode);
+
+    // Trigger Google Translate when Arabic is selected
+    if (languageCode === "ar") {
+      // Use Google Translate's cookie-based translation
+      document.cookie = "googtrans=/en/ar; path=/; max-age=31536000"; // 1 year expiry
+
+      // Reload the page to apply translation
+      setTimeout(() => {
+        window.location.reload();
+      }, 500);
+    } else {
+      // Reset to English by clearing the translation cookie
+      document.cookie =
+        "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+
+      // Reload the page to reset translation
+      setTimeout(() => {
+        window.location.reload();
+      }, 500);
+    }
+  };
   const footerSections = [
     {
       title: "Products",
@@ -123,17 +163,50 @@ export default function Footer() {
             <span className="hidden md:inline text-gray-600">|</span>
             <p className="text-sm text-gray-400">IEC: DMZPA1125E</p>
           </div>
-          <p className="text-sm text-gray-400 flex items-center gap-1">
-            Crafted with <span className="text-red-500">♥</span> by{" "}
-            <a
-              href="https://xagar.me"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-purple-400 hover:text-purple-300 transition-colors"
-            >
-              Sagar
-            </a>
-          </p>
+
+          <div className="flex items-center gap-4">
+            {/* Language Selector */}
+            <div className="relative">
+              <select
+                value={selectedLanguage}
+                onChange={(e) => handleLanguageChange(e.target.value)}
+                className="bg-gray-800 text-gray-300 text-sm px-3 py-1 rounded-md border border-gray-600 focus:border-purple-400 focus:outline-none appearance-none pr-8"
+              >
+                {languages.map((lang) => (
+                  <option key={lang.code} value={lang.code}>
+                    {lang.flag} {lang.name}
+                  </option>
+                ))}
+              </select>
+              <div className="absolute right-2 top-1/2 transform -translate-y-1/2 pointer-events-none">
+                <svg
+                  className="w-4 h-4 text-gray-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <p className="text-sm text-gray-400 flex items-center gap-1">
+              Crafted with <span className="text-red-500">♥</span> by{" "}
+              <a
+                href="https://xagar.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-purple-400 hover:text-purple-300 transition-colors"
+              >
+                Sagar
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

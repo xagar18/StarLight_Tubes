@@ -27,10 +27,6 @@ export const ImagesSlider = ({
     setCurrentIndex((prev) => (prev + 1 === images.length ? 0 : prev + 1));
   }, [images.length]);
 
-  const handlePrevious = useCallback(() => {
-    setCurrentIndex((prev) => (prev - 1 < 0 ? images.length - 1 : prev - 1));
-  }, [images.length]);
-
   useEffect(() => {
     const img = new Image();
     img.src = images[0];

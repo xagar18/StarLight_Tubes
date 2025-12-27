@@ -2,17 +2,44 @@
 import { motion } from "motion/react";
 import { Link } from "react-router";
 import { ImagesSlider } from "../ui/images-slider";
+import { useEffect, useMemo, useState } from "react";
+
+const CLOUD_NAME = "dtdardvqm";
+
+/* 🔥 Responsive Cloudinary URL */
+const getImageUrl = (publicId: string, width: number) =>
+  `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/f_auto,q_auto,w_${width},c_fill/${publicId}`;
 
 export function ImagesSliderDemo() {
-  const images = [
-    "/MainScrollableImage/Home.webp",
-    "/MainScrollableImage/Home1.webp",
-    "/MainScrollableImage/Home2.webp",
-    "/MainScrollableImage/Home3.webp",
-    "/MainScrollableImage/Home4.webp",
-    "/MainScrollableImage/Home5.webp",
-    "/MainScrollableImage/Home6.webp",
-  ];
+  const [imgWidth, setImgWidth] = useState(1600);
+
+  /* ✅ Decide image width ONCE */
+  useEffect(() => {
+    const w = window.innerWidth;
+    if (w < 640) setImgWidth(480); // mobile
+    else if (w < 1024) setImgWidth(1024); // tablet
+    else setImgWidth(1600); // desktop
+  }, []);
+
+  /* ✅ Images generated only once */
+  const images = useMemo(
+    () => [
+      getImageUrl("Home_aaq22e", imgWidth),
+      getImageUrl("Home1_uqnocu", imgWidth),
+      getImageUrl("Home2_g7sivg", imgWidth),
+      getImageUrl("Home3_ph7c4v", imgWidth),
+      getImageUrl("Home4_wrv7d7", imgWidth),
+      getImageUrl("Home5_l875gv", imgWidth),
+      getImageUrl("Home6_ybywtc", imgWidth),
+    ],
+    [imgWidth]
+  );
+
+  /* ✅ Preload ONLY the first image (LCP) */
+  useEffect(() => {
+    const img = new Image();
+    img.src = images[0];
+  }, [images]);
 
   const texts = [
     {
@@ -72,80 +99,39 @@ export function ImagesSliderDemo() {
           transition={{ duration: 0.6 }}
           className="z-50 flex flex-col justify-center items-center px-6 md:px-12"
         >
-          {/* Animated Badge */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-          >
-            <span className="inline-flex items-center gap-2 px-5 py-2.5 mb-8 rounded-full bg-white/10 border border-white/20 backdrop-blur-md shadow-lg shadow-black/10">
-              <span className="text-amber-400 text-sm font-semibold tracking-wider uppercase">
-                {texts[currentIndex].badge}
-              </span>
+          {/* Badge */}
+          <span className="inline-flex items-center gap-2 px-5 py-2.5 mb-8 rounded-full bg-white/10 border border-white/20 backdrop-blur-md">
+            <span className="text-amber-400 text-sm font-semibold uppercase">
+              {texts[currentIndex].badge}
             </span>
-          </motion.div>
+          </span>
 
-          {/* Main Title with Gradient Highlight */}
-          <motion.h1
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
-            className="font-bold text-3xl md:text-5xl lg:text-6xl text-center leading-tight max-w-5xl"
-          >
-            <span className="text-white drop-shadow-2xl">
-              {texts[currentIndex].title}
-            </span>
+          {/* Heading */}
+          <h1 className="font-bold text-3xl md:text-5xl lg:text-6xl text-center max-w-5xl">
+            <span className="text-white">{texts[currentIndex].title}</span>
             <br />
-            <span className="bg-gradient-to-r from-amber-400 via-orange-400 to-amber-500 bg-clip-text text-transparent drop-shadow-lg">
+            <span className="bg-gradient-to-r from-amber-400 via-orange-400 to-amber-500 bg-clip-text text-transparent">
               {texts[currentIndex].highlight}
             </span>
-          </motion.h1>
+          </h1>
 
-          {/* Decorative Line */}
-          <motion.div
-            initial={{ scaleX: 0 }}
-            animate={{ scaleX: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent mt-6 mb-6 rounded-full"
-          />
+          {/* Divider */}
+          <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent mt-6 mb-6 rounded-full" />
 
           {/* Subtitle */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="font-medium text-base md:text-xl lg:text-2xl text-center text-white/80 max-w-4xl leading-relaxed"
-          >
+          <p className="text-base md:text-xl lg:text-2xl text-center text-white/80 max-w-4xl">
             {texts[currentIndex].subtitle}
-          </motion.p>
+          </p>
 
-          {/* CTA Buttons */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4 mt-10"
-          >
+          {/* CTA */}
+          <div className="mt-10">
             <Link
               to="/contact"
-              className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold rounded-full transition-all duration-300 flex items-center justify-center gap-3 shadow-xl shadow-amber-500/30 hover:shadow-amber-500/50 hover:scale-105"
+              className="px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold rounded-full hover:scale-105 transition-all shadow-xl"
             >
-              <span>Request Quote</span>
-              <svg
-                className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2.5}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
+              Request Quote
             </Link>
-          </motion.div>
+          </div>
         </motion.div>
       )}
     </ImagesSlider>

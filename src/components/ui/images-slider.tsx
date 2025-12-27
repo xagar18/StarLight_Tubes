@@ -21,74 +21,50 @@ export const ImagesSlider = ({
   direction?: "up" | "down";
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [loading, setLoading] = useState(true);
-  const [loadedImages, setLoadedImages] = useState<string[]>([]);
+  const [isFirstLoaded, setIsFirstLoaded] = useState(false);
 
   const handleNext = useCallback(() => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex + 1 === images.length ? 0 : prevIndex + 1
-    );
+    setCurrentIndex((prev) => (prev + 1 === images.length ? 0 : prev + 1));
   }, [images.length]);
 
   const handlePrevious = useCallback(() => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex - 1 < 0 ? images.length - 1 : prevIndex - 1
-    );
+    setCurrentIndex((prev) => (prev - 1 < 0 ? images.length - 1 : prev - 1));
   }, [images.length]);
 
+  /* ✅ Load ONLY the first image (LCP) */
   useEffect(() => {
-    // Load only first image initially, then lazy load rest
-    const loadFirstImage = () => {
-      const img = new Image();
-      img.src = images[0];
-      img.onload = () => {
-        setLoadedImages([images[0]]);
-        setLoading(false);
-        // Load remaining images in background
-        loadRemainingImages();
-      };
-      img.onerror = () => {
-        console.warn(`Failed to load image: ${images[0]}`);
-        setLoading(false);
-      };
-    };
-
-    const loadRemainingImages = () => {
-      images.slice(1).forEach((image) => {
-        const img = new Image();
-        img.src = image;
-        img.onload = () => {
-          setLoadedImages((prev) => [...prev, image]);
-        };
-      });
-    };
-
-    loadFirstImage();
+    const img = new Image();
+    img.src = images[0];
+    img.onload = () => setIsFirstLoaded(true);
+    img.onerror = () => setIsFirstLoaded(true);
   }, [images]);
 
+  /* ✅ Preload ONLY the next image — during idle time */
   useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "ArrowRight") {
-        handleNext();
-      } else if (event.key === "ArrowLeft") {
-        handlePrevious();
-      }
-    };
+    if (!isFirstLoaded) return;
 
-    window.addEventListener("keydown", handleKeyDown);
+    const next = currentIndex + 1 === images.length ? 0 : currentIndex + 1;
 
-    let interval: ReturnType<typeof setInterval> | undefined;
-    if (autoplay && !loading) {
-      interval = setInterval(() => {
-        handleNext();
-      }, 5000);
+    if ("requestIdleCallback" in window) {
+      (window as any).requestIdleCallback(() => {
+        const img = new Image();
+        img.src = images[next];
+      });
+    } else {
+      setTimeout(() => {
+        const img = new Image();
+        img.src = images[next];
+      }, 200);
     }
+  }, [currentIndex, images, isFirstLoaded]);
 
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-      if (interval) clearInterval(interval);
-    };
-  }, [autoplay, handleNext, handlePrevious, loading]);
+  /* Autoplay */
+  useEffect(() => {
+    if (!autoplay || !isFirstLoaded) return;
+
+    const interval = setInterval(handleNext, 5000);
+    return () => clearInterval(interval);
+  }, [autoplay, handleNext, isFirstLoaded]);
 
   const slideVariants = {
     initial: {
@@ -108,35 +84,18 @@ export const ImagesSlider = ({
     upExit: {
       opacity: 1,
       y: "-150%",
-      transition: {
-        duration: 1,
-      },
+      transition: { duration: 1 },
     },
     downExit: {
       opacity: 1,
       y: "150%",
-      transition: {
-        duration: 1,
-      },
+      transition: { duration: 1 },
     },
   };
 
-  // Loading skeleton
-  if (loading) {
-    return (
-      <div
-        className={cn(
-          "overflow-hidden h-full  w-full relative flex items-center justify-center",
-          className
-        )}
-      >
-        <div className="absolute inset-0 bg-linear-to-br from-gray-800 via-gray-900 to-black animate-pulse" />
-        <div className="z-50 flex flex-col items-center gap-4">
-          <div className="w-12 h-12 border-4 border-emerald-500/30 border-t-emerald-500 rounded-full animate-spin" />
-          <p className="text-white/60 text-sm">Loading...</p>
-        </div>
-      </div>
-    );
+  /* ❌ NO LOADING BUTTON — render immediately */
+  if (!isFirstLoaded) {
+    return <div className={cn("relative h-full w-full bg-black", className)} />;
   }
 
   return (
@@ -145,16 +104,16 @@ export const ImagesSlider = ({
         "overflow-hidden h-full top-8 w-full relative flex items-center justify-center",
         className
       )}
-      style={{
-        perspective: "1000px",
-      }}
+      style={{ perspective: "1000px" }}
     >
-      {loadedImages.length > 0 && children(currentIndex)}
+      {children(currentIndex)}
+
       {overlay && (
         <div
           className={cn("absolute inset-0 bg-black/60 z-40", overlayClassName)}
         />
       )}
+
       <AnimatePresence>
         <motion.img
           key={currentIndex}
@@ -164,7 +123,10 @@ export const ImagesSlider = ({
           exit={direction === "up" ? "upExit" : "downExit"}
           variants={slideVariants}
           className="image h-full w-full absolute inset-0 object-cover object-center"
-          loading="lazy"
+          loading={currentIndex === 0 ? "eager" : "lazy"}
+          fetchPriority={currentIndex === 0 ? "high" : "auto"}
+          decoding="async"
+          draggable={false}
         />
       </AnimatePresence>
     </div>

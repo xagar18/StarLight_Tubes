@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { ContactCtaParent } from "../components/main components/ContactCta";
 import ContactForm from "../components/main components/ContactForm";
 import Footer from "../components/main components/Fotter";
@@ -5,6 +6,15 @@ import { NavbarDemo } from "../components/main components/Navbar";
 import { PageHero } from "../components/main components/PageHero";
 
 const Contact = () => {
+  useSEO({
+    title:
+      "Contact Starlight Tubes | Steel Pipe Manufacturers Mumbai | Middle East Inquiries",
+    description:
+      "Contact Starlight Tubes for premium steel pipes, tubes, and fittings. Manufacturers and exporters to Middle East. Get quotes for stainless steel, carbon steel, nickel alloys. Mumbai office with global delivery.",
+    keywords:
+      "contact Starlight Tubes, steel pipe manufacturers Mumbai, Middle East steel suppliers, pipe fittings contact UAE, stainless steel inquiry Saudi Arabia, carbon steel quote Qatar, nickel alloy suppliers Oman, steel manufacturers contact Kuwait, pipe exporters Bahrain",
+    url: "https://www.starlighttubes.com/contact",
+  });
   return (
     <div>
       <div className="flex min-h-svh flex-col items-center justify-center">

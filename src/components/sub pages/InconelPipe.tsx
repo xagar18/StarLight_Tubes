@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const InconelPipe = () => {
+  useSEO({
+    title:
+      "Inconel Pipe - Starlight Tubes | Inconel Pipes | Middle East Suppliers",
+    description:
+      "Professional Inconel pipes manufacturer. Inconel 600, 625 pipes. High temperature, corrosion resistant. Chemical processing, aerospace applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "inconel pipe UAE, inconel pipes Saudi Arabia, high temperature pipes Qatar, corrosion resistant pipes Oman, chemical processing pipes Kuwait, aerospace pipes Bahrain, inconel pipe Middle East, alloy pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/inconel-pipe",
+  });
   const projects = [
     {
       title: "Inconel pipe",

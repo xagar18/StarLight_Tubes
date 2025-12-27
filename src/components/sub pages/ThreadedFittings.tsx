@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,24 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const ThreadedFittings = () => {
+  useSEO({
+    title:
+      "Threaded Fittings - Starlight Tubes | Steel Pipe Threaded | Middle East Suppliers",
+    description:
+      "Reliable threaded fittings manufacturer. NPT, BSP threaded connections in stainless steel, carbon steel. Easy installation fittings. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "threaded fittings UAE, steel threaded Saudi Arabia, pipe threaded Qatar, NPT fittings Oman, BSP threaded Kuwait, installation fittings Bahrain, steel threaded fittings Middle East, pipe threaded manufacturers GCC, threaded connections UAE",
+    url: "https://www.starlighttubes.com/threaded-fittings",
+  });
+  useSEO({
+    title:
+      "Threaded Fittings - Starlight Tubes | Steel Pipe Threaded | Middle East Suppliers",
+    description:
+      "Reliable threaded fittings manufacturer. NPT, BSP threaded connections in stainless steel, carbon steel. Easy installation fittings. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "threaded fittings UAE, steel threaded Saudi Arabia, pipe threaded Qatar, NPT fittings Oman, BSP threaded Kuwait, installation fittings Bahrain, steel threaded fittings Middle East, pipe threaded manufacturers GCC, threaded connections UAE",
+    url: "https://www.starlighttubes.com/threaded-fittings",
+  });
   const projects = [
     {
       title: "Threaded Fittings",

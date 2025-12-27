@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const Aluminium7075 = () => {
+  useSEO({
+    title:
+      "Aluminium 7075 - Starlight Tubes | Aluminium 7075 Pipes, Sheets | Middle East Suppliers",
+    description:
+      "Expert aluminium 7075 manufacturer. High strength alloy pipes, sheets, round bars. Aerospace, defense applications. Superior strength-to-weight ratio. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "aluminium 7075 UAE, aluminium 7075 pipes Saudi Arabia, high strength alloy Qatar, aluminium sheets Oman, aluminium round bars Kuwait, aerospace aluminium Bahrain, defense aluminium Middle East, aluminium 7075 manufacturers GCC",
+    url: "https://www.starlighttubes.com/aluminium-7075",
+  });
   const projects = [
     {
       title: "Aluminium 7075 Plate",

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const UnionFittings = () => {
+  useSEO({
+    title:
+      "Union Fittings - Starlight Tubes | Steel Pipe Unions | Middle East Suppliers",
+    description:
+      "Professional steel union fittings manufacturer. Screwed, socket weld unions in stainless steel, carbon steel. Easy disassembly connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "union fittings UAE, steel unions Saudi Arabia, pipe unions Qatar, screwed unions Oman, socket weld unions Kuwait, disassembly unions Bahrain, steel union fittings Middle East, pipe union manufacturers GCC, threaded unions UAE",
+    url: "https://www.starlighttubes.com/union-fittings",
+  });
   const projects = [
     {
       title: "Union Fittings",

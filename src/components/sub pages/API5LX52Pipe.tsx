@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const API5LX52Pipe = () => {
+  useSEO({
+    title:
+      "API 5L X52 Pipe - Starlight Tubes | Carbon Steel X52 Pipes | Middle East Suppliers",
+    description:
+      "Professional API 5L X52 carbon steel pipes manufacturer. High yield strength, seamless, welded pipes. Oil, gas pipeline applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "API 5L X52 pipe UAE, carbon steel X52 pipes Saudi Arabia, high yield pipes Qatar, seamless X52 pipes Oman, welded X52 pipes Kuwait, oil pipeline pipes Bahrain, API 5L X52 pipe Middle East, carbon steel X52 pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/api-5l-x52-pipe",
+  });
   const projects = [
     {
       title: "API 5L X52 ERW Pipe",

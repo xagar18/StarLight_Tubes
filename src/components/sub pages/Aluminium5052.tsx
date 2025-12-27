@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const Aluminium5052 = () => {
+  useSEO({
+    title:
+      "Aluminium 5052 - Starlight Tubes | Aluminium 5052 Pipes, Sheets | Middle East Suppliers",
+    description:
+      "Reliable aluminium 5052 manufacturer. Pipes, sheets, round bars. Excellent corrosion resistance, marine applications. High strength alloy. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "aluminium 5052 UAE, aluminium 5052 pipes Saudi Arabia, marine aluminium Qatar, corrosion resistant aluminium Oman, aluminium sheets Kuwait, aluminium round bars Bahrain, aluminium 5052 Middle East, aluminium manufacturers GCC",
+    url: "https://www.starlighttubes.com/aluminium-5052",
+  });
   const projects = [
     {
       title: "Aluminium 5052 Sheet",

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteelFasteners = () => {
+  useSEO({
+    title:
+      "Stainless Steel Fasteners - Starlight Tubes | SS Bolts, Nuts, Screws | Middle East Suppliers",
+    description:
+      "Professional stainless steel fasteners manufacturer. Bolts, nuts, screws, washers in SS 304, 316, 316L. High corrosion resistance. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "stainless steel fasteners UAE, SS bolts Saudi Arabia, SS nuts Qatar, SS screws Oman, SS washers Kuwait, corrosion resistant fasteners Bahrain, stainless steel bolts Middle East, SS fasteners GCC, stainless steel fastener manufacturers UAE",
+    url: "https://www.starlighttubes.com/stainless-steel-fasteners",
+  });
   const projects = [
     {
       title: "Stainless Steel Bolts",

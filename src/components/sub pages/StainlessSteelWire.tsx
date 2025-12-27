@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteelWire = () => {
+  useSEO({
+    title:
+      "Stainless Steel Wire - Starlight Tubes | SS Wire | Middle East Suppliers",
+    description:
+      "Reliable stainless steel wire manufacturer. SS 304, 316, 316L wires. Spring wire, welding wire, cold drawn wire. High corrosion resistance. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "stainless steel wire UAE, SS wire Saudi Arabia, spring wire Qatar, welding wire Oman, cold drawn wire Kuwait, corrosion resistant wire Bahrain, stainless steel wire Middle East, SS wire manufacturers GCC",
+    url: "https://www.starlighttubes.com/stainless-steel-wire",
+  });
   const projects = [
     {
       title: "Stainless Steel Wire",

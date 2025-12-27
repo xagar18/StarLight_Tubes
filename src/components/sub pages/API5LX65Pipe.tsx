@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const API5LX65Pipe = () => {
+  useSEO({
+    title:
+      "API 5L X65 Pipe - Starlight Tubes | Carbon Steel X65 Pipes | Middle East Suppliers",
+    description:
+      "Professional API 5L X65 carbon steel pipes manufacturer. Ultra high yield strength pipes. Offshore, deep water applications. Corrosion resistant coating available. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "API 5L X65 pipe UAE, carbon steel X65 pipes Saudi Arabia, ultra high yield pipes Qatar, offshore pipes Oman, deep water pipes Kuwait, corrosion resistant pipes Bahrain, API 5L X65 pipe Middle East, carbon steel pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/api-5l-x65-pipe",
+  });
   const projects = [
     {
       title: "API 5L X65 PSL2 Seamless Pipe",

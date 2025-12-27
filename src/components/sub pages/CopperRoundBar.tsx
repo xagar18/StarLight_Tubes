@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperRoundBar = () => {
+  useSEO({
+    title:
+      "Copper Round Bar - Starlight Tubes | Copper Round Bars | Middle East Suppliers",
+    description:
+      "Professional copper round bars manufacturer. High conductivity, machinable. Electrical components, plumbing fittings. Various diameters available. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "copper round bar UAE, copper round bars Saudi Arabia, high conductivity bars Qatar, machinable bars Oman, electrical bars Kuwait, plumbing bars Bahrain, copper round bar Middle East, copper bar manufacturers GCC",
+    url: "https://www.starlighttubes.com/copper-round-bar",
+  });
   const projects = [
     {
       title: "Copper Round Bar",

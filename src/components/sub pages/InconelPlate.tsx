@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const InconelPlate = () => {
+  useSEO({
+    title:
+      "Inconel Plate - Starlight Tubes | Inconel Plates | Middle East Suppliers",
+    description:
+      "Specialized Inconel plates manufacturer. Inconel 600, 625 plates. High temperature, corrosion resistant. Aerospace, chemical processing applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "inconel plate UAE, inconel plates Saudi Arabia, high temperature plates Qatar, corrosion resistant plates Oman, aerospace plates Kuwait, chemical processing plates Bahrain, inconel plate Middle East, alloy plate manufacturers GCC",
+    url: "https://www.starlighttubes.com/inconel-plate",
+  });
   const projects = [
     {
       title: "Plate",

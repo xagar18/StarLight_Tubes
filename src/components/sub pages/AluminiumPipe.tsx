@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const AluminiumPipe = () => {
+  useSEO({
+    title:
+      "Aluminium Pipe - Starlight Tubes | Aluminium Pipes | Middle East Suppliers",
+    description:
+      "Professional aluminium pipes manufacturer. 6061, 6063, 5052 grades. Lightweight, corrosion resistant. HVAC, construction applications. Seamless, welded pipes. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "aluminium pipe UAE, aluminium pipes Saudi Arabia, lightweight pipes Qatar, corrosion resistant pipes Oman, HVAC pipes Kuwait, construction pipes Bahrain, aluminium pipe Middle East, aluminium pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/aluminium-pipe",
+  });
   const projects = [
     {
       title: "Aluminium Pipe",

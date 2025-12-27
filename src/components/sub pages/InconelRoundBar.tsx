@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const InconelRoundBar = () => {
+  useSEO({
+    title:
+      "Inconel Round Bar - Starlight Tubes | Inconel Round Bars | Middle East Suppliers",
+    description:
+      "Expert Inconel round bars manufacturer. Inconel 600, 625 bars. High strength, corrosion resistant. Aerospace, marine applications. Various diameters. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "inconel round bar UAE, inconel round bars Saudi Arabia, high strength bars Qatar, corrosion resistant bars Oman, aerospace bars Kuwait, marine bars Bahrain, inconel round bar Middle East, alloy bar manufacturers GCC",
+    url: "https://www.starlighttubes.com/inconel-round-bar",
+  });
   const projects = [
     {
       title: "Inconel Round Bar",

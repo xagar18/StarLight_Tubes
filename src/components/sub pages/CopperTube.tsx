@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperTube = () => {
+  useSEO({
+    title:
+      "Copper Tube - Starlight Tubes | Copper Tubes | Middle East Suppliers",
+    description:
+      "Premium copper tubes manufacturer. Type K, L, M copper tubing. Plumbing, HVAC, refrigeration. High conductivity, corrosion resistant. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "copper tube UAE, copper tubes Saudi Arabia, type K tubing Qatar, type L tubing Oman, type M tubing Kuwait, plumbing tubes Bahrain, HVAC copper Middle East, refrigeration tubing GCC, copper tube manufacturers UAE",
+    url: "https://www.starlighttubes.com/copper-tube",
+  });
   const projects = [
     {
       title: "Copper Tube",

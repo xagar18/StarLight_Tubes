@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -6,6 +7,15 @@ import { PageHero } from "../components/main components/PageHero";
 import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const StainlessSteel = () => {
+  useSEO({
+    title:
+      "Stainless Steel Products - Starlight Tubes | Pipes, Tubes, Sheets, Plates | Middle East Suppliers",
+    description:
+      "Leading stainless steel products manufacturer and exporter. Premium 304, 316, 316L stainless steel pipes, tubes, sheets, plates, round bars, fasteners. ASTM, ASME certified. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "stainless steel pipes UAE, stainless steel tubes Saudi Arabia, 304 stainless steel Qatar, 316 stainless steel Oman, stainless steel sheets Kuwait, stainless steel plates Bahrain, duplex stainless steel Middle East, super duplex GCC, stainless steel round bars UAE, stainless steel fasteners Saudi Arabia, ASTM stainless steel Qatar",
+    url: "https://www.starlighttubes.com/stainless-steel",
+  });
   const ctaData = {
     title: "Stainless Steel Products",
     paragraph1:

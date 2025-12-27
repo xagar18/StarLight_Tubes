@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -42,6 +43,15 @@ const AluminiumApplicationsCTA = () => {
 };
 
 const Aluminium = () => {
+  useSEO({
+    title:
+      "Aluminium Products - Starlight Tubes | Aluminium Pipes, Tubes, Sheets | Middle East Suppliers",
+    description:
+      "Premium aluminium products manufacturer and exporter. High-quality aluminium pipes, tubes, sheets, plates, round bars, coils. Grades 6061, 6063, 5052, 7075. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "aluminium pipes UAE, aluminium tubes Saudi Arabia, aluminium sheets Qatar, aluminium plates Oman, aluminium round bars Kuwait, aluminium coils Bahrain, aluminium 6061 Middle East, aluminium 7075 GCC, aluminium manufacturers UAE, aluminium suppliers Saudi Arabia",
+    url: "https://www.starlighttubes.com/aluminium",
+  });
   const ctaData = {
     title: "Aluminium Products",
     paragraph1:

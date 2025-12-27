@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const CouplingFittings = () => {
+  useSEO({
+    title:
+      "Coupling Fittings - Starlight Tubes | Steel Pipe Couplings | Middle East Suppliers",
+    description:
+      "Quality steel coupling fittings manufacturer. Full, half couplings in stainless steel, carbon steel. Socket weld, threaded connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "coupling fittings UAE, steel couplings Saudi Arabia, pipe couplings Qatar, full couplings Oman, half couplings Kuwait, socket weld couplings Bahrain, threaded couplings Middle East, steel coupling fittings GCC, pipe coupling manufacturers UAE",
+    url: "https://www.starlighttubes.com/coupling-fittings",
+  });
   const projects = [
     {
       title: "Coupling Fittings",

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -38,13 +39,21 @@ const CopperApplicationsCTA = () => {
         paragraph1={data.paragraph1}
         paragraph2={data.paragraph2}
         specifications={data.specifications}
-      
       />
     </div>
   );
 };
 
 const Copper = () => {
+  useSEO({
+    title:
+      "Copper Products - Starlight Tubes | Copper Pipes, Tubes, Sheets | Middle East Suppliers",
+    description:
+      "Leading copper products manufacturer and exporter. Premium copper pipes, tubes, sheets, plates, round bars, fittings. Cupro nickel 90/10, 70/30 pipes and tubes. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "copper pipes UAE, copper tubes Saudi Arabia, copper sheets Qatar, cupro nickel pipes Oman, copper nickel tubes Kuwait, copper fittings Bahrain, copper round bars Middle East, copper plates GCC, copper manufacturers UAE, copper suppliers Saudi Arabia",
+    url: "https://www.starlighttubes.com/copper",
+  });
   const ctaData = {
     title: "Copper Products",
     paragraph1:

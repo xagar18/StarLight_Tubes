@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const ElbowFittings = () => {
+  useSEO({
+    title:
+      "Elbow Fittings - Starlight Tubes | Steel Pipe Elbows | Middle East Suppliers",
+    description:
+      "Premium steel elbow fittings manufacturer. 45°, 90°, 180° elbows in stainless steel, carbon steel. Butt weld, socket weld, threaded connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "elbow fittings UAE, steel elbows Saudi Arabia, pipe elbows Qatar, 90 degree elbows Oman, 45 degree elbows Kuwait, butt weld elbows Bahrain, socket weld elbows Middle East, threaded elbows GCC, steel elbow fittings UAE, pipe elbow manufacturers Saudi Arabia",
+    url: "https://www.starlighttubes.com/elbow-fittings",
+  });
   const projects = [
     {
       title: "Elbow Fittings",

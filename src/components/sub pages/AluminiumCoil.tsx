@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const AluminiumCoil = () => {
+  useSEO({
+    title:
+      "Aluminium Coil - Starlight Tubes | Aluminium Coils | Middle East Suppliers",
+    description:
+      "Expert aluminium coils manufacturer. 5052, 6061, 7075 grades. Roofing, cladding, automotive applications. Custom thicknesses, widths. Corrosion resistant. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "aluminium coil UAE, aluminium coils Saudi Arabia, roofing coils Qatar, cladding coils Oman, automotive coils Kuwait, corrosion resistant coils Bahrain, aluminium coil Middle East, aluminium coil manufacturers GCC",
+    url: "https://www.starlighttubes.com/aluminium-coil",
+  });
   const projects = [
     {
       title: "Aluminium Coil",

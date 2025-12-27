@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,24 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const CarbonSteelPipe = () => {
+  useSEO({
+    title:
+      "Carbon Steel Pipe - Starlight Tubes | Carbon Steel Pipes | Middle East Suppliers",
+    description:
+      "Reliable carbon steel pipes manufacturer. ASTM A106, A53, API 5L grades. Seamless, ERW, welded pipes. Oil, gas, water applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "carbon steel pipe UAE, carbon steel pipes Saudi Arabia, ASTM A106 pipes Qatar, API 5L pipes Oman, seamless pipes Kuwait, ERW pipes Bahrain, carbon steel pipe Middle East, steel pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/carbon-steel-pipe",
+  });
+  useSEO({
+    title:
+      "Carbon Steel Pipes - Starlight Tubes | ASTM A106, A53 Pipes | Middle East Suppliers",
+    description:
+      "Leading carbon steel pipes manufacturer. ASTM A106, A53, A333 grade pipes in seamless and ERW. API 5L standards. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "carbon steel pipes UAE, ASTM A106 pipe Saudi Arabia, ASTM A53 pipe Qatar, API 5L pipe Oman, seamless carbon steel pipes Kuwait, ERW carbon steel pipes Bahrain, carbon steel pipe manufacturers GCC, steel pipe suppliers Middle East",
+    url: "https://www.starlighttubes.com/carbon-steel-pipe",
+  });
   const projects = [
     {
       title: "Carbon Steel Pipe",

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,24 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const SocketWeldFittings = () => {
+  useSEO({
+    title:
+      "Socket Weld Fittings - Starlight Tubes | Steel Pipe Socket Weld | Middle East Suppliers",
+    description:
+      "Professional socket weld fittings manufacturer. Elbows, tees, couplings in stainless steel, carbon steel. High pressure socket connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "socket weld fittings UAE, steel socket weld Saudi Arabia, pipe socket weld Qatar, high pressure fittings Oman, socket connections Kuwait, weld fittings Bahrain, steel socket weld fittings Middle East, pipe socket weld manufacturers GCC",
+    url: "https://www.starlighttubes.com/socket-weld-fittings",
+  });
+  useSEO({
+    title:
+      "Socket Weld Fittings - Starlight Tubes | Steel Pipe Socket Weld | Middle East Suppliers",
+    description:
+      "Professional socket weld fittings manufacturer. Elbows, tees, couplings in stainless steel, carbon steel. High pressure socket connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "socket weld fittings UAE, steel socket weld Saudi Arabia, pipe socket weld Qatar, high pressure fittings Oman, socket connections Kuwait, weld fittings Bahrain, steel socket weld fittings Middle East, pipe socket weld manufacturers GCC",
+    url: "https://www.starlighttubes.com/socket-weld-fittings",
+  });
   const projects = [
     {
       title: "Socket Weld Fittings",

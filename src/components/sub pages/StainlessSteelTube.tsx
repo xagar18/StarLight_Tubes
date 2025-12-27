@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteelTube = () => {
+  useSEO({
+    title:
+      "Stainless Steel Tube - Starlight Tubes | SS Tubes | Middle East Suppliers",
+    description:
+      "Premium stainless steel tubes manufacturer. SS 304, 316, 316L tubes. Seamless, welded, ERW. High corrosion resistance, strength. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "stainless steel tube UAE, SS tubes Saudi Arabia, seamless tubes Qatar, welded tubes Oman, ERW tubes Kuwait, corrosion resistant tubes Bahrain, stainless steel tube Middle East, SS tube manufacturers GCC",
+    url: "https://www.starlighttubes.com/stainless-steel-tube",
+  });
   const projects = [
     {
       title: "Stainless Steel Tube",

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteelRoundBar = () => {
+  useSEO({
+    title:
+      "Stainless Steel Round Bar - Starlight Tubes | SS Round Bars | Middle East Suppliers",
+    description:
+      "Professional stainless steel round bars manufacturer. SS 304, 316, 316L bars. Hot rolled, cold drawn. Machining, construction applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "stainless steel round bar UAE, SS round bars Saudi Arabia, hot rolled bars Qatar, cold drawn bars Oman, machining bars Kuwait, construction bars Bahrain, stainless steel round bar Middle East, SS bar manufacturers GCC",
+    url: "https://www.starlighttubes.com/stainless-steel-round-bar",
+  });
   const projects = [
     {
       title: "Stainless Steel Round Bar",

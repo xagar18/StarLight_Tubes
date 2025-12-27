@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -41,6 +42,15 @@ const FittingsApplicationsCTA = () => {
 };
 
 const Fittings = () => {
+  useSEO({
+    title:
+      "Pipe Fittings & Flanges - Starlight Tubes | Elbows, Tees, Reducers | Middle East Suppliers",
+    description:
+      "Premium pipe fittings and flanges manufacturer. Stainless steel, carbon steel elbows, tees, reducers, caps, couplings, unions. Butt weld, socket weld, threaded fittings. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "pipe fittings UAE, flanges Saudi Arabia, steel elbows Qatar, pipe tees Oman, reducers Kuwait, butt weld fittings Bahrain, socket weld fittings Middle East, threaded fittings GCC, pipe flanges UAE, steel couplings Saudi Arabia, pipe caps Qatar",
+    url: "https://www.starlighttubes.com/fittings",
+  });
   const ctaData = {
     title: "Pipe Fittings & Flanges",
     paragraph1:

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const CapFittings = () => {
+  useSEO({
+    title:
+      "Cap Fittings - Starlight Tubes | Steel Pipe Caps | Middle East Suppliers",
+    description:
+      "Reliable steel cap fittings manufacturer. Threaded, butt weld pipe caps in stainless steel, carbon steel. End closures for pipelines. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "cap fittings UAE, steel caps Saudi Arabia, pipe caps Qatar, threaded caps Oman, butt weld caps Kuwait, end closures Bahrain, steel cap fittings Middle East, pipe cap manufacturers GCC, pipeline caps UAE",
+    url: "https://www.starlighttubes.com/cap-fittings",
+  });
   const projects = [
     {
       title: "Cap Fittings",

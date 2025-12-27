@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -6,6 +7,15 @@ import { PageHero } from "../components/main components/PageHero";
 import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const CarbonSteel = () => {
+  useSEO({
+    title:
+      "Carbon Steel Products - Starlight Tubes | ASTM A106, API 5L Pipes | Middle East Manufacturers",
+    description:
+      "Premium carbon steel pipes and tubes manufacturer. ASTM A106, A53, A333, API 5L Grade B, X42, X52, X65 pipes. ERW and seamless carbon steel products. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "carbon steel pipes UAE, ASTM A106 pipe Saudi Arabia, API 5L pipe Qatar, carbon steel tubes Oman, ERW pipes Kuwait, seamless carbon steel Bahrain, ASTM A53 pipe Middle East, API 5L X65 GCC, carbon steel manufacturers UAE, steel pipe suppliers Saudi Arabia",
+    url: "https://www.starlighttubes.com/carbon-steel",
+  });
   const ctaData = {
     title: "Carbon Steel Products",
     paragraph1:

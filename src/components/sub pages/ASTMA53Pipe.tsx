@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const ASTMA53Pipe = () => {
+  useSEO({
+    title:
+      "ASTM A53 Pipe - Starlight Tubes | Black Steel Pipes | Middle East Suppliers",
+    description:
+      "Reliable ASTM A53 black steel pipes manufacturer. Grade A, B pipes. Seamless, ERW, galvanized. General purpose piping applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "ASTM A53 pipe UAE, black steel pipes Saudi Arabia, galvanized pipes Qatar, ERW pipes Oman, seamless pipes Kuwait, grade A pipes Bahrain, ASTM A53 pipe Middle East, steel pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/astm-a53-pipe",
+  });
   const projects = [
     {
       title: "ASTM A53 Grade B Pipe",

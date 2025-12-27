@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const InconelBolts = () => {
+  useSEO({
+    title:
+      "Inconel Bolts - Starlight Tubes | Inconel 600, 625 Fasteners | Middle East Suppliers",
+    description:
+      "Specialized Inconel bolts manufacturer. Inconel 600, 625, 718 bolts, nuts, screws. High temperature, corrosion resistant fasteners. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "inconel bolts UAE, inconel fasteners Saudi Arabia, inconel 600 bolts Qatar, inconel 625 nuts Oman, high temperature bolts Kuwait, corrosion resistant fasteners Bahrain, inconel bolts Middle East, inconel fastener manufacturers GCC",
+    url: "https://www.starlighttubes.com/inconel-bolts",
+  });
   const projects = [
     {
       title: "Inconel Bolts",

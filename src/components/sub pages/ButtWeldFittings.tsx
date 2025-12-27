@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const ButtWeldFittings = () => {
+  useSEO({
+    title:
+      "Butt Weld Fittings - Starlight Tubes | Steel Pipe Butt Weld | Middle East Suppliers",
+    description:
+      "Expert butt weld fittings manufacturer. Elbows, tees, reducers, caps in stainless steel, carbon steel. Seamless welding connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "butt weld fittings UAE, steel butt weld Saudi Arabia, pipe butt weld Qatar, seamless weld fittings Oman, welding connections Kuwait, butt weld elbows Bahrain, steel butt weld fittings Middle East, pipe butt weld manufacturers GCC",
+    url: "https://www.starlighttubes.com/butt-weld-fittings",
+  });
   const projects = [
     {
       title: "Butt Weld Fittings",

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const API5LGradeBPipe = () => {
+  useSEO({
+    title:
+      "API 5L Grade B Pipe - Starlight Tubes | Carbon Steel Grade B Pipes | Middle East Suppliers",
+    description:
+      "Professional API 5L Grade B carbon steel pipes manufacturer. Seamless, welded pipes. Oil, gas transportation. High strength, corrosion resistant. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "API 5L grade B pipe UAE, carbon steel grade B pipes Saudi Arabia, oil pipes Qatar, gas pipes Oman, seamless grade B pipes Kuwait, welded grade B pipes Bahrain, API 5L grade B pipe Middle East, carbon steel pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/api-5l-grade-b-pipe",
+  });
   const projects = [
     {
       title: "API 5L Grade B Seamless Pipe",

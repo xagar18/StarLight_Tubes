@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const A671Pipe = () => {
+  useSEO({
+    title:
+      "ASTM A671 Pipe - Starlight Tubes | Electric Fusion Welded Pipes | Middle East Suppliers",
+    description:
+      "Expert ASTM A671 electric fusion welded pipes manufacturer. Carbon steel, alloy steel pipes. High pressure, high temperature applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "ASTM A671 pipe UAE, electric fusion welded pipes Saudi Arabia, carbon steel pipes Qatar, alloy steel pipes Oman, high pressure pipes Kuwait, high temperature pipes Bahrain, ASTM A671 pipe Middle East, fusion welded pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/astm-a671-pipe",
+  });
   const projects = [
     {
       title: "ASTM A671 Pipe",

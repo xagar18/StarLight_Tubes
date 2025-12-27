@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteel316LPipe = () => {
+  useSEO({
+    title:
+      "Stainless Steel 316L Pipe - Starlight Tubes | SS 316L Pipes | Middle East Suppliers",
+    description:
+      "Premium stainless steel 316L pipes manufacturer. ASTM A312 TP316L seamless, welded pipes. Low carbon, corrosion resistant. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "stainless steel 316L pipe UAE, SS 316L pipes Saudi Arabia, ASTM A312 TP316L Qatar, low carbon pipes Oman, corrosion resistant 316L Kuwait, seamless 316L pipes Bahrain, stainless steel 316L pipe Middle East, SS 316L pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/stainless-steel-316L-pipe",
+  });
   const projects = [
     {
       title: "316L Stainless Steel Pipe",

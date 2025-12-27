@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const Inconel625Tubing = () => {
+  useSEO({
+    title:
+      "Inconel 625 Tubing - Starlight Tubes | Inconel 625 Tubes | Middle East Suppliers",
+    description:
+      "Expert Inconel 625 tubing manufacturer. Seamless, welded tubes. High strength, corrosion resistant. Aerospace, marine applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "inconel 625 tubing UAE, inconel tubes Saudi Arabia, high strength tubing Qatar, corrosion resistant tubes Oman, aerospace tubing Kuwait, marine tubes Bahrain, inconel 625 tubing Middle East, alloy tube manufacturers GCC",
+    url: "https://www.starlighttubes.com/inconel-625-tubing",
+  });
   const projects = [
     {
       title: "Inconel Alloy 625 Tube",

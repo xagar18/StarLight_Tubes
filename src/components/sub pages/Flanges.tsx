@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const Flanges = () => {
+  useSEO({
+    title:
+      "Flange Fittings - Starlight Tubes | Steel Pipe Flanges | Middle East Suppliers",
+    description:
+      "Leading steel flange fittings manufacturer. Weld neck, slip on, blind, socket weld flanges. ANSI, DIN, JIS standards. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "flange fittings UAE, steel flanges Saudi Arabia, pipe flanges Qatar, weld neck flanges Oman, slip on flanges Kuwait, blind flanges Bahrain, socket weld flanges Middle East, ANSI flanges GCC, DIN flanges UAE, JIS flanges Saudi Arabia",
+    url: "https://www.starlighttubes.com/flange-fittings",
+  });
   const projects = [
     {
       title: "Weld Neck Flange",

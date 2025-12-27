@@ -7,9 +7,11 @@ import { PageHero } from "../components/main components/PageHero";
 // Stainless Steel Products
 const stainlessSteelItems = [
   "Stainless Steel Tube",
+  "Duplex Stainless Steel Tube",
+  "Super Duplex Stainless Steel Tube",
   "Stainless Steel Pipe",
   "Stainless Steel Sheet",
-  "Stainless Steel Round Bar",
+  "Stainless Steel Bar",
   "Stainless Steel Fasteners",
   "Stainless Steel Wire",
   "304 Stainless Steel Pipe",
@@ -20,6 +22,8 @@ const stainlessSteelItems = [
 ];
 
 const stainlessSteelLinks = [
+  "/stainless-steel-tube",
+  "/stainless-steel-tube",
   "/stainless-steel-tube",
   "/stainless-steel-pipe",
   "/stainless-steel-sheet",
@@ -36,6 +40,7 @@ const stainlessSteelLinks = [
 // Carbon Steel Products
 const carbonSteelItems = [
   "Carbon Steel Pipe",
+  "Carbon Steel Welded Pipe",
   "ASTM A106 Pipe",
   "ASTM A53 Pipe",
   "ASTM A333 Pipe",
@@ -48,6 +53,7 @@ const carbonSteelItems = [
 ];
 
 const carbonSteelLinks = [
+  "/carbon-steel-pipe",
   "/carbon-steel-pipe",
   "/astm-a106-pipe",
   "/astm-a53-pipe",
@@ -174,11 +180,12 @@ const fittingsLinks = [
 
 const Product = () => {
   useSEO({
-    title: "Products - Starlight Tubes | Steel Pipes, Tubes & Fittings",
+    title:
+      "Products - Starlight Tubes | Complete Range of Steel Pipes, Tubes, Fittings & Flanges | Middle East Suppliers",
     description:
-      "Explore our complete range of industrial products including Stainless Steel, Carbon Steel, Nickel Alloys, Copper, Aluminium pipes, tubes, sheets and fittings.",
+      "Explore Starlight Tubes complete product catalog: Stainless steel pipes & tubes, carbon steel pipes, nickel alloys, copper pipes, aluminium sheets, pipe fittings, flanges, elbows, tees, reducers, butt weld fittings, socket weld fittings, threaded fittings. Manufacturers and exporters to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain. Premium quality industrial steel products with ISO certification.",
     keywords:
-      "steel products, stainless steel pipe, carbon steel tube, nickel alloy, copper pipe, aluminium sheet, pipe fittings, industrial materials",
+      "Starlight Tubes products, steel pipes Middle East, stainless steel tubes UAE, carbon steel pipes Saudi Arabia, nickel alloy fittings Qatar, pipe flanges Oman, steel elbows Kuwait, pipe tees Bahrain, butt weld fittings GCC, socket weld fittings Middle East, threaded fittings UAE, copper pipes Saudi Arabia, aluminium sheets Qatar, inconel pipes Oman, duplex stainless steel Kuwait, super duplex Bahrain, 304 stainless steel GCC, 316 stainless steel Middle East, ASTM A106 pipes UAE, API 5L tubes Saudi Arabia, industrial steel products Qatar, pipe fittings manufacturers Oman, steel flanges suppliers Kuwait, metal tubes Bahrain",
     url: "https://www.starlighttubes.com/product",
   });
 
@@ -187,8 +194,8 @@ const Product = () => {
       <NavbarDemo>
         {/* Hero Section */}
         <PageHero
-          title="Our Products"
-          subtitle="Comprehensive Range of Industrial Steel & Metal Products"
+          title="Starlight Tubes Products"
+          subtitle="Complete Range of Industrial Steel Pipes, Tubes, Fittings & Flanges"
           image="/main-page/product.png"
         />
 
@@ -201,11 +208,12 @@ const Product = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-4 text-gray-900 dark:text-white">
-              Steel & Metal Products
+              Starlight Tubes - Steel & Metal Products
             </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-400 max-w-3xl">
-              High-quality industrial materials for diverse applications
-              worldwide
+              Starlight Tubes offers comprehensive range of high-quality
+              industrial steel & metal products for diverse applications
+              worldwide, with special focus on Middle East markets
             </p>
           </div>
 
@@ -237,11 +245,13 @@ const Product = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-4 text-gray-900 dark:text-white">
-              Copper, Aluminium & Fittings
+              Starlight Tubes - Copper, Aluminium & Fittings
             </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-400 max-w-3xl">
-              Complete range of non-ferrous metals and pipe fittings for all
-              industrial needs
+              Starlight Tubes provides complete range of non-ferrous metals
+              including copper pipes, aluminium sheets, and comprehensive pipe
+              fittings like flanges, elbows, tees, reducers for all industrial
+              needs
             </p>
           </div>
 

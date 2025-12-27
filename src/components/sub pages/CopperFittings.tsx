@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperFittings = () => {
+  useSEO({
+    title:
+      "Copper Fittings - Starlight Tubes | Copper Pipe Fittings | Middle East Suppliers",
+    description:
+      "Premium copper fittings manufacturer. Copper elbows, tees, couplings, adapters. Plumbing, HVAC, refrigeration applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "copper fittings UAE, copper pipe fittings Saudi Arabia, plumbing fittings Qatar, HVAC fittings Oman, refrigeration fittings Kuwait, copper elbows Bahrain, copper tees Middle East, copper couplings GCC, copper pipe fittings UAE, copper fitting manufacturers Saudi Arabia",
+    url: "https://www.starlighttubes.com/copper-fittings",
+  });
   const projects = [
     {
       title: "Copper Elbow Fittings",

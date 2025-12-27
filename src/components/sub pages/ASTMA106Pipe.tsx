@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const ASTMA106Pipe = () => {
+  useSEO({
+    title:
+      "ASTM A106 Pipe - Starlight Tubes | Carbon Steel A106 Pipes | Middle East Suppliers",
+    description:
+      "Expert ASTM A106 carbon steel pipes manufacturer. Grade A, B, C seamless pipes. High temperature service applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "ASTM A106 pipe UAE, carbon steel A106 pipes Saudi Arabia, grade A pipes Qatar, grade B pipes Oman, grade C pipes Kuwait, high temperature pipes Bahrain, ASTM A106 pipe Middle East, carbon steel A106 pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/astm-a106-pipe",
+  });
   const projects = [
     {
       title: "ASTM A106 Grade B Pipe",

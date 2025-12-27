@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteel304Pipe = () => {
+  useSEO({
+    title:
+      "Stainless Steel 304 Pipe - Starlight Tubes | SS 304 Pipes | Middle East Suppliers",
+    description:
+      "Premium stainless steel 304 pipes manufacturer. ASTM A312 TP304 seamless, welded pipes. Corrosion resistant, high strength. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "stainless steel 304 pipe UAE, SS 304 pipes Saudi Arabia, ASTM A312 TP304 Qatar, seamless 304 pipes Oman, welded 304 pipes Kuwait, corrosion resistant pipes Bahrain, stainless steel 304 pipe Middle East, SS 304 pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/stainless-steel-304-pipe",
+  });
   const projects = [
     {
       title: "ASTM A312 TP304",

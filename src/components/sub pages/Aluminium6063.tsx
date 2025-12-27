@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const Aluminium6063 = () => {
+  useSEO({
+    title:
+      "Aluminium 6063 - Starlight Tubes | Aluminium 6063 Pipes, Sheets | Middle East Suppliers",
+    description:
+      "Professional aluminium 6063 manufacturer. Pipes, sheets, round bars. Excellent extrudability, architectural applications. Corrosion resistant, lightweight. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "aluminium 6063 UAE, aluminium 6063 pipes Saudi Arabia, architectural aluminium Qatar, extrudable aluminium Oman, aluminium sheets Kuwait, aluminium round bars Bahrain, aluminium 6063 Middle East, aluminium manufacturers GCC",
+    url: "https://www.starlighttubes.com/aluminium-6063",
+  });
   const projects = [
     {
       title: "Aluminium 6063 Pipe",

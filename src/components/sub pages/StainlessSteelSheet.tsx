@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteelSheet = () => {
+  useSEO({
+    title:
+      "Stainless Steel Sheet - Starlight Tubes | SS Sheets | Middle East Suppliers",
+    description:
+      "Premium stainless steel sheets manufacturer. SS 304, 316, 316L sheets. Hot rolled, cold rolled. Corrosion resistant, high strength. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "stainless steel sheet UAE, SS sheets Saudi Arabia, hot rolled sheets Qatar, cold rolled sheets Oman, corrosion resistant sheets Kuwait, high strength sheets Bahrain, stainless steel sheet Middle East, SS sheet manufacturers GCC",
+    url: "https://www.starlighttubes.com/stainless-steel-sheet",
+  });
   const projects = [
     {
       title: "Stainless Steel Plate",

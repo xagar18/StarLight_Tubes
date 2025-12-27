@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const PipeFittings = () => {
+  useSEO({
+    title:
+      "Pipe Fittings - Starlight Tubes | Steel Pipe Fittings | Middle East Suppliers",
+    description:
+      "Complete steel pipe fittings manufacturer. Elbows, tees, reducers, flanges, couplings. Stainless steel, carbon steel, alloy fittings. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "pipe fittings UAE, steel pipe fittings Saudi Arabia, industrial fittings Qatar, elbow fittings Oman, tee fittings Kuwait, reducer fittings Bahrain, flange fittings Middle East, coupling fittings GCC, steel pipe fittings UAE, pipe fitting manufacturers Saudi Arabia",
+    url: "https://www.starlighttubes.com/pipe-fittings",
+  });
   const projects = [
     {
       title: "Pipe Fittings",

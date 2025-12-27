@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const AluminiumRoundBar = () => {
+  useSEO({
+    title:
+      "Aluminium Round Bar - Starlight Tubes | Aluminium Round Bars | Middle East Suppliers",
+    description:
+      "Professional aluminium round bars manufacturer. 6061, 7075, 5052 grades. Machinable, lightweight. Construction, aerospace applications. Various diameters. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "aluminium round bar UAE, aluminium round bars Saudi Arabia, machinable bars Qatar, lightweight bars Oman, aerospace bars Kuwait, construction bars Bahrain, aluminium round bar Middle East, aluminium bar manufacturers GCC",
+    url: "https://www.starlighttubes.com/aluminium-round-bar",
+  });
   const projects = [
     {
       title: "Aluminium Round Bar",

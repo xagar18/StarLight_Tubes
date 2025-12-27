@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -6,6 +7,15 @@ import { PageHero } from "../components/main components/PageHero";
 import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const Inconel = () => {
+  useSEO({
+    title:
+      "Inconel Products - Starlight Tubes | Inconel 600, 625 Pipes, Plates | Middle East Suppliers",
+    description:
+      "Leading Inconel products manufacturer and exporter. Premium Inconel 600, 625 pipes, plates, round bars, tubing, bolts. High-temperature corrosion resistant alloys. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "inconel pipes UAE, inconel 625 Saudi Arabia, inconel 600 Qatar, inconel plates Oman, inconel tubing Kuwait, inconel round bars Bahrain, inconel bolts Middle East, nickel alloy pipes GCC, inconel manufacturers UAE, inconel suppliers Saudi Arabia",
+    url: "https://www.starlighttubes.com/inconel",
+  });
   const ctaData = {
     title: "Inconel Products",
     paragraph1:

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const ASTMA333Pipe = () => {
+  useSEO({
+    title:
+      "ASTM A333 Pipe - Starlight Tubes | Low Temperature Pipes | Middle East Suppliers",
+    description:
+      "Specialized ASTM A333 low temperature carbon steel pipes manufacturer. Grade 6, 9 pipes. Cryogenic, low temperature applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "ASTM A333 pipe UAE, low temperature pipes Saudi Arabia, cryogenic pipes Qatar, carbon steel pipes Oman, grade 6 pipes Kuwait, grade 9 pipes Bahrain, ASTM A333 pipe Middle East, low temperature pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/astm-a333-pipe",
+  });
   const projects = [
     {
       title: "A333 Grade 6 Pipe",

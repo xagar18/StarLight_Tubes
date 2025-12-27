@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const Inconel625Pipe = () => {
+  useSEO({
+    title:
+      "Inconel 625 Pipe - Starlight Tubes | Inconel 625 Pipes | Middle East Suppliers",
+    description:
+      "Specialized Inconel 625 pipes manufacturer. Nickel-chromium alloy pipes. Corrosion, oxidation resistant. Aerospace, chemical processing. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "inconel 625 pipe UAE, inconel pipes Saudi Arabia, nickel chromium alloy Qatar, corrosion resistant pipes Oman, oxidation resistant pipes Kuwait, aerospace pipes Bahrain, inconel 625 pipe Middle East, alloy pipe manufacturers GCC",
+    url: "https://www.starlighttubes.com/inconel-625-pipe",
+  });
   const projects = [
     {
       title: "Inconel 625 Pipe",

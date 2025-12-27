@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const AluminiumSheet = () => {
+  useSEO({
+    title:
+      "Aluminium Sheet - Starlight Tubes | Aluminium Sheets | Middle East Suppliers",
+    description:
+      "Expert aluminium sheets manufacturer. 5052, 6061, 6063, 7075 grades. Lightweight, corrosion resistant. Aerospace, marine, construction applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "aluminium sheet UAE, aluminium sheets Saudi Arabia, lightweight sheets Qatar, corrosion resistant sheets Oman, aerospace sheets Kuwait, marine sheets Bahrain, aluminium sheet Middle East, aluminium sheet manufacturers GCC",
+    url: "https://www.starlighttubes.com/aluminium-sheet",
+  });
   const projects = [
     {
       title: "Aluminium Sheet",

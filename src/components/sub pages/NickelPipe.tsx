@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,15 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const NickelPipe = () => {
+  useSEO({
+    title:
+      "Nickel Pipe - Starlight Tubes | Nickel Alloy Pipes | Middle East Suppliers",
+    description:
+      "Professional nickel alloy pipes manufacturer. Pure nickel, nickel alloys. Corrosion resistant, high temperature applications. Chemical processing, marine uses. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+    keywords:
+      "nickel pipe UAE, nickel alloy pipes Saudi Arabia, pure nickel pipes Qatar, corrosion resistant pipes Oman, high temperature pipes Kuwait, chemical processing pipes Bahrain, nickel pipe Middle East, nickel alloy manufacturers GCC",
+    url: "https://www.starlighttubes.com/nickel-pipe",
+  });
   const projects = [
     {
       title: "Nickel Alloy Pipes and Tubes",

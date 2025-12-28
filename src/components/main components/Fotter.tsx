@@ -22,12 +22,17 @@ export default function Footer() {
   };
 
   // Set initial language based on cookie
-  const initialLanguage = getCookie("googtrans")?.includes("/ar") ? "ar" : "en";
+  const initialLanguage = getCookie("googtrans")?.includes("/ar")
+    ? "ar"
+    : getCookie("googtrans")?.includes("/fr")
+    ? "fr"
+    : "en";
   const [selectedLanguage, setSelectedLanguage] = useState(initialLanguage);
 
   const languages = [
     { code: "en", name: "English", flag: "🇺🇸" },
     { code: "ar", name: "العربية", flag: "🇸🇦" },
+    { code: "fr", name: "Français", flag: "🇫🇷" },
   ];
 
   const handleLanguageChange = (languageCode: string) => {
@@ -78,7 +83,52 @@ export default function Footer() {
         document.cookie = "googtrans=/en/ar; path=/; max-age=31536000";
         setTimeout(() => window.location.reload(), 1000);
       }
-    } else {
+    } else if (languageCode === "fr") {
+      // Check if Google Translate is ready
+      if (
+        window.googleTranslateInitialized &&
+        window.google &&
+        window.google.translate
+      ) {
+        try {
+          // Try to trigger translation directly
+          const translateCombo = document.querySelector(
+            ".goog-te-combo"
+          ) as HTMLSelectElement;
+          if (translateCombo) {
+            translateCombo.value = "fr";
+            translateCombo.dispatchEvent(
+              new Event("change", { bubbles: true })
+            );
+
+            // Wait a bit for translation to apply
+            setTimeout(() => {
+              // Check if translation was applied
+              if (document.documentElement.lang !== "fr") {
+                // Fallback to cookie method
+                document.cookie = "googtrans=/en/fr; path=/; max-age=31536000";
+                window.location.reload();
+              }
+            }, 2000);
+          } else {
+            // Fallback: set cookie and reload
+            document.cookie = "googtrans=/en/fr; path=/; max-age=31536000";
+            setTimeout(() => window.location.reload(), 1000);
+          }
+        } catch (error) {
+          console.warn(
+            "Direct translation failed, using cookie fallback:",
+            error
+          );
+          document.cookie = "googtrans=/en/fr; path=/; max-age=31536000";
+          setTimeout(() => window.location.reload(), 1000);
+        }
+      } else {
+        // Google Translate not ready, use cookie method
+        document.cookie = "googtrans=/en/fr; path=/; max-age=31536000";
+        setTimeout(() => window.location.reload(), 1000);
+      }
+    } else if (languageCode === "en") {
       // Reset to English
       try {
         if (
@@ -97,7 +147,7 @@ export default function Footer() {
 
             // Wait for reset
             setTimeout(() => {
-              if (document.documentElement.lang === "ar") {
+              if (document.documentElement.lang !== "en") {
                 // Clear cookie and reload if direct method didn't work
                 document.cookie =
                   "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
@@ -191,7 +241,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center mb-6">
               <img
-                src="/StarlightLogo.png"
+                src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_200,fl_progressive/StarlightLogo_txn0kc"
                 alt=""
                 className="size-20 mx-auto bg-white rounded-full"
               />

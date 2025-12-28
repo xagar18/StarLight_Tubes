@@ -196,7 +196,7 @@ const Product = () => {
         <PageHero
           title="Starlight Tubes Products"
           subtitle="Complete Range of Industrial Steel Pipes, Tubes, Fittings & Flanges"
-          image="/main-page/product.png"
+          image="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_auto,w_1200,c_fill/product_e8o6zt"
         />
 
         {/* Main Products Section - Row 1 */}

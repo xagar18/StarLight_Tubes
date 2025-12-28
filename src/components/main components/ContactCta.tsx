@@ -93,7 +93,28 @@ export function ContactCtaParent() {
           <ul className="relative z-50 mb-4 text-base font-normal text-slate-500 space-y-2">
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
-              <span>Monday - Saturday - 10am to 7pm, Sunday - Closed</span>
+              <span>
+                <strong>Open 24/7</strong> - All Day, Every Day
+              </span>
+            </li>
+            <li className="flex items-center gap-2 ">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
+              <span>
+                <strong>Phone Support:</strong> Available round the clock
+              </span>
+            </li>
+            <li className="flex items-center gap-2 ">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
+              <span>
+                <strong>Email Response:</strong> Within 2-4 hours
+              </span>
+            </li>
+            <li className="flex items-center gap-2 ">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
+              <span>
+                <strong>WhatsApp:</strong> Instant response during business
+                hours
+              </span>
             </li>
           </ul>
 

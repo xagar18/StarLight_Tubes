@@ -18,6 +18,9 @@
 
     <!-- Google Translate -->
     <script type="text/javascript">
+      // Global flag to track Google Translate initialization
+      window.googleTranslateInitialized = false;
+
       function googleTranslateElementInit() {
         try {
           new google.translate.TranslateElement(
@@ -29,6 +32,9 @@
             },
             "google_translate_element"
           );
+
+          // Mark as initialized
+          window.googleTranslateInitialized = true;
 
           // Hide Google Translate banner after initialization
           setTimeout(function () {
@@ -79,6 +85,20 @@
         hideGoogleTranslateBanner();
         // Check periodically in case elements load later
         setInterval(hideGoogleTranslateBanner, 2000);
+
+        // Also use MutationObserver to catch dynamically added elements
+        const observer = new MutationObserver(function (mutations) {
+          mutations.forEach(function (mutation) {
+            if (mutation.type === "childList") {
+              hideGoogleTranslateBanner();
+            }
+          });
+        });
+
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true,
+        });
       });
     </script>
     <script

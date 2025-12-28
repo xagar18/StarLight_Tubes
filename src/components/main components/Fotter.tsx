@@ -1,6 +1,18 @@
 import { useState } from "react";
 import { Link } from "react-router";
 
+// Declare Google Translate types
+declare global {
+  interface Window {
+    google?: {
+      translate?: {
+        TranslateElement?: any;
+      };
+    };
+    googleTranslateInitialized?: boolean;
+  }
+}
+
 export default function Footer() {
   // Check for existing translation cookie on component mount
   const getCookie = (name: string) => {
@@ -21,24 +33,95 @@ export default function Footer() {
   const handleLanguageChange = (languageCode: string) => {
     setSelectedLanguage(languageCode);
 
-    // Trigger Google Translate when Arabic is selected
     if (languageCode === "ar") {
-      // Use Google Translate's cookie-based translation
-      document.cookie = "googtrans=/en/ar; path=/; max-age=31536000"; // 1 year expiry
+      // Check if Google Translate is ready
+      if (
+        window.googleTranslateInitialized &&
+        window.google &&
+        window.google.translate
+      ) {
+        try {
+          // Try to trigger translation directly
+          const translateCombo = document.querySelector(
+            ".goog-te-combo"
+          ) as HTMLSelectElement;
+          if (translateCombo) {
+            translateCombo.value = "ar";
+            translateCombo.dispatchEvent(
+              new Event("change", { bubbles: true })
+            );
 
-      // Reload the page to apply translation
-      setTimeout(() => {
-        window.location.reload();
-      }, 500);
+            // Wait a bit for translation to apply
+            setTimeout(() => {
+              // Check if translation was applied
+              if (document.documentElement.lang !== "ar") {
+                // Fallback to cookie method
+                document.cookie = "googtrans=/en/ar; path=/; max-age=31536000";
+                window.location.reload();
+              }
+            }, 2000);
+          } else {
+            // Fallback: set cookie and reload
+            document.cookie = "googtrans=/en/ar; path=/; max-age=31536000";
+            setTimeout(() => window.location.reload(), 1000);
+          }
+        } catch (error) {
+          console.warn(
+            "Direct translation failed, using cookie fallback:",
+            error
+          );
+          document.cookie = "googtrans=/en/ar; path=/; max-age=31536000";
+          setTimeout(() => window.location.reload(), 1000);
+        }
+      } else {
+        // Google Translate not ready, use cookie method
+        document.cookie = "googtrans=/en/ar; path=/; max-age=31536000";
+        setTimeout(() => window.location.reload(), 1000);
+      }
     } else {
-      // Reset to English by clearing the translation cookie
-      document.cookie =
-        "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+      // Reset to English
+      try {
+        if (
+          window.googleTranslateInitialized &&
+          window.google &&
+          window.google.translate
+        ) {
+          const translateCombo = document.querySelector(
+            ".goog-te-combo"
+          ) as HTMLSelectElement;
+          if (translateCombo) {
+            translateCombo.value = "en";
+            translateCombo.dispatchEvent(
+              new Event("change", { bubbles: true })
+            );
 
-      // Reload the page to reset translation
-      setTimeout(() => {
-        window.location.reload();
-      }, 500);
+            // Wait for reset
+            setTimeout(() => {
+              if (document.documentElement.lang === "ar") {
+                // Clear cookie and reload if direct method didn't work
+                document.cookie =
+                  "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+                window.location.reload();
+              }
+            }, 1500);
+          } else {
+            // Clear cookie and reload
+            document.cookie =
+              "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+            setTimeout(() => window.location.reload(), 500);
+          }
+        } else {
+          // Clear cookie and reload
+          document.cookie =
+            "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+          setTimeout(() => window.location.reload(), 500);
+        }
+      } catch (error) {
+        console.warn("Translation reset failed:", error);
+        document.cookie =
+          "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        setTimeout(() => window.location.reload(), 500);
+      }
     }
   };
   const footerSections = [

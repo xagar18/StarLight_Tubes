@@ -215,8 +215,8 @@ export default function Footer() {
       links: [
         { name: "📍 Mumbai, Maharashtra", path: "/contact" },
         {
-          name: "🌍 +91 85910 70791 (International)",
-          path: "tel:+918591070791",
+          name: "🌍 +91 85914 70791 (International)",
+          path: "tel:+918591470791",
           external: true,
         },
         {

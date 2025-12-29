@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "motion/react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router";
 import { ImagesSlider } from "../ui/images-slider";
-import { useEffect, useMemo, useState } from "react";
 
 const CLOUD_NAME = "dtdardvqm";
 
@@ -42,49 +42,53 @@ export function ImagesSliderDemo() {
 
   const texts = [
     {
-      title: "Global Metal",
-      highlight: "Exports",
+      title: "Advanced",
+      highlight: "Manufacturing",
       subtitle:
-        "Trusted Exporter of Stainless Steel, Nickel Alloys, Inconel & Carbon Steel to 60+ Countries",
-      badge: "Worldwide Delivery",
-    },
-    {
-      title: "Your Global",
-      highlight: "Supply Partner",
-      subtitle:
-        "SS Pipes, Nickel Sheets, Inconel Bolts, Carbon Steel & More — Delivered Worldwide",
-      badge: "Export Specialists",
-    },
-    {
-      title: "Precision",
-      highlight: "Engineering",
-      subtitle: "Seamless & Welded Tubes Built for Industrial Excellence",
-      badge: "Global Delivery",
-    },
-    {
-      title: "Inconel & Nickel",
-      highlight: "Superalloys",
-      subtitle: "High-Performance Materials for Extreme Environments",
-      badge: "Premium Quality",
-    },
-    {
-      title: "Carbon Steel",
-      highlight: "Expertise",
-      subtitle:
-        "ASTM & API 5L Certified for Oil, Gas & Petrochemical Industries",
-      badge: "Trusted Partner",
+        "State-of-the-Art Production Facilities for Stainless Steel, Nickel Alloys, Inconel & Carbon Steel Products",
+      badge: "ISO Certified",
     },
     {
       title: "Global Export",
-      highlight: "Network",
-      subtitle: "Serving 60+ Countries Across 6 Continents with Excellence",
-      badge: "Worldwide",
+      highlight: "Leaders",
+      subtitle:
+        "Manufacturing & Exporting High-Quality Metal Products to 60+ Countries Worldwide",
+      badge: "International Standards",
     },
     {
-      title: "Quality",
-      highlight: "Guaranteed",
-      subtitle: "Mill Test Certificates & Third Party Inspection Available",
-      badge: "100% Authentic",
+      title: "Precision",
+      highlight: "Manufacturing",
+      subtitle:
+        "Advanced CNC Machining, Seamless & Welded Tube Production for Industrial Applications",
+      badge: "Quality Manufacturing",
+    },
+    {
+      title: "Export to Global",
+      highlight: "Markets",
+      subtitle:
+        "Serving Europe, Asia, Middle East, Americas & Africa with Premium Metal Solutions",
+      badge: "Worldwide Export",
+    },
+    {
+      title: "Manufacturing",
+      highlight: "Excellence",
+      subtitle:
+        "ASTM, ASME & API Certified Manufacturing for Oil, Gas, Petrochemical & Industrial Sectors",
+      badge: "Certified Production",
+    },
+    {
+      title: "Global Supply",
+      highlight: "Chain",
+      subtitle:
+        "Integrated Manufacturing & Export Network Delivering to International Markets",
+      badge: "Global Reach",
+    },
+    {
+      title: "Industrial",
+      highlight: "Manufacturing",
+      subtitle:
+        "Complete Range of Metal Products Manufactured for Global Industrial Requirements",
+      badge: "Export Ready",
     },
   ];
 

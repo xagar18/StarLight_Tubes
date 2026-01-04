@@ -93,7 +93,6 @@ const Coating = () => {
                   </span>
                 </div>
               </div>
-
               <InfiniteMovingCardsDemo />
             </div>
           </div>

@@ -36,7 +36,6 @@ const Certificates = () => {
             projects={[
               { img: "/certificates/gst.png", title: "GST Certificate" },
               { img: "/certificates/export.png", title: "Export Certificate" },
-
               { img: "/certificates/iso.png", title: "ISO Certificate" },
             ]}
           />

@@ -239,17 +239,29 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           {/* Brand Section */}
           <div className="md:col-span-1">
-            <div className="flex items-center mb-6">
+            <Link
+              to="/"
+              className="flex flex-col items-center md:items-start mb-6"
+            >
               <img
                 src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_200,fl_progressive/StarlightLogo_txn0kc"
-                alt=""
-                className="size-20 mx-auto bg-white rounded-full"
+                alt="Starlight Tubes"
+                className="size-16 bg-white rounded-full mb-3"
               />
+              <span className="text-white font-bold text-lg">
+                Starlight Tubes
+              </span>
+            </Link>
+
+            <div className="mt-4">
+              <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-2">
+                Office Address
+              </h4>
+              <p className="text-sm leading-relaxed text-gray-400">
+                Shop No. 01, Ground floor, 121/123, Nageshwar Bhuvan Bldg,
+                Kumbharwada, Mumbai, Maharashtra 400004
+              </p>
             </div>
-            <p className="text-sm leading-relaxed mb-8">
-              Shop No. 01, Ground floor, 121/123, Nageshwar Bhuvan Bldg,
-              Kumbharwada, Mumbai, Maharashtra 400004
-            </p>
           </div>
 
           {/* Links Sections */}
@@ -285,7 +297,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
             <p className="text-sm text-gray-400">
-              © 2025 Starlight Tubes. All rights reserved.
+              © 2026 Starlight Tubes. All rights reserved.
             </p>
             <span className="hidden md:inline text-gray-600">|</span>
             <a
@@ -332,18 +344,6 @@ export default function Footer() {
                 </svg>
               </div>
             </div>
-
-            <p className="text-sm text-gray-400 flex items-center gap-1">
-              Crafted with <span className="text-red-500">♥</span> by{" "}
-              <a
-                href="https://xagar.me"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-purple-400 hover:text-purple-300 transition-colors"
-              >
-                Sagar
-              </a>
-            </p>
           </div>
         </div>
       </div>

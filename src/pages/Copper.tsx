@@ -47,11 +47,11 @@ const CopperApplicationsCTA = () => {
 const Copper = () => {
   useSEO({
     title:
-      "Copper Products - Starlight Tubes | Copper Pipes, Tubes, Sheets | Middle East Suppliers",
+      "Copper Pipe Manufacturer & Exporter | Copper Tubes, Sheets, Cupro Nickel Pipes | Starlight Tubes",
     description:
-      "Leading copper products manufacturer and exporter. Premium copper pipes, tubes, sheets, plates, round bars, fittings. Cupro nickel 90/10, 70/30 pipes and tubes. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Starlight Tubes - Leading copper pipe manufacturer and exporter in India. We manufacture copper pipes, copper tubes, copper sheets, copper plates, cupro nickel 90/10, cupro nickel 70/30 pipes. Premium quality copper products for HVAC, plumbing, marine industries. Export to USA, Europe, Middle East.",
     keywords:
-      "copper pipes UAE, copper tubes Saudi Arabia, copper sheets Qatar, cupro nickel pipes Oman, copper nickel tubes Kuwait, copper fittings Bahrain, copper round bars Middle East, copper plates GCC, copper manufacturers UAE, copper suppliers Saudi Arabia",
+      "copper pipe manufacturer, copper tube manufacturer, copper pipe exporter, copper sheet manufacturer, copper plate manufacturer, cupro nickel pipe manufacturer, copper nickel tube manufacturer, CuNi 90/10 manufacturer, CuNi 70/30 manufacturer, copper round bar manufacturer, copper fittings manufacturer, copper pipe factory, copper tube factory, copper pipe supplier India, copper tube distributor, HVAC copper pipe manufacturer",
     url: "https://www.starlighttubes.com/copper",
   });
   const ctaData = {

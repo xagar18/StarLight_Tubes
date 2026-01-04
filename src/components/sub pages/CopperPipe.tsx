@@ -9,12 +9,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperPipe = () => {
   useSEO({
-    title:
-      "Copper Pipe - Starlight Tubes | Copper Pipes | Middle East Suppliers",
+    title: "Copper Pipe - Starlight Tubes | Copper Pipes | Global Suppliers",
     description:
-      "Premium copper pipes manufacturer. Type K, L, M copper tubing. Plumbing, HVAC, refrigeration applications. High conductivity, corrosion resistant. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium copper pipes manufacturer. Type K, L, M copper pipes for plumbing, HVAC, and refrigeration. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "copper pipe UAE, copper pipes Saudi Arabia, type K copper Qatar, type L copper Oman, type M copper Kuwait, plumbing pipes Bahrain, HVAC copper Middle East, refrigeration tubing GCC, copper pipe manufacturers UAE",
+      "copper pipe UAE, copper pipes Saudi Arabia, type K copper Qatar, type L copper Oman, type M copper Kuwait, plumbing pipes Bahrain, HVAC copper worldwide, refrigeration tubing GCC, copper pipe manufacturers UAE, USA steel suppliers, European steel exporters, global copper manufacturers",
     url: "https://www.starlighttubes.com/copper-pipe",
   });
   const projects = [

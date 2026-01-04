@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const AluminiumPipe = () => {
   useSEO({
     title:
-      "Aluminium Pipe - Starlight Tubes | Aluminium Pipes | Middle East Suppliers",
+      "Aluminium Pipe - Starlight Tubes | Aluminium Pipes | Global Suppliers",
     description:
-      "Professional aluminium pipes manufacturer. 6061, 6063, 5052 grades. Lightweight, corrosion resistant. HVAC, construction applications. Seamless, welded pipes. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium aluminium pipes manufacturer. Lightweight corrosion resistant pipes for HVAC and construction. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "aluminium pipe UAE, aluminium pipes Saudi Arabia, lightweight pipes Qatar, corrosion resistant pipes Oman, HVAC pipes Kuwait, construction pipes Bahrain, aluminium pipe Middle East, aluminium pipe manufacturers GCC",
+      "aluminium pipe UAE, aluminium pipes Saudi Arabia, lightweight pipes Qatar, corrosion resistant pipes Oman, HVAC pipes Kuwait, construction pipes Bahrain, aluminium pipe worldwide, aluminium pipe manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
     url: "https://www.starlighttubes.com/aluminium-pipe",
   });
   const projects = [

@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Flanges = () => {
   useSEO({
     title:
-      "Flange Fittings - Starlight Tubes | Steel Pipe Flanges | Middle East Suppliers",
+      "Flange Fittings - Starlight Tubes | Steel Pipe Flanges | Global Suppliers",
     description:
-      "Leading steel flange fittings manufacturer. Weld neck, slip on, blind, socket weld flanges. ANSI, DIN, JIS standards. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium flange fittings manufacturer. Weld neck, slip on, blind, socket weld flanges in ANSI, DIN, JIS standards. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "flange fittings UAE, steel flanges Saudi Arabia, pipe flanges Qatar, weld neck flanges Oman, slip on flanges Kuwait, blind flanges Bahrain, socket weld flanges Middle East, ANSI flanges GCC, DIN flanges UAE, JIS flanges Saudi Arabia",
+      "flange fittings UAE, steel flanges Saudi Arabia, pipe flanges Qatar, weld neck flanges Oman, slip on flanges Kuwait, blind flanges Bahrain, socket weld flanges worldwide, ANSI flanges GCC, DIN flanges UAE, JIS flanges Saudi Arabia, USA steel suppliers, European steel exporters, global pipe fittings",
     url: "https://www.starlighttubes.com/flange-fittings",
   });
   const projects = [

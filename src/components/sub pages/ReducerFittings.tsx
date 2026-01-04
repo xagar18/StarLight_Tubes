@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ReducerFittings = () => {
   useSEO({
     title:
-      "Reducer Fittings - Starlight Tubes | Steel Pipe Reducers | Middle East Suppliers",
+      "Reducer Fittings - Starlight Tubes | Steel Pipe Reducers | Global Suppliers",
     description:
-      "Expert steel reducer fittings manufacturer. Concentric, eccentric reducers in stainless steel, carbon steel. Butt weld, socket weld connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium reducer fittings manufacturer. Concentric and eccentric reducers in butt weld and socket weld types. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "reducer fittings UAE, steel reducers Saudi Arabia, pipe reducers Qatar, concentric reducers Oman, eccentric reducers Kuwait, butt weld reducers Bahrain, socket weld reducers Middle East, steel reducer fittings GCC, pipe reducer manufacturers UAE",
+      "reducer fittings UAE, steel reducers Saudi Arabia, pipe reducers Qatar, concentric reducers Oman, eccentric reducers Kuwait, butt weld reducers Bahrain, socket weld reducers worldwide, steel reducer fittings GCC, pipe reducer manufacturers UAE, USA steel suppliers, European steel exporters, global pipe fittings",
     url: "https://www.starlighttubes.com/reducer-fittings",
   });
   const projects = [

@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Inconel600Plate = () => {
   useSEO({
     title:
-      "Inconel 600 Plate - Starlight Tubes | Inconel 600 Plates | Middle East Suppliers",
+      "Inconel 600 Plate - Starlight Tubes | Inconel 600 Plates | Global Suppliers",
     description:
-      "Specialized Inconel 600 plates manufacturer. Nickel-chromium alloy plates. Furnace components, chemical processing. High temperature resistance. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium Inconel 600 plates manufacturer. Nickel-chromium alloy plates for furnace components and chemical processing. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "inconel 600 plate UAE, inconel 600 plates Saudi Arabia, nickel chromium plates Qatar, furnace components Oman, chemical processing plates Kuwait, high temperature plates Bahrain, inconel 600 plate Middle East, alloy plate manufacturers GCC",
+      "inconel 600 plate UAE, inconel 600 plates Saudi Arabia, nickel chromium plates Qatar, furnace components Oman, chemical processing plates Kuwait, high temperature plates Bahrain, inconel 600 plate worldwide, alloy plate manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/inconel-600-plate",
   });
   const projects = [

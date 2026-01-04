@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CopperRoundBar = () => {
   useSEO({
     title:
-      "Copper Round Bar - Starlight Tubes | Copper Round Bars | Middle East Suppliers",
+      "Copper Round Bar - Starlight Tubes | Copper Round Bars | Global Suppliers",
     description:
-      "Professional copper round bars manufacturer. High conductivity, machinable. Electrical components, plumbing fittings. Various diameters available. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium copper round bars manufacturer. High conductivity copper bars for electrical and machining applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "copper round bar UAE, copper round bars Saudi Arabia, high conductivity bars Qatar, machinable bars Oman, electrical bars Kuwait, plumbing bars Bahrain, copper round bar Middle East, copper bar manufacturers GCC",
+      "copper round bar UAE, copper round bars Saudi Arabia, high conductivity bars Qatar, machinable bars Oman, electrical bars Kuwait, plumbing bars Bahrain, copper round bar worldwide, copper bar manufacturers GCC, USA steel suppliers, European steel exporters, global copper manufacturers",
     url: "https://www.starlighttubes.com/copper-round-bar",
   });
   const projects = [

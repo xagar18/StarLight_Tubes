@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const AluminiumSheet = () => {
   useSEO({
     title:
-      "Aluminium Sheet - Starlight Tubes | Aluminium Sheets | Middle East Suppliers",
+      "Aluminium Sheet - Starlight Tubes | Aluminium Sheets | Global Suppliers",
     description:
-      "Expert aluminium sheets manufacturer. 5052, 6061, 6063, 7075 grades. Lightweight, corrosion resistant. Aerospace, marine, construction applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium aluminium sheets manufacturer. Lightweight corrosion resistant sheets for aerospace and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "aluminium sheet UAE, aluminium sheets Saudi Arabia, lightweight sheets Qatar, corrosion resistant sheets Oman, aerospace sheets Kuwait, marine sheets Bahrain, aluminium sheet Middle East, aluminium sheet manufacturers GCC",
+      "aluminium sheet UAE, aluminium sheets Saudi Arabia, lightweight sheets Qatar, corrosion resistant sheets Oman, aerospace sheets Kuwait, marine sheets Bahrain, aluminium sheet worldwide, aluminium sheet manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
     url: "https://www.starlighttubes.com/aluminium-sheet",
   });
   const projects = [

@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelFasteners = () => {
   useSEO({
     title:
-      "Stainless Steel Fasteners - Starlight Tubes | SS Bolts, Nuts, Screws | Middle East Suppliers",
+      "Stainless Steel Fasteners - Starlight Tubes | SS Bolts, Nuts, Screws | Global Suppliers",
     description:
-      "Professional stainless steel fasteners manufacturer. Bolts, nuts, screws, washers in SS 304, 316, 316L. High corrosion resistance. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium stainless steel fasteners manufacturer. SS bolts, nuts, screws, washers. Corrosion resistant. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "stainless steel fasteners UAE, SS bolts Saudi Arabia, SS nuts Qatar, SS screws Oman, SS washers Kuwait, corrosion resistant fasteners Bahrain, stainless steel bolts Middle East, SS fasteners GCC, stainless steel fastener manufacturers UAE",
+      "stainless steel fasteners UAE, SS bolts Saudi Arabia, SS nuts Qatar, SS screws Oman, SS washers Kuwait, corrosion resistant fasteners Bahrain, stainless steel bolts worldwide, SS fasteners GCC, stainless steel fastener manufacturers UAE, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/stainless-steel-fasteners",
   });
   const projects = [

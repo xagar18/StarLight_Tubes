@@ -101,11 +101,11 @@ const Home = () => {
   // SEO optimization for home page
   useSEO({
     title:
-      "Starlight Tubes | Steel Pipe Manufacturers & Exporters to Middle East | Stainless Steel, Carbon Steel, Nickel Alloys, Pipe Fittings",
+      "Starlight Tubes | Steel Pipe Manufacturer & Exporter India | Stainless Steel, Carbon Steel, Nickel Alloy Pipes",
     description:
-      "Starlight Tubes - Leading manufacturers and exporters of premium steel pipes, tubes, fittings, flanges, and metal products to Middle East. Specializing in stainless steel pipes, carbon steel tubes, nickel alloys, copper pipes, aluminium sheets, pipe fittings, flanges, elbows, tees, reducers, butt weld fittings, socket weld fittings, threaded fittings. ISO certified steel manufacturing company in Mumbai with global delivery to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Starlight Tubes - Leading steel pipe manufacturer and exporter in India. We manufacture and export stainless steel pipes, carbon steel tubes, nickel alloy pipes, inconel pipes, pipe fittings, flanges to USA, Europe, Middle East, Asia. ISO certified steel manufacturing factory in Mumbai. Premium quality seamless & welded pipes, ERW pipes. Best steel tube manufacturer and exporter for oil & gas, petrochemical, pharmaceutical industries.",
     keywords:
-      "Starlight Tubes, starlight tubes Mumbai, steel pipe manufacturers Middle East, steel tube exporters UAE, stainless steel pipes Saudi Arabia, carbon steel pipes Qatar, nickel alloy pipes Oman, ERW pipes Kuwait, seamless pipes Bahrain, pipe fittings Middle East, flanges UAE, elbows Saudi Arabia, tees Qatar, reducers Oman, butt weld fittings Kuwait, socket weld fittings Bahrain, copper pipes GCC, aluminium sheets Middle East, inconel pipes UAE, duplex stainless steel Saudi Arabia, super duplex Qatar, 304 stainless steel Oman, 316 stainless steel Kuwait, 316L pipes Bahrain, ASTM A106 Middle East, API 5L GCC, Inconel 625 UAE, Inconel 600 Saudi Arabia, copper nickel pipes Qatar, cupro nickel Oman, aluminium 6061 Kuwait, aluminium 7075 Bahrain, industrial steel suppliers GCC, steel manufacturing company Mumbai, Middle East steel exporters, GCC pipe fittings, steel flanges Middle East, pipe elbows UAE, steel tees Saudi Arabia, pipe reducers Qatar",
+      "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, steel tube exporter, pipe manufacturer India, tube manufacturer India, steel pipe factory, steel pipe supplier, steel pipe distributor, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, inconel pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, steel pipe manufacturer Mumbai, steel pipe exporter India, best steel pipe manufacturer, top steel pipe exporter, leading pipe manufacturer, premium steel tubes, quality steel pipes, steel pipe manufacturing company, steel tube manufacturing factory, pipe manufacturer exporter, steel pipes wholesale, bulk steel pipes supplier, international steel pipe exporter, global steel pipe manufacturer, Starlight Tubes, stainless steel 304 manufacturer, stainless steel 316 manufacturer, carbon steel ASTM A106 manufacturer, API 5L pipe manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer",
     url: "https://www.starlighttubes.com",
   });
 
@@ -126,7 +126,8 @@ const Home = () => {
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-400 max-w-3xl">
               Premium quality metal products including steel pipes, tubes,
               fittings, flanges, elbows, tees, reducers, and industrial
-              materials for Middle East markets
+              materials for global markets including USA, Europe, Middle East &
+              Asia
             </p>
           </div>
 
@@ -188,8 +189,8 @@ const Home = () => {
             Starlight Tubes - Premier manufacturers of ERW and Seamless steel
             pipes, tubes, fittings, flanges, and industrial metal products with
             over a decade of excellence in manufacturing. Serving 100+
-            organizations across Middle East countries including UAE, Saudi
-            Arabia, Qatar, Oman, Kuwait, and Bahrain with premium quality steel
+            organizations across 60+ countries including USA, UK, Germany, UAE,
+            Saudi Arabia, Singapore, and Australia with premium quality steel
             products and reliable delivery.
           </p>
         </div>

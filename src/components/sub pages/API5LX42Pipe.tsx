@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const API5LX42Pipe = () => {
   useSEO({
     title:
-      "API 5L X42 Pipe - Starlight Tubes | Carbon Steel X42 Pipes | Middle East Suppliers",
+      "API 5L X42 Pipe - Starlight Tubes | Carbon Steel X42 Pipes | Global Suppliers",
     description:
-      "Expert API 5L X42 carbon steel pipes manufacturer. High yield strength pipes. Oil, gas pipeline applications. Seamless, welded construction. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium API 5L X42 carbon steel pipes manufacturer. High yield oil and gas pipeline pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "API 5L X42 pipe UAE, carbon steel X42 pipes Saudi Arabia, high yield pipes Qatar, oil pipeline pipes Oman, gas pipeline pipes Kuwait, seamless X42 pipes Bahrain, API 5L X42 pipe Middle East, carbon steel pipe manufacturers GCC",
+      "API 5L X42 pipe UAE, carbon steel X42 pipes Saudi Arabia, high yield pipes Qatar, oil pipeline pipes Oman, gas pipeline pipes Kuwait, seamless X42 pipes Bahrain, API 5L X42 pipe worldwide, carbon steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/api-5l-x42-pipe",
   });
   const projects = [

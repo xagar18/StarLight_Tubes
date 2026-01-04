@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CapFittings = () => {
   useSEO({
     title:
-      "Cap Fittings - Starlight Tubes | Steel Pipe Caps | Middle East Suppliers",
+      "Cap Fittings - Starlight Tubes | Steel Pipe Caps | Global Suppliers",
     description:
-      "Reliable steel cap fittings manufacturer. Threaded, butt weld pipe caps in stainless steel, carbon steel. End closures for pipelines. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium cap fittings manufacturer. Threaded and butt weld pipe end closures. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "cap fittings UAE, steel caps Saudi Arabia, pipe caps Qatar, threaded caps Oman, butt weld caps Kuwait, end closures Bahrain, steel cap fittings Middle East, pipe cap manufacturers GCC, pipeline caps UAE",
+      "cap fittings UAE, steel caps Saudi Arabia, pipe caps Qatar, threaded caps Oman, butt weld caps Kuwait, end closures Bahrain, steel cap fittings worldwide, pipe cap manufacturers GCC, pipeline caps UAE, USA steel suppliers, European steel exporters, global pipe fittings",
     url: "https://www.starlighttubes.com/cap-fittings",
   });
   const projects = [

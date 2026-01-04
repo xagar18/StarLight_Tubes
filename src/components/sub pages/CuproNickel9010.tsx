@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CuproNickel9010 = () => {
   useSEO({
     title:
-      "CuNi 90/10 Pipe - Starlight Tubes | Copper Nickel 90/10 | Middle East Suppliers",
+      "CuNi 90/10 Pipe - Starlight Tubes | Copper Nickel 90/10 | Global Suppliers",
     description:
-      "Professional copper nickel 90/10 pipes manufacturer. CuNi 90/10 seamless, welded pipes. Marine, desalination applications. Corrosion resistant in seawater. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium copper nickel 90/10 pipes manufacturer. CuNi 9010 pipes for marine and desalination applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "copper nickel 90/10 UAE, CuNi 9010 pipes Saudi Arabia, copper nickel pipes Qatar, marine pipes Oman, desalination pipes Kuwait, seawater resistant pipes Bahrain, copper nickel 90/10 Middle East, CuNi pipe manufacturers GCC",
+      "copper nickel 90/10 UAE, CuNi 9010 pipes Saudi Arabia, copper nickel pipes Qatar, marine pipes Oman, desalination pipes Kuwait, seawater resistant pipes Bahrain, copper nickel 90/10 worldwide, CuNi pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/copper-nickel-90-10",
   });
   const projects = [

@@ -10,20 +10,20 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CarbonSteelPipe = () => {
   useSEO({
     title:
-      "Carbon Steel Pipe - Starlight Tubes | Carbon Steel Pipes | Middle East Suppliers",
+      "Carbon Steel Pipe - Starlight Tubes | Carbon Steel Pipes | Global Suppliers",
     description:
-      "Reliable carbon steel pipes manufacturer. ASTM A106, A53, API 5L grades. Seamless, ERW, welded pipes. Oil, gas, water applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Reliable carbon steel pipes manufacturer. ASTM A106, A53, API 5L grades. Seamless, ERW, welded pipes. Oil, gas, water applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "carbon steel pipe UAE, carbon steel pipes Saudi Arabia, ASTM A106 pipes Qatar, API 5L pipes Oman, seamless pipes Kuwait, ERW pipes Bahrain, carbon steel pipe Middle East, steel pipe manufacturers GCC",
+      "carbon steel pipe UAE, carbon steel pipes Saudi Arabia, ASTM A106 pipes Qatar, API 5L pipes Oman, seamless pipes Kuwait, ERW pipes Bahrain, carbon steel pipe worldwide, steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/carbon-steel-pipe",
   });
   useSEO({
     title:
-      "Carbon Steel Pipes - Starlight Tubes | ASTM A106, A53 Pipes | Middle East Suppliers",
+      "Carbon Steel Pipes - Starlight Tubes | ASTM A106, A53 Pipes | Global Suppliers",
     description:
-      "Leading carbon steel pipes manufacturer. ASTM A106, A53, A333 grade pipes in seamless and ERW. API 5L standards. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Leading carbon steel pipes manufacturer. ASTM A106, A53, A333 grade pipes in seamless and ERW. API 5L standards. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "carbon steel pipes UAE, ASTM A106 pipe Saudi Arabia, ASTM A53 pipe Qatar, API 5L pipe Oman, seamless carbon steel pipes Kuwait, ERW carbon steel pipes Bahrain, carbon steel pipe manufacturers GCC, steel pipe suppliers Middle East",
+      "carbon steel pipes UAE, ASTM A106 pipe Saudi Arabia, ASTM A53 pipe Qatar, API 5L pipe Oman, seamless carbon steel pipes Kuwait, ERW carbon steel pipes Bahrain, carbon steel pipe manufacturers GCC, steel pipe suppliers worldwide, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/carbon-steel-pipe",
   });
   const projects = [

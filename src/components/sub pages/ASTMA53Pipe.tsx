@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ASTMA53Pipe = () => {
   useSEO({
     title:
-      "ASTM A53 Pipe - Starlight Tubes | Black Steel Pipes | Middle East Suppliers",
+      "ASTM A53 Pipe - Starlight Tubes | Black Steel Pipes | Global Suppliers",
     description:
-      "Reliable ASTM A53 black steel pipes manufacturer. Grade A, B pipes. Seamless, ERW, galvanized. General purpose piping applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium ASTM A53 black and galvanized steel pipes manufacturer. ERW and seamless pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "ASTM A53 pipe UAE, black steel pipes Saudi Arabia, galvanized pipes Qatar, ERW pipes Oman, seamless pipes Kuwait, grade A pipes Bahrain, ASTM A53 pipe Middle East, steel pipe manufacturers GCC",
+      "ASTM A53 pipe UAE, black steel pipes Saudi Arabia, galvanized pipes Qatar, ERW pipes Oman, seamless pipes Kuwait, grade A pipes Bahrain, ASTM A53 pipe worldwide, steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/astm-a53-pipe",
   });
   const projects = [

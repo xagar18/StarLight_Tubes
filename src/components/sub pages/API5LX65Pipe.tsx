@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const API5LX65Pipe = () => {
   useSEO({
     title:
-      "API 5L X65 Pipe - Starlight Tubes | Carbon Steel X65 Pipes | Middle East Suppliers",
+      "API 5L X65 Pipe - Starlight Tubes | Carbon Steel X65 Pipes | Global Suppliers",
     description:
-      "Professional API 5L X65 carbon steel pipes manufacturer. Ultra high yield strength pipes. Offshore, deep water applications. Corrosion resistant coating available. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium API 5L X65 carbon steel pipes manufacturer. Ultra high yield offshore and deep water pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "API 5L X65 pipe UAE, carbon steel X65 pipes Saudi Arabia, ultra high yield pipes Qatar, offshore pipes Oman, deep water pipes Kuwait, corrosion resistant pipes Bahrain, API 5L X65 pipe Middle East, carbon steel pipe manufacturers GCC",
+      "API 5L X65 pipe UAE, carbon steel X65 pipes Saudi Arabia, ultra high yield pipes Qatar, offshore pipes Oman, deep water pipes Kuwait, corrosion resistant pipes Bahrain, API 5L X65 pipe worldwide, carbon steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/api-5l-x65-pipe",
   });
   const projects = [

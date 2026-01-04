@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelPipe = () => {
   useSEO({
     title:
-      "Stainless Steel Pipes - Starlight Tubes | 304, 316, 316L Pipes | Middle East Suppliers",
+      "Stainless Steel Pipes - Starlight Tubes | 304, 316, 316L Pipes | Global Suppliers",
     description:
-      "Premium stainless steel pipes manufacturer. 304, 316, 316L grade pipes in seamless and ERW. ASTM A312, A213 standards. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium stainless steel pipes manufacturer. 304, 316, 316L grade pipes in seamless and ERW. ASTM A312, A213 standards. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "stainless steel pipes UAE, 304 stainless steel pipe Saudi Arabia, 316 stainless steel pipe Qatar, 316L stainless steel pipe Oman, seamless stainless steel pipes Kuwait, ERW stainless steel pipes Bahrain, ASTM A312 pipe Middle East, stainless steel pipe manufacturers GCC",
+      "stainless steel pipes UAE, 304 stainless steel pipe Saudi Arabia, 316 stainless steel pipe Qatar, 316L stainless steel pipe Oman, seamless stainless steel pipes Kuwait, ERW stainless steel pipes Bahrain, ASTM A312 pipe worldwide, stainless steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/stainless-steel-pipe",
   });
   const projects = [

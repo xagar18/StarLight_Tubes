@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelRoundBar = () => {
   useSEO({
     title:
-      "Stainless Steel Round Bar - Starlight Tubes | SS Round Bars | Middle East Suppliers",
+      "Stainless Steel Round Bar - Starlight Tubes | SS Round Bars | Global Suppliers",
     description:
-      "Professional stainless steel round bars manufacturer. SS 304, 316, 316L bars. Hot rolled, cold drawn. Machining, construction applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium stainless steel round bars manufacturer. Hot rolled and cold drawn SS bars. For machining and construction. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "stainless steel round bar UAE, SS round bars Saudi Arabia, hot rolled bars Qatar, cold drawn bars Oman, machining bars Kuwait, construction bars Bahrain, stainless steel round bar Middle East, SS bar manufacturers GCC",
+      "stainless steel round bar UAE, SS round bars Saudi Arabia, hot rolled bars Qatar, cold drawn bars Oman, machining bars Kuwait, construction bars Bahrain, stainless steel round bar worldwide, SS bar manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/stainless-steel-round-bar",
   });
   const projects = [

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { useState } from "react";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
@@ -9,6 +10,15 @@ import DimensionsInfo from "../components/sub components/DimensionsInfo";
 import MechanicalInfo from "../components/sub components/MechanicalInfo";
 
 const TechnicalInfo = () => {
+  useSEO({
+    title:
+      "Technical Data - Steel Pipe Specifications | Chemical Composition, Mechanical Properties | Starlight Tubes",
+    description:
+      "Steel pipe technical specifications from Starlight Tubes - leading manufacturer and exporter. Chemical composition, mechanical properties, dimensions of stainless steel, carbon steel, nickel alloy pipes. ASTM, ASME, DIN standards. Technical datasheets for 304, 316, ASTM A106, API 5L, Inconel pipes.",
+    keywords:
+      "steel pipe specifications, steel tube technical data, pipe chemical composition, pipe mechanical properties, pipe dimensions, stainless steel specifications, carbon steel specifications, nickel alloy specifications, ASTM specifications, ASME standards, pipe datasheet, steel pipe manufacturer specifications, steel tube data, 304 stainless steel composition, 316 stainless steel properties, ASTM A106 specifications, API 5L dimensions",
+    url: "https://www.starlighttubes.com/technical-info",
+  });
   const [view, setView] = useState<"chemical" | "mechanical" | "dimensions">(
     "chemical"
   );

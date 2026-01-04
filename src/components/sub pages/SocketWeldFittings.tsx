@@ -10,20 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const SocketWeldFittings = () => {
   useSEO({
     title:
-      "Socket Weld Fittings - Starlight Tubes | Steel Pipe Socket Weld | Middle East Suppliers",
+      "Socket Weld Fittings - Starlight Tubes | Steel Pipe Socket Weld | Global Suppliers",
     description:
-      "Professional socket weld fittings manufacturer. Elbows, tees, couplings in stainless steel, carbon steel. High pressure socket connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Professional socket weld fittings manufacturer. Elbows, tees, couplings in stainless steel, carbon steel. High pressure socket connections. Global export to USA, Europe, Middle East, Asia & Africa.",
     keywords:
-      "socket weld fittings UAE, steel socket weld Saudi Arabia, pipe socket weld Qatar, high pressure fittings Oman, socket connections Kuwait, weld fittings Bahrain, steel socket weld fittings Middle East, pipe socket weld manufacturers GCC",
-    url: "https://www.starlighttubes.com/socket-weld-fittings",
-  });
-  useSEO({
-    title:
-      "Socket Weld Fittings - Starlight Tubes | Steel Pipe Socket Weld | Middle East Suppliers",
-    description:
-      "Professional socket weld fittings manufacturer. Elbows, tees, couplings in stainless steel, carbon steel. High pressure socket connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
-    keywords:
-      "socket weld fittings UAE, steel socket weld Saudi Arabia, pipe socket weld Qatar, high pressure fittings Oman, socket connections Kuwait, weld fittings Bahrain, steel socket weld fittings Middle East, pipe socket weld manufacturers GCC",
+      "socket weld fittings USA, socket weld fittings Europe, steel socket weld global, pipe socket weld international, high pressure fittings worldwide, socket weld fittings UAE, socket weld Saudi Arabia, global socket weld manufacturers",
     url: "https://www.starlighttubes.com/socket-weld-fittings",
   });
   const projects = [

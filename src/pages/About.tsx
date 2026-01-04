@@ -1,19 +1,40 @@
 import { useSEO } from "@/hooks/use-seo";
-import { WorldMapDemo } from "../components/main components/AboutMap";
-import { CardSpotlightDemo } from "../components/main components/AboutSpotLightCard";
+import { lazy, Suspense } from "react";
 import Footer from "../components/main components/Fotter";
 import { NavbarDemo } from "../components/main components/Navbar";
 import { PageHero } from "../components/main components/PageHero";
 import { BottomCTA } from "../components/sub components/BottomCTA";
 
+// Lazy load heavy 3D components
+const WorldMapDemo = lazy(() =>
+  import("../components/main components/AboutMap").then((m) => ({
+    default: m.WorldMapDemo,
+  }))
+);
+const CardSpotlightDemo = lazy(() =>
+  import("../components/main components/AboutSpotLightCard").then((m) => ({
+    default: m.CardSpotlightDemo,
+  }))
+);
+
+// Loading fallback for 3D components
+const MapLoader = () => (
+  <div className="w-full h-96 flex items-center justify-center bg-gray-900/5 rounded-xl">
+    <div className="flex flex-col items-center gap-4">
+      <div className="w-10 h-10 border-4 border-amber-500 border-t-transparent rounded-full animate-spin"></div>
+      <p className="text-gray-600">Loading map...</p>
+    </div>
+  </div>
+);
+
 const About = () => {
   useSEO({
     title:
-      "About Starlight Tubes | Leading Steel Pipe Manufacturers | Middle East Exporters",
+      "About Us - Steel Pipe Manufacturer & Exporter India | Starlight Tubes Manufacturing Company",
     description:
-      "About Starlight Tubes - Premier steel pipe manufacturers and exporters. Over a decade of excellence in manufacturing ERW and seamless pipes. ISO certified with global delivery to Middle East countries.",
+      "About Starlight Tubes - India's leading steel pipe manufacturer and exporter. ISO certified steel manufacturing factory in Mumbai. We manufacture stainless steel pipes, carbon steel tubes, nickel alloy pipes, pipe fittings, flanges. Export to USA, Europe, Middle East, Asia. Over 5 years of excellence in steel pipe manufacturing and export.",
     keywords:
-      "about Starlight Tubes, steel pipe manufacturers India, Middle East steel exporters, pipe manufacturing company Mumbai, ISO certified steel suppliers, ERW pipe manufacturers UAE, seamless pipe exporters Saudi Arabia, steel manufacturing excellence Qatar",
+      "steel pipe manufacturer India, steel tube manufacturer Mumbai, steel pipe exporter India, steel pipe manufacturing company, steel pipe factory India, pipe manufacturer about us, steel tube manufacturer about, ISO certified steel manufacturer, steel manufacturing company India, pipe manufacturing factory Mumbai, steel pipe supplier India, leading steel manufacturer, top pipe exporter, best steel pipe manufacturer, quality steel manufacturer, industrial pipe manufacturer India, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer India",
     url: "https://www.starlighttubes.com/about",
   });
   const heading = "Starlight Tubes";
@@ -64,11 +85,13 @@ const About = () => {
             </div>
 
             <div className="flex flex-col items-center gap-8">
-              <CardSpotlightDemo
-                heading={heading}
-                text={text1}
-                image="./img.png"
-              />
+              <Suspense fallback={<MapLoader />}>
+                <CardSpotlightDemo
+                  heading={heading}
+                  text={text1}
+                  image="./img.png"
+                />
+              </Suspense>
             </div>
           </div>
 
@@ -81,7 +104,9 @@ const About = () => {
 
           {/* World Map Section */}
           <div>
-            <WorldMapDemo />
+            <Suspense fallback={<MapLoader />}>
+              <WorldMapDemo />
+            </Suspense>
           </div>
           {/* Footer Section */}
           <div>

@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Aluminium6061 = () => {
   useSEO({
     title:
-      "Aluminium 6061 - Starlight Tubes | Aluminium 6061 Pipes, Sheets | Middle East Suppliers",
+      "Aluminium 6061 - Starlight Tubes | Aluminium 6061 Pipes, Sheets | Global Suppliers",
     description:
-      "Professional aluminium 6061 manufacturer. Pipes, sheets, round bars. High strength, corrosion resistant. Aerospace, marine applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium aluminium 6061 products manufacturer. High strength corrosion resistant aluminium for aerospace and marine. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "aluminium 6061 UAE, aluminium 6061 pipes Saudi Arabia, aluminium sheets Qatar, aluminium round bars Oman, high strength aluminium Kuwait, corrosion resistant aluminium Bahrain, aerospace aluminium Middle East, marine aluminium GCC",
+      "aluminium 6061 UAE, aluminium 6061 pipes Saudi Arabia, aluminium sheets Qatar, aluminium round bars Oman, high strength aluminium Kuwait, corrosion resistant aluminium Bahrain, aerospace aluminium worldwide, marine aluminium GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
     url: "https://www.starlighttubes.com/aluminium-6061",
   });
   const projects = [

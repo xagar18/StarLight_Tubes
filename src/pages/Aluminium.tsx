@@ -45,11 +45,11 @@ const AluminiumApplicationsCTA = () => {
 const Aluminium = () => {
   useSEO({
     title:
-      "Aluminium Products - Starlight Tubes | Aluminium Pipes, Tubes, Sheets | Middle East Suppliers",
+      "Aluminium Pipe Manufacturer & Exporter | 6061, 6063, 5052, 7075 Aluminium Pipes | Starlight Tubes",
     description:
-      "Premium aluminium products manufacturer and exporter. High-quality aluminium pipes, tubes, sheets, plates, round bars, coils. Grades 6061, 6063, 5052, 7075. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Starlight Tubes - Leading aluminium pipe manufacturer and exporter in India. We manufacture aluminium 6061 pipes, aluminium 6063 tubes, aluminium 5052 sheets, aluminium 7075 plates. Premium quality aluminium products for aerospace, automotive, construction industries. Export to USA, Europe, Middle East.",
     keywords:
-      "aluminium pipes UAE, aluminium tubes Saudi Arabia, aluminium sheets Qatar, aluminium plates Oman, aluminium round bars Kuwait, aluminium coils Bahrain, aluminium 6061 Middle East, aluminium 7075 GCC, aluminium manufacturers UAE, aluminium suppliers Saudi Arabia",
+      "aluminium pipe manufacturer, aluminium tube manufacturer, aluminium pipe exporter, aluminium sheet manufacturer, aluminium plate manufacturer, aluminium 6061 manufacturer, aluminium 6063 manufacturer, aluminium 5052 manufacturer, aluminium 7075 manufacturer, aluminium round bar manufacturer, aluminium coil manufacturer, aluminium pipe factory, aluminium tube factory, aluminium pipe supplier India, aerospace aluminium manufacturer, automotive aluminium manufacturer",
     url: "https://www.starlighttubes.com/aluminium",
   });
   const ctaData = {

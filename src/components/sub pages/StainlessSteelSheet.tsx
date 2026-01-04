@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelSheet = () => {
   useSEO({
     title:
-      "Stainless Steel Sheet - Starlight Tubes | SS Sheets | Middle East Suppliers",
+      "Stainless Steel Sheet - Starlight Tubes | SS Sheets | Global Suppliers",
     description:
-      "Premium stainless steel sheets manufacturer. SS 304, 316, 316L sheets. Hot rolled, cold rolled. Corrosion resistant, high strength. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium stainless steel sheets manufacturer. Hot rolled and cold rolled SS sheets. High strength, corrosion resistant. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "stainless steel sheet UAE, SS sheets Saudi Arabia, hot rolled sheets Qatar, cold rolled sheets Oman, corrosion resistant sheets Kuwait, high strength sheets Bahrain, stainless steel sheet Middle East, SS sheet manufacturers GCC",
+      "stainless steel sheet UAE, SS sheets Saudi Arabia, hot rolled sheets Qatar, cold rolled sheets Oman, corrosion resistant sheets Kuwait, high strength sheets Bahrain, stainless steel sheet worldwide, SS sheet manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/stainless-steel-sheet",
   });
   const projects = [

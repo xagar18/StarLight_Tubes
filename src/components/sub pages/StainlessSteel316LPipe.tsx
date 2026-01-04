@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteel316LPipe = () => {
   useSEO({
     title:
-      "Stainless Steel 316L Pipe - Starlight Tubes | SS 316L Pipes | Middle East Suppliers",
+      "Stainless Steel 316L Pipe - Starlight Tubes | SS 316L Pipes | Global Suppliers",
     description:
-      "Premium stainless steel 316L pipes manufacturer. ASTM A312 TP316L seamless, welded pipes. Low carbon, corrosion resistant. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium stainless steel 316L pipes manufacturer. ASTM A312 TP316L, low carbon, seamless and welded SS 316L pipes. Superior corrosion resistance. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "stainless steel 316L pipe UAE, SS 316L pipes Saudi Arabia, ASTM A312 TP316L Qatar, low carbon pipes Oman, corrosion resistant 316L Kuwait, seamless 316L pipes Bahrain, stainless steel 316L pipe Middle East, SS 316L pipe manufacturers GCC",
+      "stainless steel 316L pipe UAE, SS 316L pipes Saudi Arabia, ASTM A312 TP316L Qatar, low carbon pipes Oman, corrosion resistant 316L Kuwait, seamless 316L pipes Bahrain, stainless steel 316L pipe worldwide, SS 316L pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/stainless-steel-316L-pipe",
   });
   const projects = [

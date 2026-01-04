@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Aluminium7075 = () => {
   useSEO({
     title:
-      "Aluminium 7075 - Starlight Tubes | Aluminium 7075 Pipes, Sheets | Middle East Suppliers",
+      "Aluminium 7075 - Starlight Tubes | Aluminium 7075 Pipes, Sheets | Global Suppliers",
     description:
-      "Expert aluminium 7075 manufacturer. High strength alloy pipes, sheets, round bars. Aerospace, defense applications. Superior strength-to-weight ratio. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium aluminium 7075 products manufacturer. High strength aerospace and defense grade aluminium. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "aluminium 7075 UAE, aluminium 7075 pipes Saudi Arabia, high strength alloy Qatar, aluminium sheets Oman, aluminium round bars Kuwait, aerospace aluminium Bahrain, defense aluminium Middle East, aluminium 7075 manufacturers GCC",
+      "aluminium 7075 UAE, aluminium 7075 pipes Saudi Arabia, high strength alloy Qatar, aluminium sheets Oman, aluminium round bars Kuwait, aerospace aluminium Bahrain, defense aluminium worldwide, aluminium 7075 manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
     url: "https://www.starlighttubes.com/aluminium-7075",
   });
   const projects = [

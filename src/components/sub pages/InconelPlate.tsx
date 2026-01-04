@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const InconelPlate = () => {
   useSEO({
     title:
-      "Inconel Plate - Starlight Tubes | Inconel Plates | Middle East Suppliers",
+      "Inconel Plate - Starlight Tubes | Inconel Plates | Global Suppliers",
     description:
-      "Specialized Inconel plates manufacturer. Inconel 600, 625 plates. High temperature, corrosion resistant. Aerospace, chemical processing applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium Inconel plates manufacturer. High temperature and corrosion resistant alloy plates for aerospace, chemical, and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "inconel plate UAE, inconel plates Saudi Arabia, high temperature plates Qatar, corrosion resistant plates Oman, aerospace plates Kuwait, chemical processing plates Bahrain, inconel plate Middle East, alloy plate manufacturers GCC",
+      "inconel plate UAE, inconel plates Saudi Arabia, high temperature plates Qatar, corrosion resistant plates Oman, aerospace plates Kuwait, chemical processing plates Bahrain, inconel plate worldwide, alloy plate manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/inconel-plate",
   });
   const projects = [

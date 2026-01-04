@@ -10,20 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ThreadedFittings = () => {
   useSEO({
     title:
-      "Threaded Fittings - Starlight Tubes | Steel Pipe Threaded | Middle East Suppliers",
+      "Threaded Fittings - Starlight Tubes | Steel Pipe Threaded | Global Suppliers",
     description:
-      "Reliable threaded fittings manufacturer. NPT, BSP threaded connections in stainless steel, carbon steel. Easy installation fittings. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Reliable threaded fittings manufacturer. NPT, BSP threaded connections in stainless steel, carbon steel. Easy installation fittings. Global export to USA, Europe, Middle East, Asia & Africa.",
     keywords:
-      "threaded fittings UAE, steel threaded Saudi Arabia, pipe threaded Qatar, NPT fittings Oman, BSP threaded Kuwait, installation fittings Bahrain, steel threaded fittings Middle East, pipe threaded manufacturers GCC, threaded connections UAE",
-    url: "https://www.starlighttubes.com/threaded-fittings",
-  });
-  useSEO({
-    title:
-      "Threaded Fittings - Starlight Tubes | Steel Pipe Threaded | Middle East Suppliers",
-    description:
-      "Reliable threaded fittings manufacturer. NPT, BSP threaded connections in stainless steel, carbon steel. Easy installation fittings. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
-    keywords:
-      "threaded fittings UAE, steel threaded Saudi Arabia, pipe threaded Qatar, NPT fittings Oman, BSP threaded Kuwait, installation fittings Bahrain, steel threaded fittings Middle East, pipe threaded manufacturers GCC, threaded connections UAE",
+      "threaded fittings USA, threaded fittings Europe, steel threaded global, pipe threaded international, NPT fittings worldwide, BSP threaded suppliers, threaded fittings UAE, steel threaded Saudi Arabia, global threaded fittings manufacturers",
     url: "https://www.starlighttubes.com/threaded-fittings",
   });
   const projects = [

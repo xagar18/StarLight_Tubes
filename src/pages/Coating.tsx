@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CoatingCtaParent } from "../components/main components/CoatingCta";
 import { CardHoverEffectDemo } from "../components/main components/CoatingImgCard";
 import Footer from "../components/main components/Fotter";
@@ -6,6 +7,15 @@ import { NavbarDemo } from "../components/main components/Navbar";
 import { PageHero } from "../components/main components/PageHero";
 
 const Coating = () => {
+  useSEO({
+    title:
+      "FBE Coated Pipe Manufacturer & Exporter | Epoxy Coated Pipes | Starlight Tubes",
+    description:
+      "Starlight Tubes - Leading FBE coated pipe manufacturer and exporter in India. We manufacture FBE coated pipes, epoxy coated pipes, 3LPE coated pipes for corrosion protection. Premium quality coated pipes for oil gas, water transmission, pipeline industries. Export to USA, Europe, Middle East.",
+    keywords:
+      "FBE coated pipe manufacturer, epoxy coated pipe manufacturer, coated pipe exporter, FBE coating manufacturer, 3LPE coated pipe manufacturer, fusion bonded epoxy pipe, coated pipe factory, corrosion resistant pipe manufacturer, pipeline coating manufacturer, FBE pipe supplier India, epoxy coated pipe supplier, coated pipe for oil gas, coated pipe for water pipeline",
+    url: "https://www.starlighttubes.com/coating",
+  });
   const projects = [
     {
       title: "FBE Coated Pipe",

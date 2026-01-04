@@ -9,12 +9,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 
 const InconelPipe = () => {
   useSEO({
-    title:
-      "Inconel Pipe - Starlight Tubes | Inconel Pipes | Middle East Suppliers",
+    title: "Inconel Pipe - Starlight Tubes | Inconel Pipes | Global Suppliers",
     description:
-      "Professional Inconel pipes manufacturer. Inconel 600, 625 pipes. High temperature, corrosion resistant. Chemical processing, aerospace applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium Inconel pipes manufacturer. High temperature and corrosion resistant alloy pipes for aerospace, chemical, and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "inconel pipe UAE, inconel pipes Saudi Arabia, high temperature pipes Qatar, corrosion resistant pipes Oman, chemical processing pipes Kuwait, aerospace pipes Bahrain, inconel pipe Middle East, alloy pipe manufacturers GCC",
+      "inconel pipe UAE, inconel pipes Saudi Arabia, high temperature pipes Qatar, corrosion resistant pipes Oman, chemical processing pipes Kuwait, aerospace pipes Bahrain, inconel pipe worldwide, alloy pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/inconel-pipe",
   });
   const projects = [

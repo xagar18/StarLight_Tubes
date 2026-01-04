@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const A672Pipe = () => {
   useSEO({
     title:
-      "ASTM A672 Pipe - Starlight Tubes | Electric Fusion Welded Pipes | Middle East Suppliers",
+      "ASTM A672 Pipe - Starlight Tubes | Electric Fusion Welded Pipes | Global Suppliers",
     description:
-      "Professional ASTM A672 electric fusion welded pipes manufacturer. Carbon steel, alloy steel pipes. Pressure vessel, heat exchanger applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium ASTM A672 electric fusion welded pipes manufacturer. Carbon and alloy steel pipes for pressure vessels and heat exchangers. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "ASTM A672 pipe UAE, electric fusion welded pipes Saudi Arabia, pressure vessel pipes Qatar, heat exchanger pipes Oman, carbon steel pipes Kuwait, alloy steel pipes Bahrain, ASTM A672 pipe Middle East, fusion welded pipe manufacturers GCC",
+      "ASTM A672 pipe UAE, electric fusion welded pipes Saudi Arabia, pressure vessel pipes Qatar, heat exchanger pipes Oman, carbon steel pipes Kuwait, alloy steel pipes Bahrain, ASTM A672 pipe worldwide, fusion welded pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/astm-a672-pipe",
   });
   const projects = [

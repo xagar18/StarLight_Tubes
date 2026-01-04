@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const AluminiumRoundBar = () => {
   useSEO({
     title:
-      "Aluminium Round Bar - Starlight Tubes | Aluminium Round Bars | Middle East Suppliers",
+      "Aluminium Round Bar - Starlight Tubes | Aluminium Round Bars | Global Suppliers",
     description:
-      "Professional aluminium round bars manufacturer. 6061, 7075, 5052 grades. Machinable, lightweight. Construction, aerospace applications. Various diameters. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium aluminium round bars manufacturer. Machinable lightweight bars for aerospace and construction. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "aluminium round bar UAE, aluminium round bars Saudi Arabia, machinable bars Qatar, lightweight bars Oman, aerospace bars Kuwait, construction bars Bahrain, aluminium round bar Middle East, aluminium bar manufacturers GCC",
+      "aluminium round bar UAE, aluminium round bars Saudi Arabia, machinable bars Qatar, lightweight bars Oman, aerospace bars Kuwait, construction bars Bahrain, aluminium round bar worldwide, aluminium bar manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
     url: "https://www.starlighttubes.com/aluminium-round-bar",
   });
   const projects = [

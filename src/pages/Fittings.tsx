@@ -44,11 +44,11 @@ const FittingsApplicationsCTA = () => {
 const Fittings = () => {
   useSEO({
     title:
-      "Pipe Fittings & Flanges - Starlight Tubes | Elbows, Tees, Reducers | Middle East Suppliers",
+      "Pipe Fittings Manufacturer & Exporter | Elbows, Tees, Reducers, Flanges | Starlight Tubes",
     description:
-      "Premium pipe fittings and flanges manufacturer. Stainless steel, carbon steel elbows, tees, reducers, caps, couplings, unions. Butt weld, socket weld, threaded fittings. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Starlight Tubes - Leading pipe fittings manufacturer and exporter in India. We manufacture stainless steel fittings, carbon steel elbows, tees, reducers, flanges, butt weld fittings, socket weld fittings, threaded fittings. Premium quality fittings for oil gas, petrochemical industries. Export to USA, Europe, Middle East.",
     keywords:
-      "pipe fittings UAE, flanges Saudi Arabia, steel elbows Qatar, pipe tees Oman, reducers Kuwait, butt weld fittings Bahrain, socket weld fittings Middle East, threaded fittings GCC, pipe flanges UAE, steel couplings Saudi Arabia, pipe caps Qatar",
+      "pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, butt weld fittings manufacturer, socket weld fittings manufacturer, threaded fittings manufacturer, pipe fittings exporter, stainless steel fittings manufacturer, carbon steel fittings manufacturer, steel elbows manufacturer, pipe tees manufacturer, pipe reducers manufacturer, flange manufacturer, SS fittings manufacturer, MS fittings manufacturer, pipe fittings factory, pipe fittings supplier India, industrial fittings manufacturer",
     url: "https://www.starlighttubes.com/fittings",
   });
   const ctaData = {

@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ASTMA333Pipe = () => {
   useSEO({
     title:
-      "ASTM A333 Pipe - Starlight Tubes | Low Temperature Pipes | Middle East Suppliers",
+      "ASTM A333 Pipe - Starlight Tubes | Low Temperature Pipes | Global Suppliers",
     description:
-      "Specialized ASTM A333 low temperature carbon steel pipes manufacturer. Grade 6, 9 pipes. Cryogenic, low temperature applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium ASTM A333 low temperature carbon steel pipes. Grade 6, 9 pipes for cryogenic service. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "ASTM A333 pipe UAE, low temperature pipes Saudi Arabia, cryogenic pipes Qatar, carbon steel pipes Oman, grade 6 pipes Kuwait, grade 9 pipes Bahrain, ASTM A333 pipe Middle East, low temperature pipe manufacturers GCC",
+      "ASTM A333 pipe UAE, low temperature pipes Saudi Arabia, cryogenic pipes Qatar, carbon steel pipes Oman, grade 6 pipes Kuwait, grade 9 pipes Bahrain, ASTM A333 pipe worldwide, low temperature pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/astm-a333-pipe",
   });
   const projects = [

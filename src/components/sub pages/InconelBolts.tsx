@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const InconelBolts = () => {
   useSEO({
     title:
-      "Inconel Bolts - Starlight Tubes | Inconel 600, 625 Fasteners | Middle East Suppliers",
+      "Inconel Bolts - Starlight Tubes | Inconel 600, 625 Fasteners | Global Suppliers",
     description:
-      "Specialized Inconel bolts manufacturer. Inconel 600, 625, 718 bolts, nuts, screws. High temperature, corrosion resistant fasteners. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium Inconel bolts and fasteners manufacturer. Inconel 600, 625 high temperature corrosion resistant fasteners. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "inconel bolts UAE, inconel fasteners Saudi Arabia, inconel 600 bolts Qatar, inconel 625 nuts Oman, high temperature bolts Kuwait, corrosion resistant fasteners Bahrain, inconel bolts Middle East, inconel fastener manufacturers GCC",
+      "inconel bolts UAE, inconel fasteners Saudi Arabia, inconel 600 bolts Qatar, inconel 625 nuts Oman, high temperature bolts Kuwait, corrosion resistant fasteners Bahrain, inconel bolts worldwide, inconel fastener manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/inconel-bolts",
   });
   const projects = [

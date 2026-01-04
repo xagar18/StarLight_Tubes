@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const NickelPipe = () => {
   useSEO({
     title:
-      "Nickel Pipe - Starlight Tubes | Nickel Alloy Pipes | Middle East Suppliers",
+      "Nickel Pipe - Starlight Tubes | Nickel Alloy Pipes | Global Suppliers",
     description:
-      "Professional nickel alloy pipes manufacturer. Pure nickel, nickel alloys. Corrosion resistant, high temperature applications. Chemical processing, marine uses. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium nickel alloy pipes manufacturer. Pure nickel pipes for high temperature and corrosion resistance. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "nickel pipe UAE, nickel alloy pipes Saudi Arabia, pure nickel pipes Qatar, corrosion resistant pipes Oman, high temperature pipes Kuwait, chemical processing pipes Bahrain, nickel pipe Middle East, nickel alloy manufacturers GCC",
+      "nickel pipe UAE, nickel alloy pipes Saudi Arabia, pure nickel pipes Qatar, corrosion resistant pipes Oman, high temperature pipes Kuwait, chemical processing pipes Bahrain, nickel pipe worldwide, nickel alloy manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/nickel-pipe",
   });
   const projects = [

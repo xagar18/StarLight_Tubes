@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CouplingFittings = () => {
   useSEO({
     title:
-      "Coupling Fittings - Starlight Tubes | Steel Pipe Couplings | Middle East Suppliers",
+      "Coupling Fittings - Starlight Tubes | Steel Pipe Couplings | Global Suppliers",
     description:
-      "Quality steel coupling fittings manufacturer. Full, half couplings in stainless steel, carbon steel. Socket weld, threaded connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium coupling fittings manufacturer. Full and half couplings in socket weld and threaded types. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "coupling fittings UAE, steel couplings Saudi Arabia, pipe couplings Qatar, full couplings Oman, half couplings Kuwait, socket weld couplings Bahrain, threaded couplings Middle East, steel coupling fittings GCC, pipe coupling manufacturers UAE",
+      "coupling fittings UAE, steel couplings Saudi Arabia, pipe couplings Qatar, full couplings Oman, half couplings Kuwait, socket weld couplings Bahrain, threaded couplings worldwide, steel coupling fittings GCC, pipe coupling manufacturers UAE, USA steel suppliers, European steel exporters, global pipe fittings",
     url: "https://www.starlighttubes.com/coupling-fittings",
   });
   const projects = [

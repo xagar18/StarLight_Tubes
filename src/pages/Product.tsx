@@ -181,11 +181,11 @@ const fittingsLinks = [
 const Product = () => {
   useSEO({
     title:
-      "Products - Starlight Tubes | Complete Range of Steel Pipes, Tubes, Fittings & Flanges | Middle East Suppliers",
+      "Products - Steel Pipe Manufacturer & Exporter | Stainless Steel, Carbon Steel, Nickel Alloy Pipes | Starlight Tubes",
     description:
-      "Explore Starlight Tubes complete product catalog: Stainless steel pipes & tubes, carbon steel pipes, nickel alloys, copper pipes, aluminium sheets, pipe fittings, flanges, elbows, tees, reducers, butt weld fittings, socket weld fittings, threaded fittings. Manufacturers and exporters to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain. Premium quality industrial steel products with ISO certification.",
+      "Starlight Tubes - Leading manufacturer and exporter of steel pipes, tubes, fittings, flanges. We manufacture stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper pipes, aluminium pipes. Premium quality seamless and welded pipes for oil gas, petrochemical, pharmaceutical industries. Export to USA, Europe, Middle East, Asia.",
     keywords:
-      "Starlight Tubes products, steel pipes Middle East, stainless steel tubes UAE, carbon steel pipes Saudi Arabia, nickel alloy fittings Qatar, pipe flanges Oman, steel elbows Kuwait, pipe tees Bahrain, butt weld fittings GCC, socket weld fittings Middle East, threaded fittings UAE, copper pipes Saudi Arabia, aluminium sheets Qatar, inconel pipes Oman, duplex stainless steel Kuwait, super duplex Bahrain, 304 stainless steel GCC, 316 stainless steel Middle East, ASTM A106 pipes UAE, API 5L tubes Saudi Arabia, industrial steel products Qatar, pipe fittings manufacturers Oman, steel flanges suppliers Kuwait, metal tubes Bahrain",
+      "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, pipe manufacturer India, tube manufacturer Mumbai, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, 304 stainless steel manufacturer, 316 stainless steel manufacturer, ASTM A106 manufacturer, API 5L manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer, steel pipe factory, steel pipe supplier, steel pipe distributor, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer",
     url: "https://www.starlighttubes.com/product",
   });
 
@@ -213,7 +213,8 @@ const Product = () => {
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-400 max-w-3xl">
               Starlight Tubes offers comprehensive range of high-quality
               industrial steel & metal products for diverse applications
-              worldwide, with special focus on Middle East markets
+              worldwide, serving global markets across USA, Europe, Middle East,
+              Asia & Africa
             </p>
           </div>
 

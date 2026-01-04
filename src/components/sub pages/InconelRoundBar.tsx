@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const InconelRoundBar = () => {
   useSEO({
     title:
-      "Inconel Round Bar - Starlight Tubes | Inconel Round Bars | Middle East Suppliers",
+      "Inconel Round Bar - Starlight Tubes | Inconel Round Bars | Global Suppliers",
     description:
-      "Expert Inconel round bars manufacturer. Inconel 600, 625 bars. High strength, corrosion resistant. Aerospace, marine applications. Various diameters. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium Inconel round bars manufacturer. High strength corrosion resistant alloy bars for aerospace and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "inconel round bar UAE, inconel round bars Saudi Arabia, high strength bars Qatar, corrosion resistant bars Oman, aerospace bars Kuwait, marine bars Bahrain, inconel round bar Middle East, alloy bar manufacturers GCC",
+      "inconel round bar UAE, inconel round bars Saudi Arabia, high strength bars Qatar, corrosion resistant bars Oman, aerospace bars Kuwait, marine bars Bahrain, inconel round bar worldwide, alloy bar manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/inconel-round-bar",
   });
   const projects = [

@@ -9,12 +9,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperSheet = () => {
   useSEO({
-    title:
-      "Copper Sheet - Starlight Tubes | Copper Sheets | Middle East Suppliers",
+    title: "Copper Sheet - Starlight Tubes | Copper Sheets | Global Suppliers",
     description:
-      "Premium copper sheets manufacturer. High conductivity, corrosion resistant. Electrical, roofing, decorative applications. Various thicknesses available. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium copper sheets manufacturer. High conductivity copper sheets for electrical, roofing, and decorative applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "copper sheet UAE, copper sheets Saudi Arabia, high conductivity sheets Qatar, corrosion resistant sheets Oman, electrical sheets Kuwait, roofing sheets Bahrain, copper sheet Middle East, copper sheet manufacturers GCC",
+      "copper sheet UAE, copper sheets Saudi Arabia, high conductivity sheets Qatar, corrosion resistant sheets Oman, electrical sheets Kuwait, roofing sheets Bahrain, copper sheet worldwide, copper sheet manufacturers GCC, USA steel suppliers, European steel exporters, global copper manufacturers",
     url: "https://www.starlighttubes.com/copper-sheet",
   });
   const projects = [

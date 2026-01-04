@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -6,6 +7,15 @@ import { PageHero } from "../components/main components/PageHero";
 import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const NickelAlloys = () => {
+  useSEO({
+    title:
+      "Nickel Alloy Pipe Manufacturer & Exporter | Nickel 200, Monel, Hastelloy Pipes | Starlight Tubes",
+    description:
+      "Starlight Tubes - Leading nickel alloy pipe manufacturer and exporter in India. We manufacture Nickel 200, Nickel 201, Monel 400, Monel K500, Hastelloy C276, Hastelloy C22 pipes and tubes. Premium quality nickel alloy products for chemical processing, petrochemical industries. Export to USA, Europe, Middle East.",
+    keywords:
+      "nickel alloy pipe manufacturer, nickel pipe manufacturer, nickel tube manufacturer, nickel pipe exporter, Nickel 200 manufacturer, Nickel 201 manufacturer, Monel 400 manufacturer, Monel K500 manufacturer, Hastelloy C276 manufacturer, Hastelloy C22 manufacturer, nickel alloy seamless pipe manufacturer, nickel alloy welded pipe manufacturer, nickel sheet manufacturer, nickel plate manufacturer, nickel alloy pipe factory, nickel alloy pipe supplier India, nickel pipe distributor",
+    url: "https://www.starlighttubes.com/nickel-alloys",
+  });
   const ctaData = {
     title: "Nickel Alloy Products",
     paragraph1:

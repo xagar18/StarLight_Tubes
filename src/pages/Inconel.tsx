@@ -9,11 +9,11 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 const Inconel = () => {
   useSEO({
     title:
-      "Inconel Products - Starlight Tubes | Inconel 600, 625 Pipes, Plates | Middle East Suppliers",
+      "Inconel Pipe Manufacturer & Exporter | Inconel 625, 600, 718 Pipes | Starlight Tubes",
     description:
-      "Leading Inconel products manufacturer and exporter. Premium Inconel 600, 625 pipes, plates, round bars, tubing, bolts. High-temperature corrosion resistant alloys. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Starlight Tubes - Leading Inconel pipe manufacturer and exporter in India. We manufacture Inconel 625 pipes, Inconel 600 tubes, Inconel 718 pipes, Inconel plates, round bars, tubing. Premium quality superalloy products for aerospace, oil gas, chemical processing industries. Export to USA, Europe, Middle East.",
     keywords:
-      "inconel pipes UAE, inconel 625 Saudi Arabia, inconel 600 Qatar, inconel plates Oman, inconel tubing Kuwait, inconel round bars Bahrain, inconel bolts Middle East, nickel alloy pipes GCC, inconel manufacturers UAE, inconel suppliers Saudi Arabia",
+      "Inconel pipe manufacturer, Inconel tube manufacturer, Inconel pipe exporter, Inconel 625 manufacturer, Inconel 600 manufacturer, Inconel 718 manufacturer, Inconel 800 manufacturer, Inconel 825 manufacturer, Inconel seamless pipe manufacturer, Inconel welded pipe manufacturer, Inconel plate manufacturer, Inconel round bar manufacturer, Inconel tubing manufacturer, Inconel bolts manufacturer, superalloy pipe manufacturer, Inconel pipe factory, Inconel pipe supplier India",
     url: "https://www.starlighttubes.com/inconel",
   });
   const ctaData = {

@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const UnionFittings = () => {
   useSEO({
     title:
-      "Union Fittings - Starlight Tubes | Steel Pipe Unions | Middle East Suppliers",
+      "Union Fittings - Starlight Tubes | Steel Pipe Unions | Global Suppliers",
     description:
-      "Professional steel union fittings manufacturer. Screwed, socket weld unions in stainless steel, carbon steel. Easy disassembly connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium union fittings manufacturer. Screwed and socket weld unions for easy disassembly. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "union fittings UAE, steel unions Saudi Arabia, pipe unions Qatar, screwed unions Oman, socket weld unions Kuwait, disassembly unions Bahrain, steel union fittings Middle East, pipe union manufacturers GCC, threaded unions UAE",
+      "union fittings UAE, steel unions Saudi Arabia, pipe unions Qatar, screwed unions Oman, socket weld unions Kuwait, disassembly unions Bahrain, steel union fittings worldwide, pipe union manufacturers GCC, threaded unions UAE, USA steel suppliers, European steel exporters, global pipe fittings",
     url: "https://www.starlighttubes.com/union-fittings",
   });
   const projects = [

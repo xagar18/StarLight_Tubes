@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const TeeFittings = () => {
   useSEO({
     title:
-      "Tee Fittings - Starlight Tubes | Steel Pipe Tees | Middle East Suppliers",
+      "Tee Fittings - Starlight Tubes | Steel Pipe Tees | Global Suppliers",
     description:
-      "Professional steel tee fittings manufacturer. Equal, reducing tees in stainless steel, carbon steel. Butt weld, socket weld, threaded connections. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium tee fittings manufacturer. Equal and reducing tees in butt weld, socket weld, and threaded types. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "tee fittings UAE, steel tees Saudi Arabia, pipe tees Qatar, equal tees Oman, reducing tees Kuwait, butt weld tees Bahrain, socket weld tees Middle East, threaded tees GCC, steel tee fittings UAE, pipe tee manufacturers Saudi Arabia",
+      "tee fittings UAE, steel tees Saudi Arabia, pipe tees Qatar, equal tees Oman, reducing tees Kuwait, butt weld tees Bahrain, socket weld tees worldwide, threaded tees GCC, steel tee fittings UAE, pipe tee manufacturers Saudi Arabia, USA steel suppliers, European steel exporters, global pipe fittings",
     url: "https://www.starlighttubes.com/tee-fittings",
   });
   const projects = [

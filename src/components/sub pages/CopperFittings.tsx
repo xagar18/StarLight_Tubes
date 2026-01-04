@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CopperFittings = () => {
   useSEO({
     title:
-      "Copper Fittings - Starlight Tubes | Copper Pipe Fittings | Middle East Suppliers",
+      "Copper Fittings - Starlight Tubes | Copper Pipe Fittings | Global Suppliers",
     description:
-      "Premium copper fittings manufacturer. Copper elbows, tees, couplings, adapters. Plumbing, HVAC, refrigeration applications. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium copper pipe fittings manufacturer. Copper elbows, tees, couplings for plumbing, HVAC, and refrigeration. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "copper fittings UAE, copper pipe fittings Saudi Arabia, plumbing fittings Qatar, HVAC fittings Oman, refrigeration fittings Kuwait, copper elbows Bahrain, copper tees Middle East, copper couplings GCC, copper pipe fittings UAE, copper fitting manufacturers Saudi Arabia",
+      "copper fittings UAE, copper pipe fittings Saudi Arabia, plumbing fittings Qatar, HVAC fittings Oman, refrigeration fittings Kuwait, copper elbows Bahrain, copper tees worldwide, copper couplings GCC, copper pipe fittings UAE, copper fitting manufacturers Saudi Arabia, USA steel suppliers, European steel exporters, global copper manufacturers",
     url: "https://www.starlighttubes.com/copper-fittings",
   });
   const projects = [

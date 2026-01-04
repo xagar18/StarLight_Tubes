@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const API5LGradeBPipe = () => {
   useSEO({
     title:
-      "API 5L Grade B Pipe - Starlight Tubes | Carbon Steel Grade B Pipes | Middle East Suppliers",
+      "API 5L Grade B Pipe - Starlight Tubes | Carbon Steel Grade B Pipes | Global Suppliers",
     description:
-      "Professional API 5L Grade B carbon steel pipes manufacturer. Seamless, welded pipes. Oil, gas transportation. High strength, corrosion resistant. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium API 5L Grade B carbon steel pipes manufacturer. Oil and gas pipeline pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "API 5L grade B pipe UAE, carbon steel grade B pipes Saudi Arabia, oil pipes Qatar, gas pipes Oman, seamless grade B pipes Kuwait, welded grade B pipes Bahrain, API 5L grade B pipe Middle East, carbon steel pipe manufacturers GCC",
+      "API 5L grade B pipe UAE, carbon steel grade B pipes Saudi Arabia, oil pipes Qatar, gas pipes Oman, seamless grade B pipes Kuwait, welded grade B pipes Bahrain, API 5L grade B pipe worldwide, carbon steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/api-5l-grade-b-pipe",
   });
   const projects = [

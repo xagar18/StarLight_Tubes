@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Aluminium5052 = () => {
   useSEO({
     title:
-      "Aluminium 5052 - Starlight Tubes | Aluminium 5052 Pipes, Sheets | Middle East Suppliers",
+      "Aluminium 5052 - Starlight Tubes | Aluminium 5052 Pipes, Sheets | Global Suppliers",
     description:
-      "Reliable aluminium 5052 manufacturer. Pipes, sheets, round bars. Excellent corrosion resistance, marine applications. High strength alloy. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium aluminium 5052 products manufacturer. Marine grade corrosion resistant aluminium. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "aluminium 5052 UAE, aluminium 5052 pipes Saudi Arabia, marine aluminium Qatar, corrosion resistant aluminium Oman, aluminium sheets Kuwait, aluminium round bars Bahrain, aluminium 5052 Middle East, aluminium manufacturers GCC",
+      "aluminium 5052 UAE, aluminium 5052 pipes Saudi Arabia, marine aluminium Qatar, corrosion resistant aluminium Oman, aluminium sheets Kuwait, aluminium round bars Bahrain, aluminium 5052 worldwide, aluminium manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
     url: "https://www.starlighttubes.com/aluminium-5052",
   });
   const projects = [

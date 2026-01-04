@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelWire = () => {
   useSEO({
     title:
-      "Stainless Steel Wire - Starlight Tubes | SS Wire | Middle East Suppliers",
+      "Stainless Steel Wire - Starlight Tubes | SS Wire | Global Suppliers",
     description:
-      "Reliable stainless steel wire manufacturer. SS 304, 316, 316L wires. Spring wire, welding wire, cold drawn wire. High corrosion resistance. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium stainless steel wire manufacturer. Spring wire, welding wire, cold drawn wire. Corrosion resistant. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "stainless steel wire UAE, SS wire Saudi Arabia, spring wire Qatar, welding wire Oman, cold drawn wire Kuwait, corrosion resistant wire Bahrain, stainless steel wire Middle East, SS wire manufacturers GCC",
+      "stainless steel wire UAE, SS wire Saudi Arabia, spring wire Qatar, welding wire Oman, cold drawn wire Kuwait, corrosion resistant wire Bahrain, stainless steel wire worldwide, SS wire manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/stainless-steel-wire",
   });
   const projects = [

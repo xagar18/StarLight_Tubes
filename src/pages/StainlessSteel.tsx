@@ -9,11 +9,11 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 const StainlessSteel = () => {
   useSEO({
     title:
-      "Stainless Steel Products - Starlight Tubes | Pipes, Tubes, Sheets, Plates | Middle East Suppliers",
+      "Stainless Steel Pipe Manufacturer & Exporter | 304, 316, 316L Pipes & Tubes | Starlight Tubes",
     description:
-      "Leading stainless steel products manufacturer and exporter. Premium 304, 316, 316L stainless steel pipes, tubes, sheets, plates, round bars, fasteners. ASTM, ASME certified. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Starlight Tubes - Leading stainless steel pipe manufacturer and exporter in India. We manufacture 304 stainless steel pipes, 316 stainless steel tubes, 316L pipes, duplex stainless steel, super duplex pipes. Premium quality seamless and welded stainless steel pipes for oil gas, petrochemical, pharmaceutical industries. Export to USA, Europe, Middle East.",
     keywords:
-      "stainless steel pipes UAE, stainless steel tubes Saudi Arabia, 304 stainless steel Qatar, 316 stainless steel Oman, stainless steel sheets Kuwait, stainless steel plates Bahrain, duplex stainless steel Middle East, super duplex GCC, stainless steel round bars UAE, stainless steel fasteners Saudi Arabia, ASTM stainless steel Qatar",
+      "stainless steel pipe manufacturer, stainless steel tube manufacturer, stainless steel pipe exporter, 304 stainless steel manufacturer, 316 stainless steel manufacturer, 316L pipe manufacturer, stainless steel seamless pipe manufacturer, stainless steel welded pipe manufacturer, duplex stainless steel manufacturer, super duplex manufacturer, stainless steel pipe factory, stainless steel tube factory, stainless steel sheet manufacturer, stainless steel plate manufacturer, stainless steel round bar manufacturer, SS pipe manufacturer, SS tube exporter, stainless steel pipe supplier India, stainless steel pipe distributor",
     url: "https://www.starlighttubes.com/stainless-steel",
   });
   const ctaData = {

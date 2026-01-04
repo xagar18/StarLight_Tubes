@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelTube = () => {
   useSEO({
     title:
-      "Stainless Steel Tube - Starlight Tubes | SS Tubes | Middle East Suppliers",
+      "Stainless Steel Tube - Starlight Tubes | SS Tubes | Global Suppliers",
     description:
-      "Premium stainless steel tubes manufacturer. SS 304, 316, 316L tubes. Seamless, welded, ERW. High corrosion resistance, strength. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium stainless steel tubes manufacturer. Seamless and welded SS tubes for diverse applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "stainless steel tube UAE, SS tubes Saudi Arabia, seamless tubes Qatar, welded tubes Oman, ERW tubes Kuwait, corrosion resistant tubes Bahrain, stainless steel tube Middle East, SS tube manufacturers GCC",
+      "stainless steel tube UAE, SS tubes Saudi Arabia, seamless tubes Qatar, welded tubes Oman, ERW tubes Kuwait, corrosion resistant tubes Bahrain, stainless steel tube worldwide, SS tube manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
     url: "https://www.starlighttubes.com/stainless-steel-tube",
   });
   const projects = [

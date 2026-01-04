@@ -10,11 +10,11 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const PipeFittings = () => {
   useSEO({
     title:
-      "Pipe Fittings - Starlight Tubes | Steel Pipe Fittings | Middle East Suppliers",
+      "Pipe Fittings - Starlight Tubes | Steel Pipe Fittings | Global Suppliers",
     description:
-      "Complete steel pipe fittings manufacturer. Elbows, tees, reducers, flanges, couplings. Stainless steel, carbon steel, alloy fittings. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Premium pipe fittings manufacturer. Steel elbows, tees, reducers, couplings, flanges for industrial applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "pipe fittings UAE, steel pipe fittings Saudi Arabia, industrial fittings Qatar, elbow fittings Oman, tee fittings Kuwait, reducer fittings Bahrain, flange fittings Middle East, coupling fittings GCC, steel pipe fittings UAE, pipe fitting manufacturers Saudi Arabia",
+      "pipe fittings UAE, steel pipe fittings Saudi Arabia, industrial fittings Qatar, elbow fittings Oman, tee fittings Kuwait, reducer fittings Bahrain, flange fittings worldwide, coupling fittings GCC, steel pipe fittings UAE, pipe fitting manufacturers Saudi Arabia, USA steel suppliers, European steel exporters, global pipe fittings",
     url: "https://www.starlighttubes.com/pipe-fittings",
   });
   const projects = [

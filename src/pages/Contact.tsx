@@ -8,11 +8,11 @@ import { PageHero } from "../components/main components/PageHero";
 const Contact = () => {
   useSEO({
     title:
-      "Contact Starlight Tubes | Steel Pipe Manufacturers Mumbai | Middle East Inquiries",
+      "Contact Steel Pipe Manufacturer & Exporter | Get Quote | Starlight Tubes Mumbai India",
     description:
-      "Contact Starlight Tubes for premium steel pipes, tubes, and fittings. Manufacturers and exporters to Middle East. Get quotes for stainless steel, carbon steel, nickel alloys. Mumbai office with global delivery.",
+      "Contact Starlight Tubes - India's leading steel pipe manufacturer and exporter. Get quotes for stainless steel pipes, carbon steel tubes, nickel alloy pipes, pipe fittings. Mumbai, India office with global delivery to USA, Europe, Middle East, Asia. Call +91-9892233118 for inquiries.",
     keywords:
-      "contact Starlight Tubes, steel pipe manufacturers Mumbai, Middle East steel suppliers, pipe fittings contact UAE, stainless steel inquiry Saudi Arabia, carbon steel quote Qatar, nickel alloy suppliers Oman, steel manufacturers contact Kuwait, pipe exporters Bahrain",
+      "contact steel pipe manufacturer, contact pipe exporter, steel pipe quote, steel tube inquiry, stainless steel pipe manufacturer contact, carbon steel pipe manufacturer contact, pipe fittings manufacturer contact, steel pipe supplier Mumbai, steel tube supplier India, get steel pipe quote, steel pipe inquiry, steel pipe manufacturer phone number, pipe exporter contact details, steel pipe factory contact",
     url: "https://www.starlighttubes.com/contact",
   });
   return (

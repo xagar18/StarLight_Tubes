@@ -9,11 +9,11 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 const CarbonSteel = () => {
   useSEO({
     title:
-      "Carbon Steel Products - Starlight Tubes | ASTM A106, API 5L Pipes | Middle East Manufacturers",
+      "Carbon Steel Pipe Manufacturer & Exporter | ASTM A106, API 5L, ASTM A53 Pipes | Starlight Tubes",
     description:
-      "Premium carbon steel pipes and tubes manufacturer. ASTM A106, A53, A333, API 5L Grade B, X42, X52, X65 pipes. ERW and seamless carbon steel products. Supply to UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain.",
+      "Starlight Tubes - Leading carbon steel pipe manufacturer and exporter in India. We manufacture ASTM A106 pipes, API 5L Grade B, X42, X52, X65 pipes, ASTM A53 pipes, ERW pipes, seamless pipes. Premium quality carbon steel tubes for oil gas, petrochemical industries. Export to USA, Europe, Middle East, Asia.",
     keywords:
-      "carbon steel pipes UAE, ASTM A106 pipe Saudi Arabia, API 5L pipe Qatar, carbon steel tubes Oman, ERW pipes Kuwait, seamless carbon steel Bahrain, ASTM A53 pipe Middle East, API 5L X65 GCC, carbon steel manufacturers UAE, steel pipe suppliers Saudi Arabia",
+      "carbon steel pipe manufacturer, carbon steel tube manufacturer, carbon steel pipe exporter, ASTM A106 pipe manufacturer, API 5L pipe manufacturer, ASTM A53 pipe manufacturer, ERW pipe manufacturer, seamless carbon steel manufacturer, welded pipe manufacturer, API 5L Grade B manufacturer, API 5L X42 manufacturer, API 5L X52 manufacturer, API 5L X65 manufacturer, A671 pipe manufacturer, A672 pipe manufacturer, carbon steel pipe factory, carbon steel tube factory, MS pipe manufacturer, mild steel pipe manufacturer, carbon steel pipe supplier India",
     url: "https://www.starlighttubes.com/carbon-steel",
   });
   const ctaData = {

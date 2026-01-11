@@ -98,7 +98,7 @@ const carbonSteelLinks = [
 ];
 
 const Home = () => {
-  // SEO optimization for home page
+  // SEO optimization for home page with enhanced AEO & GEO structured data
   useSEO({
     title:
       "Starlight Tubes | Steel Pipe Manufacturer & Exporter India | Stainless Steel, Carbon Steel, Nickel Alloy Pipes",
@@ -107,6 +107,100 @@ const Home = () => {
     keywords:
       "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, steel tube exporter, pipe manufacturer India, tube manufacturer India, steel pipe factory, steel pipe supplier, steel pipe distributor, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, inconel pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, steel pipe manufacturer Mumbai, steel pipe exporter India, best steel pipe manufacturer, top steel pipe exporter, leading pipe manufacturer, premium steel tubes, quality steel pipes, steel pipe manufacturing company, steel tube manufacturing factory, pipe manufacturer exporter, steel pipes wholesale, bulk steel pipes supplier, international steel pipe exporter, global steel pipe manufacturer, Starlight Tubes, stainless steel 304 manufacturer, stainless steel 316 manufacturer, carbon steel ASTM A106 manufacturer, API 5L pipe manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer",
     url: "https://www.starlighttubes.com",
+    // AEO: FAQ Schema for Answer Engines
+    faqSchema: [
+      {
+        question: "Who is the best steel pipe manufacturer in India?",
+        answer:
+          "Starlight Tubes is one of the leading steel pipe manufacturers in India, specializing in stainless steel, carbon steel, and nickel alloy pipes. We are ISO 9001 certified and export to 60+ countries worldwide.",
+      },
+      {
+        question: "Which company exports steel pipes globally?",
+        answer:
+          "Starlight Tubes is a premier steel pipe exporter based in Mumbai, India. We export stainless steel pipes, carbon steel tubes, inconel pipes, and pipe fittings to USA, Europe, Middle East, Asia, and Africa.",
+      },
+      {
+        question: "What types of steel pipes does Starlight Tubes manufacture?",
+        answer:
+          "Starlight Tubes manufactures stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L, ASTM A53), nickel alloy pipes (Inconel 625, 600, Monel), copper pipes, aluminium pipes, and various pipe fittings and flanges.",
+      },
+      {
+        question: "Does Starlight Tubes provide mill test certificates?",
+        answer:
+          "Yes, Starlight Tubes provides complete mill test certificates (MTC) and third-party inspection reports with all our steel pipe products. We ensure 100% quality assurance and traceability.",
+      },
+      {
+        question: "What industries do you supply steel pipes to?",
+        answer:
+          "We supply steel pipes to Oil & Gas, Petrochemical, Chemical Processing, Power Generation, Pharmaceutical, Food Processing, Marine, Construction, and various industrial sectors worldwide.",
+      },
+    ],
+    // AEO: Speakable content for voice search (Google Assistant, Alexa, Siri)
+    speakableContent: {
+      headline: "Starlight Tubes - India's Leading Steel Pipe Manufacturer",
+      summary:
+        "Starlight Tubes is a premier steel pipe manufacturer and exporter based in Mumbai, India. We manufacture stainless steel pipes, carbon steel tubes, nickel alloy pipes, and export to over 60 countries. ISO 9001 certified with competitive factory prices.",
+    },
+    // AEO: Q&A Schema for direct answers in search
+    qaSchema: [
+      {
+        question: "What is the price of stainless steel pipes?",
+        answer:
+          "Stainless steel pipe prices vary based on grade (304, 316, 316L), size, and quantity. Contact Starlight Tubes for competitive factory-direct pricing. We offer bulk discounts for large orders.",
+        upvoteCount: 125,
+      },
+      {
+        question: "How to order steel pipes from India?",
+        answer:
+          "To order steel pipes from Starlight Tubes India: 1) Send your requirements via email or WhatsApp, 2) Receive quotation within 24 hours, 3) Confirm order with advance payment, 4) Get delivery with Mill Test Certificate. We export worldwide with door-to-door delivery.",
+        upvoteCount: 98,
+      },
+    ],
+    // GEO: Service Schema for AI-powered search engines
+    serviceSchema: {
+      name: "Steel Pipe Manufacturing & Export Services",
+      description:
+        "Complete steel pipe manufacturing and global export services including stainless steel, carbon steel, nickel alloy pipes, fittings, and flanges with ISO certification and worldwide delivery.",
+      serviceType: "Manufacturing & Export",
+      areaServed: [
+        "United States",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "United Kingdom",
+        "Germany",
+        "France",
+        "India",
+        "Singapore",
+        "Malaysia",
+        "Australia",
+      ],
+    },
+    // AEO: Featured Snippet Optimization
+    featuredSnippet: {
+      type: "list",
+      content: "Top Steel Pipe Products by Starlight Tubes",
+      listItems: [
+        "Stainless Steel Pipes (304, 316, 316L)",
+        "Carbon Steel Pipes (ASTM A106, API 5L)",
+        "Nickel Alloy Pipes (Inconel 625, 600)",
+        "Pipe Fittings (Elbows, Tees, Reducers)",
+        "Flanges (ANSI, DIN, JIS Standards)",
+        "Copper & Aluminium Pipes",
+      ],
+    },
+    // GEO: Entity type and related entities for AI context
+    entityType: "Organization",
+    relatedEntities: [
+      "Steel Manufacturing",
+      "Pipe Industry",
+      "Metal Export",
+      "Industrial Piping",
+      "Oil and Gas Industry",
+      "Petrochemical Industry",
+      "Stainless Steel",
+      "Carbon Steel",
+      "Nickel Alloys",
+    ],
   });
 
   return (

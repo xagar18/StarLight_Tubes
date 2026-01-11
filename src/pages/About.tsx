@@ -36,6 +36,41 @@ const About = () => {
     keywords:
       "steel pipe manufacturer India, steel tube manufacturer Mumbai, steel pipe exporter India, steel pipe manufacturing company, steel pipe factory India, pipe manufacturer about us, steel tube manufacturer about, ISO certified steel manufacturer, steel manufacturing company India, pipe manufacturing factory Mumbai, steel pipe supplier India, leading steel manufacturer, top pipe exporter, best steel pipe manufacturer, quality steel manufacturer, industrial pipe manufacturer India, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer India",
     url: "https://www.starlighttubes.com/about",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "About Us", url: "https://www.starlighttubes.com/about" },
+    ],
+    speakableContent: {
+      headline:
+        "About Starlight Tubes - India's Leading Steel Pipe Manufacturer",
+      summary:
+        "Starlight Tubes is India's No. 1 exporter and stockist of industrial steel pipes and tubes, serving global industries since 2020 with ISO certified quality products.",
+    },
+    entityType: "Organization",
+    relatedEntities: [
+      "steel pipe manufacturer",
+      "ISO certified company",
+      "export house India",
+      "industrial steel supplier",
+      "Mumbai steel factory",
+    ],
+    faqSchema: [
+      {
+        question: "Who is Starlight Tubes?",
+        answer:
+          "Starlight Tubes is India's No. 1 exporter and stockist of industrial steel pipes and tubes, serving Oil & Gas, petrochemical, and chemical processing industries since 2020. We are ISO 9001, 14001, OHSAS 18001 certified and a Government of India Recognized Export House.",
+      },
+      {
+        question: "Where is Starlight Tubes located?",
+        answer:
+          "Starlight Tubes is headquartered in Mumbai, India, with global export capabilities to over 50 countries including USA, Europe, Middle East, and Asia.",
+      },
+      {
+        question: "What certifications does Starlight Tubes have?",
+        answer:
+          "Starlight Tubes holds ISO 9001:2015, ISO 14001, OHSAS 18001 certifications, PED 97/23/EC approval, and is a Government of India Recognized Export House.",
+      },
+    ],
   });
   const heading = "Starlight Tubes";
   const text1 =

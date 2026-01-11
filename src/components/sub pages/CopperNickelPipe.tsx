@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,63 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperNickelPipe = () => {
+  useSEO({
+    title:
+      "Copper Nickel Pipe Manufacturer - 90/10 & 70/30 CuNi | Starlight Tubes Global Exporter",
+    description:
+      "Leading copper nickel pipe manufacturer and global exporter. Premium C70600 (90/10) and C71500 (70/30) CuNi pipes for marine, offshore, and desalination applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
+    keywords:
+      "copper nickel pipe manufacturer, CuNi pipe exporter, 90/10 copper nickel pipe, 70/30 copper nickel pipe, C70600 pipe manufacturer, C71500 pipe supplier, marine copper nickel pipes, offshore CuNi pipes, desalination copper nickel tubing, seawater resistant pipes manufacturer",
+    url: "https://www.starlighttubes.com/copper-nickel-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+      {
+        name: "Copper Nickel Pipe",
+        url: "https://www.starlighttubes.com/copper-nickel-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Copper Nickel Pipes - 90/10 & 70/30",
+      description:
+        "Premium quality copper nickel pipes with excellent corrosion resistance for marine, offshore, and desalination applications.",
+      category: "Copper Products > Copper Nickel Pipes",
+      material: "Copper Nickel (C70600, C71500, C71640)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Copper Nickel Pipes - 90/10 & 70/30 Marine Grade",
+      summary:
+        "Starlight Tubes manufactures copper nickel pipes for marine, offshore, and desalination applications. C70600 (90/10) and C71500 (70/30) grades with ASTM B111, B466 certifications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Copper Nickel",
+      "CuNi 90/10",
+      "CuNi 70/30",
+      "C70600",
+      "C71500",
+      "Marine Pipes",
+      "ASTM B466",
+    ],
+    faqSchema: [
+      {
+        question: "What are copper nickel pipes used for?",
+        answer:
+          "Copper nickel pipes are used in marine piping, offshore platforms, desalination plants, and seawater cooling systems due to their excellent resistance to seawater corrosion and biofouling.",
+      },
+      {
+        question:
+          "What is the difference between 90/10 and 70/30 copper nickel?",
+        answer:
+          "90/10 CuNi (C70600) contains 10% nickel and is cost-effective for general marine use. 70/30 CuNi (C71500) with 30% nickel offers superior corrosion resistance for high-velocity seawater applications.",
+      },
+    ],
+  });
   const projects = [
     {
       title: "Copper Nickel Pipe",

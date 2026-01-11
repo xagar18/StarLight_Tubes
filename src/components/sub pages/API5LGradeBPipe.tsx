@@ -10,12 +10,64 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const API5LGradeBPipe = () => {
   useSEO({
     title:
-      "API 5L Grade B Pipe - Starlight Tubes | Carbon Steel Grade B Pipes | Global Suppliers",
+      "API 5L Grade B Pipe Manufacturer - Oil & Gas Pipeline Pipes | Starlight Tubes Global Exporter",
     description:
-      "Premium API 5L Grade B carbon steel pipes manufacturer. Oil and gas pipeline pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading API 5L Grade B carbon steel pipe manufacturer and exporter. PSL1, PSL2 line pipes for oil and gas pipelines. Seamless and welded configurations. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "API 5L grade B pipe UAE, carbon steel grade B pipes Saudi Arabia, oil pipes Qatar, gas pipes Oman, seamless grade B pipes Kuwait, welded grade B pipes Bahrain, API 5L grade B pipe worldwide, carbon steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "API 5L Grade B pipe manufacturer, API 5L PSL1 pipe, API 5L PSL2 pipe, oil pipeline pipe, gas pipeline pipe, line pipe manufacturer, API 5L Grade B exporter, carbon steel line pipe, API 5L pipe India, API 5L pipe UAE",
     url: "https://www.starlighttubes.com/api-5l-grade-b-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "API 5L Grade B Pipe",
+        url: "https://www.starlighttubes.com/api-5l-grade-b-pipe",
+      },
+    ],
+    productSchema: {
+      name: "API 5L Grade B Carbon Steel Pipes - PSL1, PSL2",
+      description:
+        "Premium API 5L Grade B carbon steel pipes for oil and gas pipeline applications. PSL1 and PSL2 specifications in seamless and welded configurations.",
+      category: "API 5L Pipes",
+      material: "Carbon Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "25",
+        highPrice: "3000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "API 5L Grade B Pipe - Line Pipe Manufacturer",
+      summary:
+        "Starlight Tubes manufactures API 5L Grade B carbon steel line pipes for oil and gas transmission. PSL1 and PSL2 available in seamless and welded configurations.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "API 5L",
+      "Line Pipe",
+      "Oil Gas Pipeline",
+      "Carbon Steel",
+      "PSL1 PSL2",
+      "Seamless Pipe",
+      "ERW Pipe",
+      "SAW Pipe",
+    ],
+    faqSchema: [
+      {
+        question: "What is API 5L Grade B pipe used for?",
+        answer:
+          "API 5L Grade B pipes are used for oil and gas transmission pipelines, water pipelines, and structural applications. They offer minimum yield strength of 35,500 psi (245 MPa) suitable for moderate pressure service.",
+      },
+      {
+        question: "What is the difference between PSL1 and PSL2?",
+        answer:
+          "PSL2 has stricter requirements for chemical composition, mechanical properties, and testing compared to PSL1. PSL2 requires mandatory CVN impact testing and tighter tolerances for critical pipeline applications.",
+      },
+    ],
   });
   const projects = [
     {

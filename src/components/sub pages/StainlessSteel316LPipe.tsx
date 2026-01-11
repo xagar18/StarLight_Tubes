@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteel316LPipe = () => {
   useSEO({
     title:
-      "Stainless Steel 316L Pipe - Starlight Tubes | SS 316L Pipes | Global Suppliers",
+      "SS 316L Pipe Manufacturer - ASTM A312 TP316L Seamless/Welded | Starlight Tubes Global Exporter",
     description:
-      "Premium stainless steel 316L pipes manufacturer. ASTM A312 TP316L, low carbon, seamless and welded SS 316L pipes. Superior corrosion resistance. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading SS 316L pipe manufacturer & global exporter. ASTM A312 TP316L low carbon seamless & welded pipes. IGC tested, pharmaceutical grade. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "stainless steel 316L pipe UAE, SS 316L pipes Saudi Arabia, ASTM A312 TP316L Qatar, low carbon pipes Oman, corrosion resistant 316L Kuwait, seamless 316L pipes Bahrain, stainless steel 316L pipe worldwide, SS 316L pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "SS 316L pipe manufacturer, stainless steel 316L pipe exporter, ASTM A312 TP316L supplier, low carbon pipe manufacturer, seamless 316L pipe, welded SS 316L pipe, pharmaceutical grade pipe, 316L pipe UAE, SS 316L pipe Saudi Arabia, 316L pipe manufacturer India",
     url: "https://www.starlighttubes.com/stainless-steel-316L-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "SS 316L Pipe",
+        url: "https://www.starlighttubes.com/stainless-steel-316L-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel 316L Pipe",
+      description:
+        "Premium SS 316L pipes in seamless and welded configurations. ASTM A312 TP316L certified low carbon stainless steel with enhanced weldability for pharmaceutical and marine applications.",
+      category: "Stainless Steel Pipes",
+      material:
+        "Stainless Steel 316L (Low Carbon <0.03%, 16-18% Chromium, 10-14% Nickel, 2-3% Molybdenum)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "SS 316L Pipe - Low Carbon ASTM A312 TP316L Pipes",
+      summary:
+        "Starlight Tubes manufactures premium SS 316L pipes with extra low carbon content for enhanced weldability and corrosion resistance in pharmaceutical, food processing, and marine applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel 316L",
+      "ASTM A312",
+      "Low Carbon Steel",
+      "Pharmaceutical Grade",
+      "IGC Tested",
+      "Marine Piping",
+      "Enhanced Weldability",
+    ],
+    faqSchema: [
+      {
+        question: "What is the difference between SS 316 and SS 316L pipes?",
+        answer:
+          "SS 316L has lower carbon content (less than 0.03%) compared to SS 316, providing better weldability and resistance to intergranular corrosion without requiring post-weld heat treatment.",
+      },
+      {
+        question: "What applications are SS 316L pipes ideal for?",
+        answer:
+          "SS 316L pipes are ideal for pharmaceutical process lines, food & beverage equipment, marine piping systems, and chemical processing where welding is required without post-weld treatment.",
+      },
+    ],
   });
   const projects = [
     {

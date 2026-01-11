@@ -9,12 +9,61 @@ import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperTube = () => {
   useSEO({
-    title: "Copper Tube - Starlight Tubes | Copper Tubes | Global Suppliers",
+    title:
+      "Copper Tube Manufacturer - Type K, L, M Tubing | Starlight Tubes Global Exporter",
     description:
-      "Premium copper tubes manufacturer. Type K, L, M copper tubing for plumbing, HVAC, and refrigeration. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading copper tube manufacturer and global exporter. Premium Type K, L, M copper tubing for plumbing, HVAC, and refrigeration systems. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "copper tube UAE, copper tubes Saudi Arabia, type K tubing Qatar, type L tubing Oman, type M tubing Kuwait, plumbing tubes Bahrain, HVAC copper worldwide, refrigeration tubing GCC, copper tube manufacturers UAE, USA steel suppliers, European steel exporters, global copper manufacturers",
+      "copper tube manufacturer, copper tubing exporter, Type K copper tube, Type L copper tubing, Type M copper tube, HVAC copper tubing manufacturer, refrigeration copper tubes, plumbing copper tube supplier, copper tube factory, copper tube wholesaler, industrial copper tubing, seamless copper tubes manufacturer, copper coil tubing exporter",
     url: "https://www.starlighttubes.com/copper-tube",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+      {
+        name: "Copper Tube",
+        url: "https://www.starlighttubes.com/copper-tube",
+      },
+    ],
+    productSchema: {
+      name: "Copper Tubes - Type K, L, M",
+      description:
+        "Premium quality copper tubes for HVAC, refrigeration, and plumbing applications. Available in seamless and welded configurations with various tempers.",
+      category: "Copper Products > Copper Tubes",
+      material:
+        "Copper (C10100, C10200, C11000, C12000, C12200, C70600, C71500)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Copper Tubes - HVAC & Refrigeration Grade",
+      summary:
+        "Starlight Tubes supplies copper tubes for heat exchangers, air conditioning, and refrigeration systems. Seamless and coil tubing available in ASTM B75, B111, B280 specifications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Copper Tubing",
+      "Heat Exchanger Tubes",
+      "Refrigeration Coils",
+      "ASTM B75",
+      "ASTM B280",
+      "LWC Coils",
+      "ACR Tubing",
+    ],
+    faqSchema: [
+      {
+        question: "What are copper tubes used for?",
+        answer:
+          "Copper tubes are used in heat exchangers, air conditioning systems, refrigeration units, and plumbing applications where high thermal conductivity and corrosion resistance are required.",
+      },
+      {
+        question: "What is the difference between copper tube and copper pipe?",
+        answer:
+          "Copper tubes have thinner walls and are primarily used for heat transfer applications like HVAC, while copper pipes have thicker walls for plumbing and water supply systems.",
+      },
+    ],
   });
   const projects = [
     {

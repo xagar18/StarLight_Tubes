@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const InconelPlate = () => {
   useSEO({
     title:
-      "Inconel Plate - Starlight Tubes | Inconel Plates | Global Suppliers",
+      "Inconel Plate Manufacturer - 600/625/718 Grades ASTM B168 | Starlight Tubes Global Exporter",
     description:
-      "Premium Inconel plates manufacturer. High temperature and corrosion resistant alloy plates for aerospace, chemical, and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel plate manufacturer & global exporter. Inconel 600, 625, 718, 825 alloy plates for extreme temperature & corrosive applications. ASTM B168/B443 certified, aerospace approved. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "inconel plate UAE, inconel plates Saudi Arabia, high temperature plates Qatar, corrosion resistant plates Oman, aerospace plates Kuwait, chemical processing plates Bahrain, inconel plate worldwide, alloy plate manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "Inconel plate manufacturer, Inconel sheet exporter, ASTM B168 supplier, Inconel 625 plate manufacturer, high temperature alloy plate, aerospace Inconel plate, Inconel plate UAE, Inconel plates Saudi Arabia, alloy plate manufacturer India, corrosion resistant plate",
     url: "https://www.starlighttubes.com/inconel-plate",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel Plate",
+        url: "https://www.starlighttubes.com/inconel-plate",
+      },
+    ],
+    productSchema: {
+      name: "Inconel Alloy Plate",
+      description:
+        "Premium Inconel alloy plates in multiple grades including 600, 601, 617, 625, 690, 718, 725, 800, 825, X-750. ASTM B168/B443 certified for extreme temperature and corrosive service conditions.",
+      category: "Inconel Alloy Products",
+      material:
+        "Inconel Alloy (600, 601, 617, 625, 690, 718, 725, 800, 825, X-750)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel Plate - High Temperature Nickel Alloy Sheets",
+      summary:
+        "Starlight Tubes manufactures Inconel alloy plates in grades 600, 625, 718, and 825 with excellent oxidation resistance and mechanical strength for aerospace and chemical processing applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel Plate",
+      "Inconel Sheet",
+      "Nickel Alloy",
+      "ASTM B168",
+      "High Temperature Alloy",
+      "Aerospace Grade",
+      "Nuclear Reactor",
+      "Heat Exchanger",
+    ],
+    faqSchema: [
+      {
+        question: "What is Inconel plate used for?",
+        answer:
+          "Inconel plates are used in aerospace components, nuclear reactor vessels, heat exchangers, chemical processing equipment, and furnace components requiring high strength and oxidation resistance at elevated temperatures.",
+      },
+      {
+        question: "What are the available Inconel plate grades?",
+        answer:
+          "Starlight Tubes offers Inconel plates in grades 600, 601, 617, 625, 690, 718, 725, 800, 825, and X-750, each designed for specific temperature and corrosion resistance requirements.",
+      },
+    ],
   });
   const projects = [
     {

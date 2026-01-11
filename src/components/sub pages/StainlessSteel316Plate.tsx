@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,65 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteel316Plate = () => {
+  useSEO({
+    title:
+      "SS 316 Plate Manufacturer - ASTM A240 Marine Grade Sheet | Starlight Tubes Global Exporter",
+    description:
+      "Leading SS 316 plate manufacturer & global exporter. ASTM A240 marine grade stainless steel plates with molybdenum. Superior chloride resistance. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+    keywords:
+      "SS 316 plate manufacturer, stainless steel 316 sheet exporter, ASTM A240 SS316 supplier, marine grade plate manufacturer, SS 316 plate UAE, stainless steel 316 sheet Saudi Arabia, 316 plate manufacturer India, chloride resistant plate",
+    url: "https://www.starlighttubes.com/stainless-steel-316-plate",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "SS 316 Plate",
+        url: "https://www.starlighttubes.com/stainless-steel-316-plate",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel 316 Plate",
+      description:
+        "Premium SS 316 plates and sheets with molybdenum for enhanced corrosion resistance. ASTM A240 certified marine grade stainless steel ideal for coastal and chemical applications.",
+      category: "Stainless Steel Plates",
+      material:
+        "Stainless Steel 316 (16-18% Chromium, 10-14% Nickel, 2-3% Molybdenum)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "SS 316 Plate - Marine Grade ASTM A240 Stainless Steel",
+      summary:
+        "Starlight Tubes supplies premium SS 316 plates with molybdenum for superior chloride and acid resistance in marine environments, coastal construction, and chemical storage applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel 316",
+      "ASTM A240",
+      "Marine Grade Plate",
+      "Molybdenum Steel",
+      "Chloride Resistant",
+      "Chemical Storage Tank",
+      "Coastal Construction",
+    ],
+    faqSchema: [
+      {
+        question: "What thickness range is available for SS 316 plates?",
+        answer:
+          "We offer SS 316 plates from 3mm to 100mm thickness, with width up to 1000mm and length up to 4000mm.",
+      },
+      {
+        question: "Why choose SS 316 plates over SS 304?",
+        answer:
+          "SS 316 plates contain molybdenum which provides superior resistance to chlorides, acids, and pitting corrosion, making them essential for marine and chemical environments.",
+      },
+    ],
+  });
   const projects = [
     {
       title: "ASTM A240 Stainless Steel 316 Sheet",

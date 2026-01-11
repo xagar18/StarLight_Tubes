@@ -10,12 +10,66 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelPipe = () => {
   useSEO({
     title:
-      "Stainless Steel Pipes - Starlight Tubes | 304, 316, 316L Pipes | Global Suppliers",
+      "Stainless Steel Pipe Manufacturer - 304, 316, 316L SS Pipes | Starlight Tubes Global Exporter",
     description:
-      "Premium stainless steel pipes manufacturer. 304, 316, 316L grade pipes in seamless and ERW. ASTM A312, A213 standards. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading stainless steel pipe manufacturer and exporter. 304, 316, 316L grade pipes in seamless and ERW. ASTM A312, A213 standards. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
     keywords:
-      "stainless steel pipes UAE, 304 stainless steel pipe Saudi Arabia, 316 stainless steel pipe Qatar, 316L stainless steel pipe Oman, seamless stainless steel pipes Kuwait, ERW stainless steel pipes Bahrain, ASTM A312 pipe worldwide, stainless steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "stainless steel pipe manufacturer, SS pipe manufacturer, 304 stainless steel pipe, 316 stainless steel pipe, 316L stainless steel pipe, seamless stainless steel pipe, ERW stainless steel pipe, ASTM A312 pipe, stainless steel pipe exporter, SS pipe supplier, stainless steel pipe India, SS pipe UAE, SS pipe Saudi Arabia, industrial SS pipes",
     url: "https://www.starlighttubes.com/stainless-steel-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "Stainless Steel Pipe",
+        url: "https://www.starlighttubes.com/stainless-steel-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel Pipes - 304, 316, 316L Grade",
+      description:
+        "Premium stainless steel pipes in 304, 304L, 316, 316L, 321, 347, 310S, 904L, 2205, 2507 Duplex grades. Seamless and welded configurations. ASTM A312, A358, A790 standards.",
+      category: "Stainless Steel Pipes",
+      material: "Stainless Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "20",
+        highPrice: "5000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    // AEO: FAQ for voice search and answer boxes
+    faqSchema: [
+      {
+        question: "What is stainless steel pipe used for?",
+        answer:
+          "Stainless steel pipes are used in oil & gas, chemical processing, pharmaceutical, food processing, water treatment, and construction industries due to their corrosion resistance and durability.",
+      },
+      {
+        question:
+          "What is the difference between 304 and 316 stainless steel pipe?",
+        answer:
+          "316 stainless steel contains molybdenum which provides better corrosion resistance, especially in chloride environments. 304 is more economical and suitable for general applications. 316 is preferred for marine and chemical applications.",
+      },
+    ],
+    // AEO: Speakable content for voice assistants
+    speakableContent: {
+      headline: "Stainless Steel Pipes - 304, 316, 316L Grades",
+      summary:
+        "Starlight Tubes manufactures premium stainless steel pipes in 304, 316, and 316L grades. Available in seamless and welded configurations per ASTM A312 standards. Export to 60+ countries with competitive factory prices.",
+    },
+    // GEO: Related entities for AI context
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel",
+      "ASTM A312",
+      "Seamless Pipes",
+      "Welded Pipes",
+      "Corrosion Resistant Steel",
+      "Industrial Piping",
+    ],
   });
   const projects = [
     {

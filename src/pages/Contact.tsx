@@ -14,6 +14,40 @@ const Contact = () => {
     keywords:
       "contact steel pipe manufacturer, contact pipe exporter, steel pipe quote, steel tube inquiry, stainless steel pipe manufacturer contact, carbon steel pipe manufacturer contact, pipe fittings manufacturer contact, steel pipe supplier Mumbai, steel tube supplier India, get steel pipe quote, steel pipe inquiry, steel pipe manufacturer phone number, pipe exporter contact details, steel pipe factory contact",
     url: "https://www.starlighttubes.com/contact",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Contact", url: "https://www.starlighttubes.com/contact" },
+    ],
+    speakableContent: {
+      headline: "Contact Starlight Tubes - Get Steel Pipe Quotes",
+      summary:
+        "Contact Starlight Tubes in Mumbai, India for steel pipe quotes and inquiries. Call +91-9892233118 or email for stainless steel, carbon steel, and nickel alloy products with global delivery.",
+    },
+    entityType: "Place",
+    relatedEntities: [
+      "Mumbai steel supplier",
+      "steel pipe quote India",
+      "pipe manufacturer contact",
+      "industrial steel inquiry",
+      "export house contact",
+    ],
+    faqSchema: [
+      {
+        question: "How can I contact Starlight Tubes?",
+        answer:
+          "You can contact Starlight Tubes by calling +91-9892233118, emailing through our contact form, or visiting our Mumbai office. We respond to all inquiries within 24 hours.",
+      },
+      {
+        question: "How do I get a quote for steel pipes?",
+        answer:
+          "Fill out our contact form with your requirements including material grade, size, quantity, and specifications. Our team will provide a detailed quote within 24 hours.",
+      },
+      {
+        question: "Does Starlight Tubes deliver internationally?",
+        answer:
+          "Yes, Starlight Tubes exports to over 50 countries including USA, Europe, Middle East, and Asia. We handle complete export documentation and logistics.",
+      },
+    ],
   });
   return (
     <div>

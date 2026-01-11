@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ASTMA53Pipe = () => {
   useSEO({
     title:
-      "ASTM A53 Pipe - Starlight Tubes | Black Steel Pipes | Global Suppliers",
+      "ASTM A53 Pipe Manufacturer & Exporter | Black Steel Pipes | Starlight Tubes",
     description:
-      "Premium ASTM A53 black and galvanized steel pipes manufacturer. ERW and seamless pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading ASTM A53 pipe manufacturer and exporter. Premium black and galvanized steel pipes in ERW, seamless & welded configurations. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "ASTM A53 pipe UAE, black steel pipes Saudi Arabia, galvanized pipes Qatar, ERW pipes Oman, seamless pipes Kuwait, grade A pipes Bahrain, ASTM A53 pipe worldwide, steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "ASTM A53 pipe manufacturer, ASTM A53 pipe exporter, black steel pipe supplier, galvanized pipe manufacturer, ERW pipe exporter, seamless pipe manufacturer, carbon steel pipe supplier, ASTM A53 Grade B manufacturer, steel pipe factory, industrial pipe exporter, bulk pipe supplier, ASTM A53 stockist",
     url: "https://www.starlighttubes.com/astm-a53-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "ASTM A53 Pipe",
+        url: "https://www.starlighttubes.com/astm-a53-pipe",
+      },
+    ],
+    productSchema: {
+      name: "ASTM A53 Steel Pipe",
+      description:
+        "Premium ASTM A53 black and galvanized steel pipes available in seamless, ERW, and welded configurations for mechanical and pressure applications.",
+      category: "Carbon Steel Pipes",
+      material: "Carbon Steel (ASTM A53 Grade A & Grade B)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "ASTM A53 Pipe Manufacturer - Black and Galvanized Steel Pipes",
+      summary:
+        "Starlight Tubes manufactures ASTM A53 steel pipes in seamless, ERW, and welded configurations. Black and hot-dip galvanized finishes available for steam, water, gas, and structural applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "ASTM A53",
+      "ASME SA53",
+      "Black Steel Pipe",
+      "Galvanized Pipe",
+      "ERW Pipe",
+      "Seamless Pipe",
+      "Fire Protection",
+      "Steam Line",
+    ],
+    faqSchema: [
+      {
+        question: "What is ASTM A53 pipe used for?",
+        answer:
+          "ASTM A53 pipes are used for general purpose applications including steam, water, gas, and air lines. They are also used in structural applications, fire protection systems, and mechanical applications.",
+      },
+      {
+        question: "What is the difference between ASTM A53 Type E, F, and S?",
+        answer:
+          "Type E is Electric Resistance Welded, Type F is Furnace Butt Welded, and Type S is Seamless. Type E and S are more commonly used. Type S (seamless) offers highest strength for pressure applications.",
+      },
+    ],
   });
   const projects = [
     {

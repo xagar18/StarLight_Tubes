@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const API5LX52Pipe = () => {
   useSEO({
     title:
-      "API 5L X52 Pipe - Starlight Tubes | Carbon Steel X52 Pipes | Global Suppliers",
+      "API 5L X52 Pipe Manufacturer & Exporter | High Yield Line Pipes | Starlight Tubes",
     description:
-      "Premium API 5L X52 carbon steel pipes manufacturer. High yield oil pipeline pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading API 5L X52 line pipe manufacturer and exporter. Premium PSL1 & PSL2 certified high yield pipes for oil and gas transmission. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "API 5L X52 pipe UAE, carbon steel X52 pipes Saudi Arabia, high yield pipes Qatar, seamless X52 pipes Oman, welded X52 pipes Kuwait, oil pipeline pipes Bahrain, API 5L X52 pipe worldwide, carbon steel X52 pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "API 5L X52 pipe manufacturer, API 5L X52 pipe exporter, high yield pipe supplier, oil pipeline pipe manufacturer, gas transmission pipe exporter, PSL1 pipe manufacturer, PSL2 pipe supplier, L360 pipe factory, API certified pipe exporter, X52 pipe stockist, seamless line pipe manufacturer",
     url: "https://www.starlighttubes.com/api-5l-x52-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "API 5L X52 Pipe",
+        url: "https://www.starlighttubes.com/api-5l-x52-pipe",
+      },
+    ],
+    productSchema: {
+      name: "API 5L X52 Line Pipe",
+      description:
+        "Premium API 5L X52 line pipes for medium to high-pressure oil and gas transmission with 360 MPa minimum yield strength.",
+      category: "Carbon Steel Pipes",
+      material: "Carbon Steel (API 5L X52 / L360 PSL1 & PSL2)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "API 5L X52 Pipe - High Yield Line Pipe Manufacturer",
+      summary:
+        "Starlight Tubes manufactures API 5L X52 line pipes with 360 MPa yield strength for oil and gas transmission. Seamless and welded configurations with PSL1 and PSL2 certification.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "API 5L X52",
+      "L360",
+      "Line Pipe",
+      "Oil Gas Transmission",
+      "High Yield Pipe",
+      "Carbon Steel",
+      "PSL2",
+      "DNV Approved",
+    ],
+    faqSchema: [
+      {
+        question: "What is API 5L X52 pipe used for?",
+        answer:
+          "API 5L X52 pipes are used for medium to high-pressure oil and gas transmission pipelines. With 360 MPa yield strength, they are suitable for natural gas distribution, crude oil transmission, and gathering line applications.",
+      },
+      {
+        question: "What is the difference between API 5L X42 and X52?",
+        answer:
+          "X52 has higher yield strength (360 MPa vs 290 MPa) and tensile strength (460 MPa vs 415 MPa) compared to X42. X52 is specified for higher pressure pipeline systems requiring greater mechanical properties.",
+      },
+    ],
   });
   const projects = [
     {

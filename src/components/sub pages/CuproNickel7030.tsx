@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,35 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const CuproNickel7030 = () => {
+  useSEO({
+    title:
+      "Cupro Nickel 70/30 Manufacturer - C71500 Alloy | Starlight Tubes Global Exporter",
+    description:
+      "Leading Cupro Nickel 70/30 (C71500) manufacturer and global exporter. Premium CuNi 70/30 pipes, tubes, and fittings for demanding marine and offshore applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
+    keywords:
+      "cupro nickel 70/30 manufacturer, C71500 exporter, CuNi 70/30 pipe manufacturer, cupro nickel tube supplier, 70/30 copper nickel fittings, marine grade cupro nickel, offshore CuNi 70/30, seawater resistant alloy manufacturer, cupro nickel factory, C71500 stockist",
+    url: "https://www.starlighttubes.com/cupro-nickel-7030",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+      {
+        name: "Cupro Nickel 70/30",
+        url: "https://www.starlighttubes.com/cupro-nickel-7030",
+      },
+    ],
+    productSchema: {
+      name: "Cupro Nickel 70/30 (C71500)",
+      description:
+        "Premium quality Cupro Nickel 70/30 alloy products with superior corrosion resistance for demanding marine, offshore, and petrochemical applications.",
+      category: "Copper Products > Cupro Nickel 70/30",
+      material: "Cupro Nickel C71500 (Cu 65-70%, Ni 29-33%, Fe 0.4-1.0%)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+  });
   const projects = [
     {
       title: "Cupro Nickel 70/30 Pipe",

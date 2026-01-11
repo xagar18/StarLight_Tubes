@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const AluminiumSheet = () => {
   useSEO({
     title:
-      "Aluminium Sheet - Starlight Tubes | Aluminium Sheets | Global Suppliers",
+      "Aluminium Sheet Manufacturer - Aerospace & Marine Grade | Starlight Tubes Global Exporter",
     description:
-      "Premium aluminium sheets manufacturer. Lightweight corrosion resistant sheets for aerospace and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading aluminium sheet manufacturer and global exporter. Premium aerospace and marine grade aluminium sheets in 6061, 5052, 7075, 3003 alloys. ISO certified manufacturer supplying to 60+ countries worldwide.",
     keywords:
-      "aluminium sheet UAE, aluminium sheets Saudi Arabia, lightweight sheets Qatar, corrosion resistant sheets Oman, aerospace sheets Kuwait, marine sheets Bahrain, aluminium sheet worldwide, aluminium sheet manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
+      "aluminium sheet manufacturer, aluminium plate exporter, aerospace aluminium sheet, marine grade aluminium sheet, 6061 aluminium sheet manufacturer, 5052 aluminium sheet supplier, 7075 aluminium plate factory, aluminium coil manufacturer, industrial aluminium sheets, hot rolled aluminium sheet, cold rolled aluminium sheet manufacturer",
     url: "https://www.starlighttubes.com/aluminium-sheet",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+      {
+        name: "Aluminium Sheet",
+        url: "https://www.starlighttubes.com/aluminium-sheet",
+      },
+    ],
+    productSchema: {
+      name: "Aluminium Sheets & Plates",
+      description:
+        "Premium quality aluminium sheets with excellent formability, lightweight properties, and corrosion resistance for aerospace, automotive, and construction applications.",
+      category: "Aluminium Products > Aluminium Sheets",
+      material:
+        "Aluminium (6061, 6063, 5052, 5083, 7075, 2024, 3003, 1100, 1050)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium Sheets - Aerospace & Marine Grade",
+      summary:
+        "Starlight Tubes supplies aluminium sheets and plates for aerospace, automotive, and construction applications. Multiple grades available in ASTM B209, AMS specifications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Aluminium Sheet",
+      "Aluminium Plate",
+      "ASTM B209",
+      "Aerospace Aluminium",
+      "Marine Grade",
+      "Mill Finish",
+      "Brushed Aluminium",
+    ],
+    faqSchema: [
+      {
+        question: "What are aluminium sheets used for?",
+        answer:
+          "Aluminium sheets are used in aerospace structures, automotive body panels, building facades, signage, marine components, and packaging due to their lightweight, formability, and corrosion resistance.",
+      },
+      {
+        question: "What thickness is considered aluminium sheet vs plate?",
+        answer:
+          "Aluminium sheet is typically 0.2mm to 6mm thick, while aluminium plate is 6mm and above. Sheet is used for forming applications, plate for structural and machining purposes.",
+      },
+    ],
   });
   const projects = [
     {

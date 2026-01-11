@@ -10,12 +10,63 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const NickelPipe = () => {
   useSEO({
     title:
-      "Nickel Pipe - Starlight Tubes | Nickel Alloy Pipes | Global Suppliers",
+      "Nickel Pipe Manufacturer - Nickel 200, 201 Alloy Pipes | Starlight Tubes Global Exporter",
     description:
-      "Premium nickel alloy pipes manufacturer. Pure nickel pipes for high temperature and corrosion resistance. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading nickel alloy pipe manufacturer and exporter. Pure nickel 200, 201 pipes for high temperature and corrosion resistance. Chemical processing, petrochemical applications. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "nickel pipe UAE, nickel alloy pipes Saudi Arabia, pure nickel pipes Qatar, corrosion resistant pipes Oman, high temperature pipes Kuwait, chemical processing pipes Bahrain, nickel pipe worldwide, nickel alloy manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "nickel pipe manufacturer, Nickel 200 pipe, Nickel 201 pipe, nickel alloy pipe, pure nickel pipe, corrosion resistant pipe, chemical processing pipe, nickel pipe exporter, nickel pipe India, nickel pipe UAE",
     url: "https://www.starlighttubes.com/nickel-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Nickel Alloys",
+        url: "https://www.starlighttubes.com/nickel-alloys",
+      },
+      {
+        name: "Nickel Pipe",
+        url: "https://www.starlighttubes.com/nickel-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Nickel Pipes - Nickel 200, 201 Grades",
+      description:
+        "Premium nickel alloy pipes in Nickel 200, 201 grades for high temperature and corrosion resistant applications in chemical processing and petrochemical industries.",
+      category: "Nickel Alloy Pipes",
+      material: "Nickel Alloy",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "50",
+        highPrice: "6000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Nickel Pipe - Pure Nickel 200/201 Alloy Pipes",
+      summary:
+        "Starlight Tubes supplies high-purity Nickel 200 and 201 pipes with excellent corrosion resistance for chemical processing, petrochemical, and caustic soda production applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Nickel 200",
+      "Nickel 201",
+      "Nickel Alloy",
+      "Corrosion Resistant Pipe",
+      "Chemical Processing",
+      "Caustic Soda",
+      "High Purity Nickel",
+    ],
+    faqSchema: [
+      {
+        question: "What is the difference between Nickel 200 and Nickel 201?",
+        answer:
+          "Nickel 201 is a low-carbon version of Nickel 200 (0.02% max vs 0.15% max carbon). Nickel 201 is preferred for applications above 600°F to prevent embrittlement from carbon precipitation.",
+      },
+      {
+        question: "What are nickel pipes used for?",
+        answer:
+          "Nickel pipes are used in chemical processing, caustic soda production, food processing, and applications requiring excellent corrosion resistance to acids, alkalis, and high-purity environments.",
+      },
+    ],
   });
   const projects = [
     {

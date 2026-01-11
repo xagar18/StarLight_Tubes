@@ -10,12 +10,63 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelTube = () => {
   useSEO({
     title:
-      "Stainless Steel Tube - Starlight Tubes | SS Tubes | Global Suppliers",
+      "Stainless Steel Tube Manufacturer - Seamless & Welded SS Tubes | Starlight Tubes Global Exporter",
     description:
-      "Premium stainless steel tubes manufacturer. Seamless and welded SS tubes for diverse applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading stainless steel tube manufacturer and exporter. Seamless and welded SS tubes in 304, 316, 316L, duplex, super duplex grades. ASTM A269, A270, A213 standards. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "stainless steel tube UAE, SS tubes Saudi Arabia, seamless tubes Qatar, welded tubes Oman, ERW tubes Kuwait, corrosion resistant tubes Bahrain, stainless steel tube worldwide, SS tube manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "stainless steel tube manufacturer, SS tube manufacturer, seamless SS tube, welded SS tube, 304 stainless steel tube, 316 stainless steel tube, ASTM A269 tube, ASTM A270 tube, stainless steel tube exporter, SS tubing supplier, stainless steel tube India, SS tube UAE",
     url: "https://www.starlighttubes.com/stainless-steel-tube",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "Stainless Steel Tube",
+        url: "https://www.starlighttubes.com/stainless-steel-tube",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel Tubes - Seamless & Welded",
+      description:
+        "Premium stainless steel tubes in seamless and welded configurations. 304, 316, 316L, duplex, super duplex grades available.",
+      category: "Stainless Steel Tubes",
+      material: "Stainless Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "15",
+        highPrice: "4000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Stainless Steel Tube - Seamless & Welded SS Tubes",
+      summary:
+        "Starlight Tubes manufactures premium stainless steel tubes in 304, 316, 316L, duplex, and super duplex grades for industrial applications including oil & gas, petrochemical, and marine industries.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel",
+      "Seamless Tubes",
+      "ASTM A269",
+      "ASTM A213",
+      "Heat Exchanger Tubes",
+      "Industrial Tubing",
+      "Welded Tubes",
+    ],
+    faqSchema: [
+      {
+        question: "What sizes are available for stainless steel tubes?",
+        answer:
+          "We offer stainless steel tubes from 6mm to 660mm OD with wall thickness from 0.5mm to 50mm and lengths up to 6 meters.",
+      },
+      {
+        question: "What grades of SS tubes does Starlight Tubes manufacture?",
+        answer:
+          "We manufacture SS tubes in 304, 304L, 316, 316L, 321, 310S, 347, 904L, Duplex and Super Duplex grades to meet various industrial requirements.",
+      },
+    ],
   });
   const projects = [
     {

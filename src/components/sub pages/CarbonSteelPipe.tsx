@@ -10,21 +10,65 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CarbonSteelPipe = () => {
   useSEO({
     title:
-      "Carbon Steel Pipe - Starlight Tubes | Carbon Steel Pipes | Global Suppliers",
+      "Carbon Steel Pipe Manufacturer - ASTM A106, A53, API 5L Pipes | Starlight Tubes Global Exporter",
     description:
-      "Reliable carbon steel pipes manufacturer. ASTM A106, A53, API 5L grades. Seamless, ERW, welded pipes. Oil, gas, water applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading carbon steel pipe manufacturer and exporter. ASTM A106 Grade B/C, ASTM A53 Grade B, API 5L Grade B/X42/X52/X65 pipes. Seamless, ERW, welded pipes for oil gas, petrochemical, water pipeline applications. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "carbon steel pipe UAE, carbon steel pipes Saudi Arabia, ASTM A106 pipes Qatar, API 5L pipes Oman, seamless pipes Kuwait, ERW pipes Bahrain, carbon steel pipe worldwide, steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "carbon steel pipe manufacturer, carbon steel pipe exporter, ASTM A106 pipe manufacturer, ASTM A53 pipe manufacturer, API 5L pipe manufacturer, seamless carbon steel pipe, ERW carbon steel pipe, welded carbon steel pipe, carbon steel pipe India, carbon steel pipe UAE, carbon steel pipe Saudi Arabia, oil gas pipeline pipe, petrochemical pipe manufacturer, MS pipe manufacturer",
     url: "https://www.starlighttubes.com/carbon-steel-pipe",
-  });
-  useSEO({
-    title:
-      "Carbon Steel Pipes - Starlight Tubes | ASTM A106, A53 Pipes | Global Suppliers",
-    description:
-      "Leading carbon steel pipes manufacturer. ASTM A106, A53, A333 grade pipes in seamless and ERW. API 5L standards. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
-    keywords:
-      "carbon steel pipes UAE, ASTM A106 pipe Saudi Arabia, ASTM A53 pipe Qatar, API 5L pipe Oman, seamless carbon steel pipes Kuwait, ERW carbon steel pipes Bahrain, carbon steel pipe manufacturers GCC, steel pipe suppliers worldwide, USA steel suppliers, European steel exporters, global steel manufacturers",
-    url: "https://www.starlighttubes.com/carbon-steel-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "Carbon Steel Pipe",
+        url: "https://www.starlighttubes.com/carbon-steel-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Carbon Steel Pipes - ASTM A106, ASTM A53, API 5L",
+      description:
+        "High-quality carbon steel pipes including ASTM A106, ASTM A53, API 5L grades for oil & gas, petrochemical, and industrial applications. Seamless and welded configurations available.",
+      category: "Carbon Steel Pipes",
+      material: "Carbon Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "15",
+        highPrice: "3000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Carbon Steel Pipe Manufacturer - ASTM A106, A53, API 5L Pipes",
+      summary:
+        "Starlight Tubes manufactures premium carbon steel pipes including ASTM A106, ASTM A53, and API 5L grades. Seamless and welded configurations available for oil gas, petrochemical, and water pipeline applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Carbon Steel",
+      "ASTM A106",
+      "ASTM A53",
+      "API 5L",
+      "Seamless Pipe",
+      "ERW Pipe",
+      "Oil Gas Pipeline",
+      "Petrochemical Piping",
+    ],
+    faqSchema: [
+      {
+        question: "What are the main types of carbon steel pipes?",
+        answer:
+          "Carbon steel pipes are available in seamless, ERW (Electric Resistance Welded), and welded configurations. Common grades include ASTM A106 for high temperature, ASTM A53 for general purpose, and API 5L for oil and gas pipelines.",
+      },
+      {
+        question:
+          "What is the difference between seamless and welded carbon steel pipes?",
+        answer:
+          "Seamless pipes have no weld seam and offer superior strength for high-pressure applications. Welded pipes (ERW, SAW) are more cost-effective and suitable for moderate pressure and structural applications.",
+      },
+    ],
   });
   const projects = [
     {

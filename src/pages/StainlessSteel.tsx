@@ -15,6 +15,58 @@ const StainlessSteel = () => {
     keywords:
       "stainless steel pipe manufacturer, stainless steel tube manufacturer, stainless steel pipe exporter, 304 stainless steel manufacturer, 316 stainless steel manufacturer, 316L pipe manufacturer, stainless steel seamless pipe manufacturer, stainless steel welded pipe manufacturer, duplex stainless steel manufacturer, super duplex manufacturer, stainless steel pipe factory, stainless steel tube factory, stainless steel sheet manufacturer, stainless steel plate manufacturer, stainless steel round bar manufacturer, SS pipe manufacturer, SS tube exporter, stainless steel pipe supplier India, stainless steel pipe distributor",
     url: "https://www.starlighttubes.com/stainless-steel",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel Pipes and Tubes",
+      description:
+        "High-quality stainless steel pipes, tubes, and related products including 304, 316, and 316L grades manufactured by Starlight Tubes.",
+      category: "Stainless Steel Pipes",
+      material: "Stainless Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "10",
+        highPrice: "5000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Stainless Steel Pipes & Tubes - 304, 316, 316L Grades",
+      summary:
+        "Starlight Tubes manufactures premium stainless steel pipes and tubes in grades 304, 304L, 316, 316L, 321, duplex, and super duplex for corrosion-resistant industrial applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "304 stainless steel",
+      "316 stainless steel",
+      "316L stainless steel",
+      "duplex stainless steel",
+      "super duplex steel",
+      "SS seamless pipes",
+      "SS welded tubes",
+    ],
+    faqSchema: [
+      {
+        question: "What stainless steel grades does Starlight Tubes offer?",
+        answer:
+          "We offer a comprehensive range including 304, 304L, 316, 316L, 321, 310S, 347, 904L, Duplex 2205, and Super Duplex 2507 grades in pipes, tubes, sheets, plates, round bars, and fasteners.",
+      },
+      {
+        question: "What is the difference between 304 and 316 stainless steel?",
+        answer:
+          "316 stainless steel contains molybdenum which provides superior corrosion resistance, especially in marine and chemical environments. 304 is more economical and suitable for general applications.",
+      },
+      {
+        question: "What sizes of stainless steel pipes are available?",
+        answer:
+          "We supply stainless steel pipes from 1/8 inch to 24 inch NB, sheets from 0.5mm to 100mm thickness, and round bars from 3mm to 500mm diameter, meeting ASTM A312, A269, A270, A213 standards.",
+      },
+    ],
   });
   const ctaData = {
     title: "Stainless Steel Products",

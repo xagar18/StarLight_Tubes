@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CapFittings = () => {
   useSEO({
     title:
-      "Cap Fittings - Starlight Tubes | Steel Pipe Caps | Global Suppliers",
+      "Cap Fittings Manufacturer - Pipe End Caps | Starlight Tubes Global Exporter",
     description:
-      "Premium cap fittings manufacturer. Threaded and butt weld pipe end closures. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading cap fittings manufacturer & global exporter. Premium pipe end caps, threaded caps, butt weld caps in SS, carbon steel, alloy steel. ASME B16.9/B16.11 certified. Export to 60+ countries worldwide.",
     keywords:
-      "cap fittings UAE, steel caps Saudi Arabia, pipe caps Qatar, threaded caps Oman, butt weld caps Kuwait, end closures Bahrain, steel cap fittings worldwide, pipe cap manufacturers GCC, pipeline caps UAE, USA steel suppliers, European steel exporters, global pipe fittings",
+      "cap fittings manufacturer, cap fittings exporter, pipe end caps manufacturer, threaded caps supplier, butt weld caps exporter, steel pipe caps manufacturer, cap fittings UAE, cap fittings Saudi Arabia, pipe fittings manufacturer India",
     url: "https://www.starlighttubes.com/cap-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Cap Fittings",
+        url: "https://www.starlighttubes.com/cap-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Cap Fittings",
+      description:
+        "Premium quality cap fittings for sealing pipe ends. Available in threaded, butt weld, and socket weld types. SS 304/316/321, Carbon Steel, Alloy Steel materials.",
+      category: "Pipe Fittings",
+      material:
+        "Stainless Steel, Carbon Steel, Alloy Steel, Inconel, Monel, Hastelloy",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Pipe Caps - End Caps for Sealing Pipe Ends",
+      summary:
+        "Starlight Tubes manufactures pipe caps and end caps in stainless steel and carbon steel. Available in butt weld, socket weld, and threaded types per ASME B16.9 and B16.11.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Pipe Caps",
+      "End Caps",
+      "ASME B16.9",
+      "ASME B16.11",
+      "Butt Weld Cap",
+      "Threaded Cap",
+      "Socket Weld Cap",
+      "Pipe End Closure",
+    ],
+    faqSchema: [
+      {
+        question: "What are pipe caps used for?",
+        answer:
+          "Pipe caps are used to seal the end of pipes permanently or temporarily. They are essential for system testing, maintenance shutdowns, future expansion provisions, and closing off unused pipe ends in piping systems.",
+      },
+      {
+        question: "What is the difference between a cap and a plug?",
+        answer:
+          "A pipe cap fits over the outside of a pipe end to seal it externally, while a plug fits inside the pipe end. Caps are used for butt weld and socket weld connections, while plugs are typically threaded fittings that screw into female-threaded connections.",
+      },
+    ],
   });
   const projects = [
     {

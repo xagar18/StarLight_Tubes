@@ -10,12 +10,59 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CuproNickel9010 = () => {
   useSEO({
     title:
-      "CuNi 90/10 Pipe - Starlight Tubes | Copper Nickel 90/10 | Global Suppliers",
+      "CuNi 90/10 Pipe Manufacturer - C70600 Copper Nickel Marine Pipe | Starlight Tubes Global Exporter",
     description:
-      "Premium copper nickel 90/10 pipes manufacturer. CuNi 9010 pipes for marine and desalination applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading CuNi 90/10 pipe manufacturer & global exporter. ASTM B466 C70600 copper nickel pipes for marine, desalination & offshore applications. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "copper nickel 90/10 UAE, CuNi 9010 pipes Saudi Arabia, copper nickel pipes Qatar, marine pipes Oman, desalination pipes Kuwait, seawater resistant pipes Bahrain, copper nickel 90/10 worldwide, CuNi pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "CuNi 90/10 pipe manufacturer, copper nickel 9010 exporter, ASTM B466 supplier, C70600 pipe manufacturer, marine pipe, desalination pipe, seawater resistant pipe, CuNi pipe UAE, copper nickel pipe Saudi Arabia, CuNi 90/10 manufacturer India",
     url: "https://www.starlighttubes.com/copper-nickel-90-10",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+      {
+        name: "CuNi 90/10",
+        url: "https://www.starlighttubes.com/copper-nickel-90-10",
+      },
+    ],
+    productSchema: {
+      name: "Cupro Nickel 90/10 Pipe",
+      description:
+        "Premium CuNi 90/10 (C70600) pipes with excellent seawater corrosion resistance. ASTM B466/B467 certified copper nickel pipes for marine, desalination, and offshore applications.",
+      category: "Copper Nickel Pipes",
+      material:
+        "Cupro Nickel 90/10 (C70600 - 88-90% Copper, 9-11% Nickel, 1-1.8% Iron)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Cupro Nickel 90/10 - C70600 Marine Alloy",
+      summary:
+        "Starlight Tubes manufactures CuNi 90/10 (C70600) pipes and tubes for marine, desalination, and offshore applications. ASTM B466/B467 certified with excellent seawater corrosion resistance.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Cupro Nickel 90/10",
+      "C70600",
+      "CuNi Alloy",
+      "Marine Pipe",
+      "Desalination",
+      "ASTM B466",
+      "Seawater Resistant",
+    ],
+    faqSchema: [
+      {
+        question: "What is CuNi 90/10 alloy?",
+        answer:
+          "CuNi 90/10 (C70600) is a copper-nickel alloy containing 88-90% copper, 9-11% nickel, and 1-1.8% iron. It offers excellent seawater corrosion resistance and biofouling resistance for marine applications.",
+      },
+      {
+        question: "Where is Cupro Nickel 90/10 used?",
+        answer:
+          "Cupro Nickel 90/10 is used in marine piping systems, seawater cooling, desalination plants, offshore platforms, shipbuilding, and coastal power plant condensers.",
+      },
+    ],
   });
   const projects = [
     {

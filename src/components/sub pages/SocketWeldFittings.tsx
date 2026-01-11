@@ -10,12 +10,63 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const SocketWeldFittings = () => {
   useSEO({
     title:
-      "Socket Weld Fittings - Starlight Tubes | Steel Pipe Socket Weld | Global Suppliers",
+      "Socket Weld Fittings Manufacturer - High Pressure Fittings | Starlight Tubes Global Exporter",
     description:
-      "Professional socket weld fittings manufacturer. Elbows, tees, couplings in stainless steel, carbon steel. High pressure socket connections. Global export to USA, Europe, Middle East, Asia & Africa.",
+      "Leading socket weld fittings manufacturer & global exporter. Premium high-pressure socket weld elbows, tees, couplings in SS, carbon steel. ASME B16.11 certified. Class 3000/6000/9000. Export to 60+ countries.",
     keywords:
-      "socket weld fittings USA, socket weld fittings Europe, steel socket weld global, pipe socket weld international, high pressure fittings worldwide, socket weld fittings UAE, socket weld Saudi Arabia, global socket weld manufacturers",
+      "socket weld fittings manufacturer, socket weld fittings exporter, high pressure fittings supplier, ASME B16.11 fittings manufacturer, socket weld elbows exporter, socket weld tees manufacturer, forged fittings supplier, socket weld fittings UAE, socket weld fittings Saudi Arabia, pipe fittings manufacturer India",
     url: "https://www.starlighttubes.com/socket-weld-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Socket Weld Fittings",
+        url: "https://www.starlighttubes.com/socket-weld-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Socket Weld Fittings",
+      description:
+        "Premium quality socket weld fittings for small bore high-pressure piping systems. Available in SS 304/316/321, Carbon Steel, Alloy Steel, Inconel, Monel, Hastelloy. Class 3000/6000/9000.",
+      category: "Pipe Fittings",
+      material:
+        "Stainless Steel, Carbon Steel, Alloy Steel, Inconel, Monel, Hastelloy",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline:
+        "Socket Weld Fittings - High Pressure Forged Fittings Class 3000/6000/9000",
+      summary:
+        "Starlight Tubes manufactures socket weld fittings for small bore high-pressure piping systems. Available in Class 3000, 6000, and 9000 per ASME B16.11 in stainless steel and carbon steel.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Socket Weld Fittings",
+      "ASME B16.11",
+      "Forged Fittings",
+      "High Pressure Fittings",
+      "Socket Weld Elbow",
+      "Socket Weld Tee",
+      "Class 3000 Fittings",
+      "Small Bore Piping",
+    ],
+    faqSchema: [
+      {
+        question:
+          "What is the difference between socket weld and butt weld fittings?",
+        answer:
+          "Socket weld fittings have a socket that the pipe inserts into before welding, making them ideal for small bore (up to 4 inch) high-pressure applications. Butt weld fittings are welded directly to the pipe end and are used for larger diameter pipes.",
+      },
+      {
+        question:
+          "What pressure classes are socket weld fittings available in?",
+        answer:
+          "Socket weld fittings are available in Class 3000, 6000, and 9000 pressure ratings per ASME B16.11. Class 3000 is suitable for standard high-pressure applications, while Class 6000 and 9000 are for extreme pressure requirements.",
+      },
+    ],
   });
   const projects = [
     {

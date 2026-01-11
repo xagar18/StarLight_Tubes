@@ -15,6 +15,58 @@ const CarbonSteel = () => {
     keywords:
       "carbon steel pipe manufacturer, carbon steel tube manufacturer, carbon steel pipe exporter, ASTM A106 pipe manufacturer, API 5L pipe manufacturer, ASTM A53 pipe manufacturer, ERW pipe manufacturer, seamless carbon steel manufacturer, welded pipe manufacturer, API 5L Grade B manufacturer, API 5L X42 manufacturer, API 5L X52 manufacturer, API 5L X65 manufacturer, A671 pipe manufacturer, A672 pipe manufacturer, carbon steel pipe factory, carbon steel tube factory, MS pipe manufacturer, mild steel pipe manufacturer, carbon steel pipe supplier India",
     url: "https://www.starlighttubes.com/carbon-steel",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+    ],
+    productSchema: {
+      name: "Carbon Steel Pipes - ASTM A106, API 5L",
+      description:
+        "High-quality carbon steel pipes including ASTM A106, API 5L Grade B, X42, X52, X65 for oil & gas, petrochemical industries. Manufactured by Starlight Tubes.",
+      category: "Carbon Steel Pipes",
+      material: "Carbon Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "15",
+        highPrice: "3000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Carbon Steel Pipes - ASTM A106, API 5L, ASTM A53",
+      summary:
+        "Starlight Tubes manufactures premium carbon steel pipes including ASTM A106, API 5L Grade B, X42, X52, X65, seamless and ERW pipes for oil & gas and industrial applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "ASTM A106 pipes",
+      "API 5L pipes",
+      "ASTM A53 pipes",
+      "ERW carbon steel",
+      "seamless carbon steel",
+      "oil gas pipelines",
+      "boiler tubes",
+    ],
+    faqSchema: [
+      {
+        question: "What carbon steel pipe grades does Starlight Tubes offer?",
+        answer:
+          "We offer ASTM A106 Gr.B/C, A53 Gr.B, A333 Gr.6, API 5L Gr.B/X42/X52/X65, A671, and A672 grades in seamless, ERW, and welded configurations.",
+      },
+      {
+        question: "What is the difference between ASTM A106 and API 5L pipes?",
+        answer:
+          "ASTM A106 is designed for high-temperature service applications like boilers and refineries. API 5L is specifically for oil and gas transmission pipelines with PSL1 and PSL2 quality levels.",
+      },
+      {
+        question: "What sizes of carbon steel pipes are available?",
+        answer:
+          "We supply seamless pipes from 1/2 inch to 24 inch NB and welded pipes from 1/2 inch to 72 inch NB, with wall thickness from SCH 10 to XXS, meeting ASTM, API, and IS standards.",
+      },
+    ],
   });
   const ctaData = {
     title: "Carbon Steel Products",

@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Aluminium6061 = () => {
   useSEO({
     title:
-      "Aluminium 6061 - Starlight Tubes | Aluminium 6061 Pipes, Sheets | Global Suppliers",
+      "Aluminium 6061 Manufacturer - T6 Temper Alloy | Starlight Tubes Global Exporter",
     description:
-      "Premium aluminium 6061 products manufacturer. High strength corrosion resistant aluminium for aerospace and marine. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Aluminium 6061 manufacturer and global exporter. Premium 6061-T6 aluminium pipes, sheets, bars, and plates for aerospace, automotive, and structural applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
     keywords:
-      "aluminium 6061 UAE, aluminium 6061 pipes Saudi Arabia, aluminium sheets Qatar, aluminium round bars Oman, high strength aluminium Kuwait, corrosion resistant aluminium Bahrain, aerospace aluminium worldwide, marine aluminium GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
+      "aluminium 6061 manufacturer, 6061-T6 aluminium exporter, aluminium 6061 pipe manufacturer, 6061 aluminium sheet supplier, 6061 aluminium bar factory, aerospace grade 6061, structural aluminium 6061, weldable aluminium alloy manufacturer, 6061 aluminium plate stockist, 6061 aluminium wholesaler",
     url: "https://www.starlighttubes.com/aluminium-6061",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+      {
+        name: "Aluminium 6061",
+        url: "https://www.starlighttubes.com/aluminium-6061",
+      },
+    ],
+    productSchema: {
+      name: "Aluminium 6061 Alloy Products",
+      description:
+        "Premium quality Aluminium 6061 alloy with excellent strength, weldability, and corrosion resistance for aerospace, automotive, marine, and structural applications.",
+      category: "Aluminium Products > Aluminium 6061",
+      material:
+        "Aluminium 6061 (Al 95.8-98.6%, Mg 0.8-1.2%, Si 0.4-0.8%, Cr 0.04-0.35%)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium 6061 - Structural Grade Alloy",
+      summary:
+        "Starlight Tubes supplies Aluminium 6061-T6 products with excellent strength-to-weight ratio for aerospace, marine, and structural applications. Heat treatable alloy per ASTM B209, B211.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Aluminium 6061",
+      "6061-T6",
+      "Structural Aluminium",
+      "Aerospace Grade",
+      "Marine Grade",
+      "Heat Treatable",
+      "Weldable Aluminium",
+    ],
+    faqSchema: [
+      {
+        question: "What is 6061 aluminium used for?",
+        answer:
+          "6061 aluminium is used in aerospace structures, marine components, automotive parts, bicycle frames, structural frameworks, and general machining due to its excellent strength, weldability, and corrosion resistance.",
+      },
+      {
+        question: "What is the difference between 6061-T6 and 6061-O temper?",
+        answer:
+          "6061-T6 is heat treated and artificially aged for maximum strength (310 MPa tensile). 6061-O is annealed for best formability but lower strength. T6 is most common for structural applications.",
+      },
+    ],
   });
   const projects = [
     {

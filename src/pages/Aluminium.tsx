@@ -51,6 +51,55 @@ const Aluminium = () => {
     keywords:
       "aluminium pipe manufacturer, aluminium tube manufacturer, aluminium pipe exporter, aluminium sheet manufacturer, aluminium plate manufacturer, aluminium 6061 manufacturer, aluminium 6063 manufacturer, aluminium 5052 manufacturer, aluminium 7075 manufacturer, aluminium round bar manufacturer, aluminium coil manufacturer, aluminium pipe factory, aluminium tube factory, aluminium pipe supplier India, aerospace aluminium manufacturer, automotive aluminium manufacturer",
     url: "https://www.starlighttubes.com/aluminium",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+    ],
+    productSchema: {
+      name: "Aluminium Pipes and Sheets - 6061, 6063, 5052, 7075",
+      description:
+        "High-quality aluminium pipes, tubes, sheets, and plates in various grades for aerospace, automotive, and construction industries.",
+      category: "Aluminium Products",
+      material: "Aluminium Alloy",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "10",
+        highPrice: "3000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium Pipes & Sheets - 6061, 6063, 5052, 7075 Grades",
+      summary:
+        "Starlight Tubes manufactures premium aluminium pipes, tubes, sheets, and plates in grades 6061, 6063, 5052, and 7075 for aerospace, automotive, and construction applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "aluminium 6061",
+      "aluminium 6063",
+      "aluminium 5052",
+      "aluminium 7075",
+      "aerospace aluminium",
+      "automotive aluminium",
+      "construction aluminium",
+    ],
+    faqSchema: [
+      {
+        question: "What aluminium grades does Starlight Tubes offer?",
+        answer:
+          "We offer aluminium grades 1100, 2014, 2024, 3003, 5052, 5083, 6061, 6063, 6082, and 7075 in pipes, tubes, sheets, plates, coils, rods, and bars.",
+      },
+      {
+        question: "What is the difference between aluminium 6061 and 7075?",
+        answer:
+          "Aluminium 6061 offers excellent weldability and corrosion resistance for general applications. Aluminium 7075 provides higher strength for aerospace applications but is less weldable.",
+      },
+      {
+        question: "What sizes of aluminium pipes are available?",
+        answer:
+          "We supply aluminium pipes from 1/4 inch to 12 inch NB, sheets from 0.5mm to 100mm thickness, and rods from 3mm to 300mm diameter, meeting ASTM B221, B209, B241, EN 573, EN 485, JIS H4000 standards.",
+      },
+    ],
   });
   const ctaData = {
     title: "Aluminium Products",

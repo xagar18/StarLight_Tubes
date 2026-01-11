@@ -1,7 +1,17 @@
+import { useSEO } from "@/hooks/use-seo";
 import { useNavigate } from "react-router";
 
 const PageNotFound = () => {
   const navigate = useNavigate();
+
+  useSEO({
+    title: "Page Not Found - 404 | Starlight Tubes",
+    description:
+      "The page you are looking for could not be found. Return to Starlight Tubes homepage to browse our steel pipes, tubes, and fittings.",
+    keywords: "404, page not found, Starlight Tubes",
+    url: "https://www.starlighttubes.com/404",
+    noIndex: true,
+  });
 
   return (
     <div className="relative min-h-screen bg-black overflow-hidden flex items-center justify-center px-6">

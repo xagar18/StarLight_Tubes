@@ -10,12 +10,59 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Inconel625Plate = () => {
   useSEO({
     title:
-      "Inconel 625 Plate - Starlight Tubes | Inconel 625 Plates | Global Suppliers",
+      "Inconel 625 Plate Manufacturer & Exporter | UNS N06625 Sheets & Coils | Starlight Tubes",
     description:
-      "Premium Inconel 625 plates manufacturer. Superior corrosion resistant alloy plates for marine and aerospace applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel 625 plate manufacturer and exporter in India. Premium UNS N06625 corrosion resistant alloy plates for marine, aerospace & chemical processing. ASTM B443 certified. Global supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "inconel 625 plate UAE, inconel 625 plates Saudi Arabia, superior corrosion plates Qatar, high strength plates Oman, marine plates Kuwait, aerospace plates Bahrain, inconel 625 plate worldwide, alloy plate manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "inconel 625 plate manufacturer, inconel 625 sheet exporter, UNS N06625 plate supplier, corrosion resistant alloy plate manufacturer, inconel 625 coil exporter India, marine grade inconel plate manufacturer, aerospace inconel plate supplier, ASTM B443 inconel 625, inconel 625 plate UAE, inconel 625 Saudi Arabia, seawater resistant plate manufacturer",
     url: "https://www.starlighttubes.com/inconel-625-plate",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel 625 Plate",
+        url: "https://www.starlighttubes.com/inconel-625-plate",
+      },
+    ],
+    productSchema: {
+      name: "Inconel 625 Plate",
+      description:
+        "Premium quality Inconel 625 (UNS N06625) plates and sheets manufactured to ASTM B443 standards for marine engineering, aerospace structures, and chemical processing applications.",
+      category: "Inconel Alloy Products",
+      material: "Inconel 625 (UNS N06625, Werkstoff Nr. 2.4856)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel 625 Plate - Marine Grade Corrosion Resistant Alloy",
+      summary:
+        "Starlight Tubes manufactures Inconel 625 plates with superior resistance to pitting, crevice corrosion, and stress-corrosion cracking for marine, aerospace, and chemical applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel 625",
+      "UNS N06625",
+      "ASTM B443",
+      "Marine Grade",
+      "Seawater Resistant",
+      "Aerospace Plate",
+      "Chemical Processing",
+      "IGC Tested",
+    ],
+    faqSchema: [
+      {
+        question: "Why is Inconel 625 plate preferred for marine applications?",
+        answer:
+          "Inconel 625 plates offer exceptional resistance to seawater corrosion, pitting, crevice corrosion, and chloride stress-corrosion cracking, making them ideal for marine structures, offshore platforms, and seawater desalination equipment.",
+      },
+      {
+        question: "What tests are performed on Inconel 625 plates?",
+        answer:
+          "Inconel 625 plates undergo chemical analysis, mechanical testing, ultrasonic inspection, intergranular corrosion testing per ASTM A262, and surface examination to ensure quality and performance in corrosive environments.",
+      },
+    ],
   });
   const projects = [
     {

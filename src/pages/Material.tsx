@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -7,6 +8,51 @@ import { BottomCTA } from "../components/sub components/BottomCTA";
 import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const Material = () => {
+  useSEO({
+    title:
+      "Industrial Materials - Stainless Steel, Carbon Steel, Nickel Alloys, Inconel | Starlight Tubes Manufacturer",
+    description:
+      "Premium industrial materials from Starlight Tubes - leading manufacturer and exporter. Stainless steel 304, 316, 316L, duplex, super duplex. Carbon steel ASTM A106, API 5L. Nickel alloys Monel, Hastelloy. Inconel 625, 600, 718. Pipes, tubes, plates, sheets, round bars. Export to 60+ countries.",
+    keywords:
+      "industrial materials manufacturer, stainless steel materials, carbon steel materials, nickel alloy materials, inconel materials, industrial metal supplier, steel materials India, metal materials exporter, SS materials, MS materials, alloy materials, high temperature materials, corrosion resistant materials, aerospace materials, petrochemical materials",
+    url: "https://www.starlighttubes.com/materials",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Materials", url: "https://www.starlighttubes.com/materials" },
+    ],
+    speakableContent: {
+      headline: "Industrial Materials - Steel, Nickel Alloys & Inconel",
+      summary:
+        "Starlight Tubes supplies premium industrial materials including stainless steel, carbon steel, nickel alloys, and Inconel superalloys in pipes, tubes, plates, sheets, and round bars for global industries.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "stainless steel materials",
+      "carbon steel materials",
+      "nickel alloy materials",
+      "inconel materials",
+      "industrial metals",
+      "aerospace materials",
+      "petrochemical materials",
+    ],
+    faqSchema: [
+      {
+        question: "What industrial materials does Starlight Tubes supply?",
+        answer:
+          "We supply stainless steel (304, 316, 316L, duplex, super duplex), carbon steel (ASTM A106, API 5L), nickel alloys (Monel, Hastelloy), and Inconel (625, 600, 718) in pipes, tubes, plates, sheets, round bars, and fasteners.",
+      },
+      {
+        question: "What industries do Starlight Tubes materials serve?",
+        answer:
+          "Our materials serve oil & gas, petrochemical, power generation, aerospace, marine, pharmaceutical, and chemical processing industries worldwide with export to 60+ countries.",
+      },
+      {
+        question: "How do I select the right material for my application?",
+        answer:
+          "Contact our technical team for material selection guidance based on your application requirements including temperature, pressure, corrosion environment, and mechanical properties. We provide expert consultation for optimal material choice.",
+      },
+    ],
+  });
   const ctaData = {
     title: "Premium Industrial Materials",
     paragraph1:

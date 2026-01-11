@@ -10,12 +10,65 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ASTMA106Pipe = () => {
   useSEO({
     title:
-      "ASTM A106 Pipe - Starlight Tubes | Carbon Steel A106 Pipes | Global Suppliers",
+      "ASTM A106 Pipe Manufacturer - Grade A, B, C Carbon Steel Pipes | Starlight Tubes Global Exporter",
     description:
-      "Premium ASTM A106 carbon steel pipes manufacturer. Grade A, B, C pipes for high temperature service. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading ASTM A106 carbon steel pipe manufacturer and exporter. Grade A, B, C seamless pipes for high temperature service. Boiler tubes, heat exchanger tubes. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "ASTM A106 pipe UAE, carbon steel A106 pipes Saudi Arabia, grade A pipes Qatar, grade B pipes Oman, grade C pipes Kuwait, high temperature pipes Bahrain, ASTM A106 pipe worldwide, carbon steel A106 pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "ASTM A106 pipe manufacturer, ASTM A106 Grade B pipe, ASTM A106 Grade C pipe, carbon steel seamless pipe, high temperature pipe, boiler tube manufacturer, heat exchanger tube, ASTM A106 pipe exporter, carbon steel pipe India, ASTM A106 pipe UAE",
     url: "https://www.starlighttubes.com/astm-a106-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "ASTM A106 Pipe",
+        url: "https://www.starlighttubes.com/astm-a106-pipe",
+      },
+    ],
+    productSchema: {
+      name: "ASTM A106 Carbon Steel Pipes - Grade A, B, C",
+      description:
+        "Premium ASTM A106 carbon steel seamless pipes for high temperature service. Grade A, B, C available for boilers, heat exchangers, and process piping.",
+      category: "Carbon Steel Pipes",
+      material: "Carbon Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "20",
+        highPrice: "2500",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "ASTM A106 Pipe Manufacturer - Grade A, B, C Seamless Pipes",
+      summary:
+        "Starlight Tubes manufactures ASTM A106 carbon steel seamless pipes for high temperature service up to 750°F. Grade A, B, and C available for boilers, refineries, and power plant applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "ASTM A106",
+      "ASME SA106",
+      "Carbon Steel",
+      "Seamless Pipe",
+      "High Temperature Pipe",
+      "Boiler Tube",
+      "Refinery Piping",
+      "Power Plant",
+    ],
+    faqSchema: [
+      {
+        question: "What is ASTM A106 pipe used for?",
+        answer:
+          "ASTM A106 pipes are used for high-temperature service applications including boilers, heat exchangers, superheaters, and refinery process piping where operating temperatures exceed 750°F (400°C).",
+      },
+      {
+        question:
+          "What is the difference between ASTM A106 Grade B and Grade C?",
+        answer:
+          "Grade C has higher tensile strength (70 ksi min vs 60 ksi) and yield strength (40 ksi min vs 35 ksi) than Grade B. Grade C is specified when higher mechanical properties are required for demanding applications.",
+      },
+    ],
   });
   const projects = [
     {

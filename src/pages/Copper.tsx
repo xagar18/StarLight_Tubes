@@ -53,6 +53,56 @@ const Copper = () => {
     keywords:
       "copper pipe manufacturer, copper tube manufacturer, copper pipe exporter, copper sheet manufacturer, copper plate manufacturer, cupro nickel pipe manufacturer, copper nickel tube manufacturer, CuNi 90/10 manufacturer, CuNi 70/30 manufacturer, copper round bar manufacturer, copper fittings manufacturer, copper pipe factory, copper tube factory, copper pipe supplier India, copper tube distributor, HVAC copper pipe manufacturer",
     url: "https://www.starlighttubes.com/copper",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+    ],
+    productSchema: {
+      name: "Copper Pipes and Tubes",
+      description:
+        "High-quality copper pipes, tubes, sheets, and cupro nickel products for HVAC, plumbing, marine, and industrial applications.",
+      category: "Copper Products",
+      material: "Copper, Cupro Nickel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "20",
+        highPrice: "4000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline:
+        "Copper Pipes & Tubes - Premium Copper and Cupro Nickel Products",
+      summary:
+        "Starlight Tubes manufactures premium copper pipes, tubes, sheets, and cupro nickel 90/10 and 70/30 products for HVAC, plumbing, marine, and industrial applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "copper pipes",
+      "copper tubes",
+      "copper sheets",
+      "cupro nickel 90/10",
+      "cupro nickel 70/30",
+      "HVAC copper",
+      "marine copper",
+    ],
+    faqSchema: [
+      {
+        question: "What copper products does Starlight Tubes offer?",
+        answer:
+          "We offer copper pipes, tubes, sheets, plates, coils, rods, bars, fittings, and cupro nickel 90/10 and 70/30 products in grades C10100, C10200, C11000, C12200, ETP, DHP, and DLP.",
+      },
+      {
+        question: "What are the applications of copper pipes?",
+        answer:
+          "Copper pipes are used in electrical wiring, plumbing systems, HVAC applications, heat exchangers, industrial machinery, and marine environments due to superior conductivity and corrosion resistance.",
+      },
+      {
+        question: "What sizes of copper pipes are available?",
+        answer:
+          "We supply copper pipes from 1/4 inch to 8 inch NB, sheets from 0.5mm to 50mm thickness, and rods from 3mm to 200mm diameter, meeting ASTM B42, B75, B88, B152, EN 12449, JIS H3300 standards.",
+      },
+    ],
   });
   const ctaData = {
     title: "Copper Products",

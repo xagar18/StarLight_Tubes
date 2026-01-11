@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Inconel600Plate = () => {
   useSEO({
     title:
-      "Inconel 600 Plate - Starlight Tubes | Inconel 600 Plates | Global Suppliers",
+      "Inconel 600 Plate Manufacturer & Exporter | UNS N06600 Sheets & Coils | Starlight Tubes",
     description:
-      "Premium Inconel 600 plates manufacturer. Nickel-chromium alloy plates for furnace components and chemical processing. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel 600 plate manufacturer and exporter in India. Premium UNS N06600 nickel-chromium alloy plates for furnace components, nuclear reactors & chemical processing. ASTM B168 certified. Global supply to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "inconel 600 plate UAE, inconel 600 plates Saudi Arabia, nickel chromium plates Qatar, furnace components Oman, chemical processing plates Kuwait, high temperature plates Bahrain, inconel 600 plate worldwide, alloy plate manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "inconel 600 plate manufacturer, inconel 600 sheet exporter, UNS N06600 plate supplier, nickel chromium alloy plate manufacturer, inconel 600 coil exporter India, furnace component plate manufacturer, nuclear grade inconel plate supplier, ASTM B168 inconel 600, inconel 600 plate UAE, inconel 600 Saudi Arabia, high temperature plate manufacturer",
     url: "https://www.starlighttubes.com/inconel-600-plate",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel 600 Plate",
+        url: "https://www.starlighttubes.com/inconel-600-plate",
+      },
+    ],
+    productSchema: {
+      name: "Inconel 600 Plate",
+      description:
+        "Premium quality Inconel 600 (UNS N06600) plates and sheets manufactured to ASTM B168 standards for heat treatment furnaces, nuclear reactors, and chemical processing applications.",
+      category: "Inconel Alloy Products",
+      material: "Inconel 600 (UNS N06600, Werkstoff Nr. 2.4816)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline:
+        "Inconel 600 Plate - High Temperature Oxidation Resistant Alloy",
+      summary:
+        "Starlight Tubes supplies Inconel 600 plates with excellent oxidation resistance and mechanical strength from cryogenic to 2000°F for furnace components and nuclear reactor applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel 600",
+      "UNS N06600",
+      "Nickel Chromium Alloy",
+      "ASTM B168",
+      "Furnace Components",
+      "Nuclear Reactor",
+      "High Temperature Plate",
+      "Oxidation Resistant",
+    ],
+    faqSchema: [
+      {
+        question: "What is Inconel 600 plate used for?",
+        answer:
+          "Inconel 600 plates are used in heat treatment furnaces, nuclear steam generators, chemical processing vessels, and thermal oxidizers due to their excellent oxidation resistance and strength up to 2000°F.",
+      },
+      {
+        question: "What is the composition of Inconel 600?",
+        answer:
+          "Inconel 600 (UNS N06600) contains approximately 72% nickel, 14-17% chromium, and 6-10% iron, providing excellent resistance to oxidation, carburization, and chloride stress-corrosion cracking.",
+      },
+    ],
   });
   const projects = [
     {

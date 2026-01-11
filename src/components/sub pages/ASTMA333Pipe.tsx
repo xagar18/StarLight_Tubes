@@ -10,12 +10,63 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ASTMA333Pipe = () => {
   useSEO({
     title:
-      "ASTM A333 Pipe - Starlight Tubes | Low Temperature Pipes | Global Suppliers",
+      "ASTM A333 Pipe Manufacturer & Exporter | Low Temperature Pipes | Starlight Tubes",
     description:
-      "Premium ASTM A333 low temperature carbon steel pipes. Grade 6, 9 pipes for cryogenic service. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading ASTM A333 low temperature pipe manufacturer and exporter. Premium Grade 6 & Grade 9 cryogenic pipes for LNG and refrigeration. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "ASTM A333 pipe UAE, low temperature pipes Saudi Arabia, cryogenic pipes Qatar, carbon steel pipes Oman, grade 6 pipes Kuwait, grade 9 pipes Bahrain, ASTM A333 pipe worldwide, low temperature pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "ASTM A333 pipe manufacturer, ASTM A333 pipe exporter, low temperature pipe supplier, cryogenic pipe manufacturer, Grade 6 pipe exporter, Grade 9 pipe manufacturer, LNG pipe supplier, carbon steel pipe factory, industrial pipe exporter, ASTM A333 stockist, SA333 pipe manufacturer",
     url: "https://www.starlighttubes.com/astm-a333-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "ASTM A333 Pipe",
+        url: "https://www.starlighttubes.com/astm-a333-pipe",
+      },
+    ],
+    productSchema: {
+      name: "ASTM A333 Low Temperature Pipe",
+      description:
+        "Premium ASTM A333 low temperature carbon steel pipes for cryogenic service, LNG plants, and refrigeration systems with Charpy impact testing.",
+      category: "Carbon Steel Pipes",
+      material:
+        "Low Temperature Carbon Steel (ASTM A333 Grade 1, 3, 4, 6, 7, 8, 9, 10, 11)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "ASTM A333 Low Temperature Pipe - Cryogenic Service",
+      summary:
+        "Starlight Tubes manufactures ASTM A333 low temperature pipes for cryogenic service down to -150°F. Grade 6 most popular for LNG plants, refrigeration systems, and cold climate pipelines.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "ASTM A333",
+      "ASME SA333",
+      "Low Temperature Pipe",
+      "Cryogenic Pipe",
+      "LNG Pipeline",
+      "Grade 6",
+      "Charpy Impact",
+      "Refrigeration",
+    ],
+    faqSchema: [
+      {
+        question: "What is ASTM A333 Grade 6 pipe used for?",
+        answer:
+          "ASTM A333 Grade 6 pipes are used for low-temperature service applications including LNG plants, cryogenic systems, refrigeration facilities, and cold climate pipelines operating down to -50°F (-46°C).",
+      },
+      {
+        question: "Why is Charpy impact testing required for ASTM A333 pipes?",
+        answer:
+          "Charpy V-notch impact testing is mandatory to verify that the pipe maintains adequate toughness and ductility at specified low temperatures, preventing brittle fracture in cryogenic service conditions.",
+      },
+    ],
   });
   const projects = [
     {

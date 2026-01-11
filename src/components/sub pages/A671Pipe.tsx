@@ -10,12 +10,63 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const A671Pipe = () => {
   useSEO({
     title:
-      "ASTM A671 Pipe - Starlight Tubes | Electric Fusion Welded Pipes | Global Suppliers",
+      "ASTM A671 Pipe Manufacturer & Exporter | EFW Pipes | Starlight Tubes",
     description:
-      "Premium ASTM A671 electric fusion welded pipes manufacturer. Carbon and alloy steel pipes for high pressure/temperature. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading ASTM A671 electric fusion welded pipe manufacturer and exporter. Premium EFW pipes for power plants and pressure vessels. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "ASTM A671 pipe UAE, electric fusion welded pipes Saudi Arabia, carbon steel pipes Qatar, alloy steel pipes Oman, high pressure pipes Kuwait, high temperature pipes Bahrain, ASTM A671 pipe worldwide, fusion welded pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "ASTM A671 pipe manufacturer, ASTM A671 pipe exporter, EFW pipe supplier, electric fusion welded pipe manufacturer, power plant pipe exporter, pressure vessel pipe manufacturer, DSAW pipe supplier, carbon steel pipe factory, SA671 pipe exporter, A671 CC60 manufacturer, A671 CC65 stockist",
     url: "https://www.starlighttubes.com/astm-a671-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "ASTM A671 Pipe",
+        url: "https://www.starlighttubes.com/astm-a671-pipe",
+      },
+    ],
+    productSchema: {
+      name: "ASTM A671 Electric Fusion Welded Pipe",
+      description:
+        "Premium ASTM A671 EFW pipes for atmospheric and low temperature service applications in power plants, refineries, and chemical processing facilities.",
+      category: "Carbon Steel Pipes",
+      material:
+        "Carbon Steel (ASTM A671 CC60, CC65, CC70, CE55, CE60, CE65, CF66)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "ASTM A671 EFW Pipe - Power Plant Grade",
+      summary:
+        "Starlight Tubes manufactures ASTM A671 electric fusion welded pipes for power plants and refineries. 100% radiographic tested EFW pipes in CC60, CC65, CC70 grades for pressure piping applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "ASTM A671",
+      "ASME SA671",
+      "EFW Pipe",
+      "DSAW Pipe",
+      "Power Plant",
+      "Pressure Piping",
+      "Refinery",
+      "Radiographic Testing",
+    ],
+    faqSchema: [
+      {
+        question: "What is ASTM A671 pipe used for?",
+        answer:
+          "ASTM A671 EFW pipes are used for atmospheric and lower temperature service in power plants, refineries, and chemical processing. They are fabricated from pressure vessel quality plates with double submerged arc welding.",
+      },
+      {
+        question: "What does CC65 mean in ASTM A671 CC65 pipe?",
+        answer:
+          "CC65 indicates the pipe class where 'C' denotes 100% radiographic examination of weld seams, and '65' refers to the plate material specification (A516 Grade 65). Higher numbers indicate higher tensile strength.",
+      },
+    ],
   });
   const projects = [
     {

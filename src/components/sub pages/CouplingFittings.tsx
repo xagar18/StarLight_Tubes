@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CouplingFittings = () => {
   useSEO({
     title:
-      "Coupling Fittings - Starlight Tubes | Steel Pipe Couplings | Global Suppliers",
+      "Coupling Fittings Manufacturer - Full & Half Couplings | Starlight Tubes Global Exporter",
     description:
-      "Premium coupling fittings manufacturer. Full and half couplings in socket weld and threaded types. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading coupling fittings manufacturer & global exporter. Premium full couplings, half couplings, reducing couplings in socket weld, threaded types. ASME B16.11 certified. Export to 60+ countries worldwide.",
     keywords:
-      "coupling fittings UAE, steel couplings Saudi Arabia, pipe couplings Qatar, full couplings Oman, half couplings Kuwait, socket weld couplings Bahrain, threaded couplings worldwide, steel coupling fittings GCC, pipe coupling manufacturers UAE, USA steel suppliers, European steel exporters, global pipe fittings",
+      "coupling fittings manufacturer, coupling fittings exporter, full coupling manufacturer, half coupling supplier, reducing coupling exporter, socket weld coupling manufacturer, threaded coupling supplier, coupling fittings UAE, coupling fittings Saudi Arabia, pipe fittings manufacturer India",
     url: "https://www.starlighttubes.com/coupling-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Coupling Fittings",
+        url: "https://www.starlighttubes.com/coupling-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Coupling Fittings",
+      description:
+        "Premium quality coupling fittings for connecting pipes of the same diameter. Full coupling, half coupling, reducing coupling in socket weld and threaded types. SS 304/316/321, Carbon Steel, Alloy Steel.",
+      category: "Pipe Fittings",
+      material:
+        "Stainless Steel, Carbon Steel, Alloy Steel, Inconel, Monel, Hastelloy",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline:
+        "Pipe Couplings - Full Coupling, Half Coupling, Reducing Coupling",
+      summary:
+        "Starlight Tubes manufactures pipe couplings including full couplings, half couplings, and reducing couplings in stainless steel and carbon steel. Socket weld and threaded types per ASME B16.11.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Pipe Couplings",
+      "Full Coupling",
+      "Half Coupling",
+      "Reducing Coupling",
+      "ASME B16.11",
+      "Socket Weld Coupling",
+      "Threaded Coupling",
+      "Pipe Connectors",
+    ],
+    faqSchema: [
+      {
+        question:
+          "What is the difference between full coupling and half coupling?",
+        answer:
+          "A full coupling connects two pipes end-to-end with sockets on both sides. A half coupling has a socket on one side and is typically welded or threaded to a larger pipe or vessel to create a branch connection or instrument tap.",
+      },
+      {
+        question: "When should reducing couplings be used?",
+        answer:
+          "Reducing couplings are used to connect two pipes of different diameters in a straight line. They provide a compact solution for size transitions in small bore piping, especially in instrumentation and process lines where space is limited.",
+      },
+    ],
   });
   const projects = [
     {

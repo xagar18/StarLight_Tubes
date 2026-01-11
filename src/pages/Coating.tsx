@@ -15,6 +15,49 @@ const Coating = () => {
     keywords:
       "FBE coated pipe manufacturer, epoxy coated pipe manufacturer, coated pipe exporter, FBE coating manufacturer, 3LPE coated pipe manufacturer, fusion bonded epoxy pipe, coated pipe factory, corrosion resistant pipe manufacturer, pipeline coating manufacturer, FBE pipe supplier India, epoxy coated pipe supplier, coated pipe for oil gas, coated pipe for water pipeline",
     url: "https://www.starlighttubes.com/coating",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Coating", url: "https://www.starlighttubes.com/coating" },
+    ],
+    articleSchema: {
+      headline: "Complete Guide to Pipe Coating Systems - FBE & Epoxy Coating",
+      description:
+        "Understanding epoxy coating technologies, surface preparation, and corrosion protection for industrial pipelines. FBE, 3LPE, and epoxy coating systems explained.",
+      datePublished: "2024-01-01",
+      dateModified: "2025-01-11",
+    },
+    speakableContent: {
+      headline: "Pipe Coating Services - FBE & Epoxy Coating Solutions",
+      summary:
+        "Starlight Tubes provides premium FBE and epoxy coating services for industrial pipes, offering superior corrosion protection and extended service life for oil gas, water transmission, and pipeline applications.",
+    },
+    entityType: "Service",
+    relatedEntities: [
+      "FBE coating",
+      "epoxy coating",
+      "3LPE coating",
+      "corrosion protection",
+      "pipeline coating",
+      "fusion bonded epoxy",
+      "pipe surface treatment",
+    ],
+    faqSchema: [
+      {
+        question: "What is FBE coating for pipes?",
+        answer:
+          "FBE (Fusion Bonded Epoxy) coating is a thermosetting powder coating applied to heated pipe surfaces, providing excellent corrosion protection for buried pipelines in oil gas, water, and industrial applications.",
+      },
+      {
+        question: "What coating services does Starlight Tubes offer?",
+        answer:
+          "We offer FBE coating, epoxy coating, and 3LPE coating services with proper surface preparation including blasting, priming, and quality testing for maximum corrosion protection.",
+      },
+      {
+        question: "What industries use coated pipes?",
+        answer:
+          "Coated pipes are used in oil & gas transmission, water distribution, sewage systems, chemical plants, and power generation where corrosion protection is critical for long service life.",
+      },
+    ],
   });
   const projects = [
     {

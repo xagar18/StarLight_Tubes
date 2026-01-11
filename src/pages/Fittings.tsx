@@ -50,6 +50,56 @@ const Fittings = () => {
     keywords:
       "pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, butt weld fittings manufacturer, socket weld fittings manufacturer, threaded fittings manufacturer, pipe fittings exporter, stainless steel fittings manufacturer, carbon steel fittings manufacturer, steel elbows manufacturer, pipe tees manufacturer, pipe reducers manufacturer, flange manufacturer, SS fittings manufacturer, MS fittings manufacturer, pipe fittings factory, pipe fittings supplier India, industrial fittings manufacturer",
     url: "https://www.starlighttubes.com/fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+    ],
+    productSchema: {
+      name: "Pipe Fittings - Elbows, Tees, Reducers, Flanges",
+      description:
+        "High-quality pipe fittings including elbows, tees, reducers, flanges in stainless steel, carbon steel, and alloy steel. ASME, ASTM standards.",
+      category: "Pipe Fittings",
+      material: "Stainless Steel, Carbon Steel, Alloy Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "5",
+        highPrice: "2000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Pipe Fittings & Flanges - Elbows, Tees, Reducers",
+      summary:
+        "Starlight Tubes manufactures premium pipe fittings including elbows, tees, reducers, couplings, caps, and flanges in stainless steel, carbon steel, and alloy steel for industrial piping systems.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "pipe elbows",
+      "pipe tees",
+      "pipe reducers",
+      "pipe flanges",
+      "butt weld fittings",
+      "socket weld fittings",
+      "threaded fittings",
+    ],
+    faqSchema: [
+      {
+        question: "What types of pipe fittings does Starlight Tubes offer?",
+        answer:
+          "We offer elbows, tees, reducers, couplings, caps, stub ends, flanges in butt weld, socket weld, and threaded configurations in stainless steel, carbon steel, alloy steel, nickel alloys, and copper alloys.",
+      },
+      {
+        question:
+          "What is the difference between butt weld and socket weld fittings?",
+        answer:
+          "Butt weld fittings are welded to pipe ends for permanent joints in high-pressure applications. Socket weld fittings have a socket for pipe insertion, suitable for smaller sizes and lower pressures.",
+      },
+      {
+        question: "What sizes of pipe fittings are available?",
+        answer:
+          "We supply pipe fittings from 1/2 inch to 48 inch NB, meeting ASTM A403, A234, A105, A182, EN 10253, DIN 2605, ASME B16.9, and B16.5 standards.",
+      },
+    ],
   });
   const ctaData = {
     title: "Pipe Fittings & Flanges",

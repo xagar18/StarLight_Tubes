@@ -10,12 +10,33 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const PipeFittings = () => {
   useSEO({
     title:
-      "Pipe Fittings - Starlight Tubes | Steel Pipe Fittings | Global Suppliers",
+      "Pipe Fittings Manufacturer - Elbows, Tees, Reducers, Couplings | Starlight Tubes Global Exporter",
     description:
-      "Premium pipe fittings manufacturer. Steel elbows, tees, reducers, couplings, flanges for industrial applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading pipe fittings manufacturer and exporter. Steel elbows, tees, reducers, couplings, caps, stub ends for industrial applications. Butt weld, socket weld, threaded fittings. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "pipe fittings UAE, steel pipe fittings Saudi Arabia, industrial fittings Qatar, elbow fittings Oman, tee fittings Kuwait, reducer fittings Bahrain, flange fittings worldwide, coupling fittings GCC, steel pipe fittings UAE, pipe fitting manufacturers Saudi Arabia, USA steel suppliers, European steel exporters, global pipe fittings",
+      "pipe fittings manufacturer, steel fittings manufacturer, elbow fittings, tee fittings, reducer fittings, coupling fittings, butt weld fittings, socket weld fittings, threaded fittings, pipe fittings exporter, industrial fittings India",
     url: "https://www.starlighttubes.com/pipe-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Pipe Fittings",
+        url: "https://www.starlighttubes.com/pipe-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Pipe Fittings - Elbows, Tees, Reducers, Couplings",
+      description:
+        "Premium steel pipe fittings including elbows, tees, reducers, couplings, caps, stub ends in butt weld, socket weld, and threaded configurations.",
+      category: "Pipe Fittings",
+      material: "Stainless Steel, Carbon Steel, Alloy Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "5",
+        highPrice: "1500",
+        availability: "https://schema.org/InStock",
+      },
+    },
   });
   const projects = [
     {

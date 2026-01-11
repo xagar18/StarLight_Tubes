@@ -187,6 +187,39 @@ const Product = () => {
     keywords:
       "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, pipe manufacturer India, tube manufacturer Mumbai, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, 304 stainless steel manufacturer, 316 stainless steel manufacturer, ASTM A106 manufacturer, API 5L manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer, steel pipe factory, steel pipe supplier, steel pipe distributor, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer",
     url: "https://www.starlighttubes.com/product",
+    speakableContent: {
+      headline:
+        "Starlight Tubes Product Range - Industrial Steel Pipes & Tubes",
+      summary:
+        "Explore Starlight Tubes' complete range of industrial steel products including stainless steel, carbon steel, nickel alloys, copper, aluminium pipes, tubes, fittings, and flanges for global industries.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "stainless steel pipes",
+      "carbon steel tubes",
+      "nickel alloy products",
+      "pipe fittings",
+      "industrial flanges",
+      "seamless pipes",
+      "welded tubes",
+    ],
+    faqSchema: [
+      {
+        question: "What products does Starlight Tubes manufacture?",
+        answer:
+          "Starlight Tubes manufactures a complete range of industrial steel products including stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper pipes, aluminium pipes, pipe fittings, and flanges.",
+      },
+      {
+        question: "What industries do Starlight Tubes products serve?",
+        answer:
+          "Our products serve oil & gas, petrochemical, pharmaceutical, power generation, marine, aerospace, construction, and chemical processing industries worldwide.",
+      },
+      {
+        question: "Are Starlight Tubes products certified?",
+        answer:
+          "Yes, all our products come with mill test certificates, comply with ASTM, ASME, API, DIN, EN standards, and are manufactured under ISO 9001:2015 certified processes.",
+      },
+    ],
   });
 
   return (

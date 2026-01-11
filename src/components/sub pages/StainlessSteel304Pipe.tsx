@@ -10,12 +10,61 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteel304Pipe = () => {
   useSEO({
     title:
-      "Stainless Steel 304 Pipe - Starlight Tubes | SS 304 Pipes | Global Suppliers",
+      "SS 304 Pipe Manufacturer - ASTM A312 TP304 Seamless/Welded | Starlight Tubes Global Exporter",
     description:
-      "Premium stainless steel 304 pipes manufacturer. ASTM A312 TP304, seamless and welded SS 304 pipes. Corrosion resistant. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading SS 304 pipe manufacturer & global exporter. ASTM A312 TP304 seamless & welded stainless steel pipes. Austenitic grade with excellent corrosion resistance. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "stainless steel 304 pipe UAE, SS 304 pipes Saudi Arabia, ASTM A312 TP304 Qatar, seamless 304 pipes Oman, welded 304 pipes Kuwait, corrosion resistant pipes Bahrain, stainless steel 304 pipe worldwide, SS 304 pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "SS 304 pipe manufacturer, stainless steel 304 pipe exporter, ASTM A312 TP304 supplier, seamless 304 pipe manufacturer, welded SS 304 pipe, austenitic stainless steel pipe, 304 stainless pipe UAE, SS 304 pipes Saudi Arabia, 304 pipe manufacturer India, corrosion resistant SS pipe",
     url: "https://www.starlighttubes.com/stainless-steel-304-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "SS 304 Pipe",
+        url: "https://www.starlighttubes.com/stainless-steel-304-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel 304 Pipe",
+      description:
+        "Premium SS 304 pipes in seamless and welded configurations. ASTM A312 TP304 certified austenitic stainless steel pipes with 18% Chromium and 8% Nickel for excellent corrosion resistance.",
+      category: "Stainless Steel Pipes",
+      material: "Stainless Steel 304 (18% Chromium, 8% Nickel - Austenitic)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "SS 304 Pipe - ASTM A312 TP304 Seamless & Welded Pipes",
+      summary:
+        "Starlight Tubes manufactures premium SS 304 pipes with 18% chromium and 8% nickel composition for excellent corrosion resistance in food processing, pharmaceutical, and chemical applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel 304",
+      "ASTM A312",
+      "Austenitic Steel",
+      "Seamless Pipe",
+      "Corrosion Resistant Pipe",
+      "Food Grade SS",
+      "Chemical Processing Pipe",
+    ],
+    faqSchema: [
+      {
+        question: "What is the composition of SS 304 pipe?",
+        answer:
+          "SS 304 pipe contains 18% Chromium and 8% Nickel, making it an austenitic non-magnetic stainless steel with excellent corrosion resistance and formability.",
+      },
+      {
+        question: "What sizes are available for 304 stainless steel pipes?",
+        answer:
+          "We offer SS 304 pipes from NB 1/8 inch to 24 inch in Schedule 5S to XXS with lengths up to 6 meters.",
+      },
+    ],
   });
   const projects = [
     {

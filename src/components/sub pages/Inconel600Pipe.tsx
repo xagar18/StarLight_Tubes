@@ -10,12 +10,59 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Inconel600Pipe = () => {
   useSEO({
     title:
-      "Inconel 600 Pipe - Starlight Tubes | Inconel 600 Pipes | Global Suppliers",
+      "Inconel 600 Pipe Manufacturer - UNS N06600 ASTM B167 | Starlight Tubes Global Exporter",
     description:
-      "Premium Inconel 600 pipes manufacturer. Nickel-chromium alloy pipes for high temperature and corrosion resistance. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel 600 pipe manufacturer & global exporter. UNS N06600 seamless & welded pipes. High temperature oxidation resistant nickel-chromium alloy. ASTM B167/B516 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "inconel 600 pipe UAE, inconel pipes Saudi Arabia, nickel chromium alloy Qatar, high temperature pipes Oman, corrosion resistant pipes Kuwait, chemical processing pipes Bahrain, inconel 600 pipe worldwide, alloy pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "Inconel 600 pipe manufacturer, UNS N06600 pipe exporter, ASTM B167 supplier, seamless Inconel pipe manufacturer, nickel chromium alloy pipe, high temperature pipe manufacturer, Inconel 600 pipe UAE, Inconel pipes Saudi Arabia, alloy 600 pipe manufacturer India, oxidation resistant pipe",
     url: "https://www.starlighttubes.com/inconel-600-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel 600 Pipe",
+        url: "https://www.starlighttubes.com/inconel-600-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Inconel 600 Pipe",
+      description:
+        "Premium Inconel 600 pipes (UNS N06600) in seamless and welded configurations. ASTM B167/B516 certified nickel-chromium alloy pipes for high temperature applications up to 2150°F with excellent oxidation resistance.",
+      category: "Inconel Alloy Products",
+      material: "Inconel 600 (UNS N06600, WERKSTOFF NR. 2.4816)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel 600 Pipe - High Temperature Nickel Chromium Alloy",
+      summary:
+        "Starlight Tubes manufactures Inconel 600 pipes with outstanding oxidation resistance up to 2150°F for heat treating fixtures, nuclear reactors, and chemical processing plants.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel 600",
+      "UNS N06600",
+      "ASTM B167",
+      "Nickel Chromium Pipe",
+      "High Temperature Pipe",
+      "Nuclear Grade",
+      "Heat Treatment",
+      "Chemical Processing",
+    ],
+    faqSchema: [
+      {
+        question: "What temperature can Inconel 600 pipe withstand?",
+        answer:
+          "Inconel 600 pipes maintain excellent mechanical properties up to 2150°F (1177°C) and provide outstanding resistance to oxidation, carburization, and chloride-ion stress-corrosion cracking at elevated temperatures.",
+      },
+      {
+        question: "Is Inconel 600 suitable for nuclear applications?",
+        answer:
+          "Yes, Inconel 600 is widely used in nuclear steam generators and reactor components due to its excellent resistance to corrosion, high-temperature strength, and compatibility with nuclear environments.",
+      },
+    ],
   });
   const projects = [
     {

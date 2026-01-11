@@ -9,12 +9,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 
 const InconelPipe = () => {
   useSEO({
-    title: "Inconel Pipe - Starlight Tubes | Inconel Pipes | Global Suppliers",
+    title:
+      "Inconel Pipe Manufacturer - Inconel 600, 625, 718 Pipes | Starlight Tubes Global Exporter",
     description:
-      "Premium Inconel pipes manufacturer. High temperature and corrosion resistant alloy pipes for aerospace, chemical, and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel pipe manufacturer and exporter. High temperature and corrosion resistant alloy pipes for aerospace, chemical, and marine applications. Inconel 600, 625, 718, 825 grades. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "inconel pipe UAE, inconel pipes Saudi Arabia, high temperature pipes Qatar, corrosion resistant pipes Oman, chemical processing pipes Kuwait, aerospace pipes Bahrain, inconel pipe worldwide, alloy pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "Inconel pipe manufacturer, Inconel 600 pipe, Inconel 625 pipe, Inconel 718 pipe, Inconel pipe exporter, high temperature alloy pipe, aerospace pipe manufacturer, chemical processing pipe, superalloy pipe, Inconel pipe India, Inconel pipe UAE, Inconel pipe Saudi Arabia",
     url: "https://www.starlighttubes.com/inconel-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel Pipe",
+        url: "https://www.starlighttubes.com/inconel-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Inconel Pipes - 600, 625, 718, 825 Grades",
+      description:
+        "Premium Inconel alloy pipes engineered for extreme high-temperature and corrosive applications. Inconel 600, 601, 617, 625, 718, 725, 800, 825, X-750 grades available.",
+      category: "Inconel Pipes",
+      material: "Inconel Superalloy",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "100",
+        highPrice: "8000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel Pipe - High Temperature Nickel Superalloy Pipes",
+      summary:
+        "Starlight Tubes supplies Inconel pipes in grades 600, 625, 718, and 825 with exceptional high temperature strength and corrosion resistance for aerospace, nuclear, and chemical industries.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel 600",
+      "Inconel 625",
+      "Inconel 718",
+      "Nickel Superalloy",
+      "High Temperature Alloy",
+      "Aerospace Materials",
+      "Nuclear Grade",
+      "Gas Turbine",
+    ],
+    faqSchema: [
+      {
+        question: "What temperature can Inconel pipes withstand?",
+        answer:
+          "Inconel pipes maintain excellent mechanical properties at temperatures exceeding 1000°F (538°C), with some grades like Inconel 600 rated up to 2150°F (1177°C) for high-temperature oxidation resistance.",
+      },
+      {
+        question: "Why is Inconel used in aerospace applications?",
+        answer:
+          "Inconel is used in aerospace for its exceptional strength-to-weight ratio at high temperatures, resistance to thermal fatigue, and ability to withstand extreme conditions in jet engines and gas turbines.",
+      },
+    ],
   });
   const projects = [
     {

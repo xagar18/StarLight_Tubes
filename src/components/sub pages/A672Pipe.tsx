@@ -10,12 +10,63 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const A672Pipe = () => {
   useSEO({
     title:
-      "ASTM A672 Pipe - Starlight Tubes | Electric Fusion Welded Pipes | Global Suppliers",
+      "ASTM A672 Pipe Manufacturer & Exporter | High Pressure EFW Pipes | Starlight Tubes",
     description:
-      "Premium ASTM A672 electric fusion welded pipes manufacturer. Carbon and alloy steel pipes for pressure vessels and heat exchangers. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading ASTM A672 electric fusion welded pipe manufacturer and exporter. Premium high-pressure EFW pipes for power generation and petrochemical applications. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "ASTM A672 pipe UAE, electric fusion welded pipes Saudi Arabia, pressure vessel pipes Qatar, heat exchanger pipes Oman, carbon steel pipes Kuwait, alloy steel pipes Bahrain, ASTM A672 pipe worldwide, fusion welded pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "ASTM A672 pipe manufacturer, ASTM A672 pipe exporter, high pressure pipe supplier, EFW pipe manufacturer, power plant pipe exporter, petrochemical pipe manufacturer, DSAW pipe supplier, carbon steel pipe factory, SA672 pipe exporter, A672 B70 manufacturer, A672 C70 stockist",
     url: "https://www.starlighttubes.com/astm-a672-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "ASTM A672 Pipe",
+        url: "https://www.starlighttubes.com/astm-a672-pipe",
+      },
+    ],
+    productSchema: {
+      name: "ASTM A672 Electric Fusion Welded Pipe",
+      description:
+        "Premium ASTM A672 EFW pipes for high-pressure service at moderate temperatures in steam systems, hydrocrackers, and critical pressure applications.",
+      category: "Carbon Steel Pipes",
+      material:
+        "Carbon Steel (ASTM A672 B60, B65, B70, C60, C65, C70, D70, E60, E65, E70)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "ASTM A672 High Pressure EFW Pipe Manufacturer",
+      summary:
+        "Starlight Tubes manufactures ASTM A672 electric fusion welded pipes for high-pressure steam and hydrocracker applications. Multiple grades B60, B70, C70 available with stress relief heat treatment.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "ASTM A672",
+      "ASME SA672",
+      "High Pressure Pipe",
+      "EFW Pipe",
+      "Steam Piping",
+      "Hydrocracker",
+      "Power Plant",
+      "Stress Relieved",
+    ],
+    faqSchema: [
+      {
+        question: "What is the difference between ASTM A671 and A672 pipes?",
+        answer:
+          "ASTM A671 is for atmospheric and lower temperature service, while ASTM A672 is designed for high-pressure service at moderate temperatures. A672 has stricter requirements for high-pressure applications.",
+      },
+      {
+        question: "What pressure rating can ASTM A672 pipes handle?",
+        answer:
+          "ASTM A672 pipes are designed for high-pressure service with various class designations. The class letter indicates radiographic examination level and the number indicates the base plate specification determining pressure capability.",
+      },
+    ],
   });
   const projects = [
     {

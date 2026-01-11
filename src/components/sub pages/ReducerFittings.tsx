@@ -10,12 +10,61 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ReducerFittings = () => {
   useSEO({
     title:
-      "Reducer Fittings - Starlight Tubes | Steel Pipe Reducers | Global Suppliers",
+      "Reducer Fittings Manufacturer - Concentric & Eccentric Reducers | Starlight Tubes Global Exporter",
     description:
-      "Premium reducer fittings manufacturer. Concentric and eccentric reducers in butt weld and socket weld types. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading reducer fittings manufacturer & global exporter. Premium concentric reducers, eccentric reducers in butt weld, socket weld types. ASME B16.9 certified. SS, carbon steel, alloy steel. Export to 60+ countries.",
     keywords:
-      "reducer fittings UAE, steel reducers Saudi Arabia, pipe reducers Qatar, concentric reducers Oman, eccentric reducers Kuwait, butt weld reducers Bahrain, socket weld reducers worldwide, steel reducer fittings GCC, pipe reducer manufacturers UAE, USA steel suppliers, European steel exporters, global pipe fittings",
+      "reducer fittings manufacturer, reducer fittings exporter, concentric reducer manufacturer, eccentric reducer supplier, butt weld reducer exporter, pipe reducer fittings manufacturer, reducer fittings UAE, reducer fittings Saudi Arabia, pipe fittings manufacturer India",
     url: "https://www.starlighttubes.com/reducer-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Reducer Fittings",
+        url: "https://www.starlighttubes.com/reducer-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Reducer Fittings",
+      description:
+        "Premium quality reducer fittings for connecting pipes of different diameters. Concentric and eccentric reducers in butt weld, socket weld types. SS 304/316/321, Carbon Steel, Alloy Steel.",
+      category: "Pipe Fittings",
+      material:
+        "Stainless Steel, Carbon Steel, Alloy Steel, Inconel, Monel, Hastelloy",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Pipe Reducers - Concentric and Eccentric Reducers",
+      summary:
+        "Starlight Tubes manufactures pipe reducers including concentric and eccentric reducers in stainless steel and carbon steel. ASME B16.9 certified for smooth diameter transitions.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Pipe Reducers",
+      "Concentric Reducer",
+      "Eccentric Reducer",
+      "ASME B16.9",
+      "Butt Weld Reducer",
+      "Diameter Transition",
+      "Pipe Size Reduction",
+      "Industrial Piping",
+    ],
+    faqSchema: [
+      {
+        question:
+          "What is the difference between concentric and eccentric reducers?",
+        answer:
+          "Concentric reducers have a common centerline, maintaining the pipe center axis. Eccentric reducers have offset centerlines with one flat side, used in horizontal pipelines to prevent air pockets (flat side up) or allow drainage (flat side down).",
+      },
+      {
+        question: "When should eccentric reducers be used?",
+        answer:
+          "Eccentric reducers are used in horizontal pump suction lines (flat side up to prevent cavitation), in slurry or liquid lines requiring drainage (flat side down), and where maintaining pipe bottom elevation is critical for flow.",
+      },
+    ],
   });
   const projects = [
     {

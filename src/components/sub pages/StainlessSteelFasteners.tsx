@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelFasteners = () => {
   useSEO({
     title:
-      "Stainless Steel Fasteners - Starlight Tubes | SS Bolts, Nuts, Screws | Global Suppliers",
+      "Stainless Steel Fasteners Manufacturer - Bolts, Nuts, Screws | Starlight Tubes Global Exporter",
     description:
-      "Premium stainless steel fasteners manufacturer. SS bolts, nuts, screws, washers. Corrosion resistant. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading stainless steel fasteners manufacturer & global exporter. SS bolts, nuts, screws, washers, studs in 304, 316, A2-70, A4-80 grades. ASTM A193/A194 certified. Corrosion resistant industrial fasteners. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "stainless steel fasteners UAE, SS bolts Saudi Arabia, SS nuts Qatar, SS screws Oman, SS washers Kuwait, corrosion resistant fasteners Bahrain, stainless steel bolts worldwide, SS fasteners GCC, stainless steel fastener manufacturers UAE, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "stainless steel fasteners manufacturer, SS bolts exporter, stainless steel nuts supplier, SS screws manufacturer, 304 SS fasteners, 316 stainless steel bolts, ASTM A193 fasteners, A2-70 SS bolts, industrial fasteners manufacturer, SS fasteners UAE, stainless steel bolts Saudi Arabia, fastener manufacturer India",
     url: "https://www.starlighttubes.com/stainless-steel-fasteners",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "Stainless Steel Fasteners",
+        url: "https://www.starlighttubes.com/stainless-steel-fasteners",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel Fasteners",
+      description:
+        "Premium stainless steel fasteners including hex bolts, socket cap screws, studs, nuts, washers, U-bolts, eye bolts, and anchor fasteners in multiple grades. ASTM A193/A194 certified.",
+      category: "Stainless Steel Products",
+      material:
+        "Stainless Steel (304, 304L, 316, 316L, 321, 310S, 410, 430, A2-70, A4-80)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Stainless Steel Fasteners - Bolts, Nuts, Screws & Washers",
+      summary:
+        "Starlight Tubes supplies premium stainless steel fasteners including bolts, nuts, screws, and washers in 304, 316, A2-70, A4-80 grades for industrial and marine applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel",
+      "ASTM A193",
+      "Hex Bolts",
+      "Socket Cap Screws",
+      "Corrosion Resistant Fasteners",
+      "Marine Grade Fasteners",
+      "Industrial Fasteners",
+    ],
+    faqSchema: [
+      {
+        question: "What types of stainless steel fasteners do you manufacture?",
+        answer:
+          "We manufacture hex bolts, socket cap screws, studs, nuts, washers, U-bolts, eye bolts, and anchor fasteners in various grades and sizes.",
+      },
+      {
+        question: "What size range is available for SS fasteners?",
+        answer:
+          "Our stainless steel fasteners are available from M3 to M100 in metric and 1/4 inch to 4 inch in imperial, with lengths up to 1000mm.",
+      },
+    ],
   });
   const projects = [
     {

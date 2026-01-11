@@ -9,12 +9,61 @@ import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperSheet = () => {
   useSEO({
-    title: "Copper Sheet - Starlight Tubes | Copper Sheets | Global Suppliers",
+    title:
+      "Copper Sheet Manufacturer - ETP, DHP, OFHC Grades | Starlight Tubes Global Exporter",
     description:
-      "Premium copper sheets manufacturer. High conductivity copper sheets for electrical, roofing, and decorative applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading copper sheet manufacturer and global exporter. High conductivity ETP, DHP, OFHC copper sheets for electrical, roofing, and decorative applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
     keywords:
-      "copper sheet UAE, copper sheets Saudi Arabia, high conductivity sheets Qatar, corrosion resistant sheets Oman, electrical sheets Kuwait, roofing sheets Bahrain, copper sheet worldwide, copper sheet manufacturers GCC, USA steel suppliers, European steel exporters, global copper manufacturers",
+      "copper sheet manufacturer, copper plate exporter, ETP copper sheet, DHP copper sheet, OFHC copper sheet, electrical copper sheets manufacturer, roofing copper sheet supplier, copper sheet factory, copper plate wholesaler, industrial copper sheets, hot rolled copper sheet, cold rolled copper sheet manufacturer",
     url: "https://www.starlighttubes.com/copper-sheet",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+      {
+        name: "Copper Sheet",
+        url: "https://www.starlighttubes.com/copper-sheet",
+      },
+    ],
+    productSchema: {
+      name: "Copper Sheets & Plates",
+      description:
+        "Premium quality copper sheets with excellent electrical and thermal conductivity for electrical, roofing, and decorative applications.",
+      category: "Copper Products > Copper Sheets",
+      material:
+        "Copper (C10100, C10200, C11000, C12000, C12200, ETP, DHP, OFHC)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Copper Sheets - ETP, DHP & OFHC Grades",
+      summary:
+        "Starlight Tubes manufactures copper sheets and plates for electrical, roofing, and decorative applications. High conductivity ETP, DHP, OFHC grades available per ASTM B152 standards.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Copper Sheet",
+      "Copper Plate",
+      "ETP Copper",
+      "DHP Copper",
+      "OFHC Copper",
+      "ASTM B152",
+      "Electrical Copper",
+    ],
+    faqSchema: [
+      {
+        question: "What are copper sheets used for?",
+        answer:
+          "Copper sheets are used in electrical applications, roofing, decorative elements, gaskets, heat exchangers, and circuit boards due to their excellent electrical and thermal conductivity.",
+      },
+      {
+        question: "What is the difference between ETP, DHP, and OFHC copper?",
+        answer:
+          "ETP (Electrolytic Tough Pitch) has 99.9% purity for electrical applications, DHP (Deoxidized High Phosphorus) is weldable for plumbing, and OFHC (Oxygen-Free High Conductivity) has 99.99% purity for electronics.",
+      },
+    ],
   });
   const projects = [
     {

@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelRoundBar = () => {
   useSEO({
     title:
-      "Stainless Steel Round Bar - Starlight Tubes | SS Round Bars | Global Suppliers",
+      "Stainless Steel Round Bar Manufacturer - 304/316/410 Grades | Starlight Tubes Global Exporter",
     description:
-      "Premium stainless steel round bars manufacturer. Hot rolled and cold drawn SS bars. For machining and construction. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading stainless steel round bar manufacturer & global exporter. Hot rolled & cold drawn SS bars in 304, 316, 321, 410, 420 grades. Bright finish, centerless ground bars. ASTM A276/A479 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "stainless steel round bar UAE, SS round bars Saudi Arabia, hot rolled bars Qatar, cold drawn bars Oman, machining bars Kuwait, construction bars Bahrain, stainless steel round bar worldwide, SS bar manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "stainless steel round bar manufacturer, SS round bar exporter, stainless steel bar supplier, hot rolled SS bar, cold drawn stainless steel bar, 304 SS round bar, 316 stainless steel bar, ASTM A276 bar, bright finish SS bar, stainless steel round bar UAE, SS bars Saudi Arabia, steel bar manufacturer India",
     url: "https://www.starlighttubes.com/stainless-steel-round-bar",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "Stainless Steel Round Bar",
+        url: "https://www.starlighttubes.com/stainless-steel-round-bar",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel Round Bar",
+      description:
+        "Premium stainless steel round bars in multiple grades including 303, 304, 316, 321, 410, 420 with various finishes - black, bright, polished, peeled, and centerless ground. ASTM A276/A479 certified.",
+      category: "Stainless Steel Products",
+      material:
+        "Stainless Steel (303, 304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Stainless Steel Round Bar - Bright & Polished SS Bars",
+      summary:
+        "Starlight Tubes manufactures premium stainless steel round bars in 304, 316, 410, 420 grades with bright, polished, and centerless ground finishes for precision engineering and machining applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel",
+      "ASTM A276",
+      "Cold Drawn Bar",
+      "Bright Bar",
+      "Centerless Ground",
+      "Machining Bar",
+      "Hex Bar",
+    ],
+    faqSchema: [
+      {
+        question: "What diameter range is available for SS round bars?",
+        answer:
+          "We supply stainless steel round bars from 6mm to 500mm diameter with lengths up to 6 meters or as per your requirements.",
+      },
+      {
+        question: "What finishes do you offer for stainless steel bars?",
+        answer:
+          "Our SS round bars are available in black, bright, polished, peeled, ground, and centerless ground finishes to suit your application needs.",
+      },
+    ],
   });
   const projects = [
     {

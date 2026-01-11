@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CopperFittings = () => {
   useSEO({
     title:
-      "Copper Fittings - Starlight Tubes | Copper Pipe Fittings | Global Suppliers",
+      "Copper Fittings Manufacturer - Elbows, Tees, Couplings | Starlight Tubes Global Exporter",
     description:
-      "Premium copper pipe fittings manufacturer. Copper elbows, tees, couplings for plumbing, HVAC, and refrigeration. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading copper fittings manufacturer and global exporter. Premium copper elbows, tees, couplings, adapters for plumbing, HVAC, and refrigeration systems. ISO certified manufacturer supplying to 60+ countries worldwide.",
     keywords:
-      "copper fittings UAE, copper pipe fittings Saudi Arabia, plumbing fittings Qatar, HVAC fittings Oman, refrigeration fittings Kuwait, copper elbows Bahrain, copper tees worldwide, copper couplings GCC, copper pipe fittings UAE, copper fitting manufacturers Saudi Arabia, USA steel suppliers, European steel exporters, global copper manufacturers",
+      "copper fittings manufacturer, copper pipe fittings exporter, copper elbow manufacturer, copper tee supplier, copper coupling factory, plumbing copper fittings, HVAC copper fittings manufacturer, refrigeration fittings supplier, threaded copper fittings, soldered copper fittings, copper fittings wholesaler",
     url: "https://www.starlighttubes.com/copper-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+      {
+        name: "Copper Fittings",
+        url: "https://www.starlighttubes.com/copper-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Copper Pipe Fittings",
+      description:
+        "Premium quality copper fittings including elbows, tees, couplings, and adapters for plumbing, HVAC, and industrial applications.",
+      category: "Copper Products > Copper Fittings",
+      material: "Copper (ASTM B75, ASTM B88, ASME B16.22, EN 1254)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Copper Fittings - Elbows, Tees & Couplings",
+      summary:
+        "Starlight Tubes manufactures copper fittings for plumbing, HVAC, and refrigeration systems. Elbows, tees, couplings, and adapters available per ASME B16.22 and EN 1254 standards.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Copper Fittings",
+      "Copper Elbow",
+      "Copper Tee",
+      "Copper Coupling",
+      "ASME B16.22",
+      "Plumbing Fittings",
+      "Solder Fittings",
+    ],
+    faqSchema: [
+      {
+        question: "What types of copper fittings are available?",
+        answer:
+          "Copper fittings include elbows (45° and 90°), tees, couplings, adapters, reducers, caps, and unions in threaded, soldered, compression, and push-fit connection types.",
+      },
+      {
+        question:
+          "What is the difference between solder and compression copper fittings?",
+        answer:
+          "Solder fittings require heat and flux to create permanent joints, while compression fittings use mechanical pressure for tool-free, reusable connections suitable for accessible locations.",
+      },
+    ],
   });
   const projects = [
     {

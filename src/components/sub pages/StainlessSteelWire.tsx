@@ -10,12 +10,61 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelWire = () => {
   useSEO({
     title:
-      "Stainless Steel Wire - Starlight Tubes | SS Wire | Global Suppliers",
+      "SS Wire Manufacturer - Stainless Steel Spring & Welding Wire | Starlight Tubes Global Exporter",
     description:
-      "Premium stainless steel wire manufacturer. Spring wire, welding wire, cold drawn wire. Corrosion resistant. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading stainless steel wire manufacturer & global exporter. Premium spring wire, welding wire, cold drawn wire. Multiple tempers available. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "stainless steel wire UAE, SS wire Saudi Arabia, spring wire Qatar, welding wire Oman, cold drawn wire Kuwait, corrosion resistant wire Bahrain, stainless steel wire worldwide, SS wire manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "SS wire manufacturer, stainless steel wire exporter, spring wire manufacturer, welding wire supplier, cold drawn wire manufacturer, ASTM A580 wire, SS wire UAE, stainless steel wire Saudi Arabia, spring wire India, corrosion resistant wire manufacturer",
     url: "https://www.starlighttubes.com/stainless-steel-wire",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "SS Wire",
+        url: "https://www.starlighttubes.com/stainless-steel-wire",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel Wire",
+      description:
+        "Premium stainless steel wire available in spring wire, welding wire, and cold drawn configurations. ASTM A580/A313 certified with multiple temper options for diverse industrial applications.",
+      category: "Stainless Steel Wire",
+      material: "Stainless Steel (304, 304L, 316, 316L, 321, 310S, 410, 430)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Stainless Steel Wire - Spring Wire & Welding Wire",
+      summary:
+        "Starlight Tubes manufactures premium stainless steel wire including spring wire, welding wire, and cold drawn wire in 304, 316 grades with multiple temper options for industrial applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel",
+      "ASTM A580",
+      "Spring Wire",
+      "Welding Wire",
+      "Cold Drawn Wire",
+      "Wire Mesh",
+      "Corrosion Resistant Wire",
+    ],
+    faqSchema: [
+      {
+        question: "What diameter range is available for SS wire?",
+        answer:
+          "We offer stainless steel wire from 0.05mm to 20mm diameter, available in coils or cut to length as per your requirements.",
+      },
+      {
+        question: "What temper options are available for stainless steel wire?",
+        answer:
+          "Our SS wire is available in soft annealed, quarter hard, half hard, full hard, and spring temper to meet your specific application needs.",
+      },
+    ],
   });
   const projects = [
     {

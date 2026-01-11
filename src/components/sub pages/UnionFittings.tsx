@@ -10,12 +10,61 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const UnionFittings = () => {
   useSEO({
     title:
-      "Union Fittings - Starlight Tubes | Steel Pipe Unions | Global Suppliers",
+      "Union Fittings Manufacturer - Pipe Unions | Starlight Tubes Global Exporter",
     description:
-      "Premium union fittings manufacturer. Screwed and socket weld unions for easy disassembly. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading union fittings manufacturer & global exporter. Premium threaded unions, socket weld unions, butt weld unions for easy disassembly. ASME B16.11 certified. SS, carbon steel. Export to 60+ countries.",
     keywords:
-      "union fittings UAE, steel unions Saudi Arabia, pipe unions Qatar, screwed unions Oman, socket weld unions Kuwait, disassembly unions Bahrain, steel union fittings worldwide, pipe union manufacturers GCC, threaded unions UAE, USA steel suppliers, European steel exporters, global pipe fittings",
+      "union fittings manufacturer, union fittings exporter, threaded union manufacturer, socket weld union supplier, butt weld union exporter, pipe union fittings manufacturer, union fittings UAE, union fittings Saudi Arabia, pipe fittings manufacturer India",
     url: "https://www.starlighttubes.com/union-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Union Fittings",
+        url: "https://www.starlighttubes.com/union-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Union Fittings",
+      description:
+        "Premium quality union fittings for easy disassembly and maintenance of piping systems. Threaded, socket weld, and butt weld unions. SS 304/316/321, Carbon Steel, Alloy Steel materials.",
+      category: "Pipe Fittings",
+      material:
+        "Stainless Steel, Carbon Steel, Alloy Steel, Inconel, Monel, Hastelloy",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline:
+        "Pipe Unions - Threaded and Socket Weld Unions for Easy Maintenance",
+      summary:
+        "Starlight Tubes manufactures pipe unions including threaded unions and socket weld unions in stainless steel and carbon steel. Designed for easy disassembly and maintenance per ASME B16.11.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Pipe Unions",
+      "Threaded Union",
+      "Socket Weld Union",
+      "ASME B16.11",
+      "Pipe Disassembly",
+      "Maintenance Fittings",
+      "Union Nut",
+      "Ground Joint Union",
+    ],
+    faqSchema: [
+      {
+        question: "What are pipe unions used for?",
+        answer:
+          "Pipe unions are three-piece fittings that allow easy disconnection and reconnection of pipes without cutting or welding. They consist of a female end, male end, and union nut, making them ideal for equipment maintenance, valve replacement, and system modifications.",
+      },
+      {
+        question: "What is the difference between a union and a coupling?",
+        answer:
+          "A union is a three-piece fitting that can be disconnected by loosening the union nut, allowing pipes to be separated without rotation. A coupling is a single-piece fitting that permanently connects two pipes and requires cutting to separate them.",
+      },
+    ],
   });
   const projects = [
     {

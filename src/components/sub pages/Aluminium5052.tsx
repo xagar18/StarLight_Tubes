@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Aluminium5052 = () => {
   useSEO({
     title:
-      "Aluminium 5052 - Starlight Tubes | Aluminium 5052 Pipes, Sheets | Global Suppliers",
+      "Aluminium 5052 Manufacturer - Marine Grade Alloy | Starlight Tubes Global Exporter",
     description:
-      "Premium aluminium 5052 products manufacturer. Marine grade corrosion resistant aluminium. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Aluminium 5052 manufacturer and global exporter. Premium marine grade aluminium sheets, plates, and coils with excellent corrosion resistance. ISO certified manufacturer supplying to 60+ countries worldwide.",
     keywords:
-      "aluminium 5052 UAE, aluminium 5052 pipes Saudi Arabia, marine aluminium Qatar, corrosion resistant aluminium Oman, aluminium sheets Kuwait, aluminium round bars Bahrain, aluminium 5052 worldwide, aluminium manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
+      "aluminium 5052 manufacturer, marine grade aluminium exporter, 5052 aluminium sheet manufacturer, 5052-H32 aluminium supplier, marine aluminium plate factory, corrosion resistant aluminium manufacturer, 5052 aluminium coil stockist, chemical processing aluminium, automotive aluminium 5052 wholesaler",
     url: "https://www.starlighttubes.com/aluminium-5052",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+      {
+        name: "Aluminium 5052",
+        url: "https://www.starlighttubes.com/aluminium-5052",
+      },
+    ],
+    productSchema: {
+      name: "Aluminium 5052 Alloy Products",
+      description:
+        "Premium quality Aluminium 5052 alloy with excellent corrosion resistance for marine, automotive, and chemical processing applications.",
+      category: "Aluminium Products > Aluminium 5052",
+      material:
+        "Aluminium 5052 (Al 95.7-97.7%, Mg 2.2-2.8%, Cr 0.15-0.35%, Fe ≤0.4%)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium 5052 - Marine Grade Alloy",
+      summary:
+        "Starlight Tubes supplies Aluminium 5052 products with excellent corrosion resistance for marine, automotive, and chemical processing applications. H32 temper available per ASTM B209.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Aluminium 5052",
+      "Marine Grade Aluminium",
+      "5052-H32",
+      "Corrosion Resistant",
+      "ASTM B209",
+      "Saltwater Resistant",
+      "Chemical Processing",
+    ],
+    faqSchema: [
+      {
+        question: "What is 5052 aluminium used for?",
+        answer:
+          "Aluminium 5052 is used in marine components, fuel tanks, chemical equipment, appliances, and architectural applications due to its excellent saltwater corrosion resistance and good weldability.",
+      },
+      {
+        question: "Is 5052 aluminium good for marine applications?",
+        answer:
+          "Yes, 5052 is one of the best aluminium alloys for marine use due to its high magnesium content providing excellent saltwater corrosion resistance, good formability, and weldability.",
+      },
+    ],
   });
   const projects = [
     {

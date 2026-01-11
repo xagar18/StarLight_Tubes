@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const API5LX42Pipe = () => {
   useSEO({
     title:
-      "API 5L X42 Pipe - Starlight Tubes | Carbon Steel X42 Pipes | Global Suppliers",
+      "API 5L X42 Pipe Manufacturer & Exporter | Line Pipes | Starlight Tubes",
     description:
-      "Premium API 5L X42 carbon steel pipes manufacturer. High yield oil and gas pipeline pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading API 5L X42 line pipe manufacturer and exporter. Premium PSL1 & PSL2 certified pipes for oil and gas pipelines. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "API 5L X42 pipe UAE, carbon steel X42 pipes Saudi Arabia, high yield pipes Qatar, oil pipeline pipes Oman, gas pipeline pipes Kuwait, seamless X42 pipes Bahrain, API 5L X42 pipe worldwide, carbon steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "API 5L X42 pipe manufacturer, API 5L X42 pipe exporter, line pipe supplier, oil pipeline pipe manufacturer, gas pipeline pipe exporter, PSL1 pipe manufacturer, PSL2 pipe supplier, carbon steel pipe factory, API certified pipe exporter, X42 pipe stockist, L290 pipe manufacturer",
     url: "https://www.starlighttubes.com/api-5l-x42-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "API 5L X42 Pipe",
+        url: "https://www.starlighttubes.com/api-5l-x42-pipe",
+      },
+    ],
+    productSchema: {
+      name: "API 5L X42 Line Pipe",
+      description:
+        "Premium API 5L X42 line pipes for oil and gas transmission with 290 MPa minimum yield strength in seamless and welded configurations.",
+      category: "Carbon Steel Pipes",
+      material: "Carbon Steel (API 5L X42 / L290 PSL1 & PSL2)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "API 5L X42 Pipe - Line Pipe for Gas Distribution",
+      summary:
+        "Starlight Tubes manufactures API 5L X42 line pipes with 290 MPa yield strength for natural gas distribution and oil gathering systems. PSL1 and PSL2 certified.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "API 5L X42",
+      "L290",
+      "Line Pipe",
+      "Gas Distribution",
+      "Oil Gathering",
+      "Carbon Steel",
+      "PSL1 PSL2",
+      "NACE MR0175",
+    ],
+    faqSchema: [
+      {
+        question: "What is the yield strength of API 5L X42 pipe?",
+        answer:
+          "API 5L X42 pipes have minimum yield strength of 42,100 psi (290 MPa) and minimum tensile strength of 60,200 psi (415 MPa), making them suitable for medium-pressure pipeline applications.",
+      },
+      {
+        question: "What is L290 equivalent to API 5L X42?",
+        answer:
+          "L290 is the ISO 3183 designation equivalent to API 5L X42. The number 290 refers to the minimum yield strength in MPa. Both specifications have identical mechanical property requirements.",
+      },
+    ],
   });
   const projects = [
     {

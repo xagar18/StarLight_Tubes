@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Flanges = () => {
   useSEO({
     title:
-      "Flange Fittings - Starlight Tubes | Steel Pipe Flanges | Global Suppliers",
+      "Flange Manufacturer - Weld Neck, Slip On, Blind Flanges | Starlight Tubes Global Exporter",
     description:
-      "Premium flange fittings manufacturer. Weld neck, slip on, blind, socket weld flanges in ANSI, DIN, JIS standards. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading flange fittings manufacturer and exporter. Weld neck, slip on, blind, socket weld flanges in ANSI, DIN, JIS standards. Stainless steel, carbon steel, alloy steel flanges. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "flange fittings UAE, steel flanges Saudi Arabia, pipe flanges Qatar, weld neck flanges Oman, slip on flanges Kuwait, blind flanges Bahrain, socket weld flanges worldwide, ANSI flanges GCC, DIN flanges UAE, JIS flanges Saudi Arabia, USA steel suppliers, European steel exporters, global pipe fittings",
-    url: "https://www.starlighttubes.com/flange-fittings",
+      "flange manufacturer, weld neck flange manufacturer, slip on flange manufacturer, blind flange manufacturer, socket weld flange, ANSI flange, DIN flange, JIS flange, stainless steel flange, carbon steel flange, flange exporter, pipe flange India, industrial flange supplier",
+    url: "https://www.starlighttubes.com/flanges",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      { name: "Flanges", url: "https://www.starlighttubes.com/flanges" },
+    ],
+    productSchema: {
+      name: "Industrial Flanges - Weld Neck, Slip On, Blind, Socket Weld",
+      description:
+        "High-quality industrial flanges including weld neck, slip on, blind, socket weld, threaded, lap joint, orifice types. ASME B16.5, B16.47, API 6A, EN 1092 standards.",
+      category: "Pipe Flanges",
+      material: "Stainless Steel, Carbon Steel, Alloy Steel, Inconel, Monel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "10",
+        highPrice: "3000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Pipe Flanges - ANSI, DIN, JIS Standards",
+      summary:
+        "Starlight Tubes manufactures pipe flanges including slip-on, weld neck, blind, socket weld, and threaded flanges per ASME B16.5, DIN, and JIS standards.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Pipe Flanges",
+      "ASME B16.5",
+      "Weld Neck Flange",
+      "Slip On Flange",
+      "Blind Flange",
+      "ANSI Flanges",
+      "DIN Flanges",
+      "JIS Flanges",
+      "Socket Weld Flange",
+    ],
+    faqSchema: [
+      {
+        question: "What types of flanges are available?",
+        answer:
+          "We offer weld neck, slip-on, blind, socket weld, threaded, lap joint, and orifice flanges in pressure classes 150 to 2500. Available in ANSI, DIN, and JIS standards in stainless steel, carbon steel, and alloy steel.",
+      },
+      {
+        question:
+          "What is the difference between weld neck and slip-on flanges?",
+        answer:
+          "Weld neck flanges have a tapered hub that is butt welded to the pipe, providing superior strength and stress distribution for high-pressure applications. Slip-on flanges slide over the pipe and are fillet welded, offering easier alignment and lower cost for less critical applications.",
+      },
+    ],
   });
   const projects = [
     {

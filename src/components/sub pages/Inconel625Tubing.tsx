@@ -10,12 +10,59 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Inconel625Tubing = () => {
   useSEO({
     title:
-      "Inconel 625 Tubing - Starlight Tubes | Inconel 625 Tubes | Global Suppliers",
+      "Inconel 625 Tubing Manufacturer - UNS N06625 ASTM B444 | Starlight Tubes Global Exporter",
     description:
-      "Premium Inconel 625 tubing manufacturer. High strength corrosion resistant alloy tubes for aerospace and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel 625 tubing manufacturer & global exporter. UNS N06625 seamless & welded tubes. High strength corrosion resistant alloy for aerospace & marine. ASTM B444 certified, NACE MR0175 compliant. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "inconel 625 tubing UAE, inconel tubes Saudi Arabia, high strength tubing Qatar, corrosion resistant tubes Oman, aerospace tubing Kuwait, marine tubes Bahrain, inconel 625 tubing worldwide, alloy tube manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "Inconel 625 tubing manufacturer, UNS N06625 tube exporter, ASTM B444 supplier, seamless Inconel tube manufacturer, corrosion resistant alloy tube, aerospace tubing manufacturer, Inconel 625 tube UAE, Inconel tubing Saudi Arabia, alloy 625 tube manufacturer India, marine grade tubing",
     url: "https://www.starlighttubes.com/inconel-625-tubing",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel 625 Tubing",
+        url: "https://www.starlighttubes.com/inconel-625-tubing",
+      },
+    ],
+    productSchema: {
+      name: "Inconel 625 Tubing",
+      description:
+        "Premium Inconel 625 tubing (UNS N06625) in seamless and welded configurations. ASTM B444 certified, NACE MR0175 compliant for outstanding corrosion resistance from cryogenic to 1800°F temperatures.",
+      category: "Inconel Alloy Products",
+      material: "Inconel 625 (UNS N06625, WERKSTOFF NR. 2.4856)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel 625 Tubing - Corrosion Resistant Superalloy Tubes",
+      summary:
+        "Starlight Tubes supplies Inconel 625 tubing with exceptional corrosion resistance and high strength for seawater systems, aerospace hydraulic lines, and chemical heat exchangers.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel 625",
+      "UNS N06625",
+      "ASTM B444",
+      "NACE MR0175",
+      "Marine Grade",
+      "Aerospace Tubing",
+      "Heat Exchanger",
+      "Corrosion Resistant",
+    ],
+    faqSchema: [
+      {
+        question: "Why is Inconel 625 tubing used in marine applications?",
+        answer:
+          "Inconel 625 tubing offers exceptional resistance to seawater corrosion, pitting, and crevice corrosion, making it ideal for seawater systems, offshore platforms, and marine heat exchangers.",
+      },
+      {
+        question: "What is the temperature range for Inconel 625 tubing?",
+        answer:
+          "Inconel 625 tubing maintains excellent mechanical properties from cryogenic temperatures up to 1800°F (982°C), with outstanding oxidation and corrosion resistance throughout this range.",
+      },
+    ],
   });
   const projects = [
     {

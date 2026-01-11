@@ -18,6 +18,52 @@ const TechnicalInfo = () => {
     keywords:
       "steel pipe specifications, steel tube technical data, pipe chemical composition, pipe mechanical properties, pipe dimensions, stainless steel specifications, carbon steel specifications, nickel alloy specifications, ASTM specifications, ASME standards, pipe datasheet, steel pipe manufacturer specifications, steel tube data, 304 stainless steel composition, 316 stainless steel properties, ASTM A106 specifications, API 5L dimensions",
     url: "https://www.starlighttubes.com/technical-info",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Technical Info",
+        url: "https://www.starlighttubes.com/technical-info",
+      },
+    ],
+    articleSchema: {
+      headline: "Steel Pipe Technical Specifications & Data",
+      description:
+        "Comprehensive technical data including chemical composition, mechanical properties, and dimensions for stainless steel, carbon steel, and nickel alloy pipes.",
+      datePublished: "2024-01-01",
+      dateModified: "2025-01-11",
+    },
+    speakableContent: {
+      headline: "Technical Specifications for Steel Pipes & Tubes",
+      summary:
+        "Access comprehensive technical data including chemical composition, mechanical properties, and pipe dimensions for stainless steel, carbon steel, and nickel alloy pipes meeting ASTM, ASME, and DIN standards.",
+    },
+    entityType: "Service",
+    relatedEntities: [
+      "chemical composition",
+      "mechanical properties",
+      "pipe dimensions",
+      "ASTM standards",
+      "ASME specifications",
+      "steel datasheets",
+      "material grades",
+    ],
+    faqSchema: [
+      {
+        question: "What technical information does Starlight Tubes provide?",
+        answer:
+          "We provide comprehensive technical data including chemical composition, mechanical properties (tensile strength, yield strength, elongation), and pipe dimensions for all steel grades including stainless steel, carbon steel, and nickel alloys.",
+      },
+      {
+        question: "What standards do Starlight Tubes products meet?",
+        answer:
+          "Our products meet international standards including ASTM, ASME, API, DIN, EN, and JIS specifications with complete mill test certificates and third-party inspection reports.",
+      },
+      {
+        question: "How can I get technical support from Starlight Tubes?",
+        answer:
+          "Contact our technical team for material selection guidance, specification clarification, and custom requirement discussions. We provide 24/7 technical support for all inquiries.",
+      },
+    ],
   });
   const [view, setView] = useState<"chemical" | "mechanical" | "dimensions">(
     "chemical"

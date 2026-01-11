@@ -10,12 +10,59 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const InconelBolts = () => {
   useSEO({
     title:
-      "Inconel Bolts - Starlight Tubes | Inconel 600, 625 Fasteners | Global Suppliers",
+      "Inconel Bolts Manufacturer & Exporter | Inconel 600/625/718 Fasteners | Starlight Tubes",
     description:
-      "Premium Inconel bolts and fasteners manufacturer. Inconel 600, 625 high temperature corrosion resistant fasteners. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel bolts and fasteners manufacturer and exporter in India. Premium Inconel 600, 625, 718 hex bolts, studs, nuts for aerospace & high-temperature applications. ASTM F468 certified. Global supply to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "inconel bolts UAE, inconel fasteners Saudi Arabia, inconel 600 bolts Qatar, inconel 625 nuts Oman, high temperature bolts Kuwait, corrosion resistant fasteners Bahrain, inconel bolts worldwide, inconel fastener manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "inconel bolts manufacturer, inconel fasteners exporter, inconel 600 bolts supplier, inconel 625 studs manufacturer, inconel 718 nuts exporter India, aerospace inconel fasteners manufacturer, high temperature bolts supplier, ASTM F468 inconel bolts, inconel fasteners UAE, inconel bolts Saudi Arabia, corrosion resistant fasteners manufacturer",
     url: "https://www.starlighttubes.com/inconel-bolts",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel Bolts",
+        url: "https://www.starlighttubes.com/inconel-bolts",
+      },
+    ],
+    productSchema: {
+      name: "Inconel Alloy Bolts & Fasteners",
+      description:
+        "Premium quality Inconel alloy bolts, nuts, studs and fasteners (600, 625, 718 grades) manufactured to ASTM F468 standards for aerospace, nuclear, and high-temperature industrial applications.",
+      category: "Inconel Alloy Fasteners",
+      material: "Inconel 600, 601, 617, 625, 718, 725, X-750",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel Bolts - High Temperature Nickel Alloy Fasteners",
+      summary:
+        "Starlight Tubes manufactures Inconel bolts, studs, and nuts in grades 600, 625, and 718 for aerospace, nuclear, and high-temperature applications up to 1800°F.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel Bolts",
+      "Inconel Fasteners",
+      "Inconel 718 Studs",
+      "ASTM F468",
+      "Aerospace Fasteners",
+      "High Temperature Bolts",
+      "Nuclear Grade",
+      "Gas Turbine Bolts",
+    ],
+    faqSchema: [
+      {
+        question: "Why use Inconel bolts instead of stainless steel?",
+        answer:
+          "Inconel bolts maintain strength at temperatures where stainless steel fails (above 1000°F), offer superior corrosion resistance in aggressive environments, and provide exceptional resistance to thermal fatigue and stress-corrosion cracking.",
+      },
+      {
+        question: "What temperature can Inconel fasteners withstand?",
+        answer:
+          "Inconel fasteners can operate reliably from cryogenic temperatures to 1800°F (982°C), with Inconel 718 bolts maintaining excellent strength up to 1300°F in aerospace and gas turbine applications.",
+      },
+    ],
   });
   const projects = [
     {

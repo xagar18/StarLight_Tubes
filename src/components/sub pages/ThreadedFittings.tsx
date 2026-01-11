@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ThreadedFittings = () => {
   useSEO({
     title:
-      "Threaded Fittings - Starlight Tubes | Steel Pipe Threaded | Global Suppliers",
+      "Threaded Fittings Manufacturer - NPT BSP Fittings | Starlight Tubes Global Exporter",
     description:
-      "Reliable threaded fittings manufacturer. NPT, BSP threaded connections in stainless steel, carbon steel. Easy installation fittings. Global export to USA, Europe, Middle East, Asia & Africa.",
+      "Leading threaded fittings manufacturer & global exporter. Premium NPT, BSP, BSPT threaded pipe fittings in SS, carbon steel. ASME B16.11 certified. Easy assembly fittings. Export to 60+ countries worldwide.",
     keywords:
-      "threaded fittings USA, threaded fittings Europe, steel threaded global, pipe threaded international, NPT fittings worldwide, BSP threaded suppliers, threaded fittings UAE, steel threaded Saudi Arabia, global threaded fittings manufacturers",
+      "threaded fittings manufacturer, threaded fittings exporter, NPT fittings manufacturer, BSP fittings supplier, BSPT fittings exporter, threaded pipe fittings manufacturer, forged threaded fittings, threaded fittings UAE, threaded fittings Saudi Arabia, pipe fittings manufacturer India",
     url: "https://www.starlighttubes.com/threaded-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Threaded Fittings",
+        url: "https://www.starlighttubes.com/threaded-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Threaded Fittings",
+      description:
+        "Premium quality threaded fittings for easy assembly and disassembly in piping systems. Available in NPT, BSPT, BSPP, Metric threads. SS 304/316/321, Carbon Steel, Alloy Steel materials.",
+      category: "Pipe Fittings",
+      material:
+        "Stainless Steel, Carbon Steel, Alloy Steel, Inconel, Monel, Hastelloy",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Threaded Fittings - NPT, BSP, BSPT Pipe Fittings",
+      summary:
+        "Starlight Tubes manufactures threaded pipe fittings in NPT, BSP, and BSPT thread standards. Easy assembly and disassembly for instrumentation and maintenance applications per ASME B16.11.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Threaded Fittings",
+      "NPT Fittings",
+      "BSP Fittings",
+      "BSPT Fittings",
+      "ASME B16.11",
+      "Forged Fittings",
+      "Threaded Elbow",
+      "Threaded Tee",
+      "Pipe Threads",
+    ],
+    faqSchema: [
+      {
+        question: "What is the difference between NPT and BSP threads?",
+        answer:
+          "NPT (National Pipe Thread) is the American standard with tapered threads that seal on the thread itself. BSP (British Standard Pipe) comes in parallel (BSPP) and tapered (BSPT) versions. NPT uses a 60° thread angle while BSP uses 55°. They are not interchangeable.",
+      },
+      {
+        question:
+          "When should threaded fittings be used instead of welded fittings?",
+        answer:
+          "Threaded fittings are ideal for low to medium pressure applications where easy assembly, disassembly, and maintenance are required. They are commonly used in instrumentation, pneumatic systems, and applications requiring frequent servicing without cutting pipes.",
+      },
+    ],
   });
   const projects = [
     {

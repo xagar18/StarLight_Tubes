@@ -15,6 +15,58 @@ const NickelAlloys = () => {
     keywords:
       "nickel alloy pipe manufacturer, nickel pipe manufacturer, nickel tube manufacturer, nickel pipe exporter, Nickel 200 manufacturer, Nickel 201 manufacturer, Monel 400 manufacturer, Monel K500 manufacturer, Hastelloy C276 manufacturer, Hastelloy C22 manufacturer, nickel alloy seamless pipe manufacturer, nickel alloy welded pipe manufacturer, nickel sheet manufacturer, nickel plate manufacturer, nickel alloy pipe factory, nickel alloy pipe supplier India, nickel pipe distributor",
     url: "https://www.starlighttubes.com/nickel-alloys",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      {
+        name: "Nickel Alloys",
+        url: "https://www.starlighttubes.com/nickel-alloys",
+      },
+    ],
+    productSchema: {
+      name: "Nickel Alloy Pipes - Nickel 200, Monel, Hastelloy",
+      description:
+        "Premium nickel alloy pipes including Nickel 200, Nickel 201, Monel 400, Monel K500, Hastelloy for high-temperature and corrosive environments.",
+      category: "Nickel Alloy Pipes",
+      material: "Nickel Alloy",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "50",
+        highPrice: "8000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Nickel Alloy Pipes - Nickel 200, Monel, Hastelloy",
+      summary:
+        "Starlight Tubes manufactures premium nickel alloy pipes including Nickel 200, Nickel 201, Monel 400, Monel K500, Hastelloy C276, and Hastelloy C22 for high-temperature and corrosive environments.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Nickel 200 pipes",
+      "Nickel 201 tubes",
+      "Monel 400 alloy",
+      "Monel K500",
+      "Hastelloy C276",
+      "Hastelloy C22",
+      "corrosion resistant alloys",
+    ],
+    faqSchema: [
+      {
+        question: "What nickel alloy grades does Starlight Tubes offer?",
+        answer:
+          "We offer Nickel 200, Nickel 201, Monel 400, Monel K500, Hastelloy C276, and Hastelloy C22 in pipes, tubes, sheets, plates, round bars, fittings, and flanges.",
+      },
+      {
+        question: "What are the applications of nickel alloy pipes?",
+        answer:
+          "Nickel alloy pipes are used in chemical processing, petrochemical plants, marine environments, aerospace, and power generation where resistance to high temperatures, corrosion, and aggressive chemicals is critical.",
+      },
+      {
+        question: "What standards do nickel alloy products meet?",
+        answer:
+          "Our nickel alloy products meet ASTM B161, B162, B163, B164, B165, B166, B564, B574, B575 standards with complete mill test certificates and PMI reports.",
+      },
+    ],
   });
   const ctaData = {
     title: "Nickel Alloy Products",

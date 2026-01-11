@@ -10,12 +10,59 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const CopperRoundBar = () => {
   useSEO({
     title:
-      "Copper Round Bar - Starlight Tubes | Copper Round Bars | Global Suppliers",
+      "Copper Round Bar Manufacturer - High Conductivity Bars | Starlight Tubes Global Exporter",
     description:
-      "Premium copper round bars manufacturer. High conductivity copper bars for electrical and machining applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading copper round bar manufacturer and global exporter. Premium high conductivity copper bars for electrical, machining, and industrial applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
     keywords:
-      "copper round bar UAE, copper round bars Saudi Arabia, high conductivity bars Qatar, machinable bars Oman, electrical bars Kuwait, plumbing bars Bahrain, copper round bar worldwide, copper bar manufacturers GCC, USA steel suppliers, European steel exporters, global copper manufacturers",
+      "copper round bar manufacturer, copper bar exporter, high conductivity copper bar, electrical copper bars manufacturer, copper hex bar supplier, copper square bar factory, copper rod manufacturer, copper bar wholesaler, industrial copper bars, machinable copper round bar, copper bar stockist",
     url: "https://www.starlighttubes.com/copper-round-bar",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+      {
+        name: "Copper Round Bar",
+        url: "https://www.starlighttubes.com/copper-round-bar",
+      },
+    ],
+    productSchema: {
+      name: "Copper Round Bars",
+      description:
+        "Premium quality copper round bars with excellent electrical conductivity, thermal conductivity, and corrosion resistance for diverse industrial applications.",
+      category: "Copper Products > Copper Round Bars",
+      material: "Copper (C10100, C10200, C11000, C12200, C70600, C71500)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Copper Round Bars - High Conductivity Grade",
+      summary:
+        "Starlight Tubes supplies copper round bars for electrical, machining, and industrial applications. High conductivity bars available in C10100, C11000 grades per ASTM B187 standards.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Copper Bar",
+      "Copper Rod",
+      "Copper Hex Bar",
+      "ASTM B187",
+      "C11000 Copper",
+      "Electrical Copper Bar",
+      "Machinable Copper",
+    ],
+    faqSchema: [
+      {
+        question: "What are copper round bars used for?",
+        answer:
+          "Copper round bars are used in electrical components, bus bars, heat sinks, machined parts, and grounding applications due to their excellent electrical and thermal conductivity.",
+      },
+      {
+        question: "What copper grade is best for electrical applications?",
+        answer:
+          "C11000 (ETP Copper) is most commonly used for electrical applications due to its 101% IACS conductivity rating. C10100 (OFHC) offers even higher purity for critical applications.",
+      },
+    ],
   });
   const projects = [
     {

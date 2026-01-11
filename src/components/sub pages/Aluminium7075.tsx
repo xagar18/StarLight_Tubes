@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Aluminium7075 = () => {
   useSEO({
     title:
-      "Aluminium 7075 - Starlight Tubes | Aluminium 7075 Pipes, Sheets | Global Suppliers",
+      "Aluminium 7075 Manufacturer - Aerospace & Defense Grade | Starlight Tubes Global Exporter",
     description:
-      "Premium aluminium 7075 products manufacturer. High strength aerospace and defense grade aluminium. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Aluminium 7075 manufacturer and global exporter. Premium high-strength aerospace and defense grade aluminium plates, bars, and sheets. ISO certified manufacturer supplying to 60+ countries worldwide.",
     keywords:
-      "aluminium 7075 UAE, aluminium 7075 pipes Saudi Arabia, high strength alloy Qatar, aluminium sheets Oman, aluminium round bars Kuwait, aerospace aluminium Bahrain, defense aluminium worldwide, aluminium 7075 manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
+      "aluminium 7075 manufacturer, aerospace aluminium exporter, 7075-T6 aluminium manufacturer, high strength aluminium supplier, defense grade aluminium factory, aircraft aluminium 7075, 7075 aluminium plate stockist, 7075 aluminium bar manufacturer, fatigue resistant aluminium wholesaler",
     url: "https://www.starlighttubes.com/aluminium-7075",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+      {
+        name: "Aluminium 7075",
+        url: "https://www.starlighttubes.com/aluminium-7075",
+      },
+    ],
+    productSchema: {
+      name: "Aluminium 7075 Alloy Products",
+      description:
+        "Premium quality Aluminium 7075 alloy with exceptional strength-to-weight ratio and fatigue resistance for aerospace, defense, and high-performance applications.",
+      category: "Aluminium Products > Aluminium 7075",
+      material:
+        "Aluminium 7075 (Al 87.1-91.4%, Zn 5.1-6.1%, Mg 2.1-2.9%, Cu 1.2-2.0%)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium 7075 - Aerospace & Defense Grade",
+      summary:
+        "Starlight Tubes supplies Aluminium 7075-T6 products with exceptional strength-to-weight ratio for aerospace, defense, and high-performance applications. AMS 4045 certified.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Aluminium 7075",
+      "7075-T6",
+      "Aerospace Aluminium",
+      "Defense Grade",
+      "High Strength Aluminium",
+      "Aircraft Aluminium",
+      "AMS 4045",
+    ],
+    faqSchema: [
+      {
+        question: "What is 7075 aluminium used for?",
+        answer:
+          "7075 aluminium is used in aircraft structures, aerospace components, defense equipment, rock climbing gear, bicycle frames, and high-stress applications requiring maximum strength-to-weight ratio.",
+      },
+      {
+        question: "Is 7075 aluminium stronger than steel?",
+        answer:
+          "7075-T6 has tensile strength of 570 MPa, comparable to many steels, but at one-third the weight. It offers the best strength-to-weight ratio among common aluminium alloys.",
+      },
+    ],
   });
   const projects = [
     {

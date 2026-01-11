@@ -9,12 +9,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 
 const CopperPipe = () => {
   useSEO({
-    title: "Copper Pipe - Starlight Tubes | Copper Pipes | Global Suppliers",
+    title:
+      "Copper Pipe Manufacturer - Type K, L, M Copper Pipes | Starlight Tubes Global Exporter",
     description:
-      "Premium copper pipes manufacturer. Type K, L, M copper pipes for plumbing, HVAC, and refrigeration. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading copper pipe manufacturer and exporter. Type K, L, M copper pipes for plumbing, HVAC, and refrigeration applications. Medical gas and fire protection systems. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "copper pipe UAE, copper pipes Saudi Arabia, type K copper Qatar, type L copper Oman, type M copper Kuwait, plumbing pipes Bahrain, HVAC copper worldwide, refrigeration tubing GCC, copper pipe manufacturers UAE, USA steel suppliers, European steel exporters, global copper manufacturers",
+      "copper pipe manufacturer, Type K copper pipe, Type L copper pipe, Type M copper pipe, plumbing copper pipe, HVAC copper pipe, refrigeration copper tube, copper pipe exporter, copper pipe India, copper pipe UAE",
     url: "https://www.starlighttubes.com/copper-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Copper", url: "https://www.starlighttubes.com/copper" },
+      {
+        name: "Copper Pipe",
+        url: "https://www.starlighttubes.com/copper-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Copper Pipes - Type K, L, M",
+      description:
+        "Premium copper pipes in Type K, L, M configurations for plumbing, HVAC, refrigeration, medical gas, and fire protection applications.",
+      category: "Copper Pipes",
+      material: "Copper",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "15",
+        highPrice: "2000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Copper Pipes - Industrial & Plumbing Grade",
+      summary:
+        "Starlight Tubes manufactures copper pipes for plumbing, HVAC, refrigeration, and industrial applications. Available in Type K, L, M grades with ASTM B42, B88 certifications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Copper",
+      "Plumbing Pipes",
+      "HVAC Piping",
+      "Refrigeration Tubing",
+      "Type K L M",
+      "ASTM B88",
+      "Medical Gas Pipes",
+    ],
+    faqSchema: [
+      {
+        question: "What are copper pipes used for?",
+        answer:
+          "Copper pipes are used in plumbing, HVAC, refrigeration, medical gas systems, and industrial fluid transfer applications due to their excellent thermal conductivity and corrosion resistance.",
+      },
+      {
+        question:
+          "What is the difference between Type K, L, and M copper pipes?",
+        answer:
+          "Type K has the thickest walls for underground and high-pressure applications, Type L is medium-weight for general plumbing, and Type M has thinner walls for low-pressure residential use.",
+      },
+    ],
   });
   const projects = [
     {

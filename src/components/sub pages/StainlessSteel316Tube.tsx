@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,65 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteel316Tube = () => {
+  useSEO({
+    title:
+      "SS 316 Tube Manufacturer - ASTM A213/A269 TP316 Marine Grade | Starlight Tubes Global Exporter",
+    description:
+      "Leading SS 316 tube manufacturer & global exporter. ASTM A213/A269 TP316 seamless & welded stainless steel tubes. Marine grade with molybdenum for superior corrosion resistance. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+    keywords:
+      "SS 316 tube manufacturer, stainless steel 316 tube exporter, ASTM A213 TP316 supplier, seamless 316 tube manufacturer, marine grade SS tube, molybdenum stainless steel tube, 316 stainless tube UAE, SS 316 tubes Saudi Arabia, 316 tube manufacturer India, corrosion resistant SS tube",
+    url: "https://www.starlighttubes.com/stainless-steel-316-tube",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "SS 316 Tube",
+        url: "https://www.starlighttubes.com/stainless-steel-316-tube",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel 316 Tube",
+      description:
+        "Premium SS 316 tubes in seamless and welded configurations. ASTM A213/A269 TP316 certified marine grade stainless steel tubes with 16-18% Chromium, 10-14% Nickel, and 2-3% Molybdenum for enhanced corrosion resistance.",
+      category: "Stainless Steel Tubes",
+      material:
+        "Stainless Steel 316 (16-18% Chromium, 10-14% Nickel, 2-3% Molybdenum)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "SS 316 Tube - Marine Grade ASTM A213 TP316 Tubes",
+      summary:
+        "Starlight Tubes manufactures premium SS 316 tubes with molybdenum content for superior corrosion resistance in marine, pharmaceutical, and heat exchanger applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel 316",
+      "ASTM A213",
+      "Marine Grade Steel",
+      "Molybdenum Steel",
+      "Heat Exchanger Tubes",
+      "Pharmaceutical Tubes",
+      "Chloride Resistant",
+    ],
+    faqSchema: [
+      {
+        question: "What makes SS 316 tubes different from SS 304?",
+        answer:
+          "SS 316 tubes contain 2-3% molybdenum which provides superior resistance to chlorides and pitting corrosion, making them ideal for marine and chemical environments.",
+      },
+      {
+        question: "What applications are SS 316 tubes suitable for?",
+        answer:
+          "SS 316 tubes are ideal for marine equipment, pharmaceutical processing, heat exchangers, chemical plants, and coastal construction due to their enhanced corrosion resistance.",
+      },
+    ],
+  });
   const projects = [
     {
       title: "316 Stainless Steel Tube",

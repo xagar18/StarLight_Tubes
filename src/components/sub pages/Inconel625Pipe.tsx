@@ -10,12 +10,61 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Inconel625Pipe = () => {
   useSEO({
     title:
-      "Inconel 625 Pipe - Starlight Tubes | Inconel 625 Pipes | Global Suppliers",
+      "Inconel 625 Pipe Manufacturer - UNS N06625 Superalloy Pipes | Starlight Tubes Global Exporter",
     description:
-      "Premium Inconel 625 pipes manufacturer. Superior corrosion and oxidation resistant alloy pipes for aerospace and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel 625 pipe manufacturer and exporter. Superior corrosion and oxidation resistant alloy pipes for aerospace, marine, chemical processing applications. ASTM B444, B705 standards. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "inconel 625 pipe UAE, inconel pipes Saudi Arabia, nickel chromium alloy Qatar, corrosion resistant pipes Oman, oxidation resistant pipes Kuwait, aerospace pipes Bahrain, inconel 625 pipe worldwide, alloy pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "Inconel 625 pipe manufacturer, UNS N06625 pipe, Inconel 625 seamless pipe, Inconel 625 welded pipe, superalloy pipe, aerospace pipe manufacturer, marine pipe, chemical processing pipe, Inconel 625 exporter, Inconel 625 pipe India",
     url: "https://www.starlighttubes.com/inconel-625-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel 625 Pipe",
+        url: "https://www.starlighttubes.com/inconel-625-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Inconel 625 Pipes - UNS N06625 Superalloy",
+      description:
+        "Premium Inconel 625 superalloy pipes with superior corrosion and oxidation resistance for aerospace, marine, and chemical processing applications.",
+      category: "Inconel 625 Pipes",
+      material: "Inconel 625 Superalloy",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "150",
+        highPrice: "10000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel 625 Pipe - High Temperature Nickel Alloy",
+      summary:
+        "Starlight Tubes supplies Inconel 625 pipes with excellent high temperature and corrosion resistance for aerospace, marine, and chemical industries.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel 625",
+      "Nickel Alloy",
+      "High Temperature Alloy",
+      "Aerospace Materials",
+      "Marine Grade",
+      "Chemical Processing",
+      "NACE MR0175",
+      "Offshore Oil Gas",
+    ],
+    faqSchema: [
+      {
+        question: "What is Inconel 625 used for?",
+        answer:
+          "Inconel 625 is used in aerospace, marine, chemical processing, and nuclear applications due to its excellent strength and corrosion resistance at high temperatures.",
+      },
+      {
+        question: "What temperature can Inconel 625 withstand?",
+        answer:
+          "Inconel 625 maintains excellent mechanical properties up to 982°C (1800°F) and has good oxidation resistance.",
+      },
+    ],
   });
   const projects = [
     {

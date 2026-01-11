@@ -10,12 +10,59 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const InconelRoundBar = () => {
   useSEO({
     title:
-      "Inconel Round Bar - Starlight Tubes | Inconel Round Bars | Global Suppliers",
+      "Inconel Round Bar Manufacturer & Exporter | Inconel 600/625/718 Bars | Starlight Tubes",
     description:
-      "Premium Inconel round bars manufacturer. High strength corrosion resistant alloy bars for aerospace and marine applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Inconel round bar manufacturer and exporter in India. Premium Inconel 600, 625, 718 round bars for aerospace, marine & gas turbine applications. ASTM B166 certified. Global supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "inconel round bar UAE, inconel round bars Saudi Arabia, high strength bars Qatar, corrosion resistant bars Oman, aerospace bars Kuwait, marine bars Bahrain, inconel round bar worldwide, alloy bar manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "inconel round bar manufacturer, inconel bar exporter, inconel 600 round bar supplier, inconel 625 bar manufacturer, inconel 718 bar exporter India, aerospace inconel bar manufacturer, marine grade inconel bar supplier, ASTM B166 inconel bar, inconel round bar UAE, inconel bar Saudi Arabia, high temperature alloy bar manufacturer",
     url: "https://www.starlighttubes.com/inconel-round-bar",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+      {
+        name: "Inconel Round Bar",
+        url: "https://www.starlighttubes.com/inconel-round-bar",
+      },
+    ],
+    productSchema: {
+      name: "Inconel Alloy Round Bar",
+      description:
+        "Premium quality Inconel alloy round bars (600, 625, 718 grades) manufactured to ASTM B166 standards for aerospace, marine, and high-temperature industrial applications.",
+      category: "Inconel Alloy Products",
+      material: "Inconel 600, 601, 617, 625, 718, 725, X-750",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel Round Bar - High Performance Nickel Alloy Bars",
+      summary:
+        "Starlight Tubes supplies Inconel round bars in grades 600, 625, and 718 with exceptional high-temperature strength for aerospace fasteners, gas turbine components, and nuclear applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel Round Bar",
+      "Inconel 718",
+      "Inconel 625",
+      "Aerospace Fasteners",
+      "Gas Turbine",
+      "ASTM B166",
+      "High Temperature Bar",
+      "Centerless Ground",
+    ],
+    faqSchema: [
+      {
+        question: "What is Inconel 718 round bar used for?",
+        answer:
+          "Inconel 718 round bars are primarily used for aerospace fasteners, gas turbine discs, rocket motor components, and nuclear reactor parts due to their exceptional strength up to 1300°F and resistance to creep deformation.",
+      },
+      {
+        question: "What finishes are available for Inconel round bars?",
+        answer:
+          "Inconel round bars are available in hot rolled, cold drawn, centerless ground, peeled, black, and bright finishes to meet various machining and application requirements.",
+      },
+    ],
   });
   const projects = [
     {

@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,65 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const NickelSheet = () => {
+  useSEO({
+    title:
+      "Nickel Sheet Manufacturer & Exporter | Nickel 200/201 Plates & Coils | Starlight Tubes",
+    description:
+      "Leading nickel sheet manufacturer and exporter in India. Premium Nickel 200, Nickel 201 sheets, plates & coils for chemical processing and electronics. ASTM B162 certified. Global supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+    keywords:
+      "nickel sheet manufacturer, nickel plate exporter, nickel 200 sheet supplier, nickel 201 plate manufacturer, nickel coil exporter India, nickel alloy sheet manufacturer, pure nickel sheet supplier, ASTM B162 nickel plate, nickel sheet UAE, nickel plate Saudi Arabia, chemical resistant nickel sheet, electronics grade nickel",
+    url: "https://www.starlighttubes.com/nickel-sheet",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Nickel Alloys",
+        url: "https://www.starlighttubes.com/nickel-alloys",
+      },
+      {
+        name: "Nickel Sheet",
+        url: "https://www.starlighttubes.com/nickel-sheet",
+      },
+    ],
+    productSchema: {
+      name: "Nickel Alloy Sheet",
+      description:
+        "Premium quality nickel alloy sheets and plates (Nickel 200, 201, 205) manufactured to ASTM B162 standards for chemical processing, electronics, and caustic handling applications.",
+      category: "Nickel Alloy Products",
+      material: "Nickel 200, Nickel 201, Nickel 205",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Nickel Sheet - High Purity Nickel 200/201 Plates & Coils",
+      summary:
+        "Starlight Tubes manufactures premium nickel alloy sheets and plates with superior corrosion resistance for chemical processing, electronics, and caustic handling applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Nickel 200",
+      "Nickel 201",
+      "Nickel Sheet",
+      "Nickel Plate",
+      "ASTM B162",
+      "Electronics Grade",
+      "Chemical Resistant",
+      "Caustic Handling",
+    ],
+    faqSchema: [
+      {
+        question: "What industries use nickel sheets?",
+        answer:
+          "Nickel sheets are widely used in chemical processing, electronics manufacturing, food processing, caustic soda production, and aerospace applications due to their excellent corrosion resistance and thermal conductivity.",
+      },
+      {
+        question: "What is the purity of Nickel 200 sheets?",
+        answer:
+          "Nickel 200 sheets contain a minimum of 99.6% pure nickel, making them ideal for applications requiring high purity and excellent resistance to caustic alkalis and various acids.",
+      },
+    ],
+  });
   const projects = [
     {
       title: "Nickel Plate",

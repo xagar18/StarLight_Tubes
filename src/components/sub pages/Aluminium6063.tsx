@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const Aluminium6063 = () => {
   useSEO({
     title:
-      "Aluminium 6063 - Starlight Tubes | Aluminium 6063 Pipes, Sheets | Global Suppliers",
+      "Aluminium 6063 Manufacturer - Architectural Grade Extrusions | Starlight Tubes Global Exporter",
     description:
-      "Premium aluminium 6063 products manufacturer. Architectural grade extrudable aluminium. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading Aluminium 6063 manufacturer and global exporter. Premium architectural grade aluminium extrusions, pipes, and profiles for construction and decorative applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
     keywords:
-      "aluminium 6063 UAE, aluminium 6063 pipes Saudi Arabia, architectural aluminium Qatar, extrudable aluminium Oman, aluminium sheets Kuwait, aluminium round bars Bahrain, aluminium 6063 worldwide, aluminium manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
+      "aluminium 6063 manufacturer, architectural aluminium exporter, 6063 aluminium extrusion manufacturer, aluminium profile supplier, window frame aluminium factory, 6063-T6 aluminium manufacturer, extrudable aluminium alloy, 6063 aluminium pipe stockist, decorative aluminium manufacturer, construction aluminium wholesaler",
     url: "https://www.starlighttubes.com/aluminium-6063",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+      {
+        name: "Aluminium 6063",
+        url: "https://www.starlighttubes.com/aluminium-6063",
+      },
+    ],
+    productSchema: {
+      name: "Aluminium 6063 Alloy Products",
+      description:
+        "Premium quality Aluminium 6063 alloy with excellent extrudability, corrosion resistance, and surface finish for construction, window frames, and decorative applications.",
+      category: "Aluminium Products > Aluminium 6063",
+      material:
+        "Aluminium 6063 (Al 97.5%, Mg 0.45-0.9%, Si 0.2-0.6%, Fe ≤0.35%)",
+      brand: "Starlight Tubes",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium 6063 - Architectural Grade Alloy",
+      summary:
+        "Starlight Tubes manufactures Aluminium 6063 extrusions and profiles for construction, window frames, and decorative applications. Excellent surface finish and anodizing response.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Aluminium 6063",
+      "Architectural Aluminium",
+      "Aluminium Extrusion",
+      "Window Frames",
+      "6063-T5",
+      "6063-T6",
+      "Anodizable Aluminium",
+    ],
+    faqSchema: [
+      {
+        question: "What is 6063 aluminium used for?",
+        answer:
+          "6063 aluminium is used in window frames, door frames, architectural trim, curtain walls, pipe railings, and decorative applications due to its excellent extrudability, surface finish, and anodizing response.",
+      },
+      {
+        question: "What is the difference between 6061 and 6063 aluminium?",
+        answer:
+          "6063 has better extrudability and surface finish for architectural applications, while 6061 offers higher strength for structural use. 6063 anodizes better, 6061 machines better.",
+      },
+    ],
   });
   const projects = [
     {

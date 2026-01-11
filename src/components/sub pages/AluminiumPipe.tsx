@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const AluminiumPipe = () => {
   useSEO({
     title:
-      "Aluminium Pipe - Starlight Tubes | Aluminium Pipes | Global Suppliers",
+      "Aluminium Pipe Manufacturer - 6061, 6063, 5052, 7075 Aluminium Pipes | Starlight Tubes Global Exporter",
     description:
-      "Premium aluminium pipes manufacturer. Lightweight corrosion resistant pipes for HVAC and construction. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading aluminium pipe manufacturer and exporter. Lightweight corrosion resistant pipes in 6061, 6063, 5052, 7075 grades for HVAC, construction, aerospace, automotive applications. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "aluminium pipe UAE, aluminium pipes Saudi Arabia, lightweight pipes Qatar, corrosion resistant pipes Oman, HVAC pipes Kuwait, construction pipes Bahrain, aluminium pipe worldwide, aluminium pipe manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
+      "aluminium pipe manufacturer, aluminium 6061 pipe, aluminium 6063 pipe, aluminium 5052 pipe, aluminium 7075 pipe, lightweight pipe, corrosion resistant pipe, HVAC aluminium pipe, construction aluminium pipe, aluminium pipe exporter, aluminium pipe India",
     url: "https://www.starlighttubes.com/aluminium-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+      {
+        name: "Aluminium Pipe",
+        url: "https://www.starlighttubes.com/aluminium-pipe",
+      },
+    ],
+    productSchema: {
+      name: "Aluminium Pipes - 6061, 6063, 5052, 7075 Grades",
+      description:
+        "Premium aluminium pipes in various grades for HVAC, construction, aerospace, and automotive applications. Lightweight and corrosion resistant.",
+      category: "Aluminium Pipes",
+      material: "Aluminium Alloy",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "10",
+        highPrice: "2500",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium Pipes - Lightweight Industrial Grade",
+      summary:
+        "Starlight Tubes manufactures aluminium pipes for HVAC, construction, aerospace, and automotive applications. Available in 6061, 6063, 5052, 7075 grades per ASTM B210, B241 standards.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Aluminium Pipe",
+      "6061 Aluminium",
+      "6063 Aluminium",
+      "ASTM B210",
+      "Lightweight Pipe",
+      "Corrosion Resistant",
+      "Extruded Pipe",
+    ],
+    faqSchema: [
+      {
+        question: "What are aluminium pipes used for?",
+        answer:
+          "Aluminium pipes are used in HVAC systems, construction frameworks, aerospace structures, automotive components, and marine applications due to their lightweight, corrosion resistance, and strength-to-weight ratio.",
+      },
+      {
+        question: "Which aluminium grade is best for pipes?",
+        answer:
+          "6063 is ideal for architectural applications with excellent extrudability, 6061 offers higher strength for structural use, and 5052 provides best corrosion resistance for marine environments.",
+      },
+    ],
   });
   const projects = [
     {

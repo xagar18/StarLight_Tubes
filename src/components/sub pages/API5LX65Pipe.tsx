@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const API5LX65Pipe = () => {
   useSEO({
     title:
-      "API 5L X65 Pipe - Starlight Tubes | Carbon Steel X65 Pipes | Global Suppliers",
+      "API 5L X65 Pipe Manufacturer & Exporter | High Strength Line Pipes | Starlight Tubes",
     description:
-      "Premium API 5L X65 carbon steel pipes manufacturer. Ultra high yield offshore and deep water pipes. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading API 5L X65 high-strength line pipe manufacturer and exporter. Premium PSL2 certified pipes for offshore and deepwater applications. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "API 5L X65 pipe UAE, carbon steel X65 pipes Saudi Arabia, ultra high yield pipes Qatar, offshore pipes Oman, deep water pipes Kuwait, corrosion resistant pipes Bahrain, API 5L X65 pipe worldwide, carbon steel pipe manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "API 5L X65 pipe manufacturer, API 5L X65 pipe exporter, high strength pipe supplier, offshore pipeline pipe manufacturer, deepwater pipe exporter, PSL2 pipe manufacturer, sour service pipe supplier, L450 pipe factory, TMCP pipe exporter, X65 pipe stockist, HIC tested pipe manufacturer",
     url: "https://www.starlighttubes.com/api-5l-x65-pipe",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Carbon Steel",
+        url: "https://www.starlighttubes.com/carbon-steel",
+      },
+      {
+        name: "API 5L X65 Pipe",
+        url: "https://www.starlighttubes.com/api-5l-x65-pipe",
+      },
+    ],
+    productSchema: {
+      name: "API 5L X65 High-Strength Line Pipe",
+      description:
+        "Premium API 5L X65 high-strength line pipes for demanding oil and gas applications with 450 MPa minimum yield strength and HIC/SSC testing for sour service.",
+      category: "Carbon Steel Pipes",
+      material: "High Strength Carbon Steel (API 5L X65 / L450 PSL2)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "API 5L X65 Pipe - High Strength Offshore Line Pipe",
+      summary:
+        "Starlight Tubes manufactures API 5L X65 high-strength line pipes with 450 MPa yield strength for offshore deepwater and sour service applications. PSL2 certified with HIC/SSC testing.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "API 5L X65",
+      "L450",
+      "High Strength Pipe",
+      "Offshore Pipeline",
+      "Sour Service",
+      "HIC SSC Testing",
+      "TMCP Process",
+      "DNV-OS-F101",
+    ],
+    faqSchema: [
+      {
+        question: "What is API 5L X65 pipe used for?",
+        answer:
+          "API 5L X65 pipes are used for high-pressure natural gas pipelines, offshore deepwater installations, and sour service applications. With 450 MPa yield strength, they are ideal for demanding long-distance transmission systems.",
+      },
+      {
+        question: "What is HIC and SSC testing for API 5L X65 pipes?",
+        answer:
+          "HIC (Hydrogen Induced Cracking) and SSC (Sulfide Stress Cracking) testing per NACE TM0284 and TM0177 verify pipe suitability for sour service environments containing hydrogen sulfide (H2S).",
+      },
+    ],
   });
   const projects = [
     {

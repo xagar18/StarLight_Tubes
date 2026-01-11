@@ -1,3 +1,4 @@
+import { useSEO } from "@/hooks/use-seo";
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
@@ -7,6 +8,65 @@ import { BottomCTA } from "../sub components/BottomCTA";
 import { CommonCTA } from "../sub components/CommonCTA";
 
 const StainlessSteel304Plate = () => {
+  useSEO({
+    title:
+      "SS 304 Plate Manufacturer - ASTM A240 Stainless Steel Sheet | Starlight Tubes Global Exporter",
+    description:
+      "Leading SS 304 plate manufacturer & global exporter. ASTM A240 stainless steel plates & sheets. Multiple surface finishes available. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+    keywords:
+      "SS 304 plate manufacturer, stainless steel 304 sheet exporter, ASTM A240 supplier, 304 stainless plate manufacturer, SS 304 sheet UAE, stainless steel plate Saudi Arabia, 304 plate manufacturer India, food grade SS plate",
+    url: "https://www.starlighttubes.com/stainless-steel-304-plate",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "SS 304 Plate",
+        url: "https://www.starlighttubes.com/stainless-steel-304-plate",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel 304 Plate",
+      description:
+        "Premium SS 304 plates and sheets in various surface finishes. ASTM A240 certified austenitic stainless steel with 18% Chromium and 8% Nickel for excellent corrosion resistance.",
+      category: "Stainless Steel Plates",
+      material: "Stainless Steel 304 (18% Chromium, 8% Nickel - Austenitic)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "SS 304 Plate - ASTM A240 Stainless Steel Sheet & Plate",
+      summary:
+        "Starlight Tubes supplies premium SS 304 plates and sheets with multiple surface finishes for kitchen equipment, food processing, architectural facades, and chemical storage applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel 304",
+      "ASTM A240",
+      "Austenitic Steel",
+      "Mirror Finish Plate",
+      "Food Grade SS",
+      "Architectural Stainless",
+      "Corrosion Resistant Plate",
+    ],
+    faqSchema: [
+      {
+        question: "What thickness range is available for SS 304 plates?",
+        answer:
+          "We offer SS 304 plates from 3mm to 100mm thickness, with width up to 1525mm and length up to 6000mm.",
+      },
+      {
+        question:
+          "What surface finishes are available for 304 stainless steel plates?",
+        answer:
+          "Our SS 304 plates are available in 2B, BA, No.1, No.4, Hairline, Mirror 8K, and Brushed finishes to meet your requirements.",
+      },
+    ],
+  });
   const projects = [
     {
       title: "ASTM A240 Type 304",

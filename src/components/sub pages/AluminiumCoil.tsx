@@ -10,12 +10,58 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const AluminiumCoil = () => {
   useSEO({
     title:
-      "Aluminium Coil - Starlight Tubes | Aluminium Coils | Global Suppliers",
+      "Aluminium Coil Manufacturer - ASTM B209 Roofing & Cladding Coils | Starlight Tubes Global Exporter",
     description:
-      "Premium aluminium coils manufacturer. Corrosion resistant coils for roofing, cladding, and automotive applications. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading aluminium coil manufacturer & global exporter. ASTM B209 aluminium coils for roofing, cladding & automotive applications. Custom widths available. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "aluminium coil UAE, aluminium coils Saudi Arabia, roofing coils Qatar, cladding coils Oman, automotive coils Kuwait, corrosion resistant coils Bahrain, aluminium coil worldwide, aluminium coil manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
+      "aluminium coil manufacturer, aluminum coil exporter, ASTM B209 supplier, roofing coil manufacturer, cladding coil, automotive aluminium coil, aluminium coil UAE, aluminum coil Saudi Arabia, aluminium coil manufacturer India",
     url: "https://www.starlighttubes.com/aluminium-coil",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+      {
+        name: "Aluminium Coil",
+        url: "https://www.starlighttubes.com/aluminium-coil",
+      },
+    ],
+    productSchema: {
+      name: "Aluminium Coil",
+      description:
+        "Premium aluminium coils in various alloys and thicknesses. ASTM B209 certified coils with excellent formability for roofing, cladding, and automotive manufacturing applications.",
+      category: "Aluminium Coils",
+      material: "Aluminium Alloy (1100, 3003, 3105, 5005, 5052, 6061)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium Coils - Roofing & Cladding Grade",
+      summary:
+        "Starlight Tubes manufactures aluminium coils for roofing, cladding, and automotive applications. ASTM B209 certified coils in custom widths and various alloys.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Aluminium Coil",
+      "Roofing Coil",
+      "Cladding Coil",
+      "ASTM B209",
+      "Aluminium Strip",
+      "Color Coated",
+      "Mill Finish Coil",
+    ],
+    faqSchema: [
+      {
+        question: "What are aluminium coils used for?",
+        answer:
+          "Aluminium coils are used in roofing, wall cladding, gutters, automotive body panels, HVAC ductwork, and general sheet metal fabrication due to their formability and corrosion resistance.",
+      },
+      {
+        question: "What aluminium alloy is best for roofing coils?",
+        answer:
+          "3003 and 3105 alloys are most popular for roofing due to excellent corrosion resistance and formability. 5052 is used for coastal areas requiring superior corrosion resistance.",
+      },
+    ],
   });
   const projects = [
     {

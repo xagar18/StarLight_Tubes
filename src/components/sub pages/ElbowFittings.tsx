@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const ElbowFittings = () => {
   useSEO({
     title:
-      "Elbow Fittings - Starlight Tubes | Steel Pipe Elbows | Global Suppliers",
+      "Elbow Fittings Manufacturer - 90°, 45° Pipe Elbows | Starlight Tubes Global Exporter",
     description:
-      "Premium elbow fittings manufacturer. 90 degree, 45 degree elbows in butt weld, socket weld, and threaded types. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading elbow fittings manufacturer and exporter. 90 degree, 45 degree elbows in butt weld, socket weld, and threaded types. Stainless steel, carbon steel, alloy steel elbows. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
     keywords:
-      "elbow fittings UAE, steel elbows Saudi Arabia, pipe elbows Qatar, 90 degree elbows Oman, 45 degree elbows Kuwait, butt weld elbows Bahrain, socket weld elbows worldwide, threaded elbows GCC, steel elbow fittings UAE, pipe elbow manufacturers Saudi Arabia, USA steel suppliers, European steel exporters, global pipe fittings",
+      "elbow fittings manufacturer, 90 degree elbow, 45 degree elbow, pipe elbow manufacturer, butt weld elbow, socket weld elbow, threaded elbow, stainless steel elbow, carbon steel elbow, elbow fittings exporter, pipe elbows India",
     url: "https://www.starlighttubes.com/elbow-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Elbow Fittings",
+        url: "https://www.starlighttubes.com/elbow-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Elbow Fittings - 90°, 45° Pipe Elbows",
+      description:
+        "Premium elbow fittings in 90 degree and 45 degree configurations. Butt weld, socket weld, and threaded types in stainless steel, carbon steel, and alloy steel.",
+      category: "Elbow Fittings",
+      material: "Stainless Steel, Carbon Steel, Alloy Steel",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "5",
+        highPrice: "1000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Pipe Elbows - 45° and 90° Stainless Steel & Carbon Steel",
+      summary:
+        "Starlight Tubes manufactures pipe elbows in 45° and 90° angles in stainless steel and carbon steel. Long radius and short radius available per ASME B16.9.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Pipe Elbows",
+      "ASME B16.9",
+      "Butt Weld Fittings",
+      "Long Radius Elbow",
+      "Short Radius Elbow",
+      "45 Degree Elbow",
+      "90 Degree Elbow",
+      "180 Degree Elbow",
+    ],
+    faqSchema: [
+      {
+        question:
+          "What is the difference between long radius and short radius elbows?",
+        answer:
+          "Long radius elbows have a centerline radius of 1.5 times the nominal pipe size, while short radius elbows have a radius equal to the nominal size. Long radius elbows are preferred for smoother flow and lower pressure drop.",
+      },
+      {
+        question: "What materials are pipe elbows available in?",
+        answer:
+          "Pipe elbows are available in stainless steel (304, 316, 316L), carbon steel (A234 WPB), alloy steel, and nickel alloys (Inconel, Monel). All elbows comply with ASME B16.9, B16.11, and ASTM standards.",
+      },
+    ],
   });
   const projects = [
     {

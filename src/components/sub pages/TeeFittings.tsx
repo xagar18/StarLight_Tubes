@@ -10,12 +10,60 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const TeeFittings = () => {
   useSEO({
     title:
-      "Tee Fittings - Starlight Tubes | Steel Pipe Tees | Global Suppliers",
+      "Tee Fittings Manufacturer - Equal & Reducing Tees | Starlight Tubes Global Exporter",
     description:
-      "Premium tee fittings manufacturer. Equal and reducing tees in butt weld, socket weld, and threaded types. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading tee fittings manufacturer & global exporter. Premium equal tees, reducing tees in butt weld, socket weld, threaded types. ASME B16.9/B16.11 certified. SS, carbon steel, alloy steel. Export to 60+ countries.",
     keywords:
-      "tee fittings UAE, steel tees Saudi Arabia, pipe tees Qatar, equal tees Oman, reducing tees Kuwait, butt weld tees Bahrain, socket weld tees worldwide, threaded tees GCC, steel tee fittings UAE, pipe tee manufacturers Saudi Arabia, USA steel suppliers, European steel exporters, global pipe fittings",
+      "tee fittings manufacturer, tee fittings exporter, equal tee manufacturer, reducing tee supplier, butt weld tee exporter, socket weld tee manufacturer, pipe tee fittings supplier, tee fittings UAE, tee fittings Saudi Arabia, pipe fittings manufacturer India",
     url: "https://www.starlighttubes.com/tee-fittings",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
+      {
+        name: "Tee Fittings",
+        url: "https://www.starlighttubes.com/tee-fittings",
+      },
+    ],
+    productSchema: {
+      name: "Tee Fittings",
+      description:
+        "Premium quality tee fittings for branching pipe connections. Equal and reducing tees available in butt weld, socket weld, and threaded types. SS 304/316/321, Carbon Steel, Alloy Steel.",
+      category: "Pipe Fittings",
+      material:
+        "Stainless Steel, Carbon Steel, Alloy Steel, Inconel, Monel, Hastelloy",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Pipe Tee Fittings - Equal Tee and Reducing Tee",
+      summary:
+        "Starlight Tubes manufactures pipe tee fittings including equal tees and reducing tees in stainless steel and carbon steel. Available in butt weld, socket weld, and threaded types per ASME B16.9.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Pipe Tee Fittings",
+      "Equal Tee",
+      "Reducing Tee",
+      "ASME B16.9",
+      "Butt Weld Tee",
+      "Socket Weld Tee",
+      "Threaded Tee",
+      "Branch Connections",
+    ],
+    faqSchema: [
+      {
+        question: "What is the difference between equal tee and reducing tee?",
+        answer:
+          "An equal tee has all three outlets of the same size, used when the branch line is the same diameter as the main line. A reducing tee has a smaller branch outlet, used when the branch line requires a smaller diameter than the main run pipe.",
+      },
+      {
+        question: "What are pipe tee fittings used for?",
+        answer:
+          "Pipe tee fittings are used to create branch connections in piping systems, allowing fluid flow to be divided or combined at a 90-degree angle. They are essential in distribution systems, process piping, and HVAC applications.",
+      },
+    ],
   });
   const projects = [
     {

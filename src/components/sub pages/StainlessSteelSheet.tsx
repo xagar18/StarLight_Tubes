@@ -10,12 +10,62 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const StainlessSteelSheet = () => {
   useSEO({
     title:
-      "Stainless Steel Sheet - Starlight Tubes | SS Sheets | Global Suppliers",
+      "Stainless Steel Sheet Manufacturer - 304/316/321 Grades | Starlight Tubes Global Exporter",
     description:
-      "Premium stainless steel sheets manufacturer. Hot rolled and cold rolled SS sheets. High strength, corrosion resistant. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading stainless steel sheet manufacturer & global exporter. Hot rolled & cold rolled SS sheets in 304, 316, 321, 310S grades. Premium quality plates with 2B, BA, mirror finish. ASTM A240 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "stainless steel sheet UAE, SS sheets Saudi Arabia, hot rolled sheets Qatar, cold rolled sheets Oman, corrosion resistant sheets Kuwait, high strength sheets Bahrain, stainless steel sheet worldwide, SS sheet manufacturers GCC, USA steel suppliers, European steel exporters, global steel manufacturers",
+      "stainless steel sheet manufacturer, SS sheet exporter, stainless steel plate supplier, hot rolled SS sheet, cold rolled stainless steel, 304 SS sheet manufacturer, 316 stainless steel plate, ASTM A240 sheet, mirror finish SS sheet, stainless steel sheet UAE, SS plates Saudi Arabia, steel sheet manufacturer India",
     url: "https://www.starlighttubes.com/stainless-steel-sheet",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      {
+        name: "Stainless Steel",
+        url: "https://www.starlighttubes.com/stainless-steel",
+      },
+      {
+        name: "Stainless Steel Sheet",
+        url: "https://www.starlighttubes.com/stainless-steel-sheet",
+      },
+    ],
+    productSchema: {
+      name: "Stainless Steel Sheet",
+      description:
+        "Premium stainless steel sheets and plates in multiple grades including 304, 316, 321, 310S with various finishes - 2B, BA, No.4, hairline, and mirror finish. ASTM A240 certified for industrial applications.",
+      category: "Stainless Steel Products",
+      material:
+        "Stainless Steel (304, 304L, 316, 316L, 321, 310S, 410, 430, 904L, Duplex 2205)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Stainless Steel Sheet - Hot & Cold Rolled SS Sheets",
+      summary:
+        "Starlight Tubes supplies premium stainless steel sheets and plates in 304, 316, 321, 310S grades with multiple finishes including 2B, BA, mirror, and hairline for industrial and architectural applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Stainless Steel",
+      "ASTM A240",
+      "Hot Rolled Sheet",
+      "Cold Rolled Sheet",
+      "Mirror Finish SS",
+      "Corrosion Resistant",
+      "SS Plates",
+    ],
+    faqSchema: [
+      {
+        question: "What finishes are available for stainless steel sheets?",
+        answer:
+          "We offer SS sheets in 2B, BA, No.1, No.4, Hairline, Mirror 8K, Embossed, and Perforated finishes to meet your specific requirements.",
+      },
+      {
+        question: "What thickness range do you offer for SS sheets?",
+        answer:
+          "Our stainless steel sheets are available in thickness from 0.3mm to 6mm, while plates range from 6mm to 100mm with width up to 3000mm.",
+      },
+    ],
   });
   const projects = [
     {

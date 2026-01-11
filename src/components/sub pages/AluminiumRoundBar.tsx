@@ -10,12 +10,59 @@ import { CommonCTA } from "../sub components/CommonCTA";
 const AluminiumRoundBar = () => {
   useSEO({
     title:
-      "Aluminium Round Bar - Starlight Tubes | Aluminium Round Bars | Global Suppliers",
+      "Aluminium Round Bar Manufacturer - 6061/7075 Aerospace Grade Bars | Starlight Tubes Global Exporter",
     description:
-      "Premium aluminium round bars manufacturer. Machinable lightweight bars for aerospace and construction. Supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "Leading aluminium round bar manufacturer & global exporter. ASTM B211 6061, 7075, 2024 aerospace grade bars. Excellent machinability & strength-to-weight ratio. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
     keywords:
-      "aluminium round bar UAE, aluminium round bars Saudi Arabia, machinable bars Qatar, lightweight bars Oman, aerospace bars Kuwait, construction bars Bahrain, aluminium round bar worldwide, aluminium bar manufacturers GCC, USA steel suppliers, European steel exporters, global aluminium manufacturers",
+      "aluminium round bar manufacturer, aluminum bar exporter, ASTM B211 supplier, 6061 round bar manufacturer, 7075 aerospace bar, machinable aluminium bar, aluminium bar UAE, aluminum round bar Saudi Arabia, aluminium bar manufacturer India",
     url: "https://www.starlighttubes.com/aluminium-round-bar",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com" },
+      { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
+      {
+        name: "Aluminium Round Bar",
+        url: "https://www.starlighttubes.com/aluminium-round-bar",
+      },
+    ],
+    productSchema: {
+      name: "Aluminium Round Bar",
+      description:
+        "Premium aluminium round bars in various alloys including 6061, 7075, 2024. ASTM B211 certified bars with excellent machinability for aerospace, automotive, and construction applications.",
+      category: "Aluminium Round Bars",
+      material:
+        "Aluminium Alloy (6061, 6063, 5052, 5083, 7075, 2024, 3003, 1100)",
+      offers: {
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Aluminium Round Bars - Aerospace Grade",
+      summary:
+        "Starlight Tubes supplies aluminium round bars for aerospace, automotive, and machining applications. 6061, 7075, 2024 grades available per ASTM B211 standards.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Aluminium Round Bar",
+      "Aluminium Rod",
+      "6061-T6 Bar",
+      "7075 Bar",
+      "ASTM B211",
+      "Machinable Aluminium",
+      "Aerospace Bar",
+    ],
+    faqSchema: [
+      {
+        question: "What are aluminium round bars used for?",
+        answer:
+          "Aluminium round bars are used in aerospace components, automotive parts, machined fittings, structural supports, and general fabrication due to their machinability and strength-to-weight ratio.",
+      },
+      {
+        question: "Which aluminium alloy bar is best for machining?",
+        answer:
+          "6061-T6 offers excellent machinability with good strength. 2011 is specifically designed for high-speed machining. 7075 provides highest strength for demanding aerospace applications.",
+      },
+    ],
   });
   const projects = [
     {

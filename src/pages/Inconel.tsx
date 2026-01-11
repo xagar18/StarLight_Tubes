@@ -15,6 +15,55 @@ const Inconel = () => {
     keywords:
       "Inconel pipe manufacturer, Inconel tube manufacturer, Inconel pipe exporter, Inconel 625 manufacturer, Inconel 600 manufacturer, Inconel 718 manufacturer, Inconel 800 manufacturer, Inconel 825 manufacturer, Inconel seamless pipe manufacturer, Inconel welded pipe manufacturer, Inconel plate manufacturer, Inconel round bar manufacturer, Inconel tubing manufacturer, Inconel bolts manufacturer, superalloy pipe manufacturer, Inconel pipe factory, Inconel pipe supplier India",
     url: "https://www.starlighttubes.com/inconel",
+    breadcrumbs: [
+      { name: "Home", url: "https://www.starlighttubes.com/" },
+      { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
+    ],
+    productSchema: {
+      name: "Inconel Pipes and Tubes - 625, 600, 718",
+      description:
+        "Premium Inconel pipes including Inconel 625, Inconel 600, Monel pipes for high-temperature and corrosive environments. Manufactured by Starlight Tubes.",
+      category: "Inconel Pipes",
+      material: "Inconel Superalloy",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "100",
+        highPrice: "10000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    speakableContent: {
+      headline: "Inconel Pipes & Tubes - 625, 600, 718 Superalloys",
+      summary:
+        "Starlight Tubes manufactures premium Inconel superalloy pipes and tubes including Inconel 625, 600, 718, 800 for extreme high-temperature and corrosive aerospace and industrial applications.",
+    },
+    entityType: "Product",
+    relatedEntities: [
+      "Inconel 625 pipes",
+      "Inconel 600 tubes",
+      "Inconel 718 alloy",
+      "superalloy products",
+      "high temperature alloys",
+      "aerospace materials",
+      "gas turbine materials",
+    ],
+    faqSchema: [
+      {
+        question: "What Inconel grades does Starlight Tubes offer?",
+        answer:
+          "We offer Inconel 600, 601, 625, 718, 725, 800, 800H, 800HT, 825, and X-750 in pipes, tubes, tubing, plates, sheets, round bars, bolts, and fasteners.",
+      },
+      {
+        question: "What makes Inconel superior to other alloys?",
+        answer:
+          "Inconel superalloys maintain strength at extreme temperatures (up to 1000°C), resist oxidation and corrosion, and perform exceptionally in aerospace, gas turbines, nuclear reactors, and chemical processing environments.",
+      },
+      {
+        question: "What standards do Inconel products meet?",
+        answer:
+          "Our Inconel products meet ASTM B167, B168, B407, B408, B409, B423, B444, B446, B564 standards, with compliance to AMS and NACE MR0175 specifications.",
+      },
+    ],
   });
   const ctaData = {
     title: "Inconel Products",

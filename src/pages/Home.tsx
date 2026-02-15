@@ -15,7 +15,7 @@ const stainlessSteelItems = [
   "Super Duplex Stainless Steel Tube",
   "Stainless Steel Pipe",
   "Stainless Steel Sheet",
-  "Stainless Steel Round Bar",
+  "Stainless Steel Bar",
   "Stainless Steel Fasteners",
   "Stainless Steel Wire",
   "304 Stainless Steel Pipe",
@@ -31,7 +31,7 @@ const stainlessSteelLinks = [
   "/stainless-steel-tube",
   "/stainless-steel-pipe",
   "/stainless-steel-sheet",
-  "/stainless-steel-round-bar",
+  "/stainless-steel-bar",
   "/stainless-steel-fasteners",
   "/stainless-steel-wire",
   "/stainless-steel-304-pipe",
@@ -46,7 +46,7 @@ const nickelAlloyItems = [
   "Nickel Sheet",
   "Inconel Pipe",
   "Inconel Plate",
-  "Inconel Round Bar",
+  "Inconel Bar",
   "Inconel Bolts",
   "Inconel 600 Plate",
   "Inconel 600 Pipe",
@@ -60,7 +60,7 @@ const nickelAlloyLinks = [
   "/nickel-sheet",
   "/inconel-pipe",
   "/inconel-plate",
-  "/inconel-round-bar",
+  "/inconel-bar",
   "/inconel-bolts",
   "/inconel-600-plate",
   "/inconel-600-pipe",
@@ -69,32 +69,32 @@ const nickelAlloyLinks = [
   "/inconel-625-plate",
 ];
 
-const carbonSteelItems = [
-  "Carbon Steel Pipe",
-  "Carbon Steel Welded Pipe",
-  "ASTM A106",
-  "ASTM A53",
-  "ASTM A333",
-  "API 5L Grade B",
-  "API 5L X65",
-  "API 5L X52",
-  "API 5L X42",
-  "A671 Pipe",
-  "A672 Pipe",
+const pipeFittingsItems = [
+  "Butt Weld Fittings",
+  "Elbow Fittings",
+  "Tee Fittings",
+  "Reducer Fittings",
+  "Cap Fittings",
+  "Coupling Fittings",
+  "Union Fittings",
+  "Flanges",
+  "Socket Weld Fittings",
+  "Threaded Fittings",
+  "Pipe Fittings",
 ];
 
-const carbonSteelLinks = [
-  "/carbon-steel-pipe",
-  "/carbon-steel-pipe",
-  "/astm-a106-pipe",
-  "/astm-a53-pipe",
-  "/astm-a333-pipe",
-  "/api-5l-grade-b-pipe",
-  "/api-5l-x65-pipe",
-  "/api-5l-x52-pipe",
-  "/api-5l-x42-pipe",
-  "/a671-pipe",
-  "/a672-pipe",
+const pipeFittingsLinks = [
+  "/butt-weld-fittings",
+  "/elbow-fittings",
+  "/tee-fittings",
+  "/reducer-fittings",
+  "/cap-fittings",
+  "/coupling-fittings",
+  "/union-fittings",
+  "/flanges",
+  "/socket-weld-fittings",
+  "/threaded-fittings",
+  "/pipe-fittings",
 ];
 
 const Home = () => {
@@ -107,6 +107,7 @@ const Home = () => {
     keywords:
       "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, steel tube exporter, pipe manufacturer India, tube manufacturer India, steel pipe factory, steel pipe supplier, steel pipe distributor, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, inconel pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, steel pipe manufacturer Mumbai, steel pipe exporter India, best steel pipe manufacturer, top steel pipe exporter, leading pipe manufacturer, premium steel tubes, quality steel pipes, steel pipe manufacturing company, steel tube manufacturing factory, pipe manufacturer exporter, steel pipes wholesale, bulk steel pipes supplier, international steel pipe exporter, global steel pipe manufacturer, Starlight Tubes, stainless steel 304 manufacturer, stainless steel 316 manufacturer, carbon steel ASTM A106 manufacturer, API 5L pipe manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer",
     url: "https://www.starlighttubes.com",
+    breadcrumbs: [{ name: "Home", url: "https://www.starlighttubes.com/" }],
     // AEO: FAQ Schema for Answer Engines
     faqSchema: [
       {
@@ -237,9 +238,9 @@ const Home = () => {
               links={nickelAlloyLinks}
             />
             <MeteorsDemo
-              title="Carbon Steel"
-              items={carbonSteelItems}
-              links={carbonSteelLinks}
+              title="Pipe Fittings"
+              items={pipeFittingsItems}
+              links={pipeFittingsLinks}
             />
           </div>
         </div>

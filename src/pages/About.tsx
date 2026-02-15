@@ -9,12 +9,12 @@ import { BottomCTA } from "../components/sub components/BottomCTA";
 const WorldMapDemo = lazy(() =>
   import("../components/main components/AboutMap").then((m) => ({
     default: m.WorldMapDemo,
-  }))
+  })),
 );
 const CardSpotlightDemo = lazy(() =>
   import("../components/main components/AboutSpotLightCard").then((m) => ({
     default: m.CardSpotlightDemo,
-  }))
+  })),
 );
 
 // Loading fallback for 3D components
@@ -69,6 +69,50 @@ const About = () => {
         question: "What certifications does Starlight Tubes have?",
         answer:
           "Starlight Tubes holds ISO 9001:2015, ISO 14001, OHSAS 18001 certifications, PED 97/23/EC approval, and is a Government of India Recognized Export House.",
+      },
+    ],
+    serviceSchema: {
+      name: "Steel Pipe Manufacturing & Global Export Services",
+      description:
+        "Comprehensive steel pipe manufacturing and global export services including stainless steel, carbon steel, nickel alloy pipes, fittings, and flanges with ISO certification, mill test certificates, and worldwide door-to-door delivery.",
+      serviceType: "Manufacturing & Export",
+      areaServed: [
+        "United States",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "United Kingdom",
+        "Germany",
+        "France",
+        "India",
+        "Singapore",
+        "Malaysia",
+        "Australia",
+      ],
+    },
+    featuredSnippet: {
+      type: "list",
+      content: "Why Choose Starlight Tubes as Your Steel Pipe Manufacturer",
+      listItems: [
+        "ISO 9001:2015, ISO 14001, OHSAS 18001 Certified",
+        "Government of India Recognized Export House",
+        "Export to 60+ Countries Worldwide",
+        "5+ Years of Manufacturing Excellence",
+        "Complete Range: SS, CS, Nickel Alloy, Copper, Aluminium",
+        "24/7 Technical Support & Mill Test Certificates",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "How many countries does Starlight Tubes export to?",
+        answer:
+          "Starlight Tubes exports steel pipes and tubes to over 60 countries worldwide including USA, UK, Germany, UAE, Saudi Arabia, Singapore, Malaysia, Australia, and Africa.",
+        upvoteCount: 85,
+      },
+      {
+        question: "What is Starlight Tubes' manufacturing capacity?",
+        answer:
+          "Starlight Tubes has a state-of-the-art manufacturing facility in Mumbai, India capable of producing stainless steel, carbon steel, nickel alloy pipes and tubes in all standard and custom sizes with a monthly capacity serving global demand.",
+        upvoteCount: 72,
       },
     ],
   });

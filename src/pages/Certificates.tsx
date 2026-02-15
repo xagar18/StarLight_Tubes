@@ -51,7 +51,33 @@ const Certificates = () => {
       {
         question: "Is Starlight Tubes a government approved exporter?",
         answer:
-          "Yes, Starlight Tubes is a Government of India Recognized Export House with valid GST registration, export license, and all necessary certifications for international trade.",
+          "Yes, Starlight Tubes is a Government of India Recognized Export House with valid GST registration (GSTIN: 27DMZPA1125E1Z6), export license (IEC: DMZPA1125E), and all necessary certifications for international trade.",
+      },
+    ],
+    featuredSnippet: {
+      type: "list",
+      content: "Starlight Tubes Quality Certifications",
+      listItems: [
+        "ISO 9001:2015 - Quality Management System",
+        "ISO 14001 - Environmental Management System",
+        "OHSAS 18001 - Occupational Health & Safety",
+        "PED 97/23/EC - Pressure Equipment Directive",
+        "Government of India Recognized Export House",
+        "Mill Test Certificates (EN 10204 3.1/3.2)",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "Does Starlight Tubes provide third-party inspection?",
+        answer:
+          "Yes, Starlight Tubes arranges third-party inspection through agencies like Lloyd's, Bureau Veritas, SGS, TUV, and DNV as per customer requirements. All inspection reports are provided with shipment.",
+        upvoteCount: 88,
+      },
+      {
+        question: "What is a Mill Test Certificate (MTC)?",
+        answer:
+          "A Mill Test Certificate (MTC) is a quality assurance document certifying that the material meets the required chemical composition, mechanical properties, and dimensional specifications as per ASTM/ASME standards. Starlight Tubes provides EN 10204 3.1 or 3.2 MTCs with every order.",
+        upvoteCount: 95,
       },
     ],
   });

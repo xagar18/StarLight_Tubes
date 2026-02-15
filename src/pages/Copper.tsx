@@ -103,6 +103,33 @@ const Copper = () => {
           "We supply copper pipes from 1/4 inch to 8 inch NB, sheets from 0.5mm to 50mm thickness, and rods from 3mm to 200mm diameter, meeting ASTM B42, B75, B88, B152, EN 12449, JIS H3300 standards.",
       },
     ],
+    featuredSnippet: {
+      type: "list",
+      content: "Copper & Cupro Nickel Products by Starlight Tubes",
+      listItems: [
+        "Copper Pipes & Tubes (ASTM B42, B75, B88)",
+        "Copper Sheets, Plates & Coils (ASTM B152)",
+        "Copper Round Bars & Rods",
+        "Cupro Nickel 90/10 Pipes & Tubes",
+        "Cupro Nickel 70/30 Pipes & Tubes",
+        "Copper Fittings - Elbows, Tees, Reducers",
+      ],
+    },
+    qaSchema: [
+      {
+        question:
+          "What is the difference between cupro nickel 90/10 and 70/30?",
+        answer:
+          "Cupro Nickel 90/10 (C70600) contains 90% copper and 10% nickel, offering good corrosion resistance for seawater applications. CuNi 70/30 (C71500) contains 70% copper and 30% nickel, providing superior corrosion and erosion resistance for aggressive marine environments and condensers.",
+        upvoteCount: 105,
+      },
+      {
+        question: "What copper grades are best for HVAC systems?",
+        answer:
+          "C12200 (DHP - Deoxidized High Phosphorus) copper is the most commonly used grade for HVAC piping and plumbing due to its excellent brazeability, solderability, and corrosion resistance. Starlight Tubes supplies HVAC copper tubes meeting ASTM B88 and B280 standards.",
+        upvoteCount: 90,
+      },
+    ],
   });
   const ctaData = {
     title: "Copper Products",

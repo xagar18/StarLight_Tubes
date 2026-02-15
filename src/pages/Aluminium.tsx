@@ -100,6 +100,32 @@ const Aluminium = () => {
           "We supply aluminium pipes from 1/4 inch to 12 inch NB, sheets from 0.5mm to 100mm thickness, and rods from 3mm to 300mm diameter, meeting ASTM B221, B209, B241, EN 573, EN 485, JIS H4000 standards.",
       },
     ],
+    featuredSnippet: {
+      type: "list",
+      content: "Aluminium Products & Grades by Starlight Tubes",
+      listItems: [
+        "Aluminium 6061 - General Engineering & Structural",
+        "Aluminium 6063 - Architectural & Extrusions",
+        "Aluminium 5052 - Marine & Chemical Equipment",
+        "Aluminium 7075 - Aerospace & High-Strength Applications",
+        "Aluminium Sheets, Plates, Coils & Foils",
+        "Aluminium Round Bars, Flat Bars & Rods",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "Which aluminium alloy is strongest?",
+        answer:
+          "Aluminium 7075-T6 is one of the strongest aluminium alloys with tensile strength of 572 MPa (83 ksi) and yield strength of 503 MPa (73 ksi). It is widely used in aerospace, defense, and high-stress structural applications. Starlight Tubes supplies 7075 in all product forms.",
+        upvoteCount: 115,
+      },
+      {
+        question: "What aluminium grade is best for welding?",
+        answer:
+          "Aluminium 6061 and 5052 are the most weldable grades. 6061 offers good strength with excellent weldability using TIG/MIG welding. 5052 provides the best combination of weldability and corrosion resistance for marine and chemical applications.",
+        upvoteCount: 98,
+      },
+    ],
   });
   const ctaData = {
     title: "Aluminium Products",

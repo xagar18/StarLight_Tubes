@@ -67,6 +67,33 @@ const StainlessSteel = () => {
           "We supply stainless steel pipes from 1/8 inch to 24 inch NB, sheets from 0.5mm to 100mm thickness, and round bars from 3mm to 500mm diameter, meeting ASTM A312, A269, A270, A213 standards.",
       },
     ],
+    featuredSnippet: {
+      type: "list",
+      content: "Stainless Steel Products by Starlight Tubes",
+      listItems: [
+        "SS 304/304L Pipes & Tubes (ASTM A312 TP304)",
+        "SS 316/316L Pipes & Tubes (ASTM A312 TP316)",
+        "Duplex 2205 & Super Duplex 2507 Pipes",
+        "Stainless Steel Sheets, Plates & Coils",
+        "SS Round Bars, Flat Bars & Wire",
+        "SS Fasteners - Bolts, Nuts, Washers",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "What is the price of SS 304 pipe per kg?",
+        answer:
+          "SS 304 pipe prices vary based on size, wall thickness, and quantity. Starlight Tubes offers competitive factory-direct pricing. Contact us with your specific requirements for the best quote. We offer bulk discounts.",
+        upvoteCount: 180,
+      },
+      {
+        question:
+          "Which stainless steel grade is best for marine applications?",
+        answer:
+          "SS 316L and Duplex 2205 are recommended for marine applications due to their superior resistance to chloride-induced corrosion and pitting. SS 316L contains molybdenum for added protection. Super Duplex 2507 offers the highest marine corrosion resistance.",
+        upvoteCount: 140,
+      },
+    ],
   });
   const ctaData = {
     title: "Stainless Steel Products",

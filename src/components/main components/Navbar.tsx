@@ -11,7 +11,6 @@ import {
   NavItems,
 } from "@/components/ui/resizable-navbar";
 import { useState, type ReactNode } from "react";
-import { Link } from "react-router";
 
 export function NavbarDemo({ children }: { children?: ReactNode }) {
   const navItems = [
@@ -21,24 +20,24 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
     },
     {
       name: "About Us",
-      link: "about",
+      link: "/about",
     },
     {
       name: "Products",
-      link: "product",
+      link: "/product",
     },
     {
       name: "Tech Info.",
-      link: "technical-info",
+      link: "/technical-info",
     },
 
     {
       name: "Coating",
-      link: "coating",
+      link: "/coating",
     },
     {
       name: "Contact",
-      link: "contact",
+      link: "/contact",
     },
   ];
 
@@ -52,14 +51,14 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <Link to="/contact">
+            <a href="/Catalogue.pdf" target="_blank" rel="noopener noreferrer">
               <NavbarButton
                 variant="primary"
                 className="px-6 py-2.5 text-sm font-semibold tracking-wide"
               >
-                Book a Call
+                Catalogue
               </NavbarButton>
-            </Link>
+            </a>
           </div>
         </NavBody>
 
@@ -79,21 +78,26 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-neutral-600 dark:text-neutral-300"
+                className="relative w-full rounded-md px-3 py-2.5 text-base font-medium text-neutral-600 active:bg-gray-100 dark:text-neutral-300 dark:active:bg-neutral-800"
               >
                 <span className="block">{item.name}</span>
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-              <Link to="/contact" className="w-full">
+              <a
+                href="/Catalogue.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full"
+              >
                 <NavbarButton
                   onClick={() => setIsMobileMenuOpen(false)}
                   variant="primary"
                   className="w-full px-6 py-3 text-sm font-semibold tracking-wide"
                 >
-                  Book a Call
+                  Catalogue
                 </NavbarButton>
-              </Link>
+              </a>
             </div>
           </MobileNavMenu>
         </MobileNav>

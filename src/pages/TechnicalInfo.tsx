@@ -64,9 +64,35 @@ const TechnicalInfo = () => {
           "Contact our technical team for material selection guidance, specification clarification, and custom requirement discussions. We provide 24/7 technical support for all inquiries.",
       },
     ],
+    featuredSnippet: {
+      type: "list",
+      content: "Steel Pipe Technical Data Available at Starlight Tubes",
+      listItems: [
+        "Chemical Composition - Element Percentages for All Grades",
+        "Mechanical Properties - Tensile, Yield Strength, Elongation",
+        "Pipe Dimensions - OD, Wall Thickness, Weight per Meter",
+        "ASTM/ASME Standards - A312, A106, A53, B407, B444",
+        "Pressure Ratings - Working Pressure at Various Temperatures",
+        "Equivalent Grades - International Standard Cross-Reference",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "What is the chemical composition of SS 304 pipe?",
+        answer:
+          "SS 304 contains 18-20% Chromium, 8-10.5% Nickel, max 0.08% Carbon, max 2% Manganese, max 0.75% Silicon with balance Iron. It meets ASTM A312 TP304 specification.",
+        upvoteCount: 150,
+      },
+      {
+        question: "What is the tensile strength of carbon steel pipe?",
+        answer:
+          "ASTM A106 Grade B carbon steel pipe has minimum tensile strength of 415 MPa (60 ksi), yield strength of 240 MPa (35 ksi), and elongation of 30%. API 5L Grade B has similar properties with 415 MPa tensile strength.",
+        upvoteCount: 120,
+      },
+    ],
   });
   const [view, setView] = useState<"chemical" | "mechanical" | "dimensions">(
-    "chemical"
+    "chemical",
   );
 
   return (

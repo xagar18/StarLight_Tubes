@@ -48,12 +48,6 @@ User-agent: LinkedInBot
 Allow: /
 
 # Block bad bots
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: SemrushBot
-Disallow: /
-
 User-agent: MJ12bot
 Disallow: /
 

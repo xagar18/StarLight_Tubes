@@ -36,6 +36,35 @@ export interface SubPageData {
     entityType?: string;
     relatedEntities?: string[];
     faqSchema?: Array<{ question: string; answer: string }>;
+    featuredSnippet?: {
+      type: "paragraph" | "list" | "table";
+      content: string;
+      listItems?: string[];
+    };
+    qaSchema?: Array<{
+      question: string;
+      answer: string;
+      upvoteCount?: number;
+    }>;
+    serviceSchema?: {
+      name: string;
+      description: string;
+      provider?: string;
+      serviceType?: string;
+      areaServed?: string | string[];
+    };
+    howToSchema?: {
+      name: string;
+      description: string;
+      steps: Array<{ name: string; text: string }>;
+    };
+    articleSchema?: {
+      headline: string;
+      description: string;
+      datePublished: string;
+      dateModified?: string;
+      author?: string;
+    };
   };
   pageHero: {
     title: string;
@@ -147,6 +176,11 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
       | undefined,
     relatedEntities: seo.relatedEntities,
     faqSchema: seo.faqSchema,
+    featuredSnippet: seo.featuredSnippet,
+    qaSchema: seo.qaSchema,
+    serviceSchema: seo.serviceSchema,
+    howToSchema: seo.howToSchema,
+    articleSchema: seo.articleSchema,
   });
 
   const sectionBadge =

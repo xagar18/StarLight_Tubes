@@ -67,6 +67,33 @@ const CarbonSteel = () => {
           "We supply seamless pipes from 1/2 inch to 24 inch NB and welded pipes from 1/2 inch to 72 inch NB, with wall thickness from SCH 10 to XXS, meeting ASTM, API, and IS standards.",
       },
     ],
+    featuredSnippet: {
+      type: "list",
+      content: "Carbon Steel Pipe Grades by Starlight Tubes",
+      listItems: [
+        "ASTM A106 Grade B/C - High Temperature Service",
+        "API 5L Grade B/X42/X52/X65 - Oil & Gas Pipelines",
+        "ASTM A53 Grade B - General Purpose",
+        "ASTM A333 Grade 6 - Low Temperature Service",
+        "ASTM A671/A672 - EFW Pipes for Pressure Service",
+        "IS 1239/IS 3589 - Indian Standard Pipes",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "What is the price of ASTM A106 carbon steel pipe?",
+        answer:
+          "ASTM A106 Grade B pipe prices depend on size, schedule, and order quantity. Starlight Tubes offers factory-direct competitive pricing with bulk discounts. Contact us for current pricing.",
+        upvoteCount: 160,
+      },
+      {
+        question:
+          "What is the difference between seamless and ERW carbon steel pipe?",
+        answer:
+          "Seamless pipes are made from solid billets without welds, offering higher pressure ratings and uniformity - ideal for critical applications. ERW (Electric Resistance Welded) pipes are made from rolled steel strips, are more economical, and suitable for structural and low-pressure applications.",
+        upvoteCount: 135,
+      },
+    ],
   });
   const ctaData = {
     title: "Carbon Steel Products",

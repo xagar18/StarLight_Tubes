@@ -100,6 +100,32 @@ const Fittings = () => {
           "We supply pipe fittings from 1/2 inch to 48 inch NB, meeting ASTM A403, A234, A105, A182, EN 10253, DIN 2605, ASME B16.9, and B16.5 standards.",
       },
     ],
+    featuredSnippet: {
+      type: "list",
+      content: "Types of Pipe Fittings Manufactured by Starlight Tubes",
+      listItems: [
+        "Butt Weld Fittings - Elbows, Tees, Reducers, Caps (ASME B16.9)",
+        "Socket Weld Fittings - Elbows, Tees, Couplings (ASME B16.11)",
+        "Threaded Fittings - Elbows, Tees, Unions, Nipples",
+        "Flanges - Weld Neck, Slip-On, Blind, Socket Weld (ASME B16.5)",
+        "Long Radius & Short Radius Elbows (45°, 90°, 180°)",
+        "Concentric & Eccentric Reducers",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "What is the difference between ANSI and DIN flanges?",
+        answer:
+          "ANSI flanges follow American (ASME B16.5) standards with pressure classes 150-2500. DIN flanges follow European (EN 1092) standards with PN ratings (PN6-PN400). Bolt patterns, dimensions, and face types differ. Starlight Tubes supplies both ANSI and DIN flanges.",
+        upvoteCount: 130,
+      },
+      {
+        question: "What materials are pipe fittings available in?",
+        answer:
+          "Starlight Tubes manufactures pipe fittings in SS 304/316/316L, carbon steel (A234 WPB), alloy steel (A234 WP11/WP22/WP91), nickel alloys (Inconel 625/600, Monel), copper alloys, and duplex/super duplex stainless steel.",
+        upvoteCount: 105,
+      },
+    ],
   });
   const ctaData = {
     title: "Pipe Fittings & Flanges",

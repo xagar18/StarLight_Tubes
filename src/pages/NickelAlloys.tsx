@@ -67,6 +67,33 @@ const NickelAlloys = () => {
           "Our nickel alloy products meet ASTM B161, B162, B163, B164, B165, B166, B564, B574, B575 standards with complete mill test certificates and PMI reports.",
       },
     ],
+    featuredSnippet: {
+      type: "list",
+      content: "Nickel Alloy Grades Available at Starlight Tubes",
+      listItems: [
+        "Nickel 200/201 - Pure Nickel for Chemical Processing",
+        "Monel 400 - Seawater & Marine Applications",
+        "Monel K500 - High Strength Marine Alloy",
+        "Hastelloy C276 - Universal Corrosion Resistant Alloy",
+        "Hastelloy C22 - Oxidizing & Reducing Environments",
+        "Incoloy 800/800H/800HT - High Temperature Service",
+      ],
+    },
+    qaSchema: [
+      {
+        question:
+          "What is the difference between Monel 400 and Hastelloy C276?",
+        answer:
+          "Monel 400 (67% Ni, 30% Cu) excels in seawater, marine, and alkaline environments. Hastelloy C276 (57% Ni, 16% Cr, 16% Mo) provides universal corrosion resistance in both oxidizing and reducing acids, chloride stress cracking, and pitting. C276 handles more aggressive chemical environments.",
+        upvoteCount: 125,
+      },
+      {
+        question: "What temperature can nickel alloy pipes withstand?",
+        answer:
+          "Nickel alloy pipes can withstand extreme temperatures: Nickel 200 up to 315°C, Monel 400 up to 480°C, Hastelloy C276 up to 1093°C, and Incoloy 800H up to 1100°C. Starlight Tubes provides the right alloy for your temperature requirements.",
+        upvoteCount: 110,
+      },
+    ],
   });
   const ctaData = {
     title: "Nickel Alloy Products",

@@ -58,6 +58,73 @@ const Coating = () => {
           "Coated pipes are used in oil & gas transmission, water distribution, sewage systems, chemical plants, and power generation where corrosion protection is critical for long service life.",
       },
     ],
+    serviceSchema: {
+      name: "Pipe Coating Services - FBE, Epoxy, 3LPE",
+      description:
+        "Professional pipe coating services including FBE coating, epoxy coating, and 3LPE coating for corrosion protection of industrial pipelines in oil & gas, water transmission, and chemical processing applications.",
+      serviceType: "Pipe Coating & Surface Treatment",
+      areaServed: [
+        "United States",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "United Kingdom",
+        "India",
+        "Singapore",
+        "Australia",
+      ],
+    },
+    howToSchema: {
+      name: "FBE Pipe Coating Process - Step by Step",
+      description:
+        "Complete step-by-step guide to the Fusion Bonded Epoxy (FBE) coating process for industrial steel pipes.",
+      totalTime: "PT4H",
+      steps: [
+        {
+          name: "Surface Preparation & Cleaning",
+          text: "Pipes are cleaned through abrasive blasting (shot blasting or grit blasting) to remove mill scale, rust, and contaminants. Surface profile is checked to ensure proper adhesion.",
+        },
+        {
+          name: "Preheating the Pipe",
+          text: "Pipes are heated to 220-245°C using induction heating or gas furnace to ensure proper fusion of epoxy powder during application.",
+        },
+        {
+          name: "FBE Powder Application",
+          text: "Electrostatic spray guns apply FBE powder to the heated pipe surface. The powder melts and flows to form a uniform protective coating of 300-500 microns thickness.",
+        },
+        {
+          name: "Curing & Cooling",
+          text: "The coated pipe passes through a curing oven where the epoxy cross-links and hardens. Pipes are then water-quenched or air-cooled to ambient temperature.",
+        },
+        {
+          name: "Quality Inspection & Testing",
+          text: "Finished coating is inspected for thickness (DFT gauge), adhesion (pull-off test), porosity (holiday detection), and flexibility (bend test) to ensure compliance with standards.",
+        },
+      ],
+    },
+    productSchema: {
+      name: "FBE Coated Pipes & Epoxy Coated Steel Pipes",
+      description:
+        "Premium quality FBE coated and epoxy coated steel pipes for corrosion protection in oil & gas, water transmission, and industrial pipeline applications.",
+      category: "Coated Pipes",
+      material: "Carbon Steel with FBE/Epoxy/3LPE Coating",
+      offers: {
+        priceCurrency: "USD",
+        lowPrice: "25",
+        highPrice: "5000",
+        availability: "https://schema.org/InStock",
+      },
+    },
+    featuredSnippet: {
+      type: "list",
+      content: "Types of Pipe Coating Available at Starlight Tubes",
+      listItems: [
+        "FBE Coating (Fusion Bonded Epoxy) - 300-500 microns",
+        "3LPE Coating (3-Layer Polyethylene) - External Protection",
+        "Epoxy Coating - Internal & External",
+        "Coal Tar Epoxy Coating",
+        "Polyurethane Coating",
+      ],
+    },
   });
   const projects = [
     {

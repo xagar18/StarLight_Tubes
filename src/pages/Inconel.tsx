@@ -64,6 +64,32 @@ const Inconel = () => {
           "Our Inconel products meet ASTM B167, B168, B407, B408, B409, B423, B444, B446, B564 standards, with compliance to AMS and NACE MR0175 specifications.",
       },
     ],
+    featuredSnippet: {
+      type: "list",
+      content: "Inconel Superalloy Grades by Starlight Tubes",
+      listItems: [
+        "Inconel 600 - Oxidation Resistant up to 1095°C",
+        "Inconel 625 - Superior Corrosion & Fatigue Resistance",
+        "Inconel 718 - High Strength Precipitation Hardened",
+        "Inconel 800/800H/800HT - High Temperature Creep Resistant",
+        "Inconel 825 - Acid & Stress Corrosion Resistant",
+        "Inconel X-750 - Gas Turbine & Rocket Engine Parts",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "What is the difference between Inconel 625 and 718?",
+        answer:
+          "Inconel 625 is a solid-solution strengthened alloy with excellent corrosion resistance and weldability, used in marine and chemical processing. Inconel 718 is precipitation hardened for much higher strength (up to 1240 MPa tensile), used in aerospace jet engines and gas turbines. 718 can be age-hardened while 625 cannot.",
+        upvoteCount: 145,
+      },
+      {
+        question: "What is the maximum operating temperature for Inconel 625?",
+        answer:
+          "Inconel 625 can operate continuously at temperatures up to 980°C (1800°F) while maintaining excellent mechanical properties. It resists oxidation up to 1093°C. Starlight Tubes supplies Inconel 625 pipes and tubes for high-temperature industrial applications.",
+        upvoteCount: 120,
+      },
+    ],
   });
   const ctaData = {
     title: "Inconel Products",

@@ -35,7 +35,7 @@ const Contact = () => {
       {
         question: "How can I contact Starlight Tubes?",
         answer:
-          "You can contact Starlight Tubes by calling +91-9892233118, emailing through our contact form, or visiting our Mumbai office. We respond to all inquiries within 24 hours.",
+          "You can contact Starlight Tubes by calling +91-8591470791 (International) or +91-9892233118, emailing sales@starlighttubes.com, or visiting our Mumbai office. We respond to all inquiries within 24 hours.",
       },
       {
         question: "How do I get a quote for steel pipes?",
@@ -45,7 +45,60 @@ const Contact = () => {
       {
         question: "Does Starlight Tubes deliver internationally?",
         answer:
-          "Yes, Starlight Tubes exports to over 50 countries including USA, Europe, Middle East, and Asia. We handle complete export documentation and logistics.",
+          "Yes, Starlight Tubes exports to over 60 countries including USA, Europe, Middle East, and Asia. We handle complete export documentation and logistics.",
+      },
+    ],
+    howToSchema: {
+      name: "How to Order Steel Pipes from Starlight Tubes",
+      description:
+        "Step-by-step guide to ordering steel pipes from Starlight Tubes, India's leading manufacturer and exporter.",
+      totalTime: "PT24H",
+      steps: [
+        {
+          name: "Submit Your Requirements",
+          text: "Send your steel pipe requirements via our contact form, email (sales@starlighttubes.com), or WhatsApp (+91-8591470791). Include material grade, size, quantity, and specifications.",
+        },
+        {
+          name: "Receive Quotation",
+          text: "Our sales team reviews your requirements and provides a detailed competitive quotation within 24 hours including pricing, delivery timeline, and payment terms.",
+        },
+        {
+          name: "Confirm Order & Payment",
+          text: "Confirm your order by accepting the quotation and making advance payment via bank transfer, LC, or other agreed payment methods.",
+        },
+        {
+          name: "Production & Quality Testing",
+          text: "Your order enters production with full quality control including mill test certificates, chemical analysis, mechanical testing, and third-party inspection as required.",
+        },
+        {
+          name: "Delivery with Documentation",
+          text: "Receive your order with complete documentation including Mill Test Certificates (MTC), packing list, invoice, and export documentation. We offer door-to-door delivery worldwide.",
+        },
+      ],
+    },
+    featuredSnippet: {
+      type: "list",
+      content: "Ways to Contact Starlight Tubes",
+      listItems: [
+        "Phone (International): +91-8591470791",
+        "Phone: +91-9892233118",
+        "Email: sales@starlighttubes.com",
+        "Office: Mumbai, Maharashtra, India",
+        "Response Time: Within 24 hours",
+      ],
+    },
+    qaSchema: [
+      {
+        question: "What is the minimum order quantity for steel pipes?",
+        answer:
+          "Starlight Tubes accepts both small and bulk orders. Minimum order quantities vary by product - contact us for specific MOQ details. We offer competitive pricing for all order sizes.",
+        upvoteCount: 110,
+      },
+      {
+        question: "What is the delivery time for steel pipe orders?",
+        answer:
+          "Standard delivery time is 7-15 days for stock items and 30-45 days for custom manufacturing. Express delivery available for urgent requirements. International shipping typically takes 15-30 days.",
+        upvoteCount: 95,
       },
     ],
   });

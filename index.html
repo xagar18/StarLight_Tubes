@@ -501,14 +501,32 @@
       }
     </script>
 
-    <!-- WebSite Schema -->
+    <!-- WebSite Schema with SearchAction for Sitelinks -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
+        "@id": "https://www.starlighttubes.com/#website",
         "name": "Starlight Tubes",
-        "alternateName": "Starlight Tubes - Steel Pipe Manufacturer",
-        "url": "https://www.starlighttubes.com"
+        "alternateName": [
+          "Starlight Tubes India",
+          "Starlight Steel Pipes",
+          "Starlight Tubes Manufacturer"
+        ],
+        "url": "https://www.starlighttubes.com",
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.starlighttubes.com/#organization"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.starlighttubes.com/product?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       }
     </script>
 
@@ -517,77 +535,105 @@
       {
         "@context": "https://schema.org",
         "@type": "ItemList",
+        "name": "Starlight Tubes Site Navigation",
+        "description": "Main navigation pages for Starlight Tubes - Steel Pipe Manufacturer & Exporter",
         "itemListElement": [
           {
             "@type": "SiteNavigationElement",
             "position": 1,
             "name": "Home",
+            "description": "Starlight Tubes - Leading Steel Pipe Manufacturer & Exporter in India",
             "url": "https://www.starlighttubes.com/"
           },
           {
             "@type": "SiteNavigationElement",
             "position": 2,
             "name": "Products",
+            "description": "Complete range of steel pipes, tubes, fittings & flanges",
             "url": "https://www.starlighttubes.com/product"
           },
           {
             "@type": "SiteNavigationElement",
             "position": 3,
-            "name": "Stainless Steel",
-            "url": "https://www.starlighttubes.com/stainless-steel"
-          },
-          {
-            "@type": "SiteNavigationElement",
-            "position": 4,
-            "name": "Carbon Steel",
-            "url": "https://www.starlighttubes.com/carbon-steel"
-          },
-          {
-            "@type": "SiteNavigationElement",
-            "position": 5,
-            "name": "Nickel Alloys",
-            "url": "https://www.starlighttubes.com/nickel-alloys"
-          },
-          {
-            "@type": "SiteNavigationElement",
-            "position": 6,
-            "name": "Inconel",
-            "url": "https://www.starlighttubes.com/inconel"
-          },
-          {
-            "@type": "SiteNavigationElement",
-            "position": 7,
-            "name": "Copper",
-            "url": "https://www.starlighttubes.com/copper"
-          },
-          {
-            "@type": "SiteNavigationElement",
-            "position": 8,
-            "name": "Aluminium",
-            "url": "https://www.starlighttubes.com/aluminium"
-          },
-          {
-            "@type": "SiteNavigationElement",
-            "position": 9,
-            "name": "Fittings",
-            "url": "https://www.starlighttubes.com/fittings"
-          },
-          {
-            "@type": "SiteNavigationElement",
-            "position": 10,
             "name": "About Us",
+            "description": "About Starlight Tubes - ISO certified steel pipe manufacturer since 2020",
             "url": "https://www.starlighttubes.com/about"
           },
           {
             "@type": "SiteNavigationElement",
-            "position": 11,
+            "position": 4,
             "name": "Contact",
+            "description": "Contact Starlight Tubes for steel pipe quotes and enquiries",
             "url": "https://www.starlighttubes.com/contact"
           },
           {
             "@type": "SiteNavigationElement",
+            "position": 5,
+            "name": "Stainless Steel",
+            "description": "Stainless steel pipe manufacturer - SS 304, 316, 316L pipes & tubes",
+            "url": "https://www.starlighttubes.com/stainless-steel"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 6,
+            "name": "Carbon Steel",
+            "description": "Carbon steel pipe manufacturer - ASTM A106, API 5L pipes",
+            "url": "https://www.starlighttubes.com/carbon-steel"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 7,
+            "name": "Nickel Alloys",
+            "description": "Nickel alloy pipe manufacturer - Monel, Hastelloy, Nickel 200 pipes",
+            "url": "https://www.starlighttubes.com/nickel-alloys"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 8,
+            "name": "Inconel",
+            "description": "Inconel pipe manufacturer - Inconel 625, 600, 718 superalloy pipes",
+            "url": "https://www.starlighttubes.com/inconel"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 9,
+            "name": "Copper",
+            "description": "Copper pipe manufacturer - Copper tubes, sheets, cupro nickel pipes",
+            "url": "https://www.starlighttubes.com/copper"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 10,
+            "name": "Aluminium",
+            "description": "Aluminium pipe manufacturer - 6061, 6063, 5052, 7075 aluminium products",
+            "url": "https://www.starlighttubes.com/aluminium"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 11,
+            "name": "Fittings",
+            "description": "Pipe fittings manufacturer - Elbows, Tees, Reducers, Flanges",
+            "url": "https://www.starlighttubes.com/fittings"
+          },
+          {
+            "@type": "SiteNavigationElement",
             "position": 12,
+            "name": "Coating",
+            "description": "FBE & Epoxy coated pipe manufacturer for corrosion protection",
+            "url": "https://www.starlighttubes.com/coating"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 13,
+            "name": "Technical Info",
+            "description": "Steel pipe specifications, chemical composition & mechanical properties",
+            "url": "https://www.starlighttubes.com/technical-info"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 14,
             "name": "Certificates",
+            "description": "Quality certificates - ISO 9001, PED, Mill Test Certificates",
             "url": "https://www.starlighttubes.com/certificates"
           }
         ]

@@ -4,14 +4,7 @@
 User-agent: *
 Allow: /
 
-# Disallow admin or private areas (if any)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Disallow query parameters to avoid duplicate content
-Disallow: /*?*
-
-# Allow all CSS and JS files for better rendering
+# Allow all assets for proper rendering
 Allow: /*.css$
 Allow: /*.js$
 Allow: /*.png$
@@ -23,35 +16,27 @@ Allow: /*.svg$
 # Sitemap location
 Sitemap: https://www.starlighttubes.com/sitemap.xml
 
-# Crawl delay (optional, helps prevent server overload)
-Crawl-delay: 1
-
-# Allow all major search engines with specific rules
+# Major search engines
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
 
 User-agent: Googlebot-Image
 Allow: /
 
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 2
 
 User-agent: Slurp
 Allow: /
-Crawl-delay: 2
 
 User-agent: DuckDuckBot
 Allow: /
 
 User-agent: Baiduspider
 Allow: /
-Crawl-delay: 2
 
 User-agent: YandexBot
 Allow: /
-Crawl-delay: 2
 
 User-agent: facebookexternalhit
 Allow: /

@@ -1,0 +1,92 @@
+[build]
+  publish = "dist"
+  command = "pnpm build"
+
+# Enable Netlify's built-in prerendering for bots/crawlers
+# This sends pre-rendered HTML to search engine bots for better indexing
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = true
+
+# 301 redirects for alias routes (prevents duplicate content)
+[[redirects]]
+  from = "/aluminium-tube"
+  to = "/aluminium-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aluminium-plate"
+  to = "/aluminium-sheet"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/copper-plate"
+  to = "/copper-sheet"
+  status = 301
+  force = true
+
+# SPA fallback - MUST be last redirect rule
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Security and performance headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    X-XSS-Protection = "1; mode=block"
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache images
+[[headers]]
+  for = "*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "*.avif"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+# Don't cache HTML (SPA pages should always get fresh version)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Sitemap and robots - short cache
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/xml"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "text/plain"

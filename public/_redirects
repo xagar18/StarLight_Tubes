@@ -1,1 +1,7 @@
+# 301 redirects for alias routes (duplicate content prevention)
+/aluminium-tube   /aluminium-pipe   301
+/aluminium-plate  /aluminium-sheet  301
+/copper-plate     /copper-sheet     301
+
+# SPA fallback (must be last)
 /*    /index.html   200

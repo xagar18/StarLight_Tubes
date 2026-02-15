@@ -28,7 +28,7 @@ const PageNotFound = () => {
         </span>
 
         {/* Headline */}
-        <h1 className="text-[6rem] sm:text-[8rem] font-black leading-none text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-emerald-200 to-lime-200 drop-shadow-[0_0_22px_rgba(34,197,94,0.45)]">
+        <h1 className="text-[6rem] sm:text-[8rem] font-black leading-none text-transparent bg-clip-text bg-linear-to-r from-green-200 via-emerald-200 to-lime-200 drop-shadow-[0_0_22px_rgba(34,197,94,0.45)]">
           404
         </h1>
 

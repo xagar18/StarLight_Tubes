@@ -42,7 +42,7 @@ export default function FAQAccordion() {
     },
   ];
 
-  const toggleFAQ = (index: any) => {
+  const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? -1 : index);
   };
 
@@ -62,12 +62,13 @@ export default function FAQAccordion() {
           >
             <button
               onClick={() => toggleFAQ(index)}
+              aria-expanded={openIndex === index}
               className="w-full flex items-center justify-between p-6 text-left hover:bg-slate-800/50 transition-colors duration-200"
             >
               <span className="text-white font-medium pr-4">
                 {faq.question}
               </span>
-              <span className="text-white text-2xl flex-shrink-0">
+              <span className="text-white text-2xl shrink-0">
                 {openIndex === index ? "−" : "+"}
               </span>
             </button>

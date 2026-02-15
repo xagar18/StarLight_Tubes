@@ -5,9 +5,9 @@ export function CoatingCtaParent() {
     <div className="flex w-full items-center justify-center px-4 ">
       <div className="relative w-full max-w-[100rem]">
         {/* Background Gradient */}
-        <div className="absolute inset-0 h-full w-full scale-[0.85] transform rounded-full bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl opacity-30" />
+        <div className="absolute inset-0 h-full w-full scale-[0.85] transform rounded-full bg-linear-to-r from-blue-500 to-teal-500 blur-3xl opacity-30" />
 
-        <div className="relative flex h-full flex-col overflow-hidden rounded-3xl border border-gray-800 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 shadow-2xl">
+        <div className="relative flex h-full flex-col overflow-hidden rounded-3xl border border-gray-800 bg-linear-to-br from-gray-900 via-gray-800 to-gray-900 shadow-2xl">
           {/* Header Section */}
           <div className="px-10 pt-12 pb-8 border-b border-gray-700/50">
             <div className="inline-block px-4 py-2 mb-4 rounded-full bg-teal-500/10 border border-teal-500/20">
@@ -36,7 +36,7 @@ export function CoatingCtaParent() {
 
               <div className="space-y-5">
                 <div className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-teal-400 flex-shrink-0"></span>
+                  <span className="mt-2 h-2 w-2 rounded-full bg-teal-400 shrink-0"></span>
                   <div>
                     <span className="text-teal-400 font-medium">
                       Liquid Epoxy:
@@ -50,7 +50,7 @@ export function CoatingCtaParent() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-blue-400 flex-shrink-0"></span>
+                  <span className="mt-2 h-2 w-2 rounded-full bg-blue-400 shrink-0"></span>
                   <div>
                     <span className="text-blue-400 font-medium">
                       FBE Coating:
@@ -75,7 +75,7 @@ export function CoatingCtaParent() {
 
               <div className="space-y-5">
                 <div className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-teal-400 flex-shrink-0"></span>
+                  <span className="mt-2 h-2 w-2 rounded-full bg-teal-400 shrink-0"></span>
                   <div>
                     <span className="text-teal-400 font-medium">
                       High Build:
@@ -89,7 +89,7 @@ export function CoatingCtaParent() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-blue-400 flex-shrink-0"></span>
+                  <span className="mt-2 h-2 w-2 rounded-full bg-blue-400 shrink-0"></span>
                   <div>
                     <span className="text-blue-400 font-medium">
                       Low Build:
@@ -114,7 +114,7 @@ export function CoatingCtaParent() {
 
               <div className="space-y-5">
                 <div className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-teal-400 flex-shrink-0"></span>
+                  <span className="mt-2 h-2 w-2 rounded-full bg-teal-400 shrink-0"></span>
                   <div>
                     <span className="text-teal-400 font-medium">
                       Preparation:
@@ -128,7 +128,7 @@ export function CoatingCtaParent() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-blue-400 flex-shrink-0"></span>
+                  <span className="mt-2 h-2 w-2 rounded-full bg-blue-400 shrink-0"></span>
                   <div>
                     <span className="text-blue-400 font-medium">Adhesion:</span>
                     <span className="text-gray-400 ml-1">
@@ -151,7 +151,7 @@ export function CoatingCtaParent() {
 
               <div className="space-y-5">
                 <div className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-teal-400 flex-shrink-0"></span>
+                  <span className="mt-2 h-2 w-2 rounded-full bg-teal-400 shrink-0"></span>
                   <div>
                     <span className="text-teal-400 font-medium">
                       High-Build Systems:
@@ -165,7 +165,7 @@ export function CoatingCtaParent() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="mt-2 h-2 w-2 rounded-full bg-blue-400 flex-shrink-0"></span>
+                  <span className="mt-2 h-2 w-2 rounded-full bg-blue-400 shrink-0"></span>
                   <div>
                     <span className="text-blue-400 font-medium">
                       Best Practices:

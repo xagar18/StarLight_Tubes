@@ -4,7 +4,7 @@ export function ContactCtaParent() {
   return (
     <div className="flex w-full items-center justify-center p-4">
       <div className="relative w-full max-w-6xl">
-        <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
+        <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-linear-to-r from-blue-500 to-teal-500 blur-3xl" />
         <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-4 py-8 shadow-xl">
           <h1 className="relative z-50 mb-4 text-xl font-bold text-white">
             Shop & Business Address

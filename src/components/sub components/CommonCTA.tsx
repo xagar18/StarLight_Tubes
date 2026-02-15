@@ -23,7 +23,7 @@ export function CommonCTA({
   return (
     <div className="flex w-full items-center justify-center px-4 py-4">
       <div className="relative w-full" style={{ maxWidth: "1400px" }}>
-        <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
+        <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-linear-to-r from-blue-500 to-teal-500 blur-3xl" />
         <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-10 py-12 shadow-xl">
           <h1 className="relative z-50 mb-6 text-3xl font-bold text-white">
             {title}
@@ -45,7 +45,7 @@ export function CommonCTA({
           <ul className="relative z-50 mb-4 text-base font-normal text-slate-400 space-y-3">
             {specifications.map((spec, index) => (
               <li key={index} className="flex items-start gap-3">
-                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-teal-400 shrink-0"></span>
                 <span>
                   <strong className="text-slate-300">{spec.label}:</strong>{" "}
                   {spec.value}

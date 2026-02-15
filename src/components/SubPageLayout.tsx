@@ -51,7 +51,7 @@ export interface SubPageData {
       description: string;
       provider?: string;
       serviceType?: string;
-      areaServed?: string | string[];
+      areaServed?: string[];
     };
     howToSchema?: {
       name: string;

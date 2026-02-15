@@ -15,8 +15,10 @@ export function ImagesSliderDemo() {
   /* Decide image width ONCE */
   useEffect(() => {
     const w = window.innerWidth;
-    if (w < 640) setImgWidth(480); // mobile
-    else if (w < 1024) setImgWidth(1024); // tablet
+    if (w < 640)
+      setImgWidth(480); // mobile
+    else if (w < 1024)
+      setImgWidth(1024); // tablet
     else setImgWidth(1600); // desktop
   }, []);
 
@@ -31,7 +33,7 @@ export function ImagesSliderDemo() {
       getImageUrl("Home5_l875gv", imgWidth),
       getImageUrl("Home6_ybywtc", imgWidth),
     ],
-    [imgWidth]
+    [imgWidth],
   );
 
   /* Preload ONLY the first image (LCP) */
@@ -113,13 +115,13 @@ export function ImagesSliderDemo() {
           <h1 className="font-bold text-3xl md:text-5xl lg:text-6xl text-center max-w-5xl">
             <span className="text-white">{texts[currentIndex].title}</span>
             <br />
-            <span className="bg-gradient-to-r from-amber-400 via-orange-400 to-amber-500 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-amber-400 via-orange-400 to-amber-500 bg-clip-text text-transparent">
               {texts[currentIndex].highlight}
             </span>
           </h1>
 
           {/* Divider */}
-          <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent mt-6 mb-6 rounded-full" />
+          <div className="w-24 h-1 bg-linear-to-r from-transparent via-amber-500 to-transparent mt-6 mb-6 rounded-full" />
 
           {/* Subtitle */}
           <p className="text-base md:text-xl lg:text-2xl text-center text-white/80 max-w-4xl">
@@ -130,7 +132,7 @@ export function ImagesSliderDemo() {
           <div className="mt-10">
             <Link
               to="/contact"
-              className="px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold rounded-full hover:scale-105 transition-all shadow-xl"
+              className="px-8 py-4 bg-linear-to-r from-amber-500 to-orange-500 text-white font-bold rounded-full hover:scale-105 transition-all shadow-xl"
             >
               Request Quote
             </Link>

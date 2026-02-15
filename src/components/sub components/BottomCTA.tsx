@@ -18,7 +18,7 @@ export function BottomCTA({
   return (
     <div className="flex w-full items-center justify-center p-4 mt-16 mb-8">
       <div className="relative w-full max-w-6xl">
-        <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-gradient-to-r from-orange-500 via-amber-500 to-yellow-500 blur-3xl opacity-50" />
+        <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-linear-to-r from-orange-500 via-amber-500 to-yellow-500 blur-3xl opacity-50" />
         <div className="relative flex h-full flex-col items-center justify-center overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-8 py-12 shadow-xl">
           {/* Badge */}
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-orange-500/10 border border-orange-500/20">
@@ -42,7 +42,7 @@ export function BottomCTA({
                 key={index}
                 className="flex items-center gap-3 p-3 rounded-lg bg-gray-800/50 border border-gray-700/50"
               >
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center">
+                <div className="shrink-0 w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center">
                   <svg
                     className="w-4 h-4 text-orange-400"
                     fill="none"
@@ -65,7 +65,7 @@ export function BottomCTA({
           {/* CTA Button */}
           <a
             href={ctaLink}
-            className="relative z-50 inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-semibold rounded-full hover:from-orange-600 hover:to-amber-600 transition-all duration-300 shadow-lg hover:shadow-orange-500/25"
+            className="relative z-50 inline-flex items-center gap-2 px-8 py-3 bg-linear-to-r from-orange-500 to-amber-500 text-white font-semibold rounded-full hover:from-orange-600 hover:to-amber-600 transition-all duration-300 shadow-lg hover:shadow-orange-500/25"
           >
             {ctaText}
             <svg

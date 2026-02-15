@@ -25,8 +25,8 @@ export default function Footer() {
   const initialLanguage = getCookie("googtrans")?.includes("/ar")
     ? "ar"
     : getCookie("googtrans")?.includes("/fr")
-    ? "fr"
-    : "en";
+      ? "fr"
+      : "en";
   const [selectedLanguage, setSelectedLanguage] = useState(initialLanguage);
 
   const languages = [
@@ -48,12 +48,12 @@ export default function Footer() {
         try {
           // Try to trigger translation directly
           const translateCombo = document.querySelector(
-            ".goog-te-combo"
+            ".goog-te-combo",
           ) as HTMLSelectElement;
           if (translateCombo) {
             translateCombo.value = "ar";
             translateCombo.dispatchEvent(
-              new Event("change", { bubbles: true })
+              new Event("change", { bubbles: true }),
             );
 
             // Wait a bit for translation to apply
@@ -73,7 +73,7 @@ export default function Footer() {
         } catch (error) {
           console.warn(
             "Direct translation failed, using cookie fallback:",
-            error
+            error,
           );
           document.cookie = "googtrans=/en/ar; path=/; max-age=31536000";
           setTimeout(() => window.location.reload(), 1000);
@@ -93,12 +93,12 @@ export default function Footer() {
         try {
           // Try to trigger translation directly
           const translateCombo = document.querySelector(
-            ".goog-te-combo"
+            ".goog-te-combo",
           ) as HTMLSelectElement;
           if (translateCombo) {
             translateCombo.value = "fr";
             translateCombo.dispatchEvent(
-              new Event("change", { bubbles: true })
+              new Event("change", { bubbles: true }),
             );
 
             // Wait a bit for translation to apply
@@ -118,7 +118,7 @@ export default function Footer() {
         } catch (error) {
           console.warn(
             "Direct translation failed, using cookie fallback:",
-            error
+            error,
           );
           document.cookie = "googtrans=/en/fr; path=/; max-age=31536000";
           setTimeout(() => window.location.reload(), 1000);
@@ -137,12 +137,12 @@ export default function Footer() {
           window.google.translate
         ) {
           const translateCombo = document.querySelector(
-            ".goog-te-combo"
+            ".goog-te-combo",
           ) as HTMLSelectElement;
           if (translateCombo) {
             translateCombo.value = "en";
             translateCombo.dispatchEvent(
-              new Event("change", { bubbles: true })
+              new Event("change", { bubbles: true }),
             );
 
             // Wait for reset
@@ -320,6 +320,7 @@ export default function Footer() {
               <select
                 value={selectedLanguage}
                 onChange={(e) => handleLanguageChange(e.target.value)}
+                aria-label="Select language"
                 className="bg-gray-800 text-gray-300 text-sm px-3 py-1 rounded-md border border-gray-600 focus:border-purple-400 focus:outline-none appearance-none pr-8"
               >
                 {languages.map((lang) => (

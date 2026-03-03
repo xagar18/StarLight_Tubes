@@ -8,7 +8,7 @@
   skip_processing = false
 
 [build.processing.html]
-  pretty_urls = true
+  pretty_urls = false
 
 # 301 redirects for alias routes (prevents duplicate content)
 [[redirects]]
@@ -44,6 +44,8 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
     X-XSS-Protection = "1; mode=block"
+    # SEO: Tell search engines to index all pages
+    X-Robots-Tag = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
 
 # Cache static assets aggressively
 [[headers]]

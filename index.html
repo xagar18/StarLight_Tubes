@@ -242,7 +242,20 @@
     <!-- PWA Manifest -->
     <!-- <link rel="manifest" href="/manifest.json" /> -->
 
-    <!-- Canonical URL - dynamically set per-page by React useSEO hook -->
+    <!-- Canonical URL - default for homepage, dynamically updated per-page by React useSEO hook -->
+    <link rel="canonical" href="https://www.starlighttubes.com/" />
+
+    <!-- Alternate language links -->
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.starlighttubes.com/"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.starlighttubes.com/"
+    />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -640,191 +653,9 @@
       }
     </script>
 
-    <!-- Product Schema - Enhanced for Multiple Products -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Stainless Steel Pipes and Tubes",
-        "description": "High-quality stainless steel pipes, tubes, and related products including 304, 316, and 316L grades manufactured by Starlight Tubes.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Starlight Tubes"
-        },
-        "manufacturer": {
-          "@type": "Organization",
-          "name": "Starlight Tubes",
-          "url": "https://www.starlighttubes.com"
-        },
-        "category": "Steel Pipes & Tubes",
-        "material": "Stainless Steel",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "250",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "offers": {
-          "@type": "AggregateOffer",
-          "priceCurrency": "USD",
-          "lowPrice": "10",
-          "highPrice": "5000",
-          "offerCount": "500",
-          "availability": "https://schema.org/InStock",
-          "seller": {
-            "@type": "Organization",
-            "name": "Starlight Tubes"
-          }
-        }
-      }
-    </script>
+    <!-- Product schemas are injected per-page by the useSEO hook to avoid duplicate structured data -->
 
-    <!-- Carbon Steel Product Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Carbon Steel Pipes - ASTM A106, API 5L",
-        "description": "High-quality carbon steel pipes including ASTM A106, API 5L Grade B, X42, X52, X65 for oil & gas, petrochemical industries. Manufactured by Starlight Tubes.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Starlight Tubes"
-        },
-        "manufacturer": {
-          "@type": "Organization",
-          "name": "Starlight Tubes"
-        },
-        "category": "Carbon Steel Pipes",
-        "material": "Carbon Steel",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "180",
-          "bestRating": "5"
-        },
-        "offers": {
-          "@type": "AggregateOffer",
-          "priceCurrency": "USD",
-          "lowPrice": "15",
-          "highPrice": "3000",
-          "offerCount": "300",
-          "availability": "https://schema.org/InStock"
-        }
-      }
-    </script>
-
-    <!-- Nickel Alloy Product Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Nickel Alloy & Inconel Pipes",
-        "description": "Premium nickel alloy pipes including Inconel 625, Inconel 600, Monel 400, Hastelloy for high-temperature and corrosive environments. Manufactured by Starlight Tubes.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Starlight Tubes"
-        },
-        "manufacturer": {
-          "@type": "Organization",
-          "name": "Starlight Tubes"
-        },
-        "category": "Nickel Alloy Pipes",
-        "material": "Nickel Alloy",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "120",
-          "bestRating": "5"
-        },
-        "offers": {
-          "@type": "AggregateOffer",
-          "priceCurrency": "USD",
-          "lowPrice": "50",
-          "highPrice": "10000",
-          "offerCount": "200",
-          "availability": "https://schema.org/InStock"
-        }
-      }
-    </script>
-
-    <!-- FAQ Schema for Common Questions -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Who is the best steel pipe manufacturer in India?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Starlight Tubes is one of the leading steel pipe manufacturers in India, specializing in stainless steel, carbon steel, and nickel alloy pipes. We are ISO 9001 certified and export to 60+ countries worldwide."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Which company exports steel pipes globally?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Starlight Tubes is a premier steel pipe exporter based in Mumbai, India. We export stainless steel pipes, carbon steel tubes, inconel pipes, and pipe fittings to USA, Europe, Middle East, Asia, and Africa."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What types of steel pipes does Starlight Tubes manufacture?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Starlight Tubes manufactures stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L, ASTM A53), nickel alloy pipes (Inconel 625, 600, Monel), copper pipes, aluminium pipes, and various pipe fittings and flanges."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Starlight Tubes provide mill test certificates?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, Starlight Tubes provides complete mill test certificates (MTC) and third-party inspection reports with all our steel pipe products. We ensure 100% quality assurance and traceability."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What industries do you supply steel pipes to?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We supply steel pipes to Oil & Gas, Petrochemical, Chemical Processing, Power Generation, Pharmaceutical, Food Processing, Marine, Construction, and various industrial sectors worldwide."
-            }
-          }
-        ]
-      }
-    </script>
-
-    <!-- BreadcrumbList Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.starlighttubes.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Products",
-            "item": "https://www.starlighttubes.com/product"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Stainless Steel",
-            "item": "https://www.starlighttubes.com/stainless-steel"
-          }
-        ]
-      }
-    </script>
+    <!-- FAQ and Breadcrumb schemas are injected per-page by the useSEO hook -->
 
     <!-- Additional SEO Tags -->
     <meta name="theme-color" content="#000000" />

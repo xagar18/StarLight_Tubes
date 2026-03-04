@@ -52,6 +52,11 @@ const Material = () => {
           "Contact our technical team for material selection guidance based on your application requirements including temperature, pressure, corrosion environment, and mechanical properties. We provide expert consultation for optimal material choice.",
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes supplies premium industrial materials including stainless steel (304, 316, 316L, duplex), carbon steel (ASTM A106, API 5L), nickel alloys (Monel, Hastelloy), and Inconel (625, 600, 718) in pipes, tubes, plates, sheets, round bars, and fasteners for global industries.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
   const ctaData = {
     title: "Premium Industrial Materials",

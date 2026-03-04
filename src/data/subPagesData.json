@@ -34,6 +34,10 @@
         "headline": "ASTM A671 EFW Pipe - Power Plant Grade",
         "summary": "Starlight Tubes manufactures ASTM A671 electric fusion welded pipes for power plants and refineries. 100% radiographic tested EFW pipes in CC60, CC65, CC70 grades for pressure piping applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "ASTM A671 pipes are electric fusion welded (EFW) carbon steel pipes manufactured for atmospheric and low-temperature service in power plants, refineries, and chemical processing facilities. Starlight Tubes manufactures A671 EFW pipes in grades CC60, CC65, CC70, CE55, and CF66 with 100% radiographic examination per ASME SA671."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "ASTM A671",
@@ -54,7 +58,8 @@
           "question": "What does CC65 mean in ASTM A671 CC65 pipe?",
           "answer": "CC65 indicates the pipe class where 'C' denotes 100% radiographic examination of weld seams, and '65' refers to the plate material specification (A516 Grade 65). Higher numbers indicate higher tensile strength."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "ASTM A671 Pipes",
@@ -155,6 +160,10 @@
         "headline": "ASTM A672 High Pressure EFW Pipe Manufacturer",
         "summary": "Starlight Tubes manufactures ASTM A672 electric fusion welded pipes for high-pressure steam and hydrocracker applications. Multiple grades B60, B70, C70 available with stress relief heat treatment."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "ASTM A672 pipes are electric fusion welded (EFW) carbon steel pipes designed for high-pressure service at moderate temperatures in steam systems, hydrocrackers, and critical pressure vessels. Starlight Tubes supplies A672 EFW pipes in grades B60, B70, C70, and E70 with stress relief heat treatment per ASME SA672."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "ASTM A672",
@@ -175,7 +184,8 @@
           "question": "What pressure rating can ASTM A672 pipes handle?",
           "answer": "ASTM A672 pipes are designed for high-pressure service with various class designations. The class letter indicates radiographic examination level and the number indicates the base plate specification determining pressure capability."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "ASTM A672 Pipes",
@@ -278,6 +288,10 @@
         "headline": "API 5L Grade B Pipe - Line Pipe Manufacturer",
         "summary": "Starlight Tubes manufactures API 5L Grade B carbon steel line pipes for oil and gas transmission. PSL1 and PSL2 available in seamless and welded configurations."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "API 5L Grade B pipes are carbon steel line pipes used for oil and gas transmission pipelines, offering a minimum yield strength of 35,500 psi (245 MPa). Starlight Tubes manufactures API 5L Grade B pipes in PSL1 and PSL2 specifications in both seamless and welded configurations."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "API 5L",
@@ -298,7 +312,8 @@
           "question": "What is the difference between PSL1 and PSL2?",
           "answer": "PSL2 has stricter requirements for chemical composition, mechanical properties, and testing compared to PSL1. PSL2 requires mandatory CVN impact testing and tighter tolerances for critical pipeline applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "API 5L Grade B Pipes",
@@ -399,6 +414,10 @@
         "headline": "API 5L X42 Pipe - Line Pipe for Gas Distribution",
         "summary": "Starlight Tubes manufactures API 5L X42 line pipes with 290 MPa yield strength for natural gas distribution and oil gathering systems. PSL1 and PSL2 certified."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "API 5L X42 pipes are carbon steel line pipes with a minimum yield strength of 42,100 psi (290 MPa), used for natural gas distribution and oil gathering systems. Starlight Tubes manufactures API 5L X42 (L290) line pipes in PSL1 and PSL2 certifications for medium-pressure pipeline applications."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "API 5L X42",
@@ -419,7 +438,8 @@
           "question": "What is L290 equivalent to API 5L X42?",
           "answer": "L290 is the ISO 3183 designation equivalent to API 5L X42. The number 290 refers to the minimum yield strength in MPa. Both specifications have identical mechanical property requirements."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "API 5L X42 Pipes",
@@ -520,6 +540,10 @@
         "headline": "API 5L X52 Pipe - High Yield Line Pipe Manufacturer",
         "summary": "Starlight Tubes manufactures API 5L X52 line pipes with 360 MPa yield strength for oil and gas transmission. Seamless and welded configurations with PSL1 and PSL2 certification."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "API 5L X52 pipes are high-yield carbon steel line pipes with a minimum yield strength of 52,000 psi (360 MPa), used for medium to high-pressure oil and gas transmission pipelines. Starlight Tubes supplies API 5L X52 (L360) pipes in seamless and welded configurations with PSL2 certification."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "API 5L X52",
@@ -540,7 +564,8 @@
           "question": "What is the difference between API 5L X42 and X52?",
           "answer": "X52 has higher yield strength (360 MPa vs 290 MPa) and tensile strength (460 MPa vs 415 MPa) compared to X42. X52 is specified for higher pressure pipeline systems requiring greater mechanical properties."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "API 5L X52 Pipes",
@@ -641,6 +666,10 @@
         "headline": "API 5L X65 Pipe - High Strength Offshore Line Pipe",
         "summary": "Starlight Tubes manufactures API 5L X65 high-strength line pipes with 450 MPa yield strength for offshore deepwater and sour service applications. PSL2 certified with HIC/SSC testing."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "API 5L X65 pipes are high-strength carbon steel line pipes with a minimum yield strength of 65,300 psi (450 MPa), designed for offshore deepwater and sour service pipeline applications. Starlight Tubes manufactures API 5L X65 (L450) pipes with PSL2 certification, HIC/SSC testing, and TMCP processing."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "API 5L X65",
@@ -661,7 +690,8 @@
           "question": "What is HIC and SSC testing for API 5L X65 pipes?",
           "answer": "HIC (Hydrogen Induced Cracking) and SSC (Sulfide Stress Cracking) testing per NACE TM0284 and TM0177 verify pipe suitability for sour service environments containing hydrogen sulfide (H2S)."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "API 5L X65 Pipes",
@@ -764,6 +794,10 @@
         "headline": "ASTM A106 Pipe Manufacturer - Grade A, B, C Seamless Pipes",
         "summary": "Starlight Tubes manufactures ASTM A106 carbon steel seamless pipes for high temperature service up to 750°F. Grade A, B, and C available for boilers, refineries, and power plant applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "ASTM A106 pipes are seamless carbon steel pipes designed for high-temperature service up to 750°F (400°C), used in boilers, heat exchangers, refineries, and power plants. Starlight Tubes manufactures ASTM A106 pipes in Grade A, B, and C per ASME SA106 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "ASTM A106",
@@ -784,7 +818,8 @@
           "question": "What is the difference between ASTM A106 Grade B and Grade C?",
           "answer": "Grade C has higher tensile strength (70 ksi min vs 60 ksi) and yield strength (40 ksi min vs 35 ksi) than Grade B. Grade C is specified when higher mechanical properties are required for demanding applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "ASTM A106 Pipes",
@@ -885,6 +920,10 @@
         "headline": "ASTM A333 Low Temperature Pipe - Cryogenic Service",
         "summary": "Starlight Tubes manufactures ASTM A333 low temperature pipes for cryogenic service down to -150°F. Grade 6 most popular for LNG plants, refrigeration systems, and cold climate pipelines."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "ASTM A333 pipes are seamless carbon steel pipes designed for low-temperature and cryogenic service down to -150°F, widely used in LNG plants, refrigeration systems, and cold climate pipelines. Starlight Tubes manufactures ASTM A333 Grade 6 pipes with mandatory Charpy impact testing per ASME SA333."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "ASTM A333",
@@ -905,7 +944,8 @@
           "question": "Why is Charpy impact testing required for ASTM A333 pipes?",
           "answer": "Charpy V-notch impact testing is mandatory to verify that the pipe maintains adequate toughness and ductility at specified low temperatures, preventing brittle fracture in cryogenic service conditions."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "ASTM A333 Pipes",
@@ -1006,6 +1046,10 @@
         "headline": "ASTM A53 Pipe Manufacturer - Black and Galvanized Steel Pipes",
         "summary": "Starlight Tubes manufactures ASTM A53 steel pipes in seamless, ERW, and welded configurations. Black and hot-dip galvanized finishes available for steam, water, gas, and structural applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "ASTM A53 pipes are carbon steel pipes available in seamless, ERW, and welded configurations with black or hot-dip galvanized finishes, used for steam, water, gas, and structural applications. Starlight Tubes manufactures ASTM A53 Grade A and B pipes per ASME SA53 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "ASTM A53",
@@ -1026,7 +1070,8 @@
           "question": "What is the difference between ASTM A53 Type E, F, and S?",
           "answer": "Type E is Electric Resistance Welded, Type F is Furnace Butt Welded, and Type S is Seamless. Type E and S are more commonly used. Type S (seamless) offers highest strength for pressure applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "ASTM A53 Pipes",
@@ -1128,6 +1173,10 @@
         "headline": "Aluminium 5052 - Marine Grade Alloy",
         "summary": "Starlight Tubes supplies Aluminium 5052 products with excellent corrosion resistance for marine, automotive, and chemical processing applications. H32 temper available per ASTM B209."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Aluminium 5052 is a non-heat-treatable aluminium-magnesium alloy with excellent corrosion resistance, good workability, and moderate strength, widely used in marine, automotive, and chemical equipment applications. Starlight Tubes supplies Aluminium 5052 in pipes, tubes, sheets, and plates per ASTM B209 and ASTM B221 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Aluminium 5052",
@@ -1147,7 +1196,8 @@
           "question": "Is 5052 aluminium good for marine applications?",
           "answer": "Yes, 5052 is one of the best aluminium alloys for marine use due to its high magnesium content providing excellent saltwater corrosion resistance, good formability, and weldability."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Aluminium 5052",
@@ -1249,6 +1299,10 @@
         "headline": "Aluminium 6061 - Structural Grade Alloy",
         "summary": "Starlight Tubes supplies Aluminium 6061-T6 products with excellent strength-to-weight ratio for aerospace, marine, and structural applications. Heat treatable alloy per ASTM B209, B211."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Aluminium 6061 is a heat-treatable aluminium alloy with good mechanical properties, weldability, and corrosion resistance, commonly used in structural, aerospace, and marine applications. Starlight Tubes manufactures Aluminium 6061-T6 products including pipes, tubes, bars, and sheets per ASTM B221 and ASTM B209 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Aluminium 6061",
@@ -1268,7 +1322,8 @@
           "question": "What is the difference between 6061-T6 and 6061-O temper?",
           "answer": "6061-T6 is heat treated and artificially aged for maximum strength (310 MPa tensile). 6061-O is annealed for best formability but lower strength. T6 is most common for structural applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Aluminium 6061",
@@ -1370,6 +1425,10 @@
         "headline": "Aluminium 6063 - Architectural Grade Alloy",
         "summary": "Starlight Tubes manufactures Aluminium 6063 extrusions and profiles for construction, window frames, and decorative applications. Excellent surface finish and anodizing response."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Aluminium 6063 is a medium-strength aluminium alloy with excellent extrudability, surface finish, and corrosion resistance, commonly used in architectural, construction, and decorative applications. Starlight Tubes supplies Aluminium 6063-T5/T6 tubes, pipes, and profiles per ASTM B221 and BS 1474 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Aluminium 6063",
@@ -1389,7 +1448,8 @@
           "question": "What is the difference between 6061 and 6063 aluminium?",
           "answer": "6063 has better extrudability and surface finish for architectural applications, while 6061 offers higher strength for structural use. 6063 anodizes better, 6061 machines better."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Aluminium 6063",
@@ -1491,6 +1551,10 @@
         "headline": "Aluminium 7075 - Aerospace & Defense Grade",
         "summary": "Starlight Tubes supplies Aluminium 7075-T6 products with exceptional strength-to-weight ratio for aerospace, defense, and high-performance applications. AMS 4045 certified."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Aluminium 7075 is a high-strength aluminium-zinc alloy with exceptional strength-to-weight ratio, widely used in aerospace, defense, and high-stress structural applications. Starlight Tubes supplies Aluminium 7075-T6/T651 products including bars, plates, and tubes per ASTM B211 and AMS 4050 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Aluminium 7075",
@@ -1510,7 +1574,8 @@
           "question": "Is 7075 aluminium stronger than steel?",
           "answer": "7075-T6 has tensile strength of 570 MPa, comparable to many steels, but at one-third the weight. It offers the best strength-to-weight ratio among common aluminium alloys."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Aluminium 7075",
@@ -1611,6 +1676,10 @@
         "headline": "Aluminium Coils - Roofing & Cladding Grade",
         "summary": "Starlight Tubes manufactures aluminium coils for roofing, cladding, and automotive applications. ASTM B209 certified coils in custom widths and various alloys."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Aluminium coils are flat-rolled aluminium products available in various alloys and tempers, used for roofing, cladding, packaging, and industrial applications. Starlight Tubes supplies aluminium coils in alloys 1100, 3003, 5052, and 6061 with mill finish, coated, and embossed surfaces."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Aluminium Coil",
@@ -1630,7 +1699,8 @@
           "question": "What aluminium alloy is best for roofing coils?",
           "answer": "3003 and 3105 alloys are most popular for roofing due to excellent corrosion resistance and formability. 5052 is used for coastal areas requiring superior corrosion resistance."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Aluminium Coils",
@@ -1733,6 +1803,10 @@
         "headline": "Aluminium Pipes - Lightweight Industrial Grade",
         "summary": "Starlight Tubes manufactures aluminium pipes for HVAC, construction, aerospace, and automotive applications. Available in 6061, 6063, 5052, 7075 grades per ASTM B210, B241 standards."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Aluminium pipes are lightweight, corrosion-resistant tubular products made from alloys like 6061, 6063, and 5052, used in structural, irrigation, pneumatic, and industrial piping systems. Starlight Tubes manufactures seamless and welded aluminium pipes per ASTM B241 and ASTM B345 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Aluminium Pipe",
@@ -1752,7 +1826,8 @@
           "question": "Which aluminium grade is best for pipes?",
           "answer": "6063 is ideal for architectural applications with excellent extrudability, 6061 offers higher strength for structural use, and 5052 provides best corrosion resistance for marine environments."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Aluminium Pipes",
@@ -1853,6 +1928,10 @@
         "headline": "Aluminium Round Bars - Aerospace Grade",
         "summary": "Starlight Tubes supplies aluminium round bars for aerospace, automotive, and machining applications. 6061, 7075, 2024 grades available per ASTM B211 standards."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Aluminium bars are solid aluminium products available in round, flat, square, and hexagonal shapes, used in machining, construction, and industrial fabrication. Starlight Tubes supplies aluminium bars in alloys 6061-T6, 6063, 2024, and 7075 per ASTM B221 and AMS standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Aluminium Round Bar",
@@ -1872,7 +1951,8 @@
           "question": "Which aluminium alloy bar is best for machining?",
           "answer": "6061-T6 offers excellent machinability with good strength. 2011 is specifically designed for high-speed machining. 7075 provides highest strength for demanding aerospace applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Aluminium Round Bars",
@@ -1974,6 +2054,10 @@
         "headline": "Aluminium Sheets - Aerospace & Marine Grade",
         "summary": "Starlight Tubes supplies aluminium sheets and plates for aerospace, automotive, and construction applications. Multiple grades available in ASTM B209, AMS specifications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Aluminium sheets are flat-rolled aluminium products with uniform thickness, used in automotive, aerospace, construction, and general fabrication applications. Starlight Tubes supplies aluminium sheets in alloys 1100, 3003, 5052, 6061, and 7075 per ASTM B209 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Aluminium Sheet",
@@ -1993,7 +2077,8 @@
           "question": "What thickness is considered aluminium sheet vs plate?",
           "answer": "Aluminium sheet is typically 0.2mm to 6mm thick, while aluminium plate is 6mm and above. Sheet is used for forming applications, plate for structural and machining purposes."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Aluminium Sheets",
@@ -2094,6 +2179,10 @@
         "headline": "Butt Weld Fittings - Seamless Weld Fittings for High-Pressure Systems",
         "summary": "Starlight Tubes manufactures premium butt weld fittings including elbows, tees, reducers, and caps in stainless steel and carbon steel. ASME B16.9 certified for permanent, leak-proof connections."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Butt weld fittings are pipe fittings joined by butt welding the fitting directly to the pipe, providing strong, leak-proof connections in high-pressure and high-temperature piping systems. Starlight Tubes manufactures butt weld elbows, tees, reducers, and caps in stainless steel, carbon steel, and alloy steel per ASTM A403 and ASME B16.9 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Butt Weld Fittings",
@@ -2114,7 +2203,8 @@
           "question": "What materials are butt weld fittings available in?",
           "answer": "Butt weld fittings are available in stainless steel (304, 316, 321), carbon steel (A234 WPB), alloy steel, and nickel alloys including Inconel, Monel, and Hastelloy. All fittings comply with ASME B16.9 and ASTM A403 standards."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Butt Weld Fittings",
@@ -2215,6 +2305,10 @@
         "headline": "Pipe Caps - End Caps for Sealing Pipe Ends",
         "summary": "Starlight Tubes manufactures pipe caps and end caps in stainless steel and carbon steel. Available in butt weld, socket weld, and threaded types per ASME B16.9 and B16.11."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Cap fittings are pipe fittings used to close or seal the end of a pipe, available in butt weld, socket weld, and threaded configurations for industrial piping systems. Starlight Tubes manufactures pipe caps in stainless steel, carbon steel, and alloy steel per ASTM A403, ASTM A234, and ASME B16.9 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Pipe Caps",
@@ -2235,7 +2329,8 @@
           "question": "What is the difference between a cap and a plug?",
           "answer": "A pipe cap fits over the outside of a pipe end to seal it externally, while a plug fits inside the pipe end. Caps are used for butt weld and socket weld connections, while plugs are typically threaded fittings that screw into female-threaded connections."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Cap Fittings",
@@ -2338,6 +2433,10 @@
         "headline": "Carbon Steel Pipe Manufacturer - ASTM A106, A53, API 5L Pipes",
         "summary": "Starlight Tubes manufactures premium carbon steel pipes including ASTM A106, ASTM A53, and API 5L grades. Seamless and welded configurations available for oil gas, petrochemical, and water pipeline applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Carbon steel pipes are steel pipes with carbon as the main alloying element, manufactured per ASTM A106, API 5L, and ASTM A53 standards for high-temperature, pressure, and structural applications. Starlight Tubes manufactures seamless and welded carbon steel pipes for oil & gas, power generation, and petrochemical industries."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Carbon Steel",
@@ -2358,7 +2457,8 @@
           "question": "What is the difference between seamless and welded carbon steel pipes?",
           "answer": "Seamless pipes have no weld seam and offer superior strength for high-pressure applications. Welded pipes (ERW, SAW) are more cost-effective and suitable for moderate pressure and structural applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Carbon Steel Pipes",
@@ -2460,6 +2560,10 @@
         "headline": "Copper Fittings - Elbows, Tees & Couplings",
         "summary": "Starlight Tubes manufactures copper fittings for plumbing, HVAC, and refrigeration systems. Elbows, tees, couplings, and adapters available per ASME B16.22 and EN 1254 standards."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Copper fittings are plumbing and industrial fittings made from copper and copper alloys, used for joining copper pipes and tubes in HVAC, plumbing, and refrigeration systems. Starlight Tubes supplies copper elbows, tees, reducers, couplings, and caps per ASTM B75, ASME B16.22, and EN 1254 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Copper Fittings",
@@ -2479,7 +2583,8 @@
           "question": "What is the difference between solder and compression copper fittings?",
           "answer": "Solder fittings require heat and flux to create permanent joints, while compression fittings use mechanical pressure for tool-free, reusable connections suitable for accessible locations."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Copper Fittings",
@@ -2581,6 +2686,10 @@
         "headline": "Copper Nickel Pipes - 90/10 & 70/30 Marine Grade",
         "summary": "Starlight Tubes manufactures copper nickel pipes for marine, offshore, and desalination applications. C70600 (90/10) and C71500 (70/30) grades with ASTM B111, B466 certifications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Copper nickel pipes are corrosion-resistant pipes made from Cu-Ni alloys (90/10 and 70/30), widely used in marine, offshore, desalination, and seawater cooling systems. Starlight Tubes manufactures copper nickel pipes per ASTM B466, ASTM B467, and BS 2871 Part 3 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Copper Nickel",
@@ -2600,7 +2709,8 @@
           "question": "What is the difference between 90/10 and 70/30 copper nickel?",
           "answer": "90/10 CuNi (C70600) contains 10% nickel and is cost-effective for general marine use. 70/30 CuNi (C71500) with 30% nickel offers superior corrosion resistance for high-velocity seawater applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Copper Nickel Pipes",
@@ -2701,6 +2811,10 @@
         "headline": "Copper Nickel Tubes - Heat Exchanger Grade",
         "summary": "Starlight Tubes supplies copper nickel tubes for heat exchangers and marine condensers. ASTM B111 certified CuNi 90/10 and 70/30 seamless tubes with excellent seawater resistance."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Copper nickel tubes are corrosion-resistant tubes made from Cu-Ni alloys (90/10 and 70/30), used in heat exchangers, condensers, and seawater service applications. Starlight Tubes manufactures copper nickel tubes per ASTM B111, ASTM B466, and BS 2871 standards with full material certification."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Copper Nickel Tube",
@@ -2720,7 +2834,8 @@
           "question": "Why choose copper nickel tubes for heat exchangers?",
           "answer": "Copper nickel tubes offer excellent heat transfer efficiency, superior resistance to seawater corrosion and biofouling, and long service life in marine and coastal environments."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Copper Nickel Tubes",
@@ -2823,6 +2938,10 @@
         "headline": "Copper Pipes - Industrial & Plumbing Grade",
         "summary": "Starlight Tubes manufactures copper pipes for plumbing, HVAC, refrigeration, and industrial applications. Available in Type K, L, M grades with ASTM B42, B88 certifications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Copper pipes are durable, corrosion-resistant piping products with excellent thermal conductivity, used in plumbing, HVAC, refrigeration, and industrial applications. Starlight Tubes manufactures seamless copper pipes in C12200, C10200, and C11000 grades per ASTM B42 and ASTM B88 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Copper",
@@ -2842,7 +2961,8 @@
           "question": "What is the difference between Type K, L, and M copper pipes?",
           "answer": "Type K has the thickest walls for underground and high-pressure applications, Type L is medium-weight for general plumbing, and Type M has thinner walls for low-pressure residential use."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Copper Pipes",
@@ -2944,6 +3064,10 @@
         "headline": "Copper Round Bars - High Conductivity Grade",
         "summary": "Starlight Tubes supplies copper round bars for electrical, machining, and industrial applications. High conductivity bars available in C10100, C11000 grades per ASTM B187 standards."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Copper bars are solid copper products available in round, flat, square, and hexagonal shapes, used in electrical, industrial, and engineering applications. Starlight Tubes supplies copper bars in C11000, C10100, C12200, and C36000 grades per ASTM B133 and ASTM B187 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Copper Bar",
@@ -2963,7 +3087,8 @@
           "question": "What copper grade is best for electrical applications?",
           "answer": "C11000 (ETP Copper) is most commonly used for electrical applications due to its 101% IACS conductivity rating. C10100 (OFHC) offers even higher purity for critical applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Copper Round Bars",
@@ -3065,6 +3190,10 @@
         "headline": "Copper Sheets - ETP, DHP & OFHC Grades",
         "summary": "Starlight Tubes manufactures copper sheets and plates for electrical, roofing, and decorative applications. High conductivity ETP, DHP, OFHC grades available per ASTM B152 standards."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Copper sheets are flat copper products with uniform thickness, widely used in roofing, electrical, architectural, and industrial fabrication applications. Starlight Tubes supplies copper sheets in C11000, C10200, and C12200 grades per ASTM B152 and ASTM B370 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Copper Sheet",
@@ -3084,7 +3213,8 @@
           "question": "What is the difference between ETP, DHP, and OFHC copper?",
           "answer": "ETP (Electrolytic Tough Pitch) has 99.9% purity for electrical applications, DHP (Deoxidized High Phosphorus) is weldable for plumbing, and OFHC (Oxygen-Free High Conductivity) has 99.99% purity for electronics."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Copper Sheets",
@@ -3186,6 +3316,10 @@
         "headline": "Copper Tubes - HVAC & Refrigeration Grade",
         "summary": "Starlight Tubes supplies copper tubes for heat exchangers, air conditioning, and refrigeration systems. Seamless and coil tubing available in ASTM B75, B111, B280 specifications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Copper tubes are precision-drawn tubular products with excellent thermal conductivity and corrosion resistance, used in HVAC, refrigeration, heat exchangers, and medical gas systems. Starlight Tubes manufactures seamless copper tubes per ASTM B75, ASTM B88, and ASTM B280 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Copper Tubing",
@@ -3205,7 +3339,8 @@
           "question": "What is the difference between copper tube and copper pipe?",
           "answer": "Copper tubes have thinner walls and are primarily used for heat transfer applications like HVAC, while copper pipes have thicker walls for plumbing and water supply systems."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Copper Tubes",
@@ -3306,6 +3441,10 @@
         "headline": "Pipe Couplings - Full Coupling, Half Coupling, Reducing Coupling",
         "summary": "Starlight Tubes manufactures pipe couplings including full couplings, half couplings, and reducing couplings in stainless steel and carbon steel. Socket weld and threaded types per ASME B16.11."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Coupling fittings are pipe fittings used to connect two pipes of the same or different diameters, available in full coupling, half coupling, and reducing coupling configurations. Starlight Tubes manufactures couplings in stainless steel, carbon steel, and alloy steel per ASME B16.11 and MSS SP-79 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Pipe Couplings",
@@ -3326,7 +3465,8 @@
           "question": "When should reducing couplings be used?",
           "answer": "Reducing couplings are used to connect two pipes of different diameters in a straight line. They provide a compact solution for size transitions in small bore piping, especially in instrumentation and process lines where space is limited."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Coupling Fittings",
@@ -3423,6 +3563,11 @@
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock"
         }
+      },
+      "pageSchemaType": "ItemPage",
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Cupro Nickel 70/30 (C71500) is a copper-nickel alloy containing 65-70% copper and 29-33% nickel, offering superior corrosion resistance in aggressive marine and seawater environments. Starlight Tubes manufactures Cupro Nickel 70/30 pipes, tubes, and fittings per ASTM B466, ASTM B467, and BS 2871 standards."
       }
     },
     "pageHero": {
@@ -3524,6 +3669,10 @@
         "headline": "Cupro Nickel 90/10 - C70600 Marine Alloy",
         "summary": "Starlight Tubes manufactures CuNi 90/10 (C70600) pipes and tubes for marine, desalination, and offshore applications. ASTM B466/B467 certified with excellent seawater corrosion resistance."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Cupro Nickel 90/10 (C70600) is a copper-nickel alloy containing 88-92% copper and 9-11% nickel, widely used in marine piping, desalination plants, and offshore platforms for its excellent seawater corrosion resistance. Starlight Tubes manufactures Cupro Nickel 90/10 pipes, tubes, and fittings per ASTM B466 and ASTM B111 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Cupro Nickel 90/10",
@@ -3543,7 +3692,8 @@
           "question": "Where is Cupro Nickel 90/10 used?",
           "answer": "Cupro Nickel 90/10 is used in marine piping systems, seawater cooling, desalination plants, offshore platforms, shipbuilding, and coastal power plant condensers."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Cupro Nickel 90/10",
@@ -3646,6 +3796,10 @@
         "headline": "Pipe Elbows - 45° and 90° Stainless Steel & Carbon Steel",
         "summary": "Starlight Tubes manufactures pipe elbows in 45° and 90° angles in stainless steel and carbon steel. Long radius and short radius available per ASME B16.9."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Elbow fittings are pipe fittings used to change the direction of flow in a piping system, available in 45° and 90° angles in long radius and short radius configurations. Starlight Tubes manufactures elbows in stainless steel, carbon steel, and alloy steel per ASTM A403, ASTM A234, and ASME B16.9 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Pipe Elbows",
@@ -3666,7 +3820,8 @@
           "question": "What materials are pipe elbows available in?",
           "answer": "Pipe elbows are available in stainless steel (304, 316, 316L), carbon steel (A234 WPB), alloy steel, and nickel alloys (Inconel, Monel). All elbows comply with ASME B16.9, B16.11, and ASTM standards."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Elbow Fittings",
@@ -3769,6 +3924,10 @@
         "headline": "Pipe Flanges - ANSI, DIN, JIS Standards",
         "summary": "Starlight Tubes manufactures pipe flanges including slip-on, weld neck, blind, socket weld, and threaded flanges per ASME B16.5, DIN, and JIS standards."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Flanges are mechanical components used to connect pipes, valves, and equipment in a piping system, providing a bolted, leak-proof joint for easy assembly and disassembly. Starlight Tubes manufactures weld neck, slip-on, blind, socket weld, and lap joint flanges per ASTM A182, ASME B16.5, and B16.47 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Pipe Flanges",
@@ -3790,7 +3949,8 @@
           "question": "What is the difference between weld neck and slip-on flanges?",
           "answer": "Weld neck flanges have a tapered hub that is butt welded to the pipe, providing superior strength and stress distribution for high-pressure applications. Slip-on flanges slide over the pipe and are fillet welded, offering easier alignment and lower cost for less critical applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Industrial Flanges",
@@ -3891,6 +4051,10 @@
         "headline": "Inconel 600 Pipe - High Temperature Nickel Chromium Alloy",
         "summary": "Starlight Tubes manufactures Inconel 600 pipes with outstanding oxidation resistance up to 2150°F for heat treating fixtures, nuclear reactors, and chemical processing plants."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel 600 pipes are nickel-chromium alloy pipes (UNS N06600) with excellent resistance to oxidation and corrosion at high temperatures, used in chemical processing, nuclear engineering, and heat treatment applications. Starlight Tubes manufactures Inconel 600 pipes per ASTM B167 and ASME SB167 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel 600",
@@ -3911,7 +4075,8 @@
           "question": "Is Inconel 600 suitable for nuclear applications?",
           "answer": "Yes, Inconel 600 is widely used in nuclear steam generators and reactor components due to its excellent resistance to corrosion, high-temperature strength, and compatibility with nuclear environments."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel 600 Pipes",
@@ -4012,6 +4177,10 @@
         "headline": "Inconel 600 Plate - High Temperature Oxidation Resistant Alloy",
         "summary": "Starlight Tubes supplies Inconel 600 plates with excellent oxidation resistance and mechanical strength from cryogenic to 2000°F for furnace components and nuclear reactor applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel 600 plates are nickel-chromium alloy plates (UNS N06600) with excellent high-temperature strength and oxidation resistance, used in heat treatment equipment, chemical processing, and nuclear engineering. Starlight Tubes supplies Inconel 600 plates per ASTM B168 and ASME SB168 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel 600",
@@ -4032,7 +4201,8 @@
           "question": "What is the composition of Inconel 600?",
           "answer": "Inconel 600 (UNS N06600) contains approximately 72% nickel, 14-17% chromium, and 6-10% iron, providing excellent resistance to oxidation, carburization, and chloride stress-corrosion cracking."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel 600 Plates",
@@ -4135,6 +4305,10 @@
         "headline": "Inconel 625 Pipe - High Temperature Nickel Alloy",
         "summary": "Starlight Tubes supplies Inconel 625 pipes with excellent high temperature and corrosion resistance for aerospace, marine, and chemical industries."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel 625 pipes are nickel-chromium-molybdenum alloy pipes (UNS N06625) with exceptional strength, corrosion resistance, and high-temperature performance up to 1800°F (982°C). Starlight Tubes manufactures Inconel 625 seamless and welded pipes per ASTM B444 and ASME SB444 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel 625",
@@ -4155,7 +4329,8 @@
           "question": "What temperature can Inconel 625 withstand?",
           "answer": "Inconel 625 maintains excellent mechanical properties up to 982°C (1800°F) and has good oxidation resistance."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel 625 Pipes",
@@ -4256,6 +4431,10 @@
         "headline": "Inconel 625 Plate - Marine Grade Corrosion Resistant Alloy",
         "summary": "Starlight Tubes manufactures Inconel 625 plates with superior resistance to pitting, crevice corrosion, and stress-corrosion cracking for marine, aerospace, and chemical applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel 625 plates are nickel-chromium-molybdenum alloy plates (UNS N06625) with outstanding high-temperature strength and resistance to pitting, crevice corrosion, and stress corrosion cracking. Starlight Tubes supplies Inconel 625 plates per ASTM B443 and ASME SB443 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel 625",
@@ -4276,7 +4455,8 @@
           "question": "What tests are performed on Inconel 625 plates?",
           "answer": "Inconel 625 plates undergo chemical analysis, mechanical testing, ultrasonic inspection, intergranular corrosion testing per ASTM A262, and surface examination to ensure quality and performance in corrosive environments."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel 625 Plates",
@@ -4377,6 +4557,10 @@
         "headline": "Inconel 625 Tubing - Corrosion Resistant Superalloy Tubes",
         "summary": "Starlight Tubes supplies Inconel 625 tubing with exceptional corrosion resistance and high strength for seawater systems, aerospace hydraulic lines, and chemical heat exchangers."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel 625 tubing consists of precision nickel-chromium-molybdenum alloy tubes (UNS N06625) with exceptional corrosion resistance in extreme environments including marine, chemical, and aerospace applications. Starlight Tubes manufactures Inconel 625 seamless tubing per ASTM B444 and ASME SB444 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel 625",
@@ -4397,7 +4581,8 @@
           "question": "What is the temperature range for Inconel 625 tubing?",
           "answer": "Inconel 625 tubing maintains excellent mechanical properties from cryogenic temperatures up to 1800°F (982°C), with outstanding oxidation and corrosion resistance throughout this range."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel 625 Tubing",
@@ -4498,6 +4683,10 @@
         "headline": "Inconel Bolts - High Temperature Nickel Alloy Fasteners",
         "summary": "Starlight Tubes manufactures Inconel bolts, studs, and nuts in grades 600, 625, and 718 for aerospace, nuclear, and high-temperature applications up to 1800°F."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel bolts are high-performance fasteners made from nickel-chromium alloys (Alloy 600, 625, 718) that maintain exceptional strength and corrosion resistance at extreme temperatures from cryogenic to 2000°F. Starlight Tubes supplies Inconel bolts, nuts, studs, and washers per ASTM B446 and ASTM F468 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel Bolts",
@@ -4518,7 +4707,8 @@
           "question": "What temperature can Inconel fasteners withstand?",
           "answer": "Inconel fasteners can operate reliably from cryogenic temperatures to 1800°F (982°C), with Inconel 718 bolts maintaining excellent strength up to 1300°F in aerospace and gas turbine applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel Bolts",
@@ -4621,6 +4811,10 @@
         "headline": "Inconel Pipe - High Temperature Nickel Superalloy Pipes",
         "summary": "Starlight Tubes supplies Inconel pipes in grades 600, 625, 718, and 825 with exceptional high temperature strength and corrosion resistance for aerospace, nuclear, and chemical industries."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel pipes are nickel-chromium superalloy pipes known for their exceptional resistance to oxidation, corrosion, and high-temperature strength, used in aerospace, chemical, and nuclear applications. Starlight Tubes manufactures Inconel pipes in Alloy 600, 601, 625, 718, and 800 per ASTM B167, B444, and ASME SB specifications."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel 600",
@@ -4641,7 +4835,8 @@
           "question": "Why is Inconel used in aerospace applications?",
           "answer": "Inconel is used in aerospace for its exceptional strength-to-weight ratio at high temperatures, resistance to thermal fatigue, and ability to withstand extreme conditions in jet engines and gas turbines."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel Pipes",
@@ -4742,6 +4937,10 @@
         "headline": "Inconel Plate - High Temperature Nickel Alloy Sheets",
         "summary": "Starlight Tubes manufactures Inconel alloy plates in grades 600, 625, 718, and 825 with excellent oxidation resistance and mechanical strength for aerospace and chemical processing applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel plates are nickel-chromium superalloy flat products with outstanding high-temperature strength, oxidation resistance, and corrosion resistance for demanding industrial environments. Starlight Tubes supplies Inconel plates in Alloy 600, 625, 718, and 800 per ASTM B168, B443, and ASME SB standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel Plate",
@@ -4762,7 +4961,8 @@
           "question": "What are the available Inconel plate grades?",
           "answer": "Starlight Tubes offers Inconel plates in grades 600, 601, 617, 625, 690, 718, 725, 800, 825, and X-750, each designed for specific temperature and corrosion resistance requirements."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel Plates",
@@ -4863,6 +5063,10 @@
         "headline": "Inconel Round Bar - High Performance Nickel Alloy Bars",
         "summary": "Starlight Tubes supplies Inconel round bars in grades 600, 625, and 718 with exceptional high-temperature strength for aerospace fasteners, gas turbine components, and nuclear applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Inconel bars are solid nickel-chromium superalloy products available in round, flat, square, and hexagonal shapes, used in aerospace, chemical processing, and high-temperature applications. Starlight Tubes supplies Inconel bars in Alloy 600, 625, 718, and X-750 per ASTM B166 and ASME SB166 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Inconel Round Bar",
@@ -4883,7 +5087,8 @@
           "question": "What finishes are available for Inconel round bars?",
           "answer": "Inconel round bars are available in hot rolled, cold drawn, centerless ground, peeled, black, and bright finishes to meet various machining and application requirements."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Inconel Round Bars",
@@ -4986,6 +5191,10 @@
         "headline": "Nickel Pipe - Pure Nickel 200/201 Alloy Pipes",
         "summary": "Starlight Tubes supplies high-purity Nickel 200 and 201 pipes with excellent corrosion resistance for chemical processing, petrochemical, and caustic soda production applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Nickel pipes are high-purity nickel and nickel alloy tubular products with excellent corrosion resistance in caustic, alkaline, and acidic environments, used in chemical processing and electronics industries. Starlight Tubes manufactures Nickel 200/201 pipes per ASTM B161 and ASME SB161 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Nickel 200",
@@ -5005,7 +5214,8 @@
           "question": "What are nickel pipes used for?",
           "answer": "Nickel pipes are used in chemical processing, caustic soda production, food processing, and applications requiring excellent corrosion resistance to acids, alkalis, and high-purity environments."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Nickel Pipes",
@@ -5106,6 +5316,10 @@
         "headline": "Nickel Sheet - High Purity Nickel 200/201 Plates & Coils",
         "summary": "Starlight Tubes manufactures premium nickel alloy sheets and plates with superior corrosion resistance for chemical processing, electronics, and caustic handling applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Nickel sheets are flat products made from high-purity nickel and nickel alloys, offering excellent corrosion resistance in caustic and reducing environments for chemical processing and electronics. Starlight Tubes supplies Nickel 200/201 sheets per ASTM B162 and ASME SB162 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Nickel 200",
@@ -5126,7 +5340,8 @@
           "question": "What is the purity of Nickel 200 sheets?",
           "answer": "Nickel 200 sheets contain a minimum of 99.6% pure nickel, making them ideal for applications requiring high purity and excellent resistance to caustic alkalis and various acids."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Nickel Sheets",
@@ -5224,6 +5439,11 @@
           "highPrice": "1500",
           "availability": "https://schema.org/InStock"
         }
+      },
+      "pageSchemaType": "ItemPage",
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Pipe fittings are components used to connect, redirect, or control the flow of fluid in piping systems, including elbows, tees, reducers, caps, couplings, and unions. Starlight Tubes manufactures butt weld, socket weld, and threaded pipe fittings in stainless steel, carbon steel, and alloy steel per ASTM A403, A234, and ASME B16.9 standards."
       }
     },
     "pageHero": {
@@ -5325,6 +5545,10 @@
         "headline": "Pipe Reducers - Concentric and Eccentric Reducers",
         "summary": "Starlight Tubes manufactures pipe reducers including concentric and eccentric reducers in stainless steel and carbon steel. ASME B16.9 certified for smooth diameter transitions."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Reducer fittings are pipe fittings used to connect pipes of different diameters, available in concentric (for vertical flow) and eccentric (for horizontal flow) configurations. Starlight Tubes manufactures reducers in stainless steel, carbon steel, and alloy steel per ASTM A403, ASTM A234, and ASME B16.9 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Pipe Reducers",
@@ -5345,7 +5569,8 @@
           "question": "When should eccentric reducers be used?",
           "answer": "Eccentric reducers are used in horizontal pump suction lines (flat side up to prevent cavitation), in slurry or liquid lines requiring drainage (flat side down), and where maintaining pipe bottom elevation is critical for flow."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Reducer Fittings",
@@ -5446,6 +5671,10 @@
         "headline": "Socket Weld Fittings - High Pressure Forged Fittings Class 3000/6000/9000",
         "summary": "Starlight Tubes manufactures socket weld fittings for small bore high-pressure piping systems. Available in Class 3000, 6000, and 9000 per ASME B16.11 in stainless steel and carbon steel."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Socket weld fittings are pipe fittings designed for small-bore, high-pressure piping systems where the pipe is inserted into the fitting socket and fillet welded for a strong, leak-proof connection. Starlight Tubes manufactures socket weld elbows, tees, couplings, and crosses per ASME B16.11 in pressure classes 3000#, 6000#, and 9000#."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Socket Weld Fittings",
@@ -5466,7 +5695,8 @@
           "question": "What pressure classes are socket weld fittings available in?",
           "answer": "Socket weld fittings are available in Class 3000, 6000, and 9000 pressure ratings per ASME B16.11. Class 3000 is suitable for standard high-pressure applications, while Class 6000 and 9000 are for extreme pressure requirements."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Socket Weld Fittings",
@@ -5567,6 +5797,10 @@
         "headline": "SS 304 Pipe - ASTM A312 TP304 Seamless & Welded Pipes",
         "summary": "Starlight Tubes manufactures premium SS 304 pipes with 18% chromium and 8% nickel composition for excellent corrosion resistance in food processing, pharmaceutical, and chemical applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel 304 pipes are austenitic stainless steel pipes containing 18% chromium and 8% nickel, offering excellent corrosion resistance and formability for food processing, chemical, and architectural applications. Starlight Tubes manufactures SS 304/304L seamless and welded pipes per ASTM A312 and ASME SA312 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel 304",
@@ -5586,7 +5820,8 @@
           "question": "What sizes are available for 304 stainless steel pipes?",
           "answer": "We offer SS 304 pipes from NB 1/8 inch to 24 inch in Schedule 5S to XXS with lengths up to 6 meters."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "SS 304 Pipes",
@@ -5687,6 +5922,10 @@
         "headline": "SS 304 Plate - ASTM A240 Stainless Steel Sheet & Plate",
         "summary": "Starlight Tubes supplies premium SS 304 plates and sheets with multiple surface finishes for kitchen equipment, food processing, architectural facades, and chemical storage applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel 304 plates are austenitic stainless steel flat products (18Cr-8Ni) with excellent corrosion resistance and formability, used in food processing, chemical equipment, and architectural applications. Starlight Tubes supplies SS 304/304L plates per ASTM A240 and ASME SA240 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel 304",
@@ -5706,7 +5945,8 @@
           "question": "What surface finishes are available for 304 stainless steel plates?",
           "answer": "Our SS 304 plates are available in 2B, BA, No.1, No.4, Hairline, Mirror 8K, and Brushed finishes to meet your requirements."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "SS 304 Plates",
@@ -5807,6 +6047,10 @@
         "headline": "SS 316L Pipe - Low Carbon ASTM A312 TP316L Pipes",
         "summary": "Starlight Tubes manufactures premium SS 316L pipes with extra low carbon content for enhanced weldability and corrosion resistance in pharmaceutical, food processing, and marine applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel 316L pipes are low-carbon austenitic stainless steel pipes containing molybdenum for enhanced pitting and crevice corrosion resistance, used in chemical, pharmaceutical, and marine applications. Starlight Tubes manufactures SS 316L seamless and welded pipes per ASTM A312 and ASME SA312 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel 316L",
@@ -5826,7 +6070,8 @@
           "question": "What applications are SS 316L pipes ideal for?",
           "answer": "SS 316L pipes are ideal for pharmaceutical process lines, food & beverage equipment, marine piping systems, and chemical processing where welding is required without post-weld treatment."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "SS 316L Pipes",
@@ -5927,6 +6172,10 @@
         "headline": "SS 316 Plate - Marine Grade ASTM A240 Stainless Steel",
         "summary": "Starlight Tubes supplies premium SS 316 plates with molybdenum for superior chloride and acid resistance in marine environments, coastal construction, and chemical storage applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel 316 plates are molybdenum-bearing austenitic stainless steel flat products with superior corrosion resistance to chloride environments, used in chemical processing, marine, and pharmaceutical applications. Starlight Tubes supplies SS 316/316L plates per ASTM A240 and ASME SA240 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel 316",
@@ -5946,7 +6195,8 @@
           "question": "Why choose SS 316 plates over SS 304?",
           "answer": "SS 316 plates contain molybdenum which provides superior resistance to chlorides, acids, and pitting corrosion, making them essential for marine and chemical environments."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "SS 316 Plates",
@@ -6047,6 +6297,10 @@
         "headline": "SS 316 Tube - Marine Grade ASTM A213 TP316 Tubes",
         "summary": "Starlight Tubes manufactures premium SS 316 tubes with molybdenum content for superior corrosion resistance in marine, pharmaceutical, and heat exchanger applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel 316 tubes are molybdenum-bearing austenitic stainless steel tubes with excellent resistance to pitting and crevice corrosion, used in heat exchangers, pharmaceutical equipment, and chemical processing. Starlight Tubes manufactures SS 316/316L seamless and welded tubes per ASTM A213 and ASTM A249 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel 316",
@@ -6066,7 +6320,8 @@
           "question": "What applications are SS 316 tubes suitable for?",
           "answer": "SS 316 tubes are ideal for marine equipment, pharmaceutical processing, heat exchangers, chemical plants, and coastal construction due to their enhanced corrosion resistance."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "SS 316 Tubes",
@@ -6167,6 +6422,10 @@
         "headline": "Stainless Steel Fasteners - Bolts, Nuts, Screws & Washers",
         "summary": "Starlight Tubes supplies premium stainless steel fasteners including bolts, nuts, screws, and washers in 304, 316, A2-70, A4-80 grades for industrial and marine applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel fasteners are corrosion-resistant bolts, nuts, studs, washers, and screws made from austenitic grades like SS 304 and SS 316, used in construction, marine, chemical, and food processing industries. Starlight Tubes supplies stainless steel fasteners per ASTM A193, ASTM A194, and ASTM F593 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel",
@@ -6186,7 +6445,8 @@
           "question": "What size range is available for SS fasteners?",
           "answer": "Our stainless steel fasteners are available from M3 to M100 in metric and 1/4 inch to 4 inch in imperial, with lengths up to 1000mm."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Stainless Steel Fasteners",
@@ -6299,6 +6559,10 @@
         "headline": "Stainless Steel Pipes - 304, 316, 316L Grades",
         "summary": "Starlight Tubes manufactures premium stainless steel pipes in 304, 316, and 316L grades. Available in seamless and welded configurations per ASTM A312 standards. Export to 60+ countries with competitive factory prices."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel pipes are corrosion-resistant steel pipes made from grades like 304, 316, and 316L, widely used in chemical, petrochemical, and food processing industries. Starlight Tubes manufactures seamless and welded SS pipes per ASTM A312, ASTM A358, and ASME SA312 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel",
@@ -6307,7 +6571,8 @@
         "Welded Pipes",
         "Corrosion Resistant Steel",
         "Industrial Piping"
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Stainless Steel Pipes",
@@ -6408,6 +6673,10 @@
         "headline": "Stainless Steel Round Bar - Bright & Polished SS Bars",
         "summary": "Starlight Tubes manufactures premium stainless steel round bars in 304, 316, 410, 420 grades with bright, polished, and centerless ground finishes for precision engineering and machining applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel bars are solid stainless steel products available in round, flat, square, and hexagonal shapes, used in machining, construction, and industrial fabrication. Starlight Tubes supplies SS bars in grades 304, 316, 321, 410, and 17-4 PH per ASTM A276 and ASTM A479 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel",
@@ -6427,7 +6696,8 @@
           "question": "What finishes do you offer for stainless steel bars?",
           "answer": "Our SS round bars are available in black, bright, polished, peeled, ground, and centerless ground finishes to suit your application needs."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Stainless Steel Round Bars",
@@ -6528,6 +6798,10 @@
         "headline": "Stainless Steel Sheet - Hot & Cold Rolled SS Sheets",
         "summary": "Starlight Tubes supplies premium stainless steel sheets and plates in 304, 316, 321, 310S grades with multiple finishes including 2B, BA, mirror, and hairline for industrial and architectural applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel sheets are flat-rolled stainless steel products with uniform thickness and smooth surface finish, used in food processing, pharmaceutical, architectural, and industrial applications. Starlight Tubes supplies SS sheets in grades 304, 316, 321, and 430 per ASTM A240 and ASME SA240 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel",
@@ -6547,7 +6821,8 @@
           "question": "What thickness range do you offer for SS sheets?",
           "answer": "Our stainless steel sheets are available in thickness from 0.3mm to 6mm, while plates range from 6mm to 100mm with width up to 3000mm."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Stainless Steel Sheets",
@@ -6650,6 +6925,10 @@
         "headline": "Stainless Steel Tube - Seamless & Welded SS Tubes",
         "summary": "Starlight Tubes manufactures premium stainless steel tubes in 304, 316, 316L, duplex, and super duplex grades for industrial applications including oil & gas, petrochemical, and marine industries."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel tubes are precision-drawn or welded stainless steel tubular products used in heat exchangers, condensers, boilers, pharmaceutical, and instrumentation applications. Starlight Tubes manufactures SS tubes in grades 304, 316, 321, and 310 per ASTM A213, ASTM A269, and ASME SA213 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel",
@@ -6669,7 +6948,8 @@
           "question": "What grades of SS tubes does Starlight Tubes manufacture?",
           "answer": "We manufacture SS tubes in 304, 304L, 316, 316L, 321, 310S, 347, 904L, Duplex and Super Duplex grades to meet various industrial requirements."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Stainless Steel Tubes",
@@ -6770,6 +7050,10 @@
         "headline": "Stainless Steel Wire - Spring Wire & Welding Wire",
         "summary": "Starlight Tubes manufactures premium stainless steel wire including spring wire, welding wire, and cold drawn wire in 304, 316 grades with multiple temper options for industrial applications."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Stainless steel wires are drawn stainless steel products available in various diameters and finishes, used in springs, fasteners, weaving, medical devices, and industrial applications. Starlight Tubes supplies SS wire in grades 302, 304, 316, and 410 per ASTM A580 and ASTM A313 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Stainless Steel",
@@ -6789,7 +7073,8 @@
           "question": "What temper options are available for stainless steel wire?",
           "answer": "Our SS wire is available in soft annealed, quarter hard, half hard, full hard, and spring temper to meet your specific application needs."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Stainless Steel Wire",
@@ -6890,6 +7175,10 @@
         "headline": "Pipe Tee Fittings - Equal Tee and Reducing Tee",
         "summary": "Starlight Tubes manufactures pipe tee fittings including equal tees and reducing tees in stainless steel and carbon steel. Available in butt weld, socket weld, and threaded types per ASME B16.9."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Tee fittings are T-shaped pipe fittings used to combine or divide fluid flow in a piping system, available in equal tee and reducing tee configurations. Starlight Tubes manufactures tee fittings in stainless steel, carbon steel, and alloy steel per ASTM A403, ASTM A234, and ASME B16.9 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Pipe Tee Fittings",
@@ -6910,7 +7199,8 @@
           "question": "What are pipe tee fittings used for?",
           "answer": "Pipe tee fittings are used to create branch connections in piping systems, allowing fluid flow to be divided or combined at a 90-degree angle. They are essential in distribution systems, process piping, and HVAC applications."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Tee Fittings",
@@ -7011,6 +7301,10 @@
         "headline": "Threaded Fittings - NPT, BSP, BSPT Pipe Fittings",
         "summary": "Starlight Tubes manufactures threaded pipe fittings in NPT, BSP, and BSPT thread standards. Easy assembly and disassembly for instrumentation and maintenance applications per ASME B16.11."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Threaded fittings are pipe fittings with male or female threads (NPT/BSP) that allow assembly and disassembly without welding, used in low-pressure piping, plumbing, and instrumentation systems. Starlight Tubes manufactures threaded elbows, tees, couplings, unions, and bushings per ASME B16.11 in pressure classes 2000# and 3000#."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Threaded Fittings",
@@ -7032,7 +7326,8 @@
           "question": "When should threaded fittings be used instead of welded fittings?",
           "answer": "Threaded fittings are ideal for low to medium pressure applications where easy assembly, disassembly, and maintenance are required. They are commonly used in instrumentation, pneumatic systems, and applications requiring frequent servicing without cutting pipes."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Threaded Fittings",
@@ -7133,6 +7428,10 @@
         "headline": "Pipe Unions - Threaded and Socket Weld Unions for Easy Maintenance",
         "summary": "Starlight Tubes manufactures pipe unions including threaded unions and socket weld unions in stainless steel and carbon steel. Designed for easy disassembly and maintenance per ASME B16.11."
       },
+      "featuredSnippet": {
+        "type": "paragraph",
+        "content": "Union fittings are pipe fittings that provide a convenient, disconnectable joint for maintenance and repair in piping systems, available in socket weld, threaded, and butt weld configurations. Starlight Tubes manufactures unions in stainless steel, carbon steel, and alloy steel per ASME B16.11 and MSS SP-83 standards."
+      },
       "entityType": "Product",
       "relatedEntities": [
         "Pipe Unions",
@@ -7153,7 +7452,8 @@
           "question": "What is the difference between a union and a coupling?",
           "answer": "A union is a three-piece fitting that can be disconnected by loosening the union nut, allowing pipes to be separated without rotation. A coupling is a single-piece fitting that permanently connects two pipes and requires cutting to separate them."
         }
-      ]
+      ],
+      "pageSchemaType": "ItemPage"
     },
     "pageHero": {
       "title": "Union Fittings",

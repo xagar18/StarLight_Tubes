@@ -239,6 +239,41 @@ const Product = () => {
           "Yes, all our products come with mill test certificates, comply with ASTM, ASME, API, DIN, EN standards, and are manufactured under ISO 9001:2015 certified processes.",
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes manufactures a comprehensive range of steel pipes, tubes, fittings, and flanges including stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600, Monel 400), copper pipes, aluminium products, and pipe fittings per ASTM, ASME, and API standards.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
+    qaSchema: [
+      {
+        question: "What products does Starlight Tubes manufacture and export?",
+        answer:
+          "Starlight Tubes manufactures and exports stainless steel pipes (304, 316, 316L, duplex), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper pipes, aluminium products, pipe fittings (elbows, tees, reducers), and flanges to 60+ countries worldwide.",
+        upvoteCount: 175,
+      },
+      {
+        question: "What standards do Starlight Tubes products comply with?",
+        answer:
+          "All Starlight Tubes products comply with international standards including ASTM, ASME, API, DIN, EN, and JIS. Products are manufactured under ISO 9001:2015 certified processes with mill test certificates and third-party inspection reports.",
+        upvoteCount: 150,
+      },
+    ],
+    serviceSchema: {
+      name: "Steel Pipe Manufacturing & Export",
+      description:
+        "Comprehensive steel pipe manufacturing and global export services covering stainless steel, carbon steel, nickel alloy, copper, and aluminium pipes, tubes, fittings, and flanges with ISO certification and worldwide delivery.",
+      serviceType: "Manufacturing & Export",
+      areaServed: [
+        "United States",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "United Kingdom",
+        "Germany",
+        "India",
+        "Singapore",
+        "Australia",
+      ],
+    },
   });
 
   return (

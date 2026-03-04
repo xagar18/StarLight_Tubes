@@ -90,6 +90,20 @@ const TechnicalInfo = () => {
         upvoteCount: 120,
       },
     ],
+    pageSchemaType: "WebPage",
+    nlqAnswer:
+      "Technical specifications, chemical composition, and mechanical properties data for steel pipes including stainless steel, carbon steel, nickel alloy, and specialty metals. Covers ASTM, ASME, API, DIN standards.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
+    techArticleSchema: {
+      headline: "Steel Pipe Technical Specifications & Properties",
+      description:
+        "Comprehensive technical reference covering chemical composition, mechanical properties, and dimensional data for stainless steel, carbon steel, nickel alloy, and specialty metal pipes per ASTM, ASME, API, and DIN standards.",
+      proficiencyLevel: "Expert",
+      dependencies: "Basic knowledge of metallurgy and pipe engineering",
+      datePublished: "2025-01-01",
+      dateModified: "2025-06-01",
+    },
   });
   const [view, setView] = useState<"chemical" | "mechanical" | "dimensions">(
     "chemical",

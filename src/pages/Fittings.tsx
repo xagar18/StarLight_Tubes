@@ -126,6 +126,27 @@ const Fittings = () => {
         upvoteCount: 105,
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes manufactures pipe fittings per ASME B16.9 (butt weld), B16.11 (forged/socket weld), and B16.5 (flanges) standards. Products include elbows, tees, reducers, caps, couplings, unions, and flanges in stainless steel, carbon steel, and nickel alloys.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
+    serviceSchema: {
+      name: "Pipe Fittings Manufacturing",
+      description:
+        "Manufacturing and export of pipe fittings including elbows, tees, reducers, caps, couplings, unions, and flanges in stainless steel, carbon steel, and nickel alloys per ASME B16.9, B16.11, B16.5 standards.",
+      serviceType: "Manufacturing & Export",
+      areaServed: [
+        "United States",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "United Kingdom",
+        "Germany",
+        "India",
+        "Singapore",
+        "Australia",
+      ],
+    },
   });
   const ctaData = {
     title: "Pipe Fittings & Flanges",

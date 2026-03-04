@@ -94,6 +94,11 @@ const NickelAlloys = () => {
         upvoteCount: 110,
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes supplies nickel alloy pipes including Monel 400/K500, Hastelloy C276/C22, Nickel 200/201, Incoloy 800/825, and Alloy 20. Manufactured per ASTM B165, B444, B407 standards for aerospace, chemical, nuclear, and marine applications.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
   const ctaData = {
     title: "Nickel Alloy Products",

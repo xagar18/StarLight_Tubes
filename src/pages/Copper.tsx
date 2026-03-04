@@ -130,6 +130,11 @@ const Copper = () => {
         upvoteCount: 90,
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes manufactures copper pipes, tubes, sheets, bars, and fittings in pure copper (C10200, C12200), brass, and cupro-nickel (90/10, 70/30) per ASTM B42, B88, B280, B111 standards for HVAC, plumbing, marine, and heat exchanger applications.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
   const ctaData = {
     title: "Copper Products",

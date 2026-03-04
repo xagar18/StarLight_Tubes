@@ -115,6 +115,11 @@ const About = () => {
         upvoteCount: 72,
       },
     ],
+    pageSchemaType: "AboutPage",
+    nlqAnswer:
+      "Starlight Tubes is an ISO 9001:2015 certified steel pipe manufacturer and global exporter established in 2020, headquartered in Mumbai, India. We export stainless steel, carbon steel, nickel alloy pipes and fittings to 60+ countries worldwide.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
   const heading = "Starlight Tubes";
   const text1 =

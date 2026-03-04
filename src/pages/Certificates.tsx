@@ -80,6 +80,11 @@ const Certificates = () => {
         upvoteCount: 95,
       },
     ],
+    pageSchemaType: "WebPage",
+    nlqAnswer:
+      "Starlight Tubes quality certifications: ISO 9001:2015, PED 2014/68/EU, OHSAS 18001, ISO 14001. All products supplied with Mill Test Certificates per EN 10204 3.1/3.2 standard.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
 
   return (

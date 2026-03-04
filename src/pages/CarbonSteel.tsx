@@ -94,6 +94,41 @@ const CarbonSteel = () => {
         upvoteCount: 135,
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes manufactures carbon steel pipes per ASTM A106 Grade B, API 5L (Grade B to X70), ASTM A53 Grade B standards. Available as seamless and ERW pipes for oil & gas pipelines, power plants, refineries, and structural applications.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
+    definedTerms: [
+      {
+        name: "ASTM A106 Grade B",
+        description:
+          "Seamless carbon steel pipe specification for high-temperature service in refineries, power plants, and petrochemical applications. Operating temperature range up to 400°C with minimum tensile strength of 415 MPa.",
+        termCode: "ASTM A106",
+      },
+      {
+        name: "API 5L",
+        description:
+          "Line pipe specification for oil and gas transmission pipelines covering grades B through X70. Available in PSL1 and PSL2 quality levels for onshore and offshore pipeline construction.",
+        termCode: "API 5L",
+      },
+    ],
+    serviceSchema: {
+      name: "Carbon Steel Pipe Manufacturing",
+      description:
+        "Manufacturing and export of carbon steel pipes per ASTM A106, API 5L, ASTM A53 standards as seamless, ERW, and welded configurations for oil & gas and industrial applications.",
+      serviceType: "Manufacturing & Export",
+      areaServed: [
+        "United States",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "United Kingdom",
+        "Germany",
+        "India",
+        "Singapore",
+        "Australia",
+      ],
+    },
   });
   const ctaData = {
     title: "Carbon Steel Products",

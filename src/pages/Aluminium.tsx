@@ -126,6 +126,11 @@ const Aluminium = () => {
         upvoteCount: 98,
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes manufactures aluminium pipes, tubes, sheets, coils in grades 6061, 6063, 5052, 5083, 7075, 2024 per ASTM B241, B210, B221, B209 standards for aerospace, automotive, marine, construction, and electrical applications.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
   const ctaData = {
     title: "Aluminium Products",

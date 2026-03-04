@@ -101,6 +101,11 @@ const Contact = () => {
         upvoteCount: 95,
       },
     ],
+    pageSchemaType: "ContactPage",
+    nlqAnswer:
+      "Contact Starlight Tubes at sales@starlighttubes.com or call +91-8591470791. Located in Mumbai, Maharashtra, India. Open Monday-Saturday 9:00 AM - 6:00 PM IST.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
   return (
     <div>

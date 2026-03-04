@@ -94,6 +94,47 @@ const StainlessSteel = () => {
         upvoteCount: 140,
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes manufactures stainless steel pipes and tubes in grades 304, 304L, 316, 316L, 321, 347, Duplex 2205, and Super Duplex 2507 per ASTM A312, A269, A213 standards. Available as seamless and welded pipes for chemical, oil & gas, food processing, and marine applications.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
+    definedTerms: [
+      {
+        name: "SS 304 Stainless Steel",
+        description:
+          "Austenitic stainless steel with 18% chromium and 8% nickel (18/8), the most widely used stainless steel grade offering excellent corrosion resistance, formability, and weldability for general-purpose applications.",
+        termCode: "UNS S30400",
+      },
+      {
+        name: "SS 316 Stainless Steel",
+        description:
+          "Molybdenum-bearing austenitic stainless steel with superior corrosion resistance to SS 304, especially against chlorides and marine environments. Contains 16% Cr, 10% Ni, 2% Mo.",
+        termCode: "UNS S31600",
+      },
+      {
+        name: "Duplex 2205 Stainless Steel",
+        description:
+          "Duplex ferritic-austenitic stainless steel with twice the yield strength of standard austenitic grades, excellent stress corrosion cracking resistance, and superior pitting resistance for offshore and chemical applications.",
+        termCode: "UNS S31803",
+      },
+    ],
+    serviceSchema: {
+      name: "Stainless Steel Pipe Manufacturing",
+      description:
+        "Manufacturing and export of stainless steel pipes and tubes in grades 304, 316, 316L, duplex, and super duplex for industrial applications worldwide.",
+      serviceType: "Manufacturing & Export",
+      areaServed: [
+        "United States",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "United Kingdom",
+        "Germany",
+        "India",
+        "Singapore",
+        "Australia",
+      ],
+    },
   });
   const ctaData = {
     title: "Stainless Steel Products",

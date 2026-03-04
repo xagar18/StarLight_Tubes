@@ -202,6 +202,11 @@ const Home = () => {
       "Carbon Steel",
       "Nickel Alloys",
     ],
+    pageSchemaType: "WebPage",
+    nlqAnswer:
+      "Starlight Tubes is India's leading steel pipe manufacturer and exporter based in Mumbai. We manufacture stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper, aluminium products, pipe fittings, and flanges. ISO 9001 certified, exporting to 60+ countries.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
 
   return (

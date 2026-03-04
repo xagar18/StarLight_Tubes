@@ -90,6 +90,25 @@ const Inconel = () => {
         upvoteCount: 120,
       },
     ],
+    pageSchemaType: "CollectionPage",
+    nlqAnswer:
+      "Starlight Tubes manufactures Inconel pipes and tubes in grades 600, 601, 625, 718, 800, and 825 per ASTM B444, B167, B163 standards. Used in aerospace, gas turbines, nuclear, and chemical processing for exceptional high-temperature and corrosion resistance.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
+    definedTerms: [
+      {
+        name: "Inconel 625",
+        description:
+          "Nickel-chromium-molybdenum superalloy (UNS N06625) with outstanding corrosion resistance and high strength from cryogenic to 980°C. Used in aerospace, marine, chemical processing, and nuclear applications.",
+        termCode: "UNS N06625",
+      },
+      {
+        name: "Inconel 600",
+        description:
+          "Nickel-chromium alloy (UNS N06600) with excellent oxidation resistance at high temperatures up to 1095°C. Widely used in furnace components, chemical and food processing, and nuclear engineering.",
+        termCode: "UNS N06600",
+      },
+    ],
   });
   const ctaData = {
     title: "Inconel Products",

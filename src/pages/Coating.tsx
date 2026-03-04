@@ -125,6 +125,11 @@ const Coating = () => {
         "Polyurethane Coating",
       ],
     },
+    pageSchemaType: "WebPage",
+    nlqAnswer:
+      "Starlight Tubes offers FBE (Fusion Bonded Epoxy), 3LPE, 3LPP, and internal epoxy coating services per AWWA C213, DIN 30670 standards for corrosion protection of underground pipelines, water transmission, and oil & gas applications.",
+    datePublished: "2025-01-01",
+    dateModified: "2025-06-01",
   });
   const projects = [
     {

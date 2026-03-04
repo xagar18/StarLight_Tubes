@@ -65,6 +65,34 @@ interface ServiceSchema {
   areaServed?: string[];
 }
 
+// GEO: DefinedTerm for industry terminology (helps AI understand context)
+interface DefinedTermItem {
+  name: string;
+  description: string;
+  termCode?: string;
+  inDefinedTermSet?: string;
+}
+
+// GEO: TechArticle for technical content pages
+interface TechArticleSchema {
+  headline: string;
+  description: string;
+  proficiencyLevel?: "Beginner" | "Expert";
+  dependencies?: string;
+  datePublished?: string;
+  dateModified?: string;
+}
+
+// GEO: Page-specific schema type for proper classification
+type PageSchemaType =
+  | "WebPage"
+  | "CollectionPage"
+  | "AboutPage"
+  | "ContactPage"
+  | "FAQPage"
+  | "ItemPage"
+  | "ProductPage";
+
 interface SEOProps {
   title?: string;
   description?: string;
@@ -96,10 +124,24 @@ interface SEOProps {
     type: "paragraph" | "list" | "table";
     content: string;
     listItems?: string[];
+    tableHeaders?: string[];
+    tableRows?: string[][];
   };
   // GEO: Entity optimization for AI
   entityType?: "Product" | "Service" | "Organization" | "Place";
   relatedEntities?: string[];
+  // GEO: DefinedTerm schemas for industry jargon
+  definedTerms?: DefinedTermItem[];
+  // GEO: TechArticle for technical pages
+  techArticleSchema?: TechArticleSchema;
+  // GEO: Proper page classification for AI engines
+  pageSchemaType?: PageSchemaType;
+  // GEO: NLQ (Natural Language Query) optimized answer
+  nlqAnswer?: string;
+  // AEO: Date metadata for freshness signals
+  datePublished?: string;
+  dateModified?: string;
+  lastReviewed?: string;
 }
 
 export const useSEO = ({
@@ -125,6 +167,13 @@ export const useSEO = ({
   featuredSnippet,
   entityType,
   relatedEntities,
+  definedTerms,
+  techArticleSchema,
+  pageSchemaType,
+  nlqAnswer,
+  datePublished,
+  dateModified,
+  lastReviewed,
 }: SEOProps = {}) => {
   const location = useLocation();
 
@@ -407,20 +456,24 @@ export const useSEO = ({
       addJsonLd("article-schema", articleJsonLd);
     }
 
-    // WebPage Schema for all pages - Enhanced for GEO
-    const webPageSchema = {
+    // WebPage Schema for all pages - Enhanced for GEO/AEO
+    const resolvedPageType = pageSchemaType || "WebPage";
+    const webPageSchema: Record<string, unknown> = {
       "@context": "https://schema.org",
-      "@type": "WebPage",
+      "@type": resolvedPageType,
+      "@id": `${fullUrl}#webpage`,
       name: title,
       description: description,
       url: fullUrl,
       isPartOf: {
         "@type": "WebSite",
+        "@id": "https://www.starlighttubes.com/#website",
         name: "Starlight Tubes",
         url: "https://www.starlighttubes.com",
       },
       publisher: {
         "@type": "Organization",
+        "@id": "https://www.starlighttubes.com/#organization",
         name: "Starlight Tubes",
         logo: {
           "@type": "ImageObject",
@@ -428,29 +481,43 @@ export const useSEO = ({
         },
       },
       inLanguage: "en-US",
-      // GEO: Add related entities for AI context
-      ...(relatedEntities && {
-        mentions: relatedEntities.map((entity) => ({
-          "@type": "Thing",
-          name: entity,
-        })),
-      }),
+      isAccessibleForFree: true,
+      // GEO: Date signals for AI freshness scoring
+      datePublished: datePublished || "2025-01-01",
+      dateModified: dateModified || new Date().toISOString().split("T")[0],
+      ...(lastReviewed && { lastReviewed }),
+      // GEO: Primary image for visual AI
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: image,
+      },
+      // GEO: Content classification for AI
+      about: {
+        "@type": entityType || "Thing",
+        name: title,
+        ...(relatedEntities &&
+          relatedEntities.length > 0 && {
+            description: description,
+          }),
+      },
+      // GEO: Add related entities for AI context graph
+      ...(relatedEntities &&
+        relatedEntities.length > 0 && {
+          mentions: relatedEntities.map((entity) => ({
+            "@type": "Thing",
+            name: entity,
+          })),
+        }),
       // GEO: Entity type for AI classification
       ...(entityType && {
         mainEntity: {
           "@type": entityType,
           name: title,
+          url: fullUrl,
         },
       }),
-    };
-    addJsonLd("webpage-schema", webPageSchema);
-
-    // AEO: Speakable Schema for Voice Search Optimization
-    if (speakableContent) {
-      const speakableSchema = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        name: title,
+      // AEO: Speakable specification inline (Google-recognized)
+      ...(speakableContent && {
         speakable: {
           "@type": "SpeakableSpecification",
           cssSelector: speakableContent.cssSelectors || [
@@ -458,11 +525,18 @@ export const useSEO = ({
             ".speakable-summary",
           ],
         },
-        url: fullUrl,
-      };
-      addJsonLd("speakable-schema", speakableSchema);
+      }),
+      // GEO: NLQ (Natural Language Query) optimized answer
+      ...(nlqAnswer && {
+        abstract: nlqAnswer,
+      }),
+      // AEO: Significance depth for AI engines
+      significantLink: breadcrumbs ? breadcrumbs.map((b) => b.url) : undefined,
+    };
+    addJsonLd("webpage-schema", webPageSchema);
 
-      // Add speakable meta tags for voice assistants
+    // AEO: Speakable meta tags for voice assistants (works alongside inline speakable above)
+    if (speakableContent) {
       updateMetaTag("speakable:headline", speakableContent.headline);
       updateMetaTag("speakable:summary", speakableContent.summary);
     }
@@ -552,7 +626,7 @@ export const useSEO = ({
       addJsonLd("service-schema", serviceJsonLd);
     }
 
-    // AEO: Featured Snippet Optimization Meta Tags
+    // AEO: Featured Snippet Optimization — proper Schema.org markup
     if (featuredSnippet) {
       // Add specific meta tags for featured snippets
       updateMetaTag("snippet:type", featuredSnippet.type);
@@ -563,6 +637,9 @@ export const useSEO = ({
         const itemListSchema = {
           "@context": "https://schema.org",
           "@type": "ItemList",
+          name: title,
+          description: featuredSnippet.content,
+          numberOfItems: featuredSnippet.listItems.length,
           itemListElement: featuredSnippet.listItems.map((item, index) => ({
             "@type": "ListItem",
             position: index + 1,
@@ -571,9 +648,101 @@ export const useSEO = ({
         };
         addJsonLd("itemlist-schema", itemListSchema);
       }
+
+      // For table snippets, create Table schema
+      if (
+        featuredSnippet.type === "table" &&
+        featuredSnippet.tableHeaders &&
+        featuredSnippet.tableRows
+      ) {
+        const tableSchema = {
+          "@context": "https://schema.org",
+          "@type": "Table",
+          about: title,
+          abstract: featuredSnippet.content,
+        };
+        addJsonLd("table-schema", tableSchema);
+      }
+
+      // Paragraph snippet: create a concise CreativeWork for AI extraction
+      if (featuredSnippet.type === "paragraph") {
+        const snippetSchema = {
+          "@context": "https://schema.org",
+          "@type": "CreativeWork",
+          name: title,
+          text: featuredSnippet.content,
+          author: {
+            "@type": "Organization",
+            name: "Starlight Tubes",
+          },
+          datePublished: datePublished || "2025-01-01",
+          dateModified: dateModified || new Date().toISOString().split("T")[0],
+        };
+        addJsonLd("snippet-schema", snippetSchema);
+      }
     }
 
-    // GEO: Knowledge Graph Enhancement
+    // GEO: DefinedTerm Schema — helps AI engines understand industry terminology
+    if (definedTerms && definedTerms.length > 0) {
+      const definedTermSetSchema = {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        name: `${title} - Industry Terms`,
+        description: `Technical terminology related to ${title}`,
+        hasDefinedTerm: definedTerms.map((term) => ({
+          "@type": "DefinedTerm",
+          name: term.name,
+          description: term.description,
+          ...(term.termCode && { termCode: term.termCode }),
+          inDefinedTermSet:
+            term.inDefinedTermSet || "Steel & Piping Industry Standards",
+        })),
+      };
+      addJsonLd("defined-terms-schema", definedTermSetSchema);
+    }
+
+    // GEO: TechArticle Schema — for technical content pages
+    if (techArticleSchema) {
+      const techArticleJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        headline: techArticleSchema.headline,
+        description: techArticleSchema.description,
+        proficiencyLevel: techArticleSchema.proficiencyLevel || "Expert",
+        ...(techArticleSchema.dependencies && {
+          dependencies: techArticleSchema.dependencies,
+        }),
+        author: {
+          "@type": "Organization",
+          name: "Starlight Tubes",
+          url: "https://www.starlighttubes.com",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Starlight Tubes",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://www.starlighttubes.com/StarlightLogo.png",
+          },
+        },
+        datePublished:
+          techArticleSchema.datePublished || datePublished || "2025-01-01",
+        dateModified:
+          techArticleSchema.dateModified ||
+          dateModified ||
+          new Date().toISOString().split("T")[0],
+        image: image,
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": fullUrl,
+        },
+        inLanguage: "en-US",
+        isAccessibleForFree: true,
+      };
+      addJsonLd("tech-article-schema", techArticleJsonLd);
+    }
+
+    // GEO: Enhanced Knowledge Graph with industry authority signals
     const knowledgeGraphSchema = {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -583,28 +752,70 @@ export const useSEO = ({
         "Starlight Tubes India",
         "Starlight Steel Pipes",
         "Starlight Tubes Manufacturer",
+        "Starlight Tubes & Pipes",
       ],
       description:
-        "Leading steel pipe manufacturer and exporter in India specializing in stainless steel, carbon steel, nickel alloy pipes and industrial fittings.",
+        "Leading steel pipe manufacturer and exporter in India specializing in stainless steel, carbon steel, nickel alloy pipes and industrial fittings. ISO 9001 certified. Exporting to 60+ countries.",
       url: "https://www.starlighttubes.com",
       logo: "https://www.starlighttubes.com/StarlightLogo.png",
       foundingDate: "2020",
       foundingLocation: {
         "@type": "Place",
-        name: "Mumbai, India",
+        name: "Mumbai, Maharashtra, India",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Mumbai",
+          addressRegion: "Maharashtra",
+          addressCountry: "IN",
+        },
       },
-      areaServed: "Worldwide",
+      areaServed: [
+        { "@type": "Country", name: "United States" },
+        { "@type": "Country", name: "United Kingdom" },
+        { "@type": "Country", name: "Germany" },
+        { "@type": "Country", name: "United Arab Emirates" },
+        { "@type": "Country", name: "Saudi Arabia" },
+        { "@type": "Country", name: "India" },
+        { "@type": "Country", name: "Singapore" },
+        { "@type": "Country", name: "Australia" },
+        { "@type": "Country", name: "Canada" },
+        { "@type": "Country", name: "France" },
+      ],
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91-8591470791",
+        contactType: "sales",
+        email: "sales@starlighttubes.com",
+        areaServed: "Worldwide",
+        availableLanguage: ["English", "Hindi", "Arabic"],
+      },
       knowsAbout: [
         "Steel Pipe Manufacturing",
-        "Stainless Steel Pipes",
-        "Carbon Steel Pipes",
-        "Nickel Alloy Pipes",
-        "Inconel Pipes",
-        "Pipe Fittings",
-        "Industrial Piping",
-        "Oil & Gas Piping Solutions",
+        "Seamless Pipe Manufacturing",
+        "Welded Pipe Manufacturing",
+        "ERW Pipe Manufacturing",
+        "Stainless Steel Pipes & Tubes",
+        "Carbon Steel Pipes & Tubes",
+        "Nickel Alloy Pipes & Tubes",
+        "Inconel Superalloy Pipes",
+        "Copper Pipes & Tubes",
+        "Aluminium Pipes & Sheets",
+        "Pipe Fittings Manufacturing",
+        "Flanges Manufacturing",
+        "Industrial Piping Solutions",
+        "Oil & Gas Piping Systems",
         "Petrochemical Piping",
-        "Marine Grade Steel",
+        "Marine Grade Steel Products",
+        "ASTM Standards Compliance",
+        "API Certification",
+        "Heat Exchanger Tubes",
+        "Boiler Tubes",
+        "Condenser Tubes",
+        "FBE Coated Pipes",
+        "Epoxy Coated Pipes",
+        "3LPE Coated Pipes",
+        "Duplex Stainless Steel",
+        "Super Duplex Stainless Steel",
       ],
       hasCredential: [
         {
@@ -612,8 +823,30 @@ export const useSEO = ({
           credentialCategory: "ISO 9001:2015",
           name: "Quality Management System Certification",
         },
+        {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "PED 2014/68/EU",
+          name: "Pressure Equipment Directive Certification",
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "OHSAS 18001",
+          name: "Occupational Health & Safety Certification",
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "ISO 14001",
+          name: "Environmental Management System",
+        },
       ],
       slogan: "Your Trusted Steel Pipe Manufacturer & Global Exporter",
+      numberOfEmployees: {
+        "@type": "QuantitativeValue",
+        minValue: 50,
+        maxValue: 200,
+      },
+      naics: "332996",
+      isicV4: "2410",
     };
     addJsonLd("knowledge-graph-schema", knowledgeGraphSchema);
 
@@ -624,11 +857,14 @@ export const useSEO = ({
       removeJsonLd("faq-schema");
       removeJsonLd("article-schema");
       removeJsonLd("webpage-schema");
-      removeJsonLd("speakable-schema");
       removeJsonLd("howto-schema");
       removeJsonLd("qa-schema");
       removeJsonLd("service-schema");
       removeJsonLd("itemlist-schema");
+      removeJsonLd("table-schema");
+      removeJsonLd("snippet-schema");
+      removeJsonLd("defined-terms-schema");
+      removeJsonLd("tech-article-schema");
       removeJsonLd("knowledge-graph-schema");
     };
   }, [
@@ -653,6 +889,13 @@ export const useSEO = ({
     featuredSnippet,
     entityType,
     relatedEntities,
+    definedTerms,
+    techArticleSchema,
+    pageSchemaType,
+    nlqAnswer,
+    datePublished,
+    dateModified,
+    lastReviewed,
     fullUrl,
     location.pathname,
   ]);

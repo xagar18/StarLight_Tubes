@@ -92,3 +92,9 @@
   [headers.values]
     Cache-Control = "public, max-age=3600"
     Content-Type = "text/plain"
+
+# Edge Function: Injects correct canonical URL, title, description
+# into HTML server-side so Googlebot sees the right canonical for each page
+[[edge_functions]]
+  function = "inject-canonical"
+  path = "/*"

@@ -47,9 +47,9 @@ const CopperApplicationsCTA = () => {
 const Copper = () => {
   useSEO({
     title:
-      "Copper Pipe Manufacturer & Exporter | Copper Tubes, Sheets, Cupro Nickel Pipes | Starlight Tubes",
+      "Copper Pipe & Tube Manufacturer | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading copper pipe manufacturer and exporter in India. We manufacture copper pipes, copper tubes, copper sheets, copper plates, cupro nickel 90/10, cupro nickel 70/30 pipes. Premium quality copper products for HVAC, plumbing, marine industries. Export to USA, Europe, Middle East.",
+      "Copper pipes, tubes, sheets, bars & cupro nickel 90/10, 70/30 manufacturer. For marine, HVAC, plumbing & industrial applications.",
     keywords:
       "copper pipe manufacturer, copper tube manufacturer, copper pipe exporter, copper sheet manufacturer, copper plate manufacturer, cupro nickel pipe manufacturer, copper nickel tube manufacturer, CuNi 90/10 manufacturer, CuNi 70/30 manufacturer, copper round bar manufacturer, copper fittings manufacturer, copper pipe factory, copper tube factory, copper pipe supplier India, copper tube distributor, HVAC copper pipe manufacturer",
     url: "https://www.starlighttubes.com/copper",
@@ -180,9 +180,9 @@ const Copper = () => {
                 Copper
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Copper Products
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               Superior electrical and thermal conductivity for industrial and
               commercial use

@@ -28,456 +28,381 @@ const BASE_URL = "https://www.starlighttubes.com";
 // SEO metadata per route for proper server-side rendering
 const PAGE_META: Record<string, { title: string; description: string }> = {
   "/": {
-    title:
-      "Starlight Tubes - Steel Pipe Manufacturer & Exporter | Stainless Steel, Carbon Steel, Nickel Alloy Pipes & Tubes",
+    title: "Starlight Tubes | Steel Pipe Manufacturer & Exporter",
     description:
-      "Starlight Tubes is a leading steel pipe manufacturer and exporter in India. We manufacture and export stainless steel pipes, carbon steel tubes, nickel alloy pipes, inconel tubes, copper pipes, aluminium sheets, pipe fittings & flanges to 60+ countries. ISO 9001 certified.",
+      "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to 60+ countries.",
   },
   "/product": {
-    title:
-      "Products - Steel Pipe Manufacturer & Exporter | Stainless Steel, Carbon Steel, Nickel Alloy Pipes | Starlight Tubes",
+    title: "Steel Pipes & Tubes Products | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading manufacturer and exporter of steel pipes, tubes, fittings, flanges. We manufacture stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper pipes, aluminium pipes.",
+      "SS, carbon steel, nickel alloy, inconel, copper pipes, fittings & flanges. Seamless & welded. ASTM, API, ASME standards. Export to 60+ countries.",
   },
   "/about": {
-    title:
-      "About Us - Steel Pipe Manufacturer & Exporter India | Starlight Tubes",
+    title: "About Starlight Tubes | Steel Pipe Manufacturer",
     description:
-      "Learn about Starlight Tubes - a leading steel pipe manufacturer and exporter in India. ISO 9001 certified, exporting stainless steel, carbon steel, nickel alloy pipes to 60+ countries worldwide.",
+      "ISO 9001 certified steel pipe manufacturer & exporter in India since 2020. Exporting SS, carbon steel, nickel alloy pipes to 60+ countries worldwide.",
   },
   "/contact": {
-    title:
-      "Contact Steel Pipe Manufacturer & Exporter | Get Quote | Starlight Tubes Mumbai India",
+    title: "Contact Us | Get a Quote | Starlight Tubes",
     description:
-      "Contact Starlight Tubes for steel pipe enquiries, quotes, and orders. Leading manufacturer and exporter of stainless steel, carbon steel, nickel alloy pipes in Mumbai, India.",
+      "Contact Starlight Tubes for steel pipe enquiries & quotes. Call +91-8591470791 or email sales@starlighttubes.com. Mumbai, India.",
   },
   "/stainless-steel": {
-    title:
-      "Stainless Steel Pipe Manufacturer & Exporter | 304, 316, 316L Pipes & Tubes | Starlight Tubes",
+    title: "Stainless Steel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading stainless steel pipe manufacturer and exporter. We manufacture SS 304, 316, 316L, duplex, super duplex stainless steel pipes, tubes, sheets, bars. Export to 60+ countries.",
+      "SS 304, 316, 316L, duplex, super duplex pipe manufacturer & exporter. Seamless & welded SS pipes, tubes, sheets, bars. ISO certified.",
   },
   "/carbon-steel": {
-    title:
-      "Carbon Steel Pipe Manufacturer & Exporter | ASTM A106, API 5L, ASTM A53 Pipes | Starlight Tubes",
+    title: "Carbon Steel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Carbon steel pipe manufacturer and exporter in India. ASTM A106, API 5L Grade B, X42, X52, X65, ASTM A53 pipes for oil & gas, petrochemical industries. ISO certified.",
+      "ASTM A106, API 5L, ASTM A53 carbon steel pipe manufacturer & exporter. Seamless & ERW pipes for oil & gas, petrochemical industries.",
   },
   "/nickel-alloys": {
-    title:
-      "Nickel Alloy Pipe Manufacturer & Exporter | Nickel 200, Monel, Hastelloy Pipes | Starlight Tubes",
+    title: "Nickel Alloy Pipe Manufacturer | Starlight Tubes",
     description:
-      "Nickel alloy pipe manufacturer and exporter. Nickel 200, Monel 400, Hastelloy C276, Alloy 20 pipes and tubes for high-temperature and corrosive environments.",
+      "Nickel 200, Monel 400, Hastelloy C276, Alloy 20 pipe manufacturer & exporter. High-temperature & corrosion resistant alloy pipes.",
   },
   "/inconel": {
-    title:
-      "Inconel Pipe Manufacturer & Exporter | Inconel 625, 600, 718 Pipes | Starlight Tubes",
+    title: "Inconel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Inconel pipe manufacturer and exporter in India. Inconel 625, 600, 718 pipes, tubes, plates for aerospace, oil & gas, chemical processing. Premium superalloy products.",
+      "Inconel 625, 600, 718 pipe manufacturer & exporter. Superalloy pipes for aerospace, oil & gas, chemical processing. ASTM B444 certified.",
   },
   "/copper": {
-    title:
-      "Copper Pipe Manufacturer & Exporter | Copper Tubes, Sheets, Cupro Nickel Pipes | Starlight Tubes",
+    title: "Copper Pipe & Tube Manufacturer | Starlight Tubes",
     description:
-      "Copper pipe manufacturer and exporter. Copper pipes, tubes, sheets, bars, cupro nickel 90/10, 70/30 pipes for marine, HVAC, plumbing, industrial applications.",
+      "Copper pipes, tubes, sheets, bars & cupro nickel 90/10, 70/30 manufacturer. For marine, HVAC, plumbing & industrial applications.",
   },
   "/aluminium": {
-    title:
-      "Aluminium Pipe Manufacturer & Exporter | 6061, 6063, 5052, 7075 Aluminium Pipes | Starlight Tubes",
+    title: "Aluminium Pipe Manufacturer | Starlight Tubes",
     description:
-      "Aluminium pipe manufacturer and exporter in India. 6061, 6063, 5052, 7075 aluminium pipes, sheets, bars, coils for aerospace, construction, marine industries.",
+      "6061, 6063, 5052, 7075 aluminium pipe, sheet & bar manufacturer & exporter. For aerospace, automotive, marine & construction.",
   },
   "/fittings": {
-    title:
-      "Pipe Fittings Manufacturer & Exporter | Elbows, Tees, Reducers, Flanges | Starlight Tubes",
+    title: "Pipe Fittings Manufacturer | Starlight Tubes",
     description:
-      "Pipe fittings manufacturer and exporter. Stainless steel, carbon steel elbows, tees, reducers, caps, couplings, unions, flanges. Butt weld, socket weld, threaded fittings.",
+      "SS, carbon steel elbows, tees, reducers, caps, unions, flanges manufacturer. Butt weld, socket weld & threaded fittings. ASME certified.",
   },
   "/coating": {
-    title:
-      "FBE Coated Pipe Manufacturer & Exporter | Epoxy Coated Pipes | Starlight Tubes",
+    title: "FBE & Epoxy Coated Pipes | Starlight Tubes",
     description:
-      "FBE coated pipe manufacturer and exporter. Fusion bonded epoxy, 3LPE, 3LPP coated pipes for corrosion protection in oil & gas, water pipeline applications.",
+      "FBE, 3LPE, 3LPP coated pipe manufacturer. Corrosion protection coatings for oil & gas, water pipelines. ISO certified.",
   },
   "/certificates": {
-    title:
-      "Quality Certificates - ISO 9001, PED, Export Certifications | Starlight Tubes Steel Manufacturer",
+    title: "Quality Certifications | Starlight Tubes",
     description:
-      "Starlight Tubes quality certifications including ISO 9001:2015, PED certification, mill test certificates, third party inspection reports for steel pipe products.",
+      "ISO 9001:2015, PED, mill test certificates & third party inspection reports. Quality-assured steel pipe manufacturer.",
   },
   "/technical-info": {
-    title:
-      "Technical Data - Steel Pipe Specifications | Chemical Composition, Mechanical Properties | Starlight Tubes",
+    title: "Steel Pipe Technical Specifications | Starlight Tubes",
     description:
-      "Steel pipe technical specifications, chemical composition, mechanical properties, dimensional data for stainless steel, carbon steel, nickel alloy pipes and tubes.",
+      "Chemical composition, mechanical properties & dimensional data for SS, carbon steel, nickel alloy pipes & tubes. ASTM, API standards.",
   },
   "/materials": {
-    title:
-      "Industrial Materials - Stainless Steel, Carbon Steel, Nickel Alloys, Inconel | Starlight Tubes Manufacturer",
+    title: "Industrial Materials Guide | Starlight Tubes",
     description:
-      "Explore industrial materials including stainless steel, carbon steel, nickel alloys, inconel, copper, aluminium. Material grades, properties, and applications guide.",
+      "SS, carbon steel, nickel alloys, inconel, copper & aluminium material grades, properties & applications guide.",
   },
 
   // === Dynamic Sub-Pages (60 product pages) ===
   "/a671-pipe": {
-    title:
-      "ASTM A671 Pipe Manufacturer & Exporter | EFW Pipes | Starlight Tubes",
+    title: "ASTM A671 EFW Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading ASTM A671 electric fusion welded pipe manufacturer and exporter. Premium EFW pipes for power plants and pressure vessels. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A671 electric fusion welded pipe manufacturer & exporter. EFW pipes for power plants & pressure vessels. ISO certified.",
   },
   "/a672-pipe": {
-    title:
-      "ASTM A672 Pipe Manufacturer & Exporter | High Pressure EFW Pipes | Starlight Tubes",
+    title: "ASTM A672 EFW Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading ASTM A672 electric fusion welded pipe manufacturer and exporter. Premium high-pressure EFW pipes for power generation and petrochemical applications. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A672 high-pressure EFW pipe manufacturer & exporter. Pipes for power generation & petrochemical applications. ISO certified.",
   },
   "/api-5l-grade-b-pipe": {
-    title:
-      "API 5L Grade B Pipe Manufacturer - Oil & Gas Pipeline Pipes | Starlight Tubes Global Exporter",
+    title: "API 5L Grade B Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading API 5L Grade B carbon steel pipe manufacturer and exporter. PSL1, PSL2 line pipes for oil and gas pipelines. Seamless and welded configurations. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "API 5L Grade B carbon steel pipe manufacturer. PSL1 & PSL2 line pipes for oil & gas pipelines. Seamless & welded. ISO certified.",
   },
   "/api-5l-x42-pipe": {
-    title:
-      "API 5L X42 Pipe Manufacturer & Exporter | Line Pipes | Starlight Tubes",
+    title: "API 5L X42 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading API 5L X42 line pipe manufacturer and exporter. Premium PSL1 & PSL2 certified pipes for oil and gas pipelines. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "API 5L X42 line pipe manufacturer & exporter. PSL1 & PSL2 certified pipes for oil & gas pipelines. Export to 60+ countries.",
   },
   "/api-5l-x52-pipe": {
-    title:
-      "API 5L X52 Pipe Manufacturer & Exporter | High Yield Line Pipes | Starlight Tubes",
+    title: "API 5L X52 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading API 5L X52 line pipe manufacturer and exporter. Premium PSL1 & PSL2 certified high yield pipes for oil and gas transmission. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "API 5L X52 high-yield line pipe manufacturer. PSL1 & PSL2 certified for oil & gas transmission. Export to 60+ countries.",
   },
   "/api-5l-x65-pipe": {
-    title:
-      "API 5L X65 Pipe Manufacturer & Exporter | High Strength Line Pipes | Starlight Tubes",
+    title: "API 5L X65 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading API 5L X65 high-strength line pipe manufacturer and exporter. Premium PSL2 certified pipes for offshore and deepwater applications. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "API 5L X65 high-strength line pipe manufacturer. PSL2 certified for offshore & deepwater pipelines. Export to 60+ countries.",
   },
   "/astm-a106-pipe": {
-    title:
-      "ASTM A106 Pipe Manufacturer - Grade A, B, C Carbon Steel Pipes | Starlight Tubes Global Exporter",
+    title: "ASTM A106 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading ASTM A106 carbon steel pipe manufacturer and exporter. Grade A, B, C seamless pipes for high temperature service. Boiler tubes, heat exchanger tubes. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A106 Grade A, B, C seamless carbon steel pipe manufacturer. For high-temperature boiler & heat exchanger service.",
   },
   "/astm-a333-pipe": {
-    title:
-      "ASTM A333 Pipe Manufacturer & Exporter | Low Temperature Pipes | Starlight Tubes",
+    title: "ASTM A333 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading ASTM A333 low temperature pipe manufacturer and exporter. Premium Grade 6 & Grade 9 cryogenic pipes for LNG and refrigeration. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A333 low-temperature pipe manufacturer. Grade 6 & 9 cryogenic pipes for LNG & refrigeration. ISO certified.",
   },
   "/astm-a53-pipe": {
-    title:
-      "ASTM A53 Pipe Manufacturer & Exporter | Black Steel Pipes | Starlight Tubes",
+    title: "ASTM A53 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading ASTM A53 pipe manufacturer and exporter. Premium black and galvanized steel pipes in ERW, seamless & welded configurations. ISO certified manufacturing. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A53 black & galvanized steel pipe manufacturer. ERW, seamless & welded pipes. ISO certified. Export to 60+ countries.",
   },
   "/aluminium-5052": {
-    title:
-      "Aluminium 5052 Manufacturer - Marine Grade Alloy | Starlight Tubes Global Exporter",
+    title: "Aluminium 5052 Manufacturer | Starlight Tubes",
     description:
-      "Leading Aluminium 5052 manufacturer and global exporter. Premium marine grade aluminium sheets, plates, and coils with excellent corrosion resistance. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "Aluminium 5052 marine grade sheets, plates & coils manufacturer. Excellent corrosion resistance. ISO certified. Export worldwide.",
   },
   "/aluminium-6061": {
-    title:
-      "Aluminium 6061 Manufacturer - T6 Temper Alloy | Starlight Tubes Global Exporter",
+    title: "Aluminium 6061-T6 Manufacturer | Starlight Tubes",
     description:
-      "Leading Aluminium 6061 manufacturer and global exporter. Premium 6061-T6 aluminium pipes, sheets, bars, and plates for aerospace, automotive, and structural applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "Aluminium 6061-T6 pipes, sheets, bars & plates manufacturer. For aerospace, automotive & structural applications. ISO certified.",
   },
   "/aluminium-6063": {
-    title:
-      "Aluminium 6063 Manufacturer - Architectural Grade Extrusions | Starlight Tubes Global Exporter",
+    title: "Aluminium 6063 Manufacturer | Starlight Tubes",
     description:
-      "Leading Aluminium 6063 manufacturer and global exporter. Premium architectural grade aluminium extrusions, pipes, and profiles for construction and decorative applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "Aluminium 6063 architectural grade extrusions & pipes manufacturer. For construction & decorative applications. ISO certified.",
   },
   "/aluminium-7075": {
-    title:
-      "Aluminium 7075 Manufacturer - Aerospace & Defense Grade | Starlight Tubes Global Exporter",
+    title: "Aluminium 7075 Manufacturer | Starlight Tubes",
     description:
-      "Leading Aluminium 7075 manufacturer and global exporter. Premium high-strength aerospace and defense grade aluminium plates, bars, and sheets. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "Aluminium 7075 aerospace & defense grade plates, bars & sheets manufacturer. High-strength alloy. ISO certified. Export worldwide.",
   },
   "/aluminium-coil": {
-    title:
-      "Aluminium Coil Manufacturer - ASTM B209 Roofing & Cladding Coils | Starlight Tubes Global Exporter",
+    title: "Aluminium Coil Manufacturer | Starlight Tubes",
     description:
-      "Leading aluminium coil manufacturer & global exporter. ASTM B209 aluminium coils for roofing, cladding & automotive applications. Custom widths available. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM B209 aluminium coil manufacturer. Roofing, cladding & automotive coils in custom widths. ISO certified. Export to 60+ countries.",
   },
   "/aluminium-pipe": {
-    title:
-      "Aluminium Pipe Manufacturer - 6061, 6063, 5052, 7075 Aluminium Pipes | Starlight Tubes Global Exporter",
+    title: "Aluminium Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading aluminium pipe manufacturer and exporter. Lightweight corrosion resistant pipes in 6061, 6063, 5052, 7075 grades for HVAC, construction, aerospace, automotive applications. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "6061, 6063, 5052, 7075 aluminium pipe manufacturer. For HVAC, construction, aerospace & automotive. ISO certified. Export worldwide.",
   },
   "/aluminium-bar": {
-    title:
-      "Aluminium Round Bar Manufacturer - 6061/7075 Aerospace Grade Bars | Starlight Tubes Global Exporter",
+    title: "Aluminium Round Bar Manufacturer | Starlight Tubes",
     description:
-      "Leading aluminium round bar manufacturer & global exporter. ASTM B211 6061, 7075, 2024 aerospace grade bars. Excellent machinability & strength-to-weight ratio. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM B211 aluminium round bar manufacturer. 6061, 7075, 2024 aerospace grade bars. ISO certified. Export to 60+ countries.",
   },
   "/aluminium-sheet": {
-    title:
-      "Aluminium Sheet Manufacturer - Aerospace & Marine Grade | Starlight Tubes Global Exporter",
+    title: "Aluminium Sheet Manufacturer | Starlight Tubes",
     description:
-      "Leading aluminium sheet manufacturer and global exporter. Premium aerospace and marine grade aluminium sheets in 6061, 5052, 7075, 3003 alloys. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "Aerospace & marine grade aluminium sheet manufacturer. 6061, 5052, 7075, 3003 alloys. ISO certified. Export to 60+ countries.",
   },
   "/butt-weld-fittings": {
-    title:
-      "Butt Weld Fittings Manufacturer - Industrial Pipe Fittings | Starlight Tubes Global Exporter",
+    title: "Butt Weld Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading butt weld fittings manufacturer & global exporter. Premium seamless weld fittings, elbows, tees, reducers in SS, carbon steel, alloy steel. ASME B16.9 certified. Export to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "Butt weld fittings manufacturer. Elbows, tees, reducers in SS, carbon & alloy steel. ASME B16.9 certified. Export to 60+ countries.",
   },
   "/cap-fittings": {
-    title:
-      "Cap Fittings Manufacturer - Pipe End Caps | Starlight Tubes Global Exporter",
+    title: "Cap Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading cap fittings manufacturer & global exporter. Premium pipe end caps, threaded caps, butt weld caps in SS, carbon steel, alloy steel. ASME B16.9/B16.11 certified. Export to 60+ countries worldwide.",
+      "Pipe end cap fittings manufacturer. Butt weld & threaded caps in SS, carbon & alloy steel. ASME B16.9/B16.11. Export worldwide.",
   },
   "/carbon-steel-pipe": {
-    title:
-      "Carbon Steel Pipe Manufacturer - ASTM A106, A53, API 5L Pipes | Starlight Tubes Global Exporter",
+    title: "Carbon Steel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading carbon steel pipe manufacturer and exporter. ASTM A106 Grade B/C, ASTM A53 Grade B, API 5L Grade B/X42/X52/X65 pipes. Seamless, ERW, welded pipes for oil gas, petrochemical, water pipeline applications. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A106, A53, API 5L carbon steel pipe manufacturer. Seamless, ERW & welded pipes for oil & gas, petrochemical applications.",
   },
   "/copper-fittings": {
-    title:
-      "Copper Fittings Manufacturer - Elbows, Tees, Couplings | Starlight Tubes Global Exporter",
+    title: "Copper Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading copper fittings manufacturer and global exporter. Premium copper elbows, tees, couplings, adapters for plumbing, HVAC, and refrigeration systems. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "Copper elbows, tees, couplings & adapters manufacturer. For plumbing, HVAC & refrigeration. ISO certified. Export worldwide.",
   },
   "/copper-nickel-pipe": {
-    title:
-      "Copper Nickel Pipe Manufacturer - 90/10 & 70/30 CuNi | Starlight Tubes Global Exporter",
+    title: "Copper Nickel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading copper nickel pipe manufacturer and global exporter. Premium C70600 (90/10) and C71500 (70/30) CuNi pipes for marine, offshore, and desalination applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "C70600 (90/10) & C71500 (70/30) CuNi pipe manufacturer. For marine, offshore & desalination. ISO certified. Export worldwide.",
   },
   "/copper-nickel-tube": {
-    title:
-      "Copper Nickel Tube Manufacturer - CuNi 90/10 & 70/30 Heat Exchanger Tubes | Starlight Tubes Global Exporter",
+    title: "Copper Nickel Tube Manufacturer | Starlight Tubes",
     description:
-      "Leading copper nickel tube manufacturer & global exporter. ASTM B111 CuNi 90/10 & 70/30 seamless tubes for heat exchangers & marine applications. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM B111 CuNi 90/10 & 70/30 tube manufacturer. For heat exchangers & marine applications. ISO certified. Export worldwide.",
   },
   "/copper-pipe": {
-    title:
-      "Copper Pipe Manufacturer - Type K, L, M Copper Pipes | Starlight Tubes Global Exporter",
+    title: "Copper Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading copper pipe manufacturer and exporter. Type K, L, M copper pipes for plumbing, HVAC, and refrigeration applications. Medical gas and fire protection systems. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "Type K, L, M copper pipe manufacturer. For plumbing, HVAC, refrigeration & medical gas systems. ISO certified. Export worldwide.",
   },
   "/copper-bar": {
-    title:
-      "Copper Round Bar Manufacturer - High Conductivity Bars | Starlight Tubes Global Exporter",
+    title: "Copper Round Bar Manufacturer | Starlight Tubes",
     description:
-      "Leading copper round bar manufacturer and global exporter. Premium high conductivity copper bars for electrical, machining, and industrial applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "High-conductivity copper round bar manufacturer. For electrical, machining & industrial applications. ISO certified. Export worldwide.",
   },
   "/copper-sheet": {
-    title:
-      "Copper Sheet Manufacturer - ETP, DHP, OFHC Grades | Starlight Tubes Global Exporter",
+    title: "Copper Sheet Manufacturer | Starlight Tubes",
     description:
-      "Leading copper sheet manufacturer and global exporter. High conductivity ETP, DHP, OFHC copper sheets for electrical, roofing, and decorative applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "ETP, DHP, OFHC copper sheet manufacturer. For electrical, roofing & decorative applications. ISO certified. Export to 60+ countries.",
   },
   "/copper-tube": {
-    title:
-      "Copper Tube Manufacturer - Type K, L, M Tubing | Starlight Tubes Global Exporter",
+    title: "Copper Tube Manufacturer | Starlight Tubes",
     description:
-      "Leading copper tube manufacturer and global exporter. Premium Type K, L, M copper tubing for plumbing, HVAC, and refrigeration systems. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "Type K, L, M copper tube manufacturer. For plumbing, HVAC & refrigeration systems. ISO certified. Export to 60+ countries.",
   },
   "/coupling-fittings": {
-    title:
-      "Coupling Fittings Manufacturer - Full & Half Couplings | Starlight Tubes Global Exporter",
+    title: "Coupling Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading coupling fittings manufacturer & global exporter. Premium full couplings, half couplings, reducing couplings in socket weld, threaded types. ASME B16.11 certified. Export to 60+ countries worldwide.",
+      "Full, half & reducing coupling manufacturer. Socket weld & threaded types. ASME B16.11 certified. Export to 60+ countries.",
   },
   "/cupro-nickel-70-30": {
-    title:
-      "Cupro Nickel 70/30 Manufacturer - C71500 Alloy | Starlight Tubes Global Exporter",
+    title: "Cupro Nickel 70/30 Manufacturer | Starlight Tubes",
     description:
-      "Leading Cupro Nickel 70/30 (C71500) manufacturer and global exporter. Premium CuNi 70/30 pipes, tubes, and fittings for demanding marine and offshore applications. ISO certified manufacturer supplying to 60+ countries worldwide.",
+      "C71500 CuNi 70/30 pipes, tubes & fittings manufacturer. For marine & offshore applications. ISO certified. Export worldwide.",
   },
   "/cupro-nickel-90-10": {
-    title:
-      "CuNi 90/10 Pipe Manufacturer - C70600 Copper Nickel Marine Pipe | Starlight Tubes Global Exporter",
+    title: "CuNi 90/10 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading CuNi 90/10 pipe manufacturer & global exporter. ASTM B466 C70600 copper nickel pipes for marine, desalination & offshore applications. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM B466 C70600 copper nickel pipe manufacturer. For marine, desalination & offshore. ISO certified. Export to 60+ countries.",
   },
   "/elbow-fittings": {
-    title:
-      "Elbow Fittings Manufacturer - 90°, 45° Pipe Elbows | Starlight Tubes Global Exporter",
+    title: "Elbow Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading elbow fittings manufacturer and exporter. 90 degree, 45 degree elbows in butt weld, socket weld, and threaded types. Stainless steel, carbon steel, alloy steel elbows. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "90° & 45° pipe elbow manufacturer. Butt weld, socket weld & threaded types in SS, CS & alloy steel. ASME B16.9 certified.",
   },
   "/flanges": {
-    title:
-      "Flange Manufacturer - Weld Neck, Slip On, Blind Flanges | Starlight Tubes Global Exporter",
+    title: "Flange Manufacturer | Starlight Tubes",
     description:
-      "Leading flange fittings manufacturer and exporter. Weld neck, slip on, blind, socket weld flanges in ANSI, DIN, JIS standards. Stainless steel, carbon steel, alloy steel flanges. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "Weld neck, slip on, blind & socket weld flange manufacturer. ANSI, DIN, JIS standards. SS, CS & alloy steel. ISO certified.",
   },
   "/inconel-600-pipe": {
-    title:
-      "Inconel 600 Pipe Manufacturer - UNS N06600 ASTM B167 | Starlight Tubes Global Exporter",
+    title: "Inconel 600 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading Inconel 600 pipe manufacturer & global exporter. UNS N06600 seamless & welded pipes. High temperature oxidation resistant nickel-chromium alloy. ASTM B167/B516 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "UNS N06600 Inconel 600 seamless & welded pipe manufacturer. ASTM B167/B516 certified. Export to 60+ countries worldwide.",
   },
   "/inconel-600-plate": {
-    title:
-      "Inconel 600 Plate Manufacturer & Exporter | UNS N06600 Sheets & Coils | Starlight Tubes",
+    title: "Inconel 600 Plate Manufacturer | Starlight Tubes",
     description:
-      "Leading Inconel 600 plate manufacturer and exporter in India. Premium UNS N06600 nickel-chromium alloy plates for furnace components, nuclear reactors & chemical processing. ASTM B168 certified. Global supply to 60+ countries including USA, UK, Germany, UAE.",
+      "UNS N06600 Inconel 600 plate & sheet manufacturer. For furnaces, nuclear reactors & chemical processing. ASTM B168 certified.",
   },
   "/inconel-625-pipe": {
-    title:
-      "Inconel 625 Pipe Manufacturer - UNS N06625 Superalloy Pipes | Starlight Tubes Global Exporter",
+    title: "Inconel 625 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading Inconel 625 pipe manufacturer and exporter. Superior corrosion and oxidation resistant alloy pipes for aerospace, marine, chemical processing applications. ASTM B444, B705 standards. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "UNS N06625 superalloy pipe manufacturer. For aerospace, marine & chemical processing. ASTM B444/B705 certified. Export worldwide.",
   },
   "/inconel-625-plate": {
-    title:
-      "Inconel 625 Plate Manufacturer & Exporter | UNS N06625 Sheets & Coils | Starlight Tubes",
+    title: "Inconel 625 Plate Manufacturer | Starlight Tubes",
     description:
-      "Leading Inconel 625 plate manufacturer and exporter in India. Premium UNS N06625 corrosion resistant alloy plates for marine, aerospace & chemical processing. ASTM B443 certified. Global supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "UNS N06625 Inconel 625 plate & sheet manufacturer. For marine, aerospace & chemical processing. ASTM B443 certified. Export worldwide.",
   },
   "/inconel-625-tubing": {
-    title:
-      "Inconel 625 Tubing Manufacturer - UNS N06625 ASTM B444 | Starlight Tubes Global Exporter",
+    title: "Inconel 625 Tubing Manufacturer | Starlight Tubes",
     description:
-      "Leading Inconel 625 tubing manufacturer & global exporter. UNS N06625 seamless & welded tubes. High strength corrosion resistant alloy for aerospace & marine. ASTM B444 certified, NACE MR0175 compliant. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "UNS N06625 seamless & welded tube manufacturer. ASTM B444, NACE MR0175 compliant. For aerospace & marine. Export worldwide.",
   },
   "/inconel-bolts": {
-    title:
-      "Inconel Bolts Manufacturer & Exporter | Inconel 600/625/718 Fasteners | Starlight Tubes",
+    title: "Inconel Bolts & Fasteners | Starlight Tubes",
     description:
-      "Leading Inconel bolts and fasteners manufacturer and exporter in India. Premium Inconel 600, 625, 718 hex bolts, studs, nuts for aerospace & high-temperature applications. ASTM F468 certified. Global supply to 60+ countries including USA, UK, Germany, UAE.",
+      "Inconel 600, 625, 718 bolts, studs & nuts manufacturer. For aerospace & high-temperature use. ASTM F468 certified.",
   },
   "/inconel-pipe": {
-    title:
-      "Inconel Pipe Manufacturer - Inconel 600, 625, 718 Pipes | Starlight Tubes Global Exporter",
+    title: "Inconel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading Inconel pipe manufacturer and exporter. High temperature and corrosion resistant alloy pipes for aerospace, chemical, and marine applications. Inconel 600, 625, 718, 825 grades. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "Inconel 600, 625, 718 pipe manufacturer. For aerospace, chemical & marine applications. ISO certified. Export to 60+ countries.",
   },
   "/inconel-plate": {
-    title:
-      "Inconel Plate Manufacturer - 600/625/718 Grades ASTM B168 | Starlight Tubes Global Exporter",
+    title: "Inconel Plate Manufacturer | Starlight Tubes",
     description:
-      "Leading Inconel plate manufacturer & global exporter. Inconel 600, 625, 718, 825 alloy plates for extreme temperature & corrosive applications. ASTM B168/B443 certified, aerospace approved. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "Inconel 600, 625, 718 plate manufacturer. ASTM B168/B443 certified. For extreme temperature & corrosive environments.",
   },
   "/inconel-bar": {
-    title:
-      "Inconel Round Bar Manufacturer & Exporter | Inconel 600/625/718 Bars | Starlight Tubes",
+    title: "Inconel Round Bar Manufacturer | Starlight Tubes",
     description:
-      "Leading Inconel round bar manufacturer and exporter in India. Premium Inconel 600, 625, 718 round bars for aerospace, marine & gas turbine applications. ASTM B166 certified. Global supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "Inconel 600, 625, 718 round bar manufacturer. For aerospace, marine & gas turbines. ASTM B166 certified. Export worldwide.",
   },
   "/nickel-pipe": {
-    title:
-      "Nickel Pipe Manufacturer - Nickel 200, 201 Alloy Pipes | Starlight Tubes Global Exporter",
+    title: "Nickel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading nickel alloy pipe manufacturer and exporter. Pure nickel 200, 201 pipes for high temperature and corrosion resistance. Chemical processing, petrochemical applications. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "Nickel 200 & 201 alloy pipe manufacturer. For chemical processing & high-temperature applications. ISO certified. Export worldwide.",
   },
   "/nickel-sheet": {
-    title:
-      "Nickel Sheet Manufacturer & Exporter | Nickel 200/201 Plates & Coils | Starlight Tubes",
+    title: "Nickel Sheet & Plate Manufacturer | Starlight Tubes",
     description:
-      "Leading nickel sheet manufacturer and exporter in India. Premium Nickel 200, Nickel 201 sheets, plates & coils for chemical processing and electronics. ASTM B162 certified. Global supply to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "Nickel 200 & 201 sheet, plate & coil manufacturer. ASTM B162 certified. For chemical processing & electronics. Export worldwide.",
   },
   "/pipe-fittings": {
-    title:
-      "Pipe Fittings Manufacturer - Elbows, Tees, Reducers, Couplings | Starlight Tubes Global Exporter",
+    title: "Pipe Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading pipe fittings manufacturer and exporter. Steel elbows, tees, reducers, couplings, caps, stub ends for industrial applications. Butt weld, socket weld, threaded fittings. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE.",
+      "Steel elbows, tees, reducers, couplings & caps manufacturer. Butt weld, socket weld & threaded types. ASME certified. Export worldwide.",
   },
   "/reducer-fittings": {
-    title:
-      "Reducer Fittings Manufacturer - Concentric & Eccentric Reducers | Starlight Tubes Global Exporter",
+    title: "Reducer Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading reducer fittings manufacturer & global exporter. Premium concentric reducers, eccentric reducers in butt weld, socket weld types. ASME B16.9 certified. SS, carbon steel, alloy steel. Export to 60+ countries.",
+      "Concentric & eccentric reducer manufacturer. Butt weld & socket weld. ASME B16.9 certified. SS, CS & alloy steel. Export worldwide.",
   },
   "/socket-weld-fittings": {
-    title:
-      "Socket Weld Fittings Manufacturer - High Pressure Fittings | Starlight Tubes Global Exporter",
+    title: "Socket Weld Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading socket weld fittings manufacturer & global exporter. Premium high-pressure socket weld elbows, tees, couplings in SS, carbon steel. ASME B16.11 certified. Class 3000/6000/9000. Export to 60+ countries.",
+      "High-pressure socket weld fittings manufacturer. Elbows, tees, couplings in SS & CS. ASME B16.11 Class 3000/6000/9000.",
   },
   "/stainless-steel-304-pipe": {
-    title:
-      "SS 304 Pipe Manufacturer - ASTM A312 TP304 Seamless/Welded | Starlight Tubes Global Exporter",
+    title: "SS 304 Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading SS 304 pipe manufacturer & global exporter. ASTM A312 TP304 seamless & welded stainless steel pipes. Austenitic grade with excellent corrosion resistance. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A312 TP304 seamless & welded stainless steel pipe manufacturer. Austenitic grade. ISO certified. Export to 60+ countries.",
   },
   "/stainless-steel-304-plate": {
-    title:
-      "SS 304 Plate Manufacturer - ASTM A240 Stainless Steel Sheet | Starlight Tubes Global Exporter",
+    title: "SS 304 Plate Manufacturer | Starlight Tubes",
     description:
-      "Leading SS 304 plate manufacturer & global exporter. ASTM A240 stainless steel plates & sheets. Multiple surface finishes available. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A240 SS 304 plate & sheet manufacturer. Multiple surface finishes. ISO certified. Export to 60+ countries worldwide.",
   },
   "/stainless-steel-316l-pipe": {
-    title:
-      "SS 316L Pipe Manufacturer - ASTM A312 TP316L Seamless/Welded | Starlight Tubes Global Exporter",
+    title: "SS 316L Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading SS 316L pipe manufacturer & global exporter. ASTM A312 TP316L low carbon seamless & welded pipes. IGC tested, pharmaceutical grade. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A312 TP316L low carbon seamless & welded pipe manufacturer. IGC tested, pharmaceutical grade. ISO certified.",
   },
   "/stainless-steel-316-plate": {
-    title:
-      "SS 316 Plate Manufacturer - ASTM A240 Marine Grade Sheet | Starlight Tubes Global Exporter",
+    title: "SS 316 Plate Manufacturer | Starlight Tubes",
     description:
-      "Leading SS 316 plate manufacturer & global exporter. ASTM A240 marine grade stainless steel plates with molybdenum. Superior chloride resistance. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A240 marine grade SS 316 plate & sheet manufacturer. Superior chloride resistance. ISO certified. Export worldwide.",
   },
   "/stainless-steel-316-tube": {
-    title:
-      "SS 316 Tube Manufacturer - ASTM A213/A269 TP316 Marine Grade | Starlight Tubes Global Exporter",
+    title: "SS 316 Tube Manufacturer | Starlight Tubes",
     description:
-      "Leading SS 316 tube manufacturer & global exporter. ASTM A213/A269 TP316 seamless & welded stainless steel tubes. Marine grade with molybdenum for superior corrosion resistance. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "ASTM A213/A269 TP316 seamless & welded tube manufacturer. Marine grade with molybdenum. ISO certified. Export worldwide.",
   },
   "/stainless-steel-fasteners": {
-    title:
-      "Stainless Steel Fasteners Manufacturer - Bolts, Nuts, Screws | Starlight Tubes Global Exporter",
+    title: "SS Fasteners Manufacturer | Starlight Tubes",
     description:
-      "Leading stainless steel fasteners manufacturer & global exporter. SS bolts, nuts, screws, washers, studs in 304, 316, A2-70, A4-80 grades. ASTM A193/A194 certified. Corrosion resistant industrial fasteners. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "SS 304, 316 bolts, nuts, screws & washers manufacturer. A2-70, A4-80 grades. ASTM A193/A194 certified. Export to 60+ countries.",
   },
   "/stainless-steel-pipe": {
-    title:
-      "Stainless Steel Pipe Manufacturer - 304, 316, 316L SS Pipes | Starlight Tubes Global Exporter",
+    title: "Stainless Steel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Leading stainless steel pipe manufacturer and exporter. 304, 316, 316L grade pipes in seamless and ERW. ASTM A312, A213 standards. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia, Singapore.",
+      "SS 304, 316, 316L seamless & ERW pipe manufacturer. ASTM A312, A213 standards. ISO certified. Export to 60+ countries.",
   },
   "/stainless-steel-bar": {
-    title:
-      "Stainless Steel Round Bar Manufacturer - 304/316/410 Grades | Starlight Tubes Global Exporter",
+    title: "SS Round Bar Manufacturer | Starlight Tubes",
     description:
-      "Leading stainless steel round bar manufacturer & global exporter. Hot rolled & cold drawn SS bars in 304, 316, 321, 410, 420 grades. Bright finish, centerless ground bars. ASTM A276/A479 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "SS 304, 316, 321, 410 round bar manufacturer. Hot rolled & cold drawn. ASTM A276/A479 certified. Export to 60+ countries.",
   },
   "/stainless-steel-sheet": {
-    title:
-      "Stainless Steel Sheet Manufacturer - 304/316/321 Grades | Starlight Tubes Global Exporter",
+    title: "SS Sheet Manufacturer | Starlight Tubes",
     description:
-      "Leading stainless steel sheet manufacturer & global exporter. Hot rolled & cold rolled SS sheets in 304, 316, 321, 310S grades. Premium quality plates with 2B, BA, mirror finish. ASTM A240 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "SS 304, 316, 321 hot & cold rolled sheet manufacturer. 2B, BA, mirror finish. ASTM A240 certified. Export to 60+ countries.",
   },
   "/stainless-steel-tube": {
-    title:
-      "Stainless Steel Tube Manufacturer - Seamless & Welded SS Tubes | Starlight Tubes Global Exporter",
+    title: "Stainless Steel Tube Manufacturer | Starlight Tubes",
     description:
-      "Leading stainless steel tube manufacturer and exporter. Seamless and welded SS tubes in 304, 316, 316L, duplex, super duplex grades. ASTM A269, A270, A213 standards. ISO certified manufacturer supplying to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+      "SS 304, 316, 316L seamless & welded tube manufacturer. ASTM A269, A270, A213 standards. ISO certified. Export worldwide.",
   },
   "/stainless-steel-wire": {
-    title:
-      "SS Wire Manufacturer - Stainless Steel Spring & Welding Wire | Starlight Tubes Global Exporter",
+    title: "SS Wire Manufacturer | Starlight Tubes",
     description:
-      "Leading stainless steel wire manufacturer & global exporter. Premium spring wire, welding wire, cold drawn wire. Multiple tempers available. ISO 9001:2015 certified. Export to 60+ countries - USA, UK, Germany, UAE, Saudi Arabia.",
+      "SS spring wire, welding wire & cold drawn wire manufacturer. Multiple tempers. ISO certified. Export to 60+ countries.",
   },
   "/tee-fittings": {
-    title:
-      "Tee Fittings Manufacturer - Equal & Reducing Tees | Starlight Tubes Global Exporter",
+    title: "Tee Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading tee fittings manufacturer & global exporter. Premium equal tees, reducing tees in butt weld, socket weld, threaded types. ASME B16.9/B16.11 certified. SS, carbon steel, alloy steel. Export to 60+ countries.",
+      "Equal & reducing tee manufacturer. Butt weld, socket weld & threaded types. ASME B16.9/B16.11. SS, CS & alloy steel.",
   },
   "/threaded-fittings": {
-    title:
-      "Threaded Fittings Manufacturer - NPT BSP Fittings | Starlight Tubes Global Exporter",
+    title: "Threaded Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading threaded fittings manufacturer & global exporter. Premium NPT, BSP, BSPT threaded pipe fittings in SS, carbon steel. ASME B16.11 certified. Easy assembly fittings. Export to 60+ countries worldwide.",
+      "NPT, BSP, BSPT threaded pipe fittings manufacturer. SS & carbon steel. ASME B16.11 certified. Export to 60+ countries.",
   },
   "/union-fittings": {
-    title:
-      "Union Fittings Manufacturer - Pipe Unions | Starlight Tubes Global Exporter",
+    title: "Union Fittings Manufacturer | Starlight Tubes",
     description:
-      "Leading union fittings manufacturer & global exporter. Premium threaded unions, socket weld unions, butt weld unions for easy disassembly. ASME B16.11 certified. SS, carbon steel. Export to 60+ countries.",
+      "Threaded, socket weld & butt weld pipe union manufacturer. ASME B16.11 certified. SS & carbon steel. Export worldwide.",
   },
 };
 

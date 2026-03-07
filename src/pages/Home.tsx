@@ -101,9 +101,9 @@ const Home = () => {
   // SEO optimization for home page with enhanced AEO & GEO structured data
   useSEO({
     title:
-      "Starlight Tubes | Steel Pipe Manufacturer & Exporter India | Stainless Steel, Carbon Steel, Nickel Alloy Pipes",
+      "Starlight Tubes | Steel Pipe Manufacturer & Exporter",
     description:
-      "Starlight Tubes - Leading steel pipe manufacturer and exporter in India. We manufacture and export stainless steel pipes, carbon steel tubes, nickel alloy pipes, inconel pipes, pipe fittings, flanges to USA, Europe, Middle East, Asia. ISO certified steel manufacturing factory in Mumbai. Premium quality seamless & welded pipes, ERW pipes. Best steel tube manufacturer and exporter for oil & gas, petrochemical, pharmaceutical industries.",
+      "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to 60+ countries.",
     keywords:
       "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, steel tube exporter, pipe manufacturer India, tube manufacturer India, steel pipe factory, steel pipe supplier, steel pipe distributor, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, inconel pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, steel pipe manufacturer Mumbai, steel pipe exporter India, best steel pipe manufacturer, top steel pipe exporter, leading pipe manufacturer, premium steel tubes, quality steel pipes, steel pipe manufacturing company, steel tube manufacturing factory, pipe manufacturer exporter, steel pipes wholesale, bulk steel pipes supplier, international steel pipe exporter, global steel pipe manufacturer, Starlight Tubes, stainless steel 304 manufacturer, stainless steel 316 manufacturer, carbon steel ASTM A106 manufacturer, API 5L pipe manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer",
     url: "https://www.starlighttubes.com",
@@ -220,9 +220,9 @@ const Home = () => {
         {/* Product Categories Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-center mb-4 text-gray-900 dark:text-white">
               Explore Our Product Range
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-400 max-w-3xl">
               Premium quality metal products including steel pipes, tubes,
               fittings, flanges, elbows, tees, reducers, and industrial
@@ -281,9 +281,9 @@ const Home = () => {
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
             Leading Manufacturer & Exporter of Steel Tubes
-          </h1>
+          </h2>
 
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
             Starlight Tubes - Premier manufacturers of ERW and Seamless steel

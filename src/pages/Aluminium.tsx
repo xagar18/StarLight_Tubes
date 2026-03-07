@@ -45,9 +45,9 @@ const AluminiumApplicationsCTA = () => {
 const Aluminium = () => {
   useSEO({
     title:
-      "Aluminium Pipe Manufacturer & Exporter | 6061, 6063, 5052, 7075 Aluminium Pipes | Starlight Tubes",
+      "Aluminium Pipe Manufacturer | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading aluminium pipe manufacturer and exporter in India. We manufacture aluminium 6061 pipes, aluminium 6063 tubes, aluminium 5052 sheets, aluminium 7075 plates. Premium quality aluminium products for aerospace, automotive, construction industries. Export to USA, Europe, Middle East.",
+      "6061, 6063, 5052, 7075 aluminium pipe, sheet & bar manufacturer & exporter. For aerospace, automotive, marine & construction.",
     keywords:
       "aluminium pipe manufacturer, aluminium tube manufacturer, aluminium pipe exporter, aluminium sheet manufacturer, aluminium plate manufacturer, aluminium 6061 manufacturer, aluminium 6063 manufacturer, aluminium 5052 manufacturer, aluminium 7075 manufacturer, aluminium round bar manufacturer, aluminium coil manufacturer, aluminium pipe factory, aluminium tube factory, aluminium pipe supplier India, aerospace aluminium manufacturer, automotive aluminium manufacturer",
     url: "https://www.starlighttubes.com/aluminium",
@@ -176,9 +176,9 @@ const Aluminium = () => {
                 Aluminium
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Aluminium Products
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               Lightweight, corrosion-resistant aluminium for industrial and
               commercial applications

@@ -10,9 +10,9 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 const Material = () => {
   useSEO({
     title:
-      "Industrial Materials - Stainless Steel, Carbon Steel, Nickel Alloys, Inconel | Starlight Tubes Manufacturer",
+      "Industrial Materials Guide | Starlight Tubes",
     description:
-      "Premium industrial materials from Starlight Tubes - leading manufacturer and exporter. Stainless steel 304, 316, 316L, duplex, super duplex. Carbon steel ASTM A106, API 5L. Nickel alloys Monel, Hastelloy. Inconel 625, 600, 718. Pipes, tubes, plates, sheets, round bars. Export to 60+ countries.",
+      "SS, carbon steel, nickel alloys, inconel, copper & aluminium material grades, properties & applications guide.",
     keywords:
       "industrial materials manufacturer, stainless steel materials, carbon steel materials, nickel alloy materials, inconel materials, industrial metal supplier, steel materials India, metal materials exporter, SS materials, MS materials, alloy materials, high temperature materials, corrosion resistant materials, aerospace materials, petrochemical materials",
     url: "https://www.starlighttubes.com/materials",
@@ -119,9 +119,9 @@ const Material = () => {
                 Our Materials
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Industrial Materials & Alloys
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               Comprehensive range of premium quality metals and alloys
               manufactured to meet international standards

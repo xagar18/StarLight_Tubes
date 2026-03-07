@@ -30,9 +30,9 @@ const MapLoader = () => (
 const About = () => {
   useSEO({
     title:
-      "About Us - Steel Pipe Manufacturer & Exporter India | Starlight Tubes Manufacturing Company",
+      "About Starlight Tubes | Steel Pipe Manufacturer",
     description:
-      "About Starlight Tubes - India's leading steel pipe manufacturer and exporter. ISO certified steel manufacturing factory in Mumbai. We manufacture stainless steel pipes, carbon steel tubes, nickel alloy pipes, pipe fittings, flanges. Export to USA, Europe, Middle East, Asia. Over 5 years of excellence in steel pipe manufacturing and export.",
+      "ISO 9001 certified steel pipe manufacturer & exporter in India since 2020. Exporting SS, carbon steel, nickel alloy pipes to 60+ countries worldwide.",
     keywords:
       "steel pipe manufacturer India, steel tube manufacturer Mumbai, steel pipe exporter India, steel pipe manufacturing company, steel pipe factory India, pipe manufacturer about us, steel tube manufacturer about, ISO certified steel manufacturer, steel manufacturing company India, pipe manufacturing factory Mumbai, steel pipe supplier India, leading steel manufacturer, top pipe exporter, best steel pipe manufacturer, quality steel manufacturer, industrial pipe manufacturer India, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer India",
     url: "https://www.starlighttubes.com/about",

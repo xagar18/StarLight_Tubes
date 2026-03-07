@@ -181,9 +181,9 @@ const fittingsLinks = [
 const Product = () => {
   useSEO({
     title:
-      "Products - Steel Pipe Manufacturer & Exporter | Stainless Steel, Carbon Steel, Nickel Alloy Pipes | Starlight Tubes",
+      "Steel Pipes & Tubes Products | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading manufacturer and exporter of steel pipes, tubes, fittings, flanges. We manufacture stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper pipes, aluminium pipes. Premium quality seamless and welded pipes for oil gas, petrochemical, pharmaceutical industries. Export to USA, Europe, Middle East, Asia.",
+      "SS, carbon steel, nickel alloy, inconel, copper pipes, fittings & flanges. Seamless & welded. ASTM, API, ASME standards. Export to 60+ countries.",
     keywords:
       "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, pipe manufacturer India, tube manufacturer Mumbai, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, 304 stainless steel manufacturer, 316 stainless steel manufacturer, ASTM A106 manufacturer, API 5L manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer, steel pipe factory, steel pipe supplier, steel pipe distributor, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer",
     url: "https://www.starlighttubes.com/product",

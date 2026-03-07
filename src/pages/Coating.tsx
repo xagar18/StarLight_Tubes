@@ -9,9 +9,9 @@ import { PageHero } from "../components/main components/PageHero";
 const Coating = () => {
   useSEO({
     title:
-      "FBE Coated Pipe Manufacturer & Exporter | Epoxy Coated Pipes | Starlight Tubes",
+      "FBE & Epoxy Coated Pipes | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading FBE coated pipe manufacturer and exporter in India. We manufacture FBE coated pipes, epoxy coated pipes, 3LPE coated pipes for corrosion protection. Premium quality coated pipes for oil gas, water transmission, pipeline industries. Export to USA, Europe, Middle East.",
+      "FBE, 3LPE, 3LPP coated pipe manufacturer. Corrosion protection coatings for oil & gas, water pipelines. ISO certified.",
     keywords:
       "FBE coated pipe manufacturer, epoxy coated pipe manufacturer, coated pipe exporter, FBE coating manufacturer, 3LPE coated pipe manufacturer, fusion bonded epoxy pipe, coated pipe factory, corrosion resistant pipe manufacturer, pipeline coating manufacturer, FBE pipe supplier India, epoxy coated pipe supplier, coated pipe for oil gas, coated pipe for water pipeline",
     url: "https://www.starlighttubes.com/coating",
@@ -165,9 +165,9 @@ const Coating = () => {
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
                 Complete Guide to Pipe Coating Systems
-              </h1>
+              </h2>
 
               <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
                 Understanding epoxy coating technologies, surface preparation,
@@ -187,9 +187,9 @@ const Coating = () => {
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
                 Premium Epoxy Coating Solutions
-              </h1>
+              </h2>
 
               <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
                 Industry-leading FBE and epoxy coating applications for superior

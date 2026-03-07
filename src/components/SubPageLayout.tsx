@@ -209,9 +209,9 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
               Product Overview
             </span>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
             {sectionHeader.heading}
-          </h1>
+          </h2>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
             {sectionHeader.description}
           </p>
@@ -238,9 +238,9 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               {solutionsSection.heading}
-            </h1>
+            </h2>
 
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               {solutionsSection.description}

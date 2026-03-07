@@ -145,8 +145,8 @@ interface SEOProps {
 }
 
 export const useSEO = ({
-  title = "Starlight Tubes - Steel Pipe Manufacturer & Exporter | Stainless Steel, Carbon Steel, Nickel Alloy Pipes",
-  description = "Starlight Tubes is a leading steel pipe manufacturer and exporter in India. We manufacture and export stainless steel pipes, carbon steel tubes, nickel alloy pipes, inconel tubes, copper pipes, aluminium sheets, pipe fittings & flanges to 60+ countries. ISO 9001 certified.",
+  title = "Starlight Tubes | Steel Pipe Manufacturer & Exporter",
+  description = "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to 60+ countries.",
   keywords = "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, inconel pipe manufacturer, pipe manufacturer India, tube manufacturer India, pipe fittings manufacturer, flanges manufacturer",
   image = "https://www.starlighttubes.com/StarlightLogo.png",
   url = "https://www.starlighttubes.com",

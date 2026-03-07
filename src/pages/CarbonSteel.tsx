@@ -9,9 +9,9 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 const CarbonSteel = () => {
   useSEO({
     title:
-      "Carbon Steel Pipe Manufacturer & Exporter | ASTM A106, API 5L, ASTM A53 Pipes | Starlight Tubes",
+      "Carbon Steel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading carbon steel pipe manufacturer and exporter in India. We manufacture ASTM A106 pipes, API 5L Grade B, X42, X52, X65 pipes, ASTM A53 pipes, ERW pipes, seamless pipes. Premium quality carbon steel tubes for oil gas, petrochemical industries. Export to USA, Europe, Middle East, Asia.",
+      "ASTM A106, API 5L, ASTM A53 carbon steel pipe manufacturer & exporter. Seamless & ERW pipes for oil & gas, petrochemical industries.",
     keywords:
       "carbon steel pipe manufacturer, carbon steel tube manufacturer, carbon steel pipe exporter, ASTM A106 pipe manufacturer, API 5L pipe manufacturer, ASTM A53 pipe manufacturer, ERW pipe manufacturer, seamless carbon steel manufacturer, welded pipe manufacturer, API 5L Grade B manufacturer, API 5L X42 manufacturer, API 5L X52 manufacturer, API 5L X65 manufacturer, A671 pipe manufacturer, A672 pipe manufacturer, carbon steel pipe factory, carbon steel tube factory, MS pipe manufacturer, mild steel pipe manufacturer, carbon steel pipe supplier India",
     url: "https://www.starlighttubes.com/carbon-steel",
@@ -177,9 +177,9 @@ const CarbonSteel = () => {
                 Carbon Steel
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Carbon Steel Products
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               High-quality carbon steel pipes and tubes for oil & gas,
               structural, and industrial applications

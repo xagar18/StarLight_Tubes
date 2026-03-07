@@ -9,9 +9,9 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 const Inconel = () => {
   useSEO({
     title:
-      "Inconel Pipe Manufacturer & Exporter | Inconel 625, 600, 718 Pipes | Starlight Tubes",
+      "Inconel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading Inconel pipe manufacturer and exporter in India. We manufacture Inconel 625 pipes, Inconel 600 tubes, Inconel 718 pipes, Inconel plates, round bars, tubing. Premium quality superalloy products for aerospace, oil gas, chemical processing industries. Export to USA, Europe, Middle East.",
+      "Inconel 625, 600, 718 pipe manufacturer & exporter. Superalloy pipes for aerospace, oil & gas, chemical processing. ASTM B444 certified.",
     keywords:
       "Inconel pipe manufacturer, Inconel tube manufacturer, Inconel pipe exporter, Inconel 625 manufacturer, Inconel 600 manufacturer, Inconel 718 manufacturer, Inconel 800 manufacturer, Inconel 825 manufacturer, Inconel seamless pipe manufacturer, Inconel welded pipe manufacturer, Inconel plate manufacturer, Inconel round bar manufacturer, Inconel tubing manufacturer, Inconel bolts manufacturer, superalloy pipe manufacturer, Inconel pipe factory, Inconel pipe supplier India",
     url: "https://www.starlighttubes.com/inconel",
@@ -155,9 +155,9 @@ const Inconel = () => {
                 Inconel Superalloys
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Inconel Products
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               High-temperature superalloy pipes, tubes, plates, round bars, and
               fasteners for extreme applications

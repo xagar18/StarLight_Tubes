@@ -44,9 +44,9 @@ const FittingsApplicationsCTA = () => {
 const Fittings = () => {
   useSEO({
     title:
-      "Pipe Fittings Manufacturer & Exporter | Elbows, Tees, Reducers, Flanges | Starlight Tubes",
+      "Pipe Fittings Manufacturer | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading pipe fittings manufacturer and exporter in India. We manufacture stainless steel fittings, carbon steel elbows, tees, reducers, flanges, butt weld fittings, socket weld fittings, threaded fittings. Premium quality fittings for oil gas, petrochemical industries. Export to USA, Europe, Middle East.",
+      "SS, carbon steel elbows, tees, reducers, caps, unions, flanges manufacturer. Butt weld, socket weld & threaded fittings. ASME certified.",
     keywords:
       "pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, butt weld fittings manufacturer, socket weld fittings manufacturer, threaded fittings manufacturer, pipe fittings exporter, stainless steel fittings manufacturer, carbon steel fittings manufacturer, steel elbows manufacturer, pipe tees manufacturer, pipe reducers manufacturer, flange manufacturer, SS fittings manufacturer, MS fittings manufacturer, pipe fittings factory, pipe fittings supplier India, industrial fittings manufacturer",
     url: "https://www.starlighttubes.com/fittings",
@@ -193,9 +193,9 @@ const Fittings = () => {
                 Pipe Fittings
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Pipe Fittings & Flanges
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               Leak-proof, durable fittings and flanges for all industrial needs
             </p>

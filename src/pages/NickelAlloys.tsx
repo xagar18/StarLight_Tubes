@@ -9,9 +9,9 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 const NickelAlloys = () => {
   useSEO({
     title:
-      "Nickel Alloy Pipe Manufacturer & Exporter | Nickel 200, Monel, Hastelloy Pipes | Starlight Tubes",
+      "Nickel Alloy Pipe Manufacturer | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading nickel alloy pipe manufacturer and exporter in India. We manufacture Nickel 200, Nickel 201, Monel 400, Monel K500, Hastelloy C276, Hastelloy C22 pipes and tubes. Premium quality nickel alloy products for chemical processing, petrochemical industries. Export to USA, Europe, Middle East.",
+      "Nickel 200, Monel 400, Hastelloy C276, Alloy 20 pipe manufacturer & exporter. High-temperature & corrosion resistant alloy pipes.",
     keywords:
       "nickel alloy pipe manufacturer, nickel pipe manufacturer, nickel tube manufacturer, nickel pipe exporter, Nickel 200 manufacturer, Nickel 201 manufacturer, Monel 400 manufacturer, Monel K500 manufacturer, Hastelloy C276 manufacturer, Hastelloy C22 manufacturer, nickel alloy seamless pipe manufacturer, nickel alloy welded pipe manufacturer, nickel sheet manufacturer, nickel plate manufacturer, nickel alloy pipe factory, nickel alloy pipe supplier India, nickel pipe distributor",
     url: "https://www.starlighttubes.com/nickel-alloys",
@@ -146,9 +146,9 @@ const NickelAlloys = () => {
                 Nickel Alloys
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Nickel Alloy Products
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               High-performance nickel alloy pipes, sheets, plates, and round
               bars for extreme environments

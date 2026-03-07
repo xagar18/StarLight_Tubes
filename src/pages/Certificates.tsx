@@ -9,9 +9,9 @@ import { PageHero } from "../components/main components/PageHero";
 const Certificates = () => {
   useSEO({
     title:
-      "Quality Certificates - ISO 9001, PED, Export Certifications | Starlight Tubes Steel Manufacturer",
+      "Quality Certifications | Starlight Tubes",
     description:
-      "Starlight Tubes quality certifications - ISO 9001:2015 certified steel pipe manufacturer and exporter in India. View our GST certificate, export license, PED 97/23/EC approval, mill test certificates. Government recognized export house with complete quality documentation for stainless steel, carbon steel, nickel alloy pipes.",
+      "ISO 9001:2015, PED, mill test certificates & third party inspection reports. Quality-assured steel pipe manufacturer.",
     keywords:
       "ISO certified steel manufacturer, ISO 9001 steel pipe manufacturer, PED approved pipe manufacturer, mill test certificate, quality certificates steel pipes, export certified manufacturer, government recognized export house, steel pipe quality certification, ASTM certified pipes, ASME certified tubes, third party inspection, EN 10204 3.1 certificate, MTC steel pipes, quality assurance steel manufacturer",
     url: "https://www.starlighttubes.com/certificates",

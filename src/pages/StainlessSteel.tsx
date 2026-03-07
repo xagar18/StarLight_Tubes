@@ -9,9 +9,9 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 const StainlessSteel = () => {
   useSEO({
     title:
-      "Stainless Steel Pipe Manufacturer & Exporter | 304, 316, 316L Pipes & Tubes | Starlight Tubes",
+      "Stainless Steel Pipe Manufacturer | Starlight Tubes",
     description:
-      "Starlight Tubes - Leading stainless steel pipe manufacturer and exporter in India. We manufacture 304 stainless steel pipes, 316 stainless steel tubes, 316L pipes, duplex stainless steel, super duplex pipes. Premium quality seamless and welded stainless steel pipes for oil gas, petrochemical, pharmaceutical industries. Export to USA, Europe, Middle East.",
+      "SS 304, 316, 316L, duplex, super duplex pipe manufacturer & exporter. Seamless & welded SS pipes, tubes, sheets, bars. ISO certified.",
     keywords:
       "stainless steel pipe manufacturer, stainless steel tube manufacturer, stainless steel pipe exporter, 304 stainless steel manufacturer, 316 stainless steel manufacturer, 316L pipe manufacturer, stainless steel seamless pipe manufacturer, stainless steel welded pipe manufacturer, duplex stainless steel manufacturer, super duplex manufacturer, stainless steel pipe factory, stainless steel tube factory, stainless steel sheet manufacturer, stainless steel plate manufacturer, stainless steel round bar manufacturer, SS pipe manufacturer, SS tube exporter, stainless steel pipe supplier India, stainless steel pipe distributor",
     url: "https://www.starlighttubes.com/stainless-steel",
@@ -182,9 +182,9 @@ const StainlessSteel = () => {
                 Stainless Steel
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Stainless Steel Products
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               Premium quality stainless steel pipes, tubes, plates, sheets,
               round bars, and fasteners for industrial applications

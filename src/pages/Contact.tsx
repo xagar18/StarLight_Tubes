@@ -8,9 +8,9 @@ import { PageHero } from "../components/main components/PageHero";
 const Contact = () => {
   useSEO({
     title:
-      "Contact Steel Pipe Manufacturer & Exporter | Get Quote | Starlight Tubes Mumbai India",
+      "Contact Us | Get a Quote | Starlight Tubes",
     description:
-      "Contact Starlight Tubes - India's leading steel pipe manufacturer and exporter. Get quotes for stainless steel pipes, carbon steel tubes, nickel alloy pipes, pipe fittings. Mumbai, India office with global delivery to USA, Europe, Middle East, Asia. Call +91-9892233118 for inquiries.",
+      "Contact Starlight Tubes for steel pipe enquiries & quotes. Call +91-8591470791 or email sales@starlighttubes.com. Mumbai, India.",
     keywords:
       "contact steel pipe manufacturer, contact pipe exporter, steel pipe quote, steel tube inquiry, stainless steel pipe manufacturer contact, carbon steel pipe manufacturer contact, pipe fittings manufacturer contact, steel pipe supplier Mumbai, steel tube supplier India, get steel pipe quote, steel pipe inquiry, steel pipe manufacturer phone number, pipe exporter contact details, steel pipe factory contact",
     url: "https://www.starlighttubes.com/contact",
@@ -127,9 +127,9 @@ const Contact = () => {
                 Contact Information
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 text-gray-900 dark:text-white">
               Reach Out To Us
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-3xl">
               Visit our office or get in touch through phone and email
             </p>
@@ -148,9 +148,9 @@ const Contact = () => {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
               Let's Discuss Your Requirements
-            </h1>
+            </h2>
 
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
               Fill out the form below and our team will get back to you within

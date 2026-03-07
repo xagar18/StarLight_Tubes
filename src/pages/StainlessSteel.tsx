@@ -8,8 +8,7 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const StainlessSteel = () => {
   useSEO({
-    title:
-      "Stainless Steel Pipe Manufacturer | Starlight Tubes",
+    title: "Stainless Steel Pipe Manufacturer | Starlight Tubes",
     description:
       "SS 304, 316, 316L, duplex, super duplex pipe manufacturer & exporter. Seamless & welded SS pipes, tubes, sheets, bars. ISO certified.",
     keywords:

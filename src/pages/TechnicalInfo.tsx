@@ -11,8 +11,7 @@ import MechanicalInfo from "../components/sub components/MechanicalInfo";
 
 const TechnicalInfo = () => {
   useSEO({
-    title:
-      "Steel Pipe Technical Specs | Starlight Tubes",
+    title: "Steel Pipe Technical Specs | Starlight Tubes",
     description:
       "Chemical composition, mechanical properties & dimensional data for SS, carbon steel, nickel alloy pipes & tubes. ASTM, API standards.",
     keywords:

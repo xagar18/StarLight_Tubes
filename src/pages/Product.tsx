@@ -180,8 +180,7 @@ const fittingsLinks = [
 
 const Product = () => {
   useSEO({
-    title:
-      "Steel Pipes & Tubes Products | Starlight Tubes",
+    title: "Steel Pipes & Tubes Products | Starlight Tubes",
     description:
       "SS, carbon steel, nickel alloy, inconel, copper pipes, fittings & flanges. Seamless & welded. ASTM, API, ASME standards. Export to 60+ countries.",
     keywords:

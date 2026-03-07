@@ -9,8 +9,7 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const Material = () => {
   useSEO({
-    title:
-      "Industrial Materials Guide | Starlight Tubes",
+    title: "Industrial Materials Guide | Starlight Tubes",
     description:
       "SS, carbon steel, nickel alloys, inconel, copper & aluminium material grades, properties & applications guide.",
     keywords:

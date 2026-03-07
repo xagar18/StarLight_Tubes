@@ -7,8 +7,7 @@ import { PageHero } from "../components/main components/PageHero";
 
 const Contact = () => {
   useSEO({
-    title:
-      "Contact Us | Get a Quote | Starlight Tubes",
+    title: "Contact Us | Get a Quote | Starlight Tubes",
     description:
       "Contact Starlight Tubes for steel pipe enquiries & quotes. Call +91-8591470791 or email sales@starlighttubes.com. Mumbai, India.",
     keywords:

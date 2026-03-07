@@ -8,8 +8,7 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const CarbonSteel = () => {
   useSEO({
-    title:
-      "Carbon Steel Pipe Manufacturer | Starlight Tubes",
+    title: "Carbon Steel Pipe Manufacturer | Starlight Tubes",
     description:
       "ASTM A106, API 5L, ASTM A53 carbon steel pipe manufacturer & exporter. Seamless & ERW pipes for oil & gas, petrochemical industries.",
     keywords:

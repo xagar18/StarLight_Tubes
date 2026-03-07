@@ -29,8 +29,7 @@ const MapLoader = () => (
 
 const About = () => {
   useSEO({
-    title:
-      "About Starlight Tubes | Steel Pipe Manufacturer",
+    title: "About Starlight Tubes | Steel Pipe Manufacturer",
     description:
       "ISO 9001 certified steel pipe manufacturer & exporter in India since 2020. Exporting SS, carbon steel, nickel alloy pipes to 60+ countries worldwide.",
     keywords:

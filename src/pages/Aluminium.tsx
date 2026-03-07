@@ -44,8 +44,7 @@ const AluminiumApplicationsCTA = () => {
 
 const Aluminium = () => {
   useSEO({
-    title:
-      "Aluminium Pipe Manufacturer | Starlight Tubes",
+    title: "Aluminium Pipe Manufacturer | Starlight Tubes",
     description:
       "6061, 6063, 5052, 7075 aluminium pipe, sheet & bar manufacturer & exporter. For aerospace, automotive, marine & construction.",
     keywords:

@@ -8,8 +8,7 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const NickelAlloys = () => {
   useSEO({
-    title:
-      "Nickel Alloy Pipe Manufacturer | Starlight Tubes",
+    title: "Nickel Alloy Pipe Manufacturer | Starlight Tubes",
     description:
       "Nickel 200, Monel 400, Hastelloy C276, Alloy 20 pipe manufacturer & exporter. High-temperature & corrosion resistant alloy pipes.",
     keywords:

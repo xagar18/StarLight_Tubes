@@ -8,8 +8,7 @@ import { CommonCTA } from "../components/sub components/CommonCTA";
 
 const Inconel = () => {
   useSEO({
-    title:
-      "Inconel Pipe Manufacturer | Starlight Tubes",
+    title: "Inconel Pipe Manufacturer | Starlight Tubes",
     description:
       "Inconel 625, 600, 718 pipe manufacturer & exporter. Superalloy pipes for aerospace, oil & gas, chemical processing. ASTM B444 certified.",
     keywords:

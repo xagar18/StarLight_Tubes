@@ -8,8 +8,7 @@ import { PageHero } from "../components/main components/PageHero";
 
 const Coating = () => {
   useSEO({
-    title:
-      "FBE & Epoxy Coated Pipes | Starlight Tubes",
+    title: "FBE & Epoxy Coated Pipes | Starlight Tubes",
     description:
       "FBE, 3LPE, 3LPP coated pipe manufacturer. Corrosion protection coatings for oil & gas, water pipelines. ISO certified.",
     keywords:

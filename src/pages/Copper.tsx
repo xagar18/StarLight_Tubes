@@ -46,8 +46,7 @@ const CopperApplicationsCTA = () => {
 
 const Copper = () => {
   useSEO({
-    title:
-      "Copper Pipe & Tube Manufacturer | Starlight Tubes",
+    title: "Copper Pipe & Tube Manufacturer | Starlight Tubes",
     description:
       "Copper pipes, tubes, sheets, bars & cupro nickel 90/10, 70/30 manufacturer. For marine, HVAC, plumbing & industrial applications.",
     keywords:

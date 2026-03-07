@@ -43,8 +43,7 @@ const FittingsApplicationsCTA = () => {
 
 const Fittings = () => {
   useSEO({
-    title:
-      "Pipe Fittings Manufacturer | Starlight Tubes",
+    title: "Pipe Fittings Manufacturer | Starlight Tubes",
     description:
       "SS, carbon steel elbows, tees, reducers, caps, unions, flanges manufacturer. Butt weld, socket weld & threaded fittings. ASME certified.",
     keywords:

@@ -8,8 +8,7 @@ import { PageHero } from "../components/main components/PageHero";
 
 const Certificates = () => {
   useSEO({
-    title:
-      "Quality Certifications | Starlight Tubes",
+    title: "Quality Certifications | Starlight Tubes",
     description:
       "ISO 9001:2015, PED, mill test certificates & third party inspection reports. Quality-assured steel pipe manufacturer.",
     keywords:

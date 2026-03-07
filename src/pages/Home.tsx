@@ -100,8 +100,7 @@ const pipeFittingsLinks = [
 const Home = () => {
   // SEO optimization for home page with enhanced AEO & GEO structured data
   useSEO({
-    title:
-      "Starlight Tubes | Steel Pipe Manufacturer & Exporter",
+    title: "Starlight Tubes | Steel Pipe Manufacturer & Exporter",
     description:
       "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to 60+ countries.",
     keywords:

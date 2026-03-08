@@ -1,7 +1,48 @@
 # 301 redirects for alias routes (duplicate content prevention)
-/aluminium-tube   /aluminium-pipe   301
-/aluminium-plate  /aluminium-sheet  301
-/copper-plate     /copper-sheet     301
+/aluminium-tube          /aluminium-pipe          301
+/aluminium-plate         /aluminium-sheet         301
+/copper-plate            /copper-sheet            301
+
+# Common misspellings & alternate URLs
+/stainless-tubes         /stainless-steel-pipe    301
+/stainless-pipe          /stainless-steel-pipe    301
+/stainless-steel-pipes   /stainless-steel-pipe    301
+/ss-304-pipe             /stainless-steel-304-pipe 301
+/ss-316-pipe             /stainless-steel-316l-pipe 301
+/ss-316l-pipe            /stainless-steel-316l-pipe 301
+/inconel-tubes           /inconel-pipe            301
+/inconel-625-pipes       /inconel-625-pipe        301
+/inconel-600-pipes       /inconel-600-pipe        301
+/carbon-tubes            /carbon-steel-pipe       301
+/carbon-pipe             /carbon-steel-pipe       301
+/carbon-steel-tubes      /carbon-steel-pipe       301
+/copper-tubes            /copper-tube             301
+/copper-pipes            /copper-pipe             301
+/aluminium-pipes         /aluminium-pipe          301
+/aluminum-pipe           /aluminium-pipe          301
+/aluminum-sheet          /aluminium-sheet         301
+/aluminum-bar            /aluminium-bar           301
+/aluminum-coil           /aluminium-coil          301
+/aluminum-tube           /aluminium-pipe          301
+/pipe-fitting            /pipe-fittings           301
+/elbow-fitting           /elbow-fittings          301
+/tee-fitting             /tee-fittings            301
+/flange                  /flanges                 301
+/reducer-fitting         /reducer-fittings        301
+/coupling-fitting        /coupling-fittings       301
+/union-fitting           /union-fittings          301
+/cap-fitting             /cap-fittings            301
+/nickel-pipes            /nickel-pipe             301
+/cupro-nickel            /cupro-nickel-90-10      301
+/cupronickel-90-10       /cupro-nickel-90-10      301
+/cupronickel-70-30       /cupro-nickel-70-30      301
+/products                /product                 301
+/aboutus                 /about                   301
+/about-us                /about                   301
+/contactus               /contact                 301
+/contact-us              /contact                 301
+/technicalinfo           /technical-info          301
+/technical-information   /technical-info          301
 
 # SPA fallback (must be last)
 /*    /index.html   200

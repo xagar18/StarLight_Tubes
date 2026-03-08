@@ -15,6 +15,7 @@ Allow: /*.svg$
 
 # Sitemap location
 Sitemap: https://www.starlighttubes.com/sitemap.xml
+Sitemap: https://www.starlighttubes.com/sitemap-images.xml
 
 # Major search engines
 User-agent: Googlebot

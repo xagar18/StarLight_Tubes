@@ -703,6 +703,54 @@ export default async function handler(request: Request, context: Context) {
     );
   }
 
+  // GEO: Inject WebSite schema with SearchAction for Google Sitelinks Search Box
+  const websiteSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${BASE_URL}/#website`,
+    url: BASE_URL,
+    name: "Starlight Tubes",
+    description:
+      "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges.",
+    publisher: {
+      "@type": "Organization",
+      "@id": `${BASE_URL}/#organization`,
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${BASE_URL}/product?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  });
+
+  // Inject SiteNavigationElement for AI/search engines to understand nav structure
+  const navSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    "@id": `${BASE_URL}/#navigation`,
+    name: "Main Navigation",
+    hasPart: [
+      { "@type": "WebPage", name: "Home", url: `${BASE_URL}/` },
+      { "@type": "WebPage", name: "About Us", url: `${BASE_URL}/about` },
+      { "@type": "WebPage", name: "Products", url: `${BASE_URL}/product` },
+      {
+        "@type": "WebPage",
+        name: "Technical Info",
+        url: `${BASE_URL}/technical-info`,
+      },
+      { "@type": "WebPage", name: "Coating", url: `${BASE_URL}/coating` },
+      { "@type": "WebPage", name: "Contact", url: `${BASE_URL}/contact` },
+    ],
+  });
+
+  html = html.replace(
+    "</head>",
+    `<script type="application/ld+json" id="ssr-website-schema">${websiteSchema}</script>\n  <script type="application/ld+json" id="ssr-nav-schema">${navSchema}</script>\n  </head>`,
+  );
+
   // Return modified HTML with same headers
   return new Response(html, {
     status: response.status,

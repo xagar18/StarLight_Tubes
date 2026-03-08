@@ -51,7 +51,12 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <a href="/Catalogue.pdf" target="_blank" rel="noopener noreferrer">
+            <a
+              href="/Catalogue.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Download Starlight Tubes Product Catalogue PDF"
+            >
               <NavbarButton
                 variant="primary"
                 className="px-6 py-2.5 text-sm font-semibold tracking-wide"
@@ -88,6 +93,7 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
                 href="/Catalogue.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Download Starlight Tubes Product Catalogue PDF"
                 className="w-full"
               >
                 <NavbarButton

@@ -194,7 +194,7 @@
     <link rel="apple-touch-icon" href="/favicon.png" />
 
     <!-- PWA Manifest -->
-    <!-- <link rel="manifest" href="/manifest.json" /> -->
+    <link rel="manifest" href="/manifest.json" />
 
     <!-- Canonical URL - default for homepage, dynamically updated per-page by React useSEO hook -->
     <link rel="canonical" href="https://www.starlighttubes.com/" />
@@ -883,12 +883,28 @@
 
     <!-- Additional SEO Tags -->
     <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Starlight Tubes" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icon-192x192.png" />
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Preconnect to improve performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://res.cloudinary.com" />
+    <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://translate.google.com" />
+
+    <!-- Preload LCP hero image for faster first paint -->
+    <link
+      rel="preload"
+      as="image"
+      href="https://res.cloudinary.com/dtdardvqm/image/upload/f_auto,q_auto,w_1600,c_fill/Home_aaq22e"
+      fetchpriority="high"
+    />
   </head>
   <body>
     <div

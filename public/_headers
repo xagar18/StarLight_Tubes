@@ -6,6 +6,9 @@
   X-XSS-Protection: 1; mode=block
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+  Link: <https://res.cloudinary.com>; rel=preconnect
+  Link: <https://fonts.googleapis.com>; rel=preconnect
+  Link: <https://www.googletagmanager.com>; rel=preconnect
 
 # Long cache for hashed assets (Vite adds content hash)
 /assets/*
@@ -27,6 +30,9 @@
 
 # Short cache for SEO files
 /sitemap.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml
+/sitemap-images.xml
   Cache-Control: public, max-age=3600
   Content-Type: application/xml
 /robots.txt

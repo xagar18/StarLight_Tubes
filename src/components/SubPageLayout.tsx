@@ -1,4 +1,6 @@
+import subPagesData from "@/data/subPagesData.json";
 import { useSEO } from "@/hooks/use-seo";
+import { Link } from "react-router";
 import { CardHoverEffectDemo } from "./main components/CoatingImgCard";
 import Footer from "./main components/Fotter";
 import StatsGrid from "./main components/HomeStats";
@@ -149,6 +151,39 @@ interface SubPageLayoutProps {
   data: SubPageData;
 }
 
+// Build category groups from breadcrumbs for related products
+const categoryGroups = new Map<string, SubPageData[]>();
+for (const page of subPagesData as SubPageData[]) {
+  const crumbs = page.seo.breadcrumbs;
+  if (crumbs.length >= 2) {
+    const parent = crumbs[1].name;
+    if (!categoryGroups.has(parent)) {
+      categoryGroups.set(parent, []);
+    }
+    categoryGroups.get(parent)!.push(page);
+  }
+}
+
+function getRelatedProducts(
+  currentSlug: string,
+  currentData: SubPageData,
+): SubPageData[] {
+  const crumbs = currentData.seo.breadcrumbs;
+  if (crumbs.length < 2) return [];
+  const parent = crumbs[1].name;
+  const siblings = categoryGroups.get(parent) || [];
+  // Filter out current product, take up to 4
+  const related = siblings.filter((p) => p.slug !== currentSlug);
+  // Shuffle deterministically based on slug to vary per page
+  const hash = currentSlug.split("").reduce((a, c) => a + c.charCodeAt(0), 0);
+  related.sort((a, b) => {
+    const ha = a.slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+    const hb = b.slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+    return ((ha + hash) % 97) - ((hb + hash) % 97);
+  });
+  return related.slice(0, 4);
+}
+
 const SubPageLayout = ({ data }: SubPageLayoutProps) => {
   const {
     seo,
@@ -187,6 +222,8 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
     badgeColorMap[sectionHeader.badgeColor] || badgeColorMap.teal;
   const solutionsBadge =
     badgeColorMap[solutionsSection.badgeColor] || badgeColorMap.green;
+
+  const relatedProducts = getRelatedProducts(data.slug, data);
 
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
@@ -255,6 +292,41 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
           description={bottomCtaData.description}
           features={bottomCtaData.features}
         />
+
+        {/* Related Products Section */}
+        {relatedProducts.length > 0 && (
+          <div className="w-full max-w-6xl mx-auto mt-20 mb-12 px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-900 dark:text-white">
+              Related Products
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {relatedProducts.map((product) => (
+                <Link
+                  key={product.slug}
+                  to={`/${product.slug}`}
+                  className="group block rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-5 transition-all duration-300 hover:shadow-lg hover:border-teal-500/50 hover:-translate-y-1"
+                >
+                  {product.projects?.[0]?.img && (
+                    <div className="w-full h-40 rounded-xl overflow-hidden mb-4 bg-gray-100 dark:bg-gray-800">
+                      <img
+                        src={product.projects[0].img}
+                        alt={product.pageHero.title}
+                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">
+                    {product.pageHero.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 line-clamp-2">
+                    {product.pageHero.subtitle}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Stats Grid Section */}
         <div>

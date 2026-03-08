@@ -41,15 +41,47 @@ Starlight Tubes is India's No. 1 exporter and stockist of industrial steel pipes
 - Pipes, Tubes, Plates, Sheets, Round Bars, Bolts, Tubing
 - Grades: Inconel 600, 601, 625, 718, 725, 800, 800H, 825, X-750
 
+### Copper & Cupro-Nickel
+
+- Pipes, Tubes, Sheets, Bars, Fittings
+- Grades: Copper Type K/L/M, Cupro-Nickel 90/10 (C70600), 70/30 (C71500)
+
+### Aluminium
+
+- Pipes, Tubes, Sheets, Coils, Bars
+- Grades: 5052, 6061, 6063, 7075
+
+### Pipe Fittings & Flanges
+
+- Butt Weld, Socket Weld, Threaded Fittings
+- Elbows, Tees, Reducers, Caps, Couplings, Unions, Flanges
+
 ---
 
 ## Tech Stack
 
-- **Frontend:** React 18 + TypeScript
+- **Frontend:** React 19 + TypeScript
 - **Build Tool:** Vite
-- **Styling:** Tailwind CSS
-- **Routing:** React Router
-- **UI Components:** Custom components with Framer Motion animations
+- **Styling:** Tailwind CSS v4
+- **Routing:** React Router v7
+- **UI Components:** Custom components with Motion (Framer Motion) animations
+- **Hosting:** Netlify (with Edge Functions)
+- **Images:** Cloudinary CDN
+
+---
+
+## SEO & Performance
+
+- **Enterprise-grade SEO** with 14+ JSON-LD schema types (Product, FAQ, HowTo, Q&A, WebSite, SiteNavigationElement, etc.)
+- **Server-side meta injection** via Netlify Edge Functions for correct canonical URLs, OG tags, and structured data for crawlers
+- **AEO (Answer Engine Optimization)** with Speakable, Featured Snippets, and NLQ-optimized summaries for AI engines
+- **Image Sitemap** (`sitemap-images.xml`) covering 180+ product images
+- **XML Sitemap** with 75+ URLs, hreflang tags, and current lastmod dates
+- **PWA-ready** with Web App Manifest and installable app support
+- **IndexNow** integration for instant search engine notification
+- **40+ 301 redirects** for misspellings, alternate spellings, and duplicate prevention
+- **HTTP/2 preconnect headers** and hero image preload for optimized Core Web Vitals
+- **Security headers:** X-Frame-Options, CSP hints, nosniff, XSS protection, Permissions-Policy
 
 ---
 
@@ -95,14 +127,29 @@ pnpm preview
 ```
 src/
 ├── components/
-│   ├── main components/    # Navbar, Footer, CTA sections
-│   ├── sub components/     # Reusable CTA component
-│   ├── sub pages/          # Product detail pages
-│   └── ui/                 # UI components (buttons, cards, etc.)
-├── pages/                  # Main route pages
-├── hooks/                  # Custom React hooks
+│   ├── main components/    # Navbar, Footer, Hero, CTA, Stats sections
+│   ├── sub components/     # Reusable CTA, Chemical/Mechanical/Dimensions info
+│   └── ui/                 # UI primitives (buttons, cards, dialogs, sliders)
+├── pages/                  # Route pages (Home, Product, DynamicSubPage, etc.)
+├── hooks/                  # Custom hooks (useSEO, useMobile)
 ├── lib/                    # Utility functions
-└── data/                   # Static data files
+└── data/                   # Static data (subPagesData.json - 60+ product pages)
+
+public/
+├── sitemap.xml             # XML sitemap (75+ URLs)
+├── sitemap-images.xml      # Image sitemap (180+ images)
+├── robots.txt              # Crawler directives
+├── manifest.json           # PWA manifest
+├── _headers                # Netlify cache & security headers
+├── _redirects              # 40+ 301 redirects + SPA fallback
+└── [product-images]/       # Product category image folders
+
+netlify/
+└── edge-functions/
+    └── inject-canonical.ts # Server-side SEO injection (canonical, meta, schemas)
+
+scripts/
+└── submit-indexnow.mjs     # IndexNow URL submission script
 ```
 
 ---
@@ -117,4 +164,4 @@ src/
 
 ## License
 
-© 2025 Starlight Tubes. All rights reserved.
+© 2026 Starlight Tubes. All rights reserved.

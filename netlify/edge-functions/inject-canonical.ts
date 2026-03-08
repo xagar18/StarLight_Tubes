@@ -404,6 +404,62 @@ const PAGE_META: Record<string, { title: string; description: string }> = {
     description:
       "Threaded, socket weld & butt weld pipe union manufacturer. ASME B16.11 certified. SS & carbon steel. Export worldwide.",
   },
+  "/blog": {
+    title: "Blog | Starlight Tubes — Steel Pipe Industry Insights",
+    description:
+      "Expert articles on stainless steel, carbon steel, nickel alloy pipes — material comparisons, specifications, manufacturing processes, and technical guides.",
+  },
+  "/blog/difference-between-ss-304-and-ss-316-pipe": {
+    title: "Difference Between SS 304 and SS 316 Pipe | Starlight Tubes Blog",
+    description:
+      "Key differences between SS 304 and SS 316 stainless steel pipes — chemical composition, corrosion resistance, applications, and pricing.",
+  },
+  "/blog/api-5l-grade-b-vs-astm-a106-comparison": {
+    title: "API 5L Grade B vs ASTM A106 Comparison | Starlight Tubes Blog",
+    description:
+      "Comprehensive comparison of API 5L Grade B and ASTM A106 carbon steel pipes — specifications, applications, and testing requirements.",
+  },
+  "/blog/complete-guide-pipe-fittings-types-uses": {
+    title: "Complete Guide to Pipe Fittings Types | Starlight Tubes Blog",
+    description:
+      "All pipe fitting types — elbows, tees, reducers, caps, unions, couplings, flanges — with applications, materials, and ASME specifications.",
+  },
+  "/blog/inconel-625-vs-inconel-600-properties-applications": {
+    title:
+      "Inconel 625 vs 600 Properties & Applications | Starlight Tubes Blog",
+    description:
+      "Detailed comparison of Inconel 625 and Inconel 600 — chemical composition, mechanical properties, corrosion resistance, and applications.",
+  },
+  "/blog/what-is-cupro-nickel-90-10-properties-uses": {
+    title: "What is Cupro-Nickel 90/10? | Starlight Tubes Blog",
+    description:
+      "Complete guide to CuNi 90/10 (C70600) — composition, properties, marine applications, and ASTM specifications for pipes and tubes.",
+  },
+  "/blog/understanding-carbon-steel-pipe-grades": {
+    title: "Carbon Steel Pipe Grades A53 A106 A671 A672 | Starlight Tubes Blog",
+    description:
+      "Guide to carbon steel pipe grades ASTM A53, A106, A671, A672 — specifications, manufacturing, grades, and applications.",
+  },
+  "/blog/how-to-read-mill-test-certificate": {
+    title: "How to Read a Mill Test Certificate (MTC) | Starlight Tubes Blog",
+    description:
+      "Step-by-step guide on reading and verifying a Mill Test Certificate per EN 10204 3.1 — chemical composition, mechanical properties, and acceptance criteria.",
+  },
+  "/blog/aluminium-alloy-grades-5052-6061-6063-7075": {
+    title: "Aluminium Alloy Grades 5052 6061 6063 7075 | Starlight Tubes Blog",
+    description:
+      "Comparison of aluminium alloys 5052, 6061, 6063, 7075 — composition, properties, applications, machinability, and weldability.",
+  },
+  "/blog/stainless-steel-pipe-manufacturing-process": {
+    title: "SS Pipe Manufacturing Process Explained | Starlight Tubes Blog",
+    description:
+      "How stainless steel pipes are manufactured — seamless and welded processes, cold drawing, heat treatment, testing, and quality standards.",
+  },
+  "/blog/how-to-choose-right-pipe-material": {
+    title: "How to Choose the Right Pipe Material | Starlight Tubes Blog",
+    description:
+      "Expert guide on selecting pipe material — stainless steel, carbon steel, nickel alloys, copper, aluminium — based on temperature, pressure, and corrosion.",
+  },
 };
 
 // GEO/AEO: Server-side FAQ data for AI crawlers (critical pages)

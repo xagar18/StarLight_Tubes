@@ -35,6 +35,10 @@ const CarbonSteelPage = lazy(() => import("./pages/CarbonSteel"));
 const NickelAlloysPage = lazy(() => import("./pages/NickelAlloys"));
 const InconelPage = lazy(() => import("./pages/Inconel"));
 
+// Lazy load blog pages
+const Blog = lazy(() => import("./pages/Blog"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
+
 // Lazy load the dynamic sub page handler (replaces all individual sub pages)
 const DynamicSubPage = lazy(() => import("./pages/DynamicSubPage"));
 
@@ -65,6 +69,10 @@ function App() {
           <Route path="/carbon-steel" element={<CarbonSteelPage />} />
           <Route path="/nickel-alloys" element={<NickelAlloysPage />} />
           <Route path="/inconel" element={<InconelPage />} />
+
+          {/* Blog */}
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
 
           {/* Dynamic sub pages - single route handles all product sub pages */}
           <Route path="/:slug" element={<DynamicSubPage />} />

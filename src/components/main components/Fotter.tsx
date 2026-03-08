@@ -195,6 +195,7 @@ export default function Footer() {
         { name: "Technical Info", path: "/technical-info" },
         { name: "Materials", path: "/materials" },
         { name: "Products", path: "/product" },
+        { name: "Blog", path: "/blog" },
         { name: "Contact Us", path: "/contact" },
       ],
     },

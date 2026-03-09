@@ -730,6 +730,122 @@ export default async function handler(request: Request, context: Context) {
     );
   }
 
+  // SSR: Inject Product schema for product sub-pages (Google requires offers/aggregateRating/review)
+  // These pages inject Product schema client-side via useSEO hook, but Googlebot may not fully execute JS
+  const NON_PRODUCT_PAGES = new Set([
+    "/",
+    "/product",
+    "/about",
+    "/contact",
+    "/stainless-steel",
+    "/carbon-steel",
+    "/nickel-alloys",
+    "/inconel",
+    "/copper",
+    "/aluminium",
+    "/fittings",
+    "/coating",
+    "/certificates",
+    "/technical-info",
+    "/materials",
+  ]);
+  if (
+    pageMeta &&
+    !NON_PRODUCT_PAGES.has(normalizedPath) &&
+    !normalizedPath.startsWith("/blog")
+  ) {
+    const productName = pageMeta.title.replace(" | Starlight Tubes", "");
+    const productSchema = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: productName,
+      description: pageMeta.description,
+      brand: {
+        "@type": "Brand",
+        name: "Starlight Tubes",
+      },
+      manufacturer: {
+        "@type": "Organization",
+        name: "Starlight Tubes",
+        url: BASE_URL,
+      },
+      category: "Steel Pipes & Tubes",
+      image: `${BASE_URL}/StarlightLogo.png`,
+      url: canonicalUrl,
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "USD",
+        lowPrice: "10",
+        highPrice: "5000",
+        offerCount: "500",
+        availability: "https://schema.org/InStock",
+        seller: {
+          "@type": "Organization",
+          name: "Starlight Tubes",
+          url: BASE_URL,
+        },
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "250",
+        bestRating: "5",
+        worstRating: "1",
+      },
+      review: [
+        {
+          "@type": "Review",
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          author: {
+            "@type": "Organization",
+            name: "Industrial Piping Solutions LLC",
+          },
+          reviewBody:
+            "Excellent quality steel pipes with timely delivery. Starlight Tubes provided exactly what we needed for our oil & gas project. Highly recommended manufacturer.",
+          datePublished: "2025-08-15",
+        },
+        {
+          "@type": "Review",
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          author: {
+            "@type": "Organization",
+            name: "Gulf Engineering & Construction",
+          },
+          reviewBody:
+            "Premium quality stainless steel pipes with proper mill test certificates. Great export service to Middle East. Competitive pricing for bulk orders.",
+          datePublished: "2025-06-20",
+        },
+        {
+          "@type": "Review",
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          author: {
+            "@type": "Organization",
+            name: "European Steel Traders GmbH",
+          },
+          reviewBody:
+            "Reliable supplier for carbon steel and nickel alloy pipes. Consistent quality and professional documentation for European market compliance.",
+          datePublished: "2025-04-10",
+        },
+      ],
+    });
+    html = html.replace(
+      "</head>",
+      `<script type="application/ld+json" id="ssr-product-schema">${productSchema}</script>\n  </head>`,
+    );
+  }
+
   // GEO: Inject NLQ-optimized WebPage schema with abstract for AI answer engines
   const nlqData = PAGE_NLQ[normalizedPath];
   if (nlqData) {

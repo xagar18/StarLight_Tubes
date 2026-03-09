@@ -317,6 +317,11 @@ export const useSEO = ({
     }
 
     // Product Schema - ALWAYS includes offers, aggregateRating, and review (Google requirement)
+    // Remove SSR-injected product schema first to avoid duplicates
+    const ssrProductSchema = document.getElementById("ssr-product-schema");
+    if (ssrProductSchema) {
+      ssrProductSchema.remove();
+    }
     if (productSchema) {
       const productJsonLd = {
         "@context": "https://schema.org",

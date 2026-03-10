@@ -6,20 +6,20 @@ import blogData from "../data/blogData.json";
 
 const Blog = () => {
   useSEO({
-    title: "Blog | Starlight Tubes — Steel Pipe Industry Insights",
+    title: "Blog | Starlight Tubes — Steel Pipe Buyer's Guide",
     description:
-      "Expert articles on stainless steel, carbon steel, nickel alloy pipes — material comparisons, specifications, manufacturing processes, and technical guides by Starlight Tubes.",
+      "Compare steel pipe grades, specifications & prices. Expert buying guide for SS 304 vs 316, API 5L, Inconel & more. Factory-direct from India.",
     keywords:
-      "steel pipe blog, stainless steel guide, pipe material comparison, carbon steel specifications, pipe fittings guide, mill test certificate, industrial pipe articles, steel manufacturing blog",
+      "steel pipe buying guide, stainless steel pipe price, SS 304 vs 316 pipe, carbon steel pipe supplier, pipe manufacturer India, bulk pipe order, steel pipe exporter, industrial pipe supplier",
     url: "https://www.starlighttubes.com/blog",
     breadcrumbs: [
       { name: "Home", url: "https://www.starlighttubes.com/" },
       { name: "Blog", url: "https://www.starlighttubes.com/blog" },
     ],
     speakableContent: {
-      headline: "Starlight Tubes Blog — Steel Pipe Industry Insights",
+      headline: "Starlight Tubes Blog — Steel Pipe Buyer's Guide",
       summary:
-        "Expert articles covering material comparisons, pipe specifications, manufacturing processes, and technical guides for stainless steel, carbon steel, nickel alloy, copper, and aluminium pipes.",
+        "Compare pipe grades, find the right specifications, and get factory-direct pricing from India's trusted steel pipe manufacturer. ISO 9001 certified, exporting to 60+ countries.",
     },
   });
 
@@ -44,13 +44,13 @@ const Blog = () => {
             Starlight Tubes Blog
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
-            Industry Insights &<br />
-            Technical Guides
+            Buyer's Guide to<br />
+            Industrial Steel Pipes
           </h1>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Expert articles on pipe materials, specifications, and manufacturing
-            — helping engineers and procurement professionals make informed
-            decisions.
+            Compare grades, understand specifications, and find the right product
+            for your project — backed by factory-direct pricing from India's
+            trusted pipe manufacturer.
           </p>
         </div>
       </div>
@@ -202,24 +202,26 @@ const Blog = () => {
           <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-gradient-to-r from-orange-500 via-amber-500 to-yellow-500 blur-3xl opacity-15" />
           <div className="relative bg-gray-900 rounded-2xl p-8 sm:p-12 text-center overflow-hidden">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-              Need the Right Pipe Material?
+              Ready to Order? Get Factory-Direct Pricing
             </h2>
-            <p className="text-gray-400 mb-8 max-w-xl mx-auto">
-              Our technical team can help you select the right material, grade,
-              and specification for your project.
+            <p className="text-gray-400 mb-3 max-w-xl mx-auto">
+              ISO 9001 certified. Mill test certificates included. Export to 60+ countries with competitive bulk pricing.
+            </p>
+            <p className="text-amber-400 font-medium mb-8">
+              ✓ Same-day quotes &nbsp;&nbsp; ✓ Custom sizes available &nbsp;&nbsp; ✓ Fast global shipping
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
                 className="px-8 py-3 bg-amber-500 text-white font-semibold rounded-full hover:bg-amber-600 transition-colors"
               >
-                Get Free Consultation
+                Request a Quote
               </Link>
               <Link
                 to="/product"
                 className="px-8 py-3 bg-white/10 text-white font-semibold rounded-full hover:bg-white/20 transition-colors border border-white/20"
               >
-                Browse Products
+                View Full Catalog
               </Link>
             </div>
           </div>

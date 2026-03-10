@@ -22,10 +22,12 @@ export function PageHero({
       {/* ✅ IMAGE: NO MOTION, PAINTS IMMEDIATELY */}
       <img
         src={image}
-        alt={title}
+        alt={`${title} - Starlight Tubes`}
         loading="eager"
         fetchPriority="high"
         decoding="async"
+        width={1200}
+        height={600}
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
 
@@ -52,7 +54,7 @@ export function PageHero({
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
+            transition={{ delay: 0 }}
             className="font-bold text-3xl md:text-5xl lg:text-6xl text-center bg-clip-text text-transparent bg-linear-to-b from-neutral-50 to-neutral-400 py-4 max-w-4xl"
           >
             {title}

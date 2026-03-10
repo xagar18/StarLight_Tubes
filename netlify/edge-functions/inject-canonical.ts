@@ -405,9 +405,9 @@ const PAGE_META: Record<string, { title: string; description: string }> = {
       "Threaded, socket weld & butt weld pipe union manufacturer. ASME B16.11 certified. SS & carbon steel. Export worldwide.",
   },
   "/blog": {
-    title: "Blog | Starlight Tubes — Steel Pipe Industry Insights",
+    title: "Blog | Starlight Tubes — Steel Pipe Buyer's Guide",
     description:
-      "Expert articles on stainless steel, carbon steel, nickel alloy pipes — material comparisons, specifications, manufacturing processes, and technical guides.",
+      "Compare steel pipe grades, specifications & prices. Expert buying guide for SS 304 vs 316, API 5L, Inconel & more. Factory-direct from India.",
   },
   "/blog/difference-between-ss-304-and-ss-316-pipe": {
     title: "Difference Between SS 304 and SS 316 Pipe | Starlight Tubes Blog",
@@ -778,7 +778,7 @@ export default async function handler(request: Request, context: Context) {
         priceCurrency: "USD",
         lowPrice: "10",
         highPrice: "5000",
-        offerCount: "500",
+        offerCount: "50",
         availability: "https://schema.org/InStock",
         seller: {
           "@type": "Organization",
@@ -786,60 +786,6 @@ export default async function handler(request: Request, context: Context) {
           url: BASE_URL,
         },
       },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.9",
-        reviewCount: "250",
-        bestRating: "5",
-        worstRating: "1",
-      },
-      review: [
-        {
-          "@type": "Review",
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: "5",
-            bestRating: "5",
-          },
-          author: {
-            "@type": "Organization",
-            name: "Industrial Piping Solutions LLC",
-          },
-          reviewBody:
-            "Excellent quality steel pipes with timely delivery. Starlight Tubes provided exactly what we needed for our oil & gas project. Highly recommended manufacturer.",
-          datePublished: "2025-08-15",
-        },
-        {
-          "@type": "Review",
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: "5",
-            bestRating: "5",
-          },
-          author: {
-            "@type": "Organization",
-            name: "Gulf Engineering & Construction",
-          },
-          reviewBody:
-            "Premium quality stainless steel pipes with proper mill test certificates. Great export service to Middle East. Competitive pricing for bulk orders.",
-          datePublished: "2025-06-20",
-        },
-        {
-          "@type": "Review",
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: "5",
-            bestRating: "5",
-          },
-          author: {
-            "@type": "Organization",
-            name: "European Steel Traders GmbH",
-          },
-          reviewBody:
-            "Reliable supplier for carbon steel and nickel alloy pipes. Consistent quality and professional documentation for European market compliance.",
-          datePublished: "2025-04-10",
-        },
-      ],
     });
     html = html.replace(
       "</head>",

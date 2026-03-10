@@ -237,65 +237,99 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
           />
         </div>
 
-        {/* Section Header */}
-        <div className="w-full flex flex-col items-center justify-center mt-16 mb-8 px-4">
-          <div
-            className={`inline-block px-4 py-2 mb-6 rounded-full ${sectionBadge.bg} ${sectionBadge.border} ${sectionBadge.darkBg || ""} ${sectionBadge.darkBorder || ""}`}
+        {/* Visible Breadcrumb Navigation */}
+        {seo.breadcrumbs && seo.breadcrumbs.length > 0 && (
+          <nav
+            aria-label="Breadcrumb"
+            className="w-full max-w-6xl mx-auto px-4 mt-6"
           >
-            <span className={`${sectionBadge.text} text-sm font-semibold`}>
-              Product Overview
-            </span>
-          </div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-            {sectionHeader.heading}
-          </h2>
-          <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            {sectionHeader.description}
-          </p>
-        </div>
+            <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
+              {seo.breadcrumbs.map((crumb, index) => (
+                <li key={crumb.url} className="flex items-center gap-1">
+                  {index > 0 && <span className="mx-1">/</span>}
+                  {index === seo.breadcrumbs.length - 1 ? (
+                    <span className="text-gray-900 dark:text-white font-medium">
+                      {crumb.name}
+                    </span>
+                  ) : (
+                    <Link
+                      to={new URL(crumb.url).pathname}
+                      className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
+                    >
+                      {crumb.name}
+                    </Link>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )}
 
-        {/* Common CTA Section */}
-        <div className="w-full h-fit flex justify-center mb-16 px-4">
-          <CommonCTA
-            title={ctaData.title}
-            paragraph1={ctaData.paragraph1}
-            paragraph2={ctaData.paragraph2}
-            specifications={ctaData.specifications}
-          />
-        </div>
+        <main>
+          <article>
+            {/* Section Header */}
+            <section className="w-full flex flex-col items-center justify-center mt-16 mb-8 px-4">
+              <div
+                className={`inline-block px-4 py-2 mb-6 rounded-full ${sectionBadge.bg} ${sectionBadge.border} ${sectionBadge.darkBg || ""} ${sectionBadge.darkBorder || ""}`}
+              >
+                <span className={`${sectionBadge.text} text-sm font-semibold`}>
+                  Product Overview
+                </span>
+              </div>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+                {sectionHeader.heading}
+              </h2>
+              <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
+                {sectionHeader.description}
+              </p>
+            </section>
 
-        {/* Exporter Section */}
-        <div>
-          <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
-            <div
-              className={`inline-block px-4 py-2 mb-6 rounded-full ${solutionsBadge.bg} ${solutionsBadge.border} ${solutionsBadge.darkBg || ""} ${solutionsBadge.darkBorder || ""}`}
-            >
-              <span className={`${solutionsBadge.text} text-sm font-semibold`}>
-                Our Solutions
-              </span>
-            </div>
+            {/* Common CTA Section */}
+            <section className="w-full h-fit flex justify-center mb-16 px-4">
+              <CommonCTA
+                title={ctaData.title}
+                paragraph1={ctaData.paragraph1}
+                paragraph2={ctaData.paragraph2}
+                specifications={ctaData.specifications}
+              />
+            </section>
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
-              {solutionsSection.heading}
-            </h2>
+            {/* Exporter Section */}
+            <section>
+              <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
+                <div
+                  className={`inline-block px-4 py-2 mb-6 rounded-full ${solutionsBadge.bg} ${solutionsBadge.border} ${solutionsBadge.darkBg || ""} ${solutionsBadge.darkBorder || ""}`}
+                >
+                  <span
+                    className={`${solutionsBadge.text} text-sm font-semibold`}
+                  >
+                    Our Solutions
+                  </span>
+                </div>
 
-            <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-              {solutionsSection.description}
-            </p>
-          </div>
-          <CardHoverEffectDemo projects={projects} />
-        </div>
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+                  {solutionsSection.heading}
+                </h2>
 
-        {/* Bottom CTA Section */}
-        <BottomCTA
-          title={bottomCtaData.title}
-          description={bottomCtaData.description}
-          features={bottomCtaData.features}
-        />
+                <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
+                  {solutionsSection.description}
+                </p>
+              </div>
+              <CardHoverEffectDemo projects={projects} />
+            </section>
+
+            {/* Bottom CTA Section */}
+            <BottomCTA
+              title={bottomCtaData.title}
+              description={bottomCtaData.description}
+              features={bottomCtaData.features}
+            />
+          </article>
+        </main>
 
         {/* Related Products Section */}
         {relatedProducts.length > 0 && (
-          <div className="w-full max-w-6xl mx-auto mt-20 mb-12 px-4">
+          <aside className="w-full max-w-6xl mx-auto mt-20 mb-12 px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-900 dark:text-white">
               Related Products
             </h2>
@@ -325,7 +359,7 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
                 </Link>
               ))}
             </div>
-          </div>
+          </aside>
         )}
 
         {/* Stats Grid Section */}

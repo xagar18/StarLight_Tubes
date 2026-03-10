@@ -357,24 +357,28 @@ const BlogPost = () => {
               <section className="relative rounded-2xl overflow-hidden">
                 <div className="relative bg-gray-900 rounded-2xl p-8 sm:p-10 text-center">
                   <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
-                    Need Expert Advice?
+                    Get Factory-Direct Prices Today
                   </h2>
-                  <p className="text-gray-400 mb-6 max-w-lg mx-auto">
-                    Our technical team can help you choose the right pipe
-                    material, grade, and specification for your project.
+                  <p className="text-gray-400 mb-2 max-w-lg mx-auto">
+                    We manufacture and export these exact products — ISO 9001
+                    certified, with mill test certificates and competitive
+                    bulk pricing.
+                  </p>
+                  <p className="text-amber-400 text-sm font-medium mb-6">
+                    ✓ Same-day quote &nbsp;&nbsp; ✓ Custom sizes &nbsp;&nbsp; ✓ 60+ countries served
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <Link
                       to="/contact"
                       className="px-8 py-3 bg-amber-500 text-white font-semibold rounded-full hover:bg-amber-600 transition-colors"
                     >
-                      Contact Us
+                      Request a Quote
                     </Link>
                     <Link
                       to="/product"
                       className="px-8 py-3 bg-white/10 text-white font-semibold rounded-full hover:bg-white/20 transition-colors border border-white/20"
                     >
-                      View Products
+                      View Full Catalog
                     </Link>
                   </div>
                 </div>

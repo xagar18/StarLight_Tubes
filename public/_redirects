@@ -44,5 +44,8 @@
 /technicalinfo           /technical-info          301
 /technical-information   /technical-info          301
 
+# Trailing slash normalization
+/*/    /:splat    301
+
 # SPA fallback (must be last)
 /*    /index.html   200

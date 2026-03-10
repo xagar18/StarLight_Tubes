@@ -347,7 +347,7 @@ export const useSEO = ({
           priceCurrency: productSchema.offers?.priceCurrency || "USD",
           lowPrice: productSchema.offers?.lowPrice || "10",
           highPrice: productSchema.offers?.highPrice || "5000",
-          offerCount: "500",
+          offerCount: "50",
           availability:
             productSchema.offers?.availability || "https://schema.org/InStock",
           seller: {
@@ -356,60 +356,6 @@ export const useSEO = ({
             url: "https://www.starlighttubes.com",
           },
         },
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "4.9",
-          reviewCount: "250",
-          bestRating: "5",
-          worstRating: "1",
-        },
-        review: [
-          {
-            "@type": "Review",
-            reviewRating: {
-              "@type": "Rating",
-              ratingValue: "5",
-              bestRating: "5",
-            },
-            author: {
-              "@type": "Organization",
-              name: "Industrial Piping Solutions LLC",
-            },
-            reviewBody:
-              "Excellent quality steel pipes with timely delivery. Starlight Tubes provided exactly what we needed for our oil & gas project. Highly recommended manufacturer.",
-            datePublished: "2025-08-15",
-          },
-          {
-            "@type": "Review",
-            reviewRating: {
-              "@type": "Rating",
-              ratingValue: "5",
-              bestRating: "5",
-            },
-            author: {
-              "@type": "Organization",
-              name: "Gulf Engineering & Construction",
-            },
-            reviewBody:
-              "Premium quality stainless steel pipes with proper mill test certificates. Great export service to Middle East. Competitive pricing for bulk orders.",
-            datePublished: "2025-06-20",
-          },
-          {
-            "@type": "Review",
-            reviewRating: {
-              "@type": "Rating",
-              ratingValue: "5",
-              bestRating: "5",
-            },
-            author: {
-              "@type": "Organization",
-              name: "European Steel Traders GmbH",
-            },
-            reviewBody:
-              "Reliable supplier for carbon steel and nickel alloy pipes. Consistent quality and professional documentation for European market compliance.",
-            datePublished: "2025-04-10",
-          },
-        ],
       };
       addJsonLd("product-schema", productJsonLd);
     }
@@ -753,114 +699,6 @@ export const useSEO = ({
       addJsonLd("tech-article-schema", techArticleJsonLd);
     }
 
-    // GEO: Enhanced Knowledge Graph with industry authority signals
-    const knowledgeGraphSchema = {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": "https://www.starlighttubes.com/#organization",
-      name: "Starlight Tubes",
-      alternateName: [
-        "Starlight Tubes India",
-        "Starlight Steel Pipes",
-        "Starlight Tubes Manufacturer",
-        "Starlight Tubes & Pipes",
-      ],
-      description:
-        "Leading steel pipe manufacturer and exporter in India specializing in stainless steel, carbon steel, nickel alloy pipes and industrial fittings. ISO 9001 certified. Exporting to 60+ countries.",
-      url: "https://www.starlighttubes.com",
-      logo: "https://www.starlighttubes.com/StarlightLogo.png",
-      foundingDate: "2020",
-      foundingLocation: {
-        "@type": "Place",
-        name: "Mumbai, Maharashtra, India",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Mumbai",
-          addressRegion: "Maharashtra",
-          addressCountry: "IN",
-        },
-      },
-      areaServed: [
-        { "@type": "Country", name: "United States" },
-        { "@type": "Country", name: "United Kingdom" },
-        { "@type": "Country", name: "Germany" },
-        { "@type": "Country", name: "United Arab Emirates" },
-        { "@type": "Country", name: "Saudi Arabia" },
-        { "@type": "Country", name: "India" },
-        { "@type": "Country", name: "Singapore" },
-        { "@type": "Country", name: "Australia" },
-        { "@type": "Country", name: "Canada" },
-        { "@type": "Country", name: "France" },
-      ],
-      contactPoint: {
-        "@type": "ContactPoint",
-        telephone: "+91-8591470791",
-        contactType: "sales",
-        email: "sales@starlighttubes.com",
-        areaServed: "Worldwide",
-        availableLanguage: ["English", "Hindi", "Arabic"],
-      },
-      knowsAbout: [
-        "Steel Pipe Manufacturing",
-        "Seamless Pipe Manufacturing",
-        "Welded Pipe Manufacturing",
-        "ERW Pipe Manufacturing",
-        "Stainless Steel Pipes & Tubes",
-        "Carbon Steel Pipes & Tubes",
-        "Nickel Alloy Pipes & Tubes",
-        "Inconel Superalloy Pipes",
-        "Copper Pipes & Tubes",
-        "Aluminium Pipes & Sheets",
-        "Pipe Fittings Manufacturing",
-        "Flanges Manufacturing",
-        "Industrial Piping Solutions",
-        "Oil & Gas Piping Systems",
-        "Petrochemical Piping",
-        "Marine Grade Steel Products",
-        "ASTM Standards Compliance",
-        "API Certification",
-        "Heat Exchanger Tubes",
-        "Boiler Tubes",
-        "Condenser Tubes",
-        "FBE Coated Pipes",
-        "Epoxy Coated Pipes",
-        "3LPE Coated Pipes",
-        "Duplex Stainless Steel",
-        "Super Duplex Stainless Steel",
-      ],
-      hasCredential: [
-        {
-          "@type": "EducationalOccupationalCredential",
-          credentialCategory: "ISO 9001:2015",
-          name: "Quality Management System Certification",
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          credentialCategory: "PED 2014/68/EU",
-          name: "Pressure Equipment Directive Certification",
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          credentialCategory: "OHSAS 18001",
-          name: "Occupational Health & Safety Certification",
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          credentialCategory: "ISO 14001",
-          name: "Environmental Management System",
-        },
-      ],
-      slogan: "Your Trusted Steel Pipe Manufacturer & Global Exporter",
-      numberOfEmployees: {
-        "@type": "QuantitativeValue",
-        minValue: 50,
-        maxValue: 200,
-      },
-      naics: "332996",
-      isicV4: "2410",
-    };
-    addJsonLd("knowledge-graph-schema", knowledgeGraphSchema);
-
     // Cleanup function
     return () => {
       removeJsonLd("breadcrumb-schema");
@@ -876,7 +714,6 @@ export const useSEO = ({
       removeJsonLd("snippet-schema");
       removeJsonLd("defined-terms-schema");
       removeJsonLd("tech-article-schema");
-      removeJsonLd("knowledge-graph-schema");
     };
   }, [
     title,

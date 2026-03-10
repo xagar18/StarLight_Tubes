@@ -758,6 +758,7 @@ export default async function handler(request: Request, context: Context) {
     const productSchema = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Product",
+      "@id": `${canonicalUrl}#product`,
       name: productName,
       description: pageMeta.description,
       brand: {

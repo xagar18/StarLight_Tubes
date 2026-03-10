@@ -326,6 +326,7 @@ export const useSEO = ({
       const productJsonLd = {
         "@context": "https://schema.org",
         "@type": "Product",
+        "@id": `${fullUrl}#product`,
         name: productSchema.name,
         description: productSchema.description,
         brand: {
@@ -497,8 +498,9 @@ export const useSEO = ({
         url: image,
       },
       // GEO: Content classification for AI
+      // Use "Thing" when entityType is "Product" to avoid bare Product schema (full Product schema is injected separately)
       about: {
-        "@type": entityType || "Thing",
+        "@type": entityType === "Product" ? "Thing" : entityType || "Thing",
         name: title,
         ...(relatedEntities &&
           relatedEntities.length > 0 && {
@@ -514,12 +516,16 @@ export const useSEO = ({
           })),
         }),
       // GEO: Entity type for AI classification
+      // Reference full Product schema by @id when entityType is "Product" to avoid duplicate bare Product
       ...(entityType && {
-        mainEntity: {
-          "@type": entityType,
-          name: title,
-          url: fullUrl,
-        },
+        mainEntity:
+          entityType === "Product" && productSchema
+            ? { "@id": `${fullUrl}#product` }
+            : {
+                "@type": entityType,
+                name: title,
+                url: fullUrl,
+              },
       }),
       // AEO: Speakable specification inline (Google-recognized)
       ...(speakableContent && {

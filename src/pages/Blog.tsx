@@ -44,13 +44,14 @@ const Blog = () => {
             Starlight Tubes Blog
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
-            Buyer's Guide to<br />
+            Buyer's Guide to
+            <br />
             Industrial Steel Pipes
           </h1>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Compare grades, understand specifications, and find the right product
-            for your project — backed by factory-direct pricing from India's
-            trusted pipe manufacturer.
+            Compare grades, understand specifications, and find the right
+            product for your project — backed by factory-direct pricing from
+            India's trusted pipe manufacturer.
           </p>
         </div>
       </div>
@@ -205,10 +206,12 @@ const Blog = () => {
               Ready to Order? Get Factory-Direct Pricing
             </h2>
             <p className="text-gray-400 mb-3 max-w-xl mx-auto">
-              ISO 9001 certified. Mill test certificates included. Export to 60+ countries with competitive bulk pricing.
+              ISO 9001 certified. Mill test certificates included. Export to 60+
+              countries with competitive bulk pricing.
             </p>
             <p className="text-amber-400 font-medium mb-8">
-              ✓ Same-day quotes &nbsp;&nbsp; ✓ Custom sizes available &nbsp;&nbsp; ✓ Fast global shipping
+              ✓ Same-day quotes &nbsp;&nbsp; ✓ Custom sizes available
+              &nbsp;&nbsp; ✓ Fast global shipping
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

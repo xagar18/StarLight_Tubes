@@ -361,11 +361,12 @@ const BlogPost = () => {
                   </h2>
                   <p className="text-gray-400 mb-2 max-w-lg mx-auto">
                     We manufacture and export these exact products — ISO 9001
-                    certified, with mill test certificates and competitive
-                    bulk pricing.
+                    certified, with mill test certificates and competitive bulk
+                    pricing.
                   </p>
                   <p className="text-amber-400 text-sm font-medium mb-6">
-                    ✓ Same-day quote &nbsp;&nbsp; ✓ Custom sizes &nbsp;&nbsp; ✓ 60+ countries served
+                    ✓ Same-day quote &nbsp;&nbsp; ✓ Custom sizes &nbsp;&nbsp; ✓
+                    60+ countries served
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <Link

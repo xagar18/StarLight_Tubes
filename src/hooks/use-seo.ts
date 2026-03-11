@@ -146,7 +146,7 @@ interface SEOProps {
 
 export const useSEO = ({
   title = "Starlight Tubes | Steel Pipe Manufacturer & Exporter",
-  description = "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to 60+ countries.",
+  description = "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to USA, UAE, Germany, Italy, Saudi Arabia, UK, Qatar & 60+ countries.",
   keywords = "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, inconel pipe manufacturer, pipe manufacturer India, tube manufacturer India, pipe fittings manufacturer, flanges manufacturer",
   image = "https://www.starlighttubes.com/StarlightLogo.png",
   url = "https://www.starlighttubes.com",
@@ -300,6 +300,39 @@ export const useSEO = ({
     // Add hreflang tags for language targeting (use normalized URL)
     addAlternateLink("en", fullUrl);
     addAlternateLink("x-default", fullUrl);
+
+    // Country-specific hreflang for top export markets (same content, geo-targeted)
+    addAlternateLink("en-US", fullUrl);
+    addAlternateLink("en-GB", fullUrl);
+    addAlternateLink("en-AE", fullUrl);
+    addAlternateLink("en-QA", fullUrl);
+    addAlternateLink("en-SA", fullUrl);
+    addAlternateLink("en-SG", fullUrl);
+    addAlternateLink("en-AU", fullUrl);
+    addAlternateLink("en-CA", fullUrl);
+    addAlternateLink("en-IN", fullUrl);
+    addAlternateLink("en-MY", fullUrl);
+    addAlternateLink("en-KW", fullUrl);
+    addAlternateLink("en-OM", fullUrl);
+    addAlternateLink("en-BH", fullUrl);
+    addAlternateLink("en-NG", fullUrl);
+    addAlternateLink("de-DE", fullUrl);
+    addAlternateLink("it-IT", fullUrl);
+    addAlternateLink("fr-FR", fullUrl);
+    addAlternateLink("es-ES", fullUrl);
+    addAlternateLink("nl-NL", fullUrl);
+    addAlternateLink("ja-JP", fullUrl);
+    addAlternateLink("ko-KR", fullUrl);
+    addAlternateLink("th-TH", fullUrl);
+    addAlternateLink("vi-VN", fullUrl);
+    addAlternateLink("tr-TR", fullUrl);
+    addAlternateLink("id-ID", fullUrl);
+    addAlternateLink("da-DK", fullUrl);
+    addAlternateLink("nb-NO", fullUrl);
+    addAlternateLink("pl-PL", fullUrl);
+    addAlternateLink("pt-BR", fullUrl);
+    addAlternateLink("es-MX", fullUrl);
+    addAlternateLink("bn-BD", fullUrl);
 
     // Breadcrumb Schema
     if (breadcrumbs && breadcrumbs.length > 0) {
@@ -554,9 +587,32 @@ export const useSEO = ({
         })) || [
           { "@type": "Country", name: "United States" },
           { "@type": "Country", name: "United Arab Emirates" },
-          { "@type": "Country", name: "United Kingdom" },
+          { "@type": "Country", name: "Qatar" },
           { "@type": "Country", name: "Germany" },
+          { "@type": "Country", name: "Italy" },
+          { "@type": "Country", name: "Saudi Arabia" },
+          { "@type": "Country", name: "United Kingdom" },
+          { "@type": "Country", name: "Thailand" },
+          { "@type": "Country", name: "Vietnam" },
+          { "@type": "Country", name: "Spain" },
+          { "@type": "Country", name: "France" },
+          { "@type": "Country", name: "Canada" },
+          { "@type": "Country", name: "Netherlands" },
+          { "@type": "Country", name: "South Korea" },
+          { "@type": "Country", name: "Australia" },
+          { "@type": "Country", name: "Singapore" },
           { "@type": "Country", name: "India" },
+          { "@type": "Country", name: "Kuwait" },
+          { "@type": "Country", name: "Oman" },
+          { "@type": "Country", name: "Bahrain" },
+          { "@type": "Country", name: "Malaysia" },
+          { "@type": "Country", name: "Mexico" },
+          { "@type": "Country", name: "Belgium" },
+          { "@type": "Country", name: "Turkey" },
+          { "@type": "Country", name: "Indonesia" },
+          { "@type": "Country", name: "Japan" },
+          { "@type": "Country", name: "Denmark" },
+          { "@type": "Country", name: "Norway" },
         ],
         hasOfferCatalog: {
           "@type": "OfferCatalog",

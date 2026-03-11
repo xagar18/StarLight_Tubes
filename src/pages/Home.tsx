@@ -102,9 +102,9 @@ const Home = () => {
   useSEO({
     title: "Starlight Tubes | Steel Pipe Manufacturer & Exporter",
     description:
-      "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to 60+ countries.",
+      "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to USA, UAE, Germany, Italy, Saudi Arabia, UK, Qatar & 60+ countries.",
     keywords:
-      "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, steel tube exporter, pipe manufacturer India, tube manufacturer India, steel pipe factory, steel pipe supplier, steel pipe distributor, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, inconel pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, steel pipe manufacturer Mumbai, steel pipe exporter India, best steel pipe manufacturer, top steel pipe exporter, leading pipe manufacturer, premium steel tubes, quality steel pipes, steel pipe manufacturing company, steel tube manufacturing factory, pipe manufacturer exporter, steel pipes wholesale, bulk steel pipes supplier, international steel pipe exporter, global steel pipe manufacturer, Starlight Tubes, stainless steel 304 manufacturer, stainless steel 316 manufacturer, carbon steel ASTM A106 manufacturer, API 5L pipe manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer",
+      "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, steel tube exporter, pipe manufacturer India, tube manufacturer India, steel pipe factory, steel pipe supplier, steel pipe distributor, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, inconel pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, steel pipe manufacturer Mumbai, steel pipe exporter India, best steel pipe manufacturer, top steel pipe exporter, leading pipe manufacturer, premium steel tubes, quality steel pipes, steel pipe manufacturing company, steel tube manufacturing factory, pipe manufacturer exporter, steel pipes wholesale, bulk steel pipes supplier, international steel pipe exporter, global steel pipe manufacturer, Starlight Tubes, stainless steel 304 manufacturer, stainless steel 316 manufacturer, carbon steel ASTM A106 manufacturer, API 5L pipe manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer, steel pipe supplier USA, stainless steel pipe exporter to USA, pipe fittings supplier United States, steel pipe exporter UAE, stainless steel pipe supplier Dubai, pipe fittings exporter Abu Dhabi, steel pipe supplier Qatar, steel pipe exporter Germany, stainless steel pipe supplier Italy, pipe fittings exporter Saudi Arabia, steel pipe supplier UK, steel pipe exporter Thailand, stainless steel pipe supplier Vietnam, steel pipe exporter Spain, pipe manufacturer France, steel pipe supplier Canada, stainless steel pipe exporter Netherlands, pipe fittings supplier South Korea, steel pipe exporter Australia, pipe supplier Singapore, steel pipe exporter Kuwait, steel pipe supplier Oman, pipe fittings exporter Bahrain, steel pipe exporter Malaysia, stainless steel pipe supplier Mexico, pipe exporter Belgium, steel pipe supplier Turkey, steel pipe exporter Indonesia, pipe fittings supplier Bangladesh, steel pipe exporter Nigeria, stainless steel pipe supplier Japan, pipe exporter Denmark, steel pipe supplier Norway, steel pipe exporter Poland",
     url: "https://www.starlighttubes.com",
     breadcrumbs: [{ name: "Home", url: "https://www.starlighttubes.com/" }],
     // AEO: FAQ Schema for Answer Engines
@@ -134,6 +134,22 @@ const Home = () => {
         answer:
           "We supply steel pipes to Oil & Gas, Petrochemical, Chemical Processing, Power Generation, Pharmaceutical, Food Processing, Marine, Construction, and various industrial sectors worldwide.",
       },
+      {
+        question: "Which countries does Starlight Tubes export steel pipes to?",
+        answer:
+          "Starlight Tubes exports steel pipes, fittings and flanges to 60+ countries including USA, UAE, Qatar, Germany, Italy, Saudi Arabia, UK, Thailand, Vietnam, Spain, France, Canada, Netherlands, South Korea, Australia, Singapore, Kuwait, Oman, Bahrain, Malaysia, Mexico, Belgium, Poland, Turkey, Indonesia, Bangladesh, Nigeria, Japan, Denmark, and Norway. We are a leading Indian steel pipe exporter with established trade channels worldwide.",
+      },
+      {
+        question:
+          "Can Starlight Tubes supply steel pipes to the USA and Europe?",
+        answer:
+          "Yes, the United States is our largest export market. We regularly supply stainless steel pipes, carbon steel pipes, flanges and fittings to the USA, Germany, Italy, France, UK, Spain, Netherlands, Belgium, Denmark, Norway, and Poland. All products meet ASTM, ASME, and API international standards required by US and European buyers.",
+      },
+      {
+        question: "Do you export pipe fittings and flanges to the Middle East?",
+        answer:
+          "Yes, we are a major supplier of pipe fittings and flanges to UAE (Dubai, Abu Dhabi), Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain. Our products support oil & gas, petrochemical, and infrastructure projects across the GCC region.",
+      },
     ],
     // AEO: Speakable content for voice search (Google Assistant, Alexa, Siri)
     speakableContent: {
@@ -160,19 +176,40 @@ const Home = () => {
     serviceSchema: {
       name: "Steel Pipe Manufacturing & Export Services",
       description:
-        "Complete steel pipe manufacturing and global export services including stainless steel, carbon steel, nickel alloy pipes, fittings, and flanges with ISO certification and worldwide delivery.",
+        "Complete steel pipe manufacturing and global export services including stainless steel, carbon steel, nickel alloy pipes, fittings, and flanges with ISO certification and worldwide delivery to USA, UAE, Qatar, Germany, Italy, Saudi Arabia, UK, and 50+ countries.",
       serviceType: "Manufacturing & Export",
       areaServed: [
         "United States",
         "United Arab Emirates",
+        "Qatar",
+        "Germany",
+        "Italy",
         "Saudi Arabia",
         "United Kingdom",
-        "Germany",
+        "Thailand",
+        "Vietnam",
+        "Spain",
         "France",
-        "India",
-        "Singapore",
-        "Malaysia",
+        "Canada",
+        "Netherlands",
+        "South Korea",
         "Australia",
+        "Singapore",
+        "Kuwait",
+        "Oman",
+        "Bahrain",
+        "Malaysia",
+        "Mexico",
+        "Belgium",
+        "Poland",
+        "Turkey",
+        "Indonesia",
+        "Bangladesh",
+        "Nigeria",
+        "Japan",
+        "Denmark",
+        "Norway",
+        "India",
       ],
     },
     // AEO: Featured Snippet Optimization
@@ -200,10 +237,17 @@ const Home = () => {
       "Stainless Steel",
       "Carbon Steel",
       "Nickel Alloys",
+      "Steel Pipe Exporter",
+      "International Pipe Supply",
+      "Global Steel Export",
+      "Oil Gas Piping",
+      "Petrochemical Piping",
+      "Marine Piping",
+      "Power Plant Piping",
     ],
     pageSchemaType: "WebPage",
     nlqAnswer:
-      "Starlight Tubes is India's leading steel pipe manufacturer and exporter based in Mumbai. We manufacture stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper, aluminium products, pipe fittings, and flanges. ISO 9001 certified, exporting to 60+ countries.",
+      "Starlight Tubes is India's leading steel pipe manufacturer and exporter based in Mumbai. We manufacture stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper, aluminium products, pipe fittings, and flanges. ISO 9001 certified, exporting to 60+ countries including USA, UAE, Qatar, Germany, Italy, Saudi Arabia, UK, Thailand, Vietnam, Spain, France, Canada, Netherlands, South Korea, Australia, Singapore, Kuwait, Oman, Malaysia, Mexico, Belgium, Turkey, Indonesia, Japan, Denmark, and Norway.",
     datePublished: "2025-01-01",
     dateModified: "2025-06-01",
   });
@@ -232,8 +276,8 @@ const Home = () => {
             <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-400 max-w-3xl">
               Premium quality metal products including steel pipes, tubes,
               fittings, flanges, elbows, tees, reducers, and industrial
-              materials for global markets including USA, Europe, Middle East &
-              Asia
+              materials exported to USA, UAE, Germany, Saudi Arabia, UK, Italy,
+              Qatar, and 50+ countries worldwide
             </p>
           </div>
 
@@ -295,9 +339,10 @@ const Home = () => {
             Starlight Tubes - Premier manufacturers of ERW and Seamless steel
             pipes, tubes, fittings, flanges, and industrial metal products with
             over a decade of excellence in manufacturing. Serving 100+
-            organizations across 60+ countries including USA, UK, Germany, UAE,
-            Saudi Arabia, Singapore, and Australia with premium quality steel
-            products and reliable delivery.
+            organizations across 60+ countries including USA, UAE, Qatar,
+            Germany, Italy, Saudi Arabia, UK, France, Canada, Australia,
+            Singapore, Japan, South Korea, and the GCC region with premium
+            quality steel products and reliable delivery.
           </p>
         </div>
 

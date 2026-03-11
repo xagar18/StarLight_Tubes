@@ -7,26 +7,81 @@
     <loc>https://www.starlighttubes.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/" />
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="en-QA" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="th-TH" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="id-ID" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="da-DK" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://www.starlighttubes.com/" />
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://www.starlighttubes.com/" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Main Pages -->
   <url>
     <loc>https://www.starlighttubes.com/about</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/about" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/about" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.starlighttubes.com/about" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/about" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.starlighttubes.com/about" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://www.starlighttubes.com/about" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.starlighttubes.com/about" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://www.starlighttubes.com/about" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.starlighttubes.com/contact</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.starlighttubes.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/contact" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.starlighttubes.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://www.starlighttubes.com/contact" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.starlighttubes.com/product</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://www.starlighttubes.com/product" />
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://www.starlighttubes.com/product" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
@@ -57,7 +112,14 @@
   <!-- Material Category Pages -->
   <url>
     <loc>https://www.starlighttubes.com/stainless-steel</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/stainless-steel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/stainless-steel" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/stainless-steel" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/stainless-steel" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.starlighttubes.com/stainless-steel" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://www.starlighttubes.com/stainless-steel" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
@@ -75,32 +137,61 @@
 
   <url>
     <loc>https://www.starlighttubes.com/fittings</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/fittings" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/fittings" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/fittings" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/fittings" />
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.starlighttubes.com/fittings" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.starlighttubes.com/fittings" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.starlighttubes.com/carbon-steel</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/carbon-steel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/carbon-steel" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/carbon-steel" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/carbon-steel" />
+    <xhtml:link rel="alternate" hreflang="en-QA" href="https://www.starlighttubes.com/carbon-steel" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.starlighttubes.com/nickel-alloys</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/nickel-alloys" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/nickel-alloys" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/nickel-alloys" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/nickel-alloys" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.starlighttubes.com/inconel</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/inconel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/inconel" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/inconel" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Stainless Steel Products -->
   <url>
     <loc>https://www.starlighttubes.com/stainless-steel-pipe</loc>
-    <lastmod>2026-03-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/stainless-steel-pipe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/stainless-steel-pipe" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/stainless-steel-pipe" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/stainless-steel-pipe" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.starlighttubes.com/stainless-steel-pipe" />
+    <xhtml:link rel="alternate" hreflang="it-IT" href="https://www.starlighttubes.com/stainless-steel-pipe" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
@@ -424,8 +515,15 @@
 
   <url>
     <loc>https://www.starlighttubes.com/flanges</loc>
-    <lastmod>2026-03-11</lastmod>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.starlighttubes.com/flanges" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.starlighttubes.com/flanges" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.starlighttubes.com/flanges" />
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://www.starlighttubes.com/flanges" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.starlighttubes.com/flanges" />
+    <xhtml:link rel="alternate" hreflang="vi-VN" href="https://www.starlighttubes.com/flanges" />
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>

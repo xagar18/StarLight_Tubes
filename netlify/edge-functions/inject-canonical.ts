@@ -30,7 +30,7 @@ const PAGE_META: Record<string, { title: string; description: string }> = {
   "/": {
     title: "Starlight Tubes | Steel Pipe Manufacturer & Exporter",
     description:
-      "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to 60+ countries.",
+      "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to USA, UAE, Germany, Italy, Saudi Arabia, UK, Qatar & 60+ countries.",
   },
   "/product": {
     title: "Steel Pipes & Tubes Products | Starlight Tubes",
@@ -464,7 +464,7 @@ const PAGE_META: Record<string, { title: string; description: string }> = {
 
 // GEO: NLQ (Natural Language Query) optimized summaries for AI answer engines
 const PAGE_NLQ: Record<string, string> = {
-  "/": "Starlight Tubes is a steel pipe manufacturer and exporter based in Mumbai, India, founded in 2020. The company manufactures stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper pipes, aluminium products, pipe fittings, and flanges. ISO 9001:2015 certified, exporting to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
+  "/": "Starlight Tubes is a steel pipe manufacturer and exporter based in Mumbai, India, founded in 2020. The company manufactures stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper pipes, aluminium products, pipe fittings, and flanges. ISO 9001:2015 certified, exporting to 60+ countries including USA, UAE, Qatar, Germany, Italy, Saudi Arabia, UK, Thailand, Vietnam, Spain, France, Canada, Netherlands, South Korea, Australia, Singapore, Kuwait, Oman, Malaysia, Mexico, Belgium, Turkey, Indonesia, Japan, Denmark, and Norway.",
   "/product":
     'Starlight Tubes manufactures a comprehensive range of industrial steel products: stainless steel pipes & tubes (304, 316, 316L, duplex, super duplex), carbon steel pipes (ASTM A106, API 5L, ASTM A53), nickel alloy pipes (Inconel 625/600, Monel 400, Hastelloy), copper pipes & tubes, aluminium products, pipe fittings (elbows, tees, reducers), and flanges. Available in sizes from 1/8" to 48" NPS.',
   "/stainless-steel":
@@ -530,15 +530,58 @@ export default async function handler(request: Request, context: Context) {
     `<link rel="canonical" href="${canonicalUrl}" />`,
   );
 
-  // 2. Fix hreflang tags
+  // 2. Fix hreflang tags — inject full set of country-specific hreflang for international SEO
+  // Remove existing hreflang tags to prevent duplicates
   html = html.replace(
-    /<link\s+rel="alternate"\s+hreflang="en"\s+href="[^"]*"\s*\/?>/,
-    `<link rel="alternate" hreflang="en" href="${canonicalUrl}" />`,
+    /<link\s+rel="alternate"\s+hreflang="[^"]*"\s+href="[^"]*"\s*\/?>\s*/g,
+    "",
   );
-  html = html.replace(
-    /<link\s+rel="alternate"\s+hreflang="x-default"\s+href="[^"]*"\s*\/?>/,
-    `<link rel="alternate" hreflang="x-default" href="${canonicalUrl}" />`,
-  );
+
+  // All target country hreflang codes
+  const hreflangCodes = [
+    "en",
+    "x-default",
+    "en-US",
+    "en-GB",
+    "en-AE",
+    "en-QA",
+    "en-SA",
+    "en-SG",
+    "en-AU",
+    "en-CA",
+    "en-IN",
+    "en-MY",
+    "en-KW",
+    "en-OM",
+    "en-BH",
+    "en-NG",
+    "de-DE",
+    "it-IT",
+    "fr-FR",
+    "es-ES",
+    "nl-NL",
+    "ja-JP",
+    "ko-KR",
+    "th-TH",
+    "vi-VN",
+    "tr-TR",
+    "id-ID",
+    "da-DK",
+    "nb-NO",
+    "pl-PL",
+    "pt-BR",
+    "es-MX",
+    "bn-BD",
+  ];
+
+  const hreflangTags = hreflangCodes
+    .map(
+      (code) =>
+        `<link rel="alternate" hreflang="${code}" href="${canonicalUrl}" />`,
+    )
+    .join("\n  ");
+
+  html = html.replace("</head>", `  ${hreflangTags}\n  </head>`);
 
   // 3. Fix og:url
   html = html.replace(

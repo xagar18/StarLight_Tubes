@@ -263,7 +263,7 @@ export const NavbarLogo = () => {
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
       <img
-        src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_200,fl_progressive/StarlightLogo_txn0kc"
+        src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_70,fl_progressive/StarlightLogo_txn0kc"
         alt="Starlight Tubes logo"
         width={35}
         height={35}

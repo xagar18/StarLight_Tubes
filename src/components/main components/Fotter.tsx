@@ -245,8 +245,11 @@ export default function Footer() {
               className="flex flex-col items-center md:items-start mb-6"
             >
               <img
-                src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_128,fl_progressive/StarlightLogo_txn0kc"
+                src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_64,fl_progressive/StarlightLogo_txn0kc"
                 alt=""
+                width={64}
+                height={64}
+                loading="lazy"
                 className="size-16 bg-white rounded-full mb-3"
               />
               <span className="text-white font-bold text-lg">

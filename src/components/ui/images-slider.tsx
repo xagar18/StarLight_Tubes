@@ -23,8 +23,10 @@ export const ImagesSlider = ({
   alts?: string[];
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [hasInteracted, setHasInteracted] = useState(false);
 
   const handleNext = useCallback(() => {
+    setHasInteracted(true);
     setCurrentIndex((prev) => (prev + 1 === images.length ? 0 : prev + 1));
   }, [images.length]);
 
@@ -96,24 +98,37 @@ export const ImagesSlider = ({
         />
       )}
 
-      <AnimatePresence>
-        <motion.img
-          key={currentIndex}
-          src={images[currentIndex]}
-          initial="initial"
-          animate="visible"
-          exit={direction === "up" ? "upExit" : "downExit"}
-          variants={slideVariants}
+      {hasInteracted ? (
+        <AnimatePresence>
+          <motion.img
+            key={currentIndex}
+            src={images[currentIndex]}
+            initial="initial"
+            animate="visible"
+            exit={direction === "up" ? "upExit" : "downExit"}
+            variants={slideVariants}
+            className="image h-full w-full absolute inset-0 object-cover object-center"
+            width={1600}
+            height={900}
+            alt={alts?.[currentIndex] || ""}
+            loading="lazy"
+            decoding="async"
+            draggable={false}
+          />
+        </AnimatePresence>
+      ) : (
+        <img
+          src={images[0]}
           className="image h-full w-full absolute inset-0 object-cover object-center"
           width={1600}
           height={900}
-          alt={alts?.[currentIndex] || ""}
-          loading={currentIndex === 0 ? "eager" : "lazy"}
-          fetchPriority={currentIndex === 0 ? "high" : "auto"}
+          alt={alts?.[0] || ""}
+          loading="eager"
+          fetchPriority="high"
           decoding="async"
           draggable={false}
         />
-      </AnimatePresence>
+      )}
     </div>
   );
 };

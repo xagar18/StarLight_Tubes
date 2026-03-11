@@ -36,12 +36,6 @@ export function ImagesSliderDemo() {
     [imgWidth],
   );
 
-  /* Preload ONLY the first image (LCP) */
-  useEffect(() => {
-    const img = new Image();
-    img.src = images[0];
-  }, [images]);
-
   const alts = [
     "Starlight Tubes steel pipe manufacturing facility",
     "Global export of steel pipes to 60+ countries",

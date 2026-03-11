@@ -246,7 +246,7 @@ export default function Footer() {
             >
               <img
                 src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_200,fl_progressive/StarlightLogo_txn0kc"
-                alt="Starlight Tubes"
+                alt=""
                 className="size-16 bg-white rounded-full mb-3"
               />
               <span className="text-white font-bold text-lg">

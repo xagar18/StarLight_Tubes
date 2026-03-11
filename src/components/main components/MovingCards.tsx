@@ -19,24 +19,24 @@ export function InfiniteMovingCardsDemo() {
 
 const testimonials = [
   {
-    image: "Duplex 2205 Plate.png",
+    image: "Duplex 2205 Plate.webp",
     name: "Duplex 2205 Plate",
     title: "Premium Grade Stainless Steel",
   },
 
   {
-    image: "Duplex Stainless Steel Round Bar.png",
+    image: "Duplex Stainless Steel Round Bar.webp",
     name: "Duplex Round Bar",
     title: "Industrial Grade Quality",
   },
 
   {
-    image: "Nickel 201 Tube.png",
+    image: "Nickel 201 Tube.webp",
     name: "Nickel 201 Tube",
     title: "Low Carbon Content",
   },
   {
-    image: "StainlessSteelTube1.png",
+    image: "StainlessSteelTube1.webp",
     name: "Stainless Steel Tube",
     title: "Corrosion Resistant",
   },

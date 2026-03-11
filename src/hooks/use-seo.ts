@@ -360,12 +360,19 @@ export const useSEO = ({
       addJsonLd("product-schema", productJsonLd);
     }
 
-    // FAQ Schema
-    if (faqSchema && faqSchema.length > 0) {
+    // FAQ Schema — also merges qaSchema items into FAQ format
+    const allFaqItems = [
+      ...(faqSchema || []),
+      ...(qaSchema || []).map((qa) => ({
+        question: qa.question,
+        answer: qa.answer,
+      })),
+    ];
+    if (allFaqItems.length > 0) {
       const faqJsonLd = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        mainEntity: faqSchema.map((item) => ({
+        mainEntity: allFaqItems.map((item) => ({
           "@type": "Question",
           name: item.question,
           acceptedAnswer: {
@@ -518,30 +525,9 @@ export const useSEO = ({
       addJsonLd("howto-schema", howToJsonLd);
     }
 
-    // AEO: Q&A Schema for Answer Engines
-    if (qaSchema && qaSchema.length > 0) {
-      const qaJsonLd = {
-        "@context": "https://schema.org",
-        "@type": "QAPage",
-        mainEntity: qaSchema.map((qa) => ({
-          "@type": "Question",
-          name: qa.question,
-          answerCount: 1,
-          dateCreated: qa.dateCreated || new Date().toISOString(),
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: qa.answer,
-            dateCreated: qa.dateCreated || new Date().toISOString(),
-            upvoteCount: qa.upvoteCount || 50,
-            author: {
-              "@type": "Organization",
-              name: "Starlight Tubes",
-            },
-          },
-        })),
-      };
-      addJsonLd("qa-schema", qaJsonLd);
-    }
+    // AEO: Q&A content merged into FAQ schema instead of separate QAPage
+    // QAPage is only valid for community Q&A forums (StackOverflow-style)
+    // For manufacturer sites, Q&A content should use FAQPage format
 
     // GEO: Service Schema for AI-powered Search
     if (serviceSchema) {

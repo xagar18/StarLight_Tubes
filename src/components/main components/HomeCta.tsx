@@ -85,7 +85,7 @@ export default function CtaSection1() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="#contact"
+                href="contact"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-semibold rounded-xl text-white bg-linear-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105 mb-10"
               >
                 Get in Touch

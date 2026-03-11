@@ -462,105 +462,6 @@ const PAGE_META: Record<string, { title: string; description: string }> = {
   },
 };
 
-// GEO/AEO: Server-side FAQ data for AI crawlers (critical pages)
-// AI engines like ChatGPT, Perplexity, Google SGE parse these without executing JS
-const PAGE_FAQ: Record<string, Array<{ q: string; a: string }>> = {
-  "/": [
-    {
-      q: "What does Starlight Tubes manufacture?",
-      a: "Starlight Tubes manufactures stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600, Monel 400), copper pipes & tubes, aluminium sheets & pipes, pipe fittings (elbows, tees, reducers), and flanges (weld neck, slip on, blind).",
-    },
-    {
-      q: "Where is Starlight Tubes located?",
-      a: "Starlight Tubes is headquartered in Mumbai, Maharashtra, India. We export steel pipes and tubes to over 60 countries worldwide including USA, UK, Germany, UAE, Saudi Arabia, Singapore, Australia, and Canada.",
-    },
-    {
-      q: "Is Starlight Tubes ISO certified?",
-      a: "Yes, Starlight Tubes is ISO 9001:2015 certified. We also comply with PED 2014/68/EU, OHSAS 18001, and ISO 14001 standards. All products come with Mill Test Certificates (EN 10204 3.1).",
-    },
-  ],
-  "/product": [
-    {
-      q: "What products does Starlight Tubes offer?",
-      a: "Starlight Tubes offers stainless steel pipes & tubes, carbon steel pipes, nickel alloy pipes, inconel pipes & tubes, copper pipes & tubes, aluminium pipes & sheets, pipe fittings (elbows, tees, reducers, caps, unions, couplings), and flanges in various specifications and sizes.",
-    },
-    {
-      q: "What pipe sizes are available?",
-      a: "Starlight Tubes manufactures pipes from 1/8 inch NPS to 48 inch NPS in various schedules (SCH 5 to SCH XXS), wall thicknesses, and lengths (standard 6m or custom). Both seamless and welded types available.",
-    },
-  ],
-  "/stainless-steel": [
-    {
-      q: "What stainless steel grades does Starlight Tubes manufacture?",
-      a: "We manufacture SS 304, SS 304L, SS 316, SS 316L, SS 321, SS 347, SS 310, Duplex 2205, Super Duplex 2507, and other austenitic, ferritic, and martensitic stainless steel grades per ASTM A312, A269, A213 standards.",
-    },
-    {
-      q: "What are the applications of stainless steel pipes?",
-      a: "Stainless steel pipes are used in chemical processing, oil & gas, food & beverage, pharmaceutical, water treatment, power generation, marine, and architectural applications due to their excellent corrosion resistance and durability.",
-    },
-  ],
-  "/carbon-steel": [
-    {
-      q: "What carbon steel pipe standards does Starlight Tubes follow?",
-      a: "We manufacture carbon steel pipes per ASTM A106 Grade B, ASTM A53 Grade B, API 5L Grade B/X42/X52/X60/X65/X70, ASTM A333 Grade 6, and IS 1239 standards. Both seamless and ERW types available.",
-    },
-    {
-      q: "What is the difference between ASTM A106 and API 5L pipes?",
-      a: "ASTM A106 covers seamless carbon steel pipes for high-temperature service (boilers, refineries). API 5L covers line pipes for oil & gas pipeline transportation. API 5L has PSL1 and PSL2 quality levels with stricter chemistry and testing requirements.",
-    },
-  ],
-  "/nickel-alloys": [
-    {
-      q: "What nickel alloy pipes does Starlight Tubes supply?",
-      a: "We supply Monel 400/K500, Hastelloy C276/C22/B2, Nickel 200/201, Inconel 625/600/601/718, Incoloy 800/800H/825, and Alloy 20 pipes & tubes per ASTM B165, B444, B407, B163, B167 standards.",
-    },
-    {
-      q: "Why choose nickel alloy pipes?",
-      a: "Nickel alloy pipes offer superior corrosion resistance in extreme environments including high temperatures (up to 1100°C), acidic conditions, and seawater. Used in aerospace, chemical processing, nuclear, oil & gas, and marine applications.",
-    },
-  ],
-  "/inconel": [
-    {
-      q: "What is the difference between Inconel 625 and Inconel 600?",
-      a: "Inconel 625 contains molybdenum and niobium for superior corrosion resistance and higher strength. Inconel 600 is a nickel-chromium alloy with good oxidation resistance at high temperatures. 625 is preferred for marine and chemical applications; 600 for heat treatment and nuclear applications.",
-    },
-    {
-      q: "What Inconel specifications does Starlight Tubes follow?",
-      a: 'We manufacture Inconel pipes per ASTM B444 (625), ASTM B167 (600), ASTM B163 (tubes), and ASME SB444/SB167 standards. Available as seamless pipes and tubes in various sizes from 1/8" to 24" NPS.',
-    },
-  ],
-  "/fittings": [
-    {
-      q: "What types of pipe fittings does Starlight Tubes manufacture?",
-      a: "We manufacture butt weld fittings (elbows, tees, reducers, caps, stub ends), forged fittings (socket weld and threaded), and flanges (weld neck, slip on, blind, lap joint, ring type, spectacle blind) per ASME B16.9, B16.11, B16.5 standards.",
-    },
-    {
-      q: "What materials are available for pipe fittings?",
-      a: "Pipe fittings are available in stainless steel (304, 316, 321, 347), carbon steel (A234 WPB, A420 WPL6), alloy steel (A234 WP5, WP9, WP11, WP22), nickel alloys (Inconel, Monel, Hastelloy), and duplex/super duplex stainless steel.",
-    },
-  ],
-  "/contact": [
-    {
-      q: "How to contact Starlight Tubes for a quote?",
-      a: "Contact us at sales@starlighttubes.com or call +91-8591470791. You can also fill the enquiry form on our contact page. We respond to all enquiries within 24 hours with competitive pricing and delivery schedules.",
-    },
-    {
-      q: "What is the minimum order quantity?",
-      a: "Minimum order quantity varies by product. For standard size pipes, MOQ starts from 100 kg. For custom fabrication and special alloy products, please contact our sales team for specific requirements.",
-    },
-  ],
-  "/about": [
-    {
-      q: "When was Starlight Tubes established?",
-      a: "Starlight Tubes was established in 2020 in Mumbai, India. We have quickly grown to become a trusted steel pipe manufacturer and exporter, serving clients in over 60 countries across 6 continents.",
-    },
-    {
-      q: "What certifications does Starlight Tubes hold?",
-      a: "Starlight Tubes holds ISO 9001:2015 (Quality Management), PED 2014/68/EU (Pressure Equipment Directive), OHSAS 18001 (Occupational Health & Safety), and ISO 14001 (Environmental Management) certifications.",
-    },
-  ],
-};
-
 // GEO: NLQ (Natural Language Query) optimized summaries for AI answer engines
 const PAGE_NLQ: Record<string, string> = {
   "/": "Starlight Tubes is a steel pipe manufacturer and exporter based in Mumbai, India, founded in 2020. The company manufactures stainless steel pipes (304, 316, 316L), carbon steel pipes (ASTM A106, API 5L), nickel alloy pipes (Inconel 625, 600), copper pipes, aluminium products, pipe fittings, and flanges. ISO 9001:2015 certified, exporting to 60+ countries including USA, UK, Germany, UAE, Saudi Arabia.",
@@ -708,90 +609,13 @@ export default async function handler(request: Request, context: Context) {
     );
   }
 
-  // GEO/AEO: Inject server-side FAQ schema for AI crawlers that don't execute JS
-  const faqData = PAGE_FAQ[normalizedPath];
-  if (faqData && faqData.length > 0) {
-    const faqSchema = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: faqData.map((item) => ({
-        "@type": "Question",
-        name: item.q,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: item.a,
-        },
-      })),
-    });
-    // Inject before </head> so it's available to all crawlers
-    html = html.replace(
-      "</head>",
-      `<script type="application/ld+json" id="ssr-faq-schema">${faqSchema}</script>\n  </head>`,
-    );
-  }
+  // NOTE: SSR FAQ schema injection REMOVED — Google's crawler detects it from HTML
+  // AND detects the client-side FAQ from JS execution, causing "Duplicate field FAQPage".
+  // Client-side FAQ via useSEO hook is sufficient (Google renders JS).
+  // AI crawlers still get NLQ summary data injected below.
 
-  // SSR: Inject Product schema for product sub-pages (Google requires offers/aggregateRating/review)
-  // These pages inject Product schema client-side via useSEO hook, but Googlebot may not fully execute JS
-  const NON_PRODUCT_PAGES = new Set([
-    "/",
-    "/product",
-    "/about",
-    "/contact",
-    "/stainless-steel",
-    "/carbon-steel",
-    "/nickel-alloys",
-    "/inconel",
-    "/copper",
-    "/aluminium",
-    "/fittings",
-    "/coating",
-    "/certificates",
-    "/technical-info",
-    "/materials",
-  ]);
-  if (
-    pageMeta &&
-    !NON_PRODUCT_PAGES.has(normalizedPath) &&
-    !normalizedPath.startsWith("/blog")
-  ) {
-    const productName = pageMeta.title.replace(" | Starlight Tubes", "");
-    const productSchema = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "@id": `${canonicalUrl}#product`,
-      name: productName,
-      description: pageMeta.description,
-      brand: {
-        "@type": "Brand",
-        name: "Starlight Tubes",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Starlight Tubes",
-        url: BASE_URL,
-      },
-      category: "Steel Pipes & Tubes",
-      image: `${BASE_URL}/StarlightLogo.png`,
-      url: canonicalUrl,
-      offers: {
-        "@type": "AggregateOffer",
-        priceCurrency: "USD",
-        lowPrice: "10",
-        highPrice: "5000",
-        offerCount: "50",
-        availability: "https://schema.org/InStock",
-        seller: {
-          "@type": "Organization",
-          name: "Starlight Tubes",
-          url: BASE_URL,
-        },
-      },
-    });
-    html = html.replace(
-      "</head>",
-      `<script type="application/ld+json" id="ssr-product-schema">${productSchema}</script>\n  </head>`,
-    );
-  }
+  // NOTE: SSR Product schema injection REMOVED — same Google duplicate issue as FAQ.
+  // Google renders JS and picks up client-side Product schema via useSEO hook.
 
   // GEO: Inject NLQ-optimized WebPage schema with abstract for AI answer engines
   const nlqData = PAGE_NLQ[normalizedPath];
@@ -806,7 +630,7 @@ export default async function handler(request: Request, context: Context) {
       abstract: nlqData,
       inLanguage: "en-US",
       isAccessibleForFree: true,
-      dateModified: new Date().toISOString().split("T")[0],
+      dateModified: "2026-03-11",
       isPartOf: {
         "@type": "WebSite",
         "@id": "https://www.starlighttubes.com/#website",

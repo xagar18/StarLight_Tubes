@@ -111,14 +111,14 @@ export function ImagesSliderDemo() {
             </span>
           </span>
 
-          {/* Heading */}
-          <h1 className="font-bold text-3xl md:text-5xl lg:text-6xl text-center max-w-5xl">
+          {/* Heading — uses p instead of h1 to avoid multiple H1s; page H1 is below the slider */}
+          <p className="font-bold text-3xl md:text-5xl lg:text-6xl text-center max-w-5xl">
             <span className="text-white">{texts[currentIndex].title}</span>
             <br />
             <span className="bg-linear-to-r from-amber-400 via-orange-400 to-amber-500 bg-clip-text text-transparent">
               {texts[currentIndex].highlight}
             </span>
-          </h1>
+          </p>
 
           {/* Divider */}
           <div className="w-24 h-1 bg-linear-to-r from-transparent via-amber-500 to-transparent mt-6 mb-6 rounded-full" />

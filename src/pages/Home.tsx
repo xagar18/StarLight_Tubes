@@ -211,13 +211,20 @@ const Home = () => {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
+        {/* Single H1 for homepage — visually hidden but accessible to crawlers */}
+        <h1 className="sr-only">
+          Starlight Tubes - Steel Pipe Manufacturer & Exporter in India
+        </h1>
+
         {/* Image Slider Section */}
-        <div className="w-full h-fit flex justify-center ">
-          <ImagesSliderDemo />
-        </div>
+        <section aria-label="Hero Slider">
+          <div className="w-full h-fit flex justify-center ">
+            <ImagesSliderDemo />
+          </div>
+        </section>
 
         {/* Product Categories Section */}
-        <div>
+        <section aria-label="Product Range">
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-center mb-4 text-gray-900 dark:text-white">
               Explore Our Product Range
@@ -247,7 +254,7 @@ const Home = () => {
               links={pipeFittingsLinks}
             />
           </div>
-        </div>
+        </section>
 
         {/* View All Products Button */}
         <div className="w-full flex justify-center mt-12 mb-8">

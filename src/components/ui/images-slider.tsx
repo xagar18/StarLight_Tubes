@@ -95,7 +95,7 @@ export const ImagesSlider = ({
     <div
       className={cn(
         "overflow-hidden h-full top-8 w-full relative flex items-center justify-center",
-        className
+        className,
       )}
       style={{ perspective: "1000px" }}
     >
@@ -116,6 +116,8 @@ export const ImagesSlider = ({
           exit={direction === "up" ? "upExit" : "downExit"}
           variants={slideVariants}
           className="image h-full w-full absolute inset-0 object-cover object-center"
+          width={1600}
+          height={900}
           loading={currentIndex === 0 ? "eager" : "lazy"}
           fetchPriority={currentIndex === 0 ? "high" : "auto"}
           decoding="async"

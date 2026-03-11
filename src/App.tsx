@@ -3,13 +3,8 @@ import { Route, Routes } from "react-router";
 import ScrollToTop from "./components/ScrollToTop";
 import QuickButtons from "./components/WhatsAppButton";
 
-// Direct imports for main pages (no lazy loading for fast access)
-import About from "./pages/About";
-import Coating from "./pages/Coating";
-import Contact from "./pages/Contact";
+// Only Home is eagerly loaded (landing page / LCP)
 import Home from "./pages/Home";
-import Product from "./pages/Product";
-import TechnicalInfo from "./pages/TechnicalInfo";
 
 // Loading component for Suspense fallback
 const PageLoader = () => (
@@ -21,7 +16,12 @@ const PageLoader = () => (
   </div>
 );
 
-// Lazy load secondary pages
+// Lazy load all non-landing pages
+const About = lazy(() => import("./pages/About"));
+const Coating = lazy(() => import("./pages/Coating"));
+const Contact = lazy(() => import("./pages/Contact"));
+const Product = lazy(() => import("./pages/Product"));
+const TechnicalInfo = lazy(() => import("./pages/TechnicalInfo"));
 const Certificates = lazy(() => import("./pages/Certificates"));
 const Material = lazy(() => import("./pages/Material"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));

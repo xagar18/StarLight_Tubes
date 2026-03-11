@@ -114,7 +114,7 @@ const TechnicalInfo = () => {
         <PageHero
           title="Technical Information"
           subtitle="Datasheets, specs and engineering support"
-          image="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_auto,w_1200,c_fill/Home_aaq22e"
+          image="Home_aaq22e"
         />
 
         <div className="w-full max-w-7xl mx-auto px-6 mt-20">

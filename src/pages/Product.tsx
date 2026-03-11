@@ -267,7 +267,7 @@ const Product = () => {
         <PageHero
           title="Starlight Tubes Products"
           subtitle="Complete Range of Industrial Steel Pipes, Tubes, Fittings & Flanges"
-          image="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_auto,w_1200,c_fill/product_e8o6zt"
+          image="product_e8o6zt"
         />
 
         {/* Main Products Section - Row 1 */}
@@ -312,7 +312,7 @@ const Product = () => {
         <div className="w-full">
           <div className="w-full flex flex-col items-center justify-center mt-24 mb-12 px-4">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-amber-500/10 border border-amber-500/20">
-              <span className="text-amber-600 dark:text-amber-400 text-sm font-semibold">
+              <span className="text-amber-700 dark:text-amber-300 text-sm font-semibold">
                 Non-Ferrous Metals
               </span>
             </div>

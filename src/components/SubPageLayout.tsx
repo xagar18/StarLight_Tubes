@@ -116,7 +116,7 @@ const badgeColorMap: Record<
   amber: {
     bg: "bg-amber-500/10",
     border: "border-amber-500/20",
-    text: "text-amber-600 dark:text-amber-400",
+    text: "text-amber-700 dark:text-amber-300",
   },
   cyan: {
     bg: "bg-cyan-500/10",

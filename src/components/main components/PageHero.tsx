@@ -2,6 +2,18 @@
 import { motion } from "motion/react";
 import { Link } from "react-router";
 
+const CLOUD_BASE = "https://res.cloudinary.com/dtdardvqm/image/upload/";
+
+function buildCloudinarySrcSet(publicId: string) {
+  const widths = [480, 768, 1024, 1200];
+  const srcSet = widths
+    .map((w) => `${CLOUD_BASE}f_auto,q_70,w_${w},c_fill/${publicId} ${w}w`)
+    .join(", ");
+  const sizes = "(max-width: 640px) 480px, (max-width: 1024px) 768px, 1200px";
+  const src = `${CLOUD_BASE}f_auto,q_70,w_1200,c_fill/${publicId}`;
+  return { src, srcSet, sizes };
+}
+
 interface PageHeroProps {
   title: string;
   subtitle: string;
@@ -13,15 +25,30 @@ interface PageHeroProps {
 export function PageHero({
   title,
   subtitle,
-  image = "https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_auto,w_1200,c_fill/aboutus_whnwsq",
+  image = "aboutus_whnwsq",
   buttonText = "Get Quote →",
   buttonLink = "/contact",
 }: PageHeroProps) {
+  // If image is a Cloudinary URL, extract publicId; if it's a publicId, use directly
+  const isCloudinaryUrl = image.startsWith(CLOUD_BASE);
+  const isLocalPath = image.startsWith("/");
+
+  let imgProps: { src: string; srcSet?: string; sizes?: string };
+  if (isLocalPath) {
+    imgProps = { src: image };
+  } else {
+    const publicId = isCloudinaryUrl
+      ? image.replace(/.*\/upload\/[^/]+\//, "")
+      : image;
+    imgProps = buildCloudinarySrcSet(publicId);
+  }
+
   return (
     <div className="relative top-8 md:h-150 h-120 w-full overflow-hidden">
-      {/* ✅ IMAGE: NO MOTION, PAINTS IMMEDIATELY */}
       <img
-        src={image}
+        src={imgProps.src}
+        srcSet={imgProps.srcSet}
+        sizes={imgProps.sizes}
         alt={`${title} - Starlight Tubes`}
         loading="eager"
         fetchPriority="high"

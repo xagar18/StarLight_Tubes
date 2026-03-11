@@ -152,7 +152,7 @@ const Coating = () => {
           <PageHero
             title="Epoxy Coating Solutions"
             subtitle="Industry-leading FBE and epoxy coating for superior corrosion protection"
-            image="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_auto,w_1200,c_fill/coating_bqrvof"
+            image="coating_bqrvof"
           />
 
           {/* Coating Information Section */}

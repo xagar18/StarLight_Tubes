@@ -245,7 +245,7 @@ export default function Footer() {
               className="flex flex-col items-center md:items-start mb-6"
             >
               <img
-                src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_200,fl_progressive/StarlightLogo_txn0kc"
+                src="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_60,w_128,fl_progressive/StarlightLogo_txn0kc"
                 alt=""
                 className="size-16 bg-white rounded-full mb-3"
               />
@@ -255,7 +255,7 @@ export default function Footer() {
             </Link>
 
             <div className="mt-4">
-              <h3 className="text-xs uppercase tracking-wider text-gray-500 mb-2">
+              <h3 className="text-xs uppercase tracking-wider text-gray-400 mb-2">
                 Office Address
               </h3>
               <p className="text-sm leading-relaxed text-gray-400">

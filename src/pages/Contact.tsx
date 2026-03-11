@@ -114,7 +114,7 @@ const Contact = () => {
           <PageHero
             title="Contact Us"
             subtitle="Get in touch with our team for quotes, inquiries and support"
-            image="https://res.cloudinary.com/dtdardvqm/image/upload/f_avif,q_auto,w_1200,c_fill/contact-us1_tddy3v"
+            image="contact-us1_tddy3v"
             buttonText="Call Now →"
             buttonLink="tel:+919892233118"
           />

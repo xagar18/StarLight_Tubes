@@ -7,7 +7,7 @@ import { ImagesSlider } from "../ui/images-slider";
 const CLOUD_NAME = "dtdardvqm";
 
 const getImageUrl = (publicId: string, width: number) =>
-  `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/f_auto,q_auto,w_${width},c_fill/${publicId}`;
+  `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/f_auto,q_70,w_${width},c_fill/${publicId}`;
 
 export function ImagesSliderDemo() {
   const [imgWidth, setImgWidth] = useState(1600);

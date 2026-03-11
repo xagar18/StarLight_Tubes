@@ -42,6 +42,16 @@ export function ImagesSliderDemo() {
     img.src = images[0];
   }, [images]);
 
+  const alts = [
+    "Starlight Tubes steel pipe manufacturing facility",
+    "Global export of steel pipes to 60+ countries",
+    "Precision CNC machined seamless steel tubes",
+    "Steel pipe exports to Europe, Asia, Middle East",
+    "ASTM ASME API certified steel pipe manufacturing",
+    "Global steel pipe supply chain network",
+    "Industrial metal pipe manufacturing range",
+  ];
+
   const texts = [
     {
       title: "Advanced",
@@ -95,7 +105,7 @@ export function ImagesSliderDemo() {
   ];
 
   return (
-    <ImagesSlider className="md:h-[85vh] h-[75vh]" images={images}>
+    <ImagesSlider className="md:h-[85vh] h-[75vh]" images={images} alts={alts}>
       {(currentIndex) => (
         <motion.div
           key={currentIndex}

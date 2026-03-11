@@ -10,12 +10,12 @@ export default function StatsGrid() {
     <div className=" bg-slate-900 p-8 flex items-center justify-center border-t border-slate-700/50 flex-col max-w-7xl mx-auto my-20 rounded-2xl">
       {/* Header Section */}
       <div className="text-center mb-16">
-        <h1 className="text-5xl font-bold text-white mb-4">
+        <h2 className="text-5xl font-bold text-white mb-4">
           Trusted by 100,000+ clients worldwide
-        </h1>
+        </h2>
         <p className="text-slate-400 text-lg">
-          Delivering certified quality tubes with ISO standards —
-          powering industries with reliability and precision.
+          Delivering certified quality tubes with ISO standards — powering
+          industries with reliability and precision.
         </p>
       </div>
 

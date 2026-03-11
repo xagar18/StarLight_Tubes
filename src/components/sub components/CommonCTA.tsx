@@ -25,9 +25,9 @@ export function CommonCTA({
       <div className="relative w-full" style={{ maxWidth: "1400px" }}>
         <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-linear-to-r from-blue-500 to-teal-500 blur-3xl" />
         <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-10 py-12 shadow-xl">
-          <h1 className="relative z-50 mb-6 text-3xl font-bold text-white">
+          <h2 className="relative z-50 mb-6 text-3xl font-bold text-white">
             {title}
-          </h1>
+          </h2>
 
           <p className="relative z-50 mb-4 text-base leading-relaxed text-slate-300">
             {paragraph1}
@@ -39,9 +39,9 @@ export function CommonCTA({
 
           <hr className="relative z-50 border-gray-700 my-6 w-full" />
 
-          <h2 className="relative z-50 mb-4 text-xl font-bold text-white">
+          <h3 className="relative z-50 mb-4 text-xl font-bold text-white">
             {specificationsTitle}
-          </h2>
+          </h3>
           <ul className="relative z-50 mb-4 text-base font-normal text-slate-400 space-y-3">
             {specifications.map((spec, index) => (
               <li key={index} className="flex items-start gap-3">

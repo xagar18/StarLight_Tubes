@@ -15,9 +15,9 @@ export function CoatingCtaParent() {
                 Technical Comparison
               </span>
             </div>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
               Understanding Pipe Coating Technologies
-            </h1>
+            </h2>
             <p className="mt-3 text-gray-400 max-w-4xl text-lg">
               Compare different epoxy coating methods, their applications, and
               performance characteristics
@@ -29,9 +29,9 @@ export function CoatingCtaParent() {
             {/* Card 1 - Liquid vs FBE */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-teal-500/30 transition-all duration-300">
               <div className="flex items-center gap-4 mb-5">
-                <h2 className="text-xl font-bold text-white">
+                <h3 className="text-xl font-bold text-white">
                   Liquid Epoxy vs FBE Coating
-                </h2>
+                </h3>
               </div>
 
               <div className="space-y-5">
@@ -68,9 +68,9 @@ export function CoatingCtaParent() {
             {/* Card 2 - High vs Low Build */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-teal-500/30 transition-all duration-300">
               <div className="flex items-center gap-4 mb-5">
-                <h2 className="text-xl font-bold text-white">
+                <h3 className="text-xl font-bold text-white">
                   High Build vs Low Build Epoxy
-                </h2>
+                </h3>
               </div>
 
               <div className="space-y-5">
@@ -107,9 +107,9 @@ export function CoatingCtaParent() {
             {/* Card 3 - Surface Preparation */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-teal-500/30 transition-all duration-300">
               <div className="flex items-center gap-4 mb-5">
-                <h2 className="text-xl font-bold text-white">
+                <h3 className="text-xl font-bold text-white">
                   Surface Preparation & Adhesion
-                </h2>
+                </h3>
               </div>
 
               <div className="space-y-5">
@@ -144,9 +144,9 @@ export function CoatingCtaParent() {
             {/* Card 4 - Corrosion Resistance */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-teal-500/30 transition-all duration-300">
               <div className="flex items-center gap-4 mb-5">
-                <h2 className="text-xl font-bold text-white">
+                <h3 className="text-xl font-bold text-white">
                   Corrosion Resistance & Service Life
-                </h2>
+                </h3>
               </div>
 
               <div className="space-y-5">

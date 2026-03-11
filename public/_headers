@@ -6,9 +6,6 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-  Link: <https://res.cloudinary.com>; rel=preconnect
-  Link: <https://fonts.googleapis.com>; rel=preconnect
-  Link: <https://www.googletagmanager.com>; rel=preconnect
 
 # Long cache for hashed assets (Vite adds content hash)
 /assets/*

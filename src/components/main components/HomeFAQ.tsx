@@ -49,9 +49,9 @@ export default function FAQAccordion() {
   return (
     <div className="max-w-450 rounded-2xl gap-10 mx-auto my-20 bg-slate-900 p-8 flex items-center justify-center flex-col border-t border-slate-700/50">
       {/* Header */}
-      <h1 className="text-4xl md:text-5xl font-bold text-white text-center mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12">
         Frequently asked questions
-      </h1>
+      </h2>
 
       {/* FAQ Items */}
       <div className="space-y-4">

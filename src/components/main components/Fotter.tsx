@@ -255,9 +255,9 @@ export default function Footer() {
             </Link>
 
             <div className="mt-4">
-              <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-2">
+              <h3 className="text-xs uppercase tracking-wider text-gray-500 mb-2">
                 Office Address
-              </h4>
+              </h3>
               <p className="text-sm leading-relaxed text-gray-400">
                 Shop No. 01, Ground floor, 121/123, Nageshwar Bhuvan Bldg,
                 Kumbharwada, Mumbai, Maharashtra 400004

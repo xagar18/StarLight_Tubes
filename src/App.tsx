@@ -47,39 +47,41 @@ function App() {
     <>
       <ScrollToTop />
       <QuickButtons />
-      <Suspense fallback={<PageLoader />}>
-        <Routes>
-          {/* Main pages - no lazy loading for instant access */}
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/technical-info" element={<TechnicalInfo />} />
-          <Route path="/coating" element={<Coating />} />
-          <Route path="/contact" element={<Contact />} />
+      <main>
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            {/* Main pages - no lazy loading for instant access */}
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/product" element={<Product />} />
+            <Route path="/technical-info" element={<TechnicalInfo />} />
+            <Route path="/coating" element={<Coating />} />
+            <Route path="/contact" element={<Contact />} />
 
-          {/* Secondary pages */}
-          <Route path="/certificates" element={<Certificates />} />
-          <Route path="/materials" element={<Material />} />
+            {/* Secondary pages */}
+            <Route path="/certificates" element={<Certificates />} />
+            <Route path="/materials" element={<Material />} />
 
-          {/* Material Category Pages */}
-          <Route path="/stainless-steel" element={<StainlessSteelPage />} />
-          <Route path="/aluminium" element={<Aluminium />} />
-          <Route path="/copper" element={<Copper />} />
-          <Route path="/fittings" element={<Fittings />} />
-          <Route path="/carbon-steel" element={<CarbonSteelPage />} />
-          <Route path="/nickel-alloys" element={<NickelAlloysPage />} />
-          <Route path="/inconel" element={<InconelPage />} />
+            {/* Material Category Pages */}
+            <Route path="/stainless-steel" element={<StainlessSteelPage />} />
+            <Route path="/aluminium" element={<Aluminium />} />
+            <Route path="/copper" element={<Copper />} />
+            <Route path="/fittings" element={<Fittings />} />
+            <Route path="/carbon-steel" element={<CarbonSteelPage />} />
+            <Route path="/nickel-alloys" element={<NickelAlloysPage />} />
+            <Route path="/inconel" element={<InconelPage />} />
 
-          {/* Blog */}
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<BlogPost />} />
+            {/* Blog */}
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
 
-          {/* Dynamic sub pages - single route handles all product sub pages */}
-          <Route path="/:slug" element={<DynamicSubPage />} />
+            {/* Dynamic sub pages - single route handles all product sub pages */}
+            <Route path="/:slug" element={<DynamicSubPage />} />
 
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </Suspense>
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </Suspense>
+      </main>
     </>
   );
 }

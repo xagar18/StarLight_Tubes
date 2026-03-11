@@ -12,9 +12,9 @@ export default function CtaSection1() {
 
           <div className="relative mx-auto max-w-6xl">
             {/* Heading */}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white text-center mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white text-center mb-8">
               StarLight Tubes — India's Leading Steel Pipe Exporter
-            </h1>
+            </h2>
 
             {/* Content Grid */}
             <div className="grid md:grid-cols-2 gap-8 mb-12">

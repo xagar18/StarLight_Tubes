@@ -11,6 +11,7 @@ export const ImagesSlider = ({
   className,
   autoplay = true,
   direction = "up",
+  alts,
 }: {
   images: string[];
   children: (currentIndex: number) => React.ReactNode;
@@ -19,24 +20,16 @@ export const ImagesSlider = ({
   className?: string;
   autoplay?: boolean;
   direction?: "up" | "down";
+  alts?: string[];
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isFirstLoaded, setIsFirstLoaded] = useState(false);
 
   const handleNext = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1 === images.length ? 0 : prev + 1));
   }, [images.length]);
 
+  // Prefetch next image during idle time
   useEffect(() => {
-    const img = new Image();
-    img.src = images[0];
-    img.onload = () => setIsFirstLoaded(true);
-    img.onerror = () => setIsFirstLoaded(true);
-  }, [images]);
-
-  useEffect(() => {
-    if (!isFirstLoaded) return;
-
     const next = currentIndex + 1 === images.length ? 0 : currentIndex + 1;
 
     if ("requestIdleCallback" in window) {
@@ -50,15 +43,15 @@ export const ImagesSlider = ({
         img.src = images[next];
       }, 200);
     }
-  }, [currentIndex, images, isFirstLoaded]);
+  }, [currentIndex, images]);
 
   /* Autoplay */
   useEffect(() => {
-    if (!autoplay || !isFirstLoaded) return;
+    if (!autoplay) return;
 
     const interval = setInterval(handleNext, 5000);
     return () => clearInterval(interval);
-  }, [autoplay, handleNext, isFirstLoaded]);
+  }, [autoplay, handleNext]);
 
   const slideVariants = {
     initial: {
@@ -87,10 +80,6 @@ export const ImagesSlider = ({
     },
   };
 
-  if (!isFirstLoaded) {
-    return <div className={cn("relative h-full w-full bg-black", className)} />;
-  }
-
   return (
     <div
       className={cn(
@@ -118,6 +107,7 @@ export const ImagesSlider = ({
           className="image h-full w-full absolute inset-0 object-cover object-center"
           width={1600}
           height={900}
+          alt={alts?.[currentIndex] || ""}
           loading={currentIndex === 0 ? "eager" : "lazy"}
           fetchPriority={currentIndex === 0 ? "high" : "auto"}
           decoding="async"

@@ -6,9 +6,9 @@ export function ContactCtaParent() {
       <div className="relative w-full max-w-6xl">
         <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-linear-to-r from-blue-500 to-teal-500 blur-3xl" />
         <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-4 py-8 shadow-xl">
-          <h1 className="relative z-50 mb-4 text-xl font-bold text-white">
+          <h2 className="relative z-50 mb-4 text-xl font-bold text-white">
             Shop & Business Address
-          </h1>
+          </h2>
 
           <ul className="relative z-50 mb-4 text-base font-normal text-slate-500 space-y-2">
             <li className="flex items-center gap-2 ">
@@ -53,9 +53,9 @@ export function ContactCtaParent() {
 
           <hr className="relative z-50 border-gray-700 my-4" />
 
-          <h2 className="relative z-50 mb-4 text-xl font-bold text-white">
+          <h3 className="relative z-50 mb-4 text-xl font-bold text-white">
             Corporate Office
-          </h2>
+          </h3>
 
           <ul className="relative z-50 mb-4 text-base font-normal text-slate-500 space-y-2">
             <li className="flex items-center gap-2 ">
@@ -87,9 +87,9 @@ export function ContactCtaParent() {
 
           <hr className="relative z-50 border-gray-700 my-4" />
 
-          <h2 className="relative z-50 mb-4 text-xl font-bold text-white">
+          <h3 className="relative z-50 mb-4 text-xl font-bold text-white">
             Business Hours
-          </h2>
+          </h3>
           <ul className="relative z-50 mb-4 text-base font-normal text-slate-500 space-y-2">
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>

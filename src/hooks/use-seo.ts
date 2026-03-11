@@ -316,6 +316,12 @@ export const useSEO = ({
       addJsonLd("breadcrumb-schema", breadcrumbSchema);
     }
 
+    // Remove SSR-injected FAQ schema to avoid duplicate FAQPage
+    const ssrFaqSchema = document.getElementById("ssr-faq-schema");
+    if (ssrFaqSchema) {
+      ssrFaqSchema.remove();
+    }
+
     // Product Schema - ALWAYS includes offers, aggregateRating, and review (Google requirement)
     // Remove SSR-injected product schema first to avoid duplicates
     const ssrProductSchema = document.getElementById("ssr-product-schema");

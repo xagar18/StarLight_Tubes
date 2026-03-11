@@ -190,21 +190,6 @@ const Product = () => {
       { name: "Home", url: "https://www.starlighttubes.com/" },
       { name: "Products", url: "https://www.starlighttubes.com/product" },
     ],
-    productSchema: {
-      name: "Industrial Steel Pipes, Tubes, Fittings & Flanges",
-      description:
-        "Complete range of industrial steel pipes and tubes including stainless steel, carbon steel, nickel alloy, copper, and aluminium products with pipe fittings and flanges.",
-      category: "Industrial Steel Products",
-      material:
-        "Stainless Steel, Carbon Steel, Nickel Alloy, Copper, Aluminium",
-      brand: "Starlight Tubes",
-      offers: {
-        priceCurrency: "USD",
-        lowPrice: "5",
-        highPrice: "10000",
-        availability: "https://schema.org/InStock",
-      },
-    },
     speakableContent: {
       headline:
         "Starlight Tubes Product Range - Industrial Steel Pipes & Tubes",

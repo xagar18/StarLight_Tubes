@@ -54,19 +54,6 @@ const Aluminium = () => {
       { name: "Home", url: "https://www.starlighttubes.com/" },
       { name: "Aluminium", url: "https://www.starlighttubes.com/aluminium" },
     ],
-    productSchema: {
-      name: "Aluminium Pipes and Sheets - 6061, 6063, 5052, 7075",
-      description:
-        "High-quality aluminium pipes, tubes, sheets, and plates in various grades for aerospace, automotive, and construction industries.",
-      category: "Aluminium Products",
-      material: "Aluminium Alloy",
-      offers: {
-        priceCurrency: "USD",
-        lowPrice: "10",
-        highPrice: "3000",
-        availability: "https://schema.org/InStock",
-      },
-    },
     speakableContent: {
       headline: "Aluminium Pipes & Sheets - 6061, 6063, 5052, 7075 Grades",
       summary:

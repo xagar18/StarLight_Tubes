@@ -18,19 +18,6 @@ const Inconel = () => {
       { name: "Home", url: "https://www.starlighttubes.com/" },
       { name: "Inconel", url: "https://www.starlighttubes.com/inconel" },
     ],
-    productSchema: {
-      name: "Inconel Pipes and Tubes - 625, 600, 718",
-      description:
-        "Premium Inconel pipes including Inconel 625, Inconel 600, Monel pipes for high-temperature and corrosive environments. Manufactured by Starlight Tubes.",
-      category: "Inconel Pipes",
-      material: "Inconel Superalloy",
-      offers: {
-        priceCurrency: "USD",
-        lowPrice: "100",
-        highPrice: "10000",
-        availability: "https://schema.org/InStock",
-      },
-    },
     speakableContent: {
       headline: "Inconel Pipes & Tubes - 625, 600, 718 Superalloys",
       summary:

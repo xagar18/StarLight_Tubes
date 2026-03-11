@@ -21,19 +21,6 @@ const CarbonSteel = () => {
         url: "https://www.starlighttubes.com/carbon-steel",
       },
     ],
-    productSchema: {
-      name: "Carbon Steel Pipes - ASTM A106, API 5L",
-      description:
-        "High-quality carbon steel pipes including ASTM A106, API 5L Grade B, X42, X52, X65 for oil & gas, petrochemical industries. Manufactured by Starlight Tubes.",
-      category: "Carbon Steel Pipes",
-      material: "Carbon Steel",
-      offers: {
-        priceCurrency: "USD",
-        lowPrice: "15",
-        highPrice: "3000",
-        availability: "https://schema.org/InStock",
-      },
-    },
     speakableContent: {
       headline: "Carbon Steel Pipes - ASTM A106, API 5L, ASTM A53",
       summary:

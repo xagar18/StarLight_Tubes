@@ -21,19 +21,6 @@ const StainlessSteel = () => {
         url: "https://www.starlighttubes.com/stainless-steel",
       },
     ],
-    productSchema: {
-      name: "Stainless Steel Pipes and Tubes",
-      description:
-        "High-quality stainless steel pipes, tubes, and related products including 304, 316, and 316L grades manufactured by Starlight Tubes.",
-      category: "Stainless Steel Pipes",
-      material: "Stainless Steel",
-      offers: {
-        priceCurrency: "USD",
-        lowPrice: "10",
-        highPrice: "5000",
-        availability: "https://schema.org/InStock",
-      },
-    },
     speakableContent: {
       headline: "Stainless Steel Pipes & Tubes - 304, 316, 316L Grades",
       summary:

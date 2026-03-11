@@ -56,19 +56,6 @@ const Copper = () => {
       { name: "Home", url: "https://www.starlighttubes.com/" },
       { name: "Copper", url: "https://www.starlighttubes.com/copper" },
     ],
-    productSchema: {
-      name: "Copper Pipes and Tubes",
-      description:
-        "High-quality copper pipes, tubes, sheets, and cupro nickel products for HVAC, plumbing, marine, and industrial applications.",
-      category: "Copper Products",
-      material: "Copper, Cupro Nickel",
-      offers: {
-        priceCurrency: "USD",
-        lowPrice: "20",
-        highPrice: "4000",
-        availability: "https://schema.org/InStock",
-      },
-    },
     speakableContent: {
       headline:
         "Copper Pipes & Tubes - Premium Copper and Cupro Nickel Products",

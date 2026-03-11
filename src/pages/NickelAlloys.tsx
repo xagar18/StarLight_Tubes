@@ -21,19 +21,6 @@ const NickelAlloys = () => {
         url: "https://www.starlighttubes.com/nickel-alloys",
       },
     ],
-    productSchema: {
-      name: "Nickel Alloy Pipes - Nickel 200, Monel, Hastelloy",
-      description:
-        "Premium nickel alloy pipes including Nickel 200, Nickel 201, Monel 400, Monel K500, Hastelloy for high-temperature and corrosive environments.",
-      category: "Nickel Alloy Pipes",
-      material: "Nickel Alloy",
-      offers: {
-        priceCurrency: "USD",
-        lowPrice: "50",
-        highPrice: "8000",
-        availability: "https://schema.org/InStock",
-      },
-    },
     speakableContent: {
       headline: "Nickel Alloy Pipes - Nickel 200, Monel, Hastelloy",
       summary:

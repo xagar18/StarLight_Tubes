@@ -53,19 +53,6 @@ const Fittings = () => {
       { name: "Home", url: "https://www.starlighttubes.com/" },
       { name: "Fittings", url: "https://www.starlighttubes.com/fittings" },
     ],
-    productSchema: {
-      name: "Pipe Fittings - Elbows, Tees, Reducers, Flanges",
-      description:
-        "High-quality pipe fittings including elbows, tees, reducers, flanges in stainless steel, carbon steel, and alloy steel. ASME, ASTM standards.",
-      category: "Pipe Fittings",
-      material: "Stainless Steel, Carbon Steel, Alloy Steel",
-      offers: {
-        priceCurrency: "USD",
-        lowPrice: "5",
-        highPrice: "2000",
-        availability: "https://schema.org/InStock",
-      },
-    },
     speakableContent: {
       headline: "Pipe Fittings & Flanges - Elbows, Tees, Reducers",
       summary:

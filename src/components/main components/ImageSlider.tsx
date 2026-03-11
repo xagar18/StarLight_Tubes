@@ -1,28 +1,24 @@
 "use client";
 import { motion } from "motion/react";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Link } from "react-router";
 import { ImagesSlider } from "../ui/images-slider";
 
 const CLOUD_NAME = "dtdardvqm";
 
+function getResponsiveWidth() {
+  const w = window.innerWidth;
+  if (w < 640) return 480;
+  if (w < 1024) return 1024;
+  return 1600;
+}
+
 const getImageUrl = (publicId: string, width: number) =>
-  `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/f_auto,q_70,w_${width},c_fill/${publicId}`;
+  `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/f_auto,q_60,w_${width},c_fill/${publicId}`;
 
 export function ImagesSliderDemo() {
-  const [imgWidth, setImgWidth] = useState(1600);
+  const imgWidth = useMemo(getResponsiveWidth, []);
 
-  /* Decide image width ONCE */
-  useEffect(() => {
-    const w = window.innerWidth;
-    if (w < 640)
-      setImgWidth(480); // mobile
-    else if (w < 1024)
-      setImgWidth(1024); // tablet
-    else setImgWidth(1600); // desktop
-  }, []);
-
-  /* Images generated only once */
   const images = useMemo(
     () => [
       getImageUrl("Home_aaq22e", imgWidth),

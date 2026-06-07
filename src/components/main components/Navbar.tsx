@@ -52,19 +52,16 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <a
+            <NavbarButton
               href="/Catalogue.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              variant="primary"
+              className="px-6 py-2.5 text-sm font-semibold tracking-wide"
               aria-label="Download Starlight Tubes Product Catalogue PDF"
             >
-              <NavbarButton
-                variant="primary"
-                className="px-6 py-2.5 text-sm font-semibold tracking-wide"
-              >
-                Catalogue
-              </NavbarButton>
-            </a>
+              Catalogue
+            </NavbarButton>
           </div>
         </NavBody>
 
@@ -90,21 +87,18 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
               </Link>
             ))}
             <div className="flex w-full flex-col gap-4">
-              <a
-                href="/Catalogue.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Download Starlight Tubes Product Catalogue PDF"
-                className="w-full"
-              >
-                <NavbarButton
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  variant="primary"
-                  className="w-full px-6 py-3 text-sm font-semibold tracking-wide"
-                >
-                  Catalogue
-                </NavbarButton>
-              </a>
+              
+            <NavbarButton
+              href="/Catalogue.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="primary"
+              className="w-full px-6 py-3 text-sm font-semibold tracking-wide"
+              onClick={() => setIsMobileMenuOpen(false)}
+              aria-label="Download Starlight Tubes Product Catalogue PDF"
+            >
+              Catalogue
+            </NavbarButton>
             </div>
           </MobileNavMenu>
         </MobileNav>

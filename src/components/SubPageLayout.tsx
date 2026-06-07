@@ -243,7 +243,7 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
             aria-label="Breadcrumb"
             className="w-full max-w-6xl mx-auto px-4 mt-6"
           >
-            <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
+            <ol className="py-2 flex flex-wrap items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
               {seo.breadcrumbs.map((crumb, index) => (
                 <li key={crumb.url} className="flex items-center gap-1">
                   {index > 0 && <span className="mx-1">/</span>}

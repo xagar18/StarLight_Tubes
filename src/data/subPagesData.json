@@ -101,15 +101,15 @@
     "projects": [
       {
         "title": "ASTM A671 Pipe",
-        "img": "/carbon-steel-pipe/carbon-steel-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/carbon-steel-pipe_jnhnaq.jpg"
       },
       {
         "title": "ASTM A671 Welded Pipe",
-        "img": "/carbon-steel-pipe/steel-welded-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-welded-pipe_q23u5k.jpg"
       },
       {
         "title": "A671 EFW Pipe",
-        "img": "/carbon-steel-pipe/steel-seamless-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-seamless-pipe_nz7lcg.jpg"
       }
     ],
     "bottomCtaData": {
@@ -227,15 +227,15 @@
     "projects": [
       {
         "title": "ASTM A672 Pipe",
-        "img": "/carbon-steel-pipe/carbon-steel-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/carbon-steel-pipe_jnhnaq.jpg"
       },
       {
         "title": "ASTM A672 Welded Pipe",
-        "img": "/carbon-steel-pipe/steel-welded-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-welded-pipe_q23u5k.jpg"
       },
       {
         "title": "A672 Pipe Material",
-        "img": "/carbon-steel-pipe/steel-seamless-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-seamless-pipe_nz7lcg.jpg"
       }
     ],
     "bottomCtaData": {
@@ -355,15 +355,15 @@
     "projects": [
       {
         "title": "API 5L Grade B Seamless Pipe",
-        "img": "/apl-5L/api-5l-pipe-1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-1_u4tosw.jpg"
       },
       {
         "title": "API 5L Grade b ERW pipe",
-        "img": "/apl-5L/api-5l-pipe-2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-2_kiv7nl.jpg"
       },
       {
         "title": "API 5l Grade B Pipe",
-        "img": "/apl-5L/api-5l-pipe-3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-3_ypf8rw.jpg"
       }
     ],
     "bottomCtaData": {
@@ -481,15 +481,15 @@
     "projects": [
       {
         "title": "API 5L X42 Pipe",
-        "img": "/apl-5L/api-5l-pipe-1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-1_u4tosw.jpg"
       },
       {
         "title": "L290 PSL1 Material",
-        "img": "/apl-5L/api-5l-pipe-2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-2_kiv7nl.jpg"
       },
       {
         "title": "API 5L X42 PSL2",
-        "img": "/apl-5L/api-5l-pipe-3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-3_ypf8rw.jpg"
       }
     ],
     "bottomCtaData": {
@@ -607,15 +607,15 @@
     "projects": [
       {
         "title": "API 5L X52 ERW Pipe",
-        "img": "/apl-5L/api-5l-pipe-1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-1_u4tosw.jpg"
       },
       {
         "title": "API 5L X52 Seamless Pipes",
-        "img": "/apl-5L/api-5l-pipe-2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-2_kiv7nl.jpg"
       },
       {
         "title": "L360 Grade Pipe",
-        "img": "/apl-5L/api-5l-pipe-3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-3_ypf8rw.jpg"
       }
     ],
     "bottomCtaData": {
@@ -733,15 +733,15 @@
     "projects": [
       {
         "title": "API 5L X65 PSL2 Seamless Pipe",
-        "img": "/apl-5L/api-5l-pipe-1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-1_u4tosw.jpg"
       },
       {
         "title": "ISO 3183 grade L450 ERW Pipe",
-        "img": "/apl-5L/api-5l-pipe-2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-2_kiv7nl.jpg"
       },
       {
         "title": "API 5l X65 PSL2 material",
-        "img": "/apl-5L/api-5l-pipe-3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780343432/api-5l-pipe-3_ypf8rw.jpg"
       }
     ],
     "bottomCtaData": {
@@ -861,15 +861,15 @@
     "projects": [
       {
         "title": "ASTM A106 Grade B Pipe",
-        "img": "/carbon-steel-pipe/carbon-steel-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/carbon-steel-pipe_jnhnaq.jpg"
       },
       {
         "title": "SA 106 Gr B Sch 40 ERW Pipe",
-        "img": "/carbon-steel-pipe/steel-welded-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-welded-pipe_q23u5k.jpg"
       },
       {
         "title": "ASTM A106 Seamless Pipe",
-        "img": "/carbon-steel-pipe/steel-seamless-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-seamless-pipe_nz7lcg.jpg"
       }
     ],
     "bottomCtaData": {
@@ -987,15 +987,15 @@
     "projects": [
       {
         "title": "A333 Grade 6 Pipe",
-        "img": "/carbon-steel-pipe/carbon-steel-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/carbon-steel-pipe_jnhnaq.jpg"
       },
       {
         "title": "A333 Low Temp Pipe",
-        "img": "/carbon-steel-pipe/steel-welded-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-welded-pipe_q23u5k.jpg"
       },
       {
         "title": "A333 Grade 6 Seamless Pipe",
-        "img": "/carbon-steel-pipe/steel-seamless-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-seamless-pipe_nz7lcg.jpg"
       }
     ],
     "bottomCtaData": {
@@ -1113,15 +1113,15 @@
     "projects": [
       {
         "title": "ASTM A53 Grade B Pipe",
-        "img": "/carbon-steel-pipe/carbon-steel-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/carbon-steel-pipe_jnhnaq.jpg"
       },
       {
         "title": "SA53 gr b ERW Pipe",
-        "img": "/carbon-steel-pipe/steel-welded-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-welded-pipe_q23u5k.jpg"
       },
       {
         "title": "ASTM A53 Grade B Seamless Pipe",
-        "img": "/carbon-steel-pipe/steel-seamless-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-seamless-pipe_nz7lcg.jpg"
       }
     ],
     "bottomCtaData": {
@@ -1239,15 +1239,15 @@
     "projects": [
       {
         "title": "Aluminium 5052 Sheet",
-        "img": "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780426120/stainless-steel-plate-supplier_jrhw7q.jpg"
       },
       {
         "title": "Aluminium 5052 Plate",
-        "img": "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780426120/stainless-steel-sheet-supplier_rmc2py.jpg"
       },
       {
         "title": "Aluminium 5052 Coil",
-        "img": "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload//stainless-steel-coil-supplier_mdn6nr.jpg"
       }
     ],
     "bottomCtaData": {
@@ -1365,15 +1365,15 @@
     "projects": [
       {
         "title": "Aluminium 6061 Pipe",
-        "img": "/alumininum-pipe/aluminium-pipes.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427279/aluminium-pipes_qdqlzm.jpg"
       },
       {
         "title": "Aluminium 6061 Sheet",
-        "img": "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780426120/stainless-steel-plate-supplier_jrhw7q.jpg"
       },
       {
         "title": "Aluminium 6061 Bar",
-        "img": "/stainless-steel-bar/round-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780134611/round-bar_ar2hq7.jpg"
       }
     ],
     "bottomCtaData": {
@@ -1491,15 +1491,15 @@
     "projects": [
       {
         "title": "Aluminium 6063 Pipe",
-        "img": "/alumininum-pipe/aluminium-pipes.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427279/aluminium-pipes_qdqlzm.jpg"
       },
       {
         "title": "Aluminium 6063 Extrusion",
-        "img": "/aluminium-alloy/aluminum-extrusion.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427461/aluminum-extrusion_g1ineb.jpg"
       },
       {
         "title": "Aluminium 6063 Profile",
-        "img": "/aluminium-alloy/aluminum-profile.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427461/aluminum-profile_jo39ky.jpg"
       }
     ],
     "bottomCtaData": {
@@ -1617,15 +1617,15 @@
     "projects": [
       {
         "title": "Aluminium 7075 Plate",
-        "img": "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780426120/stainless-steel-sheet-supplier_rmc2py.jpg"
       },
       {
         "title": "Aluminium 7075 Bar",
-        "img": "/stainless-steel-bar/round-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780134611/round-bar_ar2hq7.jpg"
       },
       {
         "title": "Aluminium 7075 Sheet",
-        "img": "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780426120/stainless-steel-plate-supplier_jrhw7q.jpg"
       }
     ],
     "bottomCtaData": {
@@ -1742,15 +1742,15 @@
     "projects": [
       {
         "title": "Aluminium Coil",
-        "img": "/aluminium-coils/aluminum-coil.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780427695/aluminum-coil_q6tenn.jpg"
       },
       {
         "title": "Aluminium Strip Coil",
-        "img": "/aluminium-coils/aluminium-strip.png"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780427695/aluminium-strip_u2yuay.png"
       },
       {
         "title": "Aluminium Foil Coil",
-        "img": "aluminium-coils/aluminium-foil.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780427694/aluminium-foil_hsrxmi.jpg"
       }
     ],
     "bottomCtaData": {
@@ -1869,15 +1869,15 @@
     "projects": [
       {
         "title": "Aluminium Pipe",
-        "img": "/alumininum-pipe/aluminium-pipes.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427279/aluminium-pipes_qdqlzm.jpg"
       },
       {
         "title": "Aluminium Seamless Pipe",
-        "img": "/alumininum-pipe/aluminium-seamless-pipes.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427280/aluminium-seamless-pipes_lkuwg8.jpg"
       },
       {
         "title": "Aluminium Tube",
-        "img": "/alumininum-pipe/aluminium-tubes.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427280/aluminium-tubes_efbiwh.jpg"
       }
     ],
     "bottomCtaData": {
@@ -1910,7 +1910,7 @@
           "url": "https://www.starlighttubes.com/aluminium"
         },
         {
-          "name": "Aluminium Round Bar",
+          "name": "Aluminium Bar",
           "url": "https://www.starlighttubes.com/aluminium-bar"
         }
       ],
@@ -1955,18 +1955,18 @@
       "pageSchemaType": "ItemPage"
     },
     "pageHero": {
-      "title": "Aluminium Round Bars",
-      "subtitle": "Premium quality aluminium round bars for industrial applications"
+      "title": "Aluminium Bars",
+      "subtitle": "Premium quality aluminium bars for industrial applications"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
-      "heading": "Aluminium Round Bars",
-      "description": "Premium quality aluminium round bars for aerospace, automotive, and construction applications"
+      "heading": "Aluminium Bars",
+      "description": "Premium quality aluminium bars for aerospace, automotive, and construction applications"
     },
     "ctaData": {
-      "title": "Premium Aluminium Round Bars",
-      "paragraph1": "Starlight Tubes supplies high-quality aluminium round bars that offer excellent strength-to-weight ratio, corrosion resistance, and machinability. Our aluminium bars are ideal for aerospace, automotive, construction, and various industrial applications.",
-      "paragraph2": "Available in various alloys and tempers, our aluminium round bars are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, AMS, and international specifications.",
+      "title": "Premium Aluminium Bars",
+      "paragraph1": "Starlight Tubes supplies high-quality aluminium bars that offer excellent strength-to-weight ratio, corrosion resistance, and machinability. Our aluminium bars are ideal for aerospace, automotive, construction, and various industrial applications.",
+      "paragraph2": "Available in various alloys and tempers, our aluminium bars are manufactured using premium grade raw materials and undergo rigorous quality testing to ensure compliance with ASTM, AMS, and international specifications.",
       "specifications": [
         {
           "label": "Grades",
@@ -1994,15 +1994,15 @@
     "projects": [
       {
         "title": "Aluminium Round Bar",
-        "img": "/stainless-steel-bar/round-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780134611/round-bar_ar2hq7.jpg"
       },
       {
         "title": "Aluminium Hex Bar",
-        "img": "/stainless-steel-bar/hex-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780136438/hex-bar_lkyigc.jpg"
       },
       {
         "title": "Aluminium Square Bar",
-        "img": "/stainless-steel-bar/square-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780136439/square-bar_azufrf.jpg"
       }
     ],
     "bottomCtaData": {
@@ -2120,15 +2120,15 @@
     "projects": [
       {
         "title": "Aluminium Sheet",
-        "img": "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780426120/stainless-steel-plate-supplier_jrhw7q.jpg"
       },
       {
         "title": "Aluminium Plate",
-        "img": "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780426120/stainless-steel-sheet-supplier_rmc2py.jpg"
       },
       {
         "title": "Aluminium Coil",
-        "img": "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload//stainless-steel-coil-supplier_mdn6nr.jpg"
       }
     ],
     "bottomCtaData": {
@@ -2246,15 +2246,15 @@
     "projects": [
       {
         "title": "Butt Weld Fittings",
-        "img": "/pipe-fittings/buttweld-fitting.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780472105/buttweld-fitting_zjf4kz.jpg"
       },
       {
         "title": "Butt Weld Elbow",
-        "img": "/pipe-fittings/pipe-fittings.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780472106/pipe-fittings_hfuxu5.jpg"
       },
       {
         "title": "Butt Weld Tee",
-        "img": "/pipe-fittings/butt-weld-tee.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780472105/butt-weld-tee_lxszer.jpg"
       }
     ],
     "bottomCtaData": {
@@ -2372,15 +2372,15 @@
     "projects": [
       {
         "title": "Cap Fittings",
-        "img": "/cap-fittings/cap-fitting.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427298/cap-fitting_ke0acd.jpg"
       },
       {
         "title": "Pipe Cap",
-        "img": "/cap-fittings/cap-fitting.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427298/cap-fitting_ke0acd.jpg"
       },
       {
         "title": "End Cap",
-        "img": "/cap-fittings/end-cap.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780427298/end-cap_h8v9zy.jpg"
       }
     ],
     "bottomCtaData": {
@@ -2500,15 +2500,15 @@
     "projects": [
       {
         "title": "Carbon Steel Pipe",
-        "img": "/carbon-steel-pipe/carbon-steel-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/carbon-steel-pipe_jnhnaq.jpg"
       },
       {
         "title": "Carbon Steel Welded Pipe",
-        "img": "/carbon-steel-pipe/steel-welded-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-welded-pipe_q23u5k.jpg"
       },
       {
         "title": "Carbon Steel Seamless Pipe",
-        "img": "/carbon-steel-pipe/steel-seamless-pipe.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780248587/steel-seamless-pipe_nz7lcg.jpg"
       }
     ],
     "bottomCtaData": {
@@ -2626,15 +2626,15 @@
     "projects": [
       {
         "title": "Copper Elbow Fittings",
-        "img": "/copper-fittings/copper-elbow-fittings.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781105461/copper-elbow-fittings_tiowlk.jpg  "
       },
       {
         "title": "Copper Tee Fittings",
-        "img": "/copper-fittings/copper-tee.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781105461/copper-tee_vmbexu.jpg"
       },
       {
         "title": "Copper Coupling Fittings",
-        "img": "/copper-fittings/copper-coupling.webp"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781105460/copper-coupling_kgqlfa.webp"
       }
     ],
     "bottomCtaData": {
@@ -2752,15 +2752,15 @@
     "projects": [
       {
         "title": "Copper Nickel Pipe",
-        "img": "/copper-pipe/copper-pipe-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781105597/copper-pipe-supplier1_jhlzos.jpg"
       },
       {
         "title": "Copper Nickel Welded Pipe",
-        "img": "/copper-pipe/copper-pipe-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781105597/copper-pipe-supplier3_b8u94t.jpg"
       },
       {
         "title": "Copper Nickel Seamless Pipe",
-        "img": "/copper-pipe/copper-pipe-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781107475/copper-pipe-supplier3_ejzgci.jpg"
       }
     ],
     "bottomCtaData": {
@@ -2877,15 +2877,15 @@
     "projects": [
       {
         "title": "Copper Nickel Tube",
-        "img": "/copper-tube/copper-tube-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781107590/copper-tube-supplier1_oavfyg.jpg"
       },
       {
         "title": "Copper Nickel Coil Tubing",
-        "img": "/copper-tube/copper-tube-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781107591/copper-tube-supplier2_fgd5zw.jpg"
       },
       {
         "title": "Copper Nickel Tubing",
-        "img": "/copper-tube/copper-tube-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781107591/copper-tube-supplier3_swpea0.jpg"
       }
     ],
     "bottomCtaData": {
@@ -3004,15 +3004,15 @@
     "projects": [
       {
         "title": "Copper Pipe",
-        "img": "/copper-pipe/copper-pipe-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781108069/copper-pipe_e3nu88.jpg"
       },
       {
         "title": "Copper Welded Pipe",
-        "img": "/copper-pipe/copper-pipe-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781108068/copper-welded-pipe_qkdbdi.jpg"
       },
       {
         "title": "Copper Seamless Pipe",
-        "img": "/copper-pipe/copper-pipe-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781108069/copper-nickel-seamless_immep4.jpg"
       }
     ],
     "bottomCtaData": {
@@ -3045,14 +3045,14 @@
           "url": "https://www.starlighttubes.com/copper"
         },
         {
-          "name": "Copper Round Bar",
+          "name": "Copper Bar",
           "url": "https://www.starlighttubes.com/copper-bar"
         }
       ],
       "productSchema": {
-        "name": "Copper Round Bars",
-        "description": "Premium quality copper round bars with excellent electrical conductivity, thermal conductivity, and corrosion resistance for diverse industrial applications.",
-        "category": "Copper Products > Copper Round Bars",
+        "name": "Copper Bars",
+        "description": "Premium quality copper bars with excellent electrical conductivity, thermal conductivity, and corrosion resistance for diverse industrial applications.",
+        "category": "Copper Products > Copper Bars",
         "material": "Copper (C10100, C10200, C11000, C12200, C70600, C71500)",
         "brand": "Starlight Tubes",
         "offers": {
@@ -3061,8 +3061,8 @@
         }
       },
       "speakableContent": {
-        "headline": "Copper Round Bars - High Conductivity Grade",
-        "summary": "Starlight Tubes supplies copper round bars for electrical, machining, and industrial applications. High conductivity bars available in C10100, C11000 grades per ASTM B187 standards."
+        "headline": "Copper Bars - High Conductivity Grade",
+        "summary": "Starlight Tubes supplies copper bars for electrical, machining, and industrial applications. High conductivity bars available in C10100, C11000 grades per ASTM B187 standards."
       },
       "featuredSnippet": {
         "type": "paragraph",
@@ -3091,18 +3091,18 @@
       "pageSchemaType": "ItemPage"
     },
     "pageHero": {
-      "title": "Copper Round Bars",
-      "subtitle": "Premium quality copper round bars for industrial applications"
+      "title": "Copper Bars",
+      "subtitle": "Premium quality copper bars for industrial applications"
     },
     "sectionHeader": {
       "badgeColor": "amber",
-      "heading": "Copper Round Bars",
-      "description": "Premium quality copper round bars manufactured to meet international standards for diverse industrial applications"
+      "heading": "Copper Bars",
+      "description": "Premium quality copper bars manufactured to meet international standards for diverse industrial applications"
     },
     "ctaData": {
-      "title": "Premium Copper Round Bars",
-      "paragraph1": "Starlight Tubes supplies high-quality copper round bars that offer excellent electrical conductivity, thermal conductivity, and corrosion resistance. Our copper bars are ideal for electrical applications, heat exchangers, and various industrial uses.",
-      "paragraph2": "Available in various grades and dimensions, our copper round bars are manufactured using premium grade raw materials and undergo rigorous quality testing. We provide customized solutions with precise dimensions to meet your specific project requirements.",
+      "title": "Premium Copper Bars",
+      "paragraph1": "Starlight Tubes supplies high-quality copper bars that offer excellent electrical conductivity, thermal conductivity, and corrosion resistance. Our copper bars are ideal for electrical applications, heat exchangers, and various industrial uses.",
+      "paragraph2": "Available in various grades and dimensions, our copper bars are manufactured using premium grade raw materials and undergo rigorous quality testing. We provide customized solutions with precise dimensions to meet your specific project requirements.",
       "specifications": [
         {
           "label": "Grades",
@@ -3130,20 +3130,20 @@
     "projects": [
       {
         "title": "Copper Round Bar",
-        "img": "/copper-bar/copper-round-bar-suppliers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781108452/copper-round-bar-suppliers_m7wpms.jpg"
       },
       {
         "title": "Copper Hex Bar",
-        "img": "/copper-bar/copper-hex-bar-suppliers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781108451/copper-hex-bar-suppliers_fhnbka.jpg"
       },
       {
         "title": "Copper Square Bar",
-        "img": "/copper-bar/copper-square-bar-suppliers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781108452/copper-square-bar-suppliers_qc9yo5.jpg"
       }
     ],
     "bottomCtaData": {
-      "title": "Your Trusted Copper Round Bar Supplier",
-      "description": "Starlight Tubes delivers premium copper round bars with unmatched quality and reliability. We ensure timely delivery and competitive pricing for all your industrial copper requirements.",
+      "title": "Your Trusted Copper Bar Supplier",
+      "description": "Starlight Tubes delivers premium copper bars with unmatched quality and reliability. We ensure timely delivery and competitive pricing for all your industrial copper requirements.",
       "features": [
         "ISO 9001:2015 Certified",
         "Full Material Traceability",
@@ -3256,15 +3256,15 @@
     "projects": [
       {
         "title": "Copper sheet",
-        "img": "/copper-sheet/copper-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781108745/copper-sheet-supplier_ozkekj.jpg"
       },
       {
         "title": "Copper Coil Tubing",
-        "img": "/copper-sheet/copper-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781108744/copper-coil-supplier_jsirsl.jpg"
       },
       {
         "title": "Copper Plate",
-        "img": "/copper-sheet/copper-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781108744/copper-plate-supplier_euudvk.jpg"
       }
     ],
     "bottomCtaData": {
@@ -3382,15 +3382,15 @@
     "projects": [
       {
         "title": "Copper Tube",
-        "img": "/copper-tube/copper-tube-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781109393/copper-tube_2_ulj5og.jpg"
       },
       {
         "title": "Copper Coil Tubing",
-        "img": "/copper-tube/copper-tube-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781109187/copper-coil-tubing_qpmh4i.png"
       },
       {
         "title": "Copper Heat Exchanger Tube",
-        "img": "/copper-tube/copper-tube-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781109153/copper-heat-exchanger-tube_mbiwze.jpg"
       }
     ],
     "bottomCtaData": {
@@ -3508,15 +3508,15 @@
     "projects": [
       {
         "title": "Coupling Fittings",
-        "img": "/coupling-fittings/coupling-fitting.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781114418/coupling-fitting_pvigrh.jpg"
       },
       {
         "title": "Full Coupling",
-        "img": "/coupling-fittings/full-coupling.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781114419/full-coupling_fnnr9t.jpg"
       },
       {
         "title": "Half Coupling",
-        "img": "/coupling-fittings/half-coupling.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781114418/half-coupling_or3xcz.jpg"
       }
     ],
     "bottomCtaData": {
@@ -3610,15 +3610,15 @@
     "projects": [
       {
         "title": "Cupro Nickel 70/30 Pipe",
-        "img": "/copper-pipe/copper-pipe-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781117420/cupro-nickel-70-30-pipe_muui8n.jpg"
       },
       {
         "title": "Cupro Nickel 70/30 Tube",
-        "img": "/copper-pipe/copper-pipe-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781117615/cupro-nickel-70-30-tube_hhholp.jpg"
       },
       {
         "title": "Cupro Nickel 70/30 Fittings",
-        "img": "/cupro-nickel-90/cupro-nickel-90-10-fittings.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781117419/cupro-nickel-70-30-fittings_jclv1h.jpg"
       }
     ],
     "bottomCtaData": {
@@ -3735,15 +3735,15 @@
     "projects": [
       {
         "title": "Cupro Nickel 90/10 Pipe",
-        "img": "/copper-pipe/copper-pipe-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781107475/copper-pipe-supplier3_ejzgci.jpg"
       },
       {
         "title": "Cupro Nickel 90/10 Tube",
-        "img": "/copper-pipe/copper-pipe-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781119265/copper-pipe-supplier2_mt4z1j.jpg"
       },
       {
         "title": "Cupro Nickel 90/10 Fittings",
-        "img": "/cupro-nickel-90/cupro-nickel-90-10-fittings.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781119366/cupro-nickel-90-10-fittings_wwybc3.jpg"
       }
     ],
     "bottomCtaData": {
@@ -3863,15 +3863,15 @@
     "projects": [
       {
         "title": "Elbow Fittings",
-        "img": "/socket-weld/socket-elbow.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781119503/socket-elbow_gcbjrd.jpg"
       },
       {
         "title": "90\u00b0 Elbow",
-        "img": "/elbows/90-degree-elbow.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781119515/90-degree-elbow_ngtuwr.jpg"
       },
       {
         "title": "45\u00b0 Elbow",
-        "img": "/elbows/45-degree-elbow.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781119515/45-degree-elbow_ntkanq.jpg"
       }
     ],
     "bottomCtaData": {
@@ -3992,15 +3992,15 @@
     "projects": [
       {
         "title": "Weld Neck Flange",
-        "img": "/pipe-fittings/flanges.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781119723/flanges_dkaw2h.jpg"
       },
       {
         "title": "Slip On Flange",
-        "img": "/flanges/slip-on.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781119698/slip-on_eysh1l.jpg"
       },
       {
         "title": "Blind Flange",
-        "img": "/flanges/blind.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781119697/blind_mfncme.jpg"
       }
     ],
     "bottomCtaData": {
@@ -4118,15 +4118,15 @@
     "projects": [
       {
         "title": "Inconel 600 Pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781119812/inconel-pipe-supplier1_xs8xoe.jpg"
       },
       {
         "title": "Alloy 600 Welded Pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781119813/inconel-pipe-supplier2_vefcbp.jpg"
       },
       {
         "title": "Inconel 600 Seamless Pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781119814/inconel-pipe-supplier3_tozheq.jpg"
       }
     ],
     "bottomCtaData": {
@@ -4244,15 +4244,15 @@
     "projects": [
       {
         "title": "Inconel 600 Plate",
-        "img": "/inconel-plate/inconel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781119930/inconel-sheet-supplier_hkyvzj.jpg"
       },
       {
         "title": "Inconel 600 Sheet",
-        "img": "/inconel-plate/inconel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781119928/inconel-plate-supplier_btt6bq.jpg"
       },
       {
         "title": "Inconel 600 Coil",
-        "img": "/inconel-plate/inconel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781119927/inconel-coil-supplier_okacm4.jpg"
       }
     ],
     "bottomCtaData": {
@@ -4372,15 +4372,15 @@
     "projects": [
       {
         "title": "Inconel 625 Pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781120188/inconel-625-pipe_nok8dt.jpg"
       },
       {
         "title": "Alloy 625 Welded Pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781159020/inconel-625-welded_gyysc4.jpg"
       },
       {
         "title": "Inconel 625 Seamless Pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781159021/inconel-625-seamless_ma8iha.jpg"
       }
     ],
     "bottomCtaData": {
@@ -4498,15 +4498,15 @@
     "projects": [
       {
         "title": "Inconel 625 Plate",
-        "img": "/inconel-plate/inconel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781194960/Inconel_625_Sheets_Plates_Supplier_Exporter_in_India_nn1oul.jpg"
       },
       {
         "title": "Inconel 625 Sheet",
-        "img": "/inconel-plate/inconel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781194960/inconel-625_mdmk3n.jpg"
       },
       {
         "title": "Inconel 625 Coil",
-        "img": "/inconel-plate/inconel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781195130/inconel-625-coil_w7gc4q.jpg"
       }
     ],
     "bottomCtaData": {
@@ -4624,15 +4624,15 @@
     "projects": [
       {
         "title": "Inconel Alloy 625 Tube",
-        "img": "/inconel-625-tubing/inconel-625-tube-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781195601/inconel-625-tube-supplier_h4eris.jpg"
       },
       {
         "title": "Inconel 625 Seamless Tube",
-        "img": "/inconel-625-tubing/inconel-625-seamless-tube-suppliers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781195601/inconel-625-seamless-tube-suppliers_lgr977.jpg"
       },
       {
         "title": "Inconel 625 Tubing",
-        "img": "/inconel-625-tubing/alloy-625-tubing-suppliers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781195601/alloy-625-tubing-suppliers_esq0ha.jpg"
       }
     ],
     "bottomCtaData": {
@@ -4750,15 +4750,15 @@
     "projects": [
       {
         "title": "Inconel Bolts",
-        "img": "/stainless-steel-fasteners/bolts-stud-bolts-manufacturers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781196037/bolts-stud-bolts-manufacturers_yvccf0.jpg"
       },
       {
         "title": "Inconel Fasteners",
-        "img": "/stainless-steel-fasteners/fasteners-nuts-bolts-manufacturer-india.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781196038/fasteners-nuts-bolts-manufacturer-india_khmhpy.jpg"
       },
       {
         "title": "Inconel Nuts",
-        "img": "/stainless-steel-fasteners/nut-nuts-manufacturers-india.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781196038/nut-nuts-manufacturers-india_hqhptj.jpg"
       }
     ],
     "bottomCtaData": {
@@ -4878,15 +4878,15 @@
     "projects": [
       {
         "title": "Inconel pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781196843/inconel-pipe_bqenip.jpg"
       },
       {
         "title": "Welded Pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781196843/inconel-welded-pipe_p1o8hi.jpg"
       },
       {
         "title": "Seamless Pipe",
-        "img": "/inconel-pipe/inconel-pipe-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781196843/inconel-seamless_in6kzx.jpg"
       }
     ],
     "bottomCtaData": {
@@ -5004,15 +5004,15 @@
     "projects": [
       {
         "title": "Plate",
-        "img": "/inconel-plate/inconel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781197309/inconel-plate_sncf9b.jpg"
       },
       {
         "title": "Sheet",
-        "img": "/inconel-plate/inconel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781197309/inconel-sheet_zjqgam.jpg"
       },
       {
         "title": "Coil",
-        "img": "/inconel-plate/inconel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781197308/inconel-coil_asofpu.jpg"
       }
     ],
     "bottomCtaData": {
@@ -5028,11 +5028,11 @@
       ]
     }
   },
-  {
+  { 
     "slug": "inconel-bar",
     "seo": {
       "title": "Inconel Bar Manufacturer | Starlight Tubes",
-      "description": "Inconel 625, 718, 600 round bar manufacturer & exporter. Superalloy bars for aerospace, oil & gas & chemical processing.",
+      "description": "Inconel 625, 718, 600 bar manufacturer & exporter. Superalloy bars for aerospace, oil & gas & chemical processing.",
       "keywords": "inconel round bar manufacturer, inconel bar exporter, inconel 600 round bar supplier, inconel 625 bar manufacturer, inconel 718 bar exporter India, aerospace inconel bar manufacturer, marine grade inconel bar supplier, ASTM B166 inconel bar, inconel round bar UAE, inconel bar Saudi Arabia, high temperature alloy bar manufacturer",
       "url": "https://www.starlighttubes.com/inconel-bar",
       "breadcrumbs": [
@@ -5045,13 +5045,13 @@
           "url": "https://www.starlighttubes.com/inconel"
         },
         {
-          "name": "Inconel Round Bar",
+          "name": "Inconel Bar",
           "url": "https://www.starlighttubes.com/inconel-bar"
         }
       ],
       "productSchema": {
-        "name": "Inconel Alloy Round Bar",
-        "description": "Premium quality Inconel alloy round bars (600, 625, 718 grades) manufactured to ASTM B166 standards for aerospace, marine, and high-temperature industrial applications.",
+        "name": "Inconel Alloy Bar",
+        "description": "Premium quality Inconel alloy bars (600, 625, 718 grades) manufactured to ASTM B166 standards for aerospace, marine, and high-temperature industrial applications.",
         "category": "Inconel Alloy Products",
         "material": "Inconel 600, 601, 617, 625, 718, 725, X-750",
         "offers": {
@@ -5060,8 +5060,8 @@
         }
       },
       "speakableContent": {
-        "headline": "Inconel Round Bar - High Performance Nickel Alloy Bars",
-        "summary": "Starlight Tubes supplies Inconel round bars in grades 600, 625, and 718 with exceptional high-temperature strength for aerospace fasteners, gas turbine components, and nuclear applications."
+        "headline": "Inconel Bar - High Performance Nickel Alloy Bars",
+        "summary": "Starlight Tubes supplies Inconel bars in grades 600, 625, and 718 with exceptional high-temperature strength for aerospace fasteners, gas turbine components, and nuclear applications."
       },
       "featuredSnippet": {
         "type": "paragraph",
@@ -5080,12 +5080,12 @@
       ],
       "faqSchema": [
         {
-          "question": "What is Inconel 718 round bar used for?",
-          "answer": "Inconel 718 round bars are primarily used for aerospace fasteners, gas turbine discs, rocket motor components, and nuclear reactor parts due to their exceptional strength up to 1300\u00b0F and resistance to creep deformation."
+          "question": "What is Inconel 718 bar used for?",
+          "answer": "Inconel 718 bars are primarily used for aerospace fasteners, gas turbine discs, rocket motor components, and nuclear reactor parts due to their exceptional strength up to 1300\u00b0F and resistance to creep deformation."
         },
         {
-          "question": "What finishes are available for Inconel round bars?",
-          "answer": "Inconel round bars are available in hot rolled, cold drawn, centerless ground, peeled, black, and bright finishes to meet various machining and application requirements."
+          "question": "What finishes are available for Inconel bars?",
+          "answer": "Inconel bars are available in hot rolled, cold drawn, centerless ground, peeled, black, and bright finishes to meet various machining and application requirements."
         }
       ],
       "pageSchemaType": "ItemPage"
@@ -5130,15 +5130,15 @@
     "projects": [
       {
         "title": "Inconel Round Bar",
-        "img": "/stainless-steel-bar/round-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781197656/inconel-round-bar_exdjgc.jpg"
       },
       {
         "title": "Inconel Hex Bar",
-        "img": "/stainless-steel-bar/hex-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781197656/inconel-hex-bar_n1p8tm.jpg"
       },
       {
         "title": "Inconel Square Bar",
-        "img": "/stainless-steel-bar/square-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781197656/inconel-square-bar_wsi1hr.jpg "
       }
     ],
     "bottomCtaData": {
@@ -5257,15 +5257,15 @@
     "projects": [
       {
         "title": "Nickel Alloy Pipes and Tubes",
-        "img": "/nickel-pipe/nickel-alloy-pipe-suppliers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781198007/nickel_uweb3w.jpg"
       },
       {
         "title": "Seamless Nickel Alloy Pipe",
-        "img": "/nickel-pipe/nickel-alloy-tube-suppliers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781198006/nickel-seamless_b1xxus.jpg"
       },
       {
         "title": "Nickel Alloy Tubing",
-        "img": "/nickel-pipe/nickel-alloy-tubing-suppliers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781198006/nickel-welded_k9t9au.jpg"
       }
     ],
     "bottomCtaData": {
@@ -5383,15 +5383,15 @@
     "projects": [
       {
         "title": "Nickel Plate",
-        "img": "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781200308/nickel-plate_f2mqaf.jpg"
       },
       {
         "title": "Nickel Sheet",
-        "img": "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781200309/nickel-sheet_tnshmn.jpg"
       },
       {
         "title": "Nickel Coil",
-        "img": "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781200447/nickel-coil2_xjmncv.png"
       }
     ],
     "bottomCtaData": {
@@ -5486,15 +5486,15 @@
     "projects": [
       {
         "title": "Pipe Fittings",
-        "img": "/pipe-fittings/pipe-fittings.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781238306/pipe-fittins_niziyj.jpg"
       },
       {
         "title": "Butt Weld Fittings",
-        "img": "/pipe-fittings/buttweld-fitting.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781238399/butt-weld_o2gpkm.jpg"
       },
       {
         "title": "Flanges",
-        "img": "/pipe-fittings/flanges.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781238306/pipe-fitting-flanges_xxqerh.jpg"
       }
     ],
     "bottomCtaData": {
@@ -5612,15 +5612,15 @@
     "projects": [
       {
         "title": "Reducer Fittings",
-        "img": "/reducer-fittings/reducer-fitting.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239034/reducer-fitting_xdtkrq.jpg"
       },
       {
         "title": "Concentric Reducer",
-        "img": "/reducer-fittings/concentric-reducer.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239032/concentric-reducer_oqujgz.jpg"
       },
       {
         "title": "Eccentric Reducer",
-        "img": "/reducer-fittings/eccentric-reducer.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781239033/eccentric-reducer_srnsbe.jpg"
       }
     ],
     "bottomCtaData": {
@@ -5738,15 +5738,15 @@
     "projects": [
       {
         "title": "Socket Weld Fittings",
-        "img": "/socket-weld/socket-fittings.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239384/socket-weld_m13zol.jpg"
       },
       {
         "title": "Socket Weld Elbow",
-        "img": "/socket-weld/socket-elbow.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239383/socket-elbow_fnek0x.jpg"
       },
       {
         "title": "Socket Weld Tee",
-        "img": "/socket-weld/socket-tee.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239382/socket-weld-tee_nsh2eo.jpg"
       }
     ],
     "bottomCtaData": {
@@ -5863,15 +5863,15 @@
     "projects": [
       {
         "title": "ASTM A312 TP304",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239618/stainless-steel-pipe-tube-supplier1_vpt1nw.jpg"
       },
       {
         "title": "304 Stainless Steel Tubing",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781239619/stainless-steel-pipe-tube-supplier2_pwhlxl.jpg"
       },
       {
         "title": "304 Stainless Steel Pipe",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239620/stainless-steel-pipe-tube-supplier3_v8pyfl.jpg"
       }
     ],
     "bottomCtaData": {
@@ -5988,15 +5988,15 @@
     "projects": [
       {
         "title": "ASTM A240 Type 304",
-        "img": "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781241162/stainless-steel-plate-supplier_pfhpiq.jpg"
       },
       {
         "title": "Stainless Steel Sheet Type 304",
-        "img": "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781241164/stainless-steel-sheet-supplier_tualeu.jpg"
       },
       {
         "title": "304 Stainless Steel Strip",
-        "img": "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781241162/stainless-steel-coil-supplier_lduzkg.jpg"
       }
     ],
     "bottomCtaData": {
@@ -6113,15 +6113,15 @@
     "projects": [
       {
         "title": "316L Stainless Steel Pipe",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781241433/316l-ss-pipe_rmcmsz.jpg"
       },
       {
         "title": "SA 312 TP316L Seamless Tube",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781241584/316l-seamless-ss-tube_vrbj4t.jpg"
       },
       {
         "title": "ASTM A213 SS TP 316L Stainless Steel Tubing",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781241582/316l-ss-tubing_jd0uyz.jpg"
       }
     ],
     "bottomCtaData": {
@@ -6238,15 +6238,15 @@
     "projects": [
       {
         "title": "ASTM A240 Stainless Steel 316 Sheet",
-        "img": "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266713/316-ss-sheet_gdmbwu.jpg"
       },
       {
         "title": "316 Stainless Steel Plate",
-        "img": "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266713/316-ss-plate_apso9f.jpg"
       },
       {
         "title": "316L Stainless Steel Coil",
-        "img": "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266713/316-ss-coil_hxkvnc.jpg"
       }
     ],
     "bottomCtaData": {
@@ -6363,15 +6363,15 @@
     "projects": [
       {
         "title": "316 Stainless Steel Tube",
-        "img": "/stainless-steel-tube/stainless-steel-tube-tubing-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266861/stainless-steel-tube-tubing-supplier1_civaiq.jpg"
       },
       {
         "title": "ASTM A312 TP316 Pipe",
-        "img": "/stainless-steel-tube/stainless-steel-tube-tubing-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266861/stainless-steel-tube-tubing-supplier2_g39gnl.jpg"
       },
       {
         "title": "Stainless Steel 316 Pipe",
-        "img": "/stainless-steel-tube/stainless-steel-tube-tubing-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266861/stainless-steel-tube-tubing-supplier3_cmmzxi.jpg"
       }
     ],
     "bottomCtaData": {
@@ -6488,15 +6488,15 @@
     "projects": [
       {
         "title": "Stainless Steel Bolts",
-        "img": "/stainless-steel-fasteners/bolts-stud-bolts-manufacturers.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266973/bolts-stud-bolts-manufacturers_zjm8hr.jpg"
       },
       {
         "title": "Stainless Steel Fasteners",
-        "img": "/stainless-steel-fasteners/fasteners-nuts-bolts-manufacturer-india.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266973/fasteners-nuts-bolts-manufacturer-india_cjgl8a.jpg"
       },
       {
         "title": "Stainless Steel Nuts",
-        "img": "/stainless-steel-fasteners/nut-nuts-manufacturers-india.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781266973/nut-nuts-manufacturers-india_wtq55x.jpg"
       }
     ],
     "bottomCtaData": {
@@ -6614,15 +6614,15 @@
     "projects": [
       {
         "title": "Stainless Steel Pipe",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781267533/ss-pipe_alovsu.jpg"
       },
       {
         "title": "SS ERW Pipe",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781267533/ss-pipe-2_wikqhi.jpg"
       },
       {
         "title": "Stainless Steel Seamless Pipe",
-        "img": "/stainless-steel-pipe/stainless-steel-pipe-tube-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781267533/ss-pipe-3_rarjmv.jpg"
       }
     ],
     "bottomCtaData": {
@@ -6661,7 +6661,7 @@
       ],
       "productSchema": {
         "name": "Stainless Steel Bar",
-        "description": "Premium stainless steel round bars in multiple grades including 303, 304, 316, 321, 410, 420 with various finishes - black, bright, polished, peeled, and centerless ground. ASTM A276/A479 certified.",
+        "description": "Premium stainless steel bars in multiple grades including 303, 304, 316, 321, 410, 420 with various finishes - black, bright, polished, peeled, and centerless ground. ASTM A276/A479 certified.",
         "category": "Stainless Steel Products",
         "material": "Stainless Steel (303, 304, 304L, 316, 316L, 321, 310S, 410, 420, 431, Duplex 2205)",
         "offers": {
@@ -6670,8 +6670,8 @@
         }
       },
       "speakableContent": {
-        "headline": "Stainless Steel Round Bar - Bright & Polished SS Bars",
-        "summary": "Starlight Tubes manufactures premium stainless steel round bars in 304, 316, 410, 420 grades with bright, polished, and centerless ground finishes for precision engineering and machining applications."
+        "headline": "Stainless Steel Bar - Bright & Polished SS Bars",
+        "summary": "Starlight Tubes manufactures premium stainless steel bars in 304, 316, 410, 420 grades with bright, polished, and centerless ground finishes for precision engineering and machining applications."
       },
       "featuredSnippet": {
         "type": "paragraph",
@@ -6689,12 +6689,12 @@
       ],
       "faqSchema": [
         {
-          "question": "What diameter range is available for SS round bars?",
-          "answer": "We supply stainless steel round bars from 6mm to 500mm diameter with lengths up to 6 meters or as per your requirements."
+          "question": "What diameter range is available for SS bars?",
+          "answer": "We supply stainless steel bars from 6mm to 500mm diameter with lengths up to 6 meters or as per your requirements."
         },
         {
           "question": "What finishes do you offer for stainless steel bars?",
-          "answer": "Our SS round bars are available in black, bright, polished, peeled, ground, and centerless ground finishes to suit your application needs."
+          "answer": "Our SS bars are available in black, bright, polished, peeled, ground, and centerless ground finishes to suit your application needs."
         }
       ],
       "pageSchemaType": "ItemPage"
@@ -6739,20 +6739,20 @@
     "projects": [
       {
         "title": "Stainless Steel Round Bar",
-        "img": "/stainless-steel-bar/round-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780134611/round-bar_ar2hq7.jpg"
       },
       {
         "title": "Stainless Steel Hex Bar",
-        "img": "/stainless-steel-bar/hex-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780136438/hex-bar_lkyigc.jpg"
       },
       {
         "title": "Stainless Steel Square Bar",
-        "img": "/stainless-steel-bar/square-bar.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1780136439/square-bar_azufrf.jpg"
       }
     ],
     "bottomCtaData": {
       "title": "Your Trusted SS Bar Supplier",
-      "description": "Starlight Tubes supplies precision stainless steel round bars for machining and fabrication. We offer multiple finishes and grades with full material traceability.",
+      "description": "Starlight Tubes supplies precision stainless steel bars for machining and fabrication. We offer multiple finishes and grades with full material traceability.",
       "features": [
         "ASTM A276 Certified",
         "Bright Finish Available",
@@ -6864,15 +6864,15 @@
     "projects": [
       {
         "title": "Stainless Steel Plate",
-        "img": "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268046/ss-plates_gwkkyn.png"
       },
       {
         "title": "ASTM A240 Stainless Steel Sheet",
-        "img": "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268040/ss-sheets_n8d51m.jpg"
       },
       {
         "title": "Stainless Steel Coil",
-        "img": "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268040/ss-coil_obxwhj.jpg"
       }
     ],
     "bottomCtaData": {
@@ -6991,15 +6991,15 @@
     "projects": [
       {
         "title": "Stainless Steel Tube",
-        "img": "/stainless-steel-tube/stainless-steel-tube-tubing-supplier1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268220/ss-tube-1_c6klep.jpg"
       },
       {
         "title": "Stainless Steel Seamless Tubes",
-        "img": "/stainless-steel-tube/stainless-steel-tube-tubing-supplier2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268220/ss-tube-2_qnkdct.jpg"
       },
       {
         "title": "Stainless Steel Tubing",
-        "img": "/stainless-steel-tube/stainless-steel-tube-tubing-supplier3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268220/ss-tube-3_ssy8xy.jpg"
       }
     ],
     "bottomCtaData": {
@@ -7116,15 +7116,15 @@
     "projects": [
       {
         "title": "Stainless Steel Wire",
-        "img": "/stainless-steel-wire/wire-manufacturer-supplier-1.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268318/wire-manufacturer-supplier-1_ump4pz.jpg"
       },
       {
         "title": "Stainless Steel Welding Wire",
-        "img": "/stainless-steel-wire/wire-manufacturer-supplier-2.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268319/wire-manufacturer-supplier-2_onin1g.jpg"
       },
       {
         "title": "Stainless Steel Wire Mesh",
-        "img": "/stainless-steel-wire/wire-manufacturer-supplier-3.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268319/wire-manufacturer-supplier-3_upympg.jpg"
       }
     ],
     "bottomCtaData": {
@@ -7242,15 +7242,15 @@
     "projects": [
       {
         "title": "Tee Fittings",
-        "img": "/socket-weld/socket-tee.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268668/tee-fitting_slj7pa.jpg"
       },
       {
         "title": "Equal Tee",
-        "img": "/tees/equal-tee.webp"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268517/equal-tee_q64qtk.webp"
       },
       {
         "title": "Reducing Tee",
-        "img": "/tees/reducing-tee.png"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781268518/reducing-tee_n0hjhi.png"
       }
     ],
     "bottomCtaData": {
@@ -7369,15 +7369,15 @@
     "projects": [
       {
         "title": "Threaded Fittings",
-        "img": "/threaded-fittings/thread-fittings.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781292744/thread-fittings_qr7zji.jpg"
       },
       {
         "title": "Threaded Elbow",
-        "img": "/socket-weld/socket-elbow.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239383/socket-elbow_fnek0x.jpg"
       },
       {
         "title": "Threaded Tee",
-        "img": "/socket-weld/socket-tee.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781239382/socket-weld-tee_nsh2eo.jpg"
       }
     ],
     "bottomCtaData": {
@@ -7495,15 +7495,15 @@
     "projects": [
       {
         "title": "Union Fittings",
-        "img": "/union-fittings/union-fittings.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781292861/union-fittings_l5e8ht.jpg"
       },
       {
         "title": "Threaded Union",
-        "img": "/union-fittings/threaded-union.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781292834/threaded-union_ruzs4x.jpg"
       },
       {
         "title": "Socket Weld Union",
-        "img": "/union-fittings/socket-weld-union.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781292834/socket-weld-union_ow0cp4.jpg"
       }
     ],
     "bottomCtaData": {

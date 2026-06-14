@@ -69,7 +69,7 @@ export const Navbar = ({ children, className }: NavbarProps) => {
       ref={ref}
       aria-label="Main navigation"
       // IMPORTANT: Change this to class of `fixed` if you want the navbar to be fixed
-      className={cn("sticky inset-x-0 top-4 z-100 w-full mb-4", className)}
+      className={cn("sticky inset-x-0 top-4 z-100 w-full", className)}
     >
       {React.Children.map(children, (child) =>
         React.isValidElement(child)

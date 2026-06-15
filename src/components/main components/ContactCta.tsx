@@ -1,4 +1,6 @@
 import { Meteors } from "../ui/meteors";
+import { Mail, Linkedin } from "lucide-react";
+
 
 export function ContactCtaParent() {
   return (
@@ -34,12 +36,6 @@ export function ContactCtaParent() {
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-                <strong>Email:</strong> sales@starlighttubes.com
-              </span>
-            </li>
-            <li className="flex items-center gap-2 ">
-              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
-              <span>
                 <strong>GSTIN:</strong> 27DMZPA1125E1Z6
               </span>
             </li>
@@ -49,6 +45,28 @@ export function ContactCtaParent() {
                 <strong>IEC:</strong> DMZPA1125E
               </span>
             </li>
+            <li className="flex items-start gap-2">
+  <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10 mt-2"></span>
+
+  <div>
+    <strong>Email:</strong>{" "}
+    <a href="mailto:sales@starlighttubes.com">
+      sales@starlighttubes.com
+    </a>
+
+    <div className="ml-12">
+      <a href="mailto:exports@starlighttubes.com">
+        exports@starlighttubes.com
+      </a>
+    </div>
+
+    <div className="ml-12">
+      <a href="mailto:inquiry@starlighttubes.com">
+        inquiry@starlighttubes.com
+      </a>
+    </div>
+  </div>
+</li>
           </ul>
 
           <hr className="relative z-50 border-gray-700 my-4" />
@@ -118,6 +136,27 @@ export function ContactCtaParent() {
             </li>
           </ul>
 
+         <div className="w-full flex justify-start mt-6 ml-8">
+  <div className="flex gap-3">
+    <a
+      href="mailto:sales@starlighttubes.com"
+      aria-label="Email"
+      className="rounded-full bg-white/10 p-3 text-white hover:bg-teal-500 transition-colors"
+    >
+      <Mail size={20} />
+    </a>
+
+    <a
+      href="https://www.linkedin.com/company/starlight-tubes"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+      className="rounded-full bg-white/10 p-3 text-white hover:bg-teal-500 transition-colors"
+    >
+      <Linkedin size={20} />
+    </a>
+  </div>
+</div>
           {/* Meaty part - Meteor effect */}
           <Meteors number={30} />
         </div>

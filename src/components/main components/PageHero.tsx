@@ -44,7 +44,7 @@ export function PageHero({
   }
 
   return (
-    <div className="relative top-8 md:h-150 h-120 w-full overflow-hidden">
+    <div className="relative top-8 md:h-[90vh] h-120 w-full overflow-hidden">
       <img
         src={imgProps.src}
         srcSet={imgProps.srcSet}

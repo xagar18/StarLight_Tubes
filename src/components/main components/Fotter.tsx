@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router";
+import {Linkedin, Mail} from "lucide-react";
 
 // Declare Google Translate types
 declare global {
@@ -230,6 +231,16 @@ export default function Footer() {
           path: "mailto:sales@starlighttubes.com",
           external: true,
         },
+        {
+          name: "✉️ exports@starlighttubes.com",
+          path: "mailto:exports@starlighttubes.com",
+          external: true,
+        },
+        {
+          name: "✉️ inquiry@starlighttubes.com",
+          path: "mailto:inquiry@starlighttubes.com",
+          external: true,
+        },
       ],
     },
   ];
@@ -266,7 +277,23 @@ export default function Footer() {
                 Kumbharwada, Mumbai, Maharashtra 400004
               </p>
             </div>
+            <div className="mt-6 flex gap-4" >
+              <a  
+                href="https://www.linkedin.com/company/starlight-tubes"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="text-gray-400 hover:text-purple-400 transition-colors">
+                  <Linkedin size={18} />
+              </a>
+              <a   href="mailto:sales@starlighttubes.com"
+    aria-label="Email us"
+    className="text-gray-400 hover:text-purple-400 transition-colors">
+      <Mail size={18} />
+    </a>
+            </div>
           </div>
+          
 
           {/* Links Sections */}
           {footerSections.map((section, index) => (

@@ -241,7 +241,7 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
         {seo.breadcrumbs && seo.breadcrumbs.length > 0 && (
           <nav
             aria-label="Breadcrumb"
-            className="w-full max-w-6xl mx-auto px-4 mt-6"
+            className="w-full max-w-6xl mx-auto mt-12 px-4"
           >
             <ol className="py-2 flex flex-wrap items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
               {seo.breadcrumbs.map((crumb, index) => (
@@ -268,7 +268,7 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
         <main>
           <article>
             {/* Section Header */}
-            <section className="w-full flex flex-col items-center justify-center mt-16 mb-8 px-4">
+            <section className="w-full flex flex-col items-center justify-center mb-2 px-4">
               <div
                 className={`inline-block px-4 py-2 mb-6 rounded-full ${sectionBadge.bg} ${sectionBadge.border} ${sectionBadge.darkBg || ""} ${sectionBadge.darkBorder || ""}`}
               >
@@ -329,35 +329,68 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
 
         {/* Related Products Section */}
         {relatedProducts.length > 0 && (
-          <aside className="w-full max-w-6xl mx-auto mt-20 mb-12 px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-900 dark:text-white">
-              Related Products
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {relatedProducts.map((product) => (
-                <Link
-                  key={product.slug}
-                  to={`/${product.slug}`}
-                  className="group block rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-5 transition-all duration-300 hover:shadow-lg hover:border-teal-500/50 hover:-translate-y-1"
-                >
-                  {product.projects?.[0]?.img && (
-                    <div className="w-full h-40 rounded-xl overflow-hidden mb-4 bg-gray-100 dark:bg-gray-800">
-                      <img
-                        src={product.projects[0].img}
-                        alt={product.pageHero.title}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                        loading="lazy"
-                      />
+          <aside className="w-full py-16 mt-16 bg-gray-50 dark:bg-gray-900/50 border-t border-gray-200 dark:border-gray-800">
+            <div className="max-w-7xl mx-auto px-4">
+              <div className="flex flex-col items-center justify-center mb-12">
+                <div className="inline-block px-4 py-1.5 mb-4 rounded-full bg-teal-500/10 border border-teal-500/20">
+                  <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold tracking-wide">
+                    Similar Needs?
+                  </span>
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white">
+                  Explore Related Products
+                </h2>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                {relatedProducts.map((product) => (
+                  <Link
+                    key={product.slug}
+                    to={`/${product.slug}`}
+                    className="group flex flex-col bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-xl hover:shadow-teal-500/5 hover:-translate-y-1 transition-all duration-300"
+                  >
+                    {product.projects?.[0]?.img && (
+                      <div className="w-full h-48 overflow-hidden bg-gray-100 dark:bg-gray-800 relative">
+                        <img
+                          src={product.projects[0].img}
+                          alt={product.pageHero.title}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          loading="lazy"
+                        />
+                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+                      </div>
+                    )}
+                    <div className="p-6 flex flex-col flex-grow relative">
+                      <h3 className="text-lg font-bold text-gray-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors mb-2 line-clamp-1">
+                        {product.pageHero.title}
+                      </h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-4 flex-grow">
+                        {product.pageHero.subtitle}
+                      </p>
+
+                      <div className="mt-auto flex items-center text-sm font-semibold text-teal-600 dark:text-teal-400">
+                        View Product
+                        <svg
+                          className="w-4 h-4 ml-1.5 transition-transform group-hover:translate-x-1"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2.5}
+                            d="M14 5l7 7m0 0l-7 7m7-7H3"
+                          />
+                        </svg>
+                      </div>
+
+                      {/* Subtle accent border at the bottom that expands on hover */}
+                      <div className="absolute bottom-0 left-0 h-1 w-0 bg-teal-500 group-hover:w-full transition-all duration-500" />
                     </div>
-                  )}
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">
-                    {product.pageHero.title}
-                  </h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 line-clamp-2">
-                    {product.pageHero.subtitle}
-                  </p>
-                </Link>
-              ))}
+                  </Link>
+                ))}
+              </div>
             </div>
           </aside>
         )}

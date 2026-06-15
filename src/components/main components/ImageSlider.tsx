@@ -4,7 +4,6 @@ import { useMemo } from "react";
 import { Link } from "react-router";
 import { ImagesSlider } from "../ui/images-slider";
 
-const CLOUD_NAME1 = "dtdardvqm";
 const CLOUD_NAME2 = "dbcgs5hik";
 
 function getResponsiveWidth() {
@@ -14,7 +13,7 @@ function getResponsiveWidth() {
   return 1600;
 }
 
-const getImageUrl = (cloudName:string, publicId: string, width: number) =>
+const getImageUrl = (cloudName: string, publicId: string, width: number) =>
   `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_60,w_${width},c_fill/${publicId}`;
 
 export function ImagesSliderDemo() {
@@ -22,12 +21,12 @@ export function ImagesSliderDemo() {
 
   const images = useMemo(
     () => [
-      getImageUrl(CLOUD_NAME2,"hero2_bocnyd", imgWidth),
-      getImageUrl(CLOUD_NAME2,"hero3_ku3i0q", imgWidth),
-      getImageUrl(CLOUD_NAME2,"hero5_tajphx", imgWidth),
-      getImageUrl(CLOUD_NAME2,"hero1_dtl36g", imgWidth),
-      getImageUrl(CLOUD_NAME2,"hero_f1kfj2", imgWidth),
-      getImageUrl(CLOUD_NAME2,"hero4_c03tgk", imgWidth),
+      getImageUrl(CLOUD_NAME2, "hero2_bocnyd", imgWidth),
+      getImageUrl(CLOUD_NAME2, "hero3_ku3i0q", imgWidth),
+      getImageUrl(CLOUD_NAME2, "hero5_tajphx", imgWidth),
+      getImageUrl(CLOUD_NAME2, "hero1_dtl36g", imgWidth),
+      getImageUrl(CLOUD_NAME2, "hero_f1kfj2", imgWidth),
+      getImageUrl(CLOUD_NAME2, "hero4_c03tgk", imgWidth),
     ],
     [imgWidth],
   );

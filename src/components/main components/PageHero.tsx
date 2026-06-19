@@ -15,6 +15,11 @@ function buildCloudinarySrcSet(cloudBase: string, publicId: string) {
   return { src, srcSet, sizes };
 }
 
+function extractPublicId(url : string){
+    const publicId = url.replace(/.*\/upload\/.*\//, "");
+    return(publicId);
+  }
+
 interface PageHeroProps {
   title: string;
   subtitle: string;
@@ -37,16 +42,13 @@ export function PageHero({
  
   let imgProps: { src: string; srcSet?: string; sizes?: string };
   
-  if (isLocalPath) {
+    if (isLocalPath) {
     imgProps = { src: image };
   } else if(isCloudinaryUrl2) {
-    const publicId = isCloudinaryUrl2
-      ? image.replace(/.*\/upload\/[^/]+\//, "")
-      : image;
-    imgProps = buildCloudinarySrcSet(CLOUD_BASE2, publicId);
+    imgProps = buildCloudinarySrcSet(CLOUD_BASE2, extractPublicId(image));
   } else {
     const publicId = isCloudinaryUrl
-      ? image.replace(/.*\/upload\/[^/]+\//, "")
+      ? extractPublicId(image)
       : image;
     imgProps = buildCloudinarySrcSet(CLOUD_BASE, publicId);
   };

@@ -64,7 +64,7 @@
     "pageHero": {
       "title": "ASTM A671 Pipes",
       "subtitle": "Electric fusion welded pipes for pressure service",
-      "image" : "image link"
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/v1781686340/astm-a671_lgyxfd.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -190,7 +190,8 @@
     },
     "pageHero": {
       "title": "ASTM A672 Pipes",
-      "subtitle": "EFW pipes for high-pressure applications"
+      "subtitle": "EFW pipes for high-pressure applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781686799/astm-a672_rke3yc.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -318,7 +319,8 @@
     },
     "pageHero": {
       "title": "API 5L Grade B Pipes",
-      "subtitle": "Line pipes for oil & gas transportation"
+      "subtitle": "Line pipes for oil & gas transportation",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781687031/api-5l-grade-b_roye54.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -444,7 +446,8 @@
     },
     "pageHero": {
       "title": "API 5L X42 Pipes",
-      "subtitle": "High-strength pipeline steel"
+      "subtitle": "High-strength pipeline steel",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781687233/api-5l-x42_y04kbk.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -570,7 +573,8 @@
     },
     "pageHero": {
       "title": "API 5L X52 Pipes",
-      "subtitle": "Premium pipeline pipes for oil & gas"
+      "subtitle": "Premium pipeline pipes for oil & gas",
+      "image": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781687657/api-5l-x52_vma6nq.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -696,7 +700,8 @@
     },
     "pageHero": {
       "title": "API 5L X65 Pipes",
-      "subtitle": "High-grade pipeline steel for demanding applications"
+      "subtitle": "High-grade pipeline steel for demanding applications",
+      "image":"https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781688011/api-5l-x65_k1gtra.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -824,7 +829,8 @@
     },
     "pageHero": {
       "title": "ASTM A106 Pipes",
-      "subtitle": "Seamless carbon steel pipes for high-temperature service"
+      "subtitle": "Seamless carbon steel pipes for high-temperature service",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781725221/astim-106_bwclpl.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -950,7 +956,8 @@
     },
     "pageHero": {
       "title": "ASTM A333 Pipes",
-      "subtitle": "Seamless pipes for low-temperature service"
+      "subtitle": "Seamless pipes for low-temperature service",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781725441/astm-a333_f0viac.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -1076,7 +1083,8 @@
     },
     "pageHero": {
       "title": "ASTM A53 Pipes",
-      "subtitle": "Black & galvanized pipes for mechanical applications"
+      "subtitle": "Black & galvanized pipes for mechanical applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781725591/astm-a53_znamko.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -1202,7 +1210,8 @@
     },
     "pageHero": {
       "title": "Aluminium 5052",
-      "subtitle": "Premium quality Aluminium 5052 alloy for marine applications"
+      "subtitle": "Premium quality Aluminium 5052 alloy for marine applications",
+      "image": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781726003/aluminium-5052_rgvqef.png"   
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -1328,7 +1337,8 @@
     },
     "pageHero": {
       "title": "Aluminium 6061",
-      "subtitle": "Premium quality Aluminium 6061 alloy for industrial applications"
+      "subtitle": "Premium quality Aluminium 6061 alloy for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781726223/aluminium-6061_bajrdc.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -1454,7 +1464,8 @@
     },
     "pageHero": {
       "title": "Aluminium 6063",
-      "subtitle": "Premium quality Aluminium 6063 alloy for architectural applications"
+      "subtitle": "Premium quality Aluminium 6063 alloy for architectural applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781726562/al-6063_e0a7ib.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -1580,7 +1591,8 @@
     },
     "pageHero": {
       "title": "Aluminium 7075",
-      "subtitle": "Premium quality Aluminium 7075 alloy for aerospace applications"
+      "subtitle": "Premium quality Aluminium 7075 alloy for aerospace applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781761579/al-7075_tvskxf.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -1705,7 +1717,8 @@
     },
     "pageHero": {
       "title": "Aluminium Coils",
-      "subtitle": "Premium quality aluminium coils for industrial applications"
+      "subtitle": "Premium quality aluminium coils for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781761733/al-coil_efnxv7.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -1832,7 +1845,8 @@
     },
     "pageHero": {
       "title": "Aluminium Pipes",
-      "subtitle": "Premium quality aluminium pipes for industrial applications"
+      "subtitle": "Premium quality aluminium pipes for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781761873/al-pipes_cd6yya.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -1957,7 +1971,8 @@
     },
     "pageHero": {
       "title": "Aluminium Bars",
-      "subtitle": "Premium quality aluminium bars for industrial applications"
+      "subtitle": "Premium quality aluminium bars for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781762066/al-bars_wz9es5.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -2083,7 +2098,8 @@
     },
     "pageHero": {
       "title": "Aluminium Sheets",
-      "subtitle": "Premium quality aluminium sheets for industrial applications"
+      "subtitle": "Premium quality aluminium sheets for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781762208/al-sheets_gbykdj.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -2209,7 +2225,8 @@
     },
     "pageHero": {
       "title": "Butt Weld Fittings",
-      "subtitle": "Premium quality butt weld fittings for high-pressure applications"
+      "subtitle": "Premium quality butt weld fittings for high-pressure applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781762357/butt-weld-fittings_kfv4ax.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -2335,7 +2352,8 @@
     },
     "pageHero": {
       "title": "Cap Fittings",
-      "subtitle": "Premium quality cap fittings for pipe end sealing"
+      "subtitle": "Premium quality cap fittings for pipe end sealing",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781762806/capp-fittings_stkzve.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -2373,7 +2391,7 @@
     "projects": [
       {
         "title": "Cap Fittings",
-        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/v1780427298/cap-fitting_ke0acd.jpg"
+        "img": "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781762566/cap-fittings_sup6cm.jpg"
       },
       {
         "title": "Pipe Cap",
@@ -2463,7 +2481,8 @@
     },
     "pageHero": {
       "title": "Carbon Steel Pipes",
-      "subtitle": "Seamless & welded pipes for industrial piping"
+      "subtitle": "Seamless & welded pipes for industrial piping",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781763158/carbon-steel-pipe_l3x9n7.png"
     },
     "sectionHeader": {
       "badgeColor": "orange",
@@ -2589,7 +2608,8 @@
     },
     "pageHero": {
       "title": "Copper Fittings",
-      "subtitle": "Premium quality copper fittings for plumbing and industrial applications"
+      "subtitle": "Premium quality copper fittings for plumbing and industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781763285/copper-fittings_gnl307.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -2715,7 +2735,8 @@
     },
     "pageHero": {
       "title": "Copper Nickel Pipes",
-      "subtitle": "Premium quality copper nickel pipes for marine and industrial applications"
+      "subtitle": "Premium quality copper nickel pipes for marine and industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781763480/copper-nickel_tevxug.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -2840,7 +2861,8 @@
     },
     "pageHero": {
       "title": "Copper Nickel Tubes",
-      "subtitle": "Premium quality copper nickel tubes for heat exchangers and marine applications"
+      "subtitle": "Premium quality copper nickel tubes for heat exchangers and marine applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781763748/copper-nickel-tube_sse3qs.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -2967,7 +2989,8 @@
     },
     "pageHero": {
       "title": "Copper Pipes",
-      "subtitle": "Premium quality copper pipes for industrial applications"
+      "subtitle": "Premium quality copper pipes for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781763892/copper-pipes_bbzrcx.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -3093,7 +3116,8 @@
     },
     "pageHero": {
       "title": "Copper Bars",
-      "subtitle": "Premium quality copper bars for industrial applications"
+      "subtitle": "Premium quality copper bars for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781764141/copper-bars_atynyj.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -3219,7 +3243,8 @@
     },
     "pageHero": {
       "title": "Copper Sheets",
-      "subtitle": "Premium quality copper sheets for industrial applications"
+      "subtitle": "Premium quality copper sheets for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781764329/copper-sheets_anopcv.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -3345,7 +3370,8 @@
     },
     "pageHero": {
       "title": "Copper Tubes",
-      "subtitle": "Premium quality copper tubes for HVAC & refrigeration"
+      "subtitle": "Premium quality copper tubes for HVAC & refrigeration",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781764478/copper-tubes_ds308a.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -3471,7 +3497,8 @@
     },
     "pageHero": {
       "title": "Coupling Fittings",
-      "subtitle": "Premium quality coupling fittings for pipe connections"
+      "subtitle": "Premium quality coupling fittings for pipe connections",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781764656/ChatGPT_Image_Jun_18_2026_12_06_07_PM_yjwgf4.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -3573,7 +3600,8 @@
     },
     "pageHero": {
       "title": "Cupro Nickel 70/30",
-      "subtitle": "Premium quality Cupro Nickel 70/30 for demanding marine and industrial applications"
+      "subtitle": "Premium quality Cupro Nickel 70/30 for demanding marine and industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781765342/cupro-nickel-70-30_h6rivt.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -3698,7 +3726,8 @@
     },
     "pageHero": {
       "title": "Cupro Nickel 90/10",
-      "subtitle": "Premium quality Cupro Nickel 90/10 for marine and industrial applications"
+      "subtitle": "Premium quality Cupro Nickel 90/10 for marine and industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781765676/cupro-nickel-90-10_q8pj06.png"
     },
     "sectionHeader": {
       "badgeColor": "amber",
@@ -3826,7 +3855,8 @@
     },
     "pageHero": {
       "title": "Elbow Fittings",
-      "subtitle": "Premium quality elbow fittings for directional flow changes"
+      "subtitle": "Premium quality elbow fittings for directional flow changes",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781765951/elbox-fittings_njdp38.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -3955,7 +3985,8 @@
     },
     "pageHero": {
       "title": "Industrial Flanges",
-      "subtitle": "Premium quality flanges for industrial applications"
+      "subtitle": "Premium quality flanges for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781766137/flanges_ekvsxp.png"
     },
     "sectionHeader": {
       "badgeColor": "green",
@@ -4081,7 +4112,8 @@
     },
     "pageHero": {
       "title": "Inconel 600 Pipes",
-      "subtitle": "Excellent oxidation resistance at high temperatures"
+      "subtitle": "Excellent oxidation resistance at high temperatures",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781800524/ChatGPT_Image_Jun_18_2026_10_02_24_PM_la5xux.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -4207,7 +4239,8 @@
     },
     "pageHero": {
       "title": "Inconel 600 Plates",
-      "subtitle": "Premium Inconel 600 grade plates"
+      "subtitle": "Premium Inconel 600 grade plates",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781800881/inconel-600-plates_rocffk.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -4335,7 +4368,8 @@
     },
     "pageHero": {
       "title": "Inconel 625 Pipes",
-      "subtitle": "Superior strength & corrosion resistance"
+      "subtitle": "Superior strength & corrosion resistance",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781801772/inconel_625_pipes_gha5wi.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -4461,7 +4495,8 @@
     },
     "pageHero": {
       "title": "Inconel 625 Plates",
-      "subtitle": "High-performance plates for critical applications"
+      "subtitle": "High-performance plates for critical applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781802314/ChatGPT_Image_Jun_18_2026_10_34_27_PM_gascql.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -4587,7 +4622,8 @@
     },
     "pageHero": {
       "title": "Inconel 625 Tubing",
-      "subtitle": "Precision tubing for demanding environments"
+      "subtitle": "Precision tubing for demanding environments",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781803440/ChatGPT_Image_Jun_18_2026_10_53_31_PM_bfcwgu.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -4713,7 +4749,8 @@
     },
     "pageHero": {
       "title": "Inconel Bolts",
-      "subtitle": "High-strength fasteners for extreme conditions"
+      "subtitle": "High-strength fasteners for extreme conditions",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781803617/ChatGPT_Image_Jun_18_2026_10_56_37_PM_bt8d5d.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -4841,7 +4878,8 @@
     },
     "pageHero": {
       "title": "Inconel Pipes",
-      "subtitle": "Superalloy pipes for extreme temperatures"
+      "subtitle": "Superalloy pipes for extreme temperatures",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781804128/ChatGPT_Image_Jun_18_2026_11_03_58_PM_db34cr.png"
     },
     "sectionHeader": {
       "badgeColor": "purple",
@@ -4967,7 +5005,8 @@
     },
     "pageHero": {
       "title": "Inconel Plates",
-      "subtitle": "High-performance plates for demanding applications"
+      "subtitle": "High-performance plates for demanding applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781804418/inconel-plates_skmxoj.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -5093,7 +5132,8 @@
     },
     "pageHero": {
       "title": "Inconel Bars",
-      "subtitle": "Precision bars for aerospace & industrial use"
+      "subtitle": "Precision bars for aerospace & industrial use",
+      "image" :"https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781804760/inconel-bars_u7m0gw.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -5220,7 +5260,8 @@
     },
     "pageHero": {
       "title": "Nickel Pipes",
-      "subtitle": "High purity nickel pipes for corrosive environments"
+      "subtitle": "High purity nickel pipes for corrosive environments",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781805101/ChatGPT_Image_Jun_18_2026_11_20_46_PM_kbn5ck.png"
     },
     "sectionHeader": {
       "badgeColor": "purple",
@@ -5346,7 +5387,8 @@
     },
     "pageHero": {
       "title": "Nickel Sheets",
-      "subtitle": "Premium nickel sheets & plates"
+      "subtitle": "Premium nickel sheets & plates",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781805418/ChatGPT_Image_Jun_18_2026_11_26_39_PM_phj1my.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -5449,7 +5491,8 @@
     },
     "pageHero": {
       "title": "Pipe Fittings",
-      "subtitle": "Premium quality pipe fittings for industrial applications"
+      "subtitle": "Premium quality pipe fittings for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781805857/pipe-fittings_xumcq6.png"
     },
     "sectionHeader": {
       "badgeColor": "green",
@@ -5575,7 +5618,8 @@
     },
     "pageHero": {
       "title": "Reducer Fittings",
-      "subtitle": "Premium quality reducer fittings for diameter transitions"
+      "subtitle": "Premium quality reducer fittings for diameter transitions",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781806037/ChatGPT_Image_Jun_18_2026_11_37_01_PM_w8qcqw.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -5701,7 +5745,8 @@
     },
     "pageHero": {
       "title": "Socket Weld Fittings",
-      "subtitle": "Premium quality socket weld fittings for high-integrity connections"
+      "subtitle": "Premium quality socket weld fittings for high-integrity connections",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781806193/ChatGPT_Image_Jun_18_2026_11_39_30_PM_ngvouz.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -5826,7 +5871,8 @@
     },
     "pageHero": {
       "title": "SS 304 Pipes",
-      "subtitle": "Austenitic stainless steel pipes with excellent corrosion resistance"
+      "subtitle": "Austenitic stainless steel pipes with excellent corrosion resistance",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781806706/ss-304_b9xwam.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -5951,7 +5997,8 @@
     },
     "pageHero": {
       "title": "SS 304 Plates",
-      "subtitle": "Premium 304 grade plates & sheets"
+      "subtitle": "Premium 304 grade plates & sheets",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781806923/ss-plates_kb8dka.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -6076,7 +6123,8 @@
     },
     "pageHero": {
       "title": "SS 316L Pipes",
-      "subtitle": "Low carbon stainless steel for superior weldability"
+      "subtitle": "Low carbon stainless steel for superior weldability",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781807134/ss-316l-pipes_olh0dp.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -6201,7 +6249,8 @@
     },
     "pageHero": {
       "title": "SS 316 Plates",
-      "subtitle": "Superior corrosion resistant plates"
+      "subtitle": "Superior corrosion resistant plates",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781807290/ss-316l-plates_vi0wjw.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -6326,7 +6375,8 @@
     },
     "pageHero": {
       "title": "SS 316 Tubes",
-      "subtitle": "Marine grade stainless steel tubes"
+      "subtitle": "Marine grade stainless steel tubes",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781807478/ChatGPT_Image_Jun_19_2026_12_00_57_AM_rnopbn.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -6451,7 +6501,8 @@
     },
     "pageHero": {
       "title": "Stainless Steel Fasteners",
-      "subtitle": "Bolts, nuts, screws & industrial fasteners"
+      "subtitle": "Bolts, nuts, screws & industrial fasteners",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781807610/ChatGPT_Image_Jun_19_2026_12_03_17_AM_xzllwc.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -6577,7 +6628,8 @@
     },
     "pageHero": {
       "title": "Stainless Steel Pipes",
-      "subtitle": "High-grade SS pipes for industrial applications"
+      "subtitle": "High-grade SS pipes for industrial applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781807777/ss-pipes_cgdxer.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -6702,7 +6754,8 @@
     },
     "pageHero": {
       "title": "Stainless Steel Bars",
-      "subtitle": "Precision bars in various grades"
+      "subtitle": "Precision bars in various grades",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781807891/ss-bars_yifvjw.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -6827,7 +6880,8 @@
     },
     "pageHero": {
       "title": "Stainless Steel Sheets",
-      "subtitle": "Quality sheets & plates for diverse applications"
+      "subtitle": "Quality sheets & plates for diverse applications",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781808009/ss-sheets_wv5pqn.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -6954,7 +7008,8 @@
     },
     "pageHero": {
       "title": "Stainless Steel Tubes",
-      "subtitle": "Premium quality seamless & welded tubes"
+      "subtitle": "Premium quality seamless & welded tubes",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781808126/ss-tubes_xkzwh9.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -7079,7 +7134,8 @@
     },
     "pageHero": {
       "title": "Stainless Steel Wire",
-      "subtitle": "High-quality wire for industrial use"
+      "subtitle": "High-quality wire for industrial use",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781808282/ss-wires_fx9qxa.png"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -7205,7 +7261,8 @@
     },
     "pageHero": {
       "title": "Tee Fittings",
-      "subtitle": "Premium quality tee fittings for branching connections"
+      "subtitle": "Premium quality tee fittings for branching connections",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781808436/tee-fittings_gh24qq.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -7332,7 +7389,8 @@
     },
     "pageHero": {
       "title": "Threaded Fittings",
-      "subtitle": "Premium quality threaded fittings for easy assembly and maintenance"
+      "subtitle": "Premium quality threaded fittings for easy assembly and maintenance",
+      "image":"https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781808750/ChatGPT_Image_Jun_19_2026_12_22_14_AM_vq00hn.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",
@@ -7458,7 +7516,8 @@
     },
     "pageHero": {
       "title": "Union Fittings",
-      "subtitle": "Premium quality union fittings for easy maintenance"
+      "subtitle": "Premium quality union fittings for easy maintenance",
+      "image" : "https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781808973/union-fittings_rppzga.png"
     },
     "sectionHeader": {
       "badgeColor": "cyan",

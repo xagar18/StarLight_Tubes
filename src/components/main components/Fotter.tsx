@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router";
-import {Linkedin, Mail} from "lucide-react";
+import {Linkedin, Mail, MapPin, Globe, Phone} from "lucide-react";
 
 // Declare Google Translate types
 declare global {
@@ -215,29 +215,34 @@ export default function Footer() {
     {
       title: "Contact Info",
       links: [
-        { name: "📍 Mumbai, Maharashtra", path: "/contact" },
+        { icon: MapPin, name: "Mumbai, Maharashtra", path: "/contact" },
         {
-          name: "🌍 +91 85914 70791 (International)",
+          icon: Globe,
+          name: "+91 85914 70791 (International)",
           path: "tel:+918591470791",
           external: true,
         },
         {
-          name: "📞 +91 98922 33118",
+          icon: Phone,
+          name: "+91 98922 33118",
           path: "tel:+919892233118",
           external: true,
         },
         {
-          name: "✉️ sales@starlighttubes.com",
+          icon: Mail,
+          name: "sales@starlighttubes.com",
           path: "mailto:sales@starlighttubes.com",
           external: true,
         },
         {
-          name: "✉️ exports@starlighttubes.com",
+          icon: Mail,
+          name: "exports@starlighttubes.com",
           path: "mailto:exports@starlighttubes.com",
           external: true,
         },
         {
-          name: "✉️ inquiry@starlighttubes.com",
+          icon: Mail,
+          name: "inquiry@starlighttubes.com",
           path: "mailto:inquiry@starlighttubes.com",
           external: true,
         },
@@ -277,48 +282,55 @@ export default function Footer() {
                 Kumbharwada, Mumbai, Maharashtra 400004
               </p>
             </div>
-            <div className="mt-6 flex gap-4" >
-              <a  
+            <div className="mt-6 flex gap-4">
+              <a
                 href="https://www.linkedin.com/company/starlight-tubes"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
-                className="text-gray-400 hover:text-purple-400 transition-colors">
-                  <Linkedin size={18} />
+                className="text-gray-400 hover:text-purple-400 transition-colors"
+              >
+                <Linkedin size={18} />
               </a>
-              <a   href="mailto:sales@starlighttubes.com"
-    aria-label="Email us"
-    className="text-gray-400 hover:text-purple-400 transition-colors">
-      <Mail size={18} />
-    </a>
+              <a
+                href="mailto:sales@starlighttubes.com"
+                aria-label="Email us"
+                className="text-gray-400 hover:text-purple-400 transition-colors"
+              >
+                <Mail size={18} />
+              </a>
             </div>
           </div>
-          
 
           {/* Links Sections */}
           {footerSections.map((section, index) => (
             <div key={index}>
               <h3 className="font-semibold text-white mb-4">{section.title}</h3>
               <ul className="space-y-3">
-                {section.links.map((link, linkIndex) => (
-                  <li key={linkIndex}>
-                    {link.external ? (
-                      <a
-                        href={link.path}
-                        className="text-sm  text-gray-400 hover:text-purple-400 transition-colors"
-                      >
-                        {link.name}
-                      </a>
-                    ) : (
-                      <Link
-                        to={link.path}
-                        className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
-                      >
-                        {link.name}
-                      </Link>
-                    )}
-                  </li>
-                ))}
+                {section.links.map((link: any, linkIndex) => {
+                  const Icon = link.icon;
+                  return (
+                    <li key={linkIndex}>
+                      {link.external ? (
+                        <a
+                          href={link.path}
+                          className="text-sm text-gray-400 hover:text-purple-400 transition-colors flex items-center gap-2"
+                        >
+                          {Icon && <Icon size={14} className="shrink-0" />}
+                          {link.name}
+                        </a>
+                      ) : (
+                        <Link
+                          to={link.path}
+                          className="text-sm text-gray-400 hover:text-purple-400 transition-colors flex items-center gap-2"
+                        >
+                          {Icon && <Icon size={14} className="shrink-0" />}
+                          {link.name}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

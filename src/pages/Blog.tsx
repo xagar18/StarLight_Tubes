@@ -79,7 +79,7 @@ const Blog = () => {
           <div className="grid md:grid-cols-2 gap-0">
             <div className="aspect-[16/10] md:aspect-auto overflow-hidden">
               <img
-                src={featuredPost.image}
+                src="https://res.cloudinary.com/dbcgs5hik/image/upload/q_auto/f_auto/v1781687657/api-5l-x52_vma6nq.png"
                 alt={featuredPost.title}
                 loading="eager"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"

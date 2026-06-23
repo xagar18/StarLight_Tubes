@@ -1,8 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@media (prefers-reduced-motion: no-preference) {
 html{
   scroll-behavior: smooth;
+}
 }
 
 @custom-variant dark (&:is(.dark *));

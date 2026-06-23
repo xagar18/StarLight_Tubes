@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router";
 import {Linkedin, Mail, MapPin, Globe, Phone} from "lucide-react";
+import { type LucideIcon } from "lucide-react";
 
 // Declare Google Translate types
 declare global {
@@ -13,6 +14,13 @@ declare global {
     googleTranslateInitialized?: boolean;
   }
 }
+
+type FooterLink = {
+  name: string;
+  path: string;
+  external?: boolean;
+  icon?: LucideIcon;
+};
 
 export default function Footer() {
   // Check for existing translation cookie on component mount
@@ -307,7 +315,7 @@ export default function Footer() {
             <div key={index}>
               <h3 className="font-semibold text-white mb-4">{section.title}</h3>
               <ul className="space-y-3">
-                {section.links.map((link: any, linkIndex) => {
+                {section.links.map((link: FooterLink, linkIndex) => {
                   const Icon = link.icon;
                   return (
                     <li key={linkIndex}>

@@ -25,6 +25,7 @@ const TechnicalInfo = lazy(() => import("./pages/TechnicalInfo"));
 const Certificates = lazy(() => import("./pages/Certificates"));
 const Material = lazy(() => import("./pages/Material"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
+const Admin = lazy(() => import("./components/admin/AdminPanel"));
 
 // Lazy load material category pages
 const StainlessSteelPage = lazy(() => import("./pages/StainlessSteel"));
@@ -34,6 +35,7 @@ const Fittings = lazy(() => import("./pages/Fittings"));
 const CarbonSteelPage = lazy(() => import("./pages/CarbonSteel"));
 const NickelAlloysPage = lazy(() => import("./pages/NickelAlloys"));
 const InconelPage = lazy(() => import("./pages/Inconel"));
+const VerifyInvoice = lazy( () => import("./pages/VerifyInvoice") );
 
 // Lazy load blog pages
 const Blog = lazy(() => import("./pages/Blog"));
@@ -74,6 +76,15 @@ function App() {
             {/* Blog */}
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+
+            {/* Admin */}
+            <Route path="/admin" element={<Admin />} />
+
+            {/* Verifiying Invoice */}
+            <Route
+            path="/verify/:verificationId"
+            element={<VerifyInvoice />}
+            />
 
             {/* Dynamic sub pages - single route handles all product sub pages */}
             <Route path="/:slug" element={<DynamicSubPage />} />

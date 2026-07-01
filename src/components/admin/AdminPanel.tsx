@@ -498,9 +498,6 @@ function RecordsTab() {
     setConfirmDeleteId(null);
 
     try {
-      // delete file from storage
-      const filePath = row.file_path.replace(/^invoices\//, "");
-      await supabase.storage.from("invoices").remove([filePath]);
 
       // delete row from DB
       const { error: dbError } = await supabase
@@ -508,7 +505,11 @@ function RecordsTab() {
         .delete()
         .eq("id", row.id);
 
-      if (dbError) throw dbError;
+        if (dbError) throw dbError;
+
+      // delete file from storage  
+      const filePath = row.file_path.replace(/^invoices\//, "");
+      await supabase.storage.from("invoices").remove([filePath]);
 
       setRecords((prev) => prev.filter((r) => r.id !== row.id));
     } catch {

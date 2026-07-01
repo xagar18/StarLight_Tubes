@@ -23,6 +23,7 @@ export default function VerifyInvoice() {
       setLoadState("not-found");
       return;
     }
+    let cancelled = false;
 
     const loadInvoice = async () => {
       try {
@@ -31,6 +32,8 @@ export default function VerifyInvoice() {
           .select("*")
           .eq("verification_id", verificationId)
           .single();
+
+        if (cancelled) return;
 
         if (error || !data) {
           setLoadState("not-found");
@@ -42,7 +45,11 @@ export default function VerifyInvoice() {
         const { data: signedUrlData, error: signedUrlError } =
           await supabase.storage
             .from("invoices")
-            .createSignedUrl(filePath, 60 * 60);
+            .createSignedUrl(filePath, 60 * 60, {
+              download: data.invoice_file_name,
+            });
+
+        if (cancelled) return;
 
         if (signedUrlError || !signedUrlData?.signedUrl) {
           setLoadState("error");
@@ -58,11 +65,15 @@ export default function VerifyInvoice() {
         setPdfUrl(signedUrlData.signedUrl);
         setLoadState("found");
       } catch {
-        setLoadState("error");
+        if (!cancelled) setLoadState("error");
       }
     };
 
     loadInvoice();
+
+    return () => {
+      cancelled = true;
+    };
   }, [verificationId]);
 
   if (loadState === "loading") {
@@ -104,7 +115,6 @@ export default function VerifyInvoice() {
     <div className="min-h-screen bg-slate-950 text-white flex flex-col">
       <header className="border-b border-slate-800 px-6 py-4 flex-shrink-0">
         <div className="max-w-5xl mx-auto flex items-center justify-between gap-6">
-
           <div className="flex items-center gap-4 min-w-0">
             <div className="flex items-center gap-1.5 px-2.5 py-1 bg-emerald-950/40 border border-emerald-800/50 rounded-full flex-shrink-0">
               <div className="w-3 h-3 rounded-full bg-emerald-500 flex items-center justify-center">
@@ -143,6 +153,7 @@ export default function VerifyInvoice() {
         title={invoice?.invoice_file_name ?? "Invoice"}
         className="flex-1 w-full"
         style={{ minHeight: "calc(100vh - 65px)" }}
+        sandbox="allow-scripts allow-same-origin"
       />
     </div>
   );

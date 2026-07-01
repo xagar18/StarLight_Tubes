@@ -22,12 +22,11 @@ interface InvoiceRow {
   invoice_number: string;
   company_name: string;
   verification_id: string;
+  file_path: string;
   created_at: string;
 }
 
-// ─────────────────────────────────────────────────────────────
 // Root — session gate
-// ─────────────────────────────────────────────────────────────
 export default function AdminPanel() {
   const [session, setSession] = useState<Session | null>(null);
   const [sessionLoading, setSessionLoading] = useState(true);
@@ -64,9 +63,7 @@ export default function AdminPanel() {
   return <UploadScreen session={session} onSignOut={() => setSession(null)} />;
 }
 
-// ─────────────────────────────────────────────────────────────
 // Login
-// ─────────────────────────────────────────────────────────────
 function LoginScreen({ onLogin }: { onLogin: (session: Session) => void }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -123,6 +120,7 @@ function LoginScreen({ onLogin }: { onLogin: (session: Session) => void }) {
               onChange={(e) => setEmail(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && handleLogin()}
               placeholder="you@starlighttubes.com"
+              autoComplete="off"
               className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none focus:border-slate-500 transition-colors"
             />
           </div>
@@ -134,6 +132,7 @@ function LoginScreen({ onLogin }: { onLogin: (session: Session) => void }) {
               onChange={(e) => setPassword(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && handleLogin()}
               placeholder="••••••••"
+              autoComplete="new-password"
               className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none focus:border-slate-500 transition-colors"
             />
           </div>
@@ -164,9 +163,7 @@ function LoginScreen({ onLogin }: { onLogin: (session: Session) => void }) {
   );
 }
 
-// ─────────────────────────────────────────────────────────────
 // Upload + Records screen
-// ─────────────────────────────────────────────────────────────
 function UploadScreen({ session, onSignOut }: { session: Session; onSignOut: () => void }) {
   const [activeTab, setActiveTab] = useState<Tab>("upload");
 
@@ -195,14 +192,13 @@ function UploadScreen({ session, onSignOut }: { session: Session; onSignOut: () 
         </div>
       </header>
 
-      {/* Tabs */}
       <div className="border-b border-slate-800 px-8">
         <div className="max-w-4xl mx-auto flex gap-6">
           {(["upload", "records"] as Tab[]).map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`py-3 text-xs font-medium border-b-2 transition-colors capitalize ${
+              className={`py-3 text-xs font-medium border-b-2 transition-colors ${
                 activeTab === tab
                   ? "border-white text-white"
                   : "border-transparent text-slate-500 hover:text-slate-300"
@@ -225,9 +221,7 @@ function UploadScreen({ session, onSignOut }: { session: Session; onSignOut: () 
   );
 }
 
-// ─────────────────────────────────────────────────────────────
 // Upload tab
-// ─────────────────────────────────────────────────────────────
 function UploadTab({ onUploadSuccess }: { onUploadSuccess: () => void }) {
   const [file, setFile] = useState<File | null>(null);
   const [invoiceNumber, setInvoiceNumber] = useState("");
@@ -254,20 +248,41 @@ function UploadTab({ onUploadSuccess }: { onUploadSuccess: () => void }) {
       return;
     }
 
+    if (file.type !== "application/pdf") {
+      setErrorMessage("Only PDF files are allowed.");
+      setUploadState("error");
+      return;
+    }
+
     setUploadState("uploading");
     setErrorMessage("");
 
-    try {
-      const sanitizedName = file.name.replace(/\s+/g, "_");
-      const fileName = `${Date.now()}-${sanitizedName}`;
+    const { data: existing } = await supabase
+      .from("invoices")
+      .select("id")
+      .eq("invoice_number", invoiceNumber.trim())
+      .maybeSingle();
 
+    if (existing) {
+      setErrorMessage(`Invoice number "${invoiceNumber.trim()}" already exists. Please use a unique number.`);
+      setUploadState("error");
+      return;
+    }
+
+    const sanitizedName = file.name.replace(/\s+/g, "_");
+    const fileName = `${Date.now()}-${sanitizedName}`;
+    let uploadedPath: string | null = null;
+
+    try {
       const { data: storageData, error: storageError } = await supabase.storage
         .from("invoices")
-        .upload(fileName, file);
+        .upload(fileName, file, { contentType: "application/pdf" });
 
       if (storageError) throw storageError;
 
-      const verificationId = `ST-${Math.random().toString(36).substring(2, 10).toUpperCase()}`;
+      uploadedPath = storageData.fullPath ?? storageData.path;
+
+      const verificationId = `ST-${crypto.randomUUID().replace(/-/g, "").substring(0, 8).toUpperCase()}`;
 
       const { error: dbError } = await supabase.from("invoices").insert([
         {
@@ -275,11 +290,14 @@ function UploadTab({ onUploadSuccess }: { onUploadSuccess: () => void }) {
           company_name: companyName.trim(),
           verification_id: verificationId,
           invoice_file_name: file.name,
-          file_path: storageData.fullPath ?? storageData.path,
+          file_path: uploadedPath,
         },
       ]);
 
-      if (dbError) throw dbError;
+      if (dbError) {
+        await supabase.storage.from("invoices").remove([fileName]);
+        throw dbError;
+      }
 
       const verificationUrl = `${window.location.origin}/verify/${verificationId}`;
       setResult({ invoiceNumber: invoiceNumber.trim(), verificationId, verificationUrl });
@@ -403,7 +421,7 @@ function UploadTab({ onUploadSuccess }: { onUploadSuccess: () => void }) {
             ref={fileInputRef}
             type="file"
             accept=".pdf"
-            className="hidden"
+            className="sr-only"
             onChange={(e) => {
               const selected = e.target.files?.[0];
               if (selected) {
@@ -447,31 +465,66 @@ function UploadTab({ onUploadSuccess }: { onUploadSuccess: () => void }) {
   );
 }
 
-// ─────────────────────────────────────────────────────────────
-// Records tab
-// ─────────────────────────────────────────────────────────────
+// records tab
 function RecordsTab() {
   const [records, setRecords] = useState<InvoiceRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [search, setSearch] = useState("");
+  const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null);
+
+  const fetchRecords = async () => {
+    setLoading(true);
+    const { data, error } = await supabase
+      .from("invoices")
+      .select("id, invoice_number, company_name, verification_id, file_path, created_at")
+      .order("created_at", { ascending: false });
+
+    if (error) {
+      setError("Failed to load records.");
+    } else {
+      setRecords(data ?? []);
+    }
+    setLoading(false);
+  };
 
   useEffect(() => {
-    const fetchRecords = async () => {
-      const { data, error } = await supabase
-        .from("invoices")
-        .select("id, invoice_number, company_name, verification_id, created_at")
-        .order("created_at", { ascending: false });
-
-      if (error) {
-        setError("Failed to load records.");
-      } else {
-        setRecords(data ?? []);
-      }
-      setLoading(false);
-    };
-
     fetchRecords();
   }, []);
+
+  const handleDelete = async (row: InvoiceRow) => {
+    setDeletingId(row.id);
+    setConfirmDeleteId(null);
+
+    try {
+      // delete file from storage
+      const filePath = row.file_path.replace(/^invoices\//, "");
+      await supabase.storage.from("invoices").remove([filePath]);
+
+      // delete row from DB
+      const { error: dbError } = await supabase
+        .from("invoices")
+        .delete()
+        .eq("id", row.id);
+
+      if (dbError) throw dbError;
+
+      setRecords((prev) => prev.filter((r) => r.id !== row.id));
+    } catch {
+      setError("Failed to delete invoice. Please try again.");
+    } finally {
+      setDeletingId(null);
+    }
+  };
+
+  const filtered = records.filter((r) => {
+    const q = search.toLowerCase();
+    return (
+      r.invoice_number.toLowerCase().includes(q) ||
+      (r.company_name ?? "").toLowerCase().includes(q)
+    );
+  });
 
   if (loading) {
     return (
@@ -489,62 +542,97 @@ function RecordsTab() {
     );
   }
 
-  if (records.length === 0) {
-    return (
-      <div className="text-center py-20">
-        <p className="text-slate-500 text-sm">No invoices uploaded yet.</p>
-      </div>
-    );
-  }
-
   return (
     <div>
-      <div className="flex items-center justify-between mb-5">
+      <div className="flex items-center justify-between mb-5 gap-4">
         <div>
           <h2 className="text-sm font-medium text-white">Invoice records</h2>
-          <p className="text-xs text-slate-500 mt-0.5">{records.length} invoice{records.length !== 1 ? "s" : ""} total</p>
+          <p className="text-xs text-slate-500 mt-0.5">
+            {filtered.length} of {records.length} invoice{records.length !== 1 ? "s" : ""}
+          </p>
         </div>
+        <input
+          type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          placeholder="Search by invoice no. or company…"
+          className="w-64 bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white placeholder-slate-600 focus:outline-none focus:border-slate-500 transition-colors"
+        />
       </div>
 
-      <div className="bg-slate-900 border border-slate-800 rounded-lg overflow-hidden">
-        {/* Table head */}
-        <div className="grid grid-cols-[2fr_2fr_1.5fr_1fr] gap-4 px-4 py-2.5 border-b border-slate-800">
-          {["Invoice No.", "Company", "Date", "Verify"].map((col) => (
-            <p key={col} className="text-xs font-medium text-slate-500 uppercase tracking-wider">{col}</p>
-          ))}
+      {records.length === 0 ? (
+        <div className="text-center py-20">
+          <p className="text-slate-500 text-sm">No invoices uploaded yet.</p>
         </div>
+      ) : filtered.length === 0 ? (
+        <div className="text-center py-20">
+          <p className="text-slate-500 text-sm">No results for "{search}".</p>
+        </div>
+      ) : (
+        <div className="bg-slate-900 border border-slate-800 rounded-lg overflow-hidden">
+          <div className="grid grid-cols-[2fr_2fr_1.5fr_auto_auto] gap-4 px-4 py-2.5 border-b border-slate-800">
+            {["Invoice No.", "Company", "Date", "Verify", ""].map((col, i) => (
+              <p key={i} className="text-xs font-medium text-slate-500 uppercase tracking-wider">{col}</p>
+            ))}
+          </div>
 
-        {/* Rows */}
-        <div className="divide-y divide-slate-800">
-          {records.map((row) => (
-            <div key={row.id} className="grid grid-cols-[2fr_2fr_1.5fr_1fr] gap-4 px-4 py-3 items-center hover:bg-slate-800/40 transition-colors">
-              <p className="text-sm text-white font-mono truncate">{row.invoice_number}</p>
-              <p className="text-sm text-slate-300 truncate">{row.company_name ?? "—"}</p>
-              <p className="text-xs text-slate-500">
-                {new Date(row.created_at).toLocaleDateString("en-IN", {
-                  day: "numeric",
-                  month: "short",
-                  year: "numeric",
-                })}
-              </p>
-              <a
-                href={`/verify/${row.verification_id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
-              >
-                Open ↗
-              </a>
-            </div>
-          ))}
+          <div className="divide-y divide-slate-800">
+            {filtered.map((row) => (
+              <div key={row.id} className="grid grid-cols-[2fr_2fr_1.5fr_auto_auto] gap-4 px-4 py-3 items-center hover:bg-slate-800/40 transition-colors">
+                <p className="text-sm text-white font-mono truncate">{row.invoice_number}</p>
+                <p className="text-sm text-slate-300 truncate">{row.company_name ?? "—"}</p>
+                <p className="text-xs text-slate-500">
+                  {new Date(row.created_at).toLocaleDateString("en-IN", {
+                    day: "numeric",
+                    month: "short",
+                    year: "numeric",
+                  })}
+                </p>
+                <a
+                  href={`/verify/${row.verification_id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-blue-400 hover:text-blue-300 transition-colors whitespace-nowrap"
+                >
+                  Open ↗
+                </a>
+
+                {/* Delete with confirmation */}
+                {confirmDeleteId === row.id ? (
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => handleDelete(row)}
+                      disabled={deletingId === row.id}
+                      className="text-xs text-red-400 hover:text-red-300 transition-colors whitespace-nowrap"
+                    >
+                      {deletingId === row.id ? "Deleting…" : "Confirm"}
+                    </button>
+                    <button
+                      onClick={() => setConfirmDeleteId(null)}
+                      className="text-xs text-slate-500 hover:text-slate-300 transition-colors"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                ) : (
+                  <button
+                    onClick={() => setConfirmDeleteId(row.id)}
+                    className="text-xs text-slate-600 hover:text-red-400 transition-colors"
+                  >
+                    Delete
+                  </button>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
 
 // ─────────────────────────────────────────────────────────────
-// Row (copy row for details card)
+// Row (details card)
 // ─────────────────────────────────────────────────────────────
 function Row({ label, value, onCopy, link }: {
   label: string;

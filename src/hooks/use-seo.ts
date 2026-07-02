@@ -284,6 +284,17 @@ export const useSEO = ({
     canonical.href = fullUrl;
 
     // Alternate language links (hreflang)
+    const allowedAlternateHreflangs = ["en", "x-default"];
+    const existingAlternateLinks = Array.from(
+      document.querySelectorAll('link[rel="alternate"][hreflang]'),
+    ) as HTMLLinkElement[];
+
+    for (const link of existingAlternateLinks) {
+      if (!allowedAlternateHreflangs.includes(link.hreflang)) {
+        link.remove();
+      }
+    }
+
     const addAlternateLink = (hreflang: string, href: string) => {
       let link = document.querySelector(
         `link[rel="alternate"][hreflang="${hreflang}"]`,
@@ -297,42 +308,37 @@ export const useSEO = ({
       link.href = href;
     };
 
-    // Add hreflang tags for language targeting (use normalized URL)
+    // Keep hreflang aligned with the site's single-language setup.
     addAlternateLink("en", fullUrl);
     addAlternateLink("x-default", fullUrl);
 
-    // Country-specific hreflang for top export markets (same content, geo-targeted)
-    addAlternateLink("en-US", fullUrl);
-    addAlternateLink("en-GB", fullUrl);
-    addAlternateLink("en-AE", fullUrl);
-    addAlternateLink("en-QA", fullUrl);
-    addAlternateLink("en-SA", fullUrl);
-    addAlternateLink("en-SG", fullUrl);
-    addAlternateLink("en-AU", fullUrl);
-    addAlternateLink("en-CA", fullUrl);
-    addAlternateLink("en-IN", fullUrl);
-    addAlternateLink("en-MY", fullUrl);
-    addAlternateLink("en-KW", fullUrl);
-    addAlternateLink("en-OM", fullUrl);
-    addAlternateLink("en-BH", fullUrl);
-    addAlternateLink("en-NG", fullUrl);
-    addAlternateLink("de-DE", fullUrl);
-    addAlternateLink("it-IT", fullUrl);
-    addAlternateLink("fr-FR", fullUrl);
-    addAlternateLink("es-ES", fullUrl);
-    addAlternateLink("nl-NL", fullUrl);
-    addAlternateLink("ja-JP", fullUrl);
-    addAlternateLink("ko-KR", fullUrl);
-    addAlternateLink("th-TH", fullUrl);
-    addAlternateLink("vi-VN", fullUrl);
-    addAlternateLink("tr-TR", fullUrl);
-    addAlternateLink("id-ID", fullUrl);
-    addAlternateLink("da-DK", fullUrl);
-    addAlternateLink("nb-NO", fullUrl);
-    addAlternateLink("pl-PL", fullUrl);
-    addAlternateLink("pt-BR", fullUrl);
-    addAlternateLink("es-MX", fullUrl);
-    addAlternateLink("bn-BD", fullUrl);
+    // Site-level Organization and WebSite entities help establish the brand graph.
+    const organizationSchema = {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.starlighttubes.com/#organization",
+      name: "Starlight Tubes",
+      url: "https://www.starlighttubes.com/",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.starlighttubes.com/StarlightLogo.png",
+      },
+      sameAs: ["https://www.starlighttubes.com/"],
+    };
+    addJsonLd("organization-schema", organizationSchema);
+
+    const websiteSchema = {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://www.starlighttubes.com/#website",
+      name: "Starlight Tubes",
+      alternateName: "Starlight Tubes Steel Pipe Manufacturer",
+      url: "https://www.starlighttubes.com/",
+      publisher: {
+        "@id": "https://www.starlighttubes.com/#organization",
+      },
+    };
+    addJsonLd("website-schema", websiteSchema);
 
     // Breadcrumb Schema
     if (breadcrumbs && breadcrumbs.length > 0) {
@@ -478,7 +484,7 @@ export const useSEO = ({
           url: "https://www.starlighttubes.com/StarlightLogo.png",
         },
       },
-      inLanguage: "en-US",
+      inLanguage: "en",
       isAccessibleForFree: true,
       // GEO: Date signals for AI freshness scoring
       datePublished: datePublished || "2025-01-01",
@@ -741,7 +747,7 @@ export const useSEO = ({
           "@type": "WebPage",
           "@id": fullUrl,
         },
-        inLanguage: "en-US",
+        inLanguage: "en",
         isAccessibleForFree: true,
       };
       addJsonLd("tech-article-schema", techArticleJsonLd);
@@ -750,6 +756,8 @@ export const useSEO = ({
     // Cleanup function
     return () => {
       removeJsonLd("breadcrumb-schema");
+      removeJsonLd("organization-schema");
+      removeJsonLd("website-schema");
       removeJsonLd("product-schema");
       removeJsonLd("faq-schema");
       removeJsonLd("article-schema");

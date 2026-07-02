@@ -1,5 +1,6 @@
 import { useSEO } from "@/hooks/use-seo";
 import { lazy, Suspense } from "react";
+import { BreadcrumbTrail } from "../components/BreadcrumbTrail";
 import Footer from "../components/main components/Fotter";
 import { NavbarDemo } from "../components/main components/Navbar";
 import { PageHero } from "../components/main components/PageHero";
@@ -150,6 +151,14 @@ const About = () => {
             title="About Starlight Tubes"
             subtitle="India's No. 1 Exporter & Stockist of Industrial Steel Products Since 2020"
             image="aboutus_whnwsq"
+          />
+
+          <BreadcrumbTrail
+            className="mt-6"
+            items={[
+              { name: "Home", url: "https://www.starlighttubes.com/" },
+              { name: "About Us", url: "https://www.starlighttubes.com/about" },
+            ]}
           />
 
           {/* About Section */}

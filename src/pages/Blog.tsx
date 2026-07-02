@@ -1,5 +1,6 @@
 import { useSEO } from "@/hooks/use-seo";
 import { Link } from "react-router";
+import { BreadcrumbTrail } from "../components/BreadcrumbTrail";
 import Footer from "../components/main components/Fotter";
 import { NavbarDemo } from "../components/main components/Navbar";
 import blogData from "../data/blogData.json";
@@ -55,6 +56,14 @@ const Blog = () => {
           </p>
         </div>
       </div>
+
+      <BreadcrumbTrail
+        className="mt-6"
+        items={[
+          { name: "Home", url: "https://www.starlighttubes.com/" },
+          { name: "Blog", url: "https://www.starlighttubes.com/blog" },
+        ]}
+      />
 
       {/* Category Pills */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">

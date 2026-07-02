@@ -1,5 +1,6 @@
 import { useSEO } from "@/hooks/use-seo";
 import { useState } from "react";
+import { BreadcrumbTrail } from "../components/BreadcrumbTrail";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -11,7 +12,7 @@ import MechanicalInfo from "../components/sub components/MechanicalInfo";
 
 const TechnicalInfo = () => {
   useSEO({
-    title: "Steel Pipe Technical Specs | Starlight Tubes",
+    title: "Steel Pipe Technical Specifications | Starlight Tubes",
     description:
       "Chemical composition, mechanical properties & dimensional data for SS, carbon steel, nickel alloy pipes & tubes. ASTM, API standards.",
     keywords:
@@ -115,6 +116,17 @@ const TechnicalInfo = () => {
           title="Technical Information"
           subtitle="Datasheets, specs and engineering support"
           image="Home_aaq22e"
+        />
+
+        <BreadcrumbTrail
+          className="mt-6"
+          items={[
+            { name: "Home", url: "https://www.starlighttubes.com/" },
+            {
+              name: "Technical Info",
+              url: "https://www.starlighttubes.com/technical-info",
+            },
+          ]}
         />
 
         <div className="w-full max-w-7xl mx-auto px-6 mt-20">

@@ -1,4 +1,5 @@
 import { useSEO } from "@/hooks/use-seo";
+import { BreadcrumbTrail } from "../components/BreadcrumbTrail";
 import Footer from "../components/main components/Fotter";
 import { MeteorsDemo } from "../components/main components/LinkDisplayCard";
 import { NavbarDemo } from "../components/main components/Navbar";
@@ -185,7 +186,7 @@ const Product = () => {
       "SS, carbon steel, nickel alloy, inconel, copper pipes, fittings & flanges. Seamless & welded. ASTM, API, ASME standards. Export to 60+ countries.",
     keywords:
       "steel pipe manufacturer, steel tube manufacturer, steel pipe exporter, pipe manufacturer India, tube manufacturer Mumbai, stainless steel pipe manufacturer, carbon steel pipe manufacturer, nickel alloy pipe manufacturer, seamless pipe manufacturer, welded pipe manufacturer, ERW pipe manufacturer, pipe fittings manufacturer, flanges manufacturer, elbows manufacturer, tees manufacturer, reducers manufacturer, 304 stainless steel manufacturer, 316 stainless steel manufacturer, ASTM A106 manufacturer, API 5L manufacturer, Inconel 625 manufacturer, Inconel 600 manufacturer, duplex steel manufacturer, super duplex manufacturer, copper pipe manufacturer, aluminium pipe manufacturer, steel pipe factory, steel pipe supplier, steel pipe distributor, industrial pipe manufacturer, oil gas pipe manufacturer, petrochemical pipe manufacturer",
-    url: "https://www.starlighttubes.com/product",
+    url: "https://www.starlighttubes.com/products",
     breadcrumbs: [
       { name: "Home", url: "https://www.starlighttubes.com/" },
       { name: "Products", url: "https://www.starlighttubes.com/products" },
@@ -268,6 +269,17 @@ const Product = () => {
           title="Starlight Tubes Products"
           subtitle="Complete Range of Industrial Steel Pipes, Tubes, Fittings & Flanges"
           image="product_e8o6zt"
+        />
+
+        <BreadcrumbTrail
+          className="mt-6"
+          items={[
+            { name: "Home", url: "https://www.starlighttubes.com/" },
+            {
+              name: "Products",
+              url: "https://www.starlighttubes.com/products",
+            },
+          ]}
         />
 
         {/* Main Products Section - Row 1 */}

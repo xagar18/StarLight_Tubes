@@ -1,4 +1,5 @@
 import { useSEO } from "@/hooks/use-seo";
+import { BreadcrumbTrail } from "../components/BreadcrumbTrail";
 import { ContactCtaParent } from "../components/main components/ContactCta";
 import ContactForm from "../components/main components/ContactForm";
 import Footer from "../components/main components/Fotter";
@@ -117,6 +118,17 @@ const Contact = () => {
             image="contact-us1_tddy3v"
             buttonText="Call Now →"
             buttonLink="tel:+919892233118"
+          />
+
+          <BreadcrumbTrail
+            className="mt-6"
+            items={[
+              { name: "Home", url: "https://www.starlighttubes.com/" },
+              {
+                name: "Contact",
+                url: "https://www.starlighttubes.com/contact",
+              },
+            ]}
           />
 
           {/* Contact CTA Section Header */}

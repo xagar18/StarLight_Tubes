@@ -1,4 +1,5 @@
 import { useSEO } from "@/hooks/use-seo";
+import { BreadcrumbTrail } from "../components/BreadcrumbTrail";
 import { CardHoverEffectDemo } from "../components/main components/CoatingImgCard";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
@@ -93,6 +94,17 @@ const Certificates = () => {
           title="Certificates"
           subtitle="Quality documents and compliance for all products"
           image="/MainScrollableImage/Home.webp"
+        />
+
+        <BreadcrumbTrail
+          className="mt-6"
+          items={[
+            { name: "Home", url: "https://www.starlighttubes.com/" },
+            {
+              name: "Certificates",
+              url: "https://www.starlighttubes.com/certificates",
+            },
+          ]}
         />
 
         <div className="w-full max-w-7xl mx-auto px-6 mt-20 ">

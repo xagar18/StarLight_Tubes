@@ -1,4 +1,5 @@
 import { useSEO } from "@/hooks/use-seo";
+import { BreadcrumbTrail } from "../components/BreadcrumbTrail";
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
@@ -108,6 +109,17 @@ const Material = () => {
           title="Premium Industrial Materials"
           subtitle="High-quality Stainless Steel, Carbon Steel, Nickel Alloys & Inconel Products"
           image="/MainScrollableImage/Home2.webp"
+        />
+
+        <BreadcrumbTrail
+          className="mt-6"
+          items={[
+            { name: "Home", url: "https://www.starlighttubes.com/" },
+            {
+              name: "Materials",
+              url: "https://www.starlighttubes.com/materials",
+            },
+          ]}
         />
 
         <div>

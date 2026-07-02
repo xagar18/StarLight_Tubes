@@ -29,6 +29,241 @@
   status = 301
   force = true
 
+# Common misspellings & alternate URLs
+[[redirects]]
+  from = "/stainless-tubes"
+  to = "/stainless-steel-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/stainless-pipe"
+  to = "/stainless-steel-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/stainless-steel-pipes"
+  to = "/stainless-steel-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ss-304-pipe"
+  to = "/stainless-steel-304-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ss-316-pipe"
+  to = "/stainless-steel-316l-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ss-316l-pipe"
+  to = "/stainless-steel-316l-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/inconel-tubes"
+  to = "/inconel-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/inconel-625-pipes"
+  to = "/inconel-625-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/inconel-600-pipes"
+  to = "/inconel-600-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/carbon-tubes"
+  to = "/carbon-steel-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/carbon-pipe"
+  to = "/carbon-steel-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/carbon-steel-tubes"
+  to = "/carbon-steel-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/copper-tubes"
+  to = "/copper-tube"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/copper-pipes"
+  to = "/copper-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aluminium-pipes"
+  to = "/aluminium-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aluminum-pipe"
+  to = "/aluminium-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aluminum-sheet"
+  to = "/aluminium-sheet"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aluminum-bar"
+  to = "/aluminium-bar"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aluminum-coil"
+  to = "/aluminium-coil"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aluminum-tube"
+  to = "/aluminium-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pipe-fitting"
+  to = "/pipe-fittings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/elbow-fitting"
+  to = "/elbow-fittings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tee-fitting"
+  to = "/tee-fittings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/flange"
+  to = "/flanges"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/reducer-fitting"
+  to = "/reducer-fittings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coupling-fitting"
+  to = "/coupling-fittings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/union-fitting"
+  to = "/union-fittings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cap-fitting"
+  to = "/cap-fittings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nickel-pipes"
+  to = "/nickel-pipe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cupro-nickel"
+  to = "/cupro-nickel-90-10"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cupronickel-90-10"
+  to = "/cupro-nickel-90-10"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cupronickel-70-30"
+  to = "/cupro-nickel-70-30"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/products"
+  to = "/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aboutus"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about-us"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contactus"
+  to = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact-us"
+  to = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/technicalinfo"
+  to = "/technical-info"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/technical-information"
+  to = "/technical-info"
+  status = 301
+  force = true
+
 # SPA fallback - MUST be last redirect rule
 [[redirects]]
   from = "/*"

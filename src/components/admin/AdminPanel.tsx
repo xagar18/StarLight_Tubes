@@ -180,8 +180,9 @@ function UploadScreen({ session, onSignOut }: { session: Session; onSignOut: () 
             <p className="text-xs text-slate-500 uppercase tracking-widest">Starlight Tubes</p>
             <h1 className="text-base font-semibold mt-0.5">Invoice Admin</h1>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-7">
             <span className="text-xs text-slate-500 hidden sm:block">{session.user.email}</span>
+            <a href="/" className="text-xs text-slate-500 hover:text-slate-300 transition-colors"> Back to Home </a>
             <button
               onClick={handleSignOut}
               className="text-xs text-slate-500 hover:text-slate-300 transition-colors"

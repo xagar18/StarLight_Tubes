@@ -45,9 +45,7 @@ export default function VerifyInvoice() {
         const { data: signedUrlData, error: signedUrlError } =
           await supabase.storage
             .from("invoices")
-            .createSignedUrl(filePath, 60 * 60, {
-              download: data.invoice_file_name,
-            });
+            .createSignedUrl(filePath, 60 * 60);
 
         if (cancelled) return;
 
@@ -153,7 +151,7 @@ export default function VerifyInvoice() {
         title={invoice?.invoice_file_name ?? "Invoice"}
         className="flex-1 w-full"
         style={{ minHeight: "calc(100vh - 65px)" }}
-        sandbox="allow-scripts allow-same-origin"
+        
       />
     </div>
   );

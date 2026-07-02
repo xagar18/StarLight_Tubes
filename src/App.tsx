@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { Route, Routes } from "react-router";
+import { Route, Routes, useLocation } from "react-router";
 import ScrollToTop from "./components/ScrollToTop";
 import QuickButtons from "./components/WhatsAppButton";
 
@@ -45,10 +45,13 @@ const BlogPost = lazy(() => import("./pages/BlogPost"));
 const DynamicSubPage = lazy(() => import("./pages/DynamicSubPage"));
 
 function App() {
+  const location = useLocation();
   return (
     <>
       <ScrollToTop />
-      <QuickButtons />
+      {!location.pathname.startsWith("/admin") && !location.pathname.startsWith("/verify") && (
+  <QuickButtons />
+)}
       <main>
         <Suspense fallback={<PageLoader />}>
           <Routes>
